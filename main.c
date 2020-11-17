@@ -64,8 +64,8 @@ const uint8 CYCODE MIDI_IDENTITY_REPLY[] = {
 };
 
 /* Need for Identity Reply message */
-extern volatile uint8 USB_MIDI1_InqFlags;
-extern volatile uint8 USB_MIDI2_InqFlags;
+volatile uint8 USB_MIDI1_InqFlags;
+volatile uint8 USB_MIDI2_InqFlags;
 
 volatile uint8 usbActivityCounter = 0u;
 
@@ -273,16 +273,6 @@ int main()
                     #endif /* End USB_MIDI_EXT_MODE >= USB_ONE_EXT_INTRF */                
                 #endif
     		}
-            
-            uint8 eventStatus1 = USB_MIDI1_GetEvent();
-            if (eventStatus1 >= 1u && eventStatus1 <= 4u) {
-                LED_InA_Write(1);
-            }
-            uint8 eventStatus2 = USB_MIDI2_GetEvent();
-            if (eventStatus2 >= 1 && eventStatus2 <= 4u) {
-                LED_InB_Write(1);
-            }
-        
             /* Check if host requested USB Suspend */
             if( usbActivityCounter >= USB_SUSPEND_TIMEOUT ) 
             {
@@ -363,7 +353,7 @@ void USB_callbackLocalMidiEvent(uint8 cable, uint8 *midiMsg) CYREENTRANT
             else if(midiMsg[USB_EVENT_BYTE1] == USB_MIDI_SYSEX_SYSTEM_OFF)
             {
                 MIDI_PWR_Write(1u); /* Power OFF */
-            }
+            } 
         }
     }
     inqFlagsOld = USB_MIDI1_InqFlags;
