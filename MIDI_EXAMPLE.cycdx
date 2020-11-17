@@ -1,68 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <blockRegMap version="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://cypress.com/xsd/cyblockregmap cyblockregmap.xsd" xmlns="http://cypress.com/xsd/cyblockregmap">
-  <block name="R_6" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="R_5" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="Q_2" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="GND_3" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="PWR_2" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="R_8" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="R_7" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="PWR_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="R_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="Q_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="LED2" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="R25_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="R25" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="SW_2" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="LED1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="LED3" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="GND_6" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="R_2" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="R_4" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="R_3" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="GND_2" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="R_11" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="GND_5" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="D_4" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="R_12" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="cy_boot" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="R_13" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="Q_5" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="D_3" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="D_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="Q_3" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="R_9" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="D_2" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="Q_4" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="R_10" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="GND_4" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="MIDI_OUT1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="LED_InA" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="LED_OutA" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="MIDI_IN1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="MIDI_IN2" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="MIDI_OUT2" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="MIDI1_UART" BASE="0x0" SIZE="0x0" desc="UART" visible="true" hidden="false">
-    <block name="RXInternalInterrupt" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-    <block name="VirtualMux_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-    <block name="TXInternalInterrupt" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-    <block name="BUART" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-    <register name="RX_MIDI1_UART_RX_ADDRESS1" address="0x40006427" bitWidth="8" desc="RX Address1 Register" hidden="false" />
-    <register name="RX_MIDI1_UART_RX_ADDRESS2" address="0x40006437" bitWidth="8" desc="RX Address2 Register" hidden="false" />
-    <register name="TX_MIDI1_UART_TX_DATA" address="0x40006445" bitWidth="8" desc="TX Data Register" hidden="false" />
-    <register name="RX_MIDI1_UART_RX_DATA" address="0x40006447" bitWidth="8" desc="RX Data Register" hidden="false" />
-    <register name="RX_MIDI1_UART_RX_STATUS" address="0x40006464" bitWidth="8" desc="RX status register" hidden="false">
-      <field name="MIDI1_UART_RX_STS_MRKSPC" from="0" to="0" access="R" resetVal="" desc="" />
-      <field name="MIDI1_UART_RX_STS_BREAK" from="1" to="1" access="R" resetVal="" desc="" />
-      <field name="MIDI1_UART_RX_STS_PAR_ERROR" from="2" to="2" access="R" resetVal="" desc="" />
-      <field name="MIDI1_UART_RX_STS_STOP_ERROR" from="3" to="3" access="R" resetVal="" desc="" />
-      <field name="MIDI1_UART_RX_STS_OVERRUN" from="4" to="4" access="R" resetVal="" desc="" />
-      <field name="MIDI1_UART_RX_STS_FIFO_NOTEMPTY" from="5" to="5" access="R" resetVal="" desc="" />
-      <field name="MIDI1_UART_RX_STS_ADDR_MATCH" from="6" to="6" access="R" resetVal="" desc="" />
-    </register>
-    <register name="TX_MIDI1_UART_TX_STATUS" address="0x40006465" bitWidth="8" desc="TX status register" hidden="false">
-      <field name="MIDI1_UART_TX_STS_COMPLETE" from="0" to="0" access="R" resetVal="" desc="" />
-      <field name="MIDI1_UART_TX_STS_FIFO_EMPTY" from="1" to="1" access="R" resetVal="" desc="" />
-      <field name="MIDI1_UART_TX_STS_FIFO_FULL" from="2" to="2" access="R" resetVal="" desc="" />
-      <field name="MIDI1_UART_TX_STS_FIFO_NOT_FULL" from="3" to="3" access="R" resetVal="" desc="" />
-    </register>
-  </block>
+  <block name="R25_3" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="R25_2" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="LED4" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="LED_OutB" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="LED_InB" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="SW1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="SW2" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="SleepTimer" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false">
     <block name="gsRef_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
     <register name="SleepTimer_CTW_INTERVAL_REG" address="0x40004381" bitWidth="8" desc="Timewheel Configuration Register 1" hidden="false">
@@ -95,19 +47,11 @@
       </field>
     </register>
   </block>
-  <block name="SW2" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="not_2" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="LED_OutB" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="MIDI_PWR" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="not_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="R25_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="LED2" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="R25" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="LED3" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="R25_3" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="LED4" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="R25_2" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="LED1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="LED_OutA" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="SW_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="GND_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="Sleep_isr" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="LED_InA" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="USB" BASE="0x0" SIZE="0x0" desc="USBFS" visible="true" hidden="false">
     <block name="ep_0" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
     <block name="ZeroTerminal_4" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
@@ -964,34 +908,4 @@
       <field name="RA9" from="0" to="0" access="RW" resetVal="" desc="Read Address for EP MSB." />
     </register>
   </block>
-  <block name="Clock_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="MIDI2_UART" BASE="0x0" SIZE="0x0" desc="UART" visible="true" hidden="false">
-    <block name="RXInternalInterrupt" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-    <block name="VirtualMux_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-    <block name="TXInternalInterrupt" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-    <block name="BUART" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-    <register name="RX_MIDI2_UART_RX_ADDRESS1" address="0x40006525" bitWidth="8" desc="RX Address1 Register" hidden="false" />
-    <register name="RX_MIDI2_UART_RX_ADDRESS2" address="0x40006535" bitWidth="8" desc="RX Address2 Register" hidden="false" />
-    <register name="RX_MIDI2_UART_RX_DATA" address="0x40006545" bitWidth="8" desc="RX Data Register" hidden="false" />
-    <register name="TX_MIDI2_UART_TX_DATA" address="0x40006547" bitWidth="8" desc="TX Data Register" hidden="false" />
-    <register name="RX_MIDI2_UART_RX_STATUS" address="0x40006566" bitWidth="8" desc="RX status register" hidden="false">
-      <field name="MIDI2_UART_RX_STS_MRKSPC" from="0" to="0" access="R" resetVal="" desc="" />
-      <field name="MIDI2_UART_RX_STS_BREAK" from="1" to="1" access="R" resetVal="" desc="" />
-      <field name="MIDI2_UART_RX_STS_PAR_ERROR" from="2" to="2" access="R" resetVal="" desc="" />
-      <field name="MIDI2_UART_RX_STS_STOP_ERROR" from="3" to="3" access="R" resetVal="" desc="" />
-      <field name="MIDI2_UART_RX_STS_OVERRUN" from="4" to="4" access="R" resetVal="" desc="" />
-      <field name="MIDI2_UART_RX_STS_FIFO_NOTEMPTY" from="5" to="5" access="R" resetVal="" desc="" />
-      <field name="MIDI2_UART_RX_STS_ADDR_MATCH" from="6" to="6" access="R" resetVal="" desc="" />
-    </register>
-    <register name="TX_MIDI2_UART_TX_STATUS" address="0x40006567" bitWidth="8" desc="TX status register" hidden="false">
-      <field name="MIDI2_UART_TX_STS_COMPLETE" from="0" to="0" access="R" resetVal="" desc="" />
-      <field name="MIDI2_UART_TX_STS_FIFO_EMPTY" from="1" to="1" access="R" resetVal="" desc="" />
-      <field name="MIDI2_UART_TX_STS_FIFO_FULL" from="2" to="2" access="R" resetVal="" desc="" />
-      <field name="MIDI2_UART_TX_STS_FIFO_NOT_FULL" from="3" to="3" access="R" resetVal="" desc="" />
-    </register>
-  </block>
-  <block name="Sleep_isr" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="SW_2" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="GND_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="SW_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
 </blockRegMap>
