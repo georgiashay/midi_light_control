@@ -104,7 +104,7 @@ int main()
 
     /* Start USBFS device 0 with VDDD operation */
     USB_Start(DEVICE, USB_DWR_VDDD_OPERATION); 
-
+   
     while(1u)
     {
         /* Host can send double SET_INTERFACE request */
@@ -216,20 +216,38 @@ int main()
 void USB_callbackLocalMidiEvent(uint8 cable, uint8 *midiMsg) CYREENTRANT
 {
     
-    if (midiMsg[MIDI_MSG_TYPE] == USB_MIDI_NOTE_ON) {
-        if (midiMsg[MIDI_NOTE_NUMBER] % 2u == 0) {
-            LED_InA_Write(1u);
-        } else {
-            LED_InB_Write(1u);
-        }
+    uint8 pitchNumber = (midiMsg[MIDI_NOTE_NUMBER] + 7) % 12;
+    uint8 keyNumber;
+    short isValidKey;
+    if (pitchNumber < 7) {
+        isValidKey = pitchNumber % 2 == 0;
+        keyNumber = pitchNumber / 2;
+    } else {
+        isValidKey = pitchNumber % 2 == 1;
+        keyNumber = (pitchNumber + 1)/2;
     }
-    if (midiMsg[MIDI_MSG_TYPE] == USB_MIDI_NOTE_OFF || (midiMsg[MIDI_MSG_TYPE] == USB_MIDI_NOTE_ON && midiMsg[MIDI_NOTE_VELOCITY] == 0u)) {
-        if (midiMsg[MIDI_NOTE_NUMBER] % 2u == 0) {
-            LED_InA_Write(0u);
-        } else {
-            LED_InB_Write(0u);
-        }
-    }
+    
+    MSG_TYPE_REG_Write(midiMsg[MIDI_MSG_TYPE]);
+    NOTE_PITCH_REG_Write(keyNumber);
+    NOTE_VEL_REG_Write(midiMsg[MIDI_NOTE_VELOCITY]);
+    MSG_VALID_Write(1u);
+    
+//    if (midiMsg[MIDI_MSG_TYPE] == USB_MIDI_NOTE_ON) {
+//        NOTE_NUM_REG_Write(keyNumber);
+//        if (midiMsg[MIDI_NOTE_NUMBER] % 2u == 0) {
+//            //LED_InA_Write(1u);
+//        } else {
+//            //LED_InB_Write(1u);
+//        }
+//    }
+//    if (midiMsg[MIDI_MSG_TYPE] == USB_MIDI_NOTE_OFF || (midiMsg[MIDI_MSG_TYPE] == USB_MIDI_NOTE_ON && midiMsg[MIDI_NOTE_VELOCITY] == 0u)) {
+//        NOTE_NUM_REG_Write(0u);
+//        if (midiMsg[MIDI_NOTE_NUMBER] % 2u == 0) {
+//            //LED_InA_Write(0u);
+//        } else {
+//            //LED_InB_Write(0u);
+//        }
+//    }
     
     inqFlagsOld = USB_MIDI1_InqFlags;
     cable = cable;

@@ -1,10 +1,10 @@
-Loading plugins phase: Elapsed time ==> 0s.218ms
+Loading plugins phase: Elapsed time ==> 0s.203ms
 Initializing data phase: Elapsed time ==> 0s.000ms
 <CYPRESSTAG name="CyDsfit arguments...">
 cydsfit arguments: -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -p \\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\MIDI_EXAMPLE.cyprj -d CY8C5888LTI-LP097 -s \\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\Generated_Source\PSoC5 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE</CYPRESSTAG>
 <CYPRESSTAG name="Design elaboration results...">
 </CYPRESSTAG>
-Elaboration phase: Elapsed time ==> 1s.436ms
+Elaboration phase: Elapsed time ==> 1s.531ms
 <CYPRESSTAG name="HDL generation results...">
 </CYPRESSTAG>
 HDL generation phase: Elapsed time ==> 0s.031ms
@@ -41,7 +41,7 @@ Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=\\Mac\Home\Doc
 ======================================================================
 
 vlogfe V6.3 IR 41:  Verilog parser
-Tue Nov 17 00:20:08 2020
+Tue Nov 17 20:25:51 2020
 
 
 ======================================================================
@@ -51,10 +51,19 @@ Options  :    -yv2 -q10 MIDI_EXAMPLE.v
 ======================================================================
 
 vpp V6.3 IR 41:  Verilog Pre-Processor
-Tue Nov 17 00:20:08 2020
+Tue Nov 17 20:25:51 2020
 
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\ZeroTerminal\ZeroTerminal.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\nor_v1_0\nor_v1_0.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_80\CyControlReg_v1_80.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cypress.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cy_psoc3_inc.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\and_v1_0\and_v1_0.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\demux_v1_10\demux_v1_10.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\DigitalComp_v1_0\DigitalComp_v1_0.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\or_v1_0\or_v1_0.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_constant_v1_0\cy_constant_v1_0.v'
 
 vpp:  No errors.
 
@@ -71,6 +80,9 @@ Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\c
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
 Using control file 'MIDI_EXAMPLE.ctl'.
+MIDI_EXAMPLE.v (line 1569, col 55):  Note: Substituting module 'cmp_vv_vv' for '='.
+MIDI_EXAMPLE.v (line 1692, col 55):  Note: Substituting module 'cmp_vv_vv' for '='.
+MIDI_EXAMPLE.v (line 1696, col 55):  Note: Substituting module 'cmp_vv_vv' for '='.
 
 vlogfe:  No errors.
 
@@ -82,7 +94,7 @@ Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=\\Mac\Home\Doc
 ======================================================================
 
 tovif V6.3 IR 41:  High-level synthesis
-Tue Nov 17 00:20:08 2020
+Tue Nov 17 20:25:51 2020
 
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\std.vhd'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cypress.vhd'.
@@ -97,6 +109,16 @@ Linking '\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\codege
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
 Linking '\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\codegentemp\MIDI_EXAMPLE.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\ZeroTerminal\ZeroTerminal.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\nor_v1_0\nor_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_80\CyControlReg_v1_80.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cypress.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cy_psoc3_inc.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\and_v1_0\and_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\demux_v1_10\demux_v1_10.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\DigitalComp_v1_0\DigitalComp_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\or_v1_0\or_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_constant_v1_0\cy_constant_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\stdlogic\mcompare.vif'.
 
 tovif:  No errors.
 
@@ -108,7 +130,7 @@ Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=\\Mac\Home\Doc
 ======================================================================
 
 topld V6.3 IR 41:  Synthesis and optimization
-Tue Nov 17 00:20:08 2020
+Tue Nov 17 20:25:51 2020
 
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\std.vhd'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cypress.vhd'.
@@ -123,6 +145,16 @@ Linking '\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\codege
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
 Linking '\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\codegentemp\MIDI_EXAMPLE.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\ZeroTerminal\ZeroTerminal.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\nor_v1_0\nor_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_80\CyControlReg_v1_80.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cypress.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cy_psoc3_inc.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\and_v1_0\and_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\demux_v1_10\demux_v1_10.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\DigitalComp_v1_0\DigitalComp_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\or_v1_0\or_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_constant_v1_0\cy_constant_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\stdlogic\mcompare.vif'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\lcpsoc3\stdlogic\cpsoc3.vif'.
 
 ----------------------------------------------------------
@@ -145,38 +177,742 @@ Detecting unused logic.
 	\USB:Net_1916\
 	\USB:dma_complete_7\
 	\USB:Net_1915\
+	Net_1322_7
+	Net_1299_7
+	Net_1351_7
+	Net_1322_6
+	Net_1299_6
+	Net_1351_6
+	Net_1322_5
+	Net_1299_5
+	Net_1351_5
+	Net_1322_4
+	Net_1299_4
+	Net_1351_4
+	Net_1322_3
+	Net_1299_3
+	Net_1351_3
+	Net_1322_2
+	Net_1299_2
+	Net_1351_2
+	Net_1322_1
+	Net_1299_1
+	Net_1351_1
+	Net_1322_0
+	Net_1299_0
+	Net_1351_0
+	Net_929
+	Net_930
+	Net_931
+	Net_933
+	Net_934
+	Net_935
+	Net_936
+	Net_1304
+	Net_1302
+	\demux_2:tmp__demux_2_0_reg\
+	\demux_2:tmp__demux_2_1_reg\
+	\demux_2:tmp__demux_2_2_reg\
+	\demux_2:tmp__demux_2_3_reg\
+	\demux_2:tmp__demux_2_4_reg\
+	\demux_2:tmp__demux_2_5_reg\
+	\demux_2:tmp__demux_2_6_reg\
+	\demux_2:tmp__demux_2_7_reg\
+	\NOTE_PITCH_REG:control_bus_7\
+	\NOTE_PITCH_REG:control_bus_6\
+	\NOTE_PITCH_REG:control_bus_5\
+	\NOTE_PITCH_REG:control_bus_4\
+	\NOTE_PITCH_REG:control_bus_3\
+	Net_1088
+	Net_1089
+	Net_1160
+	\MODULE_1:g1:a0:gx:u0:xnor_array_6\
+	\MODULE_1:g1:a0:gx:u0:xnor_array_3\
+	\MODULE_1:g1:a0:gx:u0:xnor_array_0\
+	\MODULE_1:g1:a0:gx:u0:aeqb_0\
+	\MODULE_1:g1:a0:gx:u0:eq_0\
+	\MODULE_1:g1:a0:gx:u0:eq_1\
+	\MODULE_1:g1:a0:gx:u0:eq_2\
+	\MODULE_1:g1:a0:gx:u0:eq_3\
+	\MODULE_1:g1:a0:gx:u0:eq_4\
+	\MODULE_1:g1:a0:gx:u0:eq_5\
+	\MODULE_1:g1:a0:gx:u0:eq_6\
+	\MODULE_1:g1:a0:gx:u0:eq_7\
+	\MODULE_1:g1:a0:gx:u0:eqi_0\
+	\MODULE_1:g1:a0:gx:u0:aeqb_1\
+	\MODULE_1:g1:a0:gx:u0:albi_3\
+	\MODULE_1:g1:a0:gx:u0:agbi_3\
+	\MODULE_1:g1:a0:gx:u0:albi_2\
+	\MODULE_1:g1:a0:gx:u0:agbi_2\
+	\MODULE_1:g1:a0:gx:u0:albi_1\
+	\MODULE_1:g1:a0:gx:u0:agbi_1\
+	\MODULE_1:g1:a0:gx:u0:albi_0\
+	\MODULE_1:g1:a0:gx:u0:agbi_0\
+	\MODULE_1:g1:a0:xeq\
+	\MODULE_1:g1:a0:xneq\
+	\MODULE_1:g1:a0:xlt\
+	\MODULE_1:g1:a0:xlte\
+	\MODULE_1:g1:a0:xgt\
+	\MODULE_1:g1:a0:xgte\
+	\MODULE_1:lt\
+	\MODULE_1:gt\
+	\MODULE_1:gte\
+	\MODULE_1:lte\
+	\MODULE_1:neq\
+	\MODULE_2:g1:a0:gx:u0:albi_3\
+	\MODULE_2:g1:a0:gx:u0:agbi_3\
+	\MODULE_2:g1:a0:gx:u0:albi_2\
+	\MODULE_2:g1:a0:gx:u0:agbi_2\
+	\MODULE_2:g1:a0:gx:u0:albi_1\
+	\MODULE_2:g1:a0:gx:u0:agbi_1\
+	\MODULE_2:g1:a0:gx:u0:albi_0\
+	\MODULE_2:g1:a0:gx:u0:agbi_0\
+	\MODULE_2:g1:a0:xneq\
+	\MODULE_2:g1:a0:xlt\
+	\MODULE_2:g1:a0:xlte\
+	\MODULE_2:g1:a0:xgt\
+	\MODULE_2:g1:a0:xgte\
+	\MODULE_2:lt\
+	\MODULE_2:gt\
+	\MODULE_2:gte\
+	\MODULE_2:lte\
+	\MODULE_2:neq\
+	\MODULE_3:g1:a0:gx:u0:xnor_array_6\
+	\MODULE_3:g1:a0:gx:u0:xnor_array_3\
+	\MODULE_3:g1:a0:gx:u0:xnor_array_0\
+	\MODULE_3:g1:a0:gx:u0:aeqb_0\
+	\MODULE_3:g1:a0:gx:u0:eq_0\
+	\MODULE_3:g1:a0:gx:u0:eq_1\
+	\MODULE_3:g1:a0:gx:u0:eq_2\
+	\MODULE_3:g1:a0:gx:u0:eq_3\
+	\MODULE_3:g1:a0:gx:u0:eq_4\
+	\MODULE_3:g1:a0:gx:u0:eq_5\
+	\MODULE_3:g1:a0:gx:u0:eq_6\
+	\MODULE_3:g1:a0:gx:u0:eq_7\
+	\MODULE_3:g1:a0:gx:u0:eqi_0\
+	\MODULE_3:g1:a0:gx:u0:aeqb_1\
+	\MODULE_3:g1:a0:gx:u0:albi_3\
+	\MODULE_3:g1:a0:gx:u0:agbi_3\
+	\MODULE_3:g1:a0:gx:u0:albi_2\
+	\MODULE_3:g1:a0:gx:u0:agbi_2\
+	\MODULE_3:g1:a0:gx:u0:albi_1\
+	\MODULE_3:g1:a0:gx:u0:agbi_1\
+	\MODULE_3:g1:a0:gx:u0:albi_0\
+	\MODULE_3:g1:a0:gx:u0:agbi_0\
+	\MODULE_3:g1:a0:xeq\
+	\MODULE_3:g1:a0:xneq\
+	\MODULE_3:g1:a0:xlt\
+	\MODULE_3:g1:a0:xlte\
+	\MODULE_3:g1:a0:xgt\
+	\MODULE_3:g1:a0:xgte\
+	\MODULE_3:lt\
+	\MODULE_3:gt\
+	\MODULE_3:gte\
+	\MODULE_3:lte\
+	\MODULE_3:neq\
 
+    Synthesized names
+	cmp_vv_vv_MODGEN_1
+	cmp_vv_vv_MODGEN_3
 
-Deleted 16 User equations/components.
-Deleted 0 Synthesized equations/components.
+Deleted 149 User equations/components.
+Deleted 2 Synthesized equations/components.
 
 ------------------------------------------------------
 Alias Detection
 ------------------------------------------------------
 Aliasing one to tmpOE__SW2_net_0
 Aliasing tmpOE__SW1_net_0 to tmpOE__SW2_net_0
-Aliasing tmpOE__LED_OutB_net_0 to tmpOE__SW2_net_0
-Aliasing tmpOE__LED_InB_net_0 to tmpOE__SW2_net_0
-Aliasing tmpOE__LED_OutA_net_0 to tmpOE__SW2_net_0
-Aliasing tmpOE__LED_InA_net_0 to tmpOE__SW2_net_0
+Aliasing tmpOE__LED_6_net_0 to tmpOE__SW2_net_0
+Aliasing tmpOE__LED_4_net_0 to tmpOE__SW2_net_0
+Aliasing tmpOE__LED_3_net_0 to tmpOE__SW2_net_0
 Aliasing \USB:tmpOE__Dm_net_0\ to tmpOE__SW2_net_0
 Aliasing \USB:tmpOE__Dp_net_0\ to tmpOE__SW2_net_0
+Aliasing tmpOE__LED_2_net_0 to tmpOE__SW2_net_0
+Aliasing \MSG_VALID:clk\ to zero
+Aliasing \MSG_VALID:rst\ to zero
+Aliasing tmpOE__LED_5_net_0 to tmpOE__SW2_net_0
+Aliasing \MSG_TYPE_REG:clk\ to zero
+Aliasing \MSG_TYPE_REG:rst\ to zero
+Aliasing tmpOE__LED_7_net_0 to tmpOE__SW2_net_0
+Aliasing \NOTE_VEL_REG:clk\ to zero
+Aliasing \NOTE_VEL_REG:rst\ to zero
+Aliasing tmpOE__LED_8_net_0 to tmpOE__SW2_net_0
+Aliasing \NOTE_PITCH_REG:clk\ to zero
+Aliasing \NOTE_PITCH_REG:rst\ to zero
+Aliasing Net_1163_7 to zero
+Aliasing Net_1163_6 to zero
+Aliasing Net_1163_5 to zero
+Aliasing Net_1163_4 to zero
+Aliasing Net_1163_3 to zero
+Aliasing Net_1163_2 to zero
+Aliasing Net_1163_1 to zero
+Aliasing Net_1163_0 to zero
+Aliasing Net_1159_7 to tmpOE__SW2_net_0
+Aliasing Net_1159_6 to zero
+Aliasing Net_1159_5 to zero
+Aliasing Net_1159_4 to tmpOE__SW2_net_0
+Aliasing Net_1159_3 to zero
+Aliasing Net_1159_2 to zero
+Aliasing Net_1159_1 to zero
+Aliasing Net_1159_0 to zero
+Aliasing Net_1110_7 to tmpOE__SW2_net_0
+Aliasing Net_1110_6 to zero
+Aliasing Net_1110_5 to zero
+Aliasing Net_1110_4 to zero
+Aliasing Net_1110_3 to zero
+Aliasing Net_1110_2 to zero
+Aliasing Net_1110_1 to zero
+Aliasing Net_1110_0 to zero
+Aliasing tmpOE__LED_1_net_0 to tmpOE__SW2_net_0
+Aliasing MODIN3_7 to MODIN1_7
+Aliasing MODIN3_6 to MODIN1_6
+Aliasing MODIN3_5 to MODIN1_5
+Aliasing MODIN3_4 to MODIN1_4
+Aliasing MODIN3_3 to MODIN1_3
+Aliasing MODIN3_2 to MODIN1_2
+Aliasing MODIN3_1 to MODIN1_1
+Aliasing MODIN3_0 to MODIN1_0
+Aliasing \MODULE_2:g1:a0:gx:u0:aeqb_0\ to tmpOE__SW2_net_0
 Removing Lhs of wire one[7] = tmpOE__SW2_net_0[1]
 Removing Lhs of wire tmpOE__SW1_net_0[12] = tmpOE__SW2_net_0[1]
-Removing Lhs of wire tmpOE__LED_OutB_net_0[19] = tmpOE__SW2_net_0[1]
-Removing Lhs of wire tmpOE__LED_InB_net_0[26] = tmpOE__SW2_net_0[1]
-Removing Lhs of wire tmpOE__LED_OutA_net_0[33] = tmpOE__SW2_net_0[1]
-Removing Lhs of wire tmpOE__LED_InA_net_0[40] = tmpOE__SW2_net_0[1]
-Removing Lhs of wire \USB:tmpOE__Dm_net_0\[49] = tmpOE__SW2_net_0[1]
-Removing Lhs of wire \USB:tmpOE__Dp_net_0\[56] = tmpOE__SW2_net_0[1]
+Removing Lhs of wire tmpOE__LED_6_net_0[19] = tmpOE__SW2_net_0[1]
+Removing Rhs of wire Net_1297_2[20] = \demux_1:tmp__demux_1_2_reg\[281]
+Removing Lhs of wire tmpOE__LED_4_net_0[26] = tmpOE__SW2_net_0[1]
+Removing Rhs of wire Net_1297_4[27] = \demux_1:tmp__demux_1_4_reg\[283]
+Removing Lhs of wire tmpOE__LED_3_net_0[33] = tmpOE__SW2_net_0[1]
+Removing Rhs of wire Net_1297_5[34] = \demux_1:tmp__demux_1_5_reg\[284]
+Removing Lhs of wire \USB:tmpOE__Dm_net_0\[42] = tmpOE__SW2_net_0[1]
+Removing Lhs of wire \USB:tmpOE__Dp_net_0\[49] = tmpOE__SW2_net_0[1]
+Removing Rhs of wire Net_1297_7[128] = \demux_1:tmp__demux_1_7_reg\[286]
+Removing Rhs of wire Net_1297_6[129] = \demux_1:tmp__demux_1_6_reg\[285]
+Removing Rhs of wire Net_1297_3[130] = \demux_1:tmp__demux_1_3_reg\[282]
+Removing Rhs of wire Net_1297_1[131] = \demux_1:tmp__demux_1_1_reg\[280]
+Removing Rhs of wire Net_1297_0[132] = \demux_1:tmp__demux_1_0_reg\[279]
+Removing Lhs of wire tmpOE__LED_2_net_0[134] = tmpOE__SW2_net_0[1]
+Removing Lhs of wire \MSG_VALID:clk\[139] = zero[2]
+Removing Lhs of wire \MSG_VALID:rst\[140] = zero[2]
+Removing Rhs of wire Net_1283[141] = \MSG_VALID:control_out_0\[142]
+Removing Rhs of wire Net_1283[141] = \MSG_VALID:control_0\[165]
+Removing Lhs of wire tmpOE__LED_5_net_0[167] = tmpOE__SW2_net_0[1]
+Removing Lhs of wire \MSG_TYPE_REG:clk\[172] = zero[2]
+Removing Lhs of wire \MSG_TYPE_REG:rst\[173] = zero[2]
+Removing Rhs of wire Net_1108_7[174] = \MSG_TYPE_REG:control_out_7\[175]
+Removing Rhs of wire Net_1108_7[174] = \MSG_TYPE_REG:control_7\[191]
+Removing Rhs of wire Net_1108_6[176] = \MSG_TYPE_REG:control_out_6\[177]
+Removing Rhs of wire Net_1108_6[176] = \MSG_TYPE_REG:control_6\[192]
+Removing Rhs of wire Net_1108_5[178] = \MSG_TYPE_REG:control_out_5\[179]
+Removing Rhs of wire Net_1108_5[178] = \MSG_TYPE_REG:control_5\[193]
+Removing Rhs of wire Net_1108_4[180] = \MSG_TYPE_REG:control_out_4\[181]
+Removing Rhs of wire Net_1108_4[180] = \MSG_TYPE_REG:control_4\[194]
+Removing Rhs of wire Net_1108_3[182] = \MSG_TYPE_REG:control_out_3\[183]
+Removing Rhs of wire Net_1108_3[182] = \MSG_TYPE_REG:control_3\[195]
+Removing Rhs of wire Net_1108_2[184] = \MSG_TYPE_REG:control_out_2\[185]
+Removing Rhs of wire Net_1108_2[184] = \MSG_TYPE_REG:control_2\[196]
+Removing Rhs of wire Net_1108_1[186] = \MSG_TYPE_REG:control_out_1\[187]
+Removing Rhs of wire Net_1108_1[186] = \MSG_TYPE_REG:control_1\[197]
+Removing Rhs of wire Net_1108_0[188] = \MSG_TYPE_REG:control_out_0\[189]
+Removing Rhs of wire Net_1108_0[188] = \MSG_TYPE_REG:control_0\[198]
+Removing Lhs of wire tmpOE__LED_7_net_0[200] = tmpOE__SW2_net_0[1]
+Removing Lhs of wire \NOTE_VEL_REG:clk\[205] = zero[2]
+Removing Lhs of wire \NOTE_VEL_REG:rst\[206] = zero[2]
+Removing Rhs of wire Net_1161_7[207] = \NOTE_VEL_REG:control_out_7\[208]
+Removing Rhs of wire Net_1161_7[207] = \NOTE_VEL_REG:control_7\[224]
+Removing Rhs of wire Net_1161_6[209] = \NOTE_VEL_REG:control_out_6\[210]
+Removing Rhs of wire Net_1161_6[209] = \NOTE_VEL_REG:control_6\[225]
+Removing Rhs of wire Net_1161_5[211] = \NOTE_VEL_REG:control_out_5\[212]
+Removing Rhs of wire Net_1161_5[211] = \NOTE_VEL_REG:control_5\[226]
+Removing Rhs of wire Net_1161_4[213] = \NOTE_VEL_REG:control_out_4\[214]
+Removing Rhs of wire Net_1161_4[213] = \NOTE_VEL_REG:control_4\[227]
+Removing Rhs of wire Net_1161_3[215] = \NOTE_VEL_REG:control_out_3\[216]
+Removing Rhs of wire Net_1161_3[215] = \NOTE_VEL_REG:control_3\[228]
+Removing Rhs of wire Net_1161_2[217] = \NOTE_VEL_REG:control_out_2\[218]
+Removing Rhs of wire Net_1161_2[217] = \NOTE_VEL_REG:control_2\[229]
+Removing Rhs of wire Net_1161_1[219] = \NOTE_VEL_REG:control_out_1\[220]
+Removing Rhs of wire Net_1161_1[219] = \NOTE_VEL_REG:control_1\[230]
+Removing Rhs of wire Net_1161_0[221] = \NOTE_VEL_REG:control_out_0\[222]
+Removing Rhs of wire Net_1161_0[221] = \NOTE_VEL_REG:control_0\[231]
+Removing Lhs of wire tmpOE__LED_8_net_0[233] = tmpOE__SW2_net_0[1]
+Removing Rhs of wire Net_1347_2[241] = \NOTE_PITCH_REG:control_out_2\[265]
+Removing Rhs of wire Net_1347_2[241] = \NOTE_PITCH_REG:control_2\[274]
+Removing Rhs of wire Net_1347_1[242] = \NOTE_PITCH_REG:control_out_1\[266]
+Removing Rhs of wire Net_1347_1[242] = \NOTE_PITCH_REG:control_1\[275]
+Removing Rhs of wire Net_1347_0[243] = \NOTE_PITCH_REG:control_out_0\[267]
+Removing Rhs of wire Net_1347_0[243] = \NOTE_PITCH_REG:control_0\[276]
+Removing Rhs of wire Net_1085[252] = cmp_vv_vv_MODGEN_2[289]
+Removing Rhs of wire Net_1085[252] = \MODULE_2:g1:a0:xeq\[570]
+Removing Rhs of wire Net_1085[252] = \MODULE_2:g1:a0:gx:u0:aeqb_1\[533]
+Removing Lhs of wire \NOTE_PITCH_REG:clk\[253] = zero[2]
+Removing Lhs of wire \NOTE_PITCH_REG:rst\[254] = zero[2]
+Removing Lhs of wire Net_1163_7[290] = zero[2]
+Removing Lhs of wire Net_1163_6[291] = zero[2]
+Removing Lhs of wire Net_1163_5[292] = zero[2]
+Removing Lhs of wire Net_1163_4[293] = zero[2]
+Removing Lhs of wire Net_1163_3[294] = zero[2]
+Removing Lhs of wire Net_1163_2[295] = zero[2]
+Removing Lhs of wire Net_1163_1[296] = zero[2]
+Removing Lhs of wire Net_1163_0[297] = zero[2]
+Removing Lhs of wire Net_1159_7[299] = tmpOE__SW2_net_0[1]
+Removing Lhs of wire Net_1159_6[300] = zero[2]
+Removing Lhs of wire Net_1159_5[301] = zero[2]
+Removing Lhs of wire Net_1159_4[302] = tmpOE__SW2_net_0[1]
+Removing Lhs of wire Net_1159_3[303] = zero[2]
+Removing Lhs of wire Net_1159_2[304] = zero[2]
+Removing Lhs of wire Net_1159_1[305] = zero[2]
+Removing Lhs of wire Net_1159_0[306] = zero[2]
+Removing Lhs of wire Net_1110_7[307] = tmpOE__SW2_net_0[1]
+Removing Lhs of wire Net_1110_6[308] = zero[2]
+Removing Lhs of wire Net_1110_5[309] = zero[2]
+Removing Lhs of wire Net_1110_4[310] = zero[2]
+Removing Lhs of wire Net_1110_3[311] = zero[2]
+Removing Lhs of wire Net_1110_2[312] = zero[2]
+Removing Lhs of wire Net_1110_1[313] = zero[2]
+Removing Lhs of wire Net_1110_0[314] = zero[2]
+Removing Lhs of wire tmpOE__LED_1_net_0[316] = tmpOE__SW2_net_0[1]
+Removing Lhs of wire \MODULE_1:g1:a0:newa_7\[321] = MODIN1_7[322]
+Removing Lhs of wire MODIN1_7[322] = Net_1108_7[174]
+Removing Lhs of wire \MODULE_1:g1:a0:newa_6\[323] = MODIN1_6[324]
+Removing Lhs of wire MODIN1_6[324] = Net_1108_6[176]
+Removing Lhs of wire \MODULE_1:g1:a0:newa_5\[325] = MODIN1_5[326]
+Removing Lhs of wire MODIN1_5[326] = Net_1108_5[178]
+Removing Lhs of wire \MODULE_1:g1:a0:newa_4\[327] = MODIN1_4[328]
+Removing Lhs of wire MODIN1_4[328] = Net_1108_4[180]
+Removing Lhs of wire \MODULE_1:g1:a0:newa_3\[329] = MODIN1_3[330]
+Removing Lhs of wire MODIN1_3[330] = Net_1108_3[182]
+Removing Lhs of wire \MODULE_1:g1:a0:newa_2\[331] = MODIN1_2[332]
+Removing Lhs of wire MODIN1_2[332] = Net_1108_2[184]
+Removing Lhs of wire \MODULE_1:g1:a0:newa_1\[333] = MODIN1_1[334]
+Removing Lhs of wire MODIN1_1[334] = Net_1108_1[186]
+Removing Lhs of wire \MODULE_1:g1:a0:newa_0\[335] = MODIN1_0[336]
+Removing Lhs of wire MODIN1_0[336] = Net_1108_0[188]
+Removing Lhs of wire \MODULE_1:g1:a0:newb_7\[337] = MODIN2_7[338]
+Removing Lhs of wire MODIN2_7[338] = tmpOE__SW2_net_0[1]
+Removing Lhs of wire \MODULE_1:g1:a0:newb_6\[339] = MODIN2_6[340]
+Removing Lhs of wire MODIN2_6[340] = zero[2]
+Removing Lhs of wire \MODULE_1:g1:a0:newb_5\[341] = MODIN2_5[342]
+Removing Lhs of wire MODIN2_5[342] = zero[2]
+Removing Lhs of wire \MODULE_1:g1:a0:newb_4\[343] = MODIN2_4[344]
+Removing Lhs of wire MODIN2_4[344] = zero[2]
+Removing Lhs of wire \MODULE_1:g1:a0:newb_3\[345] = MODIN2_3[346]
+Removing Lhs of wire MODIN2_3[346] = zero[2]
+Removing Lhs of wire \MODULE_1:g1:a0:newb_2\[347] = MODIN2_2[348]
+Removing Lhs of wire MODIN2_2[348] = zero[2]
+Removing Lhs of wire \MODULE_1:g1:a0:newb_1\[349] = MODIN2_1[350]
+Removing Lhs of wire MODIN2_1[350] = zero[2]
+Removing Lhs of wire \MODULE_1:g1:a0:newb_0\[351] = MODIN2_0[352]
+Removing Lhs of wire MODIN2_0[352] = zero[2]
+Removing Lhs of wire \MODULE_1:g1:a0:dataa_7\[353] = Net_1108_7[174]
+Removing Lhs of wire \MODULE_1:g1:a0:dataa_6\[354] = Net_1108_6[176]
+Removing Lhs of wire \MODULE_1:g1:a0:dataa_5\[355] = Net_1108_5[178]
+Removing Lhs of wire \MODULE_1:g1:a0:dataa_4\[356] = Net_1108_4[180]
+Removing Lhs of wire \MODULE_1:g1:a0:dataa_3\[357] = Net_1108_3[182]
+Removing Lhs of wire \MODULE_1:g1:a0:dataa_2\[358] = Net_1108_2[184]
+Removing Lhs of wire \MODULE_1:g1:a0:dataa_1\[359] = Net_1108_1[186]
+Removing Lhs of wire \MODULE_1:g1:a0:dataa_0\[360] = Net_1108_0[188]
+Removing Lhs of wire \MODULE_1:g1:a0:datab_7\[361] = tmpOE__SW2_net_0[1]
+Removing Lhs of wire \MODULE_1:g1:a0:datab_6\[362] = zero[2]
+Removing Lhs of wire \MODULE_1:g1:a0:datab_5\[363] = zero[2]
+Removing Lhs of wire \MODULE_1:g1:a0:datab_4\[364] = zero[2]
+Removing Lhs of wire \MODULE_1:g1:a0:datab_3\[365] = zero[2]
+Removing Lhs of wire \MODULE_1:g1:a0:datab_2\[366] = zero[2]
+Removing Lhs of wire \MODULE_1:g1:a0:datab_1\[367] = zero[2]
+Removing Lhs of wire \MODULE_1:g1:a0:datab_0\[368] = zero[2]
+Removing Lhs of wire \MODULE_1:g1:a0:gx:u0:a_7\[369] = Net_1108_7[174]
+Removing Lhs of wire \MODULE_1:g1:a0:gx:u0:a_6\[370] = Net_1108_6[176]
+Removing Lhs of wire \MODULE_1:g1:a0:gx:u0:a_5\[371] = Net_1108_5[178]
+Removing Lhs of wire \MODULE_1:g1:a0:gx:u0:a_4\[372] = Net_1108_4[180]
+Removing Lhs of wire \MODULE_1:g1:a0:gx:u0:a_3\[373] = Net_1108_3[182]
+Removing Lhs of wire \MODULE_1:g1:a0:gx:u0:a_2\[374] = Net_1108_2[184]
+Removing Lhs of wire \MODULE_1:g1:a0:gx:u0:a_1\[375] = Net_1108_1[186]
+Removing Lhs of wire \MODULE_1:g1:a0:gx:u0:a_0\[376] = Net_1108_0[188]
+Removing Lhs of wire \MODULE_1:g1:a0:gx:u0:b_7\[377] = tmpOE__SW2_net_0[1]
+Removing Lhs of wire \MODULE_1:g1:a0:gx:u0:b_6\[378] = zero[2]
+Removing Lhs of wire \MODULE_1:g1:a0:gx:u0:b_5\[379] = zero[2]
+Removing Lhs of wire \MODULE_1:g1:a0:gx:u0:b_4\[380] = zero[2]
+Removing Lhs of wire \MODULE_1:g1:a0:gx:u0:b_3\[381] = zero[2]
+Removing Lhs of wire \MODULE_1:g1:a0:gx:u0:b_2\[382] = zero[2]
+Removing Lhs of wire \MODULE_1:g1:a0:gx:u0:b_1\[383] = zero[2]
+Removing Lhs of wire \MODULE_1:g1:a0:gx:u0:b_0\[384] = zero[2]
+Removing Lhs of wire \MODULE_2:g1:a0:newa_7\[451] = Net_1108_7[174]
+Removing Lhs of wire MODIN3_7[452] = Net_1108_7[174]
+Removing Lhs of wire \MODULE_2:g1:a0:newa_6\[453] = Net_1108_6[176]
+Removing Lhs of wire MODIN3_6[454] = Net_1108_6[176]
+Removing Lhs of wire \MODULE_2:g1:a0:newa_5\[455] = Net_1108_5[178]
+Removing Lhs of wire MODIN3_5[456] = Net_1108_5[178]
+Removing Lhs of wire \MODULE_2:g1:a0:newa_4\[457] = Net_1108_4[180]
+Removing Lhs of wire MODIN3_4[458] = Net_1108_4[180]
+Removing Lhs of wire \MODULE_2:g1:a0:newa_3\[459] = Net_1108_3[182]
+Removing Lhs of wire MODIN3_3[460] = Net_1108_3[182]
+Removing Lhs of wire \MODULE_2:g1:a0:newa_2\[461] = Net_1108_2[184]
+Removing Lhs of wire MODIN3_2[462] = Net_1108_2[184]
+Removing Lhs of wire \MODULE_2:g1:a0:newa_1\[463] = Net_1108_1[186]
+Removing Lhs of wire MODIN3_1[464] = Net_1108_1[186]
+Removing Lhs of wire \MODULE_2:g1:a0:newa_0\[465] = Net_1108_0[188]
+Removing Lhs of wire MODIN3_0[466] = Net_1108_0[188]
+Removing Lhs of wire \MODULE_2:g1:a0:newb_7\[467] = MODIN4_7[468]
+Removing Lhs of wire MODIN4_7[468] = tmpOE__SW2_net_0[1]
+Removing Lhs of wire \MODULE_2:g1:a0:newb_6\[469] = MODIN4_6[470]
+Removing Lhs of wire MODIN4_6[470] = zero[2]
+Removing Lhs of wire \MODULE_2:g1:a0:newb_5\[471] = MODIN4_5[472]
+Removing Lhs of wire MODIN4_5[472] = zero[2]
+Removing Lhs of wire \MODULE_2:g1:a0:newb_4\[473] = MODIN4_4[474]
+Removing Lhs of wire MODIN4_4[474] = tmpOE__SW2_net_0[1]
+Removing Lhs of wire \MODULE_2:g1:a0:newb_3\[475] = MODIN4_3[476]
+Removing Lhs of wire MODIN4_3[476] = zero[2]
+Removing Lhs of wire \MODULE_2:g1:a0:newb_2\[477] = MODIN4_2[478]
+Removing Lhs of wire MODIN4_2[478] = zero[2]
+Removing Lhs of wire \MODULE_2:g1:a0:newb_1\[479] = MODIN4_1[480]
+Removing Lhs of wire MODIN4_1[480] = zero[2]
+Removing Lhs of wire \MODULE_2:g1:a0:newb_0\[481] = MODIN4_0[482]
+Removing Lhs of wire MODIN4_0[482] = zero[2]
+Removing Lhs of wire \MODULE_2:g1:a0:dataa_7\[483] = Net_1108_7[174]
+Removing Lhs of wire \MODULE_2:g1:a0:dataa_6\[484] = Net_1108_6[176]
+Removing Lhs of wire \MODULE_2:g1:a0:dataa_5\[485] = Net_1108_5[178]
+Removing Lhs of wire \MODULE_2:g1:a0:dataa_4\[486] = Net_1108_4[180]
+Removing Lhs of wire \MODULE_2:g1:a0:dataa_3\[487] = Net_1108_3[182]
+Removing Lhs of wire \MODULE_2:g1:a0:dataa_2\[488] = Net_1108_2[184]
+Removing Lhs of wire \MODULE_2:g1:a0:dataa_1\[489] = Net_1108_1[186]
+Removing Lhs of wire \MODULE_2:g1:a0:dataa_0\[490] = Net_1108_0[188]
+Removing Lhs of wire \MODULE_2:g1:a0:datab_7\[491] = tmpOE__SW2_net_0[1]
+Removing Lhs of wire \MODULE_2:g1:a0:datab_6\[492] = zero[2]
+Removing Lhs of wire \MODULE_2:g1:a0:datab_5\[493] = zero[2]
+Removing Lhs of wire \MODULE_2:g1:a0:datab_4\[494] = tmpOE__SW2_net_0[1]
+Removing Lhs of wire \MODULE_2:g1:a0:datab_3\[495] = zero[2]
+Removing Lhs of wire \MODULE_2:g1:a0:datab_2\[496] = zero[2]
+Removing Lhs of wire \MODULE_2:g1:a0:datab_1\[497] = zero[2]
+Removing Lhs of wire \MODULE_2:g1:a0:datab_0\[498] = zero[2]
+Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:a_7\[499] = Net_1108_7[174]
+Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:a_6\[500] = Net_1108_6[176]
+Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:a_5\[501] = Net_1108_5[178]
+Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:a_4\[502] = Net_1108_4[180]
+Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:a_3\[503] = Net_1108_3[182]
+Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:a_2\[504] = Net_1108_2[184]
+Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:a_1\[505] = Net_1108_1[186]
+Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:a_0\[506] = Net_1108_0[188]
+Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:b_7\[507] = tmpOE__SW2_net_0[1]
+Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:b_6\[508] = zero[2]
+Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:b_5\[509] = zero[2]
+Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:b_4\[510] = tmpOE__SW2_net_0[1]
+Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:b_3\[511] = zero[2]
+Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:b_2\[512] = zero[2]
+Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:b_1\[513] = zero[2]
+Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:b_0\[514] = zero[2]
+Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:aeqb_0\[523] = tmpOE__SW2_net_0[1]
+Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:eq_0\[524] = \MODULE_2:g1:a0:gx:u0:xnor_array_0\[522]
+Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:eqi_0\[532] = \MODULE_2:g1:a0:gx:u0:eq_7\[531]
+Removing Lhs of wire \MODULE_3:g1:a0:newa_7\[581] = MODIN5_7[582]
+Removing Lhs of wire MODIN5_7[582] = Net_1161_7[207]
+Removing Lhs of wire \MODULE_3:g1:a0:newa_6\[583] = MODIN5_6[584]
+Removing Lhs of wire MODIN5_6[584] = Net_1161_6[209]
+Removing Lhs of wire \MODULE_3:g1:a0:newa_5\[585] = MODIN5_5[586]
+Removing Lhs of wire MODIN5_5[586] = Net_1161_5[211]
+Removing Lhs of wire \MODULE_3:g1:a0:newa_4\[587] = MODIN5_4[588]
+Removing Lhs of wire MODIN5_4[588] = Net_1161_4[213]
+Removing Lhs of wire \MODULE_3:g1:a0:newa_3\[589] = MODIN5_3[590]
+Removing Lhs of wire MODIN5_3[590] = Net_1161_3[215]
+Removing Lhs of wire \MODULE_3:g1:a0:newa_2\[591] = MODIN5_2[592]
+Removing Lhs of wire MODIN5_2[592] = Net_1161_2[217]
+Removing Lhs of wire \MODULE_3:g1:a0:newa_1\[593] = MODIN5_1[594]
+Removing Lhs of wire MODIN5_1[594] = Net_1161_1[219]
+Removing Lhs of wire \MODULE_3:g1:a0:newa_0\[595] = MODIN5_0[596]
+Removing Lhs of wire MODIN5_0[596] = Net_1161_0[221]
+Removing Lhs of wire \MODULE_3:g1:a0:newb_7\[597] = MODIN6_7[598]
+Removing Lhs of wire MODIN6_7[598] = zero[2]
+Removing Lhs of wire \MODULE_3:g1:a0:newb_6\[599] = MODIN6_6[600]
+Removing Lhs of wire MODIN6_6[600] = zero[2]
+Removing Lhs of wire \MODULE_3:g1:a0:newb_5\[601] = MODIN6_5[602]
+Removing Lhs of wire MODIN6_5[602] = zero[2]
+Removing Lhs of wire \MODULE_3:g1:a0:newb_4\[603] = MODIN6_4[604]
+Removing Lhs of wire MODIN6_4[604] = zero[2]
+Removing Lhs of wire \MODULE_3:g1:a0:newb_3\[605] = MODIN6_3[606]
+Removing Lhs of wire MODIN6_3[606] = zero[2]
+Removing Lhs of wire \MODULE_3:g1:a0:newb_2\[607] = MODIN6_2[608]
+Removing Lhs of wire MODIN6_2[608] = zero[2]
+Removing Lhs of wire \MODULE_3:g1:a0:newb_1\[609] = MODIN6_1[610]
+Removing Lhs of wire MODIN6_1[610] = zero[2]
+Removing Lhs of wire \MODULE_3:g1:a0:newb_0\[611] = MODIN6_0[612]
+Removing Lhs of wire MODIN6_0[612] = zero[2]
+Removing Lhs of wire \MODULE_3:g1:a0:dataa_7\[613] = Net_1161_7[207]
+Removing Lhs of wire \MODULE_3:g1:a0:dataa_6\[614] = Net_1161_6[209]
+Removing Lhs of wire \MODULE_3:g1:a0:dataa_5\[615] = Net_1161_5[211]
+Removing Lhs of wire \MODULE_3:g1:a0:dataa_4\[616] = Net_1161_4[213]
+Removing Lhs of wire \MODULE_3:g1:a0:dataa_3\[617] = Net_1161_3[215]
+Removing Lhs of wire \MODULE_3:g1:a0:dataa_2\[618] = Net_1161_2[217]
+Removing Lhs of wire \MODULE_3:g1:a0:dataa_1\[619] = Net_1161_1[219]
+Removing Lhs of wire \MODULE_3:g1:a0:dataa_0\[620] = Net_1161_0[221]
+Removing Lhs of wire \MODULE_3:g1:a0:datab_7\[621] = zero[2]
+Removing Lhs of wire \MODULE_3:g1:a0:datab_6\[622] = zero[2]
+Removing Lhs of wire \MODULE_3:g1:a0:datab_5\[623] = zero[2]
+Removing Lhs of wire \MODULE_3:g1:a0:datab_4\[624] = zero[2]
+Removing Lhs of wire \MODULE_3:g1:a0:datab_3\[625] = zero[2]
+Removing Lhs of wire \MODULE_3:g1:a0:datab_2\[626] = zero[2]
+Removing Lhs of wire \MODULE_3:g1:a0:datab_1\[627] = zero[2]
+Removing Lhs of wire \MODULE_3:g1:a0:datab_0\[628] = zero[2]
+Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:a_7\[629] = Net_1161_7[207]
+Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:a_6\[630] = Net_1161_6[209]
+Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:a_5\[631] = Net_1161_5[211]
+Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:a_4\[632] = Net_1161_4[213]
+Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:a_3\[633] = Net_1161_3[215]
+Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:a_2\[634] = Net_1161_2[217]
+Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:a_1\[635] = Net_1161_1[219]
+Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:a_0\[636] = Net_1161_0[221]
+Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:b_7\[637] = zero[2]
+Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:b_6\[638] = zero[2]
+Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:b_5\[639] = zero[2]
+Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:b_4\[640] = zero[2]
+Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:b_3\[641] = zero[2]
+Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:b_2\[642] = zero[2]
+Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:b_1\[643] = zero[2]
+Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:b_0\[644] = zero[2]
 
 ------------------------------------------------------
-Aliased 0 equations, 8 wires.
+Aliased 0 equations, 290 wires.
 ------------------------------------------------------
 
 ----------------------------------------------------------
 Circuit simplification
 ----------------------------------------------------------
+
+Substituting virtuals - pass 1:
+
+Note:  Expanding virtual equation for 'tmpOE__SW2_net_0' (cost = 0):
+tmpOE__SW2_net_0 <=  ('1') ;
+
+Note:  Expanding virtual equation for 'zero' (cost = 0):
+zero <=  ('0') ;
+
+Note:  Expanding virtual equation for '\MODULE_1:g1:a0:gx:u0:xnor_array_7\' (cost = 0):
+\MODULE_1:g1:a0:gx:u0:xnor_array_7\ <= (Net_1108_7);
+
+Note:  Expanding virtual equation for '\MODULE_1:g1:a0:gx:u0:xnor_array_5\' (cost = 0):
+\MODULE_1:g1:a0:gx:u0:xnor_array_5\ <= (not Net_1108_5);
+
+Note:  Expanding virtual equation for '\MODULE_1:g1:a0:gx:u0:xnor_array_4\' (cost = 0):
+\MODULE_1:g1:a0:gx:u0:xnor_array_4\ <= (not Net_1108_4);
+
+Note:  Expanding virtual equation for '\MODULE_1:g1:a0:gx:u0:xnor_array_2\' (cost = 0):
+\MODULE_1:g1:a0:gx:u0:xnor_array_2\ <= (not Net_1108_2);
+
+Note:  Expanding virtual equation for '\MODULE_1:g1:a0:gx:u0:xnor_array_1\' (cost = 0):
+\MODULE_1:g1:a0:gx:u0:xnor_array_1\ <= (not Net_1108_1);
+
+Note:  Expanding virtual equation for '\MODULE_1:g1:a0:gx:u0:lt_6\' (cost = 0):
+\MODULE_1:g1:a0:gx:u0:lt_6\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\MODULE_1:g1:a0:gx:u0:gt_6\' (cost = 0):
+\MODULE_1:g1:a0:gx:u0:gt_6\ <= (Net_1108_6);
+
+Note:  Expanding virtual equation for '\MODULE_1:g1:a0:gx:u0:lt_3\' (cost = 0):
+\MODULE_1:g1:a0:gx:u0:lt_3\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\MODULE_1:g1:a0:gx:u0:gt_3\' (cost = 0):
+\MODULE_1:g1:a0:gx:u0:gt_3\ <= (Net_1108_3);
+
+Note:  Expanding virtual equation for '\MODULE_1:g1:a0:gx:u0:lt_4\' (cost = 0):
+\MODULE_1:g1:a0:gx:u0:lt_4\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\MODULE_1:g1:a0:gx:u0:gt_4\' (cost = 2):
+\MODULE_1:g1:a0:gx:u0:gt_4\ <= (Net_1108_3
+	OR Net_1108_4);
+
+Note:  Expanding virtual equation for '\MODULE_1:g1:a0:gx:u0:lt_0\' (cost = 0):
+\MODULE_1:g1:a0:gx:u0:lt_0\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\MODULE_1:g1:a0:gx:u0:gt_0\' (cost = 0):
+\MODULE_1:g1:a0:gx:u0:gt_0\ <= (Net_1108_0);
+
+Note:  Expanding virtual equation for '\MODULE_1:g1:a0:gx:u0:lt_1\' (cost = 0):
+\MODULE_1:g1:a0:gx:u0:lt_1\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\MODULE_1:g1:a0:gx:u0:gt_1\' (cost = 2):
+\MODULE_1:g1:a0:gx:u0:gt_1\ <= (Net_1108_0
+	OR Net_1108_1);
+
+Note:  Expanding virtual equation for '\MODULE_2:g1:a0:gx:u0:xnor_array_7\' (cost = 0):
+\MODULE_2:g1:a0:gx:u0:xnor_array_7\ <= (Net_1108_7);
+
+Note:  Expanding virtual equation for '\MODULE_2:g1:a0:gx:u0:xnor_array_6\' (cost = 0):
+\MODULE_2:g1:a0:gx:u0:xnor_array_6\ <= (not Net_1108_6);
+
+Note:  Expanding virtual equation for '\MODULE_2:g1:a0:gx:u0:xnor_array_5\' (cost = 0):
+\MODULE_2:g1:a0:gx:u0:xnor_array_5\ <= (not Net_1108_5);
+
+Note:  Expanding virtual equation for '\MODULE_2:g1:a0:gx:u0:xnor_array_4\' (cost = 0):
+\MODULE_2:g1:a0:gx:u0:xnor_array_4\ <= (Net_1108_4);
+
+Note:  Expanding virtual equation for '\MODULE_2:g1:a0:gx:u0:xnor_array_3\' (cost = 0):
+\MODULE_2:g1:a0:gx:u0:xnor_array_3\ <= (not Net_1108_3);
+
+Note:  Expanding virtual equation for '\MODULE_2:g1:a0:gx:u0:xnor_array_2\' (cost = 0):
+\MODULE_2:g1:a0:gx:u0:xnor_array_2\ <= (not Net_1108_2);
+
+Note:  Expanding virtual equation for '\MODULE_2:g1:a0:gx:u0:xnor_array_1\' (cost = 0):
+\MODULE_2:g1:a0:gx:u0:xnor_array_1\ <= (not Net_1108_1);
+
+Note:  Expanding virtual equation for '\MODULE_2:g1:a0:gx:u0:xnor_array_0\' (cost = 0):
+\MODULE_2:g1:a0:gx:u0:xnor_array_0\ <= (not Net_1108_0);
+
+Note:  Expanding virtual equation for '\MODULE_2:g1:a0:gx:u0:eq_1\' (cost = 1):
+\MODULE_2:g1:a0:gx:u0:eq_1\ <= ((not Net_1108_1 and not Net_1108_0));
+
+Note:  Expanding virtual equation for '\MODULE_2:g1:a0:gx:u0:eq_2\' (cost = 1):
+\MODULE_2:g1:a0:gx:u0:eq_2\ <= ((not Net_1108_2 and not Net_1108_1 and not Net_1108_0));
+
+Note:  Expanding virtual equation for '\MODULE_2:g1:a0:gx:u0:eq_3\' (cost = 1):
+\MODULE_2:g1:a0:gx:u0:eq_3\ <= ((not Net_1108_3 and not Net_1108_2 and not Net_1108_1 and not Net_1108_0));
+
+Note:  Expanding virtual equation for '\MODULE_2:g1:a0:gx:u0:eq_4\' (cost = 1):
+\MODULE_2:g1:a0:gx:u0:eq_4\ <= ((not Net_1108_3 and not Net_1108_2 and not Net_1108_1 and not Net_1108_0 and Net_1108_4));
+
+Note:  Expanding virtual equation for '\MODULE_2:g1:a0:gx:u0:eq_5\' (cost = 1):
+\MODULE_2:g1:a0:gx:u0:eq_5\ <= ((not Net_1108_5 and not Net_1108_3 and not Net_1108_2 and not Net_1108_1 and not Net_1108_0 and Net_1108_4));
+
+Note:  Expanding virtual equation for '\MODULE_2:g1:a0:gx:u0:eq_6\' (cost = 1):
+\MODULE_2:g1:a0:gx:u0:eq_6\ <= ((not Net_1108_6 and not Net_1108_5 and not Net_1108_3 and not Net_1108_2 and not Net_1108_1 and not Net_1108_0 and Net_1108_4));
+
+Note:  Expanding virtual equation for '\MODULE_2:g1:a0:gx:u0:lt_6\' (cost = 0):
+\MODULE_2:g1:a0:gx:u0:lt_6\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\MODULE_2:g1:a0:gx:u0:gt_6\' (cost = 0):
+\MODULE_2:g1:a0:gx:u0:gt_6\ <= (Net_1108_6);
+
+Note:  Expanding virtual equation for '\MODULE_2:g1:a0:gx:u0:lt_3\' (cost = 0):
+\MODULE_2:g1:a0:gx:u0:lt_3\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\MODULE_2:g1:a0:gx:u0:gt_3\' (cost = 0):
+\MODULE_2:g1:a0:gx:u0:gt_3\ <= (Net_1108_3);
+
+Note:  Expanding virtual equation for '\MODULE_2:g1:a0:gx:u0:lt_4\' (cost = 0):
+\MODULE_2:g1:a0:gx:u0:lt_4\ <= (not Net_1108_4);
+
+Note:  Expanding virtual equation for '\MODULE_2:g1:a0:gx:u0:gt_4\' (cost = 1):
+\MODULE_2:g1:a0:gx:u0:gt_4\ <= ((Net_1108_4 and Net_1108_3));
+
+Note:  Expanding virtual equation for '\MODULE_2:g1:a0:gx:u0:lt_0\' (cost = 0):
+\MODULE_2:g1:a0:gx:u0:lt_0\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\MODULE_2:g1:a0:gx:u0:gt_0\' (cost = 0):
+\MODULE_2:g1:a0:gx:u0:gt_0\ <= (Net_1108_0);
+
+Note:  Expanding virtual equation for '\MODULE_2:g1:a0:gx:u0:lt_1\' (cost = 0):
+\MODULE_2:g1:a0:gx:u0:lt_1\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\MODULE_2:g1:a0:gx:u0:gt_1\' (cost = 2):
+\MODULE_2:g1:a0:gx:u0:gt_1\ <= (Net_1108_0
+	OR Net_1108_1);
+
+Note:  Expanding virtual equation for '\MODULE_3:g1:a0:gx:u0:xnor_array_7\' (cost = 0):
+\MODULE_3:g1:a0:gx:u0:xnor_array_7\ <= (not Net_1161_7);
+
+Note:  Expanding virtual equation for '\MODULE_3:g1:a0:gx:u0:xnor_array_5\' (cost = 0):
+\MODULE_3:g1:a0:gx:u0:xnor_array_5\ <= (not Net_1161_5);
+
+Note:  Expanding virtual equation for '\MODULE_3:g1:a0:gx:u0:xnor_array_4\' (cost = 0):
+\MODULE_3:g1:a0:gx:u0:xnor_array_4\ <= (not Net_1161_4);
+
+Note:  Expanding virtual equation for '\MODULE_3:g1:a0:gx:u0:xnor_array_2\' (cost = 0):
+\MODULE_3:g1:a0:gx:u0:xnor_array_2\ <= (not Net_1161_2);
+
+Note:  Expanding virtual equation for '\MODULE_3:g1:a0:gx:u0:xnor_array_1\' (cost = 0):
+\MODULE_3:g1:a0:gx:u0:xnor_array_1\ <= (not Net_1161_1);
+
+Note:  Expanding virtual equation for '\MODULE_3:g1:a0:gx:u0:lt_6\' (cost = 0):
+\MODULE_3:g1:a0:gx:u0:lt_6\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\MODULE_3:g1:a0:gx:u0:gt_6\' (cost = 0):
+\MODULE_3:g1:a0:gx:u0:gt_6\ <= (Net_1161_6);
+
+Note:  Expanding virtual equation for '\MODULE_3:g1:a0:gx:u0:lt_3\' (cost = 0):
+\MODULE_3:g1:a0:gx:u0:lt_3\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\MODULE_3:g1:a0:gx:u0:gt_3\' (cost = 0):
+\MODULE_3:g1:a0:gx:u0:gt_3\ <= (Net_1161_3);
+
+Note:  Expanding virtual equation for '\MODULE_3:g1:a0:gx:u0:lt_4\' (cost = 0):
+\MODULE_3:g1:a0:gx:u0:lt_4\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\MODULE_3:g1:a0:gx:u0:gt_4\' (cost = 2):
+\MODULE_3:g1:a0:gx:u0:gt_4\ <= (Net_1161_3
+	OR Net_1161_4);
+
+Note:  Expanding virtual equation for '\MODULE_3:g1:a0:gx:u0:lt_0\' (cost = 0):
+\MODULE_3:g1:a0:gx:u0:lt_0\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\MODULE_3:g1:a0:gx:u0:gt_0\' (cost = 0):
+\MODULE_3:g1:a0:gx:u0:gt_0\ <= (Net_1161_0);
+
+Note:  Expanding virtual equation for '\MODULE_3:g1:a0:gx:u0:lt_1\' (cost = 0):
+\MODULE_3:g1:a0:gx:u0:lt_1\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\MODULE_3:g1:a0:gx:u0:gt_1\' (cost = 2):
+\MODULE_3:g1:a0:gx:u0:gt_1\ <= (Net_1161_0
+	OR Net_1161_1);
+
+
+Substituting virtuals - pass 2:
+
+Note:  Expanding virtual equation for '\MODULE_2:g1:a0:gx:u0:eq_7\' (cost = 1):
+\MODULE_2:g1:a0:gx:u0:eq_7\ <= ((not Net_1108_6 and not Net_1108_5 and not Net_1108_3 and not Net_1108_2 and not Net_1108_1 and not Net_1108_0 and Net_1108_7 and Net_1108_4));
+
+
+Substituting virtuals - pass 3:
+
+Note:  Expanding virtual equation for 'Net_1085' (cost = 1):
+Net_1085 <= ((not Net_1108_6 and not Net_1108_5 and not Net_1108_3 and not Net_1108_2 and not Net_1108_1 and not Net_1108_0 and Net_1108_7 and Net_1108_4));
+
+
+Substituting virtuals - pass 4:
+
+Note:  Expanding virtual equation for 'Net_1289' (cost = 8):
+Net_1289 <= ((not Net_1108_6 and not Net_1108_5 and not Net_1108_3 and not Net_1108_2 and not Net_1108_1 and not Net_1108_0 and Net_1283 and Net_1108_7 and Net_1108_4));
+
+
+Substituting virtuals - pass 5:
+
+
+----------------------------------------------------------
+Circuit simplification results:
+
+	Expanded 59 signals.
+	Turned 0 signals into soft nodes.
+	Maximum default expansion cost was set at 3.
+----------------------------------------------------------
+
+------------------------------------------------------
+Alias Detection
+------------------------------------------------------
+Aliasing \MODULE_1:g1:a0:gx:u0:lt_5\ to zero
+Aliasing \MODULE_1:g1:a0:gx:u0:lt_2\ to zero
+Aliasing \MODULE_2:g1:a0:gx:u0:lt_7\ to \MODULE_1:g1:a0:gx:u0:lt_7\
+Aliasing \MODULE_2:g1:a0:gx:u0:gt_7\ to \MODULE_1:g1:a0:gx:u0:gt_7\
+Aliasing \MODULE_2:g1:a0:gx:u0:lt_2\ to zero
+Aliasing \MODULE_2:g1:a0:gx:u0:gt_2\ to \MODULE_1:g1:a0:gx:u0:gt_2\
+Aliasing \MODULE_3:g1:a0:gx:u0:lt_7\ to zero
+Aliasing \MODULE_3:g1:a0:gx:u0:lt_5\ to zero
+Aliasing \MODULE_3:g1:a0:gx:u0:lt_2\ to zero
+Removing Lhs of wire \MODULE_1:g1:a0:gx:u0:lt_5\[420] = zero[2]
+Removing Lhs of wire \MODULE_1:g1:a0:gx:u0:lt_2\[432] = zero[2]
+Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:lt_7\[538] = \MODULE_1:g1:a0:gx:u0:lt_7\[408]
+Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:gt_7\[539] = \MODULE_1:g1:a0:gx:u0:gt_7\[409]
+Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:lt_2\[562] = zero[2]
+Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:gt_2\[563] = \MODULE_1:g1:a0:gx:u0:gt_2\[433]
+Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:lt_7\[668] = zero[2]
+Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:lt_5\[680] = zero[2]
+Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:lt_2\[692] = zero[2]
+
+------------------------------------------------------
+Aliased 0 equations, 9 wires.
+------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification
+----------------------------------------------------------
+
+Eliminating unused logic - pass 1:
+
+
+Eliminating unused logic - pass 2:
+
 
 Substituting virtuals - pass 1:
 
@@ -195,19 +931,41 @@ CYPRESS_DIR    : C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\wa
 Warp Program   : C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\bin/warp.exe
 Warp Arguments : -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya "-.fftprj=\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\MIDI_EXAMPLE.cyprj" -dcpsoc3 MIDI_EXAMPLE.v -verilog
 </CYPRESSTAG>
-Warp synthesis phase: Elapsed time ==> 0s.499ms
+Warp synthesis phase: Elapsed time ==> 0s.765ms
 <CYPRESSTAG name="Fitter results...">
 <CYPRESSTAG name="Fitter startup details...">
-cyp3fit: V3.3.0.9604, Family: PSoC3, Started at: Tuesday, 17 November 2020 00:20:08
+cyp3fit: V3.3.0.9604, Family: PSoC3, Started at: Tuesday, 17 November 2020 20:25:51
 Options: -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\MIDI_EXAMPLE.cyprj -d CY8C5888LTI-LP097 MIDI_EXAMPLE.v -verilog
 </CYPRESSTAG>
 <CYPRESSTAG name="Design parsing">
-Design parsing phase: Elapsed time ==> 0s.015ms
+Design parsing phase: Elapsed time ==> 0s.000ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Tech mapping">
 <CYPRESSTAG name="Initial Mapping" icon="FILE_RPT_TECHM">
+    Removed wire end \MODULE_1:g1:a0:gx:u0:lti_2\ kept \MODULE_1:g1:a0:gx:u0:lt_7\
+    Removed wire end \MODULE_1:g1:a0:gx:u0:gti_2\ kept \MODULE_1:g1:a0:gx:u0:gt_7\
+    Removed wire end \MODULE_1:g1:a0:gx:u0:lti_1\ kept zero
+    Removed wire end \MODULE_1:g1:a0:gx:u0:gti_1\ kept \MODULE_1:g1:a0:gx:u0:gt_5\
+    Removed wire end \MODULE_1:g1:a0:gx:u0:lti_0\ kept zero
+    Removed wire end \MODULE_1:g1:a0:gx:u0:gti_0\ kept \MODULE_1:g1:a0:gx:u0:gt_2\
+    Removed wire end \MODULE_2:g1:a0:gx:u0:lti_2\ kept \MODULE_1:g1:a0:gx:u0:lt_7\
+    Removed wire end \MODULE_2:g1:a0:gx:u0:gti_2\ kept \MODULE_1:g1:a0:gx:u0:gt_7\
+    Removed wire end \MODULE_2:g1:a0:gx:u0:lti_1\ kept \MODULE_2:g1:a0:gx:u0:lt_5\
+    Removed wire end \MODULE_2:g1:a0:gx:u0:gti_1\ kept \MODULE_2:g1:a0:gx:u0:gt_5\
+    Removed wire end \MODULE_2:g1:a0:gx:u0:lti_0\ kept zero
+    Removed wire end \MODULE_2:g1:a0:gx:u0:gti_0\ kept \MODULE_1:g1:a0:gx:u0:gt_2\
+    Removed wire end \MODULE_3:g1:a0:gx:u0:lti_2\ kept zero
+    Removed wire end \MODULE_3:g1:a0:gx:u0:gti_2\ kept \MODULE_3:g1:a0:gx:u0:gt_7\
+    Removed wire end \MODULE_3:g1:a0:gx:u0:lti_1\ kept zero
+    Removed wire end \MODULE_3:g1:a0:gx:u0:gti_1\ kept \MODULE_3:g1:a0:gx:u0:gt_5\
+    Removed wire end \MODULE_3:g1:a0:gx:u0:lti_0\ kept zero
+    Removed wire end \MODULE_3:g1:a0:gx:u0:gti_0\ kept \MODULE_3:g1:a0:gx:u0:gt_2\
 <CYPRESSTAG name="Global Clock Selection" icon="FILE_RPT_TECHM">
 </CYPRESSTAG>
+
+Removing unused cells resulting from optimization
+    Removed unused cell/equation '\NOTE_VEL_REG:Sync:ctrl_reg\:controlcell'
+Done removing unused cells.
 <CYPRESSTAG name="UDB Clock/Enable Remapping Results">
 </CYPRESSTAG>
 ADD: pft.M0040: information: The following 2 pin(s) will be assigned a location by the fitter: \USB:Dm(0)\, \USB:Dp(0)\
@@ -308,7 +1066,7 @@ Design Equations
         {
         }
 
-    Pin : Name = LED_OutB(0)
+    Pin : Name = LED_6(0)
         Attributes:
             In Group/Port: True
             In Sync Option: AUTO
@@ -337,18 +1095,18 @@ Design Equations
             SIO Vtrip: MULTIPLIER_0_5
             SIO Multiplier Index: 0
             SIO RefSel: VCC_IO
-            Required Capabilitites: DIGITAL
+            Required Capabilitites: DIGITAL, ROUTABLE
             Initial Value: 0
             IO Voltage: 0
         PORT MAP (
-            pa_out => LED_OutB(0)__PA ,
-            annotation => Net_352 ,
-            pad => LED_OutB(0)_PAD );
+            pa_out => LED_6(0)__PA ,
+            input => Net_1297_2 ,
+            pad => LED_6(0)_PAD );
         Properties:
         {
         }
 
-    Pin : Name = LED_InB(0)
+    Pin : Name = LED_4(0)
         Attributes:
             In Group/Port: True
             In Sync Option: AUTO
@@ -377,18 +1135,18 @@ Design Equations
             SIO Vtrip: MULTIPLIER_0_5
             SIO Multiplier Index: 0
             SIO RefSel: VCC_IO
-            Required Capabilitites: DIGITAL
+            Required Capabilitites: DIGITAL, ROUTABLE
             Initial Value: 0
             IO Voltage: 0
         PORT MAP (
-            pa_out => LED_InB(0)__PA ,
-            annotation => Net_349 ,
-            pad => LED_InB(0)_PAD );
+            pa_out => LED_4(0)__PA ,
+            input => Net_1297_4 ,
+            pad => LED_4(0)_PAD );
         Properties:
         {
         }
 
-    Pin : Name = LED_OutA(0)
+    Pin : Name = LED_3(0)
         Attributes:
             In Group/Port: True
             In Sync Option: AUTO
@@ -417,53 +1175,13 @@ Design Equations
             SIO Vtrip: MULTIPLIER_0_5
             SIO Multiplier Index: 0
             SIO RefSel: VCC_IO
-            Required Capabilitites: DIGITAL
+            Required Capabilitites: DIGITAL, ROUTABLE
             Initial Value: 0
             IO Voltage: 0
         PORT MAP (
-            pa_out => LED_OutA(0)__PA ,
-            annotation => Net_346 ,
-            pad => LED_OutA(0)_PAD );
-        Properties:
-        {
-        }
-
-    Pin : Name = LED_InA(0)
-        Attributes:
-            In Group/Port: True
-            In Sync Option: AUTO
-            Out Sync Option: NOSYNC
-            Interrupt generated: False
-            Interrupt mode: NONE
-            Drive mode: CMOS_OUT
-            VTrip: EITHER
-            Slew: FAST
-            Input Sync needed: False
-            Output Sync needed: False
-            SC shield enabled: False
-            POR State: ANY
-            LCD Mode: COMMON
-            Register Mode: RegComb
-            CaSense Mode: NEITHER
-            Treat as pin: True
-            Is OE Registered: False
-            Uses Analog: False
-            Can contain Digital: True
-            Is SIO: False
-            SIO Output Buf: NONREGULATED
-            SIO Input Buf: SINGLE_ENDED
-            SIO HiFreq: LOW
-            SIO Hyst: DISABLED
-            SIO Vtrip: MULTIPLIER_0_5
-            SIO Multiplier Index: 0
-            SIO RefSel: VCC_IO
-            Required Capabilitites: DIGITAL
-            Initial Value: 0
-            IO Voltage: 0
-        PORT MAP (
-            pa_out => LED_InA(0)__PA ,
-            annotation => Net_2671 ,
-            pad => LED_InA(0)_PAD );
+            pa_out => LED_3(0)__PA ,
+            input => Net_1297_5 ,
+            pad => LED_3(0)_PAD );
         Properties:
         {
         }
@@ -541,8 +1259,308 @@ Design Equations
             pa_out => \USB:Dp(0)\__PA ,
             analog_term => \USB:Net_1000\ ,
             pad => \USB:Dp(0)_PAD\ );
+
+    Pin : Name = LED_2(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilitites: DIGITAL, ROUTABLE
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => LED_2(0)__PA ,
+            input => Net_1297_6 ,
+            pad => LED_2(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = LED_5(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilitites: DIGITAL, ROUTABLE
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => LED_5(0)__PA ,
+            input => Net_1297_3 ,
+            pad => LED_5(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = LED_7(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilitites: DIGITAL, ROUTABLE
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => LED_7(0)__PA ,
+            input => Net_1297_1 ,
+            pad => LED_7(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = LED_8(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilitites: DIGITAL, ROUTABLE
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => LED_8(0)__PA ,
+            input => Net_1297_0 ,
+            pad => LED_8(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = LED_1(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilitites: DIGITAL, ROUTABLE
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => LED_1(0)__PA ,
+            input => Net_1297_7 ,
+            pad => LED_1(0)_PAD );
+        Properties:
+        {
+        }
     </CYPRESSTAG>
     <CYPRESSTAG name="Macrocell listing" icon="FILE_RPT_EQUATION">
+
+    ------------------------------------------------------------
+    Macrocell listing
+    ------------------------------------------------------------
+
+    MacroCell: Name=Net_1297_0, Mode=(Combinatorial)
+        Total # of inputs        : 12
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_1283 * Net_1108_7 * !Net_1108_6 * !Net_1108_5 * Net_1108_4 * 
+              !Net_1108_3 * !Net_1108_2 * !Net_1108_1 * !Net_1108_0 * 
+              !Net_1347_2 * !Net_1347_1 * !Net_1347_0
+        );
+        Output = Net_1297_0 (fanout=1)
+
+    MacroCell: Name=Net_1297_1, Mode=(Combinatorial)
+        Total # of inputs        : 12
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_1283 * Net_1108_7 * !Net_1108_6 * !Net_1108_5 * Net_1108_4 * 
+              !Net_1108_3 * !Net_1108_2 * !Net_1108_1 * !Net_1108_0 * 
+              !Net_1347_2 * !Net_1347_1 * Net_1347_0
+        );
+        Output = Net_1297_1 (fanout=1)
+
+    MacroCell: Name=Net_1297_2, Mode=(Combinatorial)
+        Total # of inputs        : 12
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_1283 * Net_1108_7 * !Net_1108_6 * !Net_1108_5 * Net_1108_4 * 
+              !Net_1108_3 * !Net_1108_2 * !Net_1108_1 * !Net_1108_0 * 
+              !Net_1347_2 * Net_1347_1 * !Net_1347_0
+        );
+        Output = Net_1297_2 (fanout=1)
+
+    MacroCell: Name=Net_1297_3, Mode=(Combinatorial)
+        Total # of inputs        : 12
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_1283 * Net_1108_7 * !Net_1108_6 * !Net_1108_5 * Net_1108_4 * 
+              !Net_1108_3 * !Net_1108_2 * !Net_1108_1 * !Net_1108_0 * 
+              !Net_1347_2 * Net_1347_1 * Net_1347_0
+        );
+        Output = Net_1297_3 (fanout=1)
+
+    MacroCell: Name=Net_1297_4, Mode=(Combinatorial)
+        Total # of inputs        : 12
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_1283 * Net_1108_7 * !Net_1108_6 * !Net_1108_5 * Net_1108_4 * 
+              !Net_1108_3 * !Net_1108_2 * !Net_1108_1 * !Net_1108_0 * 
+              Net_1347_2 * !Net_1347_1 * !Net_1347_0
+        );
+        Output = Net_1297_4 (fanout=1)
+
+    MacroCell: Name=Net_1297_5, Mode=(Combinatorial)
+        Total # of inputs        : 12
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_1283 * Net_1108_7 * !Net_1108_6 * !Net_1108_5 * Net_1108_4 * 
+              !Net_1108_3 * !Net_1108_2 * !Net_1108_1 * !Net_1108_0 * 
+              Net_1347_2 * !Net_1347_1 * Net_1347_0
+        );
+        Output = Net_1297_5 (fanout=1)
+
+    MacroCell: Name=Net_1297_6, Mode=(Combinatorial)
+        Total # of inputs        : 12
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_1283 * Net_1108_7 * !Net_1108_6 * !Net_1108_5 * Net_1108_4 * 
+              !Net_1108_3 * !Net_1108_2 * !Net_1108_1 * !Net_1108_0 * 
+              Net_1347_2 * Net_1347_1 * !Net_1347_0
+        );
+        Output = Net_1297_6 (fanout=1)
+
+    MacroCell: Name=Net_1297_7, Mode=(Combinatorial)
+        Total # of inputs        : 12
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_1283 * Net_1108_7 * !Net_1108_6 * !Net_1108_5 * Net_1108_4 * 
+              !Net_1108_3 * !Net_1108_2 * !Net_1108_1 * !Net_1108_0 * 
+              Net_1347_2 * Net_1347_1 * Net_1347_0
+        );
+        Output = Net_1297_7 (fanout=1)
     </CYPRESSTAG>
     <CYPRESSTAG name="Datapath listing">
     </CYPRESSTAG>
@@ -553,6 +1571,70 @@ Design Equations
     <CYPRESSTAG name="Sync listing">
     </CYPRESSTAG>
     <CYPRESSTAG name="Control register listing">
+
+    ------------------------------------------------------------
+    Control register listing
+    ------------------------------------------------------------
+
+    controlcell: Name =\MSG_VALID:Sync:ctrl_reg\
+        PORT MAP (
+            control_7 => \MSG_VALID:control_7\ ,
+            control_6 => \MSG_VALID:control_6\ ,
+            control_5 => \MSG_VALID:control_5\ ,
+            control_4 => \MSG_VALID:control_4\ ,
+            control_3 => \MSG_VALID:control_3\ ,
+            control_2 => \MSG_VALID:control_2\ ,
+            control_1 => \MSG_VALID:control_1\ ,
+            control_0 => Net_1283 );
+        Properties:
+        {
+            cy_ctrl_mode_0 = "00000000"
+            cy_ctrl_mode_1 = "00000000"
+            cy_ext_reset = 0
+            cy_force_order = 1
+            cy_init_value = "00000000"
+        }
+        Clock Enable: True
+
+    controlcell: Name =\MSG_TYPE_REG:Sync:ctrl_reg\
+        PORT MAP (
+            control_7 => Net_1108_7 ,
+            control_6 => Net_1108_6 ,
+            control_5 => Net_1108_5 ,
+            control_4 => Net_1108_4 ,
+            control_3 => Net_1108_3 ,
+            control_2 => Net_1108_2 ,
+            control_1 => Net_1108_1 ,
+            control_0 => Net_1108_0 );
+        Properties:
+        {
+            cy_ctrl_mode_0 = "00000000"
+            cy_ctrl_mode_1 = "00000000"
+            cy_ext_reset = 0
+            cy_force_order = 1
+            cy_init_value = "00000000"
+        }
+        Clock Enable: True
+
+    controlcell: Name =\NOTE_PITCH_REG:Sync:ctrl_reg\
+        PORT MAP (
+            control_7 => \NOTE_PITCH_REG:control_7\ ,
+            control_6 => \NOTE_PITCH_REG:control_6\ ,
+            control_5 => \NOTE_PITCH_REG:control_5\ ,
+            control_4 => \NOTE_PITCH_REG:control_4\ ,
+            control_3 => \NOTE_PITCH_REG:control_3\ ,
+            control_2 => Net_1347_2 ,
+            control_1 => Net_1347_1 ,
+            control_0 => Net_1347_0 );
+        Properties:
+        {
+            cy_ctrl_mode_0 = "00000000"
+            cy_ctrl_mode_1 = "00000000"
+            cy_ext_reset = 0
+            cy_force_order = 1
+            cy_init_value = "00000000"
+        }
+        Clock Enable: True
     </CYPRESSTAG>
     <CYPRESSTAG name="Count7 listing">
     </CYPRESSTAG>
@@ -642,7 +1724,7 @@ Analog Clocks                 :    0 :    4 :    4 :  0.00 %
 CapSense Buffers              :    0 :    2 :    2 :  0.00 %
 Digital Filter Block          :    0 :    1 :    1 :  0.00 %
 Interrupts                    :    8 :   24 :   32 : 25.00 %
-IO                            :   11 :   37 :   48 : 22.92 %
+IO                            :   15 :   33 :   48 : 31.25 %
 Segment LCD                   :    0 :    1 :    1 :  0.00 %
 CAN 2.0b                      :    0 :    1 :    1 :  0.00 %
 I2C                           :    0 :    1 :    1 :  0.00 %
@@ -650,12 +1732,13 @@ USB                           :    1 :    0 :    1 : 100.00 %
 DMA Channels                  :    0 :   24 :   24 :  0.00 %
 Timer                         :    0 :    4 :    4 :  0.00 %
 UDB                           :      :      :      :        
-  Macrocells                  :    0 :  192 :  192 :  0.00 %
-  Unique P-terms              :    0 :  384 :  384 :  0.00 %
-  Total P-terms               :    0 :      :      :        
+  Macrocells                  :    8 :  184 :  192 :  4.17 %
+  Unique P-terms              :    8 :  376 :  384 :  2.08 %
+  Total P-terms               :    8 :      :      :        
   Datapath Cells              :    0 :   24 :   24 :  0.00 %
   Status Cells                :    0 :   24 :   24 :  0.00 %
-  Control Cells               :    0 :   24 :   24 :  0.00 %
+  Control Cells               :    3 :   21 :   24 : 12.50 %
+    Control Registers         :    3 :      :      :        
 Opamp                         :    0 :    4 :    4 :  0.00 %
 Comparator                    :    0 :    4 :    4 :  0.00 %
 Delta-Sigma ADC               :    0 :    1 :    1 :  0.00 %
@@ -666,20 +1749,27 @@ DAC                           :      :      :      :
   VIDAC                       :    0 :    4 :    4 :  0.00 %
 </CYPRESSTAG>
 Technology Mapping: Elapsed time ==> 0s.015ms
-Tech mapping phase: Elapsed time ==> 0s.093ms
+ADD: mpr.M0037: information: Unused pieces of the design have been optimized out. See the Tech mapping section of the report file for details.
+ * \\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\codegentemp\MIDI_EXAMPLE.rpt (Tech mapping)
+
+Tech mapping phase: Elapsed time ==> 0s.078ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Placement">
 Initial Analog Placement Results:
-IO_0@[IOP=(15)][IoId=(0)] : LED_InA(0) (fixed)
-IO_1@[IOP=(15)][IoId=(1)] : LED_InB(0) (fixed)
-IO_5@[IOP=(15)][IoId=(5)] : LED_OutA(0) (fixed)
-IO_0@[IOP=(0)][IoId=(0)] : LED_OutB(0) (fixed)
+IO_0@[IOP=(15)][IoId=(0)] : LED_1(0) (fixed)
+IO_1@[IOP=(15)][IoId=(1)] : LED_2(0) (fixed)
+IO_5@[IOP=(15)][IoId=(5)] : LED_3(0) (fixed)
+IO_0@[IOP=(0)][IoId=(0)] : LED_4(0) (fixed)
+IO_1@[IOP=(0)][IoId=(1)] : LED_5(0) (fixed)
+IO_5@[IOP=(0)][IoId=(5)] : LED_6(0) (fixed)
+IO_6@[IOP=(0)][IoId=(6)] : LED_7(0) (fixed)
+IO_7@[IOP=(0)][IoId=(7)] : LED_8(0) (fixed)
 IO_3@[IOP=(2)][IoId=(3)] : SW1(0) (fixed)
 IO_4@[IOP=(2)][IoId=(4)] : SW2(0) (fixed)
 IO_7@[IOP=(15)][IoId=(7)] : \USB:Dm(0)\ (fixed)
 IO_6@[IOP=(15)][IoId=(6)] : \USB:Dp(0)\ (fixed)
 USB[0]@[FFB(USB,0)] : \USB:USB\
-Analog Placement phase: Elapsed time ==> 0s.015ms
+Analog Placement phase: Elapsed time ==> 0s.031ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Routing">
 Analog Routing phase: Elapsed time ==> 0s.000ms
@@ -697,7 +1787,7 @@ Dump of CyP35AnalogRoutingResultsDB
 IsVddaHalfUsedForComp = False
 IsVddaHalfUsedForSar0 = False
 IsVddaHalfUsedForSar1 = False
-Analog Code Generation phase: Elapsed time ==> 0s.359ms
+Analog Code Generation phase: Elapsed time ==> 0s.296ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Digital Placement">
 <CYPRESSTAG name="Detailed placement messages">
@@ -706,8 +1796,25 @@ I2076: Total run-time: 0.4 sec.
 
 </CYPRESSTAG>
 <CYPRESSTAG name="PLD Packing">
-<CYPRESSTAG name="PLD Packing Summary">
-No PLDs were packed.
+<CYPRESSTAG name="PLD Packing Summary" expanded>
+
+------------------------------------------------------------
+PLD Packing Summary
+------------------------------------------------------------
+            Resource Type : Used : Free :  Max :  % Used
+    ====================================================
+                     PLDs :    2 :   46 :   48 :   4.17%
+
+<CYPRESSTAG name="PLD Statistics">
+
+        PLD Resource Type :     Average/LAB
+    =======================================
+                   Inputs :           12.00
+                   Pterms :            4.00
+               Macrocells :            4.00
+</CYPRESSTAG>
+<CYPRESSTAG name="Packed PLD Contents">
+Packed PLD Contents not displayed at this verbose level.</CYPRESSTAG>
 </CYPRESSTAG>
 PLD Packing: Elapsed time ==> 0s.000ms
 </CYPRESSTAG>
@@ -722,7 +1829,7 @@ Partitioning: Elapsed time ==> 0s.015ms
 Annealing: Elapsed time ==> 0s.000ms
 <CYPRESSTAG name="Simulated Annealing Results">
 The seed used for moves was 114161200.
-Inital cost was 128, final cost is 128 (0.00% improvement).</CYPRESSTAG>
+Inital cost was 207, final cost is 207 (0.00% improvement).</CYPRESSTAG>
 </CYPRESSTAG>
 <CYPRESSTAG name="Final Placement Summary">
 
@@ -732,7 +1839,7 @@ Final Placement Summary
 
        Resource Type :      Count : Avg Inputs : Avg Outputs
     ========================================================
-                 UDB :          0 :       0.00 :       0.00
+                 UDB :          3 :       4.00 :       2.67
 <CYPRESSTAG name="Final Placement Details">
 <CYPRESSTAG name="Component Details">
 
@@ -754,14 +1861,200 @@ UDB [UDB=(1,5)] is empty.
 UDB [UDB=(2,0)] is empty.
 UDB [UDB=(2,1)] is empty.
 UDB [UDB=(2,2)] is empty.
-UDB [UDB=(2,3)] is empty.
+UDB [UDB=(2,3)] contents:
+controlcell: Name =\MSG_VALID:Sync:ctrl_reg\
+    PORT MAP (
+        control_7 => \MSG_VALID:control_7\ ,
+        control_6 => \MSG_VALID:control_6\ ,
+        control_5 => \MSG_VALID:control_5\ ,
+        control_4 => \MSG_VALID:control_4\ ,
+        control_3 => \MSG_VALID:control_3\ ,
+        control_2 => \MSG_VALID:control_2\ ,
+        control_1 => \MSG_VALID:control_1\ ,
+        control_0 => Net_1283 );
+    Properties:
+    {
+        cy_ctrl_mode_0 = "00000000"
+        cy_ctrl_mode_1 = "00000000"
+        cy_ext_reset = 0
+        cy_force_order = 1
+        cy_init_value = "00000000"
+    }
+    Clock Enable: True
+
 UDB [UDB=(2,4)] is empty.
 UDB [UDB=(2,5)] is empty.
 UDB [UDB=(3,0)] is empty.
 UDB [UDB=(3,1)] is empty.
 UDB [UDB=(3,2)] is empty.
-UDB [UDB=(3,3)] is empty.
-UDB [UDB=(3,4)] is empty.
+UDB [UDB=(3,3)] contents:
+LAB@[UDB=(3,3)][LB=0] #macrocells=4, #inputs=12, #pterms=4
+{
+    [McSlotId=0]:     MacroCell: Name=Net_1297_0, Mode=(Combinatorial) @ [UDB=(3,3)][LB=0][MC=0]
+        Total # of inputs        : 12
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_1283 * Net_1108_7 * !Net_1108_6 * !Net_1108_5 * Net_1108_4 * 
+              !Net_1108_3 * !Net_1108_2 * !Net_1108_1 * !Net_1108_0 * 
+              !Net_1347_2 * !Net_1347_1 * !Net_1347_0
+        );
+        Output = Net_1297_0 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=Net_1297_1, Mode=(Combinatorial) @ [UDB=(3,3)][LB=0][MC=1]
+        Total # of inputs        : 12
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_1283 * Net_1108_7 * !Net_1108_6 * !Net_1108_5 * Net_1108_4 * 
+              !Net_1108_3 * !Net_1108_2 * !Net_1108_1 * !Net_1108_0 * 
+              !Net_1347_2 * !Net_1347_1 * Net_1347_0
+        );
+        Output = Net_1297_1 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=Net_1297_2, Mode=(Combinatorial) @ [UDB=(3,3)][LB=0][MC=2]
+        Total # of inputs        : 12
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_1283 * Net_1108_7 * !Net_1108_6 * !Net_1108_5 * Net_1108_4 * 
+              !Net_1108_3 * !Net_1108_2 * !Net_1108_1 * !Net_1108_0 * 
+              !Net_1347_2 * Net_1347_1 * !Net_1347_0
+        );
+        Output = Net_1297_2 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=Net_1297_3, Mode=(Combinatorial) @ [UDB=(3,3)][LB=0][MC=3]
+        Total # of inputs        : 12
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_1283 * Net_1108_7 * !Net_1108_6 * !Net_1108_5 * Net_1108_4 * 
+              !Net_1108_3 * !Net_1108_2 * !Net_1108_1 * !Net_1108_0 * 
+              !Net_1347_2 * Net_1347_1 * Net_1347_0
+        );
+        Output = Net_1297_3 (fanout=1)
+        Properties               : 
+        {
+        }
+}
+
+LAB@[UDB=(3,3)][LB=1] #macrocells=4, #inputs=12, #pterms=4
+{
+    [McSlotId=0]:     MacroCell: Name=Net_1297_4, Mode=(Combinatorial) @ [UDB=(3,3)][LB=1][MC=0]
+        Total # of inputs        : 12
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_1283 * Net_1108_7 * !Net_1108_6 * !Net_1108_5 * Net_1108_4 * 
+              !Net_1108_3 * !Net_1108_2 * !Net_1108_1 * !Net_1108_0 * 
+              Net_1347_2 * !Net_1347_1 * !Net_1347_0
+        );
+        Output = Net_1297_4 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=Net_1297_5, Mode=(Combinatorial) @ [UDB=(3,3)][LB=1][MC=1]
+        Total # of inputs        : 12
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_1283 * Net_1108_7 * !Net_1108_6 * !Net_1108_5 * Net_1108_4 * 
+              !Net_1108_3 * !Net_1108_2 * !Net_1108_1 * !Net_1108_0 * 
+              Net_1347_2 * !Net_1347_1 * Net_1347_0
+        );
+        Output = Net_1297_5 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=Net_1297_6, Mode=(Combinatorial) @ [UDB=(3,3)][LB=1][MC=2]
+        Total # of inputs        : 12
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_1283 * Net_1108_7 * !Net_1108_6 * !Net_1108_5 * Net_1108_4 * 
+              !Net_1108_3 * !Net_1108_2 * !Net_1108_1 * !Net_1108_0 * 
+              Net_1347_2 * Net_1347_1 * !Net_1347_0
+        );
+        Output = Net_1297_6 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=Net_1297_7, Mode=(Combinatorial) @ [UDB=(3,3)][LB=1][MC=3]
+        Total # of inputs        : 12
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_1283 * Net_1108_7 * !Net_1108_6 * !Net_1108_5 * Net_1108_4 * 
+              !Net_1108_3 * !Net_1108_2 * !Net_1108_1 * !Net_1108_0 * 
+              Net_1347_2 * Net_1347_1 * Net_1347_0
+        );
+        Output = Net_1297_7 (fanout=1)
+        Properties               : 
+        {
+        }
+}
+
+controlcell: Name =\MSG_TYPE_REG:Sync:ctrl_reg\
+    PORT MAP (
+        control_7 => Net_1108_7 ,
+        control_6 => Net_1108_6 ,
+        control_5 => Net_1108_5 ,
+        control_4 => Net_1108_4 ,
+        control_3 => Net_1108_3 ,
+        control_2 => Net_1108_2 ,
+        control_1 => Net_1108_1 ,
+        control_0 => Net_1108_0 );
+    Properties:
+    {
+        cy_ctrl_mode_0 = "00000000"
+        cy_ctrl_mode_1 = "00000000"
+        cy_ext_reset = 0
+        cy_force_order = 1
+        cy_init_value = "00000000"
+    }
+    Clock Enable: True
+
+UDB [UDB=(3,4)] contents:
+controlcell: Name =\NOTE_PITCH_REG:Sync:ctrl_reg\
+    PORT MAP (
+        control_7 => \NOTE_PITCH_REG:control_7\ ,
+        control_6 => \NOTE_PITCH_REG:control_6\ ,
+        control_5 => \NOTE_PITCH_REG:control_5\ ,
+        control_4 => \NOTE_PITCH_REG:control_4\ ,
+        control_3 => \NOTE_PITCH_REG:control_3\ ,
+        control_2 => Net_1347_2 ,
+        control_1 => Net_1347_1 ,
+        control_0 => Net_1347_0 );
+    Properties:
+    {
+        cy_ctrl_mode_0 = "00000000"
+        cy_ctrl_mode_1 = "00000000"
+        cy_ext_reset = 0
+        cy_force_order = 1
+        cy_init_value = "00000000"
+    }
+    Clock Enable: True
+
 UDB [UDB=(3,5)] is empty.
 Intr container @ [IntrContainer=(0)]: 
   Intr@ [IntrContainer=(0)][IntrId=(0)] 
@@ -831,7 +2124,7 @@ Intr container @ [IntrContainer=(0)]:
 Drq container @ [DrqContainer=(0)]: empty
 Port 0 contains the following IO cells:
 [IoId=0]: 
-Pin : Name = LED_OutB(0)
+Pin : Name = LED_4(0)
     Attributes:
         In Group/Port: True
         In Sync Option: AUTO
@@ -860,13 +2153,177 @@ Pin : Name = LED_OutB(0)
         SIO Vtrip: MULTIPLIER_0_5
         SIO Multiplier Index: 0
         SIO RefSel: VCC_IO
-        Required Capabilitites: DIGITAL
+        Required Capabilitites: DIGITAL, ROUTABLE
         Initial Value: 0
         IO Voltage: 0
     PORT MAP (
-        pa_out => LED_OutB(0)__PA ,
-        annotation => Net_352 ,
-        pad => LED_OutB(0)_PAD );
+        pa_out => LED_4(0)__PA ,
+        input => Net_1297_4 ,
+        pad => LED_4(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=1]: 
+Pin : Name = LED_5(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilitites: DIGITAL, ROUTABLE
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => LED_5(0)__PA ,
+        input => Net_1297_3 ,
+        pad => LED_5(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=5]: 
+Pin : Name = LED_6(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilitites: DIGITAL, ROUTABLE
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => LED_6(0)__PA ,
+        input => Net_1297_2 ,
+        pad => LED_6(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=6]: 
+Pin : Name = LED_7(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilitites: DIGITAL, ROUTABLE
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => LED_7(0)__PA ,
+        input => Net_1297_1 ,
+        pad => LED_7(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=7]: 
+Pin : Name = LED_8(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilitites: DIGITAL, ROUTABLE
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => LED_8(0)__PA ,
+        input => Net_1297_0 ,
+        pad => LED_8(0)_PAD );
     Properties:
     {
     }
@@ -1026,7 +2483,7 @@ Port 15 generates interrupt for logical port:
         }
     and contains the following IO cells:
 [IoId=0]: 
-Pin : Name = LED_InA(0)
+Pin : Name = LED_1(0)
     Attributes:
         In Group/Port: True
         In Sync Option: AUTO
@@ -1055,19 +2512,19 @@ Pin : Name = LED_InA(0)
         SIO Vtrip: MULTIPLIER_0_5
         SIO Multiplier Index: 0
         SIO RefSel: VCC_IO
-        Required Capabilitites: DIGITAL
+        Required Capabilitites: DIGITAL, ROUTABLE
         Initial Value: 0
         IO Voltage: 0
     PORT MAP (
-        pa_out => LED_InA(0)__PA ,
-        annotation => Net_2671 ,
-        pad => LED_InA(0)_PAD );
+        pa_out => LED_1(0)__PA ,
+        input => Net_1297_7 ,
+        pad => LED_1(0)_PAD );
     Properties:
     {
     }
 
 [IoId=1]: 
-Pin : Name = LED_InB(0)
+Pin : Name = LED_2(0)
     Attributes:
         In Group/Port: True
         In Sync Option: AUTO
@@ -1096,19 +2553,19 @@ Pin : Name = LED_InB(0)
         SIO Vtrip: MULTIPLIER_0_5
         SIO Multiplier Index: 0
         SIO RefSel: VCC_IO
-        Required Capabilitites: DIGITAL
+        Required Capabilitites: DIGITAL, ROUTABLE
         Initial Value: 0
         IO Voltage: 0
     PORT MAP (
-        pa_out => LED_InB(0)__PA ,
-        annotation => Net_349 ,
-        pad => LED_InB(0)_PAD );
+        pa_out => LED_2(0)__PA ,
+        input => Net_1297_6 ,
+        pad => LED_2(0)_PAD );
     Properties:
     {
     }
 
 [IoId=5]: 
-Pin : Name = LED_OutA(0)
+Pin : Name = LED_3(0)
     Attributes:
         In Group/Port: True
         In Sync Option: AUTO
@@ -1137,13 +2594,13 @@ Pin : Name = LED_OutA(0)
         SIO Vtrip: MULTIPLIER_0_5
         SIO Multiplier Index: 0
         SIO RefSel: VCC_IO
-        Required Capabilitites: DIGITAL
+        Required Capabilitites: DIGITAL, ROUTABLE
         Initial Value: 0
         IO Voltage: 0
     PORT MAP (
-        pa_out => LED_OutA(0)__PA ,
-        annotation => Net_346 ,
-        pad => LED_OutA(0)_PAD );
+        pa_out => LED_3(0)__PA ,
+        input => Net_1297_5 ,
+        pad => LED_3(0)_PAD );
     Properties:
     {
     }
@@ -1317,46 +2774,50 @@ Port Configuration report
      |     |       | Interrupt |                  |             | 
 Port | Pin | Fixed |      Type |       Drive Mode |        Name | Connections
 -----+-----+-------+-----------+------------------+-------------+-----------------------
-   0 |   0 |     * |      NONE |         CMOS_OUT | LED_OutB(0) | 
+   0 |   0 |     * |      NONE |         CMOS_OUT |    LED_4(0) | In(Net_1297_4)
+     |   1 |     * |      NONE |         CMOS_OUT |    LED_5(0) | In(Net_1297_3)
+     |   5 |     * |      NONE |         CMOS_OUT |    LED_6(0) | In(Net_1297_2)
+     |   6 |     * |      NONE |         CMOS_OUT |    LED_7(0) | In(Net_1297_1)
+     |   7 |     * |      NONE |         CMOS_OUT |    LED_8(0) | In(Net_1297_0)
 -----+-----+-------+-----------+------------------+-------------+-----------------------
    2 |   3 |     * |      NONE |    RES_PULL_DOWN |      SW1(0) | 
      |   4 |     * |      NONE |    RES_PULL_DOWN |      SW2(0) | 
 -----+-----+-------+-----------+------------------+-------------+-----------------------
-  15 |   0 |     * |      NONE |         CMOS_OUT |  LED_InA(0) | 
-     |   1 |     * |      NONE |         CMOS_OUT |  LED_InB(0) | 
-     |   5 |     * |      NONE |         CMOS_OUT | LED_OutA(0) | 
+  15 |   0 |     * |      NONE |         CMOS_OUT |    LED_1(0) | In(Net_1297_7)
+     |   1 |     * |      NONE |         CMOS_OUT |    LED_2(0) | In(Net_1297_6)
+     |   5 |     * |      NONE |         CMOS_OUT |    LED_3(0) | In(Net_1297_5)
      |   6 |       |   FALLING |      HI_Z_ANALOG | \USB:Dp(0)\ | Analog(\USB:Net_1000\)
      |   7 |       |      NONE |      HI_Z_ANALOG | \USB:Dm(0)\ | Analog(\USB:Net_597\)
 ----------------------------------------------------------------------------------------
 </CYPRESSTAG>
 </CYPRESSTAG>
 </CYPRESSTAG>
-Digital component placer commit/Report: Elapsed time ==> 0s.000ms
-Digital Placement phase: Elapsed time ==> 0s.687ms
+Digital component placer commit/Report: Elapsed time ==> 0s.015ms
+Digital Placement phase: Elapsed time ==> 0s.734ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Digital Routing">
 Routing successful.
-Digital Routing phase: Elapsed time ==> 1s.016ms
+Digital Routing phase: Elapsed time ==> 1s.156ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Bitstream and API generation">
-Bitstream and API generation phase: Elapsed time ==> 0s.249ms
+Bitstream and API generation phase: Elapsed time ==> 0s.171ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Bitstream verification">
-Bitstream verification phase: Elapsed time ==> 0s.031ms
+Bitstream verification phase: Elapsed time ==> 0s.047ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Static timing analysis">
 Timing report is in MIDI_EXAMPLE_timing.html.
-Static timing analysis phase: Elapsed time ==> 0s.218ms
+Static timing analysis phase: Elapsed time ==> 0s.249ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Data reporting">
 Data reporting phase: Elapsed time ==> 0s.000ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Database update...">
-Design database save phase: Elapsed time ==> 0s.140ms
+Design database save phase: Elapsed time ==> 0s.125ms
 </CYPRESSTAG>
-cydsfit: Elapsed time ==> 2s.843ms
+cydsfit: Elapsed time ==> 2s.921ms
 </CYPRESSTAG>
-Fitter phase: Elapsed time ==> 2s.875ms
-API generation phase: Elapsed time ==> 1s.906ms
+Fitter phase: Elapsed time ==> 2s.953ms
+API generation phase: Elapsed time ==> 2s.187ms
 Dependency generation phase: Elapsed time ==> 0s.015ms
 Cleanup phase: Elapsed time ==> 0s.015ms
