@@ -104,6 +104,10 @@ int main()
 
     /* Start USBFS device 0 with VDDD operation */
     USB_Start(DEVICE, USB_DWR_VDDD_OPERATION); 
+    
+    WaveDAC8_1_Start();
+    WaveDAC8_2_Start();
+    Comp_1_Start();
    
     while(1u)
     {
@@ -248,15 +252,19 @@ void USB_callbackLocalMidiEvent(uint8 cable, uint8 *midiMsg) CYREENTRANT
             isValidKey = 0u;    
     }
     
-    uint8 oneHotKey = 1u << keyNumber;
-    uint8 currentNoteReg = MIDI_NOTES_REG_Read();
-    
+    uint8 oneHotKey = 1u << keyNumber;    
     
     if (isValidKey) {
         if (midiMsg[MIDI_MSG_TYPE] == USB_MIDI_NOTE_OFF || (midiMsg[MIDI_MSG_TYPE] == USB_MIDI_NOTE_ON && midiMsg[MIDI_NOTE_VELOCITY] == 0u)) {
-            MIDI_NOTES_REG_Write(currentNoteReg &= ~oneHotKey);
+            //MIDI_NOTES_REG_Write(oneHotKey);
+            MIDI_BIN_REG_Write(keyNumber);
+            MIDI_VALID_REG_Write(1u);
+            MIDI_NOTES_REG_Write(MIDI_NOTES_REG_Read() & ~oneHotKey);
         } else if (midiMsg[MIDI_MSG_TYPE] == USB_MIDI_NOTE_ON) {
-            MIDI_NOTES_REG_Write(currentNoteReg |= oneHotKey);
+            //MIDI_NOTES_REG_Write(0u);
+            MIDI_BIN_REG_Write(0u);
+            MIDI_VALID_REG_Write(1u);
+            MIDI_NOTES_REG_Write(MIDI_NOTES_REG_Read() | oneHotKey);
         }
     }
     
