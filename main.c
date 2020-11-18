@@ -216,21 +216,43 @@ int main()
 void USB_callbackLocalMidiEvent(uint8 cable, uint8 *midiMsg) CYREENTRANT
 {
     
-    uint8 pitchNumber = (midiMsg[MIDI_NOTE_NUMBER] + 7) % 12;
     uint8 keyNumber;
-    short isValidKey;
-    if (pitchNumber < 7) {
-        isValidKey = pitchNumber % 2 == 0;
-        keyNumber = pitchNumber / 2;
-    } else {
-        isValidKey = pitchNumber % 2 == 1;
-        keyNumber = (pitchNumber + 1)/2;
+    short isValidKey = 1u;
+    
+    switch (midiMsg[MIDI_NOTE_NUMBER]) {
+        case 53u :
+            keyNumber = 0;
+            break;
+        case 55u:
+            keyNumber = 1;
+            break;
+        case 57u :
+            keyNumber = 2;
+            break;
+        case 59u:
+            keyNumber = 3;
+            break;
+        case 60u:
+            keyNumber = 4;
+            break;
+        case 62u:
+            keyNumber = 5;
+            break;
+        case 64u:
+            keyNumber = 6;
+            break;
+        case 66u:
+            keyNumber = 7;
+            break;
+        default:
+            isValidKey = 0u;
+            
     }
     
     MSG_TYPE_REG_Write(midiMsg[MIDI_MSG_TYPE]);
     NOTE_PITCH_REG_Write(keyNumber);
     NOTE_VEL_REG_Write(midiMsg[MIDI_NOTE_VELOCITY]);
-    MSG_VALID_Write(1u);
+    MSG_VALID_Write(1u & isValidKey);
     
 //    if (midiMsg[MIDI_MSG_TYPE] == USB_MIDI_NOTE_ON) {
 //        NOTE_NUM_REG_Write(keyNumber);
