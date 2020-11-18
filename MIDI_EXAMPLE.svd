@@ -2087,7 +2087,7 @@
       </registers>
     </peripheral>
     <peripheral>
-      <name>MIDI_VALID_REG</name>
+      <name>NOTE_ON_REG</name>
       <description>No description available</description>
       <baseAddress>0x40006474</baseAddress>
       <addressBlock>
@@ -2097,7 +2097,7 @@
       </addressBlock>
       <registers>
         <register>
-          <name>MIDI_VALID_REG_CONTROL_REG</name>
+          <name>NOTE_ON_REG_CONTROL_REG</name>
           <description>No description available</description>
           <addressOffset>0x0</addressOffset>
           <size>8</size>

@@ -60,6 +60,8 @@ volatile uint8 usbActivityCounter = 0u;
 
 uint8 inqFlagsOld = 0u;
 
+uint8 currentKeyNumber = 0u;
+
 
 /*******************************************************************************
 * Function Name: SleepIsr
@@ -257,14 +259,17 @@ void USB_callbackLocalMidiEvent(uint8 cable, uint8 *midiMsg) CYREENTRANT
     if (isValidKey) {
         if (midiMsg[MIDI_MSG_TYPE] == USB_MIDI_NOTE_OFF || (midiMsg[MIDI_MSG_TYPE] == USB_MIDI_NOTE_ON && midiMsg[MIDI_NOTE_VELOCITY] == 0u)) {
             //MIDI_NOTES_REG_Write(oneHotKey);
-            MIDI_BIN_REG_Write(keyNumber);
-            MIDI_VALID_REG_Write(1u);
-            MIDI_NOTES_REG_Write(MIDI_NOTES_REG_Read() & ~oneHotKey);
+            MIDI_BIN_REG_Write(0u);
+            if (keyNumber == currentKeyNumber) {
+                NOTE_ON_REG_Write(0u);
+            }
+           // MIDI_NOTES_REG_Write(MIDI_NOTES_REG_Read() & ~oneHotKey);
         } else if (midiMsg[MIDI_MSG_TYPE] == USB_MIDI_NOTE_ON) {
             //MIDI_NOTES_REG_Write(0u);
-            MIDI_BIN_REG_Write(0u);
-            MIDI_VALID_REG_Write(1u);
-            MIDI_NOTES_REG_Write(MIDI_NOTES_REG_Read() | oneHotKey);
+            MIDI_BIN_REG_Write(keyNumber);
+            NOTE_ON_REG_Write(1u);
+            currentKeyNumber = keyNumber;
+            //MIDI_NOTES_REG_Write(MIDI_NOTES_REG_Read() | oneHotKey);
         }
     }
     

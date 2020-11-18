@@ -4,10 +4,10 @@ Initializing data phase: Elapsed time ==> 0s.000ms
 cydsfit arguments: -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -p \\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\MIDI_EXAMPLE.cyprj -d CY8C5888LTI-LP097 -s \\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\Generated_Source\PSoC5 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE</CYPRESSTAG>
 <CYPRESSTAG name="Design elaboration results...">
 </CYPRESSTAG>
-Elaboration phase: Elapsed time ==> 1s.594ms
+Elaboration phase: Elapsed time ==> 1s.624ms
 <CYPRESSTAG name="HDL generation results...">
 </CYPRESSTAG>
-HDL generation phase: Elapsed time ==> 0s.062ms
+HDL generation phase: Elapsed time ==> 0s.078ms
 <CYPRESSTAG name="Synthesis results...">
 
      | | | | | | |
@@ -41,7 +41,7 @@ Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=\\Mac\Home\Doc
 ======================================================================
 
 vlogfe V6.3 IR 41:  Verilog parser
-Tue Nov 17 23:17:32 2020
+Tue Nov 17 23:33:09 2020
 
 
 ======================================================================
@@ -51,7 +51,7 @@ Options  :    -yv2 -q10 MIDI_EXAMPLE.v
 ======================================================================
 
 vpp V6.3 IR 41:  Verilog Pre-Processor
-Tue Nov 17 23:17:32 2020
+Tue Nov 17 23:33:09 2020
 
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_80\CyControlReg_v1_80.v'
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cypress.v'
@@ -92,7 +92,7 @@ Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=\\Mac\Home\Doc
 ======================================================================
 
 tovif V6.3 IR 41:  High-level synthesis
-Tue Nov 17 23:17:32 2020
+Tue Nov 17 23:33:10 2020
 
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\std.vhd'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cypress.vhd'.
@@ -128,7 +128,7 @@ Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=\\Mac\Home\Doc
 ======================================================================
 
 topld V6.3 IR 41:  Synthesis and optimization
-Tue Nov 17 23:17:32 2020
+Tue Nov 17 23:33:10 2020
 
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\std.vhd'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cypress.vhd'.
@@ -205,14 +205,12 @@ Detecting unused logic.
 	\MIDI_BIN_REG:control_bus_3\
 	\WaveDAC8_2:Net_280\
 	\WaveDAC8_2:Net_80\
-	\demux_1:tmp__demux_1_0_reg\
-	Net_2069
 	\WaveDAC8_1:Net_280\
 	\WaveDAC8_1:Net_80\
 	\Comp_1:Net_9\
 
 
-Deleted 51 User equations/components.
+Deleted 49 User equations/components.
 Deleted 0 Synthesized equations/components.
 
 ------------------------------------------------------
@@ -220,21 +218,21 @@ Alias Detection
 ------------------------------------------------------
 Aliasing one to tmpOE__SW2_net_0
 Aliasing tmpOE__SW1_net_0 to tmpOE__SW2_net_0
-Aliasing tmpOE__LED_6_net_0 to tmpOE__SW2_net_0
-Aliasing tmpOE__LED_4_net_0 to tmpOE__SW2_net_0
 Aliasing tmpOE__LED_3_net_0 to tmpOE__SW2_net_0
-Aliasing \MIDI_VALID_REG:clk\ to zero
-Aliasing \MIDI_VALID_REG:rst\ to zero
+Aliasing tmpOE__LED_5_net_0 to tmpOE__SW2_net_0
+Aliasing tmpOE__LED_6_net_0 to tmpOE__SW2_net_0
+Aliasing \NOTE_ON_REG:clk\ to zero
+Aliasing \NOTE_ON_REG:rst\ to zero
 Aliasing \USB:tmpOE__Dm_net_0\ to tmpOE__SW2_net_0
 Aliasing \USB:tmpOE__Dp_net_0\ to tmpOE__SW2_net_0
 Aliasing \MIDI_NOTES_REG:clk\ to zero
 Aliasing \MIDI_NOTES_REG:rst\ to zero
 Aliasing \MIDI_BIN_REG:clk\ to zero
 Aliasing \MIDI_BIN_REG:rst\ to zero
-Aliasing tmpOE__LED_2_net_0 to tmpOE__SW2_net_0
-Aliasing tmpOE__LED_5_net_0 to tmpOE__SW2_net_0
 Aliasing tmpOE__LED_7_net_0 to tmpOE__SW2_net_0
-Aliasing tmpOE__LED_8_net_0 to tmpOE__SW2_net_0
+Aliasing tmpOE__LED_4_net_0 to tmpOE__SW2_net_0
+Aliasing tmpOE__LED_2_net_0 to tmpOE__SW2_net_0
+Aliasing tmpOE__LED_1_net_0 to tmpOE__SW2_net_0
 Aliasing Net_1962 to zero
 Aliasing \WaveDAC8_2:VDAC8:Net_83\ to zero
 Aliasing \WaveDAC8_2:VDAC8:Net_81\ to zero
@@ -244,19 +242,19 @@ Aliasing \WaveDAC8_1:VDAC8:Net_83\ to zero
 Aliasing \WaveDAC8_1:VDAC8:Net_81\ to zero
 Aliasing \WaveDAC8_1:VDAC8:Net_82\ to zero
 Aliasing \Comp_1:clock\ to zero
-Aliasing tmpOE__LED_1_net_0 to tmpOE__SW2_net_0
+Aliasing tmpOE__LED_8_net_0 to tmpOE__SW2_net_0
 Removing Lhs of wire one[7] = tmpOE__SW2_net_0[1]
 Removing Lhs of wire tmpOE__SW1_net_0[12] = tmpOE__SW2_net_0[1]
-Removing Lhs of wire tmpOE__LED_6_net_0[19] = tmpOE__SW2_net_0[1]
-Removing Rhs of wire Net_2001_5[20] = \demux_1:tmp__demux_1_2_reg\[253]
-Removing Lhs of wire tmpOE__LED_4_net_0[26] = tmpOE__SW2_net_0[1]
-Removing Rhs of wire Net_2002_3[27] = \demux_1:tmp__demux_1_4_reg\[255]
-Removing Lhs of wire tmpOE__LED_3_net_0[33] = tmpOE__SW2_net_0[1]
-Removing Rhs of wire Net_2003_2[34] = \demux_1:tmp__demux_1_5_reg\[256]
-Removing Lhs of wire \MIDI_VALID_REG:clk\[39] = zero[2]
-Removing Lhs of wire \MIDI_VALID_REG:rst\[40] = zero[2]
-Removing Rhs of wire Net_2068[41] = \MIDI_VALID_REG:control_out_0\[42]
-Removing Rhs of wire Net_2068[41] = \MIDI_VALID_REG:control_0\[65]
+Removing Lhs of wire tmpOE__LED_3_net_0[19] = tmpOE__SW2_net_0[1]
+Removing Rhs of wire Net_2001[20] = \demux_1:tmp__demux_1_2_reg\[254]
+Removing Lhs of wire tmpOE__LED_5_net_0[26] = tmpOE__SW2_net_0[1]
+Removing Rhs of wire Net_2002[27] = \demux_1:tmp__demux_1_4_reg\[256]
+Removing Lhs of wire tmpOE__LED_6_net_0[33] = tmpOE__SW2_net_0[1]
+Removing Rhs of wire Net_2003[34] = \demux_1:tmp__demux_1_5_reg\[257]
+Removing Lhs of wire \NOTE_ON_REG:clk\[39] = zero[2]
+Removing Lhs of wire \NOTE_ON_REG:rst\[40] = zero[2]
+Removing Rhs of wire Net_2068[41] = \NOTE_ON_REG:control_out_0\[42]
+Removing Rhs of wire Net_2068[41] = \NOTE_ON_REG:control_0\[65]
 Removing Lhs of wire \USB:tmpOE__Dm_net_0\[69] = tmpOE__SW2_net_0[1]
 Removing Lhs of wire \USB:tmpOE__Dp_net_0\[76] = tmpOE__SW2_net_0[1]
 Removing Lhs of wire \MIDI_NOTES_REG:clk\[131] = zero[2]
@@ -269,14 +267,14 @@ Removing Rhs of wire Net_1997_1[172] = \MIDI_BIN_REG:control_out_1\[173]
 Removing Rhs of wire Net_1997_1[172] = \MIDI_BIN_REG:control_1\[183]
 Removing Rhs of wire Net_1997_0[174] = \MIDI_BIN_REG:control_out_0\[175]
 Removing Rhs of wire Net_1997_0[174] = \MIDI_BIN_REG:control_0\[184]
-Removing Lhs of wire tmpOE__LED_2_net_0[186] = tmpOE__SW2_net_0[1]
-Removing Rhs of wire Net_2004_1[187] = \demux_1:tmp__demux_1_6_reg\[257]
-Removing Lhs of wire tmpOE__LED_5_net_0[193] = tmpOE__SW2_net_0[1]
-Removing Rhs of wire Net_1478_4[194] = \demux_1:tmp__demux_1_3_reg\[254]
-Removing Lhs of wire tmpOE__LED_7_net_0[200] = tmpOE__SW2_net_0[1]
-Removing Rhs of wire Net_1999_6[201] = \demux_1:tmp__demux_1_1_reg\[252]
-Removing Lhs of wire tmpOE__LED_8_net_0[207] = tmpOE__SW2_net_0[1]
-Removing Rhs of wire Net_2067[208] = \Comp_1:Net_1\[294]
+Removing Lhs of wire tmpOE__LED_7_net_0[186] = tmpOE__SW2_net_0[1]
+Removing Rhs of wire Net_2004[187] = \demux_1:tmp__demux_1_6_reg\[258]
+Removing Lhs of wire tmpOE__LED_4_net_0[193] = tmpOE__SW2_net_0[1]
+Removing Rhs of wire Net_1478[194] = \demux_1:tmp__demux_1_3_reg\[255]
+Removing Lhs of wire tmpOE__LED_2_net_0[200] = tmpOE__SW2_net_0[1]
+Removing Rhs of wire Net_1999[201] = \demux_1:tmp__demux_1_1_reg\[253]
+Removing Lhs of wire tmpOE__LED_1_net_0[207] = tmpOE__SW2_net_0[1]
+Removing Rhs of wire Net_1996[208] = \demux_1:tmp__demux_1_0_reg\[252]
 Removing Lhs of wire Net_1962[215] = zero[2]
 Removing Rhs of wire \WaveDAC8_2:Net_183\[226] = \WaveDAC8_2:demux:tmp__demux_0_reg\[231]
 Removing Rhs of wire \WaveDAC8_2:Net_107\[229] = \WaveDAC8_2:demux:tmp__demux_1_reg\[234]
@@ -286,7 +284,8 @@ Removing Lhs of wire \WaveDAC8_2:VDAC8:Net_83\[236] = zero[2]
 Removing Lhs of wire \WaveDAC8_2:VDAC8:Net_81\[237] = zero[2]
 Removing Lhs of wire \WaveDAC8_2:VDAC8:Net_82\[238] = zero[2]
 Removing Lhs of wire Net_1968[247] = zero[2]
-Removing Rhs of wire Net_2000_0[260] = \demux_1:tmp__demux_1_7_reg\[258]
+Removing Rhs of wire Net_2070[251] = \Comp_1:Net_1\[294]
+Removing Rhs of wire Net_2000[260] = \demux_1:tmp__demux_1_7_reg\[259]
 Removing Rhs of wire \WaveDAC8_1:Net_183\[271] = \WaveDAC8_1:demux:tmp__demux_0_reg\[276]
 Removing Rhs of wire \WaveDAC8_1:Net_107\[274] = \WaveDAC8_1:demux:tmp__demux_1_reg\[279]
 Removing Rhs of wire \WaveDAC8_1:Net_134\[277] = \WaveDAC8_1:cydff_1\[291]
@@ -295,12 +294,12 @@ Removing Lhs of wire \WaveDAC8_1:VDAC8:Net_83\[281] = zero[2]
 Removing Lhs of wire \WaveDAC8_1:VDAC8:Net_81\[282] = zero[2]
 Removing Lhs of wire \WaveDAC8_1:VDAC8:Net_82\[283] = zero[2]
 Removing Lhs of wire \Comp_1:clock\[293] = zero[2]
-Removing Lhs of wire tmpOE__LED_1_net_0[297] = tmpOE__SW2_net_0[1]
+Removing Lhs of wire tmpOE__LED_8_net_0[297] = tmpOE__SW2_net_0[1]
 Removing Lhs of wire \WaveDAC8_2:cydff_1\\D\[302] = zero[2]
 Removing Lhs of wire \WaveDAC8_1:cydff_1\\D\[303] = zero[2]
 
 ------------------------------------------------------
-Aliased 0 equations, 53 wires.
+Aliased 0 equations, 54 wires.
 ------------------------------------------------------
 
 ----------------------------------------------------------
@@ -309,8 +308,8 @@ Circuit simplification
 
 Substituting virtuals - pass 1:
 
-Note:  Expanding virtual equation for 'Net_1996' (cost = 7):
-Net_1996 <= ((Net_2068 and Net_2067));
+Note:  Expanding virtual equation for 'Net_2071' (cost = 8):
+Net_2071 <= ((Net_2068 and Net_2070));
 
 
 Substituting virtuals - pass 2:
@@ -344,10 +343,10 @@ CYPRESS_DIR    : C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\wa
 Warp Program   : C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\bin/warp.exe
 Warp Arguments : -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya "-.fftprj=\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\MIDI_EXAMPLE.cyprj" -dcpsoc3 MIDI_EXAMPLE.v -verilog
 </CYPRESSTAG>
-Warp synthesis phase: Elapsed time ==> 0s.640ms
+Warp synthesis phase: Elapsed time ==> 0s.609ms
 <CYPRESSTAG name="Fitter results...">
 <CYPRESSTAG name="Fitter startup details...">
-cyp3fit: V3.3.0.9604, Family: PSoC3, Started at: Tuesday, 17 November 2020 23:17:32
+cyp3fit: V3.3.0.9604, Family: PSoC3, Started at: Tuesday, 17 November 2020 23:33:10
 Options: -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\MIDI_EXAMPLE.cyprj -d CY8C5888LTI-LP097 MIDI_EXAMPLE.v -verilog
 </CYPRESSTAG>
 <CYPRESSTAG name="Design parsing">
@@ -468,86 +467,6 @@ Design Equations
         {
         }
 
-    Pin : Name = LED_6(0)
-        Attributes:
-            In Group/Port: True
-            In Sync Option: AUTO
-            Out Sync Option: NOSYNC
-            Interrupt generated: False
-            Interrupt mode: NONE
-            Drive mode: CMOS_OUT
-            VTrip: EITHER
-            Slew: FAST
-            Input Sync needed: False
-            Output Sync needed: False
-            SC shield enabled: False
-            POR State: ANY
-            LCD Mode: COMMON
-            Register Mode: RegComb
-            CaSense Mode: NEITHER
-            Treat as pin: True
-            Is OE Registered: False
-            Uses Analog: False
-            Can contain Digital: True
-            Is SIO: False
-            SIO Output Buf: NONREGULATED
-            SIO Input Buf: SINGLE_ENDED
-            SIO HiFreq: LOW
-            SIO Hyst: DISABLED
-            SIO Vtrip: MULTIPLIER_0_5
-            SIO Multiplier Index: 0
-            SIO RefSel: VCC_IO
-            Required Capabilitites: DIGITAL, ROUTABLE
-            Initial Value: 0
-            IO Voltage: 0
-        PORT MAP (
-            pa_out => LED_6(0)__PA ,
-            input => Net_2001_5 ,
-            pad => LED_6(0)_PAD );
-        Properties:
-        {
-        }
-
-    Pin : Name = LED_4(0)
-        Attributes:
-            In Group/Port: True
-            In Sync Option: AUTO
-            Out Sync Option: NOSYNC
-            Interrupt generated: False
-            Interrupt mode: NONE
-            Drive mode: CMOS_OUT
-            VTrip: EITHER
-            Slew: FAST
-            Input Sync needed: False
-            Output Sync needed: False
-            SC shield enabled: False
-            POR State: ANY
-            LCD Mode: COMMON
-            Register Mode: RegComb
-            CaSense Mode: NEITHER
-            Treat as pin: True
-            Is OE Registered: False
-            Uses Analog: False
-            Can contain Digital: True
-            Is SIO: False
-            SIO Output Buf: NONREGULATED
-            SIO Input Buf: SINGLE_ENDED
-            SIO HiFreq: LOW
-            SIO Hyst: DISABLED
-            SIO Vtrip: MULTIPLIER_0_5
-            SIO Multiplier Index: 0
-            SIO RefSel: VCC_IO
-            Required Capabilitites: DIGITAL, ROUTABLE
-            Initial Value: 0
-            IO Voltage: 0
-        PORT MAP (
-            pa_out => LED_4(0)__PA ,
-            input => Net_2002_3 ,
-            pad => LED_4(0)_PAD );
-        Properties:
-        {
-        }
-
     Pin : Name = LED_3(0)
         Attributes:
             In Group/Port: True
@@ -582,8 +501,88 @@ Design Equations
             IO Voltage: 0
         PORT MAP (
             pa_out => LED_3(0)__PA ,
-            input => Net_2003_2 ,
+            input => Net_2001 ,
             pad => LED_3(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = LED_5(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilitites: DIGITAL, ROUTABLE
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => LED_5(0)__PA ,
+            input => Net_2002 ,
+            pad => LED_5(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = LED_6(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilitites: DIGITAL, ROUTABLE
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => LED_6(0)__PA ,
+            input => Net_2003 ,
+            pad => LED_6(0)_PAD );
         Properties:
         {
         }
@@ -662,86 +661,6 @@ Design Equations
             analog_term => \USB:Net_1000\ ,
             pad => \USB:Dp(0)_PAD\ );
 
-    Pin : Name = LED_2(0)
-        Attributes:
-            In Group/Port: True
-            In Sync Option: AUTO
-            Out Sync Option: NOSYNC
-            Interrupt generated: False
-            Interrupt mode: NONE
-            Drive mode: CMOS_OUT
-            VTrip: EITHER
-            Slew: FAST
-            Input Sync needed: False
-            Output Sync needed: False
-            SC shield enabled: False
-            POR State: ANY
-            LCD Mode: COMMON
-            Register Mode: RegComb
-            CaSense Mode: NEITHER
-            Treat as pin: True
-            Is OE Registered: False
-            Uses Analog: False
-            Can contain Digital: True
-            Is SIO: False
-            SIO Output Buf: NONREGULATED
-            SIO Input Buf: SINGLE_ENDED
-            SIO HiFreq: LOW
-            SIO Hyst: DISABLED
-            SIO Vtrip: MULTIPLIER_0_5
-            SIO Multiplier Index: 0
-            SIO RefSel: VCC_IO
-            Required Capabilitites: DIGITAL, ROUTABLE
-            Initial Value: 0
-            IO Voltage: 0
-        PORT MAP (
-            pa_out => LED_2(0)__PA ,
-            input => Net_2004_1 ,
-            pad => LED_2(0)_PAD );
-        Properties:
-        {
-        }
-
-    Pin : Name = LED_5(0)
-        Attributes:
-            In Group/Port: True
-            In Sync Option: AUTO
-            Out Sync Option: NOSYNC
-            Interrupt generated: False
-            Interrupt mode: NONE
-            Drive mode: CMOS_OUT
-            VTrip: EITHER
-            Slew: FAST
-            Input Sync needed: False
-            Output Sync needed: False
-            SC shield enabled: False
-            POR State: ANY
-            LCD Mode: COMMON
-            Register Mode: RegComb
-            CaSense Mode: NEITHER
-            Treat as pin: True
-            Is OE Registered: False
-            Uses Analog: False
-            Can contain Digital: True
-            Is SIO: False
-            SIO Output Buf: NONREGULATED
-            SIO Input Buf: SINGLE_ENDED
-            SIO HiFreq: LOW
-            SIO Hyst: DISABLED
-            SIO Vtrip: MULTIPLIER_0_5
-            SIO Multiplier Index: 0
-            SIO RefSel: VCC_IO
-            Required Capabilitites: DIGITAL, ROUTABLE
-            Initial Value: 0
-            IO Voltage: 0
-        PORT MAP (
-            pa_out => LED_5(0)__PA ,
-            input => Net_1478_4 ,
-            pad => LED_5(0)_PAD );
-        Properties:
-        {
-        }
-
     Pin : Name = LED_7(0)
         Attributes:
             In Group/Port: True
@@ -776,13 +695,13 @@ Design Equations
             IO Voltage: 0
         PORT MAP (
             pa_out => LED_7(0)__PA ,
-            input => Net_1999_6 ,
+            input => Net_2004 ,
             pad => LED_7(0)_PAD );
         Properties:
         {
         }
 
-    Pin : Name = LED_8(0)
+    Pin : Name = LED_4(0)
         Attributes:
             In Group/Port: True
             In Sync Option: AUTO
@@ -815,9 +734,49 @@ Design Equations
             Initial Value: 0
             IO Voltage: 0
         PORT MAP (
-            pa_out => LED_8(0)__PA ,
-            input => Net_2067 ,
-            pad => LED_8(0)_PAD );
+            pa_out => LED_4(0)__PA ,
+            input => Net_1478 ,
+            pad => LED_4(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = LED_2(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilitites: DIGITAL, ROUTABLE
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => LED_2(0)__PA ,
+            input => Net_1999 ,
+            pad => LED_2(0)_PAD );
         Properties:
         {
         }
@@ -856,8 +815,48 @@ Design Equations
             IO Voltage: 0
         PORT MAP (
             pa_out => LED_1(0)__PA ,
-            input => Net_2000_0 ,
+            input => Net_1996 ,
             pad => LED_1(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = LED_8(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilitites: DIGITAL, ROUTABLE
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => LED_8(0)__PA ,
+            input => Net_2000 ,
+            pad => LED_8(0)_PAD );
         Properties:
         {
         }
@@ -868,75 +867,85 @@ Design Equations
     Macrocell listing
     ------------------------------------------------------------
 
-    MacroCell: Name=Net_1999_6, Mode=(Combinatorial)
+    MacroCell: Name=Net_1996, Mode=(Combinatorial)
         Total # of inputs        : 5
         Total # of product terms : 1
             Clock Enable: True
         Main Equation            : 1 pterm
         (
-              Net_2068 * !Net_1997_2 * !Net_1997_1 * Net_1997_0 * Net_2067
+              Net_2068 * !Net_1997_2 * !Net_1997_1 * !Net_1997_0 * Net_2070
         );
-        Output = Net_1999_6 (fanout=1)
+        Output = Net_1996 (fanout=1)
 
-    MacroCell: Name=Net_2001_5, Mode=(Combinatorial)
+    MacroCell: Name=Net_1999, Mode=(Combinatorial)
         Total # of inputs        : 5
         Total # of product terms : 1
             Clock Enable: True
         Main Equation            : 1 pterm
         (
-              Net_2068 * !Net_1997_2 * Net_1997_1 * !Net_1997_0 * Net_2067
+              Net_2068 * !Net_1997_2 * !Net_1997_1 * Net_1997_0 * Net_2070
         );
-        Output = Net_2001_5 (fanout=1)
+        Output = Net_1999 (fanout=1)
 
-    MacroCell: Name=Net_1478_4, Mode=(Combinatorial)
+    MacroCell: Name=Net_2001, Mode=(Combinatorial)
         Total # of inputs        : 5
         Total # of product terms : 1
             Clock Enable: True
         Main Equation            : 1 pterm
         (
-              Net_2068 * !Net_1997_2 * Net_1997_1 * Net_1997_0 * Net_2067
+              Net_2068 * !Net_1997_2 * Net_1997_1 * !Net_1997_0 * Net_2070
         );
-        Output = Net_1478_4 (fanout=1)
+        Output = Net_2001 (fanout=1)
 
-    MacroCell: Name=Net_2002_3, Mode=(Combinatorial)
+    MacroCell: Name=Net_1478, Mode=(Combinatorial)
         Total # of inputs        : 5
         Total # of product terms : 1
             Clock Enable: True
         Main Equation            : 1 pterm
         (
-              Net_2068 * Net_1997_2 * !Net_1997_1 * !Net_1997_0 * Net_2067
+              Net_2068 * !Net_1997_2 * Net_1997_1 * Net_1997_0 * Net_2070
         );
-        Output = Net_2002_3 (fanout=1)
+        Output = Net_1478 (fanout=1)
 
-    MacroCell: Name=Net_2003_2, Mode=(Combinatorial)
+    MacroCell: Name=Net_2002, Mode=(Combinatorial)
         Total # of inputs        : 5
         Total # of product terms : 1
             Clock Enable: True
         Main Equation            : 1 pterm
         (
-              Net_2068 * Net_1997_2 * !Net_1997_1 * Net_1997_0 * Net_2067
+              Net_2068 * Net_1997_2 * !Net_1997_1 * !Net_1997_0 * Net_2070
         );
-        Output = Net_2003_2 (fanout=1)
+        Output = Net_2002 (fanout=1)
 
-    MacroCell: Name=Net_2004_1, Mode=(Combinatorial)
+    MacroCell: Name=Net_2003, Mode=(Combinatorial)
         Total # of inputs        : 5
         Total # of product terms : 1
             Clock Enable: True
         Main Equation            : 1 pterm
         (
-              Net_2068 * Net_1997_2 * Net_1997_1 * !Net_1997_0 * Net_2067
+              Net_2068 * Net_1997_2 * !Net_1997_1 * Net_1997_0 * Net_2070
         );
-        Output = Net_2004_1 (fanout=1)
+        Output = Net_2003 (fanout=1)
 
-    MacroCell: Name=Net_2000_0, Mode=(Combinatorial)
+    MacroCell: Name=Net_2004, Mode=(Combinatorial)
         Total # of inputs        : 5
         Total # of product terms : 1
             Clock Enable: True
         Main Equation            : 1 pterm
         (
-              Net_2068 * Net_1997_2 * Net_1997_1 * Net_1997_0 * Net_2067
+              Net_2068 * Net_1997_2 * Net_1997_1 * !Net_1997_0 * Net_2070
         );
-        Output = Net_2000_0 (fanout=1)
+        Output = Net_2004 (fanout=1)
+
+    MacroCell: Name=Net_2000, Mode=(Combinatorial)
+        Total # of inputs        : 5
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_2068 * Net_1997_2 * Net_1997_1 * Net_1997_0 * Net_2070
+        );
+        Output = Net_2000 (fanout=1)
     </CYPRESSTAG>
     <CYPRESSTAG name="Datapath listing">
     </CYPRESSTAG>
@@ -952,15 +961,15 @@ Design Equations
     Control register listing
     ------------------------------------------------------------
 
-    controlcell: Name =\MIDI_VALID_REG:Sync:ctrl_reg\
+    controlcell: Name =\NOTE_ON_REG:Sync:ctrl_reg\
         PORT MAP (
-            control_7 => \MIDI_VALID_REG:control_7\ ,
-            control_6 => \MIDI_VALID_REG:control_6\ ,
-            control_5 => \MIDI_VALID_REG:control_5\ ,
-            control_4 => \MIDI_VALID_REG:control_4\ ,
-            control_3 => \MIDI_VALID_REG:control_3\ ,
-            control_2 => \MIDI_VALID_REG:control_2\ ,
-            control_1 => \MIDI_VALID_REG:control_1\ ,
+            control_7 => \NOTE_ON_REG:control_7\ ,
+            control_6 => \NOTE_ON_REG:control_6\ ,
+            control_5 => \NOTE_ON_REG:control_5\ ,
+            control_4 => \NOTE_ON_REG:control_4\ ,
+            control_3 => \NOTE_ON_REG:control_3\ ,
+            control_2 => \NOTE_ON_REG:control_2\ ,
+            control_1 => \NOTE_ON_REG:control_1\ ,
             control_0 => Net_2068 );
         Properties:
         {
@@ -1134,9 +1143,9 @@ USB                           :    1 :    0 :    1 : 100.00 %
 DMA Channels                  :    4 :   20 :   24 : 16.67 %
 Timer                         :    0 :    4 :    4 :  0.00 %
 UDB                           :      :      :      :        
-  Macrocells                  :    7 :  185 :  192 :  3.65 %
-  Unique P-terms              :    7 :  377 :  384 :  1.82 %
-  Total P-terms               :    7 :      :      :        
+  Macrocells                  :    8 :  184 :  192 :  4.17 %
+  Unique P-terms              :    8 :  376 :  384 :  2.08 %
+  Total P-terms               :    8 :      :      :        
   Datapath Cells              :    0 :   24 :   24 :  0.00 %
   Status Cells                :    0 :   24 :   24 :  0.00 %
   Control Cells               :    2 :   22 :   24 :  8.33 %
@@ -1150,11 +1159,11 @@ Analog (SC/CT) Blocks         :    0 :    4 :    4 :  0.00 %
 DAC                           :      :      :      :        
   VIDAC                       :    2 :    2 :    4 : 50.00 %
 </CYPRESSTAG>
-Technology Mapping: Elapsed time ==> 0s.015ms
+Technology Mapping: Elapsed time ==> 0s.000ms
 ADD: mpr.M0037: information: Unused pieces of the design have been optimized out. See the Tech mapping section of the report file for details.
  * \\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\codegentemp\MIDI_EXAMPLE.rpt (Tech mapping)
 
-Tech mapping phase: Elapsed time ==> 0s.093ms
+Tech mapping phase: Elapsed time ==> 0s.078ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Placement">
 Initial Analog Placement Results:
@@ -1195,10 +1204,10 @@ USB[0]@[FFB(USB,0)] : \USB:USB\
 VIDAC[3]@[FFB(VIDAC,3)] : \WaveDAC8_1:VDAC8:viDAC8\
 VIDAC[1]@[FFB(VIDAC,1)] : \WaveDAC8_2:VDAC8:viDAC8\
 
-Analog Placement phase: Elapsed time ==> 0s.578ms
+Analog Placement phase: Elapsed time ==> 0s.546ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Routing">
-Analog Routing phase: Elapsed time ==> 0s.015ms
+Analog Routing phase: Elapsed time ==> 0s.000ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Code Generation">
 ============ Analog Final Answer Routes ============
@@ -1241,7 +1250,7 @@ Dump of CyP35AnalogRoutingResultsDB
 IsVddaHalfUsedForComp = False
 IsVddaHalfUsedForSar0 = False
 IsVddaHalfUsedForSar1 = False
-Analog Code Generation phase: Elapsed time ==> 0s.343ms
+Analog Code Generation phase: Elapsed time ==> 0s.358ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Digital Placement">
 <CYPRESSTAG name="Detailed placement messages">
@@ -1264,8 +1273,8 @@ PLD Packing Summary
         PLD Resource Type :     Average/LAB
     =======================================
                    Inputs :            5.00
-                   Pterms :            3.50
-               Macrocells :            3.50
+                   Pterms :            4.00
+               Macrocells :            4.00
 </CYPRESSTAG>
 <CYPRESSTAG name="Packed PLD Contents">
 Packed PLD Contents not displayed at this verbose level.</CYPRESSTAG>
@@ -1277,13 +1286,13 @@ PLD Packing: Elapsed time ==> 0s.000ms
 Initial Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
 <CYPRESSTAG name="Final Partitioning Summary">
 Final Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
-Partitioning: Elapsed time ==> 0s.015ms
+Partitioning: Elapsed time ==> 0s.032ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Simulated Annealing">
-Annealing: Elapsed time ==> 0s.016ms
+Annealing: Elapsed time ==> 0s.000ms
 <CYPRESSTAG name="Simulated Annealing Results">
 The seed used for moves was 114161200.
-Inital cost was 228, final cost is 228 (0.00% improvement).</CYPRESSTAG>
+Inital cost was 225, final cost is 225 (0.00% improvement).</CYPRESSTAG>
 </CYPRESSTAG>
 <CYPRESSTAG name="Final Placement Summary">
 
@@ -1293,7 +1302,7 @@ Final Placement Summary
 
        Resource Type :      Count : Avg Inputs : Avg Outputs
     ========================================================
-                 UDB :          2 :       2.50 :       3.50
+                 UDB :          2 :       2.50 :       4.00
 <CYPRESSTAG name="Final Placement Details">
 <CYPRESSTAG name="Component Details">
 
@@ -1316,15 +1325,15 @@ UDB [UDB=(2,0)] is empty.
 UDB [UDB=(2,1)] is empty.
 UDB [UDB=(2,2)] is empty.
 UDB [UDB=(2,3)] contents:
-controlcell: Name =\MIDI_VALID_REG:Sync:ctrl_reg\
+controlcell: Name =\NOTE_ON_REG:Sync:ctrl_reg\
     PORT MAP (
-        control_7 => \MIDI_VALID_REG:control_7\ ,
-        control_6 => \MIDI_VALID_REG:control_6\ ,
-        control_5 => \MIDI_VALID_REG:control_5\ ,
-        control_4 => \MIDI_VALID_REG:control_4\ ,
-        control_3 => \MIDI_VALID_REG:control_3\ ,
-        control_2 => \MIDI_VALID_REG:control_2\ ,
-        control_1 => \MIDI_VALID_REG:control_1\ ,
+        control_7 => \NOTE_ON_REG:control_7\ ,
+        control_6 => \NOTE_ON_REG:control_6\ ,
+        control_5 => \NOTE_ON_REG:control_5\ ,
+        control_4 => \NOTE_ON_REG:control_4\ ,
+        control_3 => \NOTE_ON_REG:control_3\ ,
+        control_2 => \NOTE_ON_REG:control_2\ ,
+        control_1 => \NOTE_ON_REG:control_1\ ,
         control_0 => Net_2068 );
     Properties:
     {
@@ -1344,101 +1353,112 @@ UDB [UDB=(3,2)] is empty.
 UDB [UDB=(3,3)] contents:
 LAB@[UDB=(3,3)][LB=0] #macrocells=4, #inputs=5, #pterms=4
 {
-    [McSlotId=0]:     MacroCell: Name=Net_2002_3, Mode=(Combinatorial) @ [UDB=(3,3)][LB=0][MC=0]
+    [McSlotId=0]:     MacroCell: Name=Net_2000, Mode=(Combinatorial) @ [UDB=(3,3)][LB=0][MC=0]
         Total # of inputs        : 5
         Total # of product terms : 1
             Clock Enable: True
         Main Equation            : 1 pterm
         (
-              Net_2068 * Net_1997_2 * !Net_1997_1 * !Net_1997_0 * Net_2067
+              Net_2068 * Net_1997_2 * Net_1997_1 * Net_1997_0 * Net_2070
         );
-        Output = Net_2002_3 (fanout=1)
+        Output = Net_2000 (fanout=1)
         Properties               : 
         {
         }
 
-    [McSlotId=1]:     MacroCell: Name=Net_1478_4, Mode=(Combinatorial) @ [UDB=(3,3)][LB=0][MC=1]
+    [McSlotId=1]:     MacroCell: Name=Net_1478, Mode=(Combinatorial) @ [UDB=(3,3)][LB=0][MC=1]
         Total # of inputs        : 5
         Total # of product terms : 1
             Clock Enable: True
         Main Equation            : 1 pterm
         (
-              Net_2068 * !Net_1997_2 * Net_1997_1 * Net_1997_0 * Net_2067
+              Net_2068 * !Net_1997_2 * Net_1997_1 * Net_1997_0 * Net_2070
         );
-        Output = Net_1478_4 (fanout=1)
+        Output = Net_1478 (fanout=1)
         Properties               : 
         {
         }
 
-    [McSlotId=2]:     MacroCell: Name=Net_1999_6, Mode=(Combinatorial) @ [UDB=(3,3)][LB=0][MC=2]
+    [McSlotId=2]:     MacroCell: Name=Net_1996, Mode=(Combinatorial) @ [UDB=(3,3)][LB=0][MC=2]
         Total # of inputs        : 5
         Total # of product terms : 1
             Clock Enable: True
         Main Equation            : 1 pterm
         (
-              Net_2068 * !Net_1997_2 * !Net_1997_1 * Net_1997_0 * Net_2067
+              Net_2068 * !Net_1997_2 * !Net_1997_1 * !Net_1997_0 * Net_2070
         );
-        Output = Net_1999_6 (fanout=1)
+        Output = Net_1996 (fanout=1)
         Properties               : 
         {
         }
 
-    [McSlotId=3]:     MacroCell: Name=Net_2000_0, Mode=(Combinatorial) @ [UDB=(3,3)][LB=0][MC=3]
+    [McSlotId=3]:     MacroCell: Name=Net_1999, Mode=(Combinatorial) @ [UDB=(3,3)][LB=0][MC=3]
         Total # of inputs        : 5
         Total # of product terms : 1
             Clock Enable: True
         Main Equation            : 1 pterm
         (
-              Net_2068 * Net_1997_2 * Net_1997_1 * Net_1997_0 * Net_2067
+              Net_2068 * !Net_1997_2 * !Net_1997_1 * Net_1997_0 * Net_2070
         );
-        Output = Net_2000_0 (fanout=1)
+        Output = Net_1999 (fanout=1)
         Properties               : 
         {
         }
 }
 
-LAB@[UDB=(3,3)][LB=1] #macrocells=3, #inputs=5, #pterms=3
+LAB@[UDB=(3,3)][LB=1] #macrocells=4, #inputs=5, #pterms=4
 {
-    [McSlotId=0]:     MacroCell: Name=Net_2001_5, Mode=(Combinatorial) @ [UDB=(3,3)][LB=1][MC=0]
+    [McSlotId=0]:     MacroCell: Name=Net_2001, Mode=(Combinatorial) @ [UDB=(3,3)][LB=1][MC=0]
         Total # of inputs        : 5
         Total # of product terms : 1
             Clock Enable: True
         Main Equation            : 1 pterm
         (
-              Net_2068 * !Net_1997_2 * Net_1997_1 * !Net_1997_0 * Net_2067
+              Net_2068 * !Net_1997_2 * Net_1997_1 * !Net_1997_0 * Net_2070
         );
-        Output = Net_2001_5 (fanout=1)
+        Output = Net_2001 (fanout=1)
         Properties               : 
         {
         }
 
-    [McSlotId=1]:     MacroCell: Name=Net_2003_2, Mode=(Combinatorial) @ [UDB=(3,3)][LB=1][MC=1]
+    [McSlotId=1]:     MacroCell: Name=Net_2002, Mode=(Combinatorial) @ [UDB=(3,3)][LB=1][MC=1]
         Total # of inputs        : 5
         Total # of product terms : 1
             Clock Enable: True
         Main Equation            : 1 pterm
         (
-              Net_2068 * Net_1997_2 * !Net_1997_1 * Net_1997_0 * Net_2067
+              Net_2068 * Net_1997_2 * !Net_1997_1 * !Net_1997_0 * Net_2070
         );
-        Output = Net_2003_2 (fanout=1)
+        Output = Net_2002 (fanout=1)
         Properties               : 
         {
         }
 
-    [McSlotId=2]:     MacroCell: Name=Net_2004_1, Mode=(Combinatorial) @ [UDB=(3,3)][LB=1][MC=2]
+    [McSlotId=2]:     MacroCell: Name=Net_2003, Mode=(Combinatorial) @ [UDB=(3,3)][LB=1][MC=2]
         Total # of inputs        : 5
         Total # of product terms : 1
             Clock Enable: True
         Main Equation            : 1 pterm
         (
-              Net_2068 * Net_1997_2 * Net_1997_1 * !Net_1997_0 * Net_2067
+              Net_2068 * Net_1997_2 * !Net_1997_1 * Net_1997_0 * Net_2070
         );
-        Output = Net_2004_1 (fanout=1)
+        Output = Net_2003 (fanout=1)
         Properties               : 
         {
         }
 
-    [McSlotId=3]: (empty)
+    [McSlotId=3]:     MacroCell: Name=Net_2004, Mode=(Combinatorial) @ [UDB=(3,3)][LB=1][MC=3]
+        Total # of inputs        : 5
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_2068 * Net_1997_2 * Net_1997_1 * !Net_1997_0 * Net_2070
+        );
+        Output = Net_2004 (fanout=1)
+        Properties               : 
+        {
+        }
 }
 
 controlcell: Name =\MIDI_BIN_REG:Sync:ctrl_reg\
@@ -1607,7 +1627,7 @@ Pin : Name = LED_4(0)
         IO Voltage: 0
     PORT MAP (
         pa_out => LED_4(0)__PA ,
-        input => Net_2002_3 ,
+        input => Net_1478 ,
         pad => LED_4(0)_PAD );
     Properties:
     {
@@ -1648,7 +1668,7 @@ Pin : Name = LED_5(0)
         IO Voltage: 0
     PORT MAP (
         pa_out => LED_5(0)__PA ,
-        input => Net_1478_4 ,
+        input => Net_2002 ,
         pad => LED_5(0)_PAD );
     Properties:
     {
@@ -1689,7 +1709,7 @@ Pin : Name = LED_6(0)
         IO Voltage: 0
     PORT MAP (
         pa_out => LED_6(0)__PA ,
-        input => Net_2001_5 ,
+        input => Net_2003 ,
         pad => LED_6(0)_PAD );
     Properties:
     {
@@ -1730,7 +1750,7 @@ Pin : Name = LED_7(0)
         IO Voltage: 0
     PORT MAP (
         pa_out => LED_7(0)__PA ,
-        input => Net_1999_6 ,
+        input => Net_2004 ,
         pad => LED_7(0)_PAD );
     Properties:
     {
@@ -1771,7 +1791,7 @@ Pin : Name = LED_8(0)
         IO Voltage: 0
     PORT MAP (
         pa_out => LED_8(0)__PA ,
-        input => Net_2067 ,
+        input => Net_2000 ,
         pad => LED_8(0)_PAD );
     Properties:
     {
@@ -1966,7 +1986,7 @@ Pin : Name = LED_1(0)
         IO Voltage: 0
     PORT MAP (
         pa_out => LED_1(0)__PA ,
-        input => Net_2000_0 ,
+        input => Net_1996 ,
         pad => LED_1(0)_PAD );
     Properties:
     {
@@ -2007,7 +2027,7 @@ Pin : Name = LED_2(0)
         IO Voltage: 0
     PORT MAP (
         pa_out => LED_2(0)__PA ,
-        input => Net_2004_1 ,
+        input => Net_1999 ,
         pad => LED_2(0)_PAD );
     Properties:
     {
@@ -2048,7 +2068,7 @@ Pin : Name = LED_3(0)
         IO Voltage: 0
     PORT MAP (
         pa_out => LED_3(0)__PA ,
-        input => Net_2003_2 ,
+        input => Net_2001 ,
         pad => LED_3(0)_PAD );
     Properties:
     {
@@ -2167,7 +2187,7 @@ Comparator group 0:
         PORT MAP (
             vplus => Net_1976 ,
             vminus => Net_1978 ,
-            out => Net_2067 );
+            out => Net_2070 );
         Properties:
         {
             cy_registers = ""
@@ -2261,18 +2281,18 @@ Port Configuration report
      |     |       | Interrupt |                  |             | 
 Port | Pin | Fixed |      Type |       Drive Mode |        Name | Connections
 -----+-----+-------+-----------+------------------+-------------+-----------------------
-   0 |   0 |     * |      NONE |         CMOS_OUT |    LED_4(0) | In(Net_2002_3)
-     |   1 |     * |      NONE |         CMOS_OUT |    LED_5(0) | In(Net_1478_4)
-     |   5 |     * |      NONE |         CMOS_OUT |    LED_6(0) | In(Net_2001_5)
-     |   6 |     * |      NONE |         CMOS_OUT |    LED_7(0) | In(Net_1999_6)
-     |   7 |     * |      NONE |         CMOS_OUT |    LED_8(0) | In(Net_2067)
+   0 |   0 |     * |      NONE |         CMOS_OUT |    LED_4(0) | In(Net_1478)
+     |   1 |     * |      NONE |         CMOS_OUT |    LED_5(0) | In(Net_2002)
+     |   5 |     * |      NONE |         CMOS_OUT |    LED_6(0) | In(Net_2003)
+     |   6 |     * |      NONE |         CMOS_OUT |    LED_7(0) | In(Net_2004)
+     |   7 |     * |      NONE |         CMOS_OUT |    LED_8(0) | In(Net_2000)
 -----+-----+-------+-----------+------------------+-------------+-----------------------
    2 |   3 |     * |      NONE |    RES_PULL_DOWN |      SW1(0) | 
      |   4 |     * |      NONE |    RES_PULL_DOWN |      SW2(0) | 
 -----+-----+-------+-----------+------------------+-------------+-----------------------
-  15 |   0 |     * |      NONE |         CMOS_OUT |    LED_1(0) | In(Net_2000_0)
-     |   1 |     * |      NONE |         CMOS_OUT |    LED_2(0) | In(Net_2004_1)
-     |   5 |     * |      NONE |         CMOS_OUT |    LED_3(0) | In(Net_2003_2)
+  15 |   0 |     * |      NONE |         CMOS_OUT |    LED_1(0) | In(Net_1996)
+     |   1 |     * |      NONE |         CMOS_OUT |    LED_2(0) | In(Net_1999)
+     |   5 |     * |      NONE |         CMOS_OUT |    LED_3(0) | In(Net_2001)
      |   6 |       |   FALLING |      HI_Z_ANALOG | \USB:Dp(0)\ | Analog(\USB:Net_1000\)
      |   7 |       |      NONE |      HI_Z_ANALOG | \USB:Dm(0)\ | Analog(\USB:Net_597\)
 ----------------------------------------------------------------------------------------
@@ -2280,14 +2300,14 @@ Port | Pin | Fixed |      Type |       Drive Mode |        Name | Connections
 </CYPRESSTAG>
 </CYPRESSTAG>
 Digital component placer commit/Report: Elapsed time ==> 0s.000ms
-Digital Placement phase: Elapsed time ==> 0s.719ms
+Digital Placement phase: Elapsed time ==> 0s.688ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Digital Routing">
 Routing successful.
-Digital Routing phase: Elapsed time ==> 1s.093ms
+Digital Routing phase: Elapsed time ==> 1s.077ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Bitstream and API generation">
-Bitstream and API generation phase: Elapsed time ==> 0s.203ms
+Bitstream and API generation phase: Elapsed time ==> 0s.186ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Bitstream verification">
 Bitstream verification phase: Elapsed time ==> 0s.032ms
@@ -2300,11 +2320,11 @@ Static timing analysis phase: Elapsed time ==> 0s.249ms
 Data reporting phase: Elapsed time ==> 0s.000ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Database update...">
-Design database save phase: Elapsed time ==> 0s.140ms
+Design database save phase: Elapsed time ==> 0s.156ms
 </CYPRESSTAG>
-cydsfit: Elapsed time ==> 3s.499ms
+cydsfit: Elapsed time ==> 3s.390ms
 </CYPRESSTAG>
-Fitter phase: Elapsed time ==> 3s.546ms
-API generation phase: Elapsed time ==> 2s.546ms
-Dependency generation phase: Elapsed time ==> 0s.031ms
+Fitter phase: Elapsed time ==> 3s.421ms
+API generation phase: Elapsed time ==> 2s.515ms
+Dependency generation phase: Elapsed time ==> 0s.015ms
 Cleanup phase: Elapsed time ==> 0s.000ms
