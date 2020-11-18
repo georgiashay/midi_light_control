@@ -186,6 +186,26 @@
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\NOTE_ON_REG.h</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\NOTE_ON_REG.c</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\NOTE_ON_REG_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\REG_CLK.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\REG_CLK.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\VDAC8_1.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\VDAC8_1.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\VDAC8_1_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\Comp_2.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\Comp_2.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\Comp_2_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\Clock_3.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\Clock_3.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\WaveDAC8_3.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\WaveDAC8_3.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\WaveDAC8_3_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\WaveDAC8_3_Wave1_DMA_dma.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\WaveDAC8_3_Wave1_DMA_dma.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\WaveDAC8_3_Wave2_DMA_dma.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\WaveDAC8_3_Wave2_DMA_dma.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\WaveDAC8_3_VDAC8.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\WaveDAC8_3_VDAC8.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\WaveDAC8_3_VDAC8_PM.c</File>
         </Files>
       </Folder>
       <Folder BuildType="STRICT" Path="\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\Export\ARM_GCC_Generic">

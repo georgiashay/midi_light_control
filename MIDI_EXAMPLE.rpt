@@ -1,10 +1,10 @@
-Loading plugins phase: Elapsed time ==> 0s.203ms
+Loading plugins phase: Elapsed time ==> 0s.187ms
 Initializing data phase: Elapsed time ==> 0s.000ms
 <CYPRESSTAG name="CyDsfit arguments...">
 cydsfit arguments: -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -p \\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\MIDI_EXAMPLE.cyprj -d CY8C5888LTI-LP097 -s \\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\Generated_Source\PSoC5 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE</CYPRESSTAG>
 <CYPRESSTAG name="Design elaboration results...">
 </CYPRESSTAG>
-Elaboration phase: Elapsed time ==> 1s.624ms
+Elaboration phase: Elapsed time ==> 2s.281ms
 <CYPRESSTAG name="HDL generation results...">
 </CYPRESSTAG>
 HDL generation phase: Elapsed time ==> 0s.078ms
@@ -41,7 +41,7 @@ Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=\\Mac\Home\Doc
 ======================================================================
 
 vlogfe V6.3 IR 41:  Verilog parser
-Tue Nov 17 23:33:09 2020
+Wed Nov 18 00:53:25 2020
 
 
 ======================================================================
@@ -51,7 +51,7 @@ Options  :    -yv2 -q10 MIDI_EXAMPLE.v
 ======================================================================
 
 vpp V6.3 IR 41:  Verilog Pre-Processor
-Tue Nov 17 23:33:09 2020
+Wed Nov 18 00:53:25 2020
 
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_80\CyControlReg_v1_80.v'
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cypress.v'
@@ -65,6 +65,12 @@ Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\ps
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cydff_v1_30\cydff_v1_30.v'
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\and_v1_0\and_v1_0.v'
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\not_v1_0\not_v1_0.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\EdgeDetect_v1_0\EdgeDetect_v1_0.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cypress.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_dffe_v1_0\cy_dffe_v1_0.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\BasicCounter_v1_0\BasicCounter_v1_0.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cypress.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\nand_v1_0\nand_v1_0.v'
 
 vpp:  No errors.
 
@@ -81,6 +87,7 @@ Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\c
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
 Using control file 'MIDI_EXAMPLE.ctl'.
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\BasicCounter_v1_0\BasicCounter_v1_0.v (line 59, col 28):  Note: Substituting module 'add_vi_vv' for '+'.
 
 vlogfe:  No errors.
 
@@ -92,7 +99,7 @@ Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=\\Mac\Home\Doc
 ======================================================================
 
 tovif V6.3 IR 41:  High-level synthesis
-Tue Nov 17 23:33:10 2020
+Wed Nov 18 00:53:25 2020
 
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\std.vhd'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cypress.vhd'.
@@ -117,6 +124,11 @@ Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\conte
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cydff_v1_30\cydff_v1_30.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\and_v1_0\and_v1_0.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\not_v1_0\not_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\EdgeDetect_v1_0\EdgeDetect_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_dffe_v1_0\cy_dffe_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\BasicCounter_v1_0\BasicCounter_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\nand_v1_0\nand_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\lcpsoc3\stdlogic\mod_cnst.vif'.
 
 tovif:  No errors.
 
@@ -128,7 +140,7 @@ Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=\\Mac\Home\Doc
 ======================================================================
 
 topld V6.3 IR 41:  Synthesis and optimization
-Tue Nov 17 23:33:10 2020
+Wed Nov 18 00:53:25 2020
 
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\std.vhd'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cypress.vhd'.
@@ -153,19 +165,24 @@ Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\conte
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cydff_v1_30\cydff_v1_30.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\and_v1_0\and_v1_0.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\not_v1_0\not_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\EdgeDetect_v1_0\EdgeDetect_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_dffe_v1_0\cy_dffe_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\BasicCounter_v1_0\BasicCounter_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\nand_v1_0\nand_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\lcpsoc3\stdlogic\mod_cnst.vif'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\lcpsoc3\stdlogic\cpsoc3.vif'.
 
 ----------------------------------------------------------
 Detecting unused logic.
 ----------------------------------------------------------
     User names
-	Net_1896
-	Net_1897
-	Net_1898
-	Net_1900
-	Net_1901
-	Net_1902
-	Net_1903
+	Net_2225
+	Net_2226
+	Net_2227
+	Net_2228
+	Net_2229
+	Net_2230
+	Net_2231
 	\USB:dma_complete_0\
 	\USB:Net_1922\
 	\USB:dma_complete_1\
@@ -182,21 +199,21 @@ Detecting unused logic.
 	\USB:Net_1916\
 	\USB:dma_complete_7\
 	\USB:Net_1915\
-	Net_2066_7
+	Net_2108_7
 	\MIDI_NOTES_REG:control_out_7\
-	Net_2066_6
+	Net_2108_6
 	\MIDI_NOTES_REG:control_out_6\
-	Net_2066_5
+	Net_2108_5
 	\MIDI_NOTES_REG:control_out_5\
-	Net_2066_4
+	Net_2108_4
 	\MIDI_NOTES_REG:control_out_4\
-	Net_2066_3
+	Net_2108_3
 	\MIDI_NOTES_REG:control_out_3\
-	Net_2066_2
+	Net_2108_2
 	\MIDI_NOTES_REG:control_out_2\
-	Net_2066_1
+	Net_2108_1
 	\MIDI_NOTES_REG:control_out_1\
-	Net_2066_0
+	Net_2108_0
 	\MIDI_NOTES_REG:control_out_0\
 	\MIDI_BIN_REG:control_bus_7\
 	\MIDI_BIN_REG:control_bus_6\
@@ -208,10 +225,211 @@ Detecting unused logic.
 	\WaveDAC8_1:Net_280\
 	\WaveDAC8_1:Net_80\
 	\Comp_1:Net_9\
+	Net_2186_7
+	Net_2186_6
+	Net_2186_5
+	Net_2186_4
+	Net_2186_3
+	Net_2186_2
+	Net_2186_1
+	Net_2186_0
+	Net_2182_7
+	Net_2182_6
+	Net_2182_5
+	Net_2182_4
+	Net_2182_3
+	Net_2182_2
+	Net_2182_1
+	Net_2182_0
+	Net_2178_7
+	Net_2178_6
+	Net_2178_5
+	Net_2178_4
+	Net_2178_3
+	Net_2178_2
+	Net_2178_1
+	Net_2178_0
+	Net_2174_7
+	Net_2174_6
+	Net_2174_5
+	Net_2174_4
+	Net_2174_3
+	Net_2174_2
+	Net_2174_1
+	Net_2174_0
+	Net_2170_7
+	Net_2170_6
+	Net_2170_5
+	Net_2170_4
+	Net_2170_3
+	Net_2170_2
+	Net_2170_1
+	Net_2170_0
+	Net_2162_7
+	Net_2162_6
+	Net_2162_5
+	Net_2162_4
+	Net_2162_3
+	Net_2162_2
+	Net_2162_1
+	Net_2162_0
+	Net_2166_7
+	Net_2166_6
+	Net_2166_5
+	Net_2166_4
+	Net_2166_3
+	Net_2166_2
+	Net_2166_1
+	Net_2166_0
+	\BasicCounter_1:MODULE_1:b_31\
+	\BasicCounter_1:MODULE_1:b_30\
+	\BasicCounter_1:MODULE_1:b_29\
+	\BasicCounter_1:MODULE_1:b_28\
+	\BasicCounter_1:MODULE_1:b_27\
+	\BasicCounter_1:MODULE_1:b_26\
+	\BasicCounter_1:MODULE_1:b_25\
+	\BasicCounter_1:MODULE_1:b_24\
+	\BasicCounter_1:MODULE_1:b_23\
+	\BasicCounter_1:MODULE_1:b_22\
+	\BasicCounter_1:MODULE_1:b_21\
+	\BasicCounter_1:MODULE_1:b_20\
+	\BasicCounter_1:MODULE_1:b_19\
+	\BasicCounter_1:MODULE_1:b_18\
+	\BasicCounter_1:MODULE_1:b_17\
+	\BasicCounter_1:MODULE_1:b_16\
+	\BasicCounter_1:MODULE_1:b_15\
+	\BasicCounter_1:MODULE_1:b_14\
+	\BasicCounter_1:MODULE_1:b_13\
+	\BasicCounter_1:MODULE_1:b_12\
+	\BasicCounter_1:MODULE_1:b_11\
+	\BasicCounter_1:MODULE_1:b_10\
+	\BasicCounter_1:MODULE_1:b_9\
+	\BasicCounter_1:MODULE_1:b_8\
+	\BasicCounter_1:MODULE_1:b_7\
+	\BasicCounter_1:MODULE_1:b_6\
+	\BasicCounter_1:MODULE_1:b_5\
+	\BasicCounter_1:MODULE_1:b_4\
+	\BasicCounter_1:MODULE_1:b_3\
+	\BasicCounter_1:MODULE_1:b_2\
+	\BasicCounter_1:MODULE_1:b_1\
+	\BasicCounter_1:MODULE_1:b_0\
+	\BasicCounter_1:MODULE_1:g2:a0:a_31\
+	\BasicCounter_1:MODULE_1:g2:a0:a_30\
+	\BasicCounter_1:MODULE_1:g2:a0:a_29\
+	\BasicCounter_1:MODULE_1:g2:a0:a_28\
+	\BasicCounter_1:MODULE_1:g2:a0:a_27\
+	\BasicCounter_1:MODULE_1:g2:a0:a_26\
+	\BasicCounter_1:MODULE_1:g2:a0:a_25\
+	\BasicCounter_1:MODULE_1:g2:a0:a_24\
+	\BasicCounter_1:MODULE_1:g2:a0:b_31\
+	\BasicCounter_1:MODULE_1:g2:a0:b_30\
+	\BasicCounter_1:MODULE_1:g2:a0:b_29\
+	\BasicCounter_1:MODULE_1:g2:a0:b_28\
+	\BasicCounter_1:MODULE_1:g2:a0:b_27\
+	\BasicCounter_1:MODULE_1:g2:a0:b_26\
+	\BasicCounter_1:MODULE_1:g2:a0:b_25\
+	\BasicCounter_1:MODULE_1:g2:a0:b_24\
+	\BasicCounter_1:MODULE_1:g2:a0:b_23\
+	\BasicCounter_1:MODULE_1:g2:a0:b_22\
+	\BasicCounter_1:MODULE_1:g2:a0:b_21\
+	\BasicCounter_1:MODULE_1:g2:a0:b_20\
+	\BasicCounter_1:MODULE_1:g2:a0:b_19\
+	\BasicCounter_1:MODULE_1:g2:a0:b_18\
+	\BasicCounter_1:MODULE_1:g2:a0:b_17\
+	\BasicCounter_1:MODULE_1:g2:a0:b_16\
+	\BasicCounter_1:MODULE_1:g2:a0:b_15\
+	\BasicCounter_1:MODULE_1:g2:a0:b_14\
+	\BasicCounter_1:MODULE_1:g2:a0:b_13\
+	\BasicCounter_1:MODULE_1:g2:a0:b_12\
+	\BasicCounter_1:MODULE_1:g2:a0:b_11\
+	\BasicCounter_1:MODULE_1:g2:a0:b_10\
+	\BasicCounter_1:MODULE_1:g2:a0:b_9\
+	\BasicCounter_1:MODULE_1:g2:a0:b_8\
+	\BasicCounter_1:MODULE_1:g2:a0:b_7\
+	\BasicCounter_1:MODULE_1:g2:a0:b_6\
+	\BasicCounter_1:MODULE_1:g2:a0:b_5\
+	\BasicCounter_1:MODULE_1:g2:a0:b_4\
+	\BasicCounter_1:MODULE_1:g2:a0:b_3\
+	\BasicCounter_1:MODULE_1:g2:a0:b_2\
+	\BasicCounter_1:MODULE_1:g2:a0:b_1\
+	\BasicCounter_1:MODULE_1:g2:a0:b_0\
+	\BasicCounter_1:MODULE_1:g2:a0:s_31\
+	\BasicCounter_1:MODULE_1:g2:a0:s_30\
+	\BasicCounter_1:MODULE_1:g2:a0:s_29\
+	\BasicCounter_1:MODULE_1:g2:a0:s_28\
+	\BasicCounter_1:MODULE_1:g2:a0:s_27\
+	\BasicCounter_1:MODULE_1:g2:a0:s_26\
+	\BasicCounter_1:MODULE_1:g2:a0:s_25\
+	\BasicCounter_1:MODULE_1:g2:a0:s_24\
+	\BasicCounter_1:MODULE_1:g2:a0:s_23\
+	\BasicCounter_1:MODULE_1:g2:a0:s_22\
+	\BasicCounter_1:MODULE_1:g2:a0:s_21\
+	\BasicCounter_1:MODULE_1:g2:a0:s_20\
+	\BasicCounter_1:MODULE_1:g2:a0:s_19\
+	\BasicCounter_1:MODULE_1:g2:a0:s_18\
+	\BasicCounter_1:MODULE_1:g2:a0:s_17\
+	\BasicCounter_1:MODULE_1:g2:a0:s_16\
+	\BasicCounter_1:MODULE_1:g2:a0:s_15\
+	\BasicCounter_1:MODULE_1:g2:a0:s_14\
+	\BasicCounter_1:MODULE_1:g2:a0:s_13\
+	\BasicCounter_1:MODULE_1:g2:a0:s_12\
+	\BasicCounter_1:MODULE_1:g2:a0:s_11\
+	\BasicCounter_1:MODULE_1:g2:a0:s_10\
+	\BasicCounter_1:MODULE_1:g2:a0:s_9\
+	\BasicCounter_1:MODULE_1:g2:a0:s_8\
+	\BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_31\
+	\BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_30\
+	\BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_29\
+	\BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_28\
+	\BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_27\
+	\BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_26\
+	\BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_25\
+	\Comp_2:Net_9\
+	\WaveDAC8_3:Net_280\
+	\WaveDAC8_3:Net_80\
+	\demux_3:tmp__demux_3_1_reg\
+	\demux_3:tmp__demux_3_2_reg\
+	\demux_3:tmp__demux_3_3_reg\
+	\demux_3:tmp__demux_3_4_reg\
+	\demux_3:tmp__demux_3_5_reg\
+	\demux_3:tmp__demux_3_6_reg\
+	\demux_3:tmp__demux_3_7_reg\
+	Net_2541
+	Net_2542
+	Net_2543
+	Net_2544
+	Net_2545
+	Net_2546
+	Net_2547
 
+    Synthesized names
+	\BasicCounter_1:add_vi_vv_MODGEN_1_31\
+	\BasicCounter_1:add_vi_vv_MODGEN_1_30\
+	\BasicCounter_1:add_vi_vv_MODGEN_1_29\
+	\BasicCounter_1:add_vi_vv_MODGEN_1_28\
+	\BasicCounter_1:add_vi_vv_MODGEN_1_27\
+	\BasicCounter_1:add_vi_vv_MODGEN_1_26\
+	\BasicCounter_1:add_vi_vv_MODGEN_1_25\
+	\BasicCounter_1:add_vi_vv_MODGEN_1_24\
+	\BasicCounter_1:add_vi_vv_MODGEN_1_23\
+	\BasicCounter_1:add_vi_vv_MODGEN_1_22\
+	\BasicCounter_1:add_vi_vv_MODGEN_1_21\
+	\BasicCounter_1:add_vi_vv_MODGEN_1_20\
+	\BasicCounter_1:add_vi_vv_MODGEN_1_19\
+	\BasicCounter_1:add_vi_vv_MODGEN_1_18\
+	\BasicCounter_1:add_vi_vv_MODGEN_1_17\
+	\BasicCounter_1:add_vi_vv_MODGEN_1_16\
+	\BasicCounter_1:add_vi_vv_MODGEN_1_15\
+	\BasicCounter_1:add_vi_vv_MODGEN_1_14\
+	\BasicCounter_1:add_vi_vv_MODGEN_1_13\
+	\BasicCounter_1:add_vi_vv_MODGEN_1_12\
+	\BasicCounter_1:add_vi_vv_MODGEN_1_11\
+	\BasicCounter_1:add_vi_vv_MODGEN_1_10\
+	\BasicCounter_1:add_vi_vv_MODGEN_1_9\
+	\BasicCounter_1:add_vi_vv_MODGEN_1_8\
 
-Deleted 49 User equations/components.
-Deleted 0 Synthesized equations/components.
+Deleted 225 User equations/components.
+Deleted 24 Synthesized equations/components.
 
 ------------------------------------------------------
 Alias Detection
@@ -243,6 +461,33 @@ Aliasing \WaveDAC8_1:VDAC8:Net_81\ to zero
 Aliasing \WaveDAC8_1:VDAC8:Net_82\ to zero
 Aliasing \Comp_1:clock\ to zero
 Aliasing tmpOE__LED_8_net_0 to tmpOE__SW2_net_0
+Aliasing Net_2396 to tmpOE__SW2_net_0
+Aliasing \BasicCounter_1:MODULE_1:g2:a0:a_23\ to zero
+Aliasing \BasicCounter_1:MODULE_1:g2:a0:a_22\ to zero
+Aliasing \BasicCounter_1:MODULE_1:g2:a0:a_21\ to zero
+Aliasing \BasicCounter_1:MODULE_1:g2:a0:a_20\ to zero
+Aliasing \BasicCounter_1:MODULE_1:g2:a0:a_19\ to zero
+Aliasing \BasicCounter_1:MODULE_1:g2:a0:a_18\ to zero
+Aliasing \BasicCounter_1:MODULE_1:g2:a0:a_17\ to zero
+Aliasing \BasicCounter_1:MODULE_1:g2:a0:a_16\ to zero
+Aliasing \BasicCounter_1:MODULE_1:g2:a0:a_15\ to zero
+Aliasing \BasicCounter_1:MODULE_1:g2:a0:a_14\ to zero
+Aliasing \BasicCounter_1:MODULE_1:g2:a0:a_13\ to zero
+Aliasing \BasicCounter_1:MODULE_1:g2:a0:a_12\ to zero
+Aliasing \BasicCounter_1:MODULE_1:g2:a0:a_11\ to zero
+Aliasing \BasicCounter_1:MODULE_1:g2:a0:a_10\ to zero
+Aliasing \BasicCounter_1:MODULE_1:g2:a0:a_9\ to zero
+Aliasing \BasicCounter_1:MODULE_1:g2:a0:a_8\ to zero
+Aliasing \BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_0\ to tmpOE__SW2_net_0
+Aliasing \VDAC8_1:Net_83\ to zero
+Aliasing \VDAC8_1:Net_81\ to zero
+Aliasing \VDAC8_1:Net_82\ to zero
+Aliasing \Comp_2:clock\ to zero
+Aliasing Net_2526 to zero
+Aliasing \WaveDAC8_3:VDAC8:Net_83\ to zero
+Aliasing \WaveDAC8_3:VDAC8:Net_81\ to zero
+Aliasing \WaveDAC8_3:VDAC8:Net_82\ to zero
+Aliasing Net_2548 to tmpOE__SW2_net_0
 Removing Lhs of wire one[7] = tmpOE__SW2_net_0[1]
 Removing Lhs of wire tmpOE__SW1_net_0[12] = tmpOE__SW2_net_0[1]
 Removing Lhs of wire tmpOE__LED_3_net_0[19] = tmpOE__SW2_net_0[1]
@@ -253,20 +498,20 @@ Removing Lhs of wire tmpOE__LED_6_net_0[33] = tmpOE__SW2_net_0[1]
 Removing Rhs of wire Net_2003[34] = \demux_1:tmp__demux_1_5_reg\[257]
 Removing Lhs of wire \NOTE_ON_REG:clk\[39] = zero[2]
 Removing Lhs of wire \NOTE_ON_REG:rst\[40] = zero[2]
-Removing Rhs of wire Net_2068[41] = \NOTE_ON_REG:control_out_0\[42]
-Removing Rhs of wire Net_2068[41] = \NOTE_ON_REG:control_0\[65]
+Removing Rhs of wire Net_2264[41] = \NOTE_ON_REG:control_out_0\[42]
+Removing Rhs of wire Net_2264[41] = \NOTE_ON_REG:control_0\[65]
 Removing Lhs of wire \USB:tmpOE__Dm_net_0\[69] = tmpOE__SW2_net_0[1]
 Removing Lhs of wire \USB:tmpOE__Dp_net_0\[76] = tmpOE__SW2_net_0[1]
 Removing Lhs of wire \MIDI_NOTES_REG:clk\[131] = zero[2]
 Removing Lhs of wire \MIDI_NOTES_REG:rst\[132] = zero[2]
 Removing Lhs of wire \MIDI_BIN_REG:clk\[158] = zero[2]
 Removing Lhs of wire \MIDI_BIN_REG:rst\[159] = zero[2]
-Removing Rhs of wire Net_1997_2[170] = \MIDI_BIN_REG:control_out_2\[171]
-Removing Rhs of wire Net_1997_2[170] = \MIDI_BIN_REG:control_2\[182]
-Removing Rhs of wire Net_1997_1[172] = \MIDI_BIN_REG:control_out_1\[173]
-Removing Rhs of wire Net_1997_1[172] = \MIDI_BIN_REG:control_1\[183]
-Removing Rhs of wire Net_1997_0[174] = \MIDI_BIN_REG:control_out_0\[175]
-Removing Rhs of wire Net_1997_0[174] = \MIDI_BIN_REG:control_0\[184]
+Removing Rhs of wire Net_2312_2[170] = \MIDI_BIN_REG:control_out_2\[171]
+Removing Rhs of wire Net_2312_2[170] = \MIDI_BIN_REG:control_2\[182]
+Removing Rhs of wire Net_2312_1[172] = \MIDI_BIN_REG:control_out_1\[173]
+Removing Rhs of wire Net_2312_1[172] = \MIDI_BIN_REG:control_1\[183]
+Removing Rhs of wire Net_2312_0[174] = \MIDI_BIN_REG:control_out_0\[175]
+Removing Rhs of wire Net_2312_0[174] = \MIDI_BIN_REG:control_0\[184]
 Removing Lhs of wire tmpOE__LED_7_net_0[186] = tmpOE__SW2_net_0[1]
 Removing Rhs of wire Net_2004[187] = \demux_1:tmp__demux_1_6_reg\[258]
 Removing Lhs of wire tmpOE__LED_4_net_0[193] = tmpOE__SW2_net_0[1]
@@ -274,32 +519,114 @@ Removing Rhs of wire Net_1478[194] = \demux_1:tmp__demux_1_3_reg\[255]
 Removing Lhs of wire tmpOE__LED_2_net_0[200] = tmpOE__SW2_net_0[1]
 Removing Rhs of wire Net_1999[201] = \demux_1:tmp__demux_1_1_reg\[253]
 Removing Lhs of wire tmpOE__LED_1_net_0[207] = tmpOE__SW2_net_0[1]
-Removing Rhs of wire Net_1996[208] = \demux_1:tmp__demux_1_0_reg\[252]
 Removing Lhs of wire Net_1962[215] = zero[2]
 Removing Rhs of wire \WaveDAC8_2:Net_183\[226] = \WaveDAC8_2:demux:tmp__demux_0_reg\[231]
 Removing Rhs of wire \WaveDAC8_2:Net_107\[229] = \WaveDAC8_2:demux:tmp__demux_1_reg\[234]
 Removing Rhs of wire \WaveDAC8_2:Net_134\[232] = \WaveDAC8_2:cydff_1\[246]
-Removing Lhs of wire \WaveDAC8_2:Net_336\[233] = Net_1954[214]
+Removing Lhs of wire \WaveDAC8_2:Net_336\[233] = Net_2395[214]
 Removing Lhs of wire \WaveDAC8_2:VDAC8:Net_83\[236] = zero[2]
 Removing Lhs of wire \WaveDAC8_2:VDAC8:Net_81\[237] = zero[2]
 Removing Lhs of wire \WaveDAC8_2:VDAC8:Net_82\[238] = zero[2]
 Removing Lhs of wire Net_1968[247] = zero[2]
-Removing Rhs of wire Net_2070[251] = \Comp_1:Net_1\[294]
-Removing Rhs of wire Net_2000[260] = \demux_1:tmp__demux_1_7_reg\[259]
-Removing Rhs of wire \WaveDAC8_1:Net_183\[271] = \WaveDAC8_1:demux:tmp__demux_0_reg\[276]
-Removing Rhs of wire \WaveDAC8_1:Net_107\[274] = \WaveDAC8_1:demux:tmp__demux_1_reg\[279]
-Removing Rhs of wire \WaveDAC8_1:Net_134\[277] = \WaveDAC8_1:cydff_1\[291]
-Removing Lhs of wire \WaveDAC8_1:Net_336\[278] = Net_1945[249]
-Removing Lhs of wire \WaveDAC8_1:VDAC8:Net_83\[281] = zero[2]
-Removing Lhs of wire \WaveDAC8_1:VDAC8:Net_81\[282] = zero[2]
-Removing Lhs of wire \WaveDAC8_1:VDAC8:Net_82\[283] = zero[2]
-Removing Lhs of wire \Comp_1:clock\[293] = zero[2]
-Removing Lhs of wire tmpOE__LED_8_net_0[297] = tmpOE__SW2_net_0[1]
-Removing Lhs of wire \WaveDAC8_2:cydff_1\\D\[302] = zero[2]
-Removing Lhs of wire \WaveDAC8_1:cydff_1\\D\[303] = zero[2]
+Removing Rhs of wire Net_2234[251] = \Comp_1:Net_1\[295]
+Removing Rhs of wire Net_2559[260] = \demux_1:tmp__demux_1_0_reg\[252]
+Removing Rhs of wire Net_2000[261] = \demux_1:tmp__demux_1_7_reg\[259]
+Removing Rhs of wire \WaveDAC8_1:Net_183\[272] = \WaveDAC8_1:demux:tmp__demux_0_reg\[277]
+Removing Rhs of wire \WaveDAC8_1:Net_107\[275] = \WaveDAC8_1:demux:tmp__demux_1_reg\[280]
+Removing Rhs of wire \WaveDAC8_1:Net_134\[278] = \WaveDAC8_1:cydff_1\[292]
+Removing Lhs of wire \WaveDAC8_1:Net_336\[279] = Net_2511[249]
+Removing Lhs of wire \WaveDAC8_1:VDAC8:Net_83\[282] = zero[2]
+Removing Lhs of wire \WaveDAC8_1:VDAC8:Net_81\[283] = zero[2]
+Removing Lhs of wire \WaveDAC8_1:VDAC8:Net_82\[284] = zero[2]
+Removing Lhs of wire \Comp_1:clock\[294] = zero[2]
+Removing Lhs of wire tmpOE__LED_8_net_0[298] = tmpOE__SW2_net_0[1]
+Removing Rhs of wire Net_2251[305] = cydff_3[664]
+Removing Rhs of wire Net_2329[308] = \demux_2:tmp__demux_2_7_reg\[672]
+Removing Rhs of wire Net_2328[334] = \demux_2:tmp__demux_2_6_reg\[671]
+Removing Rhs of wire Net_2327[351] = \demux_2:tmp__demux_2_5_reg\[670]
+Removing Rhs of wire Net_2326[368] = \demux_2:tmp__demux_2_4_reg\[669]
+Removing Rhs of wire Net_2325[385] = \demux_2:tmp__demux_2_3_reg\[668]
+Removing Rhs of wire Net_2323[402] = \demux_2:tmp__demux_2_1_reg\[666]
+Removing Rhs of wire Net_2324[419] = \demux_2:tmp__demux_2_2_reg\[667]
+Removing Rhs of wire Net_2351[436] = \demux_2:tmp__demux_2_0_reg\[665]
+Removing Lhs of wire Net_2521_7[444] = cy_dffe_1_7[435]
+Removing Lhs of wire Net_2521_6[445] = cy_dffe_1_6[437]
+Removing Lhs of wire Net_2521_5[446] = cy_dffe_1_5[438]
+Removing Lhs of wire Net_2521_4[447] = cy_dffe_1_4[439]
+Removing Lhs of wire Net_2521_3[448] = cy_dffe_1_3[440]
+Removing Lhs of wire Net_2521_2[449] = cy_dffe_1_2[441]
+Removing Lhs of wire Net_2521_1[450] = cy_dffe_1_1[442]
+Removing Lhs of wire Net_2521_0[451] = cy_dffe_1_0[443]
+Removing Lhs of wire Net_2396[452] = tmpOE__SW2_net_0[1]
+Removing Lhs of wire \BasicCounter_1:add_vi_vv_MODGEN_1_7\[453] = \BasicCounter_1:MODULE_1:g2:a0:s_7\[613]
+Removing Lhs of wire \BasicCounter_1:add_vi_vv_MODGEN_1_6\[454] = \BasicCounter_1:MODULE_1:g2:a0:s_6\[614]
+Removing Lhs of wire \BasicCounter_1:add_vi_vv_MODGEN_1_5\[455] = \BasicCounter_1:MODULE_1:g2:a0:s_5\[615]
+Removing Lhs of wire \BasicCounter_1:add_vi_vv_MODGEN_1_4\[456] = \BasicCounter_1:MODULE_1:g2:a0:s_4\[616]
+Removing Lhs of wire \BasicCounter_1:add_vi_vv_MODGEN_1_3\[457] = \BasicCounter_1:MODULE_1:g2:a0:s_3\[617]
+Removing Lhs of wire \BasicCounter_1:add_vi_vv_MODGEN_1_2\[458] = \BasicCounter_1:MODULE_1:g2:a0:s_2\[618]
+Removing Lhs of wire \BasicCounter_1:add_vi_vv_MODGEN_1_1\[459] = \BasicCounter_1:MODULE_1:g2:a0:s_1\[619]
+Removing Lhs of wire \BasicCounter_1:add_vi_vv_MODGEN_1_0\[460] = \BasicCounter_1:MODULE_1:g2:a0:s_0\[620]
+Removing Lhs of wire \BasicCounter_1:MODULE_1:g2:a0:a_23\[501] = zero[2]
+Removing Lhs of wire \BasicCounter_1:MODULE_1:g2:a0:a_22\[502] = zero[2]
+Removing Lhs of wire \BasicCounter_1:MODULE_1:g2:a0:a_21\[503] = zero[2]
+Removing Lhs of wire \BasicCounter_1:MODULE_1:g2:a0:a_20\[504] = zero[2]
+Removing Lhs of wire \BasicCounter_1:MODULE_1:g2:a0:a_19\[505] = zero[2]
+Removing Lhs of wire \BasicCounter_1:MODULE_1:g2:a0:a_18\[506] = zero[2]
+Removing Lhs of wire \BasicCounter_1:MODULE_1:g2:a0:a_17\[507] = zero[2]
+Removing Lhs of wire \BasicCounter_1:MODULE_1:g2:a0:a_16\[508] = zero[2]
+Removing Lhs of wire \BasicCounter_1:MODULE_1:g2:a0:a_15\[509] = zero[2]
+Removing Lhs of wire \BasicCounter_1:MODULE_1:g2:a0:a_14\[510] = zero[2]
+Removing Lhs of wire \BasicCounter_1:MODULE_1:g2:a0:a_13\[511] = zero[2]
+Removing Lhs of wire \BasicCounter_1:MODULE_1:g2:a0:a_12\[512] = zero[2]
+Removing Lhs of wire \BasicCounter_1:MODULE_1:g2:a0:a_11\[513] = zero[2]
+Removing Lhs of wire \BasicCounter_1:MODULE_1:g2:a0:a_10\[514] = zero[2]
+Removing Lhs of wire \BasicCounter_1:MODULE_1:g2:a0:a_9\[515] = zero[2]
+Removing Lhs of wire \BasicCounter_1:MODULE_1:g2:a0:a_8\[516] = zero[2]
+Removing Lhs of wire \BasicCounter_1:MODULE_1:g2:a0:a_7\[517] = \BasicCounter_1:MODIN1_7\[518]
+Removing Lhs of wire \BasicCounter_1:MODIN1_7\[518] = Net_2394_7[309]
+Removing Lhs of wire \BasicCounter_1:MODULE_1:g2:a0:a_6\[519] = \BasicCounter_1:MODIN1_6\[520]
+Removing Lhs of wire \BasicCounter_1:MODIN1_6\[520] = Net_2394_6[311]
+Removing Lhs of wire \BasicCounter_1:MODULE_1:g2:a0:a_5\[521] = \BasicCounter_1:MODIN1_5\[522]
+Removing Lhs of wire \BasicCounter_1:MODIN1_5\[522] = Net_2394_5[313]
+Removing Lhs of wire \BasicCounter_1:MODULE_1:g2:a0:a_4\[523] = \BasicCounter_1:MODIN1_4\[524]
+Removing Lhs of wire \BasicCounter_1:MODIN1_4\[524] = Net_2394_4[315]
+Removing Lhs of wire \BasicCounter_1:MODULE_1:g2:a0:a_3\[525] = \BasicCounter_1:MODIN1_3\[526]
+Removing Lhs of wire \BasicCounter_1:MODIN1_3\[526] = Net_2394_3[317]
+Removing Lhs of wire \BasicCounter_1:MODULE_1:g2:a0:a_2\[527] = \BasicCounter_1:MODIN1_2\[528]
+Removing Lhs of wire \BasicCounter_1:MODIN1_2\[528] = Net_2394_2[319]
+Removing Lhs of wire \BasicCounter_1:MODULE_1:g2:a0:a_1\[529] = \BasicCounter_1:MODIN1_1\[530]
+Removing Lhs of wire \BasicCounter_1:MODIN1_1\[530] = Net_2394_1[321]
+Removing Lhs of wire \BasicCounter_1:MODULE_1:g2:a0:a_0\[531] = \BasicCounter_1:MODIN1_0\[532]
+Removing Lhs of wire \BasicCounter_1:MODIN1_0\[532] = Net_2394_0[323]
+Removing Lhs of wire \BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_0\[658] = tmpOE__SW2_net_0[1]
+Removing Lhs of wire \BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_0\[659] = tmpOE__SW2_net_0[1]
+Removing Lhs of wire Net_2265[661] = cydff_1[660]
+Removing Lhs of wire Net_2260[663] = cydff_2[662]
+Removing Lhs of wire \VDAC8_1:Net_83\[674] = zero[2]
+Removing Lhs of wire \VDAC8_1:Net_81\[675] = zero[2]
+Removing Lhs of wire \VDAC8_1:Net_82\[676] = zero[2]
+Removing Lhs of wire \Comp_2:clock\[683] = zero[2]
+Removing Rhs of wire Net_2679[685] = \Comp_2:Net_1\[684]
+Removing Lhs of wire Net_2526[688] = zero[2]
+Removing Rhs of wire \WaveDAC8_3:Net_183\[699] = \WaveDAC8_3:demux:tmp__demux_0_reg\[704]
+Removing Rhs of wire \WaveDAC8_3:Net_107\[702] = \WaveDAC8_3:demux:tmp__demux_1_reg\[707]
+Removing Rhs of wire \WaveDAC8_3:Net_134\[705] = \WaveDAC8_3:cydff_1\[718]
+Removing Lhs of wire \WaveDAC8_3:Net_336\[706] = Net_2524[677]
+Removing Lhs of wire \WaveDAC8_3:VDAC8:Net_83\[709] = zero[2]
+Removing Lhs of wire \WaveDAC8_3:VDAC8:Net_81\[710] = zero[2]
+Removing Lhs of wire \WaveDAC8_3:VDAC8:Net_82\[711] = zero[2]
+Removing Lhs of wire Net_2548[720] = tmpOE__SW2_net_0[1]
+Removing Rhs of wire Net_2553[728] = \demux_3:tmp__demux_3_0_reg\[719]
+Removing Lhs of wire \WaveDAC8_2:cydff_1\\D\[739] = zero[2]
+Removing Lhs of wire \WaveDAC8_1:cydff_1\\D\[740] = zero[2]
+Removing Lhs of wire \EdgeDetect_1:last\\D\[741] = Net_2251[305]
+Removing Lhs of wire cydff_1D[814] = Net_2264[41]
+Removing Lhs of wire cydff_2D[815] = cydff_1[660]
+Removing Lhs of wire cydff_3D[816] = cydff_2[662]
+Removing Lhs of wire \WaveDAC8_3:cydff_1\\D\[817] = zero[2]
 
 ------------------------------------------------------
-Aliased 0 equations, 54 wires.
+Aliased 0 equations, 136 wires.
 ------------------------------------------------------
 
 ----------------------------------------------------------
@@ -308,34 +635,243 @@ Circuit simplification
 
 Substituting virtuals - pass 1:
 
+Note:  Expanding virtual equation for 'tmpOE__SW2_net_0' (cost = 0):
+tmpOE__SW2_net_0 <=  ('1') ;
+
+Note:  Expanding virtual equation for 'zero' (cost = 0):
+zero <=  ('0') ;
+
 Note:  Expanding virtual equation for 'Net_2071' (cost = 8):
-Net_2071 <= ((Net_2068 and Net_2070));
+Net_2071 <= ((Net_2264 and Net_2234));
+
+Note:  Expanding virtual equation for 'Net_2559' (cost = 1):
+Net_2559 <= ((not Net_2312_2 and not Net_2312_1 and not Net_2312_0 and Net_2264 and Net_2234));
+
+Note:  Expanding virtual equation for 'Net_2285' (cost = 8):
+Net_2285 <= ((not Net_2251 and \EdgeDetect_1:last\));
+
+Note:  Virtual signal Net_2329 with ( cost: 384 or cost_inv: 5)  > 90 or with size: 1 > 102 has been made a (soft) node.
+Net_2329 <= ((not Net_2251 and Net_2312_2 and Net_2312_1 and Net_2312_0 and \EdgeDetect_1:last\));
+
+Note:  Virtual signal Net_2328 with ( cost: 384 or cost_inv: 5)  > 90 or with size: 1 > 102 has been made a (soft) node.
+Net_2328 <= ((not Net_2312_0 and not Net_2251 and Net_2312_2 and Net_2312_1 and \EdgeDetect_1:last\));
+
+Note:  Virtual signal Net_2327 with ( cost: 384 or cost_inv: 5)  > 90 or with size: 1 > 102 has been made a (soft) node.
+Net_2327 <= ((not Net_2312_1 and not Net_2251 and Net_2312_2 and Net_2312_0 and \EdgeDetect_1:last\));
+
+Note:  Virtual signal Net_2326 with ( cost: 384 or cost_inv: 5)  > 90 or with size: 1 > 102 has been made a (soft) node.
+Net_2326 <= ((not Net_2312_1 and not Net_2312_0 and not Net_2251 and Net_2312_2 and \EdgeDetect_1:last\));
+
+Note:  Virtual signal Net_2325 with ( cost: 384 or cost_inv: 5)  > 90 or with size: 1 > 102 has been made a (soft) node.
+Net_2325 <= ((not Net_2312_2 and not Net_2251 and Net_2312_1 and Net_2312_0 and \EdgeDetect_1:last\));
+
+Note:  Virtual signal Net_2323 with ( cost: 384 or cost_inv: 5)  > 90 or with size: 1 > 102 has been made a (soft) node.
+Net_2323 <= ((not Net_2312_2 and not Net_2312_1 and not Net_2251 and Net_2312_0 and \EdgeDetect_1:last\));
+
+Note:  Virtual signal Net_2324 with ( cost: 384 or cost_inv: 5)  > 90 or with size: 1 > 102 has been made a (soft) node.
+Net_2324 <= ((not Net_2312_2 and not Net_2312_0 and not Net_2251 and Net_2312_1 and \EdgeDetect_1:last\));
+
+Note:  Virtual signal Net_2351 with ( cost: 384 or cost_inv: 5)  > 90 or with size: 1 > 102 has been made a (soft) node.
+Net_2351 <= ((not Net_2312_2 and not Net_2312_1 and not Net_2312_0 and not Net_2251 and \EdgeDetect_1:last\));
+
+Note:  Expanding virtual equation for '\BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_1\' (cost = 0):
+\BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_1\ <= (Net_2394_0);
+
+Note:  Expanding virtual equation for '\BasicCounter_1:MODULE_1:g2:a0:s_0\' (cost = 0):
+\BasicCounter_1:MODULE_1:g2:a0:s_0\ <= (not Net_2394_0);
+
+Note:  Expanding virtual equation for '\BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_17\' (cost = 0):
+\BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_17\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_9\' (cost = 0):
+\BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_9\ <=  ('0') ;
+
+Note:  Expanding virtual equation for 'Net_2553' (cost = 4):
+Net_2553 <= ((not Net_2312_2 and not Net_2312_1 and not Net_2312_0));
+
+Note:  Expanding virtual equation for 'Net_2569' (cost = 4):
+Net_2569 <= (Net_2312_2
+	OR Net_2312_1
+	OR Net_2312_0
+	OR not Net_2264);
 
 
 Substituting virtuals - pass 2:
+
+Note:  Expanding virtual equation for 'Net_2556' (cost = 4):
+Net_2556 <= ((Net_2312_2 and Net_2679)
+	OR (Net_2312_1 and Net_2679)
+	OR (Net_2312_0 and Net_2679)
+	OR (not Net_2264 and Net_2679));
+
+Note:  Expanding virtual equation for 'Net_2565' (cost = 1):
+Net_2565 <= ((not Net_2312_2 and not Net_2312_1 and not Net_2312_0 and Net_2264 and Net_2234));
+
+Note:  Expanding virtual equation for '\BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_2\' (cost = 4):
+\BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_2\ <= ((Net_2394_1 and Net_2394_0));
+
+Note:  Expanding virtual equation for '\BasicCounter_1:MODULE_1:g2:a0:s_1\' (cost = 2):
+\BasicCounter_1:MODULE_1:g2:a0:s_1\ <= ((not Net_2394_0 and Net_2394_1)
+	OR (not Net_2394_1 and Net_2394_0));
+
+Note:  Expanding virtual equation for '\BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_18\' (cost = 0):
+\BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_18\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_10\' (cost = 0):
+\BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_10\ <=  ('0') ;
+
+
+Substituting virtuals - pass 3:
+
+Note:  Expanding virtual equation for '\BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_3\' (cost = 5):
+\BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_3\ <= ((Net_2394_2 and Net_2394_1 and Net_2394_0));
+
+Note:  Expanding virtual equation for '\BasicCounter_1:MODULE_1:g2:a0:s_2\' (cost = 3):
+\BasicCounter_1:MODULE_1:g2:a0:s_2\ <= ((not Net_2394_1 and Net_2394_2)
+	OR (not Net_2394_0 and Net_2394_2)
+	OR (not Net_2394_2 and Net_2394_1 and Net_2394_0));
+
+Note:  Expanding virtual equation for '\BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_19\' (cost = 0):
+\BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_19\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_11\' (cost = 0):
+\BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_11\ <=  ('0') ;
+
+
+Substituting virtuals - pass 4:
+
+Note:  Expanding virtual equation for '\BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_4\' (cost = 6):
+\BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_4\ <= ((Net_2394_3 and Net_2394_2 and Net_2394_1 and Net_2394_0));
+
+Note:  Expanding virtual equation for '\BasicCounter_1:MODULE_1:g2:a0:s_3\' (cost = 4):
+\BasicCounter_1:MODULE_1:g2:a0:s_3\ <= ((not Net_2394_2 and Net_2394_3)
+	OR (not Net_2394_1 and Net_2394_3)
+	OR (not Net_2394_0 and Net_2394_3)
+	OR (not Net_2394_3 and Net_2394_2 and Net_2394_1 and Net_2394_0));
+
+Note:  Expanding virtual equation for '\BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_20\' (cost = 0):
+\BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_20\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_12\' (cost = 0):
+\BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_12\ <=  ('0') ;
+
+
+Substituting virtuals - pass 5:
+
+Note:  Expanding virtual equation for '\BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_5\' (cost = 7):
+\BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_5\ <= ((Net_2394_4 and Net_2394_3 and Net_2394_2 and Net_2394_1 and Net_2394_0));
+
+Note:  Expanding virtual equation for '\BasicCounter_1:MODULE_1:g2:a0:s_4\' (cost = 5):
+\BasicCounter_1:MODULE_1:g2:a0:s_4\ <= ((not Net_2394_3 and Net_2394_4)
+	OR (not Net_2394_2 and Net_2394_4)
+	OR (not Net_2394_1 and Net_2394_4)
+	OR (not Net_2394_0 and Net_2394_4)
+	OR (not Net_2394_4 and Net_2394_3 and Net_2394_2 and Net_2394_1 and Net_2394_0));
+
+Note:  Expanding virtual equation for '\BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_21\' (cost = 0):
+\BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_21\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_13\' (cost = 0):
+\BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_13\ <=  ('0') ;
+
+
+Substituting virtuals - pass 6:
+
+Note:  Expanding virtual equation for '\BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_6\' (cost = 8):
+\BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_6\ <= ((Net_2394_5 and Net_2394_4 and Net_2394_3 and Net_2394_2 and Net_2394_1 and Net_2394_0));
+
+Note:  Expanding virtual equation for '\BasicCounter_1:MODULE_1:g2:a0:s_5\' (cost = 6):
+\BasicCounter_1:MODULE_1:g2:a0:s_5\ <= ((not Net_2394_4 and Net_2394_5)
+	OR (not Net_2394_3 and Net_2394_5)
+	OR (not Net_2394_2 and Net_2394_5)
+	OR (not Net_2394_1 and Net_2394_5)
+	OR (not Net_2394_0 and Net_2394_5)
+	OR (not Net_2394_5 and Net_2394_4 and Net_2394_3 and Net_2394_2 and Net_2394_1 and Net_2394_0));
+
+Note:  Expanding virtual equation for '\BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_22\' (cost = 0):
+\BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_22\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_14\' (cost = 0):
+\BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_14\ <=  ('0') ;
+
+
+Substituting virtuals - pass 7:
+
+Note:  Expanding virtual equation for '\BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_7\' (cost = 9):
+\BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_7\ <= ((Net_2394_6 and Net_2394_5 and Net_2394_4 and Net_2394_3 and Net_2394_2 and Net_2394_1 and Net_2394_0));
+
+Note:  Expanding virtual equation for '\BasicCounter_1:MODULE_1:g2:a0:s_6\' (cost = 7):
+\BasicCounter_1:MODULE_1:g2:a0:s_6\ <= ((not Net_2394_5 and Net_2394_6)
+	OR (not Net_2394_4 and Net_2394_6)
+	OR (not Net_2394_3 and Net_2394_6)
+	OR (not Net_2394_2 and Net_2394_6)
+	OR (not Net_2394_1 and Net_2394_6)
+	OR (not Net_2394_0 and Net_2394_6)
+	OR (not Net_2394_6 and Net_2394_5 and Net_2394_4 and Net_2394_3 and Net_2394_2 and Net_2394_1 and Net_2394_0));
+
+Note:  Expanding virtual equation for '\BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_23\' (cost = 0):
+\BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_23\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_15\' (cost = 0):
+\BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_15\ <=  ('0') ;
+
+
+Substituting virtuals - pass 8:
+
+Note:  Expanding virtual equation for '\BasicCounter_1:MODULE_1:g2:a0:s_7\' (cost = 8):
+\BasicCounter_1:MODULE_1:g2:a0:s_7\ <= ((not Net_2394_6 and Net_2394_7)
+	OR (not Net_2394_5 and Net_2394_7)
+	OR (not Net_2394_4 and Net_2394_7)
+	OR (not Net_2394_3 and Net_2394_7)
+	OR (not Net_2394_2 and Net_2394_7)
+	OR (not Net_2394_1 and Net_2394_7)
+	OR (not Net_2394_0 and Net_2394_7)
+	OR (not Net_2394_7 and Net_2394_6 and Net_2394_5 and Net_2394_4 and Net_2394_3 and Net_2394_2 and Net_2394_1 and Net_2394_0));
+
+
+Substituting virtuals - pass 9:
 
 
 ----------------------------------------------------------
 Circuit simplification results:
 
-	Expanded 1 signals.
-	Turned 0 signals into soft nodes.
+	Expanded 38 signals.
+	Turned 8 signals into soft nodes.
 	Maximum default expansion cost was set at 3.
 ----------------------------------------------------------
 
 ------------------------------------------------------
 Alias Detection
 ------------------------------------------------------
+Aliasing \BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_24\ to zero
+Aliasing \BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_16\ to zero
+Removing Lhs of wire \BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_24\[629] = zero[2]
+Removing Lhs of wire \BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_16\[639] = zero[2]
 
 ------------------------------------------------------
-Aliased 0 equations, 0 wires.
+Aliased 0 equations, 2 wires.
 ------------------------------------------------------
 
-Last attempt to remove unused logic - pass 1:
+----------------------------------------------------------
+Circuit simplification
+----------------------------------------------------------
+
+Eliminating unused logic - pass 1:
 
 
-Last attempt to remove unused logic - pass 2:
+Eliminating unused logic - pass 2:
 
+
+Substituting virtuals - pass 1:
+
+
+----------------------------------------------------------
+Circuit simplification results:
+
+	Expanded 0 signals.
+	Turned 0 signals into soft nodes.
+	Maximum default expansion cost was set at 3.
+----------------------------------------------------------
 
 topld:  No errors.
 
@@ -343,10 +879,10 @@ CYPRESS_DIR    : C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\wa
 Warp Program   : C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\bin/warp.exe
 Warp Arguments : -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya "-.fftprj=\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\MIDI_EXAMPLE.cyprj" -dcpsoc3 MIDI_EXAMPLE.v -verilog
 </CYPRESSTAG>
-Warp synthesis phase: Elapsed time ==> 0s.609ms
+Warp synthesis phase: Elapsed time ==> 1s.031ms
 <CYPRESSTAG name="Fitter results...">
 <CYPRESSTAG name="Fitter startup details...">
-cyp3fit: V3.3.0.9604, Family: PSoC3, Started at: Tuesday, 17 November 2020 23:33:10
+cyp3fit: V3.3.0.9604, Family: PSoC3, Started at: Wednesday, 18 November 2020 00:53:26
 Options: -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\MIDI_EXAMPLE.cyprj -d CY8C5888LTI-LP097 MIDI_EXAMPLE.v -verilog
 </CYPRESSTAG>
 <CYPRESSTAG name="Design parsing">
@@ -354,17 +890,28 @@ Design parsing phase: Elapsed time ==> 0s.015ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Tech mapping">
 <CYPRESSTAG name="Initial Mapping" icon="FILE_RPT_TECHM">
+    Removed wire end \BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_24\ kept zero
+    Removed wire end \BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_16\ kept zero
+    Removed wire end \BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_8\ kept \BasicCounter_1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_8\
     Converted constant MacroCell: \WaveDAC8_2:Net_134\ from registered to combinatorial
     Converted constant MacroCell: \WaveDAC8_1:Net_134\ from registered to combinatorial
+    Converted constant MacroCell: \WaveDAC8_3:Net_134\ from registered to combinatorial
 <CYPRESSTAG name="Global Clock Selection" icon="FILE_RPT_TECHM">
-    Digital Clock 0: Automatic-assigning  clock 'Clock_1'. Fanout=3, Signal=Net_1945
-    Digital Clock 1: Automatic-assigning  clock 'Clock_2'. Fanout=3, Signal=Net_1954
+    Digital Clock 0: Automatic-assigning  clock 'REG_CLK'. Fanout=68, Signal=Net_2353
+    Digital Clock 1: Automatic-assigning  clock 'Clock_3'. Fanout=4, Signal=Net_2524
+    Digital Clock 2: Automatic-assigning  clock 'Clock_1'. Fanout=3, Signal=Net_2511
+    Digital Clock 3: Automatic-assigning  clock 'Clock_2'. Fanout=11, Signal=Net_2395
 </CYPRESSTAG>
 
 Removing unused cells resulting from optimization
     Removed unused cell/equation '\MIDI_NOTES_REG:Sync:ctrl_reg\:controlcell'
 Done removing unused cells.
 <CYPRESSTAG name="UDB Clock/Enable Remapping Results">
+</CYPRESSTAG>
+<CYPRESSTAG name="UDB Routed Clock Assignment">
+    Routed Clock: \WaveDAC8_2:Wave1_DMA\:drqcell.termout
+        Effective Clock: \WaveDAC8_2:Wave1_DMA\:drqcell.termout
+        Enable Signal: True
 </CYPRESSTAG>
 ADD: pft.M0040: information: The following 2 pin(s) will be assigned a location by the fitter: \USB:Dm(0)\, \USB:Dp(0)\
 
@@ -815,7 +1362,7 @@ Design Equations
             IO Voltage: 0
         PORT MAP (
             pa_out => LED_1(0)__PA ,
-            input => Net_1996 ,
+            input => Net_2516 ,
             pad => LED_1(0)_PAD );
         Properties:
         {
@@ -867,23 +1414,13 @@ Design Equations
     Macrocell listing
     ------------------------------------------------------------
 
-    MacroCell: Name=Net_1996, Mode=(Combinatorial)
-        Total # of inputs        : 5
-        Total # of product terms : 1
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              Net_2068 * !Net_1997_2 * !Net_1997_1 * !Net_1997_0 * Net_2070
-        );
-        Output = Net_1996 (fanout=1)
-
     MacroCell: Name=Net_1999, Mode=(Combinatorial)
         Total # of inputs        : 5
         Total # of product terms : 1
             Clock Enable: True
         Main Equation            : 1 pterm
         (
-              Net_2068 * !Net_1997_2 * !Net_1997_1 * Net_1997_0 * Net_2070
+              Net_2264 * !Net_2312_2 * !Net_2312_1 * Net_2312_0 * Net_2234
         );
         Output = Net_1999 (fanout=1)
 
@@ -893,7 +1430,7 @@ Design Equations
             Clock Enable: True
         Main Equation            : 1 pterm
         (
-              Net_2068 * !Net_1997_2 * Net_1997_1 * !Net_1997_0 * Net_2070
+              Net_2264 * !Net_2312_2 * Net_2312_1 * !Net_2312_0 * Net_2234
         );
         Output = Net_2001 (fanout=1)
 
@@ -903,7 +1440,7 @@ Design Equations
             Clock Enable: True
         Main Equation            : 1 pterm
         (
-              Net_2068 * !Net_1997_2 * Net_1997_1 * Net_1997_0 * Net_2070
+              Net_2264 * !Net_2312_2 * Net_2312_1 * Net_2312_0 * Net_2234
         );
         Output = Net_1478 (fanout=1)
 
@@ -913,7 +1450,7 @@ Design Equations
             Clock Enable: True
         Main Equation            : 1 pterm
         (
-              Net_2068 * Net_1997_2 * !Net_1997_1 * !Net_1997_0 * Net_2070
+              Net_2264 * Net_2312_2 * !Net_2312_1 * !Net_2312_0 * Net_2234
         );
         Output = Net_2002 (fanout=1)
 
@@ -923,7 +1460,7 @@ Design Equations
             Clock Enable: True
         Main Equation            : 1 pterm
         (
-              Net_2068 * Net_1997_2 * !Net_1997_1 * Net_1997_0 * Net_2070
+              Net_2264 * Net_2312_2 * !Net_2312_1 * Net_2312_0 * Net_2234
         );
         Output = Net_2003 (fanout=1)
 
@@ -933,7 +1470,7 @@ Design Equations
             Clock Enable: True
         Main Equation            : 1 pterm
         (
-              Net_2068 * Net_1997_2 * Net_1997_1 * !Net_1997_0 * Net_2070
+              Net_2264 * Net_2312_2 * Net_2312_1 * !Net_2312_0 * Net_2234
         );
         Output = Net_2004 (fanout=1)
 
@@ -943,9 +1480,1130 @@ Design Equations
             Clock Enable: True
         Main Equation            : 1 pterm
         (
-              Net_2068 * Net_1997_2 * Net_1997_1 * Net_1997_0 * Net_2070
+              Net_2264 * Net_2312_2 * Net_2312_1 * Net_2312_0 * Net_2234
         );
         Output = Net_2000 (fanout=1)
+
+    MacroCell: Name=Net_2351, Mode=(Combinatorial)
+        Total # of inputs        : 5
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_2312_2 * !Net_2312_1 * !Net_2312_0 * \EdgeDetect_1:last\ * 
+              !Net_2251
+        );
+        Output = Net_2351 (fanout=8)
+        Properties               : 
+        {
+            soft = 1
+        }
+
+    MacroCell: Name=Net_2323, Mode=(Combinatorial)
+        Total # of inputs        : 5
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_2312_2 * !Net_2312_1 * Net_2312_0 * \EdgeDetect_1:last\ * 
+              !Net_2251
+        );
+        Output = Net_2323 (fanout=8)
+        Properties               : 
+        {
+            soft = 1
+        }
+
+    MacroCell: Name=Net_2324, Mode=(Combinatorial)
+        Total # of inputs        : 5
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_2312_2 * Net_2312_1 * !Net_2312_0 * \EdgeDetect_1:last\ * 
+              !Net_2251
+        );
+        Output = Net_2324 (fanout=8)
+        Properties               : 
+        {
+            soft = 1
+        }
+
+    MacroCell: Name=Net_2325, Mode=(Combinatorial)
+        Total # of inputs        : 5
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_2312_2 * Net_2312_1 * Net_2312_0 * \EdgeDetect_1:last\ * 
+              !Net_2251
+        );
+        Output = Net_2325 (fanout=8)
+        Properties               : 
+        {
+            soft = 1
+        }
+
+    MacroCell: Name=Net_2326, Mode=(Combinatorial)
+        Total # of inputs        : 5
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_2312_2 * !Net_2312_1 * !Net_2312_0 * \EdgeDetect_1:last\ * 
+              !Net_2251
+        );
+        Output = Net_2326 (fanout=8)
+        Properties               : 
+        {
+            soft = 1
+        }
+
+    MacroCell: Name=Net_2327, Mode=(Combinatorial)
+        Total # of inputs        : 5
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_2312_2 * !Net_2312_1 * Net_2312_0 * \EdgeDetect_1:last\ * 
+              !Net_2251
+        );
+        Output = Net_2327 (fanout=8)
+        Properties               : 
+        {
+            soft = 1
+        }
+
+    MacroCell: Name=Net_2328, Mode=(Combinatorial)
+        Total # of inputs        : 5
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_2312_2 * Net_2312_1 * !Net_2312_0 * \EdgeDetect_1:last\ * 
+              !Net_2251
+        );
+        Output = Net_2328 (fanout=8)
+        Properties               : 
+        {
+            soft = 1
+        }
+
+    MacroCell: Name=Net_2329, Mode=(Combinatorial)
+        Total # of inputs        : 5
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_2312_2 * Net_2312_1 * Net_2312_0 * \EdgeDetect_1:last\ * 
+              !Net_2251
+        );
+        Output = Net_2329 (fanout=8)
+        Properties               : 
+        {
+            soft = 1
+        }
+
+    MacroCell: Name=Net_2516, Mode=(Combinatorial)
+        Total # of inputs        : 6
+        Total # of product terms : 5
+            Clock Enable: True
+        Main Equation            : 5 pterms
+        (
+              !Net_2264 * Net_2679
+            + Net_2264 * !Net_2312_2 * !Net_2312_1 * !Net_2312_0 * Net_2234
+            + Net_2312_2 * Net_2679
+            + Net_2312_1 * Net_2679
+            + Net_2312_0 * Net_2679
+        );
+        Output = Net_2516 (fanout=1)
+
+    MacroCell: Name=\EdgeDetect_1:last\, Mode=(D-Register)
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_2251
+        );
+        Output = \EdgeDetect_1:last\ (fanout=8)
+
+    MacroCell: Name=cy_dffe_8_7, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              cy_dffe_8_7 * !Net_2329
+            + Net_2329 * Net_2394_7
+        );
+        Output = cy_dffe_8_7 (fanout=1)
+
+    MacroCell: Name=Net_2394_7, Mode=(T-Register)
+        Total # of inputs        : 9
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2062)
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_7 * Net_2395_local
+            + Net_2394_6 * Net_2394_5 * Net_2394_4 * Net_2394_3 * Net_2394_2 * 
+              Net_2394_1 * Net_2394_0 * !Net_2395_local
+        );
+        Output = Net_2394_7 (fanout=9)
+
+    MacroCell: Name=cy_dffe_8_6, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              !Net_2329 * cy_dffe_8_6
+            + Net_2329 * Net_2394_6
+        );
+        Output = cy_dffe_8_6 (fanout=1)
+
+    MacroCell: Name=Net_2394_6, Mode=(T-Register)
+        Total # of inputs        : 8
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2062)
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_6 * Net_2395_local
+            + Net_2394_5 * Net_2394_4 * Net_2394_3 * Net_2394_2 * Net_2394_1 * 
+              Net_2394_0 * !Net_2395_local
+        );
+        Output = Net_2394_6 (fanout=10)
+
+    MacroCell: Name=cy_dffe_8_5, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              !Net_2329 * cy_dffe_8_5
+            + Net_2329 * Net_2394_5
+        );
+        Output = cy_dffe_8_5 (fanout=1)
+
+    MacroCell: Name=Net_2394_5, Mode=(T-Register)
+        Total # of inputs        : 7
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2062)
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_5 * Net_2395_local
+            + Net_2394_4 * Net_2394_3 * Net_2394_2 * Net_2394_1 * Net_2394_0 * 
+              !Net_2395_local
+        );
+        Output = Net_2394_5 (fanout=11)
+
+    MacroCell: Name=cy_dffe_8_4, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              !Net_2329 * cy_dffe_8_4
+            + Net_2329 * Net_2394_4
+        );
+        Output = cy_dffe_8_4 (fanout=1)
+
+    MacroCell: Name=Net_2394_4, Mode=(T-Register)
+        Total # of inputs        : 6
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2062)
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_4 * Net_2395_local
+            + Net_2394_3 * Net_2394_2 * Net_2394_1 * Net_2394_0 * 
+              !Net_2395_local
+        );
+        Output = Net_2394_4 (fanout=12)
+
+    MacroCell: Name=cy_dffe_8_3, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              !Net_2329 * cy_dffe_8_3
+            + Net_2329 * Net_2394_3
+        );
+        Output = cy_dffe_8_3 (fanout=1)
+
+    MacroCell: Name=Net_2394_3, Mode=(T-Register)
+        Total # of inputs        : 5
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2062)
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_3 * Net_2395_local
+            + Net_2394_2 * Net_2394_1 * Net_2394_0 * !Net_2395_local
+        );
+        Output = Net_2394_3 (fanout=13)
+
+    MacroCell: Name=cy_dffe_8_2, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              !Net_2329 * cy_dffe_8_2
+            + Net_2329 * Net_2394_2
+        );
+        Output = cy_dffe_8_2 (fanout=1)
+
+    MacroCell: Name=Net_2394_2, Mode=(T-Register)
+        Total # of inputs        : 4
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2062)
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_2 * Net_2395_local
+            + Net_2394_1 * Net_2394_0 * !Net_2395_local
+        );
+        Output = Net_2394_2 (fanout=14)
+
+    MacroCell: Name=cy_dffe_8_1, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              !Net_2329 * cy_dffe_8_1
+            + Net_2329 * Net_2394_1
+        );
+        Output = cy_dffe_8_1 (fanout=1)
+
+    MacroCell: Name=Net_2394_1, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2062)
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              !Net_2394_1 * Net_2394_0 * !Net_2395_local
+            + Net_2394_1 * !Net_2394_0 * !Net_2395_local
+        );
+        Output = Net_2394_1 (fanout=15)
+
+    MacroCell: Name=cy_dffe_8_0, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              !Net_2329 * cy_dffe_8_0
+            + Net_2329 * Net_2394_0
+        );
+        Output = cy_dffe_8_0 (fanout=1)
+
+    MacroCell: Name=Net_2394_0, Mode=(D-Register)
+        Total # of inputs        : 2
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_2062)
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_2394_0 * !Net_2395_local
+        );
+        Output = Net_2394_0 (fanout=16)
+
+    MacroCell: Name=cy_dffe_7_7, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_7 * Net_2328
+            + cy_dffe_7_7 * !Net_2328
+        );
+        Output = cy_dffe_7_7 (fanout=1)
+
+    MacroCell: Name=cy_dffe_7_6, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_6 * Net_2328
+            + !Net_2328 * cy_dffe_7_6
+        );
+        Output = cy_dffe_7_6 (fanout=1)
+
+    MacroCell: Name=cy_dffe_7_5, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_5 * Net_2328
+            + !Net_2328 * cy_dffe_7_5
+        );
+        Output = cy_dffe_7_5 (fanout=1)
+
+    MacroCell: Name=cy_dffe_7_4, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_4 * Net_2328
+            + !Net_2328 * cy_dffe_7_4
+        );
+        Output = cy_dffe_7_4 (fanout=1)
+
+    MacroCell: Name=cy_dffe_7_3, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_3 * Net_2328
+            + !Net_2328 * cy_dffe_7_3
+        );
+        Output = cy_dffe_7_3 (fanout=1)
+
+    MacroCell: Name=cy_dffe_7_2, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_2 * Net_2328
+            + !Net_2328 * cy_dffe_7_2
+        );
+        Output = cy_dffe_7_2 (fanout=1)
+
+    MacroCell: Name=cy_dffe_7_1, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_1 * Net_2328
+            + !Net_2328 * cy_dffe_7_1
+        );
+        Output = cy_dffe_7_1 (fanout=1)
+
+    MacroCell: Name=cy_dffe_7_0, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_0 * Net_2328
+            + !Net_2328 * cy_dffe_7_0
+        );
+        Output = cy_dffe_7_0 (fanout=1)
+
+    MacroCell: Name=cy_dffe_6_7, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_7 * Net_2327
+            + cy_dffe_6_7 * !Net_2327
+        );
+        Output = cy_dffe_6_7 (fanout=1)
+
+    MacroCell: Name=cy_dffe_6_6, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_6 * Net_2327
+            + !Net_2327 * cy_dffe_6_6
+        );
+        Output = cy_dffe_6_6 (fanout=1)
+
+    MacroCell: Name=cy_dffe_6_5, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_5 * Net_2327
+            + !Net_2327 * cy_dffe_6_5
+        );
+        Output = cy_dffe_6_5 (fanout=1)
+
+    MacroCell: Name=cy_dffe_6_4, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_4 * Net_2327
+            + !Net_2327 * cy_dffe_6_4
+        );
+        Output = cy_dffe_6_4 (fanout=1)
+
+    MacroCell: Name=cy_dffe_6_3, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_3 * Net_2327
+            + !Net_2327 * cy_dffe_6_3
+        );
+        Output = cy_dffe_6_3 (fanout=1)
+
+    MacroCell: Name=cy_dffe_6_2, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_2 * Net_2327
+            + !Net_2327 * cy_dffe_6_2
+        );
+        Output = cy_dffe_6_2 (fanout=1)
+
+    MacroCell: Name=cy_dffe_6_1, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_1 * Net_2327
+            + !Net_2327 * cy_dffe_6_1
+        );
+        Output = cy_dffe_6_1 (fanout=1)
+
+    MacroCell: Name=cy_dffe_6_0, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_0 * Net_2327
+            + !Net_2327 * cy_dffe_6_0
+        );
+        Output = cy_dffe_6_0 (fanout=1)
+
+    MacroCell: Name=cy_dffe_5_7, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_7 * Net_2326
+            + cy_dffe_5_7 * !Net_2326
+        );
+        Output = cy_dffe_5_7 (fanout=1)
+
+    MacroCell: Name=cy_dffe_5_6, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_6 * Net_2326
+            + !Net_2326 * cy_dffe_5_6
+        );
+        Output = cy_dffe_5_6 (fanout=1)
+
+    MacroCell: Name=cy_dffe_5_5, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_5 * Net_2326
+            + !Net_2326 * cy_dffe_5_5
+        );
+        Output = cy_dffe_5_5 (fanout=1)
+
+    MacroCell: Name=cy_dffe_5_4, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_4 * Net_2326
+            + !Net_2326 * cy_dffe_5_4
+        );
+        Output = cy_dffe_5_4 (fanout=1)
+
+    MacroCell: Name=cy_dffe_5_3, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_3 * Net_2326
+            + !Net_2326 * cy_dffe_5_3
+        );
+        Output = cy_dffe_5_3 (fanout=1)
+
+    MacroCell: Name=cy_dffe_5_2, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_2 * Net_2326
+            + !Net_2326 * cy_dffe_5_2
+        );
+        Output = cy_dffe_5_2 (fanout=1)
+
+    MacroCell: Name=cy_dffe_5_1, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_1 * Net_2326
+            + !Net_2326 * cy_dffe_5_1
+        );
+        Output = cy_dffe_5_1 (fanout=1)
+
+    MacroCell: Name=cy_dffe_5_0, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_0 * Net_2326
+            + !Net_2326 * cy_dffe_5_0
+        );
+        Output = cy_dffe_5_0 (fanout=1)
+
+    MacroCell: Name=cy_dffe_4_7, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_7 * Net_2325
+            + cy_dffe_4_7 * !Net_2325
+        );
+        Output = cy_dffe_4_7 (fanout=1)
+
+    MacroCell: Name=cy_dffe_4_6, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_6 * Net_2325
+            + !Net_2325 * cy_dffe_4_6
+        );
+        Output = cy_dffe_4_6 (fanout=1)
+
+    MacroCell: Name=cy_dffe_4_5, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_5 * Net_2325
+            + !Net_2325 * cy_dffe_4_5
+        );
+        Output = cy_dffe_4_5 (fanout=1)
+
+    MacroCell: Name=cy_dffe_4_4, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_4 * Net_2325
+            + !Net_2325 * cy_dffe_4_4
+        );
+        Output = cy_dffe_4_4 (fanout=1)
+
+    MacroCell: Name=cy_dffe_4_3, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_3 * Net_2325
+            + !Net_2325 * cy_dffe_4_3
+        );
+        Output = cy_dffe_4_3 (fanout=1)
+
+    MacroCell: Name=cy_dffe_4_2, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_2 * Net_2325
+            + !Net_2325 * cy_dffe_4_2
+        );
+        Output = cy_dffe_4_2 (fanout=1)
+
+    MacroCell: Name=cy_dffe_4_1, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_1 * Net_2325
+            + !Net_2325 * cy_dffe_4_1
+        );
+        Output = cy_dffe_4_1 (fanout=1)
+
+    MacroCell: Name=cy_dffe_4_0, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_0 * Net_2325
+            + !Net_2325 * cy_dffe_4_0
+        );
+        Output = cy_dffe_4_0 (fanout=1)
+
+    MacroCell: Name=cy_dffe_2_7, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_7 * Net_2323
+            + cy_dffe_2_7 * !Net_2323
+        );
+        Output = cy_dffe_2_7 (fanout=1)
+
+    MacroCell: Name=cy_dffe_2_6, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_6 * Net_2323
+            + !Net_2323 * cy_dffe_2_6
+        );
+        Output = cy_dffe_2_6 (fanout=1)
+
+    MacroCell: Name=cy_dffe_2_5, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_5 * Net_2323
+            + !Net_2323 * cy_dffe_2_5
+        );
+        Output = cy_dffe_2_5 (fanout=1)
+
+    MacroCell: Name=cy_dffe_2_4, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_4 * Net_2323
+            + !Net_2323 * cy_dffe_2_4
+        );
+        Output = cy_dffe_2_4 (fanout=1)
+
+    MacroCell: Name=cy_dffe_2_3, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_3 * Net_2323
+            + !Net_2323 * cy_dffe_2_3
+        );
+        Output = cy_dffe_2_3 (fanout=1)
+
+    MacroCell: Name=cy_dffe_2_2, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_2 * Net_2323
+            + !Net_2323 * cy_dffe_2_2
+        );
+        Output = cy_dffe_2_2 (fanout=1)
+
+    MacroCell: Name=cy_dffe_2_1, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_1 * Net_2323
+            + !Net_2323 * cy_dffe_2_1
+        );
+        Output = cy_dffe_2_1 (fanout=1)
+
+    MacroCell: Name=cy_dffe_2_0, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_0 * Net_2323
+            + !Net_2323 * cy_dffe_2_0
+        );
+        Output = cy_dffe_2_0 (fanout=1)
+
+    MacroCell: Name=cy_dffe_3_7, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_7 * Net_2324
+            + cy_dffe_3_7 * !Net_2324
+        );
+        Output = cy_dffe_3_7 (fanout=1)
+
+    MacroCell: Name=cy_dffe_3_6, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_6 * Net_2324
+            + !Net_2324 * cy_dffe_3_6
+        );
+        Output = cy_dffe_3_6 (fanout=1)
+
+    MacroCell: Name=cy_dffe_3_5, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_5 * Net_2324
+            + !Net_2324 * cy_dffe_3_5
+        );
+        Output = cy_dffe_3_5 (fanout=1)
+
+    MacroCell: Name=cy_dffe_3_4, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_4 * Net_2324
+            + !Net_2324 * cy_dffe_3_4
+        );
+        Output = cy_dffe_3_4 (fanout=1)
+
+    MacroCell: Name=cy_dffe_3_3, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_3 * Net_2324
+            + !Net_2324 * cy_dffe_3_3
+        );
+        Output = cy_dffe_3_3 (fanout=1)
+
+    MacroCell: Name=cy_dffe_3_2, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_2 * Net_2324
+            + !Net_2324 * cy_dffe_3_2
+        );
+        Output = cy_dffe_3_2 (fanout=1)
+
+    MacroCell: Name=cy_dffe_3_1, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_1 * Net_2324
+            + !Net_2324 * cy_dffe_3_1
+        );
+        Output = cy_dffe_3_1 (fanout=1)
+
+    MacroCell: Name=cy_dffe_3_0, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_0 * Net_2324
+            + !Net_2324 * cy_dffe_3_0
+        );
+        Output = cy_dffe_3_0 (fanout=1)
+
+    MacroCell: Name=cy_dffe_1_7, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_7 * Net_2351
+            + cy_dffe_1_7 * !Net_2351
+        );
+        Output = cy_dffe_1_7 (fanout=2)
+
+    MacroCell: Name=cy_dffe_1_6, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_6 * Net_2351
+            + !Net_2351 * cy_dffe_1_6
+        );
+        Output = cy_dffe_1_6 (fanout=2)
+
+    MacroCell: Name=cy_dffe_1_5, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_5 * Net_2351
+            + !Net_2351 * cy_dffe_1_5
+        );
+        Output = cy_dffe_1_5 (fanout=2)
+
+    MacroCell: Name=cy_dffe_1_4, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_4 * Net_2351
+            + !Net_2351 * cy_dffe_1_4
+        );
+        Output = cy_dffe_1_4 (fanout=2)
+
+    MacroCell: Name=cy_dffe_1_3, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_3 * Net_2351
+            + !Net_2351 * cy_dffe_1_3
+        );
+        Output = cy_dffe_1_3 (fanout=2)
+
+    MacroCell: Name=cy_dffe_1_2, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_2 * Net_2351
+            + !Net_2351 * cy_dffe_1_2
+        );
+        Output = cy_dffe_1_2 (fanout=2)
+
+    MacroCell: Name=cy_dffe_1_1, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_1 * Net_2351
+            + !Net_2351 * cy_dffe_1_1
+        );
+        Output = cy_dffe_1_1 (fanout=2)
+
+    MacroCell: Name=cy_dffe_1_0, Mode=(D-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_0 * Net_2351
+            + !Net_2351 * cy_dffe_1_0
+        );
+        Output = cy_dffe_1_0 (fanout=2)
+
+    MacroCell: Name=cydff_1, Mode=(D-Register)
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_2264
+        );
+        Output = cydff_1 (fanout=1)
+
+    MacroCell: Name=cydff_2, Mode=(D-Register)
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              cydff_1
+        );
+        Output = cydff_2 (fanout=1)
+
+    MacroCell: Name=Net_2251, Mode=(D-Register)
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              cydff_2
+        );
+        Output = Net_2251 (fanout=9)
     </CYPRESSTAG>
     <CYPRESSTAG name="Datapath listing">
     </CYPRESSTAG>
@@ -970,7 +2628,7 @@ Design Equations
             control_3 => \NOTE_ON_REG:control_3\ ,
             control_2 => \NOTE_ON_REG:control_2\ ,
             control_1 => \NOTE_ON_REG:control_1\ ,
-            control_0 => Net_2068 );
+            control_0 => Net_2264 );
         Properties:
         {
             cy_ctrl_mode_0 = "00000000"
@@ -988,9 +2646,9 @@ Design Equations
             control_5 => \MIDI_BIN_REG:control_5\ ,
             control_4 => \MIDI_BIN_REG:control_4\ ,
             control_3 => \MIDI_BIN_REG:control_3\ ,
-            control_2 => Net_1997_2 ,
-            control_1 => Net_1997_1 ,
-            control_0 => Net_1997_0 );
+            control_2 => Net_2312_2 ,
+            control_1 => Net_2312_1 ,
+            control_0 => Net_2312_0 );
         Properties:
         {
             cy_ctrl_mode_0 = "00000000"
@@ -1011,7 +2669,7 @@ Design Equations
 
     drqcell: Name =\WaveDAC8_2:Wave1_DMA\
         PORT MAP (
-            dmareq => Net_1954_local ,
+            dmareq => Net_2395_local ,
             termin => zero ,
             termout => Net_2062 );
         Properties:
@@ -1032,9 +2690,9 @@ Design Equations
 
     drqcell: Name =\WaveDAC8_1:Wave1_DMA\
         PORT MAP (
-            dmareq => Net_1945_local ,
+            dmareq => Net_2511_local ,
             termin => zero ,
-            termout => Net_2047 );
+            termout => Net_2346 );
         Properties:
         {
             drq_type = "10"
@@ -1044,7 +2702,28 @@ Design Equations
     drqcell: Name =\WaveDAC8_1:Wave2_DMA\
         PORT MAP (
             termin => zero ,
-            termout => Net_2048 );
+            termout => Net_2347 );
+        Properties:
+        {
+            drq_type = "10"
+            num_tds = 0
+        }
+
+    drqcell: Name =\WaveDAC8_3:Wave1_DMA\
+        PORT MAP (
+            dmareq => Net_2524_local ,
+            termin => zero ,
+            termout => Net_2580 );
+        Properties:
+        {
+            drq_type = "10"
+            num_tds = 0
+        }
+
+    drqcell: Name =\WaveDAC8_3:Wave2_DMA\
+        PORT MAP (
+            termin => zero ,
+            termout => Net_2581 );
         Properties:
         {
             drq_type = "10"
@@ -1130,7 +2809,7 @@ Technology mapping summary
 
 Resource Type                 : Used : Free :  Max :  % Used
 ============================================================
-Digital Clocks                :    2 :    6 :    8 : 25.00 %
+Digital Clocks                :    4 :    4 :    8 : 50.00 %
 Analog Clocks                 :    0 :    4 :    4 :  0.00 %
 CapSense Buffers              :    0 :    2 :    2 :  0.00 %
 Digital Filter Block          :    0 :    1 :    1 :  0.00 %
@@ -1140,30 +2819,30 @@ Segment LCD                   :    0 :    1 :    1 :  0.00 %
 CAN 2.0b                      :    0 :    1 :    1 :  0.00 %
 I2C                           :    0 :    1 :    1 :  0.00 %
 USB                           :    1 :    0 :    1 : 100.00 %
-DMA Channels                  :    4 :   20 :   24 : 16.67 %
+DMA Channels                  :    6 :   18 :   24 : 25.00 %
 Timer                         :    0 :    4 :    4 :  0.00 %
 UDB                           :      :      :      :        
-  Macrocells                  :    8 :  184 :  192 :  4.17 %
-  Unique P-terms              :    8 :  376 :  384 :  2.08 %
-  Total P-terms               :    8 :      :      :        
+  Macrocells                  :   92 :  100 :  192 : 47.92 %
+  Unique P-terms              :  167 :  217 :  384 : 43.49 %
+  Total P-terms               :  167 :      :      :        
   Datapath Cells              :    0 :   24 :   24 :  0.00 %
   Status Cells                :    0 :   24 :   24 :  0.00 %
   Control Cells               :    2 :   22 :   24 :  8.33 %
     Control Registers         :    2 :      :      :        
 Opamp                         :    0 :    4 :    4 :  0.00 %
-Comparator                    :    1 :    3 :    4 : 25.00 %
+Comparator                    :    2 :    2 :    4 : 50.00 %
 Delta-Sigma ADC               :    0 :    1 :    1 :  0.00 %
 LPF                           :    0 :    2 :    2 :  0.00 %
 SAR ADC                       :    0 :    2 :    2 :  0.00 %
 Analog (SC/CT) Blocks         :    0 :    4 :    4 :  0.00 %
 DAC                           :      :      :      :        
-  VIDAC                       :    2 :    2 :    4 : 50.00 %
+  VIDAC                       :    4 :    0 :    4 : 100.00 %
 </CYPRESSTAG>
-Technology Mapping: Elapsed time ==> 0s.000ms
+Technology Mapping: Elapsed time ==> 0s.078ms
 ADD: mpr.M0037: information: Unused pieces of the design have been optimized out. See the Tech mapping section of the report file for details.
  * \\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\codegentemp\MIDI_EXAMPLE.rpt (Tech mapping)
 
-Tech mapping phase: Elapsed time ==> 0s.078ms
+Tech mapping phase: Elapsed time ==> 0s.187ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Placement">
 Initial Analog Placement Results:
@@ -1180,12 +2859,16 @@ IO_4@[IOP=(2)][IoId=(4)] : SW2(0) (fixed)
 IO_7@[IOP=(15)][IoId=(7)] : \USB:Dm(0)\ (fixed)
 IO_6@[IOP=(15)][IoId=(6)] : \USB:Dp(0)\ (fixed)
 Comparator[2]@[FFB(Comparator,2)] : \Comp_1:ctComp\
+Comparator[0]@[FFB(Comparator,0)] : \Comp_2:ctComp\
 USB[0]@[FFB(USB,0)] : \USB:USB\
-VIDAC[3]@[FFB(VIDAC,3)] : \WaveDAC8_1:VDAC8:viDAC8\
-VIDAC[0]@[FFB(VIDAC,0)] : \WaveDAC8_2:VDAC8:viDAC8\
-Log: apr.M0058: The analog placement iterative improvement is 49% done. (App=cydsfit)
-Log: apr.M0058: The analog placement iterative improvement is 73% done. (App=cydsfit)
-Log: apr.M0058: The analog placement iterative improvement is 96% done. (App=cydsfit)
+VIDAC[0]@[FFB(VIDAC,0)] : \VDAC8_1:viDAC8\
+VIDAC[1]@[FFB(VIDAC,1)] : \WaveDAC8_1:VDAC8:viDAC8\
+VIDAC[2]@[FFB(VIDAC,2)] : \WaveDAC8_2:VDAC8:viDAC8\
+VIDAC[3]@[FFB(VIDAC,3)] : \WaveDAC8_3:VDAC8:viDAC8\
+Log: apr.M0058: The analog placement iterative improvement is 40% done. (App=cydsfit)
+Log: apr.M0058: The analog placement iterative improvement is 59% done. (App=cydsfit)
+Log: apr.M0058: The analog placement iterative improvement is 79% done. (App=cydsfit)
+Log: apr.M0058: The analog placement iterative improvement is 100% done. (App=cydsfit)
 Analog Placement Results:
 IO_0@[IOP=(15)][IoId=(0)] : LED_1(0) (fixed)
 IO_1@[IOP=(15)][IoId=(1)] : LED_2(0) (fixed)
@@ -1199,12 +2882,15 @@ IO_3@[IOP=(2)][IoId=(3)] : SW1(0) (fixed)
 IO_4@[IOP=(2)][IoId=(4)] : SW2(0) (fixed)
 IO_7@[IOP=(15)][IoId=(7)] : \USB:Dm(0)\ (fixed)
 IO_6@[IOP=(15)][IoId=(6)] : \USB:Dp(0)\ (fixed)
-Comparator[3]@[FFB(Comparator,3)] : \Comp_1:ctComp\
+Comparator[2]@[FFB(Comparator,2)] : \Comp_1:ctComp\
+Comparator[3]@[FFB(Comparator,3)] : \Comp_2:ctComp\
 USB[0]@[FFB(USB,0)] : \USB:USB\
-VIDAC[3]@[FFB(VIDAC,3)] : \WaveDAC8_1:VDAC8:viDAC8\
-VIDAC[1]@[FFB(VIDAC,1)] : \WaveDAC8_2:VDAC8:viDAC8\
+VIDAC[1]@[FFB(VIDAC,1)] : \VDAC8_1:viDAC8\
+VIDAC[2]@[FFB(VIDAC,2)] : \WaveDAC8_1:VDAC8:viDAC8\
+VIDAC[0]@[FFB(VIDAC,0)] : \WaveDAC8_2:VDAC8:viDAC8\
+VIDAC[3]@[FFB(VIDAC,3)] : \WaveDAC8_3:VDAC8:viDAC8\
 
-Analog Placement phase: Elapsed time ==> 0s.546ms
+Analog Placement phase: Elapsed time ==> 1s.171ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Routing">
 Analog Routing phase: Elapsed time ==> 0s.000ms
@@ -1214,35 +2900,63 @@ Analog Routing phase: Elapsed time ==> 0s.000ms
 Dump of CyAnalogRoutingResultsDB
 Map of net to items {
   Net: Net_1976 {
+    vidac_0_vout
+    agl0_x_vidac_0_vout
+    agl0
+    agl0_x_comp_2_vplus
+    comp_2_vplus
+  }
+  Net: Net_1978 {
+    vidac_2_vout
+    agl5_x_vidac_2_vout
+    agl5
+    agl5_x_comp_2_vminus
+    comp_2_vminus
+  }
+  Net: Net_2508 {
     vidac_1_vout
     agr0_x_vidac_1_vout
     agr0
     agr0_x_comp_3_vplus
     comp_3_vplus
   }
-  Net: Net_1978 {
+  Net: Net_2523 {
     vidac_3_vout
     agr5_x_vidac_3_vout
     agr5
     agr5_x_comp_3_vminus
     comp_3_vminus
   }
+  Net: \VDAC8_1:Net_77\ {
+  }
   Net: \WaveDAC8_1:VDAC8:Net_77\ {
   }
   Net: \WaveDAC8_2:VDAC8:Net_77\ {
   }
+  Net: \WaveDAC8_3:VDAC8:Net_77\ {
+  }
 }
 Map of item to net {
-  vidac_1_vout                                     -> Net_1976
-  agr0_x_vidac_1_vout                              -> Net_1976
-  agr0                                             -> Net_1976
-  agr0_x_comp_3_vplus                              -> Net_1976
-  comp_3_vplus                                     -> Net_1976
-  vidac_3_vout                                     -> Net_1978
-  agr5_x_vidac_3_vout                              -> Net_1978
-  agr5                                             -> Net_1978
-  agr5_x_comp_3_vminus                             -> Net_1978
-  comp_3_vminus                                    -> Net_1978
+  vidac_0_vout                                     -> Net_1976
+  agl0_x_vidac_0_vout                              -> Net_1976
+  agl0                                             -> Net_1976
+  agl0_x_comp_2_vplus                              -> Net_1976
+  comp_2_vplus                                     -> Net_1976
+  vidac_2_vout                                     -> Net_1978
+  agl5_x_vidac_2_vout                              -> Net_1978
+  agl5                                             -> Net_1978
+  agl5_x_comp_2_vminus                             -> Net_1978
+  comp_2_vminus                                    -> Net_1978
+  vidac_1_vout                                     -> Net_2508
+  agr0_x_vidac_1_vout                              -> Net_2508
+  agr0                                             -> Net_2508
+  agr0_x_comp_3_vplus                              -> Net_2508
+  comp_3_vplus                                     -> Net_2508
+  vidac_3_vout                                     -> Net_2523
+  agr5_x_vidac_3_vout                              -> Net_2523
+  agr5                                             -> Net_2523
+  agr5_x_comp_3_vminus                             -> Net_2523
+  comp_3_vminus                                    -> Net_2523
 }
 Mux Info {
 }
@@ -1250,12 +2964,11 @@ Dump of CyP35AnalogRoutingResultsDB
 IsVddaHalfUsedForComp = False
 IsVddaHalfUsedForSar0 = False
 IsVddaHalfUsedForSar1 = False
-Analog Code Generation phase: Elapsed time ==> 0s.358ms
+Analog Code Generation phase: Elapsed time ==> 0s.360ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Digital Placement">
 <CYPRESSTAG name="Detailed placement messages">
-I2659: No Constrained paths were found. The placer will run in non-timing driven mode.
-I2076: Total run-time: 0.4 sec.
+I2076: Total run-time: 1.7 sec.
 
 </CYPRESSTAG>
 <CYPRESSTAG name="PLD Packing">
@@ -1266,15 +2979,15 @@ PLD Packing Summary
 ------------------------------------------------------------
             Resource Type : Used : Free :  Max :  % Used
     ====================================================
-                     PLDs :    2 :   46 :   48 :   4.17%
+                     PLDs :   24 :   24 :   48 :  50.00%
 
 <CYPRESSTAG name="PLD Statistics">
 
         PLD Resource Type :     Average/LAB
     =======================================
-                   Inputs :            5.00
-                   Pterms :            4.00
-               Macrocells :            4.00
+                   Inputs :            8.29
+                   Pterms :            6.96
+               Macrocells :            3.83
 </CYPRESSTAG>
 <CYPRESSTAG name="Packed PLD Contents">
 Packed PLD Contents not displayed at this verbose level.</CYPRESSTAG>
@@ -1286,13 +2999,13 @@ PLD Packing: Elapsed time ==> 0s.000ms
 Initial Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
 <CYPRESSTAG name="Final Partitioning Summary">
 Final Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
-Partitioning: Elapsed time ==> 0s.032ms
+Partitioning: Elapsed time ==> 0s.047ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Simulated Annealing">
 Annealing: Elapsed time ==> 0s.000ms
 <CYPRESSTAG name="Simulated Annealing Results">
 The seed used for moves was 114161200.
-Inital cost was 225, final cost is 225 (0.00% improvement).</CYPRESSTAG>
+Inital cost was 618, final cost is 618 (0.00% improvement).</CYPRESSTAG>
 </CYPRESSTAG>
 <CYPRESSTAG name="Final Placement Summary">
 
@@ -1302,7 +3015,7 @@ Final Placement Summary
 
        Resource Type :      Count : Avg Inputs : Avg Outputs
     ========================================================
-                 UDB :          2 :       2.50 :       4.00
+                 UDB :         12 :      14.83 :       7.67
 <CYPRESSTAG name="Final Placement Details">
 <CYPRESSTAG name="Component Details">
 
@@ -1321,144 +3034,256 @@ UDB [UDB=(1,2)] is empty.
 UDB [UDB=(1,3)] is empty.
 UDB [UDB=(1,4)] is empty.
 UDB [UDB=(1,5)] is empty.
-UDB [UDB=(2,0)] is empty.
-UDB [UDB=(2,1)] is empty.
-UDB [UDB=(2,2)] is empty.
-UDB [UDB=(2,3)] contents:
-controlcell: Name =\NOTE_ON_REG:Sync:ctrl_reg\
-    PORT MAP (
-        control_7 => \NOTE_ON_REG:control_7\ ,
-        control_6 => \NOTE_ON_REG:control_6\ ,
-        control_5 => \NOTE_ON_REG:control_5\ ,
-        control_4 => \NOTE_ON_REG:control_4\ ,
-        control_3 => \NOTE_ON_REG:control_3\ ,
-        control_2 => \NOTE_ON_REG:control_2\ ,
-        control_1 => \NOTE_ON_REG:control_1\ ,
-        control_0 => Net_2068 );
-    Properties:
-    {
-        cy_ctrl_mode_0 = "00000000"
-        cy_ctrl_mode_1 = "00000000"
-        cy_ext_reset = 0
-        cy_force_order = 1
-        cy_init_value = "00000000"
-    }
-    Clock Enable: True
-
-UDB [UDB=(2,4)] is empty.
-UDB [UDB=(2,5)] is empty.
-UDB [UDB=(3,0)] is empty.
-UDB [UDB=(3,1)] is empty.
-UDB [UDB=(3,2)] is empty.
-UDB [UDB=(3,3)] contents:
-LAB@[UDB=(3,3)][LB=0] #macrocells=4, #inputs=5, #pterms=4
+UDB [UDB=(2,0)] contents:
+LAB@[UDB=(2,0)][LB=0] #macrocells=4, #inputs=9, #pterms=8
 {
-    [McSlotId=0]:     MacroCell: Name=Net_2000, Mode=(Combinatorial) @ [UDB=(3,3)][LB=0][MC=0]
-        Total # of inputs        : 5
-        Total # of product terms : 1
+    [McSlotId=0]:     MacroCell: Name=cy_dffe_8_2, Mode=(D-Register) @ [UDB=(2,0)][LB=0][MC=0]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
             Clock Enable: True
-        Main Equation            : 1 pterm
+        Main Equation            : 2 pterms
         (
-              Net_2068 * Net_1997_2 * Net_1997_1 * Net_1997_0 * Net_2070
+              !Net_2329 * cy_dffe_8_2
+            + Net_2329 * Net_2394_2
         );
-        Output = Net_2000 (fanout=1)
+        Output = cy_dffe_8_2 (fanout=1)
         Properties               : 
         {
         }
 
-    [McSlotId=1]:     MacroCell: Name=Net_1478, Mode=(Combinatorial) @ [UDB=(3,3)][LB=0][MC=1]
-        Total # of inputs        : 5
-        Total # of product terms : 1
+    [McSlotId=1]:     MacroCell: Name=cy_dffe_8_0, Mode=(D-Register) @ [UDB=(2,0)][LB=0][MC=1]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
             Clock Enable: True
-        Main Equation            : 1 pterm
+        Main Equation            : 2 pterms
         (
-              Net_2068 * !Net_1997_2 * Net_1997_1 * Net_1997_0 * Net_2070
+              !Net_2329 * cy_dffe_8_0
+            + Net_2329 * Net_2394_0
         );
-        Output = Net_1478 (fanout=1)
+        Output = cy_dffe_8_0 (fanout=1)
         Properties               : 
         {
         }
 
-    [McSlotId=2]:     MacroCell: Name=Net_1996, Mode=(Combinatorial) @ [UDB=(3,3)][LB=0][MC=2]
-        Total # of inputs        : 5
-        Total # of product terms : 1
+    [McSlotId=2]:     MacroCell: Name=cy_dffe_4_0, Mode=(D-Register) @ [UDB=(2,0)][LB=0][MC=2]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
             Clock Enable: True
-        Main Equation            : 1 pterm
+        Main Equation            : 2 pterms
         (
-              Net_2068 * !Net_1997_2 * !Net_1997_1 * !Net_1997_0 * Net_2070
+              Net_2394_0 * Net_2325
+            + !Net_2325 * cy_dffe_4_0
         );
-        Output = Net_1996 (fanout=1)
+        Output = cy_dffe_4_0 (fanout=1)
         Properties               : 
         {
         }
 
-    [McSlotId=3]:     MacroCell: Name=Net_1999, Mode=(Combinatorial) @ [UDB=(3,3)][LB=0][MC=3]
-        Total # of inputs        : 5
-        Total # of product terms : 1
+    [McSlotId=3]:     MacroCell: Name=cy_dffe_7_0, Mode=(D-Register) @ [UDB=(2,0)][LB=0][MC=3]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
             Clock Enable: True
-        Main Equation            : 1 pterm
+        Main Equation            : 2 pterms
         (
-              Net_2068 * !Net_1997_2 * !Net_1997_1 * Net_1997_0 * Net_2070
+              Net_2394_0 * Net_2328
+            + !Net_2328 * cy_dffe_7_0
         );
-        Output = Net_1999 (fanout=1)
+        Output = cy_dffe_7_0 (fanout=1)
         Properties               : 
         {
         }
 }
 
-LAB@[UDB=(3,3)][LB=1] #macrocells=4, #inputs=5, #pterms=4
+LAB@[UDB=(2,0)][LB=1] #macrocells=4, #inputs=8, #pterms=5
 {
-    [McSlotId=0]:     MacroCell: Name=Net_2001, Mode=(Combinatorial) @ [UDB=(3,3)][LB=1][MC=0]
+    [McSlotId=0]:     MacroCell: Name=Net_2329, Mode=(Combinatorial) @ [UDB=(2,0)][LB=1][MC=0]
         Total # of inputs        : 5
         Total # of product terms : 1
             Clock Enable: True
         Main Equation            : 1 pterm
         (
-              Net_2068 * !Net_1997_2 * Net_1997_1 * !Net_1997_0 * Net_2070
+              Net_2312_2 * Net_2312_1 * Net_2312_0 * \EdgeDetect_1:last\ * 
+              !Net_2251
         );
-        Output = Net_2001 (fanout=1)
+        Output = Net_2329 (fanout=8)
+        Properties               : 
+        {
+            soft = 1
+        }
+
+    [McSlotId=1]:     MacroCell: Name=Net_2328, Mode=(Combinatorial) @ [UDB=(2,0)][LB=1][MC=1]
+        Total # of inputs        : 5
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_2312_2 * Net_2312_1 * !Net_2312_0 * \EdgeDetect_1:last\ * 
+              !Net_2251
+        );
+        Output = Net_2328 (fanout=8)
+        Properties               : 
+        {
+            soft = 1
+        }
+
+    [McSlotId=2]:     MacroCell: Name=cy_dffe_8_7, Mode=(D-Register) @ [UDB=(2,0)][LB=1][MC=2]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              cy_dffe_8_7 * !Net_2329
+            + Net_2329 * Net_2394_7
+        );
+        Output = cy_dffe_8_7 (fanout=1)
         Properties               : 
         {
         }
 
-    [McSlotId=1]:     MacroCell: Name=Net_2002, Mode=(Combinatorial) @ [UDB=(3,3)][LB=1][MC=1]
+    [McSlotId=3]:     MacroCell: Name=Net_2327, Mode=(Combinatorial) @ [UDB=(2,0)][LB=1][MC=3]
         Total # of inputs        : 5
         Total # of product terms : 1
             Clock Enable: True
         Main Equation            : 1 pterm
         (
-              Net_2068 * Net_1997_2 * !Net_1997_1 * !Net_1997_0 * Net_2070
+              Net_2312_2 * !Net_2312_1 * Net_2312_0 * \EdgeDetect_1:last\ * 
+              !Net_2251
         );
-        Output = Net_2002 (fanout=1)
+        Output = Net_2327 (fanout=8)
+        Properties               : 
+        {
+            soft = 1
+        }
+}
+
+UDB [UDB=(2,1)] contents:
+LAB@[UDB=(2,1)][LB=0] #macrocells=4, #inputs=8, #pterms=7
+{
+    [McSlotId=0]:     MacroCell: Name=cy_dffe_5_0, Mode=(D-Register) @ [UDB=(2,1)][LB=0][MC=0]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_0 * Net_2326
+            + !Net_2326 * cy_dffe_5_0
+        );
+        Output = cy_dffe_5_0 (fanout=1)
         Properties               : 
         {
         }
 
-    [McSlotId=2]:     MacroCell: Name=Net_2003, Mode=(Combinatorial) @ [UDB=(3,3)][LB=1][MC=2]
-        Total # of inputs        : 5
+    [McSlotId=1]:     MacroCell: Name=\EdgeDetect_1:last\, Mode=(D-Register) @ [UDB=(2,1)][LB=0][MC=1]
+        Total # of inputs        : 1
         Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_2353) => Global
             Clock Enable: True
         Main Equation            : 1 pterm
         (
-              Net_2068 * Net_1997_2 * !Net_1997_1 * Net_1997_0 * Net_2070
+              Net_2251
         );
-        Output = Net_2003 (fanout=1)
+        Output = \EdgeDetect_1:last\ (fanout=8)
         Properties               : 
         {
         }
 
-    [McSlotId=3]:     MacroCell: Name=Net_2004, Mode=(Combinatorial) @ [UDB=(3,3)][LB=1][MC=3]
-        Total # of inputs        : 5
-        Total # of product terms : 1
+    [McSlotId=2]:     MacroCell: Name=cy_dffe_2_0, Mode=(D-Register) @ [UDB=(2,1)][LB=0][MC=2]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
             Clock Enable: True
-        Main Equation            : 1 pterm
+        Main Equation            : 2 pterms
         (
-              Net_2068 * Net_1997_2 * Net_1997_1 * !Net_1997_0 * Net_2070
+              Net_2394_0 * Net_2323
+            + !Net_2323 * cy_dffe_2_0
         );
-        Output = Net_2004 (fanout=1)
+        Output = cy_dffe_2_0 (fanout=1)
         Properties               : 
         {
         }
+
+    [McSlotId=3]:     MacroCell: Name=cy_dffe_5_7, Mode=(D-Register) @ [UDB=(2,1)][LB=0][MC=3]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_7 * Net_2326
+            + cy_dffe_5_7 * !Net_2326
+        );
+        Output = cy_dffe_5_7 (fanout=1)
+        Properties               : 
+        {
+        }
+}
+
+LAB@[UDB=(2,1)][LB=1] #macrocells=3, #inputs=7, #pterms=6
+{
+    [McSlotId=0]:     MacroCell: Name=cy_dffe_7_1, Mode=(D-Register) @ [UDB=(2,1)][LB=1][MC=0]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_1 * Net_2328
+            + !Net_2328 * cy_dffe_7_1
+        );
+        Output = cy_dffe_7_1 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=cy_dffe_3_1, Mode=(D-Register) @ [UDB=(2,1)][LB=1][MC=1]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_1 * Net_2324
+            + !Net_2324 * cy_dffe_3_1
+        );
+        Output = cy_dffe_3_1 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=cy_dffe_5_1, Mode=(D-Register) @ [UDB=(2,1)][LB=1][MC=2]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_1 * Net_2326
+            + !Net_2326 * cy_dffe_5_1
+        );
+        Output = cy_dffe_5_1 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]: (empty)
 }
 
 controlcell: Name =\MIDI_BIN_REG:Sync:ctrl_reg\
@@ -1468,9 +3293,9 @@ controlcell: Name =\MIDI_BIN_REG:Sync:ctrl_reg\
         control_5 => \MIDI_BIN_REG:control_5\ ,
         control_4 => \MIDI_BIN_REG:control_4\ ,
         control_3 => \MIDI_BIN_REG:control_3\ ,
-        control_2 => Net_1997_2 ,
-        control_1 => Net_1997_1 ,
-        control_0 => Net_1997_0 );
+        control_2 => Net_2312_2 ,
+        control_1 => Net_2312_1 ,
+        control_0 => Net_2312_0 );
     Properties:
     {
         cy_ctrl_mode_0 = "00000000"
@@ -1481,8 +3306,1307 @@ controlcell: Name =\MIDI_BIN_REG:Sync:ctrl_reg\
     }
     Clock Enable: True
 
-UDB [UDB=(3,4)] is empty.
-UDB [UDB=(3,5)] is empty.
+UDB [UDB=(2,2)] contents:
+LAB@[UDB=(2,2)][LB=0] #macrocells=4, #inputs=10, #pterms=6
+{
+    [McSlotId=0]:     MacroCell: Name=cy_dffe_2_2, Mode=(D-Register) @ [UDB=(2,2)][LB=0][MC=0]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_2 * Net_2323
+            + !Net_2323 * cy_dffe_2_2
+        );
+        Output = cy_dffe_2_2 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=Net_2002, Mode=(Combinatorial) @ [UDB=(2,2)][LB=0][MC=1]
+        Total # of inputs        : 5
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_2264 * Net_2312_2 * !Net_2312_1 * !Net_2312_0 * Net_2234
+        );
+        Output = Net_2002 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=Net_2003, Mode=(Combinatorial) @ [UDB=(2,2)][LB=0][MC=2]
+        Total # of inputs        : 5
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_2264 * Net_2312_2 * !Net_2312_1 * Net_2312_0 * Net_2234
+        );
+        Output = Net_2003 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=cy_dffe_6_2, Mode=(D-Register) @ [UDB=(2,2)][LB=0][MC=3]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_2 * Net_2327
+            + !Net_2327 * cy_dffe_6_2
+        );
+        Output = cy_dffe_6_2 (fanout=1)
+        Properties               : 
+        {
+        }
+}
+
+LAB@[UDB=(2,2)][LB=1] #macrocells=4, #inputs=8, #pterms=5
+{
+    [McSlotId=0]:     MacroCell: Name=cy_dffe_7_4, Mode=(D-Register) @ [UDB=(2,2)][LB=1][MC=0]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_4 * Net_2328
+            + !Net_2328 * cy_dffe_7_4
+        );
+        Output = cy_dffe_7_4 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=Net_2324, Mode=(Combinatorial) @ [UDB=(2,2)][LB=1][MC=1]
+        Total # of inputs        : 5
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_2312_2 * Net_2312_1 * !Net_2312_0 * \EdgeDetect_1:last\ * 
+              !Net_2251
+        );
+        Output = Net_2324 (fanout=8)
+        Properties               : 
+        {
+            soft = 1
+        }
+
+    [McSlotId=2]:     MacroCell: Name=Net_2325, Mode=(Combinatorial) @ [UDB=(2,2)][LB=1][MC=2]
+        Total # of inputs        : 5
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_2312_2 * Net_2312_1 * Net_2312_0 * \EdgeDetect_1:last\ * 
+              !Net_2251
+        );
+        Output = Net_2325 (fanout=8)
+        Properties               : 
+        {
+            soft = 1
+        }
+
+    [McSlotId=3]:     MacroCell: Name=Net_2326, Mode=(Combinatorial) @ [UDB=(2,2)][LB=1][MC=3]
+        Total # of inputs        : 5
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_2312_2 * !Net_2312_1 * !Net_2312_0 * \EdgeDetect_1:last\ * 
+              !Net_2251
+        );
+        Output = Net_2326 (fanout=8)
+        Properties               : 
+        {
+            soft = 1
+        }
+}
+
+UDB [UDB=(2,3)] contents:
+LAB@[UDB=(2,3)][LB=0] #macrocells=4, #inputs=10, #pterms=6
+{
+    [McSlotId=0]:     MacroCell: Name=Net_2323, Mode=(Combinatorial) @ [UDB=(2,3)][LB=0][MC=0]
+        Total # of inputs        : 5
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_2312_2 * !Net_2312_1 * Net_2312_0 * \EdgeDetect_1:last\ * 
+              !Net_2251
+        );
+        Output = Net_2323 (fanout=8)
+        Properties               : 
+        {
+            soft = 1
+        }
+
+    [McSlotId=1]:     MacroCell: Name=Net_2351, Mode=(Combinatorial) @ [UDB=(2,3)][LB=0][MC=1]
+        Total # of inputs        : 5
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_2312_2 * !Net_2312_1 * !Net_2312_0 * \EdgeDetect_1:last\ * 
+              !Net_2251
+        );
+        Output = Net_2351 (fanout=8)
+        Properties               : 
+        {
+            soft = 1
+        }
+
+    [McSlotId=2]:     MacroCell: Name=cy_dffe_8_4, Mode=(D-Register) @ [UDB=(2,3)][LB=0][MC=2]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              !Net_2329 * cy_dffe_8_4
+            + Net_2329 * Net_2394_4
+        );
+        Output = cy_dffe_8_4 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=cy_dffe_1_4, Mode=(D-Register) @ [UDB=(2,3)][LB=0][MC=3]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_4 * Net_2351
+            + !Net_2351 * cy_dffe_1_4
+        );
+        Output = cy_dffe_1_4 (fanout=2)
+        Properties               : 
+        {
+        }
+}
+
+LAB@[UDB=(2,3)][LB=1] #macrocells=3, #inputs=5, #pterms=4
+{
+    [McSlotId=0]:     MacroCell: Name=Net_2251, Mode=(D-Register) @ [UDB=(2,3)][LB=1][MC=0]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              cydff_2
+        );
+        Output = Net_2251 (fanout=9)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=cydff_2, Mode=(D-Register) @ [UDB=(2,3)][LB=1][MC=1]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              cydff_1
+        );
+        Output = cydff_2 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]: (empty)
+    [McSlotId=3]:     MacroCell: Name=cy_dffe_2_3, Mode=(D-Register) @ [UDB=(2,3)][LB=1][MC=3]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_3 * Net_2323
+            + !Net_2323 * cy_dffe_2_3
+        );
+        Output = cy_dffe_2_3 (fanout=1)
+        Properties               : 
+        {
+        }
+}
+
+UDB [UDB=(2,4)] contents:
+LAB@[UDB=(2,4)][LB=0] #macrocells=4, #inputs=9, #pterms=8
+{
+    [McSlotId=0]:     MacroCell: Name=cy_dffe_3_2, Mode=(D-Register) @ [UDB=(2,4)][LB=0][MC=0]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_2 * Net_2324
+            + !Net_2324 * cy_dffe_3_2
+        );
+        Output = cy_dffe_3_2 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=cy_dffe_4_7, Mode=(D-Register) @ [UDB=(2,4)][LB=0][MC=1]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_7 * Net_2325
+            + cy_dffe_4_7 * !Net_2325
+        );
+        Output = cy_dffe_4_7 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=cy_dffe_3_7, Mode=(D-Register) @ [UDB=(2,4)][LB=0][MC=2]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_7 * Net_2324
+            + cy_dffe_3_7 * !Net_2324
+        );
+        Output = cy_dffe_3_7 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=cy_dffe_2_7, Mode=(D-Register) @ [UDB=(2,4)][LB=0][MC=3]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_7 * Net_2323
+            + cy_dffe_2_7 * !Net_2323
+        );
+        Output = cy_dffe_2_7 (fanout=1)
+        Properties               : 
+        {
+        }
+}
+
+LAB@[UDB=(2,4)][LB=1] #macrocells=3, #inputs=6, #pterms=5
+{
+    [McSlotId=0]:     MacroCell: Name=cy_dffe_1_6, Mode=(D-Register) @ [UDB=(2,4)][LB=1][MC=0]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_6 * Net_2351
+            + !Net_2351 * cy_dffe_1_6
+        );
+        Output = cy_dffe_1_6 (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]: (empty)
+    [McSlotId=2]:     MacroCell: Name=cy_dffe_1_2, Mode=(D-Register) @ [UDB=(2,4)][LB=1][MC=2]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_2 * Net_2351
+            + !Net_2351 * cy_dffe_1_2
+        );
+        Output = cy_dffe_1_2 (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=cydff_1, Mode=(D-Register) @ [UDB=(2,4)][LB=1][MC=3]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_2264
+        );
+        Output = cydff_1 (fanout=1)
+        Properties               : 
+        {
+        }
+}
+
+controlcell: Name =\NOTE_ON_REG:Sync:ctrl_reg\
+    PORT MAP (
+        control_7 => \NOTE_ON_REG:control_7\ ,
+        control_6 => \NOTE_ON_REG:control_6\ ,
+        control_5 => \NOTE_ON_REG:control_5\ ,
+        control_4 => \NOTE_ON_REG:control_4\ ,
+        control_3 => \NOTE_ON_REG:control_3\ ,
+        control_2 => \NOTE_ON_REG:control_2\ ,
+        control_1 => \NOTE_ON_REG:control_1\ ,
+        control_0 => Net_2264 );
+    Properties:
+    {
+        cy_ctrl_mode_0 = "00000000"
+        cy_ctrl_mode_1 = "00000000"
+        cy_ext_reset = 0
+        cy_force_order = 1
+        cy_init_value = "00000000"
+    }
+    Clock Enable: True
+
+UDB [UDB=(2,5)] contents:
+LAB@[UDB=(2,5)][LB=0] #macrocells=4, #inputs=6, #pterms=8
+{
+    [McSlotId=0]:     MacroCell: Name=Net_2516, Mode=(Combinatorial) @ [UDB=(2,5)][LB=0][MC=0]
+        Total # of inputs        : 6
+        Total # of product terms : 5
+            Clock Enable: True
+        Main Equation            : 5 pterms
+        (
+              !Net_2264 * Net_2679
+            + Net_2264 * !Net_2312_2 * !Net_2312_1 * !Net_2312_0 * Net_2234
+            + Net_2312_2 * Net_2679
+            + Net_2312_1 * Net_2679
+            + Net_2312_0 * Net_2679
+        );
+        Output = Net_2516 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=Net_1478, Mode=(Combinatorial) @ [UDB=(2,5)][LB=0][MC=1]
+        Total # of inputs        : 5
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_2264 * !Net_2312_2 * Net_2312_1 * Net_2312_0 * Net_2234
+        );
+        Output = Net_1478 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=Net_1999, Mode=(Combinatorial) @ [UDB=(2,5)][LB=0][MC=2]
+        Total # of inputs        : 5
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_2264 * !Net_2312_2 * !Net_2312_1 * Net_2312_0 * Net_2234
+        );
+        Output = Net_1999 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=Net_2000, Mode=(Combinatorial) @ [UDB=(2,5)][LB=0][MC=3]
+        Total # of inputs        : 5
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_2264 * Net_2312_2 * Net_2312_1 * Net_2312_0 * Net_2234
+        );
+        Output = Net_2000 (fanout=1)
+        Properties               : 
+        {
+        }
+}
+
+LAB@[UDB=(2,5)][LB=1] #macrocells=4, #inputs=10, #pterms=6
+{
+    [McSlotId=0]:     MacroCell: Name=cy_dffe_2_1, Mode=(D-Register) @ [UDB=(2,5)][LB=1][MC=0]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_1 * Net_2323
+            + !Net_2323 * cy_dffe_2_1
+        );
+        Output = cy_dffe_2_1 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=Net_2001, Mode=(Combinatorial) @ [UDB=(2,5)][LB=1][MC=1]
+        Total # of inputs        : 5
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_2264 * !Net_2312_2 * Net_2312_1 * !Net_2312_0 * Net_2234
+        );
+        Output = Net_2001 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=Net_2004, Mode=(Combinatorial) @ [UDB=(2,5)][LB=1][MC=2]
+        Total # of inputs        : 5
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_2264 * Net_2312_2 * Net_2312_1 * !Net_2312_0 * Net_2234
+        );
+        Output = Net_2004 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=cy_dffe_2_6, Mode=(D-Register) @ [UDB=(2,5)][LB=1][MC=3]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_6 * Net_2323
+            + !Net_2323 * cy_dffe_2_6
+        );
+        Output = cy_dffe_2_6 (fanout=1)
+        Properties               : 
+        {
+        }
+}
+
+UDB [UDB=(3,0)] contents:
+LAB@[UDB=(3,0)][LB=0] #macrocells=4, #inputs=8, #pterms=8
+{
+    [McSlotId=0]:     MacroCell: Name=cy_dffe_4_3, Mode=(D-Register) @ [UDB=(3,0)][LB=0][MC=0]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_3 * Net_2325
+            + !Net_2325 * cy_dffe_4_3
+        );
+        Output = cy_dffe_4_3 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=cy_dffe_7_3, Mode=(D-Register) @ [UDB=(3,0)][LB=0][MC=1]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_3 * Net_2328
+            + !Net_2328 * cy_dffe_7_3
+        );
+        Output = cy_dffe_7_3 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=cy_dffe_7_2, Mode=(D-Register) @ [UDB=(3,0)][LB=0][MC=2]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_2 * Net_2328
+            + !Net_2328 * cy_dffe_7_2
+        );
+        Output = cy_dffe_7_2 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=cy_dffe_4_2, Mode=(D-Register) @ [UDB=(3,0)][LB=0][MC=3]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_2 * Net_2325
+            + !Net_2325 * cy_dffe_4_2
+        );
+        Output = cy_dffe_4_2 (fanout=1)
+        Properties               : 
+        {
+        }
+}
+
+LAB@[UDB=(3,0)][LB=1] #macrocells=4, #inputs=9, #pterms=8
+{
+    [McSlotId=0]:     MacroCell: Name=cy_dffe_8_3, Mode=(D-Register) @ [UDB=(3,0)][LB=1][MC=0]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              !Net_2329 * cy_dffe_8_3
+            + Net_2329 * Net_2394_3
+        );
+        Output = cy_dffe_8_3 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=cy_dffe_7_6, Mode=(D-Register) @ [UDB=(3,0)][LB=1][MC=1]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_6 * Net_2328
+            + !Net_2328 * cy_dffe_7_6
+        );
+        Output = cy_dffe_7_6 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=cy_dffe_8_1, Mode=(D-Register) @ [UDB=(3,0)][LB=1][MC=2]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              !Net_2329 * cy_dffe_8_1
+            + Net_2329 * Net_2394_1
+        );
+        Output = cy_dffe_8_1 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=cy_dffe_8_6, Mode=(D-Register) @ [UDB=(3,0)][LB=1][MC=3]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              !Net_2329 * cy_dffe_8_6
+            + Net_2329 * Net_2394_6
+        );
+        Output = cy_dffe_8_6 (fanout=1)
+        Properties               : 
+        {
+        }
+}
+
+UDB [UDB=(3,1)] contents:
+LAB@[UDB=(3,1)][LB=0] #macrocells=4, #inputs=9, #pterms=8
+{
+    [McSlotId=0]:     MacroCell: Name=cy_dffe_3_3, Mode=(D-Register) @ [UDB=(3,1)][LB=0][MC=0]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_3 * Net_2324
+            + !Net_2324 * cy_dffe_3_3
+        );
+        Output = cy_dffe_3_3 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=cy_dffe_6_3, Mode=(D-Register) @ [UDB=(3,1)][LB=0][MC=1]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_3 * Net_2327
+            + !Net_2327 * cy_dffe_6_3
+        );
+        Output = cy_dffe_6_3 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=cy_dffe_5_3, Mode=(D-Register) @ [UDB=(3,1)][LB=0][MC=2]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_3 * Net_2326
+            + !Net_2326 * cy_dffe_5_3
+        );
+        Output = cy_dffe_5_3 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=cy_dffe_1_3, Mode=(D-Register) @ [UDB=(3,1)][LB=0][MC=3]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_3 * Net_2351
+            + !Net_2351 * cy_dffe_1_3
+        );
+        Output = cy_dffe_1_3 (fanout=2)
+        Properties               : 
+        {
+        }
+}
+
+LAB@[UDB=(3,1)][LB=1] #macrocells=4, #inputs=9, #pterms=8
+{
+    [McSlotId=0]:     MacroCell: Name=cy_dffe_6_5, Mode=(D-Register) @ [UDB=(3,1)][LB=1][MC=0]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_5 * Net_2327
+            + !Net_2327 * cy_dffe_6_5
+        );
+        Output = cy_dffe_6_5 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=cy_dffe_6_0, Mode=(D-Register) @ [UDB=(3,1)][LB=1][MC=1]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_0 * Net_2327
+            + !Net_2327 * cy_dffe_6_0
+        );
+        Output = cy_dffe_6_0 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=cy_dffe_4_6, Mode=(D-Register) @ [UDB=(3,1)][LB=1][MC=2]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_6 * Net_2325
+            + !Net_2325 * cy_dffe_4_6
+        );
+        Output = cy_dffe_4_6 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=cy_dffe_6_6, Mode=(D-Register) @ [UDB=(3,1)][LB=1][MC=3]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_6 * Net_2327
+            + !Net_2327 * cy_dffe_6_6
+        );
+        Output = cy_dffe_6_6 (fanout=1)
+        Properties               : 
+        {
+        }
+}
+
+UDB [UDB=(3,2)] contents:
+LAB@[UDB=(3,2)][LB=0] #macrocells=4, #inputs=5, #pterms=7
+{
+    [McSlotId=0]:     MacroCell: Name=Net_2394_3, Mode=(T-Register) @ [UDB=(3,2)][LB=0][MC=0]
+        Total # of inputs        : 5
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2062)
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_3 * Net_2395_local
+            + Net_2394_2 * Net_2394_1 * Net_2394_0 * !Net_2395_local
+        );
+        Output = Net_2394_3 (fanout=13)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=Net_2394_2, Mode=(T-Register) @ [UDB=(3,2)][LB=0][MC=1]
+        Total # of inputs        : 4
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2062)
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_2 * Net_2395_local
+            + Net_2394_1 * Net_2394_0 * !Net_2395_local
+        );
+        Output = Net_2394_2 (fanout=14)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=Net_2394_1, Mode=(D-Register) @ [UDB=(3,2)][LB=0][MC=2]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2062)
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              !Net_2394_1 * Net_2394_0 * !Net_2395_local
+            + Net_2394_1 * !Net_2394_0 * !Net_2395_local
+        );
+        Output = Net_2394_1 (fanout=15)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=Net_2394_0, Mode=(D-Register) @ [UDB=(3,2)][LB=0][MC=3]
+        Total # of inputs        : 2
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_2062)
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_2394_0 * !Net_2395_local
+        );
+        Output = Net_2394_0 (fanout=16)
+        Properties               : 
+        {
+        }
+}
+
+LAB@[UDB=(3,2)][LB=1] #macrocells=4, #inputs=9, #pterms=8
+{
+    [McSlotId=0]:     MacroCell: Name=cy_dffe_1_7, Mode=(D-Register) @ [UDB=(3,2)][LB=1][MC=0]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_7 * Net_2351
+            + cy_dffe_1_7 * !Net_2351
+        );
+        Output = cy_dffe_1_7 (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=cy_dffe_7_7, Mode=(D-Register) @ [UDB=(3,2)][LB=1][MC=1]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_7 * Net_2328
+            + cy_dffe_7_7 * !Net_2328
+        );
+        Output = cy_dffe_7_7 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=cy_dffe_7_5, Mode=(D-Register) @ [UDB=(3,2)][LB=1][MC=2]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_5 * Net_2328
+            + !Net_2328 * cy_dffe_7_5
+        );
+        Output = cy_dffe_7_5 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=cy_dffe_8_5, Mode=(D-Register) @ [UDB=(3,2)][LB=1][MC=3]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              !Net_2329 * cy_dffe_8_5
+            + Net_2329 * Net_2394_5
+        );
+        Output = cy_dffe_8_5 (fanout=1)
+        Properties               : 
+        {
+        }
+}
+
+UDB [UDB=(3,3)] contents:
+LAB@[UDB=(3,3)][LB=0] #macrocells=4, #inputs=9, #pterms=8
+{
+    [McSlotId=0]:     MacroCell: Name=cy_dffe_6_4, Mode=(D-Register) @ [UDB=(3,3)][LB=0][MC=0]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_4 * Net_2327
+            + !Net_2327 * cy_dffe_6_4
+        );
+        Output = cy_dffe_6_4 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=cy_dffe_6_7, Mode=(D-Register) @ [UDB=(3,3)][LB=0][MC=1]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_7 * Net_2327
+            + cy_dffe_6_7 * !Net_2327
+        );
+        Output = cy_dffe_6_7 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=cy_dffe_6_1, Mode=(D-Register) @ [UDB=(3,3)][LB=0][MC=2]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_1 * Net_2327
+            + !Net_2327 * cy_dffe_6_1
+        );
+        Output = cy_dffe_6_1 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=cy_dffe_4_4, Mode=(D-Register) @ [UDB=(3,3)][LB=0][MC=3]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_4 * Net_2325
+            + !Net_2325 * cy_dffe_4_4
+        );
+        Output = cy_dffe_4_4 (fanout=1)
+        Properties               : 
+        {
+        }
+}
+
+LAB@[UDB=(3,3)][LB=1] #macrocells=4, #inputs=9, #pterms=8
+{
+    [McSlotId=0]:     MacroCell: Name=Net_2394_7, Mode=(T-Register) @ [UDB=(3,3)][LB=1][MC=0]
+        Total # of inputs        : 9
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2062)
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_7 * Net_2395_local
+            + Net_2394_6 * Net_2394_5 * Net_2394_4 * Net_2394_3 * Net_2394_2 * 
+              Net_2394_1 * Net_2394_0 * !Net_2395_local
+        );
+        Output = Net_2394_7 (fanout=9)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=Net_2394_6, Mode=(T-Register) @ [UDB=(3,3)][LB=1][MC=1]
+        Total # of inputs        : 8
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2062)
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_6 * Net_2395_local
+            + Net_2394_5 * Net_2394_4 * Net_2394_3 * Net_2394_2 * Net_2394_1 * 
+              Net_2394_0 * !Net_2395_local
+        );
+        Output = Net_2394_6 (fanout=10)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=Net_2394_5, Mode=(T-Register) @ [UDB=(3,3)][LB=1][MC=2]
+        Total # of inputs        : 7
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2062)
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_5 * Net_2395_local
+            + Net_2394_4 * Net_2394_3 * Net_2394_2 * Net_2394_1 * Net_2394_0 * 
+              !Net_2395_local
+        );
+        Output = Net_2394_5 (fanout=11)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=Net_2394_4, Mode=(T-Register) @ [UDB=(3,3)][LB=1][MC=3]
+        Total # of inputs        : 6
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2062)
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_4 * Net_2395_local
+            + Net_2394_3 * Net_2394_2 * Net_2394_1 * Net_2394_0 * 
+              !Net_2395_local
+        );
+        Output = Net_2394_4 (fanout=12)
+        Properties               : 
+        {
+        }
+}
+
+UDB [UDB=(3,4)] contents:
+LAB@[UDB=(3,4)][LB=0] #macrocells=4, #inputs=9, #pterms=8
+{
+    [McSlotId=0]:     MacroCell: Name=cy_dffe_4_1, Mode=(D-Register) @ [UDB=(3,4)][LB=0][MC=0]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_1 * Net_2325
+            + !Net_2325 * cy_dffe_4_1
+        );
+        Output = cy_dffe_4_1 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=cy_dffe_4_5, Mode=(D-Register) @ [UDB=(3,4)][LB=0][MC=1]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_5 * Net_2325
+            + !Net_2325 * cy_dffe_4_5
+        );
+        Output = cy_dffe_4_5 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=cy_dffe_1_1, Mode=(D-Register) @ [UDB=(3,4)][LB=0][MC=2]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_1 * Net_2351
+            + !Net_2351 * cy_dffe_1_1
+        );
+        Output = cy_dffe_1_1 (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=cy_dffe_5_5, Mode=(D-Register) @ [UDB=(3,4)][LB=0][MC=3]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_5 * Net_2326
+            + !Net_2326 * cy_dffe_5_5
+        );
+        Output = cy_dffe_5_5 (fanout=1)
+        Properties               : 
+        {
+        }
+}
+
+LAB@[UDB=(3,4)][LB=1] #macrocells=4, #inputs=9, #pterms=8
+{
+    [McSlotId=0]:     MacroCell: Name=cy_dffe_3_0, Mode=(D-Register) @ [UDB=(3,4)][LB=1][MC=0]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_0 * Net_2324
+            + !Net_2324 * cy_dffe_3_0
+        );
+        Output = cy_dffe_3_0 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=cy_dffe_3_4, Mode=(D-Register) @ [UDB=(3,4)][LB=1][MC=1]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_4 * Net_2324
+            + !Net_2324 * cy_dffe_3_4
+        );
+        Output = cy_dffe_3_4 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=cy_dffe_2_4, Mode=(D-Register) @ [UDB=(3,4)][LB=1][MC=2]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_4 * Net_2323
+            + !Net_2323 * cy_dffe_2_4
+        );
+        Output = cy_dffe_2_4 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=cy_dffe_5_4, Mode=(D-Register) @ [UDB=(3,4)][LB=1][MC=3]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_4 * Net_2326
+            + !Net_2326 * cy_dffe_5_4
+        );
+        Output = cy_dffe_5_4 (fanout=1)
+        Properties               : 
+        {
+        }
+}
+
+UDB [UDB=(3,5)] contents:
+LAB@[UDB=(3,5)][LB=0] #macrocells=3, #inputs=8, #pterms=6
+{
+    [McSlotId=0]:     MacroCell: Name=cy_dffe_2_5, Mode=(D-Register) @ [UDB=(3,5)][LB=0][MC=0]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_5 * Net_2323
+            + !Net_2323 * cy_dffe_2_5
+        );
+        Output = cy_dffe_2_5 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=cy_dffe_1_0, Mode=(D-Register) @ [UDB=(3,5)][LB=0][MC=1]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_0 * Net_2351
+            + !Net_2351 * cy_dffe_1_0
+        );
+        Output = cy_dffe_1_0 (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=cy_dffe_3_5, Mode=(D-Register) @ [UDB=(3,5)][LB=0][MC=2]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_5 * Net_2324
+            + !Net_2324 * cy_dffe_3_5
+        );
+        Output = cy_dffe_3_5 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]: (empty)
+}
+
+LAB@[UDB=(3,5)][LB=1] #macrocells=4, #inputs=10, #pterms=8
+{
+    [McSlotId=0]:     MacroCell: Name=cy_dffe_1_5, Mode=(D-Register) @ [UDB=(3,5)][LB=1][MC=0]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_5 * Net_2351
+            + !Net_2351 * cy_dffe_1_5
+        );
+        Output = cy_dffe_1_5 (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=cy_dffe_5_6, Mode=(D-Register) @ [UDB=(3,5)][LB=1][MC=1]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_6 * Net_2326
+            + !Net_2326 * cy_dffe_5_6
+        );
+        Output = cy_dffe_5_6 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=cy_dffe_3_6, Mode=(D-Register) @ [UDB=(3,5)][LB=1][MC=2]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_6 * Net_2324
+            + !Net_2324 * cy_dffe_3_6
+        );
+        Output = cy_dffe_3_6 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=cy_dffe_5_2, Mode=(D-Register) @ [UDB=(3,5)][LB=1][MC=3]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_2353) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_2394_2 * Net_2326
+            + !Net_2326 * cy_dffe_5_2
+        );
+        Output = cy_dffe_5_2 (fanout=1)
+        Properties               : 
+        {
+        }
+}
+
 Intr container @ [IntrContainer=(0)]: 
   Intr@ [IntrContainer=(0)][IntrId=(0)] 
     interrupt: Name =Sleep_isr
@@ -1552,9 +4676,9 @@ Drq container @ [DrqContainer=(0)]:
   Dma@ [DrqContainer=(0)][DrqId=(0)] 
     drqcell: Name =\WaveDAC8_1:Wave1_DMA\
         PORT MAP (
-            dmareq => Net_1945_local ,
+            dmareq => Net_2511_local ,
             termin => zero ,
-            termout => Net_2047 );
+            termout => Net_2346 );
         Properties:
         {
             drq_type = "10"
@@ -1564,7 +4688,7 @@ Drq container @ [DrqContainer=(0)]:
     drqcell: Name =\WaveDAC8_1:Wave2_DMA\
         PORT MAP (
             termin => zero ,
-            termout => Net_2048 );
+            termout => Net_2347 );
         Properties:
         {
             drq_type = "10"
@@ -1573,7 +4697,7 @@ Drq container @ [DrqContainer=(0)]:
   Dma@ [DrqContainer=(0)][DrqId=(2)] 
     drqcell: Name =\WaveDAC8_2:Wave1_DMA\
         PORT MAP (
-            dmareq => Net_1954_local ,
+            dmareq => Net_2395_local ,
             termin => zero ,
             termout => Net_2062 );
         Properties:
@@ -1586,6 +4710,27 @@ Drq container @ [DrqContainer=(0)]:
         PORT MAP (
             termin => zero ,
             termout => Net_2063 );
+        Properties:
+        {
+            drq_type = "10"
+            num_tds = 0
+        }
+  Dma@ [DrqContainer=(0)][DrqId=(4)] 
+    drqcell: Name =\WaveDAC8_3:Wave1_DMA\
+        PORT MAP (
+            dmareq => Net_2524_local ,
+            termin => zero ,
+            termout => Net_2580 );
+        Properties:
+        {
+            drq_type = "10"
+            num_tds = 0
+        }
+  Dma@ [DrqContainer=(0)][DrqId=(5)] 
+    drqcell: Name =\WaveDAC8_3:Wave2_DMA\
+        PORT MAP (
+            termin => zero ,
+            termout => Net_2581 );
         Properties:
         {
             drq_type = "10"
@@ -1986,7 +5131,7 @@ Pin : Name = LED_1(0)
         IO Voltage: 0
     PORT MAP (
         pa_out => LED_1(0)__PA ,
-        input => Net_1996 ,
+        input => Net_2516 ,
         pad => LED_1(0)_PAD );
     Properties:
     {
@@ -2174,20 +5319,34 @@ Clock group 0:
             clk_sync => ClockBlock_MASTER_CLK ,
             clk_bus_glb => ClockBlock_BUS_CLK ,
             clk_bus => ClockBlock_BUS_CLK_local ,
-            dclk_glb_0 => Net_1945 ,
-            dclk_0 => Net_1945_local ,
-            dclk_glb_1 => Net_1954 ,
-            dclk_1 => Net_1954_local );
+            dclk_glb_0 => Net_2353 ,
+            dclk_0 => Net_2353_local ,
+            dclk_glb_1 => Net_2524 ,
+            dclk_1 => Net_2524_local ,
+            dclk_glb_2 => Net_2511 ,
+            dclk_2 => Net_2511_local ,
+            dclk_glb_3 => Net_2395 ,
+            dclk_3 => Net_2395_local );
         Properties:
         {
         }
 Comparator group 0: 
-    Comparator Block @ F(Comparator,3): 
+    Comparator Block @ F(Comparator,2): 
     comparatorcell: Name =\Comp_1:ctComp\
         PORT MAP (
             vplus => Net_1976 ,
             vminus => Net_1978 ,
-            out => Net_2070 );
+            out => Net_2234 );
+        Properties:
+        {
+            cy_registers = ""
+        }
+    Comparator Block @ F(Comparator,3): 
+    comparatorcell: Name =\Comp_2:ctComp\
+        PORT MAP (
+            vplus => Net_2508 ,
+            vminus => Net_2523 ,
+            out => Net_2679 );
         Properties:
         {
             cy_registers = ""
@@ -2243,10 +5402,10 @@ USB group 0:
             cy_registers = ""
         }
 VIDAC group 0: 
-    VIDAC Block @ F(VIDAC,1): 
+    VIDAC Block @ F(VIDAC,0): 
     vidaccell: Name =\WaveDAC8_2:VDAC8:viDAC8\
         PORT MAP (
-            strobe_udb => Net_1954_local ,
+            strobe_udb => Net_2395_local ,
             vout => Net_1976 ,
             iout => \WaveDAC8_2:VDAC8:Net_77\ );
         Properties:
@@ -2255,12 +5414,44 @@ VIDAC group 0:
             is_all_if_any = 0
             reg_data = 0
         }
-    VIDAC Block @ F(VIDAC,3): 
+    VIDAC Block @ F(VIDAC,1): 
+    vidaccell: Name =\VDAC8_1:viDAC8\
+        PORT MAP (
+            data_7 => cy_dffe_1_7 ,
+            data_6 => cy_dffe_1_6 ,
+            data_5 => cy_dffe_1_5 ,
+            data_4 => cy_dffe_1_4 ,
+            data_3 => cy_dffe_1_3 ,
+            data_2 => cy_dffe_1_2 ,
+            data_1 => cy_dffe_1_1 ,
+            data_0 => cy_dffe_1_0 ,
+            strobe_udb => Net_2524_local ,
+            vout => Net_2508 ,
+            iout => \VDAC8_1:Net_77\ );
+        Properties:
+        {
+            cy_registers = ""
+            is_all_if_any = 0
+            reg_data = 1
+        }
+    VIDAC Block @ F(VIDAC,2): 
     vidaccell: Name =\WaveDAC8_1:VDAC8:viDAC8\
         PORT MAP (
-            strobe_udb => Net_1945_local ,
+            strobe_udb => Net_2511_local ,
             vout => Net_1978 ,
             iout => \WaveDAC8_1:VDAC8:Net_77\ );
+        Properties:
+        {
+            cy_registers = ""
+            is_all_if_any = 0
+            reg_data = 0
+        }
+    VIDAC Block @ F(VIDAC,3): 
+    vidaccell: Name =\WaveDAC8_3:VDAC8:viDAC8\
+        PORT MAP (
+            strobe_udb => Net_2524_local ,
+            vout => Net_2523 ,
+            iout => \WaveDAC8_3:VDAC8:Net_77\ );
         Properties:
         {
             cy_registers = ""
@@ -2290,7 +5481,7 @@ Port | Pin | Fixed |      Type |       Drive Mode |        Name | Connections
    2 |   3 |     * |      NONE |    RES_PULL_DOWN |      SW1(0) | 
      |   4 |     * |      NONE |    RES_PULL_DOWN |      SW2(0) | 
 -----+-----+-------+-----------+------------------+-------------+-----------------------
-  15 |   0 |     * |      NONE |         CMOS_OUT |    LED_1(0) | In(Net_1996)
+  15 |   0 |     * |      NONE |         CMOS_OUT |    LED_1(0) | In(Net_2516)
      |   1 |     * |      NONE |         CMOS_OUT |    LED_2(0) | In(Net_1999)
      |   5 |     * |      NONE |         CMOS_OUT |    LED_3(0) | In(Net_2001)
      |   6 |       |   FALLING |      HI_Z_ANALOG | \USB:Dp(0)\ | Analog(\USB:Net_1000\)
@@ -2299,32 +5490,35 @@ Port | Pin | Fixed |      Type |       Drive Mode |        Name | Connections
 </CYPRESSTAG>
 </CYPRESSTAG>
 </CYPRESSTAG>
-Digital component placer commit/Report: Elapsed time ==> 0s.000ms
-Digital Placement phase: Elapsed time ==> 0s.688ms
+Digital component placer commit/Report: Elapsed time ==> 0s.014ms
+Digital Placement phase: Elapsed time ==> 1s.999ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Digital Routing">
 Routing successful.
-Digital Routing phase: Elapsed time ==> 1s.077ms
+Digital Routing phase: Elapsed time ==> 2s.469ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Bitstream and API generation">
 Bitstream and API generation phase: Elapsed time ==> 0s.186ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Bitstream verification">
-Bitstream verification phase: Elapsed time ==> 0s.032ms
+Bitstream verification phase: Elapsed time ==> 0s.016ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Static timing analysis">
+Warning: sta.M0021: MIDI_EXAMPLE_timing.html: Warning-1350: Asynchronous path(s) exist from "Clock_2(routed)" to "\WaveDAC8_2:Wave1_DMA\/termout". See the timing report for details. (File=\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\MIDI_EXAMPLE_timing.html)
+Warning: sta.M0019: MIDI_EXAMPLE_timing.html: Warning-1366: Setup time violation found in a path from clock ( CyBUS_CLK ) to clock ( REG_CLK ). (File=\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\MIDI_EXAMPLE_timing.html)
+Warning: sta.M0019: MIDI_EXAMPLE_timing.html: Warning-1366: Setup time violation found in a path from clock ( \WaveDAC8_2:Wave1_DMA\/termout ) to clock ( REG_CLK ). (File=\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\MIDI_EXAMPLE_timing.html)
 Timing report is in MIDI_EXAMPLE_timing.html.
-Static timing analysis phase: Elapsed time ==> 0s.249ms
+Static timing analysis phase: Elapsed time ==> 0s.421ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Data reporting">
 Data reporting phase: Elapsed time ==> 0s.000ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Database update...">
-Design database save phase: Elapsed time ==> 0s.156ms
+Design database save phase: Elapsed time ==> 0s.171ms
 </CYPRESSTAG>
-cydsfit: Elapsed time ==> 3s.390ms
+cydsfit: Elapsed time ==> 7s.015ms
 </CYPRESSTAG>
-Fitter phase: Elapsed time ==> 3s.421ms
-API generation phase: Elapsed time ==> 2s.515ms
-Dependency generation phase: Elapsed time ==> 0s.015ms
-Cleanup phase: Elapsed time ==> 0s.000ms
+Fitter phase: Elapsed time ==> 7s.046ms
+API generation phase: Elapsed time ==> 2s.781ms
+Dependency generation phase: Elapsed time ==> 0s.014ms
+Cleanup phase: Elapsed time ==> 0s.015ms

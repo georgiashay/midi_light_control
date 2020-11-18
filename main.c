@@ -110,6 +110,10 @@ int main()
     WaveDAC8_1_Start();
     WaveDAC8_2_Start();
     Comp_1_Start();
+    
+    WaveDAC8_3_Start();
+    VDAC8_1_Start();
+    Comp_2_Start();
    
     while(1u)
     {
