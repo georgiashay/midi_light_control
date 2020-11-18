@@ -1,13 +1,13 @@
-Loading plugins phase: Elapsed time ==> 0s.203ms
+Loading plugins phase: Elapsed time ==> 0s.218ms
 Initializing data phase: Elapsed time ==> 0s.000ms
 <CYPRESSTAG name="CyDsfit arguments...">
 cydsfit arguments: -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -p \\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\MIDI_EXAMPLE.cyprj -d CY8C5888LTI-LP097 -s \\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\Generated_Source\PSoC5 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE</CYPRESSTAG>
 <CYPRESSTAG name="Design elaboration results...">
 </CYPRESSTAG>
-Elaboration phase: Elapsed time ==> 1s.468ms
+Elaboration phase: Elapsed time ==> 1s.406ms
 <CYPRESSTAG name="HDL generation results...">
 </CYPRESSTAG>
-HDL generation phase: Elapsed time ==> 0s.047ms
+HDL generation phase: Elapsed time ==> 0s.046ms
 <CYPRESSTAG name="Synthesis results...">
 
      | | | | | | |
@@ -41,7 +41,7 @@ Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=\\Mac\Home\Doc
 ======================================================================
 
 vlogfe V6.3 IR 41:  Verilog parser
-Tue Nov 17 21:41:53 2020
+Tue Nov 17 21:46:34 2020
 
 
 ======================================================================
@@ -51,20 +51,13 @@ Options  :    -yv2 -q10 MIDI_EXAMPLE.v
 ======================================================================
 
 vpp V6.3 IR 41:  Verilog Pre-Processor
-Tue Nov 17 21:41:53 2020
+Tue Nov 17 21:46:34 2020
 
-Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\or_v1_0\or_v1_0.v'
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\ZeroTerminal\ZeroTerminal.v'
-Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\nor_v1_0\nor_v1_0.v'
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_80\CyControlReg_v1_80.v'
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cypress.v'
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cy_psoc3_inc.v'
-Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\and_v1_0\and_v1_0.v'
-Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\demux_v1_10\demux_v1_10.v'
-Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\not_v1_0\not_v1_0.v'
-Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\DigitalComp_v1_0\DigitalComp_v1_0.v'
-Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_constant_v1_0\cy_constant_v1_0.v'
 
 vpp:  No errors.
 
@@ -81,9 +74,6 @@ Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\c
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
 Using control file 'MIDI_EXAMPLE.ctl'.
-MIDI_EXAMPLE.v (line 1591, col 55):  Note: Substituting module 'cmp_vv_vv' for '='.
-MIDI_EXAMPLE.v (line 1714, col 55):  Note: Substituting module 'cmp_vv_vv' for '='.
-MIDI_EXAMPLE.v (line 1721, col 55):  Note: Substituting module 'cmp_vv_vv' for '='.
 
 vlogfe:  No errors.
 
@@ -95,7 +85,7 @@ Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=\\Mac\Home\Doc
 ======================================================================
 
 tovif V6.3 IR 41:  High-level synthesis
-Tue Nov 17 21:41:53 2020
+Tue Nov 17 21:46:34 2020
 
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\std.vhd'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cypress.vhd'.
@@ -107,20 +97,12 @@ Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\c
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
 Linking '\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\codegentemp\MIDI_EXAMPLE.ctl'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\or_v1_0\or_v1_0.v'.
-Linking '\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\codegentemp\MIDI_EXAMPLE.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
+Linking '\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\codegentemp\MIDI_EXAMPLE.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\ZeroTerminal\ZeroTerminal.v'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\nor_v1_0\nor_v1_0.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_80\CyControlReg_v1_80.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cypress.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cy_psoc3_inc.v'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\and_v1_0\and_v1_0.v'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\demux_v1_10\demux_v1_10.v'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\not_v1_0\not_v1_0.v'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\DigitalComp_v1_0\DigitalComp_v1_0.v'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_constant_v1_0\cy_constant_v1_0.v'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\stdlogic\mcompare.vif'.
 
 tovif:  No errors.
 
@@ -132,7 +114,7 @@ Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=\\Mac\Home\Doc
 ======================================================================
 
 topld V6.3 IR 41:  Synthesis and optimization
-Tue Nov 17 21:41:54 2020
+Tue Nov 17 21:46:34 2020
 
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\std.vhd'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cypress.vhd'.
@@ -144,20 +126,12 @@ Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\c
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
 Linking '\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\codegentemp\MIDI_EXAMPLE.ctl'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\or_v1_0\or_v1_0.v'.
-Linking '\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\codegentemp\MIDI_EXAMPLE.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
+Linking '\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\codegentemp\MIDI_EXAMPLE.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\ZeroTerminal\ZeroTerminal.v'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\nor_v1_0\nor_v1_0.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_80\CyControlReg_v1_80.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cypress.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cy_psoc3_inc.v'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\and_v1_0\and_v1_0.v'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\demux_v1_10\demux_v1_10.v'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\not_v1_0\not_v1_0.v'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\DigitalComp_v1_0\DigitalComp_v1_0.v'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_constant_v1_0\cy_constant_v1_0.v'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\stdlogic\mcompare.vif'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\lcpsoc3\stdlogic\cpsoc3.vif'.
 
 ----------------------------------------------------------
@@ -180,75 +154,9 @@ Detecting unused logic.
 	\USB:Net_1916\
 	\USB:dma_complete_7\
 	\USB:Net_1915\
-	Net_929
-	Net_930
-	Net_931
-	Net_933
-	Net_934
-	Net_935
-	Net_936
-	\NOTE_PITCH_REG:control_bus_7\
-	\NOTE_PITCH_REG:control_bus_6\
-	\NOTE_PITCH_REG:control_bus_5\
-	\NOTE_PITCH_REG:control_bus_4\
-	\NOTE_PITCH_REG:control_bus_3\
-	\MODULE_1:g1:a0:gx:u0:albi_3\
-	\MODULE_1:g1:a0:gx:u0:agbi_3\
-	\MODULE_1:g1:a0:gx:u0:albi_2\
-	\MODULE_1:g1:a0:gx:u0:agbi_2\
-	\MODULE_1:g1:a0:gx:u0:albi_1\
-	\MODULE_1:g1:a0:gx:u0:agbi_1\
-	\MODULE_1:g1:a0:gx:u0:albi_0\
-	\MODULE_1:g1:a0:gx:u0:agbi_0\
-	\MODULE_1:g1:a0:xneq\
-	\MODULE_1:g1:a0:xlt\
-	\MODULE_1:g1:a0:xlte\
-	\MODULE_1:g1:a0:xgt\
-	\MODULE_1:g1:a0:xgte\
-	\MODULE_1:lt\
-	\MODULE_1:gt\
-	\MODULE_1:gte\
-	\MODULE_1:lte\
-	\MODULE_1:neq\
-	\MODULE_2:g1:a0:gx:u0:albi_3\
-	\MODULE_2:g1:a0:gx:u0:agbi_3\
-	\MODULE_2:g1:a0:gx:u0:albi_2\
-	\MODULE_2:g1:a0:gx:u0:agbi_2\
-	\MODULE_2:g1:a0:gx:u0:albi_1\
-	\MODULE_2:g1:a0:gx:u0:agbi_1\
-	\MODULE_2:g1:a0:gx:u0:albi_0\
-	\MODULE_2:g1:a0:gx:u0:agbi_0\
-	\MODULE_2:g1:a0:xneq\
-	\MODULE_2:g1:a0:xlt\
-	\MODULE_2:g1:a0:xlte\
-	\MODULE_2:g1:a0:xgt\
-	\MODULE_2:g1:a0:xgte\
-	\MODULE_2:lt\
-	\MODULE_2:gt\
-	\MODULE_2:gte\
-	\MODULE_2:lte\
-	\MODULE_2:neq\
-	\MODULE_3:g1:a0:gx:u0:albi_3\
-	\MODULE_3:g1:a0:gx:u0:agbi_3\
-	\MODULE_3:g1:a0:gx:u0:albi_2\
-	\MODULE_3:g1:a0:gx:u0:agbi_2\
-	\MODULE_3:g1:a0:gx:u0:albi_1\
-	\MODULE_3:g1:a0:gx:u0:agbi_1\
-	\MODULE_3:g1:a0:gx:u0:albi_0\
-	\MODULE_3:g1:a0:gx:u0:agbi_0\
-	\MODULE_3:g1:a0:xneq\
-	\MODULE_3:g1:a0:xlt\
-	\MODULE_3:g1:a0:xlte\
-	\MODULE_3:g1:a0:xgt\
-	\MODULE_3:g1:a0:xgte\
-	\MODULE_3:lt\
-	\MODULE_3:gt\
-	\MODULE_3:gte\
-	\MODULE_3:lte\
-	\MODULE_3:neq\
 
 
-Deleted 82 User equations/components.
+Deleted 16 User equations/components.
 Deleted 0 Synthesized equations/components.
 
 ------------------------------------------------------
@@ -261,367 +169,46 @@ Aliasing tmpOE__LED_4_net_0 to tmpOE__SW2_net_0
 Aliasing tmpOE__LED_3_net_0 to tmpOE__SW2_net_0
 Aliasing \USB:tmpOE__Dm_net_0\ to tmpOE__SW2_net_0
 Aliasing \USB:tmpOE__Dp_net_0\ to tmpOE__SW2_net_0
+Aliasing \MIDI_NOTES_REG:clk\ to zero
+Aliasing \MIDI_NOTES_REG:rst\ to zero
 Aliasing tmpOE__LED_2_net_0 to tmpOE__SW2_net_0
-Aliasing \MSG_VALID:clk\ to zero
-Aliasing \MSG_VALID:rst\ to zero
 Aliasing tmpOE__LED_5_net_0 to tmpOE__SW2_net_0
-Aliasing \MSG_TYPE_REG:clk\ to zero
-Aliasing \MSG_TYPE_REG:rst\ to zero
 Aliasing tmpOE__LED_7_net_0 to tmpOE__SW2_net_0
-Aliasing \NOTE_VEL_REG:clk\ to zero
-Aliasing \NOTE_VEL_REG:rst\ to zero
 Aliasing tmpOE__LED_8_net_0 to tmpOE__SW2_net_0
-Aliasing \NOTE_PITCH_REG:clk\ to zero
-Aliasing \NOTE_PITCH_REG:rst\ to zero
-Aliasing Net_1163_7 to zero
-Aliasing Net_1163_6 to zero
-Aliasing Net_1163_5 to zero
-Aliasing Net_1163_4 to zero
-Aliasing Net_1163_3 to zero
-Aliasing Net_1163_2 to zero
-Aliasing Net_1163_1 to zero
-Aliasing Net_1163_0 to zero
-Aliasing Net_1159_7 to tmpOE__SW2_net_0
-Aliasing Net_1159_6 to zero
-Aliasing Net_1159_5 to zero
-Aliasing Net_1159_4 to tmpOE__SW2_net_0
-Aliasing Net_1159_3 to zero
-Aliasing Net_1159_2 to zero
-Aliasing Net_1159_1 to zero
-Aliasing Net_1159_0 to zero
-Aliasing Net_1110_7 to tmpOE__SW2_net_0
-Aliasing Net_1110_6 to zero
-Aliasing Net_1110_5 to zero
-Aliasing Net_1110_4 to zero
-Aliasing Net_1110_3 to zero
-Aliasing Net_1110_2 to zero
-Aliasing Net_1110_1 to zero
-Aliasing Net_1110_0 to zero
 Aliasing tmpOE__LED_1_net_0 to tmpOE__SW2_net_0
-Aliasing \MODULE_1:g1:a0:gx:u0:aeqb_0\ to tmpOE__SW2_net_0
-Aliasing MODIN3_7 to MODIN1_7
-Aliasing MODIN3_6 to MODIN1_6
-Aliasing MODIN3_5 to MODIN1_5
-Aliasing MODIN3_4 to MODIN1_4
-Aliasing MODIN3_3 to MODIN1_3
-Aliasing MODIN3_2 to MODIN1_2
-Aliasing MODIN3_1 to MODIN1_1
-Aliasing MODIN3_0 to MODIN1_0
-Aliasing \MODULE_2:g1:a0:gx:u0:aeqb_0\ to tmpOE__SW2_net_0
-Aliasing \MODULE_3:g1:a0:gx:u0:aeqb_0\ to tmpOE__SW2_net_0
 Removing Lhs of wire one[7] = tmpOE__SW2_net_0[1]
 Removing Lhs of wire tmpOE__SW1_net_0[12] = tmpOE__SW2_net_0[1]
 Removing Lhs of wire tmpOE__LED_6_net_0[19] = tmpOE__SW2_net_0[1]
+Removing Rhs of wire Net_1478_5[20] = \MIDI_NOTES_REG:control_out_5\[110]
+Removing Rhs of wire Net_1478_5[20] = \MIDI_NOTES_REG:control_5\[122]
 Removing Lhs of wire tmpOE__LED_4_net_0[26] = tmpOE__SW2_net_0[1]
+Removing Rhs of wire Net_1478_3[27] = \MIDI_NOTES_REG:control_out_3\[113]
+Removing Rhs of wire Net_1478_3[27] = \MIDI_NOTES_REG:control_3\[124]
 Removing Lhs of wire tmpOE__LED_3_net_0[33] = tmpOE__SW2_net_0[1]
-Removing Lhs of wire \USB:tmpOE__Dm_net_0\[45] = tmpOE__SW2_net_0[1]
-Removing Lhs of wire \USB:tmpOE__Dp_net_0\[52] = tmpOE__SW2_net_0[1]
-Removing Rhs of wire Net_1366_7[108] = \demux_1:tmp__demux_1_7_reg\[290]
-Removing Rhs of wire Net_1366_6[111] = \demux_1:tmp__demux_1_6_reg\[289]
-Removing Rhs of wire Net_1366_5[114] = \demux_1:tmp__demux_1_5_reg\[288]
-Removing Rhs of wire Net_1366_4[116] = \demux_1:tmp__demux_1_4_reg\[287]
-Removing Rhs of wire Net_1366_3[119] = \demux_1:tmp__demux_1_3_reg\[286]
-Removing Rhs of wire Net_1366_2[121] = \demux_1:tmp__demux_1_2_reg\[285]
-Removing Rhs of wire Net_1366_1[123] = \demux_1:tmp__demux_1_1_reg\[284]
-Removing Rhs of wire Net_1366_0[126] = \demux_1:tmp__demux_1_0_reg\[283]
-Removing Rhs of wire Net_1299_7[128] = \demux_2:tmp__demux_2_7_reg\[252]
-Removing Rhs of wire Net_1299_6[129] = \demux_2:tmp__demux_2_6_reg\[251]
-Removing Rhs of wire Net_1299_5[130] = \demux_2:tmp__demux_2_5_reg\[250]
-Removing Rhs of wire Net_1299_4[131] = \demux_2:tmp__demux_2_4_reg\[249]
-Removing Rhs of wire Net_1299_3[132] = \demux_2:tmp__demux_2_3_reg\[248]
-Removing Rhs of wire Net_1299_2[133] = \demux_2:tmp__demux_2_2_reg\[247]
-Removing Rhs of wire Net_1299_1[134] = \demux_2:tmp__demux_2_1_reg\[246]
-Removing Rhs of wire Net_1299_0[135] = \demux_2:tmp__demux_2_0_reg\[242]
-Removing Lhs of wire tmpOE__LED_2_net_0[137] = tmpOE__SW2_net_0[1]
-Removing Lhs of wire \MSG_VALID:clk\[142] = zero[2]
-Removing Lhs of wire \MSG_VALID:rst\[143] = zero[2]
-Removing Rhs of wire Net_1283[144] = \MSG_VALID:control_out_0\[145]
-Removing Rhs of wire Net_1283[144] = \MSG_VALID:control_0\[168]
-Removing Lhs of wire tmpOE__LED_5_net_0[170] = tmpOE__SW2_net_0[1]
-Removing Lhs of wire \MSG_TYPE_REG:clk\[175] = zero[2]
-Removing Lhs of wire \MSG_TYPE_REG:rst\[176] = zero[2]
-Removing Rhs of wire Net_1108_7[177] = \MSG_TYPE_REG:control_out_7\[178]
-Removing Rhs of wire Net_1108_7[177] = \MSG_TYPE_REG:control_7\[194]
-Removing Rhs of wire Net_1108_6[179] = \MSG_TYPE_REG:control_out_6\[180]
-Removing Rhs of wire Net_1108_6[179] = \MSG_TYPE_REG:control_6\[195]
-Removing Rhs of wire Net_1108_5[181] = \MSG_TYPE_REG:control_out_5\[182]
-Removing Rhs of wire Net_1108_5[181] = \MSG_TYPE_REG:control_5\[196]
-Removing Rhs of wire Net_1108_4[183] = \MSG_TYPE_REG:control_out_4\[184]
-Removing Rhs of wire Net_1108_4[183] = \MSG_TYPE_REG:control_4\[197]
-Removing Rhs of wire Net_1108_3[185] = \MSG_TYPE_REG:control_out_3\[186]
-Removing Rhs of wire Net_1108_3[185] = \MSG_TYPE_REG:control_3\[198]
-Removing Rhs of wire Net_1108_2[187] = \MSG_TYPE_REG:control_out_2\[188]
-Removing Rhs of wire Net_1108_2[187] = \MSG_TYPE_REG:control_2\[199]
-Removing Rhs of wire Net_1108_1[189] = \MSG_TYPE_REG:control_out_1\[190]
-Removing Rhs of wire Net_1108_1[189] = \MSG_TYPE_REG:control_1\[200]
-Removing Rhs of wire Net_1108_0[191] = \MSG_TYPE_REG:control_out_0\[192]
-Removing Rhs of wire Net_1108_0[191] = \MSG_TYPE_REG:control_0\[201]
-Removing Lhs of wire tmpOE__LED_7_net_0[203] = tmpOE__SW2_net_0[1]
-Removing Lhs of wire \NOTE_VEL_REG:clk\[208] = zero[2]
-Removing Lhs of wire \NOTE_VEL_REG:rst\[209] = zero[2]
-Removing Rhs of wire Net_1161_7[210] = \NOTE_VEL_REG:control_out_7\[211]
-Removing Rhs of wire Net_1161_7[210] = \NOTE_VEL_REG:control_7\[227]
-Removing Rhs of wire Net_1161_6[212] = \NOTE_VEL_REG:control_out_6\[213]
-Removing Rhs of wire Net_1161_6[212] = \NOTE_VEL_REG:control_6\[228]
-Removing Rhs of wire Net_1161_5[214] = \NOTE_VEL_REG:control_out_5\[215]
-Removing Rhs of wire Net_1161_5[214] = \NOTE_VEL_REG:control_5\[229]
-Removing Rhs of wire Net_1161_4[216] = \NOTE_VEL_REG:control_out_4\[217]
-Removing Rhs of wire Net_1161_4[216] = \NOTE_VEL_REG:control_4\[230]
-Removing Rhs of wire Net_1161_3[218] = \NOTE_VEL_REG:control_out_3\[219]
-Removing Rhs of wire Net_1161_3[218] = \NOTE_VEL_REG:control_3\[231]
-Removing Rhs of wire Net_1161_2[220] = \NOTE_VEL_REG:control_out_2\[221]
-Removing Rhs of wire Net_1161_2[220] = \NOTE_VEL_REG:control_2\[232]
-Removing Rhs of wire Net_1161_1[222] = \NOTE_VEL_REG:control_out_1\[223]
-Removing Rhs of wire Net_1161_1[222] = \NOTE_VEL_REG:control_1\[233]
-Removing Rhs of wire Net_1161_0[224] = \NOTE_VEL_REG:control_out_0\[225]
-Removing Rhs of wire Net_1161_0[224] = \NOTE_VEL_REG:control_0\[234]
-Removing Lhs of wire tmpOE__LED_8_net_0[236] = tmpOE__SW2_net_0[1]
-Removing Rhs of wire Net_1430_2[243] = \NOTE_PITCH_REG:control_out_2\[268]
-Removing Rhs of wire Net_1430_2[243] = \NOTE_PITCH_REG:control_2\[277]
-Removing Rhs of wire Net_1430_1[244] = \NOTE_PITCH_REG:control_out_1\[269]
-Removing Rhs of wire Net_1430_1[244] = \NOTE_PITCH_REG:control_1\[278]
-Removing Rhs of wire Net_1430_0[245] = \NOTE_PITCH_REG:control_out_0\[270]
-Removing Rhs of wire Net_1430_0[245] = \NOTE_PITCH_REG:control_0\[279]
-Removing Rhs of wire Net_1085[255] = cmp_vv_vv_MODGEN_2[292]
-Removing Rhs of wire Net_1085[255] = \MODULE_2:g1:a0:xeq\[573]
-Removing Rhs of wire Net_1085[255] = \MODULE_2:g1:a0:gx:u0:aeqb_1\[536]
-Removing Lhs of wire \NOTE_PITCH_REG:clk\[256] = zero[2]
-Removing Lhs of wire \NOTE_PITCH_REG:rst\[257] = zero[2]
-Removing Rhs of wire Net_1088[281] = cmp_vv_vv_MODGEN_1[282]
-Removing Rhs of wire Net_1088[281] = \MODULE_1:g1:a0:xeq\[443]
-Removing Rhs of wire Net_1088[281] = \MODULE_1:g1:a0:gx:u0:aeqb_1\[406]
-Removing Rhs of wire Net_1160[291] = cmp_vv_vv_MODGEN_3[301]
-Removing Rhs of wire Net_1160[291] = \MODULE_3:g1:a0:xeq\[703]
-Removing Rhs of wire Net_1160[291] = \MODULE_3:g1:a0:gx:u0:aeqb_1\[666]
-Removing Lhs of wire Net_1163_7[293] = zero[2]
-Removing Lhs of wire Net_1163_6[294] = zero[2]
-Removing Lhs of wire Net_1163_5[295] = zero[2]
-Removing Lhs of wire Net_1163_4[296] = zero[2]
-Removing Lhs of wire Net_1163_3[297] = zero[2]
-Removing Lhs of wire Net_1163_2[298] = zero[2]
-Removing Lhs of wire Net_1163_1[299] = zero[2]
-Removing Lhs of wire Net_1163_0[300] = zero[2]
-Removing Lhs of wire Net_1159_7[302] = tmpOE__SW2_net_0[1]
-Removing Lhs of wire Net_1159_6[303] = zero[2]
-Removing Lhs of wire Net_1159_5[304] = zero[2]
-Removing Lhs of wire Net_1159_4[305] = tmpOE__SW2_net_0[1]
-Removing Lhs of wire Net_1159_3[306] = zero[2]
-Removing Lhs of wire Net_1159_2[307] = zero[2]
-Removing Lhs of wire Net_1159_1[308] = zero[2]
-Removing Lhs of wire Net_1159_0[309] = zero[2]
-Removing Lhs of wire Net_1110_7[310] = tmpOE__SW2_net_0[1]
-Removing Lhs of wire Net_1110_6[311] = zero[2]
-Removing Lhs of wire Net_1110_5[312] = zero[2]
-Removing Lhs of wire Net_1110_4[313] = zero[2]
-Removing Lhs of wire Net_1110_3[314] = zero[2]
-Removing Lhs of wire Net_1110_2[315] = zero[2]
-Removing Lhs of wire Net_1110_1[316] = zero[2]
-Removing Lhs of wire Net_1110_0[317] = zero[2]
-Removing Lhs of wire tmpOE__LED_1_net_0[319] = tmpOE__SW2_net_0[1]
-Removing Lhs of wire \MODULE_1:g1:a0:newa_7\[324] = MODIN1_7[325]
-Removing Lhs of wire MODIN1_7[325] = Net_1108_7[177]
-Removing Lhs of wire \MODULE_1:g1:a0:newa_6\[326] = MODIN1_6[327]
-Removing Lhs of wire MODIN1_6[327] = Net_1108_6[179]
-Removing Lhs of wire \MODULE_1:g1:a0:newa_5\[328] = MODIN1_5[329]
-Removing Lhs of wire MODIN1_5[329] = Net_1108_5[181]
-Removing Lhs of wire \MODULE_1:g1:a0:newa_4\[330] = MODIN1_4[331]
-Removing Lhs of wire MODIN1_4[331] = Net_1108_4[183]
-Removing Lhs of wire \MODULE_1:g1:a0:newa_3\[332] = MODIN1_3[333]
-Removing Lhs of wire MODIN1_3[333] = Net_1108_3[185]
-Removing Lhs of wire \MODULE_1:g1:a0:newa_2\[334] = MODIN1_2[335]
-Removing Lhs of wire MODIN1_2[335] = Net_1108_2[187]
-Removing Lhs of wire \MODULE_1:g1:a0:newa_1\[336] = MODIN1_1[337]
-Removing Lhs of wire MODIN1_1[337] = Net_1108_1[189]
-Removing Lhs of wire \MODULE_1:g1:a0:newa_0\[338] = MODIN1_0[339]
-Removing Lhs of wire MODIN1_0[339] = Net_1108_0[191]
-Removing Lhs of wire \MODULE_1:g1:a0:newb_7\[340] = MODIN2_7[341]
-Removing Lhs of wire MODIN2_7[341] = tmpOE__SW2_net_0[1]
-Removing Lhs of wire \MODULE_1:g1:a0:newb_6\[342] = MODIN2_6[343]
-Removing Lhs of wire MODIN2_6[343] = zero[2]
-Removing Lhs of wire \MODULE_1:g1:a0:newb_5\[344] = MODIN2_5[345]
-Removing Lhs of wire MODIN2_5[345] = zero[2]
-Removing Lhs of wire \MODULE_1:g1:a0:newb_4\[346] = MODIN2_4[347]
-Removing Lhs of wire MODIN2_4[347] = zero[2]
-Removing Lhs of wire \MODULE_1:g1:a0:newb_3\[348] = MODIN2_3[349]
-Removing Lhs of wire MODIN2_3[349] = zero[2]
-Removing Lhs of wire \MODULE_1:g1:a0:newb_2\[350] = MODIN2_2[351]
-Removing Lhs of wire MODIN2_2[351] = zero[2]
-Removing Lhs of wire \MODULE_1:g1:a0:newb_1\[352] = MODIN2_1[353]
-Removing Lhs of wire MODIN2_1[353] = zero[2]
-Removing Lhs of wire \MODULE_1:g1:a0:newb_0\[354] = MODIN2_0[355]
-Removing Lhs of wire MODIN2_0[355] = zero[2]
-Removing Lhs of wire \MODULE_1:g1:a0:dataa_7\[356] = Net_1108_7[177]
-Removing Lhs of wire \MODULE_1:g1:a0:dataa_6\[357] = Net_1108_6[179]
-Removing Lhs of wire \MODULE_1:g1:a0:dataa_5\[358] = Net_1108_5[181]
-Removing Lhs of wire \MODULE_1:g1:a0:dataa_4\[359] = Net_1108_4[183]
-Removing Lhs of wire \MODULE_1:g1:a0:dataa_3\[360] = Net_1108_3[185]
-Removing Lhs of wire \MODULE_1:g1:a0:dataa_2\[361] = Net_1108_2[187]
-Removing Lhs of wire \MODULE_1:g1:a0:dataa_1\[362] = Net_1108_1[189]
-Removing Lhs of wire \MODULE_1:g1:a0:dataa_0\[363] = Net_1108_0[191]
-Removing Lhs of wire \MODULE_1:g1:a0:datab_7\[364] = tmpOE__SW2_net_0[1]
-Removing Lhs of wire \MODULE_1:g1:a0:datab_6\[365] = zero[2]
-Removing Lhs of wire \MODULE_1:g1:a0:datab_5\[366] = zero[2]
-Removing Lhs of wire \MODULE_1:g1:a0:datab_4\[367] = zero[2]
-Removing Lhs of wire \MODULE_1:g1:a0:datab_3\[368] = zero[2]
-Removing Lhs of wire \MODULE_1:g1:a0:datab_2\[369] = zero[2]
-Removing Lhs of wire \MODULE_1:g1:a0:datab_1\[370] = zero[2]
-Removing Lhs of wire \MODULE_1:g1:a0:datab_0\[371] = zero[2]
-Removing Lhs of wire \MODULE_1:g1:a0:gx:u0:a_7\[372] = Net_1108_7[177]
-Removing Lhs of wire \MODULE_1:g1:a0:gx:u0:a_6\[373] = Net_1108_6[179]
-Removing Lhs of wire \MODULE_1:g1:a0:gx:u0:a_5\[374] = Net_1108_5[181]
-Removing Lhs of wire \MODULE_1:g1:a0:gx:u0:a_4\[375] = Net_1108_4[183]
-Removing Lhs of wire \MODULE_1:g1:a0:gx:u0:a_3\[376] = Net_1108_3[185]
-Removing Lhs of wire \MODULE_1:g1:a0:gx:u0:a_2\[377] = Net_1108_2[187]
-Removing Lhs of wire \MODULE_1:g1:a0:gx:u0:a_1\[378] = Net_1108_1[189]
-Removing Lhs of wire \MODULE_1:g1:a0:gx:u0:a_0\[379] = Net_1108_0[191]
-Removing Lhs of wire \MODULE_1:g1:a0:gx:u0:b_7\[380] = tmpOE__SW2_net_0[1]
-Removing Lhs of wire \MODULE_1:g1:a0:gx:u0:b_6\[381] = zero[2]
-Removing Lhs of wire \MODULE_1:g1:a0:gx:u0:b_5\[382] = zero[2]
-Removing Lhs of wire \MODULE_1:g1:a0:gx:u0:b_4\[383] = zero[2]
-Removing Lhs of wire \MODULE_1:g1:a0:gx:u0:b_3\[384] = zero[2]
-Removing Lhs of wire \MODULE_1:g1:a0:gx:u0:b_2\[385] = zero[2]
-Removing Lhs of wire \MODULE_1:g1:a0:gx:u0:b_1\[386] = zero[2]
-Removing Lhs of wire \MODULE_1:g1:a0:gx:u0:b_0\[387] = zero[2]
-Removing Lhs of wire \MODULE_1:g1:a0:gx:u0:aeqb_0\[396] = tmpOE__SW2_net_0[1]
-Removing Lhs of wire \MODULE_1:g1:a0:gx:u0:eq_0\[397] = \MODULE_1:g1:a0:gx:u0:xnor_array_0\[395]
-Removing Lhs of wire \MODULE_1:g1:a0:gx:u0:eqi_0\[405] = \MODULE_1:g1:a0:gx:u0:eq_7\[404]
-Removing Lhs of wire \MODULE_2:g1:a0:newa_7\[454] = Net_1108_7[177]
-Removing Lhs of wire MODIN3_7[455] = Net_1108_7[177]
-Removing Lhs of wire \MODULE_2:g1:a0:newa_6\[456] = Net_1108_6[179]
-Removing Lhs of wire MODIN3_6[457] = Net_1108_6[179]
-Removing Lhs of wire \MODULE_2:g1:a0:newa_5\[458] = Net_1108_5[181]
-Removing Lhs of wire MODIN3_5[459] = Net_1108_5[181]
-Removing Lhs of wire \MODULE_2:g1:a0:newa_4\[460] = Net_1108_4[183]
-Removing Lhs of wire MODIN3_4[461] = Net_1108_4[183]
-Removing Lhs of wire \MODULE_2:g1:a0:newa_3\[462] = Net_1108_3[185]
-Removing Lhs of wire MODIN3_3[463] = Net_1108_3[185]
-Removing Lhs of wire \MODULE_2:g1:a0:newa_2\[464] = Net_1108_2[187]
-Removing Lhs of wire MODIN3_2[465] = Net_1108_2[187]
-Removing Lhs of wire \MODULE_2:g1:a0:newa_1\[466] = Net_1108_1[189]
-Removing Lhs of wire MODIN3_1[467] = Net_1108_1[189]
-Removing Lhs of wire \MODULE_2:g1:a0:newa_0\[468] = Net_1108_0[191]
-Removing Lhs of wire MODIN3_0[469] = Net_1108_0[191]
-Removing Lhs of wire \MODULE_2:g1:a0:newb_7\[470] = MODIN4_7[471]
-Removing Lhs of wire MODIN4_7[471] = tmpOE__SW2_net_0[1]
-Removing Lhs of wire \MODULE_2:g1:a0:newb_6\[472] = MODIN4_6[473]
-Removing Lhs of wire MODIN4_6[473] = zero[2]
-Removing Lhs of wire \MODULE_2:g1:a0:newb_5\[474] = MODIN4_5[475]
-Removing Lhs of wire MODIN4_5[475] = zero[2]
-Removing Lhs of wire \MODULE_2:g1:a0:newb_4\[476] = MODIN4_4[477]
-Removing Lhs of wire MODIN4_4[477] = tmpOE__SW2_net_0[1]
-Removing Lhs of wire \MODULE_2:g1:a0:newb_3\[478] = MODIN4_3[479]
-Removing Lhs of wire MODIN4_3[479] = zero[2]
-Removing Lhs of wire \MODULE_2:g1:a0:newb_2\[480] = MODIN4_2[481]
-Removing Lhs of wire MODIN4_2[481] = zero[2]
-Removing Lhs of wire \MODULE_2:g1:a0:newb_1\[482] = MODIN4_1[483]
-Removing Lhs of wire MODIN4_1[483] = zero[2]
-Removing Lhs of wire \MODULE_2:g1:a0:newb_0\[484] = MODIN4_0[485]
-Removing Lhs of wire MODIN4_0[485] = zero[2]
-Removing Lhs of wire \MODULE_2:g1:a0:dataa_7\[486] = Net_1108_7[177]
-Removing Lhs of wire \MODULE_2:g1:a0:dataa_6\[487] = Net_1108_6[179]
-Removing Lhs of wire \MODULE_2:g1:a0:dataa_5\[488] = Net_1108_5[181]
-Removing Lhs of wire \MODULE_2:g1:a0:dataa_4\[489] = Net_1108_4[183]
-Removing Lhs of wire \MODULE_2:g1:a0:dataa_3\[490] = Net_1108_3[185]
-Removing Lhs of wire \MODULE_2:g1:a0:dataa_2\[491] = Net_1108_2[187]
-Removing Lhs of wire \MODULE_2:g1:a0:dataa_1\[492] = Net_1108_1[189]
-Removing Lhs of wire \MODULE_2:g1:a0:dataa_0\[493] = Net_1108_0[191]
-Removing Lhs of wire \MODULE_2:g1:a0:datab_7\[494] = tmpOE__SW2_net_0[1]
-Removing Lhs of wire \MODULE_2:g1:a0:datab_6\[495] = zero[2]
-Removing Lhs of wire \MODULE_2:g1:a0:datab_5\[496] = zero[2]
-Removing Lhs of wire \MODULE_2:g1:a0:datab_4\[497] = tmpOE__SW2_net_0[1]
-Removing Lhs of wire \MODULE_2:g1:a0:datab_3\[498] = zero[2]
-Removing Lhs of wire \MODULE_2:g1:a0:datab_2\[499] = zero[2]
-Removing Lhs of wire \MODULE_2:g1:a0:datab_1\[500] = zero[2]
-Removing Lhs of wire \MODULE_2:g1:a0:datab_0\[501] = zero[2]
-Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:a_7\[502] = Net_1108_7[177]
-Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:a_6\[503] = Net_1108_6[179]
-Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:a_5\[504] = Net_1108_5[181]
-Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:a_4\[505] = Net_1108_4[183]
-Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:a_3\[506] = Net_1108_3[185]
-Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:a_2\[507] = Net_1108_2[187]
-Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:a_1\[508] = Net_1108_1[189]
-Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:a_0\[509] = Net_1108_0[191]
-Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:b_7\[510] = tmpOE__SW2_net_0[1]
-Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:b_6\[511] = zero[2]
-Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:b_5\[512] = zero[2]
-Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:b_4\[513] = tmpOE__SW2_net_0[1]
-Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:b_3\[514] = zero[2]
-Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:b_2\[515] = zero[2]
-Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:b_1\[516] = zero[2]
-Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:b_0\[517] = zero[2]
-Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:aeqb_0\[526] = tmpOE__SW2_net_0[1]
-Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:eq_0\[527] = \MODULE_2:g1:a0:gx:u0:xnor_array_0\[525]
-Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:eqi_0\[535] = \MODULE_2:g1:a0:gx:u0:eq_7\[534]
-Removing Lhs of wire \MODULE_3:g1:a0:newa_7\[584] = MODIN5_7[585]
-Removing Lhs of wire MODIN5_7[585] = Net_1161_7[210]
-Removing Lhs of wire \MODULE_3:g1:a0:newa_6\[586] = MODIN5_6[587]
-Removing Lhs of wire MODIN5_6[587] = Net_1161_6[212]
-Removing Lhs of wire \MODULE_3:g1:a0:newa_5\[588] = MODIN5_5[589]
-Removing Lhs of wire MODIN5_5[589] = Net_1161_5[214]
-Removing Lhs of wire \MODULE_3:g1:a0:newa_4\[590] = MODIN5_4[591]
-Removing Lhs of wire MODIN5_4[591] = Net_1161_4[216]
-Removing Lhs of wire \MODULE_3:g1:a0:newa_3\[592] = MODIN5_3[593]
-Removing Lhs of wire MODIN5_3[593] = Net_1161_3[218]
-Removing Lhs of wire \MODULE_3:g1:a0:newa_2\[594] = MODIN5_2[595]
-Removing Lhs of wire MODIN5_2[595] = Net_1161_2[220]
-Removing Lhs of wire \MODULE_3:g1:a0:newa_1\[596] = MODIN5_1[597]
-Removing Lhs of wire MODIN5_1[597] = Net_1161_1[222]
-Removing Lhs of wire \MODULE_3:g1:a0:newa_0\[598] = MODIN5_0[599]
-Removing Lhs of wire MODIN5_0[599] = Net_1161_0[224]
-Removing Lhs of wire \MODULE_3:g1:a0:newb_7\[600] = MODIN6_7[601]
-Removing Lhs of wire MODIN6_7[601] = zero[2]
-Removing Lhs of wire \MODULE_3:g1:a0:newb_6\[602] = MODIN6_6[603]
-Removing Lhs of wire MODIN6_6[603] = zero[2]
-Removing Lhs of wire \MODULE_3:g1:a0:newb_5\[604] = MODIN6_5[605]
-Removing Lhs of wire MODIN6_5[605] = zero[2]
-Removing Lhs of wire \MODULE_3:g1:a0:newb_4\[606] = MODIN6_4[607]
-Removing Lhs of wire MODIN6_4[607] = zero[2]
-Removing Lhs of wire \MODULE_3:g1:a0:newb_3\[608] = MODIN6_3[609]
-Removing Lhs of wire MODIN6_3[609] = zero[2]
-Removing Lhs of wire \MODULE_3:g1:a0:newb_2\[610] = MODIN6_2[611]
-Removing Lhs of wire MODIN6_2[611] = zero[2]
-Removing Lhs of wire \MODULE_3:g1:a0:newb_1\[612] = MODIN6_1[613]
-Removing Lhs of wire MODIN6_1[613] = zero[2]
-Removing Lhs of wire \MODULE_3:g1:a0:newb_0\[614] = MODIN6_0[615]
-Removing Lhs of wire MODIN6_0[615] = zero[2]
-Removing Lhs of wire \MODULE_3:g1:a0:dataa_7\[616] = Net_1161_7[210]
-Removing Lhs of wire \MODULE_3:g1:a0:dataa_6\[617] = Net_1161_6[212]
-Removing Lhs of wire \MODULE_3:g1:a0:dataa_5\[618] = Net_1161_5[214]
-Removing Lhs of wire \MODULE_3:g1:a0:dataa_4\[619] = Net_1161_4[216]
-Removing Lhs of wire \MODULE_3:g1:a0:dataa_3\[620] = Net_1161_3[218]
-Removing Lhs of wire \MODULE_3:g1:a0:dataa_2\[621] = Net_1161_2[220]
-Removing Lhs of wire \MODULE_3:g1:a0:dataa_1\[622] = Net_1161_1[222]
-Removing Lhs of wire \MODULE_3:g1:a0:dataa_0\[623] = Net_1161_0[224]
-Removing Lhs of wire \MODULE_3:g1:a0:datab_7\[624] = zero[2]
-Removing Lhs of wire \MODULE_3:g1:a0:datab_6\[625] = zero[2]
-Removing Lhs of wire \MODULE_3:g1:a0:datab_5\[626] = zero[2]
-Removing Lhs of wire \MODULE_3:g1:a0:datab_4\[627] = zero[2]
-Removing Lhs of wire \MODULE_3:g1:a0:datab_3\[628] = zero[2]
-Removing Lhs of wire \MODULE_3:g1:a0:datab_2\[629] = zero[2]
-Removing Lhs of wire \MODULE_3:g1:a0:datab_1\[630] = zero[2]
-Removing Lhs of wire \MODULE_3:g1:a0:datab_0\[631] = zero[2]
-Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:a_7\[632] = Net_1161_7[210]
-Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:a_6\[633] = Net_1161_6[212]
-Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:a_5\[634] = Net_1161_5[214]
-Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:a_4\[635] = Net_1161_4[216]
-Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:a_3\[636] = Net_1161_3[218]
-Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:a_2\[637] = Net_1161_2[220]
-Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:a_1\[638] = Net_1161_1[222]
-Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:a_0\[639] = Net_1161_0[224]
-Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:b_7\[640] = zero[2]
-Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:b_6\[641] = zero[2]
-Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:b_5\[642] = zero[2]
-Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:b_4\[643] = zero[2]
-Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:b_3\[644] = zero[2]
-Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:b_2\[645] = zero[2]
-Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:b_1\[646] = zero[2]
-Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:b_0\[647] = zero[2]
-Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:aeqb_0\[656] = tmpOE__SW2_net_0[1]
-Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:eq_0\[657] = \MODULE_3:g1:a0:gx:u0:xnor_array_0\[655]
-Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:eqi_0\[665] = \MODULE_3:g1:a0:gx:u0:eq_7\[664]
+Removing Rhs of wire Net_1478_2[34] = \MIDI_NOTES_REG:control_out_2\[114]
+Removing Rhs of wire Net_1478_2[34] = \MIDI_NOTES_REG:control_2\[125]
+Removing Lhs of wire \USB:tmpOE__Dm_net_0\[42] = tmpOE__SW2_net_0[1]
+Removing Lhs of wire \USB:tmpOE__Dp_net_0\[49] = tmpOE__SW2_net_0[1]
+Removing Lhs of wire \MIDI_NOTES_REG:clk\[104] = zero[2]
+Removing Lhs of wire \MIDI_NOTES_REG:rst\[105] = zero[2]
+Removing Rhs of wire Net_1478_7[106] = \MIDI_NOTES_REG:control_out_7\[107]
+Removing Rhs of wire Net_1478_7[106] = \MIDI_NOTES_REG:control_7\[120]
+Removing Rhs of wire Net_1478_6[108] = \MIDI_NOTES_REG:control_out_6\[109]
+Removing Rhs of wire Net_1478_6[108] = \MIDI_NOTES_REG:control_6\[121]
+Removing Rhs of wire Net_1478_4[111] = \MIDI_NOTES_REG:control_out_4\[112]
+Removing Rhs of wire Net_1478_4[111] = \MIDI_NOTES_REG:control_4\[123]
+Removing Rhs of wire Net_1478_1[115] = \MIDI_NOTES_REG:control_out_1\[116]
+Removing Rhs of wire Net_1478_1[115] = \MIDI_NOTES_REG:control_1\[126]
+Removing Rhs of wire Net_1478_0[117] = \MIDI_NOTES_REG:control_out_0\[118]
+Removing Rhs of wire Net_1478_0[117] = \MIDI_NOTES_REG:control_0\[127]
+Removing Lhs of wire tmpOE__LED_2_net_0[129] = tmpOE__SW2_net_0[1]
+Removing Lhs of wire tmpOE__LED_5_net_0[135] = tmpOE__SW2_net_0[1]
+Removing Lhs of wire tmpOE__LED_7_net_0[141] = tmpOE__SW2_net_0[1]
+Removing Lhs of wire tmpOE__LED_8_net_0[147] = tmpOE__SW2_net_0[1]
+Removing Lhs of wire tmpOE__LED_1_net_0[153] = tmpOE__SW2_net_0[1]
 
 ------------------------------------------------------
-Aliased 0 equations, 310 wires.
+Aliased 0 equations, 30 wires.
 ------------------------------------------------------
 
 ----------------------------------------------------------
@@ -629,553 +216,6 @@ Circuit simplification
 ----------------------------------------------------------
 
 Substituting virtuals - pass 1:
-
-Note:  Expanding virtual equation for 'tmpOE__SW2_net_0' (cost = 0):
-tmpOE__SW2_net_0 <=  ('1') ;
-
-Note:  Expanding virtual equation for 'zero' (cost = 0):
-zero <=  ('0') ;
-
-Note:  Expanding virtual equation for 'Net_1686' (cost = 0):
-Net_1686 <= (not Net_1283);
-
-Note:  Expanding virtual equation for '\MODULE_1:g1:a0:gx:u0:xnor_array_7\' (cost = 0):
-\MODULE_1:g1:a0:gx:u0:xnor_array_7\ <= (Net_1108_7);
-
-Note:  Expanding virtual equation for '\MODULE_1:g1:a0:gx:u0:xnor_array_6\' (cost = 0):
-\MODULE_1:g1:a0:gx:u0:xnor_array_6\ <= (not Net_1108_6);
-
-Note:  Expanding virtual equation for '\MODULE_1:g1:a0:gx:u0:xnor_array_5\' (cost = 0):
-\MODULE_1:g1:a0:gx:u0:xnor_array_5\ <= (not Net_1108_5);
-
-Note:  Expanding virtual equation for '\MODULE_1:g1:a0:gx:u0:xnor_array_4\' (cost = 0):
-\MODULE_1:g1:a0:gx:u0:xnor_array_4\ <= (not Net_1108_4);
-
-Note:  Expanding virtual equation for '\MODULE_1:g1:a0:gx:u0:xnor_array_3\' (cost = 0):
-\MODULE_1:g1:a0:gx:u0:xnor_array_3\ <= (not Net_1108_3);
-
-Note:  Expanding virtual equation for '\MODULE_1:g1:a0:gx:u0:xnor_array_2\' (cost = 0):
-\MODULE_1:g1:a0:gx:u0:xnor_array_2\ <= (not Net_1108_2);
-
-Note:  Expanding virtual equation for '\MODULE_1:g1:a0:gx:u0:xnor_array_1\' (cost = 0):
-\MODULE_1:g1:a0:gx:u0:xnor_array_1\ <= (not Net_1108_1);
-
-Note:  Expanding virtual equation for '\MODULE_1:g1:a0:gx:u0:xnor_array_0\' (cost = 0):
-\MODULE_1:g1:a0:gx:u0:xnor_array_0\ <= (not Net_1108_0);
-
-Note:  Expanding virtual equation for '\MODULE_1:g1:a0:gx:u0:eq_1\' (cost = 1):
-\MODULE_1:g1:a0:gx:u0:eq_1\ <= ((not Net_1108_1 and not Net_1108_0));
-
-Note:  Expanding virtual equation for '\MODULE_1:g1:a0:gx:u0:eq_2\' (cost = 1):
-\MODULE_1:g1:a0:gx:u0:eq_2\ <= ((not Net_1108_2 and not Net_1108_1 and not Net_1108_0));
-
-Note:  Expanding virtual equation for '\MODULE_1:g1:a0:gx:u0:eq_3\' (cost = 1):
-\MODULE_1:g1:a0:gx:u0:eq_3\ <= ((not Net_1108_3 and not Net_1108_2 and not Net_1108_1 and not Net_1108_0));
-
-Note:  Expanding virtual equation for '\MODULE_1:g1:a0:gx:u0:eq_4\' (cost = 1):
-\MODULE_1:g1:a0:gx:u0:eq_4\ <= ((not Net_1108_4 and not Net_1108_3 and not Net_1108_2 and not Net_1108_1 and not Net_1108_0));
-
-Note:  Expanding virtual equation for '\MODULE_1:g1:a0:gx:u0:eq_5\' (cost = 1):
-\MODULE_1:g1:a0:gx:u0:eq_5\ <= ((not Net_1108_5 and not Net_1108_4 and not Net_1108_3 and not Net_1108_2 and not Net_1108_1 and not Net_1108_0));
-
-Note:  Expanding virtual equation for '\MODULE_1:g1:a0:gx:u0:eq_6\' (cost = 1):
-\MODULE_1:g1:a0:gx:u0:eq_6\ <= ((not Net_1108_6 and not Net_1108_5 and not Net_1108_4 and not Net_1108_3 and not Net_1108_2 and not Net_1108_1 and not Net_1108_0));
-
-Note:  Expanding virtual equation for '\MODULE_1:g1:a0:gx:u0:lt_6\' (cost = 0):
-\MODULE_1:g1:a0:gx:u0:lt_6\ <=  ('0') ;
-
-Note:  Expanding virtual equation for '\MODULE_1:g1:a0:gx:u0:gt_6\' (cost = 0):
-\MODULE_1:g1:a0:gx:u0:gt_6\ <= (Net_1108_6);
-
-Note:  Expanding virtual equation for '\MODULE_1:g1:a0:gx:u0:lt_3\' (cost = 0):
-\MODULE_1:g1:a0:gx:u0:lt_3\ <=  ('0') ;
-
-Note:  Expanding virtual equation for '\MODULE_1:g1:a0:gx:u0:gt_3\' (cost = 0):
-\MODULE_1:g1:a0:gx:u0:gt_3\ <= (Net_1108_3);
-
-Note:  Expanding virtual equation for '\MODULE_1:g1:a0:gx:u0:lt_4\' (cost = 0):
-\MODULE_1:g1:a0:gx:u0:lt_4\ <=  ('0') ;
-
-Note:  Expanding virtual equation for '\MODULE_1:g1:a0:gx:u0:gt_4\' (cost = 2):
-\MODULE_1:g1:a0:gx:u0:gt_4\ <= (Net_1108_3
-	OR Net_1108_4);
-
-Note:  Expanding virtual equation for '\MODULE_1:g1:a0:gx:u0:lt_0\' (cost = 0):
-\MODULE_1:g1:a0:gx:u0:lt_0\ <=  ('0') ;
-
-Note:  Expanding virtual equation for '\MODULE_1:g1:a0:gx:u0:gt_0\' (cost = 0):
-\MODULE_1:g1:a0:gx:u0:gt_0\ <= (Net_1108_0);
-
-Note:  Expanding virtual equation for '\MODULE_1:g1:a0:gx:u0:lt_1\' (cost = 0):
-\MODULE_1:g1:a0:gx:u0:lt_1\ <=  ('0') ;
-
-Note:  Expanding virtual equation for '\MODULE_1:g1:a0:gx:u0:gt_1\' (cost = 2):
-\MODULE_1:g1:a0:gx:u0:gt_1\ <= (Net_1108_0
-	OR Net_1108_1);
-
-Note:  Expanding virtual equation for '\MODULE_2:g1:a0:gx:u0:xnor_array_7\' (cost = 0):
-\MODULE_2:g1:a0:gx:u0:xnor_array_7\ <= (Net_1108_7);
-
-Note:  Expanding virtual equation for '\MODULE_2:g1:a0:gx:u0:xnor_array_6\' (cost = 0):
-\MODULE_2:g1:a0:gx:u0:xnor_array_6\ <= (not Net_1108_6);
-
-Note:  Expanding virtual equation for '\MODULE_2:g1:a0:gx:u0:xnor_array_5\' (cost = 0):
-\MODULE_2:g1:a0:gx:u0:xnor_array_5\ <= (not Net_1108_5);
-
-Note:  Expanding virtual equation for '\MODULE_2:g1:a0:gx:u0:xnor_array_4\' (cost = 0):
-\MODULE_2:g1:a0:gx:u0:xnor_array_4\ <= (Net_1108_4);
-
-Note:  Expanding virtual equation for '\MODULE_2:g1:a0:gx:u0:xnor_array_3\' (cost = 0):
-\MODULE_2:g1:a0:gx:u0:xnor_array_3\ <= (not Net_1108_3);
-
-Note:  Expanding virtual equation for '\MODULE_2:g1:a0:gx:u0:xnor_array_2\' (cost = 0):
-\MODULE_2:g1:a0:gx:u0:xnor_array_2\ <= (not Net_1108_2);
-
-Note:  Expanding virtual equation for '\MODULE_2:g1:a0:gx:u0:xnor_array_1\' (cost = 0):
-\MODULE_2:g1:a0:gx:u0:xnor_array_1\ <= (not Net_1108_1);
-
-Note:  Expanding virtual equation for '\MODULE_2:g1:a0:gx:u0:xnor_array_0\' (cost = 0):
-\MODULE_2:g1:a0:gx:u0:xnor_array_0\ <= (not Net_1108_0);
-
-Note:  Expanding virtual equation for '\MODULE_2:g1:a0:gx:u0:eq_1\' (cost = 1):
-\MODULE_2:g1:a0:gx:u0:eq_1\ <= ((not Net_1108_1 and not Net_1108_0));
-
-Note:  Expanding virtual equation for '\MODULE_2:g1:a0:gx:u0:eq_2\' (cost = 1):
-\MODULE_2:g1:a0:gx:u0:eq_2\ <= ((not Net_1108_2 and not Net_1108_1 and not Net_1108_0));
-
-Note:  Expanding virtual equation for '\MODULE_2:g1:a0:gx:u0:eq_3\' (cost = 1):
-\MODULE_2:g1:a0:gx:u0:eq_3\ <= ((not Net_1108_3 and not Net_1108_2 and not Net_1108_1 and not Net_1108_0));
-
-Note:  Expanding virtual equation for '\MODULE_2:g1:a0:gx:u0:eq_4\' (cost = 1):
-\MODULE_2:g1:a0:gx:u0:eq_4\ <= ((not Net_1108_3 and not Net_1108_2 and not Net_1108_1 and not Net_1108_0 and Net_1108_4));
-
-Note:  Expanding virtual equation for '\MODULE_2:g1:a0:gx:u0:eq_5\' (cost = 1):
-\MODULE_2:g1:a0:gx:u0:eq_5\ <= ((not Net_1108_5 and not Net_1108_3 and not Net_1108_2 and not Net_1108_1 and not Net_1108_0 and Net_1108_4));
-
-Note:  Expanding virtual equation for '\MODULE_2:g1:a0:gx:u0:eq_6\' (cost = 1):
-\MODULE_2:g1:a0:gx:u0:eq_6\ <= ((not Net_1108_6 and not Net_1108_5 and not Net_1108_3 and not Net_1108_2 and not Net_1108_1 and not Net_1108_0 and Net_1108_4));
-
-Note:  Expanding virtual equation for '\MODULE_2:g1:a0:gx:u0:lt_6\' (cost = 0):
-\MODULE_2:g1:a0:gx:u0:lt_6\ <=  ('0') ;
-
-Note:  Expanding virtual equation for '\MODULE_2:g1:a0:gx:u0:gt_6\' (cost = 0):
-\MODULE_2:g1:a0:gx:u0:gt_6\ <= (Net_1108_6);
-
-Note:  Expanding virtual equation for '\MODULE_2:g1:a0:gx:u0:lt_3\' (cost = 0):
-\MODULE_2:g1:a0:gx:u0:lt_3\ <=  ('0') ;
-
-Note:  Expanding virtual equation for '\MODULE_2:g1:a0:gx:u0:gt_3\' (cost = 0):
-\MODULE_2:g1:a0:gx:u0:gt_3\ <= (Net_1108_3);
-
-Note:  Expanding virtual equation for '\MODULE_2:g1:a0:gx:u0:lt_4\' (cost = 0):
-\MODULE_2:g1:a0:gx:u0:lt_4\ <= (not Net_1108_4);
-
-Note:  Expanding virtual equation for '\MODULE_2:g1:a0:gx:u0:gt_4\' (cost = 1):
-\MODULE_2:g1:a0:gx:u0:gt_4\ <= ((Net_1108_4 and Net_1108_3));
-
-Note:  Expanding virtual equation for '\MODULE_2:g1:a0:gx:u0:lt_0\' (cost = 0):
-\MODULE_2:g1:a0:gx:u0:lt_0\ <=  ('0') ;
-
-Note:  Expanding virtual equation for '\MODULE_2:g1:a0:gx:u0:gt_0\' (cost = 0):
-\MODULE_2:g1:a0:gx:u0:gt_0\ <= (Net_1108_0);
-
-Note:  Expanding virtual equation for '\MODULE_2:g1:a0:gx:u0:lt_1\' (cost = 0):
-\MODULE_2:g1:a0:gx:u0:lt_1\ <=  ('0') ;
-
-Note:  Expanding virtual equation for '\MODULE_2:g1:a0:gx:u0:gt_1\' (cost = 2):
-\MODULE_2:g1:a0:gx:u0:gt_1\ <= (Net_1108_0
-	OR Net_1108_1);
-
-Note:  Expanding virtual equation for '\MODULE_3:g1:a0:gx:u0:xnor_array_7\' (cost = 0):
-\MODULE_3:g1:a0:gx:u0:xnor_array_7\ <= (not Net_1161_7);
-
-Note:  Expanding virtual equation for '\MODULE_3:g1:a0:gx:u0:xnor_array_6\' (cost = 0):
-\MODULE_3:g1:a0:gx:u0:xnor_array_6\ <= (not Net_1161_6);
-
-Note:  Expanding virtual equation for '\MODULE_3:g1:a0:gx:u0:xnor_array_5\' (cost = 0):
-\MODULE_3:g1:a0:gx:u0:xnor_array_5\ <= (not Net_1161_5);
-
-Note:  Expanding virtual equation for '\MODULE_3:g1:a0:gx:u0:xnor_array_4\' (cost = 0):
-\MODULE_3:g1:a0:gx:u0:xnor_array_4\ <= (not Net_1161_4);
-
-Note:  Expanding virtual equation for '\MODULE_3:g1:a0:gx:u0:xnor_array_3\' (cost = 0):
-\MODULE_3:g1:a0:gx:u0:xnor_array_3\ <= (not Net_1161_3);
-
-Note:  Expanding virtual equation for '\MODULE_3:g1:a0:gx:u0:xnor_array_2\' (cost = 0):
-\MODULE_3:g1:a0:gx:u0:xnor_array_2\ <= (not Net_1161_2);
-
-Note:  Expanding virtual equation for '\MODULE_3:g1:a0:gx:u0:xnor_array_1\' (cost = 0):
-\MODULE_3:g1:a0:gx:u0:xnor_array_1\ <= (not Net_1161_1);
-
-Note:  Expanding virtual equation for '\MODULE_3:g1:a0:gx:u0:xnor_array_0\' (cost = 0):
-\MODULE_3:g1:a0:gx:u0:xnor_array_0\ <= (not Net_1161_0);
-
-Note:  Expanding virtual equation for '\MODULE_3:g1:a0:gx:u0:eq_1\' (cost = 1):
-\MODULE_3:g1:a0:gx:u0:eq_1\ <= ((not Net_1161_1 and not Net_1161_0));
-
-Note:  Expanding virtual equation for '\MODULE_3:g1:a0:gx:u0:eq_2\' (cost = 1):
-\MODULE_3:g1:a0:gx:u0:eq_2\ <= ((not Net_1161_2 and not Net_1161_1 and not Net_1161_0));
-
-Note:  Expanding virtual equation for '\MODULE_3:g1:a0:gx:u0:eq_3\' (cost = 1):
-\MODULE_3:g1:a0:gx:u0:eq_3\ <= ((not Net_1161_3 and not Net_1161_2 and not Net_1161_1 and not Net_1161_0));
-
-Note:  Expanding virtual equation for '\MODULE_3:g1:a0:gx:u0:eq_4\' (cost = 1):
-\MODULE_3:g1:a0:gx:u0:eq_4\ <= ((not Net_1161_4 and not Net_1161_3 and not Net_1161_2 and not Net_1161_1 and not Net_1161_0));
-
-Note:  Expanding virtual equation for '\MODULE_3:g1:a0:gx:u0:eq_5\' (cost = 1):
-\MODULE_3:g1:a0:gx:u0:eq_5\ <= ((not Net_1161_5 and not Net_1161_4 and not Net_1161_3 and not Net_1161_2 and not Net_1161_1 and not Net_1161_0));
-
-Note:  Expanding virtual equation for '\MODULE_3:g1:a0:gx:u0:eq_6\' (cost = 1):
-\MODULE_3:g1:a0:gx:u0:eq_6\ <= ((not Net_1161_6 and not Net_1161_5 and not Net_1161_4 and not Net_1161_3 and not Net_1161_2 and not Net_1161_1 and not Net_1161_0));
-
-Note:  Expanding virtual equation for '\MODULE_3:g1:a0:gx:u0:lt_6\' (cost = 0):
-\MODULE_3:g1:a0:gx:u0:lt_6\ <=  ('0') ;
-
-Note:  Expanding virtual equation for '\MODULE_3:g1:a0:gx:u0:gt_6\' (cost = 0):
-\MODULE_3:g1:a0:gx:u0:gt_6\ <= (Net_1161_6);
-
-Note:  Expanding virtual equation for '\MODULE_3:g1:a0:gx:u0:lt_3\' (cost = 0):
-\MODULE_3:g1:a0:gx:u0:lt_3\ <=  ('0') ;
-
-Note:  Expanding virtual equation for '\MODULE_3:g1:a0:gx:u0:gt_3\' (cost = 0):
-\MODULE_3:g1:a0:gx:u0:gt_3\ <= (Net_1161_3);
-
-Note:  Expanding virtual equation for '\MODULE_3:g1:a0:gx:u0:lt_4\' (cost = 0):
-\MODULE_3:g1:a0:gx:u0:lt_4\ <=  ('0') ;
-
-Note:  Expanding virtual equation for '\MODULE_3:g1:a0:gx:u0:gt_4\' (cost = 2):
-\MODULE_3:g1:a0:gx:u0:gt_4\ <= (Net_1161_3
-	OR Net_1161_4);
-
-Note:  Expanding virtual equation for '\MODULE_3:g1:a0:gx:u0:lt_0\' (cost = 0):
-\MODULE_3:g1:a0:gx:u0:lt_0\ <=  ('0') ;
-
-Note:  Expanding virtual equation for '\MODULE_3:g1:a0:gx:u0:gt_0\' (cost = 0):
-\MODULE_3:g1:a0:gx:u0:gt_0\ <= (Net_1161_0);
-
-Note:  Expanding virtual equation for '\MODULE_3:g1:a0:gx:u0:lt_1\' (cost = 0):
-\MODULE_3:g1:a0:gx:u0:lt_1\ <=  ('0') ;
-
-Note:  Expanding virtual equation for '\MODULE_3:g1:a0:gx:u0:gt_1\' (cost = 2):
-\MODULE_3:g1:a0:gx:u0:gt_1\ <= (Net_1161_0
-	OR Net_1161_1);
-
-
-Substituting virtuals - pass 2:
-
-Note:  Expanding virtual equation for '\MODULE_2:g1:a0:gx:u0:eq_7\' (cost = 1):
-\MODULE_2:g1:a0:gx:u0:eq_7\ <= ((not Net_1108_6 and not Net_1108_5 and not Net_1108_3 and not Net_1108_2 and not Net_1108_1 and not Net_1108_0 and Net_1108_7 and Net_1108_4));
-
-Note:  Expanding virtual equation for '\MODULE_1:g1:a0:gx:u0:eq_7\' (cost = 1):
-\MODULE_1:g1:a0:gx:u0:eq_7\ <= ((not Net_1108_6 and not Net_1108_5 and not Net_1108_4 and not Net_1108_3 and not Net_1108_2 and not Net_1108_1 and not Net_1108_0 and Net_1108_7));
-
-Note:  Expanding virtual equation for '\MODULE_3:g1:a0:gx:u0:eq_7\' (cost = 1):
-\MODULE_3:g1:a0:gx:u0:eq_7\ <= ((not Net_1161_7 and not Net_1161_6 and not Net_1161_5 and not Net_1161_4 and not Net_1161_3 and not Net_1161_2 and not Net_1161_1 and not Net_1161_0));
-
-
-Substituting virtuals - pass 3:
-
-Note:  Expanding virtual equation for 'Net_1088' (cost = 1):
-Net_1088 <= ((not Net_1108_6 and not Net_1108_5 and not Net_1108_4 and not Net_1108_3 and not Net_1108_2 and not Net_1108_1 and not Net_1108_0 and Net_1108_7));
-
-Note:  Expanding virtual equation for 'Net_1085' (cost = 2):
-Net_1085 <= ((not Net_1108_6 and not Net_1108_5 and not Net_1108_3 and not Net_1108_2 and not Net_1108_1 and not Net_1108_0 and Net_1108_7 and Net_1108_4));
-
-Note:  Expanding virtual equation for 'Net_1160' (cost = 1):
-Net_1160 <= ((not Net_1161_7 and not Net_1161_6 and not Net_1161_5 and not Net_1161_4 and not Net_1161_3 and not Net_1161_2 and not Net_1161_1 and not Net_1161_0));
-
-
-Substituting virtuals - pass 4:
-
-Note:  Expanding virtual equation for 'Net_1089' (cost = 34):
-Net_1089 <= ((not Net_1108_6 and not Net_1108_5 and not Net_1108_3 and not Net_1108_2 and not Net_1108_1 and not Net_1108_0 and not Net_1161_7 and not Net_1161_6 and not Net_1161_5 and not Net_1161_4 and not Net_1161_3 and not Net_1161_2 and not Net_1161_1 and not Net_1161_0 and Net_1108_7 and Net_1108_4));
-
-Note:  Expanding virtual equation for 'Net_1361' (cost = 16):
-Net_1361 <= (not Net_1108_7
-	OR not Net_1108_4
-	OR Net_1108_6
-	OR Net_1108_5
-	OR Net_1108_3
-	OR Net_1108_2
-	OR Net_1108_1
-	OR Net_1108_0
-	OR Net_1161_7
-	OR Net_1161_6
-	OR Net_1161_5
-	OR Net_1161_4
-	OR Net_1161_3
-	OR Net_1161_2
-	OR Net_1161_1
-	OR Net_1161_0);
-
-
-Substituting virtuals - pass 5:
-
-Note:  Expanding virtual equation for 'Net_1302' (cost = 2):
-Net_1302 <= ((not Net_1108_6 and not Net_1108_5 and not Net_1108_4 and not Net_1108_3 and not Net_1108_2 and not Net_1108_1 and not Net_1108_0 and Net_1108_7)
-	OR (not Net_1108_6 and not Net_1108_5 and not Net_1108_3 and not Net_1108_2 and not Net_1108_1 and not Net_1108_0 and not Net_1161_7 and not Net_1161_6 and not Net_1161_5 and not Net_1161_4 and not Net_1161_3 and not Net_1161_2 and not Net_1161_1 and not Net_1161_0 and Net_1108_7));
-
-Note:  Virtual signal Net_1289 with ( cost: 512 or cost_inv: -1)  > 90 or with size: 8 > 102 has been made a (soft) node.
-Net_1289 <= ((not Net_1108_6 and not Net_1108_5 and not Net_1108_3 and not Net_1108_2 and not Net_1108_1 and not Net_1108_0 and Net_1283 and Net_1108_7 and Net_1108_4 and Net_1161_7)
-	OR (not Net_1108_6 and not Net_1108_5 and not Net_1108_3 and not Net_1108_2 and not Net_1108_1 and not Net_1108_0 and Net_1283 and Net_1108_7 and Net_1108_4 and Net_1161_6)
-	OR (not Net_1108_6 and not Net_1108_5 and not Net_1108_3 and not Net_1108_2 and not Net_1108_1 and not Net_1108_0 and Net_1283 and Net_1108_7 and Net_1108_4 and Net_1161_5)
-	OR (not Net_1108_6 and not Net_1108_5 and not Net_1108_3 and not Net_1108_2 and not Net_1108_1 and not Net_1108_0 and Net_1283 and Net_1108_7 and Net_1108_4 and Net_1161_4)
-	OR (not Net_1108_6 and not Net_1108_5 and not Net_1108_3 and not Net_1108_2 and not Net_1108_1 and not Net_1108_0 and Net_1283 and Net_1108_7 and Net_1108_4 and Net_1161_3)
-	OR (not Net_1108_6 and not Net_1108_5 and not Net_1108_3 and not Net_1108_2 and not Net_1108_1 and not Net_1108_0 and Net_1283 and Net_1108_7 and Net_1108_4 and Net_1161_2)
-	OR (not Net_1108_6 and not Net_1108_5 and not Net_1108_3 and not Net_1108_2 and not Net_1108_1 and not Net_1108_0 and Net_1283 and Net_1108_7 and Net_1108_4 and Net_1161_1)
-	OR (not Net_1108_6 and not Net_1108_5 and not Net_1108_3 and not Net_1108_2 and not Net_1108_1 and not Net_1108_0 and Net_1283 and Net_1108_7 and Net_1108_4 and Net_1161_0));
-
-Note:  Expanding virtual equation for 'Net_1366_6' (cost = 4):
-Net_1366_6 <= ((not Net_1430_0 and Net_1430_2 and Net_1430_1 and Net_1289));
-
-Note:  Expanding virtual equation for 'Net_1366_5' (cost = 4):
-Net_1366_5 <= ((not Net_1430_1 and Net_1430_2 and Net_1430_0 and Net_1289));
-
-Note:  Expanding virtual equation for 'Net_1366_4' (cost = 4):
-Net_1366_4 <= ((not Net_1430_1 and not Net_1430_0 and Net_1430_2 and Net_1289));
-
-Note:  Expanding virtual equation for 'Net_1366_3' (cost = 4):
-Net_1366_3 <= ((not Net_1430_2 and Net_1430_1 and Net_1430_0 and Net_1289));
-
-Note:  Expanding virtual equation for 'Net_1366_2' (cost = 4):
-Net_1366_2 <= ((not Net_1430_2 and not Net_1430_0 and Net_1430_1 and Net_1289));
-
-Note:  Expanding virtual equation for 'Net_1366_1' (cost = 4):
-Net_1366_1 <= ((not Net_1430_2 and not Net_1430_1 and Net_1430_0 and Net_1289));
-
-Note:  Expanding virtual equation for 'Net_1366_0' (cost = 4):
-Net_1366_0 <= ((not Net_1430_2 and not Net_1430_1 and not Net_1430_0 and Net_1289));
-
-
-Substituting virtuals - pass 6:
-
-Note:  Expanding virtual equation for 'Net_1688' (cost = 2):
-Net_1688 <= ((not Net_1108_6 and not Net_1108_5 and not Net_1108_4 and not Net_1108_3 and not Net_1108_2 and not Net_1108_1 and not Net_1108_0 and Net_1283 and Net_1108_7)
-	OR (not Net_1108_6 and not Net_1108_5 and not Net_1108_3 and not Net_1108_2 and not Net_1108_1 and not Net_1108_0 and not Net_1161_7 and not Net_1161_6 and not Net_1161_5 and not Net_1161_4 and not Net_1161_3 and not Net_1161_2 and not Net_1161_1 and not Net_1161_0 and Net_1283 and Net_1108_7));
-
-Note:  Expanding virtual equation for 'Net_1366_7' (cost = 4):
-Net_1366_7 <= ((Net_1430_2 and Net_1430_1 and Net_1430_0 and Net_1289));
-
-
-Substituting virtuals - pass 7:
-
-Note:  Virtual signal Net_1531 with ( cost: 192 or cost_inv: -1)  > 90 or with size: 3 > 102 has been made a (soft) node.
-Net_1531 <= ((not Net_1108_6 and not Net_1108_5 and not Net_1108_4 and not Net_1108_3 and not Net_1108_2 and not Net_1108_1 and not Net_1108_0 and Net_1108_7)
-	OR (not Net_1108_6 and not Net_1108_5 and not Net_1108_3 and not Net_1108_2 and not Net_1108_1 and not Net_1108_0 and not Net_1161_7 and not Net_1161_6 and not Net_1161_5 and not Net_1161_4 and not Net_1161_3 and not Net_1161_2 and not Net_1161_1 and not Net_1161_0 and Net_1108_7)
-	OR not Net_1283);
-
-Note:  Expanding virtual equation for 'Net_1299_7' (cost = 4):
-Net_1299_7 <= ((Net_1531 and Net_1430_2 and Net_1430_1 and Net_1430_0));
-
-Note:  Expanding virtual equation for 'Net_1299_6' (cost = 4):
-Net_1299_6 <= ((not Net_1430_0 and Net_1531 and Net_1430_2 and Net_1430_1));
-
-Note:  Expanding virtual equation for 'Net_1299_4' (cost = 4):
-Net_1299_4 <= ((not Net_1430_1 and not Net_1430_0 and Net_1531 and Net_1430_2));
-
-Note:  Expanding virtual equation for 'Net_1299_1' (cost = 4):
-Net_1299_1 <= ((not Net_1430_2 and not Net_1430_1 and Net_1531 and Net_1430_0));
-
-Note:  Expanding virtual equation for 'Net_1299_0' (cost = 4):
-Net_1299_0 <= ((not Net_1430_2 and not Net_1430_1 and not Net_1430_0 and Net_1531));
-
-
-Substituting virtuals - pass 8:
-
-Note:  Expanding virtual equation for 'Net_1299_5' (cost = 4):
-Net_1299_5 <= ((not Net_1430_1 and Net_1531 and Net_1430_2 and Net_1430_0));
-
-Note:  Expanding virtual equation for 'Net_1299_3' (cost = 4):
-Net_1299_3 <= ((not Net_1430_2 and Net_1531 and Net_1430_1 and Net_1430_0));
-
-Note:  Expanding virtual equation for 'Net_1299_2' (cost = 4):
-Net_1299_2 <= ((not Net_1430_2 and not Net_1430_0 and Net_1531 and Net_1430_1));
-
-
-Substituting virtuals - pass 9:
-
-Note: Virtual signal Net_1478_5 Creating a cycle.
-
-Substituting virtuals - pass 10:
-
-Note:  Expanding virtual equation for 'Net_1354_5' (cost = 8):
-Net_1354_5 <= ((not Net_1478_5 and not Net_1430_2)
-	OR (not Net_1478_5 and not Net_1430_0)
-	OR (not Net_1478_5 and not Net_1289)
-	OR (not Net_1478_5 and Net_1430_1));
-
-
-Substituting virtuals - pass 11:
-
-Note: Virtual signal Net_1478_3 Creating a cycle.
-
-Substituting virtuals - pass 12:
-
-Note:  Expanding virtual equation for 'Net_1354_3' (cost = 8):
-Net_1354_3 <= ((not Net_1478_3 and not Net_1430_1)
-	OR (not Net_1478_3 and not Net_1430_0)
-	OR (not Net_1478_3 and not Net_1289)
-	OR (not Net_1478_3 and Net_1430_2));
-
-
-Substituting virtuals - pass 13:
-
-Note: Virtual signal Net_1478_2 Creating a cycle.
-
-Substituting virtuals - pass 14:
-
-Note:  Expanding virtual equation for 'Net_1354_2' (cost = 8):
-Net_1354_2 <= ((not Net_1478_2 and not Net_1430_1)
-	OR (not Net_1478_2 and not Net_1289)
-	OR (not Net_1478_2 and Net_1430_2)
-	OR (not Net_1478_2 and Net_1430_0));
-
-
-Substituting virtuals - pass 15:
-
-Note: Virtual signal Net_1354_7 Creating a cycle.
-
-Substituting virtuals - pass 16:
-
-Note:  Expanding virtual equation for 'Net_1478_7' (cost = 8):
-Net_1478_7 <= ((not Net_1531 and not Net_1354_7)
-	OR (not Net_1354_7 and not Net_1430_2)
-	OR (not Net_1354_7 and not Net_1430_1)
-	OR (not Net_1354_7 and not Net_1430_0));
-
-
-Substituting virtuals - pass 17:
-
-Note: Virtual signal Net_1354_6 Creating a cycle.
-
-Substituting virtuals - pass 18:
-
-Note:  Expanding virtual equation for 'Net_1478_6' (cost = 8):
-Net_1478_6 <= ((not Net_1531 and not Net_1354_6)
-	OR (not Net_1354_6 and not Net_1430_2)
-	OR (not Net_1354_6 and not Net_1430_1)
-	OR (not Net_1354_6 and Net_1430_0));
-
-
-Substituting virtuals - pass 19:
-
-Note: Virtual signal Net_1354_4 Creating a cycle.
-
-Substituting virtuals - pass 20:
-
-Note:  Expanding virtual equation for 'Net_1478_4' (cost = 8):
-Net_1478_4 <= ((not Net_1531 and not Net_1354_4)
-	OR (not Net_1354_4 and not Net_1430_2)
-	OR (not Net_1354_4 and Net_1430_1)
-	OR (not Net_1354_4 and Net_1430_0));
-
-
-Substituting virtuals - pass 21:
-
-Note: Virtual signal Net_1354_1 Creating a cycle.
-
-Substituting virtuals - pass 22:
-
-Note:  Expanding virtual equation for 'Net_1478_1' (cost = 8):
-Net_1478_1 <= ((not Net_1531 and not Net_1354_1)
-	OR (not Net_1354_1 and not Net_1430_0)
-	OR (not Net_1354_1 and Net_1430_2)
-	OR (not Net_1354_1 and Net_1430_1));
-
-
-Substituting virtuals - pass 23:
-
-Note: Virtual signal Net_1354_0 Creating a cycle.
-
-Substituting virtuals - pass 24:
-
-Note:  Expanding virtual equation for 'Net_1478_0' (cost = 8):
-Net_1478_0 <= ((not Net_1531 and not Net_1354_0)
-	OR (not Net_1354_0 and Net_1430_2)
-	OR (not Net_1354_0 and Net_1430_1)
-	OR (not Net_1354_0 and Net_1430_0));
-
-
-Substituting virtuals - pass 25:
-
-
-----------------------------------------------------------
-Circuit simplification results:
-
-	Expanded 109 signals.
-	Turned 2 signals into soft nodes.
-	Maximum default expansion cost was set at 3.
-----------------------------------------------------------
-
-------------------------------------------------------
-Alias Detection
-------------------------------------------------------
-Aliasing \MODULE_1:g1:a0:gx:u0:lt_5\ to zero
-Aliasing \MODULE_1:g1:a0:gx:u0:lt_2\ to zero
-Aliasing \MODULE_2:g1:a0:gx:u0:lt_7\ to \MODULE_1:g1:a0:gx:u0:lt_7\
-Aliasing \MODULE_2:g1:a0:gx:u0:gt_7\ to \MODULE_1:g1:a0:gx:u0:gt_7\
-Aliasing \MODULE_2:g1:a0:gx:u0:lt_2\ to zero
-Aliasing \MODULE_2:g1:a0:gx:u0:gt_2\ to \MODULE_1:g1:a0:gx:u0:gt_2\
-Aliasing \MODULE_3:g1:a0:gx:u0:lt_7\ to zero
-Aliasing \MODULE_3:g1:a0:gx:u0:lt_5\ to zero
-Aliasing \MODULE_3:g1:a0:gx:u0:lt_2\ to zero
-Removing Lhs of wire \MODULE_1:g1:a0:gx:u0:lt_5\[423] = zero[2]
-Removing Lhs of wire \MODULE_1:g1:a0:gx:u0:lt_2\[435] = zero[2]
-Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:lt_7\[541] = \MODULE_1:g1:a0:gx:u0:lt_7\[411]
-Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:gt_7\[542] = \MODULE_1:g1:a0:gx:u0:gt_7\[412]
-Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:lt_2\[565] = zero[2]
-Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:gt_2\[566] = \MODULE_1:g1:a0:gx:u0:gt_2\[436]
-Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:lt_7\[671] = zero[2]
-Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:lt_5\[683] = zero[2]
-Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:lt_2\[695] = zero[2]
-
-------------------------------------------------------
-Aliased 0 equations, 9 wires.
-------------------------------------------------------
-
-----------------------------------------------------------
-Circuit simplification
-----------------------------------------------------------
-
-Eliminating unused logic - pass 1:
-
-
-Eliminating unused logic - pass 2:
-
-
-Substituting virtuals - pass 1:
-
-Note: Virtual signal Net_1478_5 Creating a cycle.
-
-Substituting virtuals - pass 2:
-
-Note: Virtual signal Net_1478_3 Creating a cycle.
-
-Substituting virtuals - pass 3:
-
-Note: Virtual signal Net_1478_2 Creating a cycle.
-
-Substituting virtuals - pass 4:
-
-Note: Virtual signal Net_1354_7 Creating a cycle.
-
-Substituting virtuals - pass 5:
-
-Note: Virtual signal Net_1354_6 Creating a cycle.
-
-Substituting virtuals - pass 6:
-
-Note: Virtual signal Net_1354_4 Creating a cycle.
-
-Substituting virtuals - pass 7:
-
-Note: Virtual signal Net_1354_1 Creating a cycle.
-
-Substituting virtuals - pass 8:
-
-Note: Virtual signal Net_1354_0 Creating a cycle.
-
-Substituting virtuals - pass 9:
 
 
 ----------------------------------------------------------
@@ -1192,35 +232,17 @@ CYPRESS_DIR    : C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\wa
 Warp Program   : C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\bin/warp.exe
 Warp Arguments : -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya "-.fftprj=\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\MIDI_EXAMPLE.cyprj" -dcpsoc3 MIDI_EXAMPLE.v -verilog
 </CYPRESSTAG>
-Warp synthesis phase: Elapsed time ==> 0s.749ms
+Warp synthesis phase: Elapsed time ==> 0s.484ms
 <CYPRESSTAG name="Fitter results...">
 <CYPRESSTAG name="Fitter startup details...">
-cyp3fit: V3.3.0.9604, Family: PSoC3, Started at: Tuesday, 17 November 2020 21:41:54
+cyp3fit: V3.3.0.9604, Family: PSoC3, Started at: Tuesday, 17 November 2020 21:46:34
 Options: -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\MIDI_EXAMPLE.cyprj -d CY8C5888LTI-LP097 MIDI_EXAMPLE.v -verilog
 </CYPRESSTAG>
 <CYPRESSTAG name="Design parsing">
-Design parsing phase: Elapsed time ==> 0s.016ms
+Design parsing phase: Elapsed time ==> 0s.015ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Tech mapping">
 <CYPRESSTAG name="Initial Mapping" icon="FILE_RPT_TECHM">
-    Removed wire end \MODULE_1:g1:a0:gx:u0:lti_2\ kept \MODULE_1:g1:a0:gx:u0:lt_7\
-    Removed wire end \MODULE_1:g1:a0:gx:u0:gti_2\ kept \MODULE_1:g1:a0:gx:u0:gt_7\
-    Removed wire end \MODULE_1:g1:a0:gx:u0:lti_1\ kept zero
-    Removed wire end \MODULE_1:g1:a0:gx:u0:gti_1\ kept \MODULE_1:g1:a0:gx:u0:gt_5\
-    Removed wire end \MODULE_1:g1:a0:gx:u0:lti_0\ kept zero
-    Removed wire end \MODULE_1:g1:a0:gx:u0:gti_0\ kept \MODULE_1:g1:a0:gx:u0:gt_2\
-    Removed wire end \MODULE_2:g1:a0:gx:u0:lti_2\ kept \MODULE_1:g1:a0:gx:u0:lt_7\
-    Removed wire end \MODULE_2:g1:a0:gx:u0:gti_2\ kept \MODULE_1:g1:a0:gx:u0:gt_7\
-    Removed wire end \MODULE_2:g1:a0:gx:u0:lti_1\ kept \MODULE_2:g1:a0:gx:u0:lt_5\
-    Removed wire end \MODULE_2:g1:a0:gx:u0:gti_1\ kept \MODULE_2:g1:a0:gx:u0:gt_5\
-    Removed wire end \MODULE_2:g1:a0:gx:u0:lti_0\ kept zero
-    Removed wire end \MODULE_2:g1:a0:gx:u0:gti_0\ kept \MODULE_1:g1:a0:gx:u0:gt_2\
-    Removed wire end \MODULE_3:g1:a0:gx:u0:lti_2\ kept zero
-    Removed wire end \MODULE_3:g1:a0:gx:u0:gti_2\ kept \MODULE_3:g1:a0:gx:u0:gt_7\
-    Removed wire end \MODULE_3:g1:a0:gx:u0:lti_1\ kept zero
-    Removed wire end \MODULE_3:g1:a0:gx:u0:gti_1\ kept \MODULE_3:g1:a0:gx:u0:gt_5\
-    Removed wire end \MODULE_3:g1:a0:gx:u0:lti_0\ kept zero
-    Removed wire end \MODULE_3:g1:a0:gx:u0:gti_0\ kept \MODULE_3:g1:a0:gx:u0:gt_2\
 <CYPRESSTAG name="Global Clock Selection" icon="FILE_RPT_TECHM">
 </CYPRESSTAG>
 
@@ -1721,281 +743,6 @@ Design Equations
         }
     </CYPRESSTAG>
     <CYPRESSTAG name="Macrocell listing" icon="FILE_RPT_EQUATION">
-
-    ------------------------------------------------------------
-    Macrocell listing
-    ------------------------------------------------------------
-
-    MacroCell: Name=Net_1531_split, Mode=(Combinatorial)
-        Total # of inputs        : 4
-        Total # of product terms : 1
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              !Net_1161_7 * !Net_1161_6 * !Net_1161_5 * !Net_1161_4
-        );
-        Output = Net_1531_split (fanout=1)
-
-    MacroCell: Name=Net_1531, Mode=(Combinatorial)
-        Total # of inputs        : 10
-        Total # of product terms : 3
-            Clock Enable: True
-        Main Equation            : 3 pterms
-        (
-              !Net_1283
-            + Net_1108_7 * !Net_1108_6 * !Net_1108_5 * !Net_1108_4 * 
-              !Net_1108_3 * !Net_1108_2 * !Net_1108_1 * !Net_1108_0
-            + Net_1531_split_1
-        );
-        Output = Net_1531 (fanout=13)
-        Properties               : 
-        {
-            soft = 1
-        }
-
-    MacroCell: Name=Net_1354_7, Mode=(Combinatorial)
-        Total # of inputs        : 6
-        Total # of product terms : 5
-            Clock Enable: True
-        Main Equation            : 5 pterms
-        (
-              Net_1531 * Net_1430_2 * Net_1430_1 * Net_1430_0 * !Net_1289
-            + Net_1354_7 * !Net_1430_2
-            + Net_1354_7 * !Net_1430_1
-            + Net_1354_7 * !Net_1430_0
-            + Net_1354_7 * !Net_1289
-        );
-        Output = Net_1354_7 (fanout=2)
-
-    MacroCell: Name=Net_1354_6, Mode=(Combinatorial)
-        Total # of inputs        : 6
-        Total # of product terms : 5
-            Clock Enable: True
-        Main Equation            : 5 pterms
-        (
-              Net_1531 * Net_1430_2 * Net_1430_1 * !Net_1430_0 * !Net_1289
-            + Net_1354_6 * !Net_1430_2
-            + Net_1354_6 * !Net_1430_1
-            + Net_1354_6 * Net_1430_0
-            + Net_1354_6 * !Net_1289
-        );
-        Output = Net_1354_6 (fanout=2)
-
-    MacroCell: Name=Net_1354_4, Mode=(Combinatorial)
-        Total # of inputs        : 6
-        Total # of product terms : 5
-            Clock Enable: True
-        Main Equation            : 5 pterms
-        (
-              Net_1531 * Net_1430_2 * !Net_1430_1 * !Net_1430_0 * !Net_1289
-            + Net_1354_4 * !Net_1430_2
-            + Net_1354_4 * Net_1430_1
-            + Net_1354_4 * Net_1430_0
-            + Net_1354_4 * !Net_1289
-        );
-        Output = Net_1354_4 (fanout=2)
-
-    MacroCell: Name=Net_1354_1, Mode=(Combinatorial)
-        Total # of inputs        : 6
-        Total # of product terms : 5
-            Clock Enable: True
-        Main Equation            : 5 pterms
-        (
-              Net_1531 * !Net_1430_2 * !Net_1430_1 * Net_1430_0 * !Net_1289
-            + Net_1354_1 * Net_1430_2
-            + Net_1354_1 * Net_1430_1
-            + Net_1354_1 * !Net_1430_0
-            + Net_1354_1 * !Net_1289
-        );
-        Output = Net_1354_1 (fanout=2)
-
-    MacroCell: Name=Net_1354_0, Mode=(Combinatorial)
-        Total # of inputs        : 6
-        Total # of product terms : 5
-            Clock Enable: True
-        Main Equation            : 5 pterms
-        (
-              Net_1531 * !Net_1430_2 * !Net_1430_1 * !Net_1430_0 * !Net_1289
-            + Net_1354_0 * Net_1430_2
-            + Net_1354_0 * Net_1430_1
-            + Net_1354_0 * Net_1430_0
-            + Net_1354_0 * !Net_1289
-        );
-        Output = Net_1354_0 (fanout=2)
-
-    MacroCell: Name=Net_1478_7, Mode=(Combinatorial)
-        Total # of inputs        : 5
-        Total # of product terms : 2
-            Clock Enable: True
-        Main Equation            : 2 pterms
-        !(
-              Net_1531 * Net_1430_2 * Net_1430_1 * Net_1430_0
-            + Net_1354_7
-        );
-        Output = Net_1478_7 (fanout=1)
-
-    MacroCell: Name=Net_1478_6, Mode=(Combinatorial)
-        Total # of inputs        : 5
-        Total # of product terms : 2
-            Clock Enable: True
-        Main Equation            : 2 pterms
-        !(
-              Net_1531 * Net_1430_2 * Net_1430_1 * !Net_1430_0
-            + Net_1354_6
-        );
-        Output = Net_1478_6 (fanout=1)
-
-    MacroCell: Name=Net_1478_5, Mode=(Combinatorial)
-        Total # of inputs        : 6
-        Total # of product terms : 5
-            Clock Enable: True
-        Main Equation            : 5 pterms
-        (
-              Net_1478_5 * !Net_1531
-            + Net_1478_5 * !Net_1430_2
-            + Net_1478_5 * Net_1430_1
-            + Net_1478_5 * !Net_1430_0
-            + !Net_1531 * Net_1430_2 * !Net_1430_1 * Net_1430_0 * Net_1289
-        );
-        Output = Net_1478_5 (fanout=2)
-
-    MacroCell: Name=Net_1478_4, Mode=(Combinatorial)
-        Total # of inputs        : 5
-        Total # of product terms : 2
-            Clock Enable: True
-        Main Equation            : 2 pterms
-        !(
-              Net_1531 * Net_1430_2 * !Net_1430_1 * !Net_1430_0
-            + Net_1354_4
-        );
-        Output = Net_1478_4 (fanout=1)
-
-    MacroCell: Name=Net_1478_3, Mode=(Combinatorial)
-        Total # of inputs        : 6
-        Total # of product terms : 5
-            Clock Enable: True
-        Main Equation            : 5 pterms
-        (
-              Net_1478_3 * !Net_1531
-            + Net_1478_3 * Net_1430_2
-            + Net_1478_3 * !Net_1430_1
-            + Net_1478_3 * !Net_1430_0
-            + !Net_1531 * !Net_1430_2 * Net_1430_1 * Net_1430_0 * Net_1289
-        );
-        Output = Net_1478_3 (fanout=2)
-
-    MacroCell: Name=Net_1478_2, Mode=(Combinatorial)
-        Total # of inputs        : 6
-        Total # of product terms : 5
-            Clock Enable: True
-        Main Equation            : 5 pterms
-        (
-              Net_1478_2 * !Net_1531
-            + Net_1478_2 * Net_1430_2
-            + Net_1478_2 * !Net_1430_1
-            + Net_1478_2 * Net_1430_0
-            + !Net_1531 * !Net_1430_2 * Net_1430_1 * !Net_1430_0 * Net_1289
-        );
-        Output = Net_1478_2 (fanout=2)
-
-    MacroCell: Name=Net_1478_1, Mode=(Combinatorial)
-        Total # of inputs        : 5
-        Total # of product terms : 2
-            Clock Enable: True
-        Main Equation            : 2 pterms
-        !(
-              Net_1531 * !Net_1430_2 * !Net_1430_1 * Net_1430_0
-            + Net_1354_1
-        );
-        Output = Net_1478_1 (fanout=1)
-
-    MacroCell: Name=Net_1478_0, Mode=(Combinatorial)
-        Total # of inputs        : 5
-        Total # of product terms : 2
-            Clock Enable: True
-        Main Equation            : 2 pterms
-        !(
-              Net_1531 * !Net_1430_2 * !Net_1430_1 * !Net_1430_0
-            + Net_1354_0
-        );
-        Output = Net_1478_0 (fanout=1)
-
-    MacroCell: Name=Net_1289, Mode=(Combinatorial)
-        Total # of inputs        : 3
-        Total # of product terms : 1
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        !(
-              !Net_1289_split * !Net_1289_split_1 * !Net_1289_split_2
-        );
-        Output = Net_1289 (fanout=8)
-        Properties               : 
-        {
-            soft = 1
-        }
-
-    MacroCell: Name=Net_1289_split_2, Mode=(Combinatorial)
-        Total # of inputs        : 11
-        Total # of product terms : 2
-            Clock Enable: True
-        Main Equation            : 2 pterms
-        (
-              Net_1283 * Net_1108_7 * !Net_1108_6 * !Net_1108_5 * Net_1108_4 * 
-              !Net_1108_3 * !Net_1108_2 * !Net_1108_1 * !Net_1108_0 * 
-              Net_1161_7
-            + Net_1283 * Net_1108_7 * !Net_1108_6 * !Net_1108_5 * Net_1108_4 * 
-              !Net_1108_3 * !Net_1108_2 * !Net_1108_1 * !Net_1108_0 * 
-              Net_1161_6
-        );
-        Output = Net_1289_split_2 (fanout=1)
-
-    MacroCell: Name=Net_1289_split_1, Mode=(Combinatorial)
-        Total # of inputs        : 12
-        Total # of product terms : 3
-            Clock Enable: True
-        Main Equation            : 3 pterms
-        (
-              Net_1283 * Net_1108_7 * !Net_1108_6 * !Net_1108_5 * Net_1108_4 * 
-              !Net_1108_3 * !Net_1108_2 * !Net_1108_1 * !Net_1108_0 * 
-              Net_1161_5
-            + Net_1283 * Net_1108_7 * !Net_1108_6 * !Net_1108_5 * Net_1108_4 * 
-              !Net_1108_3 * !Net_1108_2 * !Net_1108_1 * !Net_1108_0 * 
-              Net_1161_4
-            + Net_1283 * Net_1108_7 * !Net_1108_6 * !Net_1108_5 * Net_1108_4 * 
-              !Net_1108_3 * !Net_1108_2 * !Net_1108_1 * !Net_1108_0 * 
-              Net_1161_3
-        );
-        Output = Net_1289_split_1 (fanout=1)
-
-    MacroCell: Name=Net_1289_split, Mode=(Combinatorial)
-        Total # of inputs        : 12
-        Total # of product terms : 3
-            Clock Enable: True
-        Main Equation            : 3 pterms
-        (
-              Net_1283 * Net_1108_7 * !Net_1108_6 * !Net_1108_5 * Net_1108_4 * 
-              !Net_1108_3 * !Net_1108_2 * !Net_1108_1 * !Net_1108_0 * 
-              Net_1161_2
-            + Net_1283 * Net_1108_7 * !Net_1108_6 * !Net_1108_5 * Net_1108_4 * 
-              !Net_1108_3 * !Net_1108_2 * !Net_1108_1 * !Net_1108_0 * 
-              Net_1161_1
-            + Net_1283 * Net_1108_7 * !Net_1108_6 * !Net_1108_5 * Net_1108_4 * 
-              !Net_1108_3 * !Net_1108_2 * !Net_1108_1 * !Net_1108_0 * 
-              Net_1161_0
-        );
-        Output = Net_1289_split (fanout=1)
-
-    MacroCell: Name=Net_1531_split_1, Mode=(Combinatorial)
-        Total # of inputs        : 12
-        Total # of product terms : 1
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              Net_1108_7 * !Net_1108_6 * !Net_1108_5 * !Net_1108_3 * 
-              !Net_1108_2 * !Net_1108_1 * !Net_1108_0 * !Net_1161_3 * 
-              !Net_1161_2 * !Net_1161_1 * !Net_1161_0 * Net_1531_split
-        );
-        Output = Net_1531_split_1 (fanout=1)
     </CYPRESSTAG>
     <CYPRESSTAG name="Datapath listing">
     </CYPRESSTAG>
@@ -2011,76 +758,16 @@ Design Equations
     Control register listing
     ------------------------------------------------------------
 
-    controlcell: Name =\MSG_VALID:Sync:ctrl_reg\
+    controlcell: Name =\MIDI_NOTES_REG:Sync:ctrl_reg\
         PORT MAP (
-            control_7 => \MSG_VALID:control_7\ ,
-            control_6 => \MSG_VALID:control_6\ ,
-            control_5 => \MSG_VALID:control_5\ ,
-            control_4 => \MSG_VALID:control_4\ ,
-            control_3 => \MSG_VALID:control_3\ ,
-            control_2 => \MSG_VALID:control_2\ ,
-            control_1 => \MSG_VALID:control_1\ ,
-            control_0 => Net_1283 );
-        Properties:
-        {
-            cy_ctrl_mode_0 = "00000000"
-            cy_ctrl_mode_1 = "00000000"
-            cy_ext_reset = 0
-            cy_force_order = 1
-            cy_init_value = "00000000"
-        }
-        Clock Enable: True
-
-    controlcell: Name =\MSG_TYPE_REG:Sync:ctrl_reg\
-        PORT MAP (
-            control_7 => Net_1108_7 ,
-            control_6 => Net_1108_6 ,
-            control_5 => Net_1108_5 ,
-            control_4 => Net_1108_4 ,
-            control_3 => Net_1108_3 ,
-            control_2 => Net_1108_2 ,
-            control_1 => Net_1108_1 ,
-            control_0 => Net_1108_0 );
-        Properties:
-        {
-            cy_ctrl_mode_0 = "00000000"
-            cy_ctrl_mode_1 = "00000000"
-            cy_ext_reset = 0
-            cy_force_order = 1
-            cy_init_value = "00000000"
-        }
-        Clock Enable: True
-
-    controlcell: Name =\NOTE_VEL_REG:Sync:ctrl_reg\
-        PORT MAP (
-            control_7 => Net_1161_7 ,
-            control_6 => Net_1161_6 ,
-            control_5 => Net_1161_5 ,
-            control_4 => Net_1161_4 ,
-            control_3 => Net_1161_3 ,
-            control_2 => Net_1161_2 ,
-            control_1 => Net_1161_1 ,
-            control_0 => Net_1161_0 );
-        Properties:
-        {
-            cy_ctrl_mode_0 = "00000000"
-            cy_ctrl_mode_1 = "00000000"
-            cy_ext_reset = 0
-            cy_force_order = 1
-            cy_init_value = "00000000"
-        }
-        Clock Enable: True
-
-    controlcell: Name =\NOTE_PITCH_REG:Sync:ctrl_reg\
-        PORT MAP (
-            control_7 => \NOTE_PITCH_REG:control_7\ ,
-            control_6 => \NOTE_PITCH_REG:control_6\ ,
-            control_5 => \NOTE_PITCH_REG:control_5\ ,
-            control_4 => \NOTE_PITCH_REG:control_4\ ,
-            control_3 => \NOTE_PITCH_REG:control_3\ ,
-            control_2 => Net_1430_2 ,
-            control_1 => Net_1430_1 ,
-            control_0 => Net_1430_0 );
+            control_7 => Net_1478_7 ,
+            control_6 => Net_1478_6 ,
+            control_5 => Net_1478_5 ,
+            control_4 => Net_1478_4 ,
+            control_3 => Net_1478_3 ,
+            control_2 => Net_1478_2 ,
+            control_1 => Net_1478_1 ,
+            control_0 => Net_1478_0 );
         Properties:
         {
             cy_ctrl_mode_0 = "00000000"
@@ -2187,13 +874,13 @@ USB                           :    1 :    0 :    1 : 100.00 %
 DMA Channels                  :    0 :   24 :   24 :  0.00 %
 Timer                         :    0 :    4 :    4 :  0.00 %
 UDB                           :      :      :      :        
-  Macrocells                  :   20 :  172 :  192 : 10.42 %
-  Unique P-terms              :   64 :  320 :  384 : 16.67 %
-  Total P-terms               :   64 :      :      :        
+  Macrocells                  :    0 :  192 :  192 :  0.00 %
+  Unique P-terms              :    0 :  384 :  384 :  0.00 %
+  Total P-terms               :    0 :      :      :        
   Datapath Cells              :    0 :   24 :   24 :  0.00 %
   Status Cells                :    0 :   24 :   24 :  0.00 %
-  Control Cells               :    4 :   20 :   24 : 16.67 %
-    Control Registers         :    4 :      :      :        
+  Control Cells               :    1 :   23 :   24 :  4.17 %
+    Control Registers         :    1 :      :      :        
 Opamp                         :    0 :    4 :    4 :  0.00 %
 Comparator                    :    0 :    4 :    4 :  0.00 %
 Delta-Sigma ADC               :    0 :    1 :    1 :  0.00 %
@@ -2203,8 +890,8 @@ Analog (SC/CT) Blocks         :    0 :    4 :    4 :  0.00 %
 DAC                           :      :      :      :        
   VIDAC                       :    0 :    4 :    4 :  0.00 %
 </CYPRESSTAG>
-Technology Mapping: Elapsed time ==> 0s.031ms
-Tech mapping phase: Elapsed time ==> 0s.093ms
+Technology Mapping: Elapsed time ==> 0s.014ms
+Tech mapping phase: Elapsed time ==> 0s.140ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Placement">
 Initial Analog Placement Results:
@@ -2221,10 +908,10 @@ IO_4@[IOP=(2)][IoId=(4)] : SW2(0) (fixed)
 IO_7@[IOP=(15)][IoId=(7)] : \USB:Dm(0)\ (fixed)
 IO_6@[IOP=(15)][IoId=(6)] : \USB:Dp(0)\ (fixed)
 USB[0]@[FFB(USB,0)] : \USB:USB\
-Analog Placement phase: Elapsed time ==> 0s.030ms
+Analog Placement phase: Elapsed time ==> 0s.015ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Routing">
-Analog Routing phase: Elapsed time ==> 0s.015ms
+Analog Routing phase: Elapsed time ==> 0s.000ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Code Generation">
 ============ Analog Final Answer Routes ============
@@ -2239,50 +926,17 @@ Dump of CyP35AnalogRoutingResultsDB
 IsVddaHalfUsedForComp = False
 IsVddaHalfUsedForSar0 = False
 IsVddaHalfUsedForSar1 = False
-Analog Code Generation phase: Elapsed time ==> 0s.344ms
+Analog Code Generation phase: Elapsed time ==> 0s.328ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Digital Placement">
-Warning: sta.M0019: MIDI_EXAMPLE.rpt: Warning-1361: The design contains a combinational loop. Check the design for unintentional latches. Breaking the loop at Net_1478_5/q --> Net_1478_5/main_0  (File=\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\MIDI_EXAMPLE.rpt)
-Warning: sta.M0019: MIDI_EXAMPLE.rpt: Warning-1361: The design contains a combinational loop. Check the design for unintentional latches. Breaking the loop at Net_1354_4/main_1 --> Net_1354_4/q  (File=\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\MIDI_EXAMPLE.rpt)
-Warning: sta.M0019: MIDI_EXAMPLE.rpt: Warning-1361: The design contains a combinational loop. Check the design for unintentional latches. Breaking the loop at Net_1478_2/main_0 --> Net_1478_2/q  (File=\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\MIDI_EXAMPLE.rpt)
-Warning: sta.M0019: MIDI_EXAMPLE.rpt: Warning-1361: The design contains a combinational loop. Check the design for unintentional latches. Breaking the loop at Net_1354_6/main_1 --> Net_1354_6/q  (File=\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\MIDI_EXAMPLE.rpt)
-Warning: sta.M0019: MIDI_EXAMPLE.rpt: Warning-1361: The design contains a combinational loop. Check the design for unintentional latches. Breaking the loop at Net_1354_0/main_1 --> Net_1354_0/q  (File=\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\MIDI_EXAMPLE.rpt)
-Warning: sta.M0019: MIDI_EXAMPLE.rpt: Warning-1361: The design contains a combinational loop. Check the design for unintentional latches. Breaking the loop at Net_1354_7/main_1 --> Net_1354_7/q  (File=\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\MIDI_EXAMPLE.rpt)
-Warning: sta.M0019: MIDI_EXAMPLE.rpt: Warning-1361: The design contains a combinational loop. Check the design for unintentional latches. Breaking the loop at Net_1354_1/main_1 --> Net_1354_1/q  (File=\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\MIDI_EXAMPLE.rpt)
-Warning: sta.M0019: MIDI_EXAMPLE.rpt: Warning-1361: The design contains a combinational loop. Check the design for unintentional latches. Breaking the loop at Net_1478_3/main_0 --> Net_1478_3/q  (File=\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\MIDI_EXAMPLE.rpt)
 <CYPRESSTAG name="Detailed placement messages">
-Warning-1361: The design contains a combinational loop. Check the design for unintentional latches. Breaking the loop at Net_1478_5/q --> Net_1478_5/main_0 
-Warning-1361: The design contains a combinational loop. Check the design for unintentional latches. Breaking the loop at Net_1354_4/main_1 --> Net_1354_4/q 
-Warning-1361: The design contains a combinational loop. Check the design for unintentional latches. Breaking the loop at Net_1478_2/main_0 --> Net_1478_2/q 
-Warning-1361: The design contains a combinational loop. Check the design for unintentional latches. Breaking the loop at Net_1354_6/main_1 --> Net_1354_6/q 
-Warning-1361: The design contains a combinational loop. Check the design for unintentional latches. Breaking the loop at Net_1354_0/main_1 --> Net_1354_0/q 
-Warning-1361: The design contains a combinational loop. Check the design for unintentional latches. Breaking the loop at Net_1354_7/main_1 --> Net_1354_7/q 
-Warning-1361: The design contains a combinational loop. Check the design for unintentional latches. Breaking the loop at Net_1354_1/main_1 --> Net_1354_1/q 
-Warning-1361: The design contains a combinational loop. Check the design for unintentional latches. Breaking the loop at Net_1478_3/main_0 --> Net_1478_3/q 
 I2659: No Constrained paths were found. The placer will run in non-timing driven mode.
-I2076: Total run-time: 0.6 sec.
+I2076: Total run-time: 0.5 sec.
 
 </CYPRESSTAG>
 <CYPRESSTAG name="PLD Packing">
-<CYPRESSTAG name="PLD Packing Summary" expanded>
-
-------------------------------------------------------------
-PLD Packing Summary
-------------------------------------------------------------
-            Resource Type : Used : Free :  Max :  % Used
-    ====================================================
-                     PLDs :   12 :   36 :   48 :  25.00%
-
-<CYPRESSTAG name="PLD Statistics">
-
-        PLD Resource Type :     Average/LAB
-    =======================================
-                   Inputs :            9.00
-                   Pterms :            5.33
-               Macrocells :            1.67
-</CYPRESSTAG>
-<CYPRESSTAG name="Packed PLD Contents">
-Packed PLD Contents not displayed at this verbose level.</CYPRESSTAG>
+<CYPRESSTAG name="PLD Packing Summary">
+No PLDs were packed.
 </CYPRESSTAG>
 PLD Packing: Elapsed time ==> 0s.000ms
 </CYPRESSTAG>
@@ -2291,13 +945,13 @@ PLD Packing: Elapsed time ==> 0s.000ms
 Initial Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
 <CYPRESSTAG name="Final Partitioning Summary">
 Final Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
-Partitioning: Elapsed time ==> 0s.031ms
+Partitioning: Elapsed time ==> 0s.015ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Simulated Annealing">
-Annealing: Elapsed time ==> 0s.000ms
+Annealing: Elapsed time ==> 0s.016ms
 <CYPRESSTAG name="Simulated Annealing Results">
 The seed used for moves was 114161200.
-Inital cost was 342, final cost is 342 (0.00% improvement).</CYPRESSTAG>
+Inital cost was 185, final cost is 185 (0.00% improvement).</CYPRESSTAG>
 </CYPRESSTAG>
 <CYPRESSTAG name="Final Placement Summary">
 
@@ -2307,7 +961,7 @@ Final Placement Summary
 
        Resource Type :      Count : Avg Inputs : Avg Outputs
     ========================================================
-                 UDB :          6 :      10.67 :       3.33
+                 UDB :          1 :       0.00 :       0.00
 <CYPRESSTAG name="Final Placement Details">
 <CYPRESSTAG name="Component Details">
 
@@ -2329,375 +983,23 @@ UDB [UDB=(1,5)] is empty.
 UDB [UDB=(2,0)] is empty.
 UDB [UDB=(2,1)] is empty.
 UDB [UDB=(2,2)] is empty.
-UDB [UDB=(2,3)] contents:
-LAB@[UDB=(2,3)][LB=0] #macrocells=3, #inputs=11, #pterms=8
-{
-    [McSlotId=0]:     MacroCell: Name=Net_1354_0, Mode=(Combinatorial) @ [UDB=(2,3)][LB=0][MC=0]
-        Total # of inputs        : 6
-        Total # of product terms : 5
-            Clock Enable: True
-        Main Equation            : 5 pterms
-        (
-              Net_1531 * !Net_1430_2 * !Net_1430_1 * !Net_1430_0 * !Net_1289
-            + Net_1354_0 * Net_1430_2
-            + Net_1354_0 * Net_1430_1
-            + Net_1354_0 * Net_1430_0
-            + Net_1354_0 * !Net_1289
-        );
-        Output = Net_1354_0 (fanout=2)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]:     MacroCell: Name=Net_1478_6, Mode=(Combinatorial) @ [UDB=(2,3)][LB=0][MC=1]
-        Total # of inputs        : 5
-        Total # of product terms : 2
-            Clock Enable: True
-        Main Equation            : 2 pterms
-        !(
-              Net_1531 * Net_1430_2 * Net_1430_1 * !Net_1430_0
-            + Net_1354_6
-        );
-        Output = Net_1478_6 (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=2]:     MacroCell: Name=Net_1531_split, Mode=(Combinatorial) @ [UDB=(2,3)][LB=0][MC=2]
-        Total # of inputs        : 4
-        Total # of product terms : 1
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              !Net_1161_7 * !Net_1161_6 * !Net_1161_5 * !Net_1161_4
-        );
-        Output = Net_1531_split (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=3]: (empty)
-}
-
-LAB@[UDB=(2,3)][LB=1] #macrocells=3, #inputs=10, #pterms=8
-{
-    [McSlotId=0]:     MacroCell: Name=Net_1354_6, Mode=(Combinatorial) @ [UDB=(2,3)][LB=1][MC=0]
-        Total # of inputs        : 6
-        Total # of product terms : 5
-            Clock Enable: True
-        Main Equation            : 5 pterms
-        (
-              Net_1531 * Net_1430_2 * Net_1430_1 * !Net_1430_0 * !Net_1289
-            + Net_1354_6 * !Net_1430_2
-            + Net_1354_6 * !Net_1430_1
-            + Net_1354_6 * Net_1430_0
-            + Net_1354_6 * !Net_1289
-        );
-        Output = Net_1354_6 (fanout=2)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]:     MacroCell: Name=Net_1478_0, Mode=(Combinatorial) @ [UDB=(2,3)][LB=1][MC=1]
-        Total # of inputs        : 5
-        Total # of product terms : 2
-            Clock Enable: True
-        Main Equation            : 2 pterms
-        !(
-              Net_1531 * !Net_1430_2 * !Net_1430_1 * !Net_1430_0
-            + Net_1354_0
-        );
-        Output = Net_1478_0 (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=2]:     MacroCell: Name=Net_1289, Mode=(Combinatorial) @ [UDB=(2,3)][LB=1][MC=2]
-        Total # of inputs        : 3
-        Total # of product terms : 1
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        !(
-              !Net_1289_split * !Net_1289_split_1 * !Net_1289_split_2
-        );
-        Output = Net_1289 (fanout=8)
-        Properties               : 
-        {
-            soft = 1
-        }
-
-    [McSlotId=3]: (empty)
-}
-
-controlcell: Name =\MSG_VALID:Sync:ctrl_reg\
-    PORT MAP (
-        control_7 => \MSG_VALID:control_7\ ,
-        control_6 => \MSG_VALID:control_6\ ,
-        control_5 => \MSG_VALID:control_5\ ,
-        control_4 => \MSG_VALID:control_4\ ,
-        control_3 => \MSG_VALID:control_3\ ,
-        control_2 => \MSG_VALID:control_2\ ,
-        control_1 => \MSG_VALID:control_1\ ,
-        control_0 => Net_1283 );
-    Properties:
-    {
-        cy_ctrl_mode_0 = "00000000"
-        cy_ctrl_mode_1 = "00000000"
-        cy_ext_reset = 0
-        cy_force_order = 1
-        cy_init_value = "00000000"
-    }
-    Clock Enable: True
-
-UDB [UDB=(2,4)] contents:
-LAB@[UDB=(2,4)][LB=0] #macrocells=1, #inputs=12, #pterms=3
-{
-    [McSlotId=0]:     MacroCell: Name=Net_1289_split_1, Mode=(Combinatorial) @ [UDB=(2,4)][LB=0][MC=0]
-        Total # of inputs        : 12
-        Total # of product terms : 3
-            Clock Enable: True
-        Main Equation            : 3 pterms
-        (
-              Net_1283 * Net_1108_7 * !Net_1108_6 * !Net_1108_5 * Net_1108_4 * 
-              !Net_1108_3 * !Net_1108_2 * !Net_1108_1 * !Net_1108_0 * 
-              Net_1161_5
-            + Net_1283 * Net_1108_7 * !Net_1108_6 * !Net_1108_5 * Net_1108_4 * 
-              !Net_1108_3 * !Net_1108_2 * !Net_1108_1 * !Net_1108_0 * 
-              Net_1161_4
-            + Net_1283 * Net_1108_7 * !Net_1108_6 * !Net_1108_5 * Net_1108_4 * 
-              !Net_1108_3 * !Net_1108_2 * !Net_1108_1 * !Net_1108_0 * 
-              Net_1161_3
-        );
-        Output = Net_1289_split_1 (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]: (empty)
-    [McSlotId=2]: (empty)
-    [McSlotId=3]: (empty)
-}
-
-LAB@[UDB=(2,4)][LB=1] #macrocells=2, #inputs=12, #pterms=5
-{
-    [McSlotId=0]:     MacroCell: Name=Net_1289_split_2, Mode=(Combinatorial) @ [UDB=(2,4)][LB=1][MC=0]
-        Total # of inputs        : 11
-        Total # of product terms : 2
-            Clock Enable: True
-        Main Equation            : 2 pterms
-        (
-              Net_1283 * Net_1108_7 * !Net_1108_6 * !Net_1108_5 * Net_1108_4 * 
-              !Net_1108_3 * !Net_1108_2 * !Net_1108_1 * !Net_1108_0 * 
-              Net_1161_7
-            + Net_1283 * Net_1108_7 * !Net_1108_6 * !Net_1108_5 * Net_1108_4 * 
-              !Net_1108_3 * !Net_1108_2 * !Net_1108_1 * !Net_1108_0 * 
-              Net_1161_6
-        );
-        Output = Net_1289_split_2 (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]:     MacroCell: Name=Net_1531, Mode=(Combinatorial) @ [UDB=(2,4)][LB=1][MC=1]
-        Total # of inputs        : 10
-        Total # of product terms : 3
-            Clock Enable: True
-        Main Equation            : 3 pterms
-        (
-              !Net_1283
-            + Net_1108_7 * !Net_1108_6 * !Net_1108_5 * !Net_1108_4 * 
-              !Net_1108_3 * !Net_1108_2 * !Net_1108_1 * !Net_1108_0
-            + Net_1531_split_1
-        );
-        Output = Net_1531 (fanout=13)
-        Properties               : 
-        {
-            soft = 1
-        }
-
-    [McSlotId=2]: (empty)
-    [McSlotId=3]: (empty)
-}
-
-controlcell: Name =\NOTE_VEL_REG:Sync:ctrl_reg\
-    PORT MAP (
-        control_7 => Net_1161_7 ,
-        control_6 => Net_1161_6 ,
-        control_5 => Net_1161_5 ,
-        control_4 => Net_1161_4 ,
-        control_3 => Net_1161_3 ,
-        control_2 => Net_1161_2 ,
-        control_1 => Net_1161_1 ,
-        control_0 => Net_1161_0 );
-    Properties:
-    {
-        cy_ctrl_mode_0 = "00000000"
-        cy_ctrl_mode_1 = "00000000"
-        cy_ext_reset = 0
-        cy_force_order = 1
-        cy_init_value = "00000000"
-    }
-    Clock Enable: True
-
-UDB [UDB=(2,5)] contents:
-LAB@[UDB=(2,5)][LB=0] #macrocells=1, #inputs=12, #pterms=1
-{
-    [McSlotId=0]:     MacroCell: Name=Net_1531_split_1, Mode=(Combinatorial) @ [UDB=(2,5)][LB=0][MC=0]
-        Total # of inputs        : 12
-        Total # of product terms : 1
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              Net_1108_7 * !Net_1108_6 * !Net_1108_5 * !Net_1108_3 * 
-              !Net_1108_2 * !Net_1108_1 * !Net_1108_0 * !Net_1161_3 * 
-              !Net_1161_2 * !Net_1161_1 * !Net_1161_0 * Net_1531_split
-        );
-        Output = Net_1531_split_1 (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]: (empty)
-    [McSlotId=2]: (empty)
-    [McSlotId=3]: (empty)
-}
-
-LAB@[UDB=(2,5)][LB=1] #macrocells=1, #inputs=12, #pterms=3
-{
-    [McSlotId=0]:     MacroCell: Name=Net_1289_split, Mode=(Combinatorial) @ [UDB=(2,5)][LB=1][MC=0]
-        Total # of inputs        : 12
-        Total # of product terms : 3
-            Clock Enable: True
-        Main Equation            : 3 pterms
-        (
-              Net_1283 * Net_1108_7 * !Net_1108_6 * !Net_1108_5 * Net_1108_4 * 
-              !Net_1108_3 * !Net_1108_2 * !Net_1108_1 * !Net_1108_0 * 
-              Net_1161_2
-            + Net_1283 * Net_1108_7 * !Net_1108_6 * !Net_1108_5 * Net_1108_4 * 
-              !Net_1108_3 * !Net_1108_2 * !Net_1108_1 * !Net_1108_0 * 
-              Net_1161_1
-            + Net_1283 * Net_1108_7 * !Net_1108_6 * !Net_1108_5 * Net_1108_4 * 
-              !Net_1108_3 * !Net_1108_2 * !Net_1108_1 * !Net_1108_0 * 
-              Net_1161_0
-        );
-        Output = Net_1289_split (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]: (empty)
-    [McSlotId=2]: (empty)
-    [McSlotId=3]: (empty)
-}
-
-controlcell: Name =\MSG_TYPE_REG:Sync:ctrl_reg\
-    PORT MAP (
-        control_7 => Net_1108_7 ,
-        control_6 => Net_1108_6 ,
-        control_5 => Net_1108_5 ,
-        control_4 => Net_1108_4 ,
-        control_3 => Net_1108_3 ,
-        control_2 => Net_1108_2 ,
-        control_1 => Net_1108_1 ,
-        control_0 => Net_1108_0 );
-    Properties:
-    {
-        cy_ctrl_mode_0 = "00000000"
-        cy_ctrl_mode_1 = "00000000"
-        cy_ext_reset = 0
-        cy_force_order = 1
-        cy_init_value = "00000000"
-    }
-    Clock Enable: True
-
+UDB [UDB=(2,3)] is empty.
+UDB [UDB=(2,4)] is empty.
+UDB [UDB=(2,5)] is empty.
 UDB [UDB=(3,0)] is empty.
 UDB [UDB=(3,1)] is empty.
 UDB [UDB=(3,2)] is empty.
 UDB [UDB=(3,3)] contents:
-LAB@[UDB=(3,3)][LB=0] #macrocells=2, #inputs=7, #pterms=7
-{
-    [McSlotId=0]:     MacroCell: Name=Net_1354_4, Mode=(Combinatorial) @ [UDB=(3,3)][LB=0][MC=0]
-        Total # of inputs        : 6
-        Total # of product terms : 5
-            Clock Enable: True
-        Main Equation            : 5 pterms
-        (
-              Net_1531 * Net_1430_2 * !Net_1430_1 * !Net_1430_0 * !Net_1289
-            + Net_1354_4 * !Net_1430_2
-            + Net_1354_4 * Net_1430_1
-            + Net_1354_4 * Net_1430_0
-            + Net_1354_4 * !Net_1289
-        );
-        Output = Net_1354_4 (fanout=2)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]:     MacroCell: Name=Net_1478_7, Mode=(Combinatorial) @ [UDB=(3,3)][LB=0][MC=1]
-        Total # of inputs        : 5
-        Total # of product terms : 2
-            Clock Enable: True
-        Main Equation            : 2 pterms
-        !(
-              Net_1531 * Net_1430_2 * Net_1430_1 * Net_1430_0
-            + Net_1354_7
-        );
-        Output = Net_1478_7 (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=2]: (empty)
-    [McSlotId=3]: (empty)
-}
-
-LAB@[UDB=(3,3)][LB=1] #macrocells=2, #inputs=7, #pterms=7
-{
-    [McSlotId=0]:     MacroCell: Name=Net_1354_7, Mode=(Combinatorial) @ [UDB=(3,3)][LB=1][MC=0]
-        Total # of inputs        : 6
-        Total # of product terms : 5
-            Clock Enable: True
-        Main Equation            : 5 pterms
-        (
-              Net_1531 * Net_1430_2 * Net_1430_1 * Net_1430_0 * !Net_1289
-            + Net_1354_7 * !Net_1430_2
-            + Net_1354_7 * !Net_1430_1
-            + Net_1354_7 * !Net_1430_0
-            + Net_1354_7 * !Net_1289
-        );
-        Output = Net_1354_7 (fanout=2)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]:     MacroCell: Name=Net_1478_4, Mode=(Combinatorial) @ [UDB=(3,3)][LB=1][MC=1]
-        Total # of inputs        : 5
-        Total # of product terms : 2
-            Clock Enable: True
-        Main Equation            : 2 pterms
-        !(
-              Net_1531 * Net_1430_2 * !Net_1430_1 * !Net_1430_0
-            + Net_1354_4
-        );
-        Output = Net_1478_4 (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=2]: (empty)
-    [McSlotId=3]: (empty)
-}
-
-controlcell: Name =\NOTE_PITCH_REG:Sync:ctrl_reg\
+controlcell: Name =\MIDI_NOTES_REG:Sync:ctrl_reg\
     PORT MAP (
-        control_7 => \NOTE_PITCH_REG:control_7\ ,
-        control_6 => \NOTE_PITCH_REG:control_6\ ,
-        control_5 => \NOTE_PITCH_REG:control_5\ ,
-        control_4 => \NOTE_PITCH_REG:control_4\ ,
-        control_3 => \NOTE_PITCH_REG:control_3\ ,
-        control_2 => Net_1430_2 ,
-        control_1 => Net_1430_1 ,
-        control_0 => Net_1430_0 );
+        control_7 => Net_1478_7 ,
+        control_6 => Net_1478_6 ,
+        control_5 => Net_1478_5 ,
+        control_4 => Net_1478_4 ,
+        control_3 => Net_1478_3 ,
+        control_2 => Net_1478_2 ,
+        control_1 => Net_1478_1 ,
+        control_0 => Net_1478_0 );
     Properties:
     {
         cy_ctrl_mode_0 = "00000000"
@@ -2708,117 +1010,8 @@ controlcell: Name =\NOTE_PITCH_REG:Sync:ctrl_reg\
     }
     Clock Enable: True
 
-UDB [UDB=(3,4)] contents:
-LAB@[UDB=(3,4)][LB=0] #macrocells=1, #inputs=6, #pterms=5
-{
-    [McSlotId=0]:     MacroCell: Name=Net_1478_2, Mode=(Combinatorial) @ [UDB=(3,4)][LB=0][MC=0]
-        Total # of inputs        : 6
-        Total # of product terms : 5
-            Clock Enable: True
-        Main Equation            : 5 pterms
-        (
-              Net_1478_2 * !Net_1531
-            + Net_1478_2 * Net_1430_2
-            + Net_1478_2 * !Net_1430_1
-            + Net_1478_2 * Net_1430_0
-            + !Net_1531 * !Net_1430_2 * Net_1430_1 * !Net_1430_0 * Net_1289
-        );
-        Output = Net_1478_2 (fanout=2)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]: (empty)
-    [McSlotId=2]: (empty)
-    [McSlotId=3]: (empty)
-}
-
-LAB@[UDB=(3,4)][LB=1] #macrocells=1, #inputs=6, #pterms=5
-{
-    [McSlotId=0]:     MacroCell: Name=Net_1478_3, Mode=(Combinatorial) @ [UDB=(3,4)][LB=1][MC=0]
-        Total # of inputs        : 6
-        Total # of product terms : 5
-            Clock Enable: True
-        Main Equation            : 5 pterms
-        (
-              Net_1478_3 * !Net_1531
-            + Net_1478_3 * Net_1430_2
-            + Net_1478_3 * !Net_1430_1
-            + Net_1478_3 * !Net_1430_0
-            + !Net_1531 * !Net_1430_2 * Net_1430_1 * Net_1430_0 * Net_1289
-        );
-        Output = Net_1478_3 (fanout=2)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]: (empty)
-    [McSlotId=2]: (empty)
-    [McSlotId=3]: (empty)
-}
-
-UDB [UDB=(3,5)] contents:
-LAB@[UDB=(3,5)][LB=0] #macrocells=2, #inputs=7, #pterms=7
-{
-    [McSlotId=0]:     MacroCell: Name=Net_1478_5, Mode=(Combinatorial) @ [UDB=(3,5)][LB=0][MC=0]
-        Total # of inputs        : 6
-        Total # of product terms : 5
-            Clock Enable: True
-        Main Equation            : 5 pterms
-        (
-              Net_1478_5 * !Net_1531
-            + Net_1478_5 * !Net_1430_2
-            + Net_1478_5 * Net_1430_1
-            + Net_1478_5 * !Net_1430_0
-            + !Net_1531 * Net_1430_2 * !Net_1430_1 * Net_1430_0 * Net_1289
-        );
-        Output = Net_1478_5 (fanout=2)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]:     MacroCell: Name=Net_1478_1, Mode=(Combinatorial) @ [UDB=(3,5)][LB=0][MC=1]
-        Total # of inputs        : 5
-        Total # of product terms : 2
-            Clock Enable: True
-        Main Equation            : 2 pterms
-        !(
-              Net_1531 * !Net_1430_2 * !Net_1430_1 * Net_1430_0
-            + Net_1354_1
-        );
-        Output = Net_1478_1 (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=2]: (empty)
-    [McSlotId=3]: (empty)
-}
-
-LAB@[UDB=(3,5)][LB=1] #macrocells=1, #inputs=6, #pterms=5
-{
-    [McSlotId=0]:     MacroCell: Name=Net_1354_1, Mode=(Combinatorial) @ [UDB=(3,5)][LB=1][MC=0]
-        Total # of inputs        : 6
-        Total # of product terms : 5
-            Clock Enable: True
-        Main Equation            : 5 pterms
-        (
-              Net_1531 * !Net_1430_2 * !Net_1430_1 * Net_1430_0 * !Net_1289
-            + Net_1354_1 * Net_1430_2
-            + Net_1354_1 * Net_1430_1
-            + Net_1354_1 * !Net_1430_0
-            + Net_1354_1 * !Net_1289
-        );
-        Output = Net_1354_1 (fanout=2)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]: (empty)
-    [McSlotId=2]: (empty)
-    [McSlotId=3]: (empty)
-}
-
+UDB [UDB=(3,4)] is empty.
+UDB [UDB=(3,5)] is empty.
 Intr container @ [IntrContainer=(0)]: 
   Intr@ [IntrContainer=(0)][IntrId=(0)] 
     interrupt: Name =Sleep_isr
@@ -3556,39 +1749,31 @@ Port | Pin | Fixed |      Type |       Drive Mode |        Name | Connections
 </CYPRESSTAG>
 </CYPRESSTAG>
 Digital component placer commit/Report: Elapsed time ==> 0s.000ms
-Digital Placement phase: Elapsed time ==> 0s.874ms
+Digital Placement phase: Elapsed time ==> 0s.813ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Digital Routing">
 Routing successful.
-Digital Routing phase: Elapsed time ==> 1s.406ms
+Digital Routing phase: Elapsed time ==> 1s.093ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Bitstream and API generation">
-Bitstream and API generation phase: Elapsed time ==> 0s.187ms
+Bitstream and API generation phase: Elapsed time ==> 0s.234ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Bitstream verification">
-Bitstream verification phase: Elapsed time ==> 0s.032ms
+Bitstream verification phase: Elapsed time ==> 0s.016ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Static timing analysis">
-Warning: sta.M0019: MIDI_EXAMPLE.rpt: Warning-1361: The design contains a combinational loop. Check the design for unintentional latches. Breaking the loop at Net_1354_7/main_1 --> Net_1354_7/q  (File=\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\MIDI_EXAMPLE.rpt)
-Warning: sta.M0019: MIDI_EXAMPLE.rpt: Warning-1361: The design contains a combinational loop. Check the design for unintentional latches. Breaking the loop at Net_1354_6/main_1 --> Net_1354_6/q  (File=\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\MIDI_EXAMPLE.rpt)
-Warning: sta.M0019: MIDI_EXAMPLE.rpt: Warning-1361: The design contains a combinational loop. Check the design for unintentional latches. Breaking the loop at Net_1354_4/main_1 --> Net_1354_4/q  (File=\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\MIDI_EXAMPLE.rpt)
-Warning: sta.M0019: MIDI_EXAMPLE.rpt: Warning-1361: The design contains a combinational loop. Check the design for unintentional latches. Breaking the loop at Net_1354_1/main_1 --> Net_1354_1/q  (File=\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\MIDI_EXAMPLE.rpt)
-Warning: sta.M0019: MIDI_EXAMPLE.rpt: Warning-1361: The design contains a combinational loop. Check the design for unintentional latches. Breaking the loop at Net_1354_0/main_1 --> Net_1354_0/q  (File=\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\MIDI_EXAMPLE.rpt)
-Warning: sta.M0019: MIDI_EXAMPLE.rpt: Warning-1361: The design contains a combinational loop. Check the design for unintentional latches. Breaking the loop at Net_1478_5/main_0 --> Net_1478_5/q  (File=\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\MIDI_EXAMPLE.rpt)
-Warning: sta.M0019: MIDI_EXAMPLE.rpt: Warning-1361: The design contains a combinational loop. Check the design for unintentional latches. Breaking the loop at Net_1478_3/main_0 --> Net_1478_3/q  (File=\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\MIDI_EXAMPLE.rpt)
-Warning: sta.M0019: MIDI_EXAMPLE.rpt: Warning-1361: The design contains a combinational loop. Check the design for unintentional latches. Breaking the loop at Net_1478_2/main_0 --> Net_1478_2/q  (File=\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\MIDI_EXAMPLE.rpt)
 Timing report is in MIDI_EXAMPLE_timing.html.
-Static timing analysis phase: Elapsed time ==> 0s.264ms
+Static timing analysis phase: Elapsed time ==> 0s.233ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Data reporting">
 Data reporting phase: Elapsed time ==> 0s.000ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Database update...">
-Design database save phase: Elapsed time ==> 0s.140ms
+Design database save phase: Elapsed time ==> 0s.125ms
 </CYPRESSTAG>
-cydsfit: Elapsed time ==> 3s.421ms
+cydsfit: Elapsed time ==> 3s.031ms
 </CYPRESSTAG>
-Fitter phase: Elapsed time ==> 3s.468ms
-API generation phase: Elapsed time ==> 2s.109ms
-Dependency generation phase: Elapsed time ==> 0s.031ms
+Fitter phase: Elapsed time ==> 3s.062ms
+API generation phase: Elapsed time ==> 2s.313ms
+Dependency generation phase: Elapsed time ==> 0s.014ms
 Cleanup phase: Elapsed time ==> 0s.000ms

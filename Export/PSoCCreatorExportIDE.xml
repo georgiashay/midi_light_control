@@ -150,18 +150,9 @@
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_8_aliases.h</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_8.c</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_8.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\MSG_VALID.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\MSG_VALID.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\MSG_VALID_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\MSG_TYPE_REG.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\MSG_TYPE_REG.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\MSG_TYPE_REG_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\NOTE_VEL_REG.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\NOTE_VEL_REG.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\NOTE_VEL_REG_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\NOTE_PITCH_REG.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\NOTE_PITCH_REG.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\NOTE_PITCH_REG_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\MIDI_NOTES_REG.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\MIDI_NOTES_REG.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\MIDI_NOTES_REG_PM.c</File>
         </Files>
       </Folder>
       <Folder BuildType="STRICT" Path="\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\Export\ARM_GCC_Generic">

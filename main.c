@@ -241,35 +241,24 @@ void USB_callbackLocalMidiEvent(uint8 cable, uint8 *midiMsg) CYREENTRANT
         case 64u:
             keyNumber = 6;
             break;
-        case 66u:
+        case 6u:
             keyNumber = 7;
             break;
         default:
-            isValidKey = 0u;
-            
+            isValidKey = 0u;    
     }
     
-    MSG_TYPE_REG_Write(midiMsg[MIDI_MSG_TYPE]);
-    NOTE_PITCH_REG_Write(keyNumber);
-    NOTE_VEL_REG_Write(midiMsg[MIDI_NOTE_VELOCITY]);
-    MSG_VALID_Write(1u & isValidKey);
+    uint8 oneHotKey = 1u << keyNumber;
+    uint8 currentNoteReg = MIDI_NOTES_REG_Read();
     
-//    if (midiMsg[MIDI_MSG_TYPE] == USB_MIDI_NOTE_ON) {
-//        NOTE_NUM_REG_Write(keyNumber);
-//        if (midiMsg[MIDI_NOTE_NUMBER] % 2u == 0) {
-//            //LED_InA_Write(1u);
-//        } else {
-//            //LED_InB_Write(1u);
-//        }
-//    }
-//    if (midiMsg[MIDI_MSG_TYPE] == USB_MIDI_NOTE_OFF || (midiMsg[MIDI_MSG_TYPE] == USB_MIDI_NOTE_ON && midiMsg[MIDI_NOTE_VELOCITY] == 0u)) {
-//        NOTE_NUM_REG_Write(0u);
-//        if (midiMsg[MIDI_NOTE_NUMBER] % 2u == 0) {
-//            //LED_InA_Write(0u);
-//        } else {
-//            //LED_InB_Write(0u);
-//        }
-//    }
+    
+    if (isValidKey) {
+        if (midiMsg[MIDI_MSG_TYPE] == USB_MIDI_NOTE_OFF || (midiMsg[MIDI_MSG_TYPE] == USB_MIDI_NOTE_ON && midiMsg[MIDI_NOTE_VELOCITY] == 0u)) {
+            MIDI_NOTES_REG_Write(currentNoteReg &= ~oneHotKey);
+        } else if (midiMsg[MIDI_MSG_TYPE] == USB_MIDI_NOTE_ON) {
+            MIDI_NOTES_REG_Write(currentNoteReg |= oneHotKey);
+        }
+    }
     
     inqFlagsOld = USB_MIDI1_InqFlags;
     cable = cable;
