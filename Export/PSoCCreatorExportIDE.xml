@@ -163,8 +163,6 @@
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\NOTE_ON_REG.h</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\NOTE_ON_REG.c</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\NOTE_ON_REG_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\Clock_3.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\Clock_3.h</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\WAVE_STATUS_LOW.c</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\WAVE_STATUS_LOW.h</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\WAVE_STATUS_HIGH.c</File>
@@ -188,15 +186,6 @@
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\RAMP_COMP.c</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\RAMP_COMP.h</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\RAMP_COMP_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\BRIGHTNESS_DAC.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\BRIGHTNESS_DAC.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\BRIGHTNESS_DAC_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\OUT_COMP.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\OUT_COMP.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\OUT_COMP_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\TRIANGLE_OUT.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\TRIANGLE_OUT.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\TRIANGLE_OUT_PM.c</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\TRIANGLE_SEL_Wave1_DMA_dma.c</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\TRIANGLE_SEL_Wave1_DMA_dma.h</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\TRIANGLE_SEL_Wave2_DMA_dma.c</File>
@@ -204,13 +193,32 @@
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\TRIANGLE_SEL_VDAC8.c</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\TRIANGLE_SEL_VDAC8.h</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\TRIANGLE_SEL_VDAC8_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\TRIANGLE_OUT_Wave1_DMA_dma.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\TRIANGLE_OUT_Wave1_DMA_dma.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\TRIANGLE_OUT_Wave2_DMA_dma.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\TRIANGLE_OUT_Wave2_DMA_dma.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\TRIANGLE_OUT_VDAC8.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\TRIANGLE_OUT_VDAC8.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\TRIANGLE_OUT_VDAC8_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_Out_1_BRIGHTNESS_DAC.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_Out_1_BRIGHTNESS_DAC.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_Out_1_BRIGHTNESS_DAC_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_Out_1_OUT_COMP.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_Out_1_OUT_COMP.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_Out_1_OUT_COMP_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_Out_1_TRIANGLE_OUT.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_Out_1_TRIANGLE_OUT.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_Out_1_TRIANGLE_OUT_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_Out_1_TRIANGLE_OUT_Wave1_DMA_dma.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_Out_1_TRIANGLE_OUT_Wave1_DMA_dma.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_Out_1_TRIANGLE_OUT_Wave2_DMA_dma.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_Out_1_TRIANGLE_OUT_Wave2_DMA_dma.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_Out_1_TRIANGLE_OUT_VDAC8.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_Out_1_TRIANGLE_OUT_VDAC8.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_Out_1_TRIANGLE_OUT_VDAC8_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_Out_1.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_Out_1.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_Out_1_TRIANGLE_CLOCK.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_Out_1_TRIANGLE_CLOCK.h</File>
+        </Files>
+      </Folder>
+      <Folder BuildType="BUILD" Path="\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\LED_Out\API">
+        <Files Root="\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn">
+          <File BuildType="BUILD" Toolchain="">.\LED_Out\API\LED_Out.h</File>
+          <File BuildType="BUILD" Toolchain="">.\LED_Out\API\LED_Out.c</File>
         </Files>
       </Folder>
       <Folder BuildType="STRICT" Path="\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\Export\ARM_GCC_Generic">

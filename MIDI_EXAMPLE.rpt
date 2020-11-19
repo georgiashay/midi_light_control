@@ -1,10 +1,10 @@
-Loading plugins phase: Elapsed time ==> 0s.249ms
+Loading plugins phase: Elapsed time ==> 0s.187ms
 Initializing data phase: Elapsed time ==> 0s.000ms
 <CYPRESSTAG name="CyDsfit arguments...">
 cydsfit arguments: -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -p \\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\MIDI_EXAMPLE.cyprj -d CY8C5888LTI-LP097 -s \\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\Generated_Source\PSoC5 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE</CYPRESSTAG>
 <CYPRESSTAG name="Design elaboration results...">
 </CYPRESSTAG>
-Elaboration phase: Elapsed time ==> 2s.031ms
+Elaboration phase: Elapsed time ==> 1s.827ms
 <CYPRESSTAG name="HDL generation results...">
 </CYPRESSTAG>
 HDL generation phase: Elapsed time ==> 0s.078ms
@@ -41,7 +41,7 @@ Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=\\Mac\Home\Doc
 ======================================================================
 
 vlogfe V6.3 IR 41:  Verilog parser
-Wed Nov 18 23:59:16 2020
+Thu Nov 19 00:32:58 2020
 
 
 ======================================================================
@@ -51,7 +51,7 @@ Options  :    -yv2 -q10 MIDI_EXAMPLE.v
 ======================================================================
 
 vpp V6.3 IR 41:  Verilog Pre-Processor
-Wed Nov 18 23:59:16 2020
+Thu Nov 19 00:32:58 2020
 
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_80\CyControlReg_v1_80.v'
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cypress.v'
@@ -97,7 +97,7 @@ Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=\\Mac\Home\Doc
 ======================================================================
 
 tovif V6.3 IR 41:  High-level synthesis
-Wed Nov 18 23:59:16 2020
+Thu Nov 19 00:32:58 2020
 
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\std.vhd'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cypress.vhd'.
@@ -136,7 +136,7 @@ Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=\\Mac\Home\Doc
 ======================================================================
 
 topld V6.3 IR 41:  Synthesis and optimization
-Wed Nov 18 23:59:16 2020
+Thu Nov 19 00:32:58 2020
 
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\std.vhd'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cypress.vhd'.
@@ -170,13 +170,13 @@ Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\l
 Detecting unused logic.
 ----------------------------------------------------------
     User names
-	Net_3100
-	Net_3101
-	Net_3102
-	Net_3103
-	Net_3104
-	Net_3105
-	Net_3106
+	Net_3686
+	Net_3687
+	Net_3688
+	Net_3689
+	Net_3690
+	Net_3691
+	Net_3692
 	\USB:dma_complete_0\
 	\USB:Net_1922\
 	\USB:dma_complete_1\
@@ -217,7 +217,7 @@ Detecting unused logic.
 	\BRIGHTNESS_RAMP:Net_280\
 	\BRIGHTNESS_RAMP:Net_80\
 	\demux_1:tmp__demux_1_0_reg\
-	Net_3109
+	Net_3695
 	\TRIANGLE_SEL:Net_280\
 	\TRIANGLE_SEL:Net_80\
 	\RAMP_COMP:Net_9\
@@ -321,9 +321,9 @@ Detecting unused logic.
 	\WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_27\
 	\WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_26\
 	\WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_25\
-	\OUT_COMP:Net_9\
-	\TRIANGLE_OUT:Net_280\
-	\TRIANGLE_OUT:Net_80\
+	\LED_Out_1:OUT_COMP:Net_9\
+	\LED_Out_1:TRIANGLE_OUT:Net_280\
+	\LED_Out_1:TRIANGLE_OUT:Net_80\
 	\demux_2:tmp__demux_2_1_reg\
 	\demux_2:tmp__demux_2_2_reg\
 	\demux_2:tmp__demux_2_3_reg\
@@ -331,13 +331,13 @@ Detecting unused logic.
 	\demux_2:tmp__demux_2_5_reg\
 	\demux_2:tmp__demux_2_6_reg\
 	\demux_2:tmp__demux_2_7_reg\
-	Net_3172
-	Net_3173
-	Net_3174
-	Net_3175
-	Net_3176
-	Net_3177
-	Net_3178
+	Net_3708
+	Net_3709
+	Net_3710
+	Net_3711
+	Net_3712
+	Net_3713
+	Net_3714
 
     Synthesized names
 	\WAVETABLE_COUNTER:add_vi_vv_MODGEN_1_31\
@@ -409,14 +409,14 @@ Aliasing \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_13\ to zero
 Aliasing \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_12\ to zero
 Aliasing \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_11\ to zero
 Aliasing \WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_0\ to tmpOE__SW2_net_0
-Aliasing \BRIGHTNESS_DAC:Net_83\ to zero
-Aliasing \BRIGHTNESS_DAC:Net_81\ to zero
-Aliasing \BRIGHTNESS_DAC:Net_82\ to zero
-Aliasing \OUT_COMP:clock\ to zero
-Aliasing Net_3115 to zero
-Aliasing \TRIANGLE_OUT:VDAC8:Net_83\ to zero
-Aliasing \TRIANGLE_OUT:VDAC8:Net_81\ to zero
-Aliasing \TRIANGLE_OUT:VDAC8:Net_82\ to zero
+Aliasing \LED_Out_1:BRIGHTNESS_DAC:Net_83\ to zero
+Aliasing \LED_Out_1:BRIGHTNESS_DAC:Net_81\ to zero
+Aliasing \LED_Out_1:BRIGHTNESS_DAC:Net_82\ to zero
+Aliasing \LED_Out_1:OUT_COMP:clock\ to zero
+Aliasing \LED_Out_1:Net_29\ to zero
+Aliasing \LED_Out_1:TRIANGLE_OUT:VDAC8:Net_83\ to zero
+Aliasing \LED_Out_1:TRIANGLE_OUT:VDAC8:Net_81\ to zero
+Aliasing \LED_Out_1:TRIANGLE_OUT:VDAC8:Net_82\ to zero
 Aliasing \STORED_BRIGHTNESS:clk\ to zero
 Aliasing \STORED_BRIGHTNESS:rst\ to zero
 Aliasing \WAVE_STATUS_LOW:status_7\ to \WAVETABLE_COUNTER:MODIN1_7\
@@ -486,105 +486,105 @@ Removing Lhs of wire \TRIANGLE_SEL:VDAC8:Net_81\[283] = zero[2]
 Removing Lhs of wire \TRIANGLE_SEL:VDAC8:Net_82\[284] = zero[2]
 Removing Lhs of wire \RAMP_COMP:clock\[294] = zero[2]
 Removing Lhs of wire tmpOE__LED_8_net_0[298] = tmpOE__SW2_net_0[1]
-Removing Rhs of wire Net_3193[304] = \demux_2:tmp__demux_2_0_reg\[582]
-Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_1_10\[306] = \WAVETABLE_COUNTER:MODULE_1:g2:a0:s_10\[476]
-Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_1_9\[308] = \WAVETABLE_COUNTER:MODULE_1:g2:a0:s_9\[477]
-Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_1_8\[310] = \WAVETABLE_COUNTER:MODULE_1:g2:a0:s_8\[478]
-Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_1_7\[312] = \WAVETABLE_COUNTER:MODULE_1:g2:a0:s_7\[479]
-Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_1_6\[314] = \WAVETABLE_COUNTER:MODULE_1:g2:a0:s_6\[480]
-Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_1_5\[316] = \WAVETABLE_COUNTER:MODULE_1:g2:a0:s_5\[481]
-Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_1_4\[318] = \WAVETABLE_COUNTER:MODULE_1:g2:a0:s_4\[482]
-Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_1_3\[320] = \WAVETABLE_COUNTER:MODULE_1:g2:a0:s_3\[483]
-Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_1_2\[322] = \WAVETABLE_COUNTER:MODULE_1:g2:a0:s_2\[484]
-Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_1_1\[324] = \WAVETABLE_COUNTER:MODULE_1:g2:a0:s_1\[485]
-Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_1_0\[326] = \WAVETABLE_COUNTER:MODULE_1:g2:a0:s_0\[486]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_23\[367] = zero[2]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_22\[368] = zero[2]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_21\[369] = zero[2]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_20\[370] = zero[2]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_19\[371] = zero[2]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_18\[372] = zero[2]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_17\[373] = zero[2]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_16\[374] = zero[2]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_15\[375] = zero[2]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_14\[376] = zero[2]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_13\[377] = zero[2]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_12\[378] = zero[2]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_11\[379] = zero[2]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_10\[380] = \WAVETABLE_COUNTER:MODIN1_10\[381]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODIN1_10\[381] = Net_2965_10[305]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_9\[382] = \WAVETABLE_COUNTER:MODIN1_9\[383]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODIN1_9\[383] = Net_2965_9[307]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_8\[384] = \WAVETABLE_COUNTER:MODIN1_8\[385]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODIN1_8\[385] = Net_2965_8[309]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_7\[386] = \WAVETABLE_COUNTER:MODIN1_7\[387]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODIN1_7\[387] = Net_2965_7[311]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_6\[388] = \WAVETABLE_COUNTER:MODIN1_6\[389]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODIN1_6\[389] = Net_2965_6[313]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_5\[390] = \WAVETABLE_COUNTER:MODIN1_5\[391]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODIN1_5\[391] = Net_2965_5[315]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_4\[392] = \WAVETABLE_COUNTER:MODIN1_4\[393]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODIN1_4\[393] = Net_2965_4[317]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_3\[394] = \WAVETABLE_COUNTER:MODIN1_3\[395]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODIN1_3\[395] = Net_2965_3[319]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_2\[396] = \WAVETABLE_COUNTER:MODIN1_2\[397]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODIN1_2\[397] = Net_2965_2[321]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_1\[398] = \WAVETABLE_COUNTER:MODIN1_1\[399]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODIN1_1\[399] = Net_2965_1[323]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_0\[400] = \WAVETABLE_COUNTER:MODIN1_0\[401]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODIN1_0\[401] = Net_2965_0[325]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_0\[524] = tmpOE__SW2_net_0[1]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_0\[525] = tmpOE__SW2_net_0[1]
-Removing Lhs of wire \BRIGHTNESS_DAC:Net_83\[528] = zero[2]
-Removing Lhs of wire \BRIGHTNESS_DAC:Net_81\[529] = zero[2]
-Removing Lhs of wire \BRIGHTNESS_DAC:Net_82\[530] = zero[2]
-Removing Rhs of wire Net_2887_7[531] = \STORED_BRIGHTNESS:control_out_7\[599]
-Removing Rhs of wire Net_2887_7[531] = \STORED_BRIGHTNESS:control_7\[608]
-Removing Rhs of wire Net_2887_6[532] = \STORED_BRIGHTNESS:control_out_6\[600]
-Removing Rhs of wire Net_2887_6[532] = \STORED_BRIGHTNESS:control_6\[609]
-Removing Rhs of wire Net_2887_5[533] = \STORED_BRIGHTNESS:control_out_5\[601]
-Removing Rhs of wire Net_2887_5[533] = \STORED_BRIGHTNESS:control_5\[610]
-Removing Rhs of wire Net_2887_4[534] = \STORED_BRIGHTNESS:control_out_4\[602]
-Removing Rhs of wire Net_2887_4[534] = \STORED_BRIGHTNESS:control_4\[611]
-Removing Rhs of wire Net_2887_3[535] = \STORED_BRIGHTNESS:control_out_3\[603]
-Removing Rhs of wire Net_2887_3[535] = \STORED_BRIGHTNESS:control_3\[612]
-Removing Rhs of wire Net_2887_2[536] = \STORED_BRIGHTNESS:control_out_2\[604]
-Removing Rhs of wire Net_2887_2[536] = \STORED_BRIGHTNESS:control_2\[613]
-Removing Rhs of wire Net_2887_1[537] = \STORED_BRIGHTNESS:control_out_1\[605]
-Removing Rhs of wire Net_2887_1[537] = \STORED_BRIGHTNESS:control_1\[614]
-Removing Rhs of wire Net_2887_0[538] = \STORED_BRIGHTNESS:control_out_0\[606]
-Removing Rhs of wire Net_2887_0[538] = \STORED_BRIGHTNESS:control_0\[615]
-Removing Lhs of wire \OUT_COMP:clock\[545] = zero[2]
-Removing Rhs of wire Net_2851[547] = \OUT_COMP:Net_1\[546]
-Removing Lhs of wire Net_3115[550] = zero[2]
-Removing Rhs of wire \TRIANGLE_OUT:Net_183\[561] = \TRIANGLE_OUT:demux:tmp__demux_0_reg\[566]
-Removing Rhs of wire \TRIANGLE_OUT:Net_107\[564] = \TRIANGLE_OUT:demux:tmp__demux_1_reg\[569]
-Removing Rhs of wire \TRIANGLE_OUT:Net_134\[567] = \TRIANGLE_OUT:cydff_1\[580]
-Removing Lhs of wire \TRIANGLE_OUT:Net_336\[568] = Net_2524[539]
-Removing Lhs of wire \TRIANGLE_OUT:VDAC8:Net_83\[571] = zero[2]
-Removing Lhs of wire \TRIANGLE_OUT:VDAC8:Net_81\[572] = zero[2]
-Removing Lhs of wire \TRIANGLE_OUT:VDAC8:Net_82\[573] = zero[2]
+Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_1_10\[304] = \WAVETABLE_COUNTER:MODULE_1:g2:a0:s_10\[474]
+Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_1_9\[306] = \WAVETABLE_COUNTER:MODULE_1:g2:a0:s_9\[475]
+Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_1_8\[308] = \WAVETABLE_COUNTER:MODULE_1:g2:a0:s_8\[476]
+Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_1_7\[310] = \WAVETABLE_COUNTER:MODULE_1:g2:a0:s_7\[477]
+Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_1_6\[312] = \WAVETABLE_COUNTER:MODULE_1:g2:a0:s_6\[478]
+Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_1_5\[314] = \WAVETABLE_COUNTER:MODULE_1:g2:a0:s_5\[479]
+Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_1_4\[316] = \WAVETABLE_COUNTER:MODULE_1:g2:a0:s_4\[480]
+Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_1_3\[318] = \WAVETABLE_COUNTER:MODULE_1:g2:a0:s_3\[481]
+Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_1_2\[320] = \WAVETABLE_COUNTER:MODULE_1:g2:a0:s_2\[482]
+Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_1_1\[322] = \WAVETABLE_COUNTER:MODULE_1:g2:a0:s_1\[483]
+Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_1_0\[324] = \WAVETABLE_COUNTER:MODULE_1:g2:a0:s_0\[484]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_23\[365] = zero[2]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_22\[366] = zero[2]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_21\[367] = zero[2]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_20\[368] = zero[2]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_19\[369] = zero[2]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_18\[370] = zero[2]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_17\[371] = zero[2]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_16\[372] = zero[2]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_15\[373] = zero[2]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_14\[374] = zero[2]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_13\[375] = zero[2]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_12\[376] = zero[2]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_11\[377] = zero[2]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_10\[378] = \WAVETABLE_COUNTER:MODIN1_10\[379]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODIN1_10\[379] = Net_2965_10[303]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_9\[380] = \WAVETABLE_COUNTER:MODIN1_9\[381]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODIN1_9\[381] = Net_2965_9[305]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_8\[382] = \WAVETABLE_COUNTER:MODIN1_8\[383]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODIN1_8\[383] = Net_2965_8[307]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_7\[384] = \WAVETABLE_COUNTER:MODIN1_7\[385]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODIN1_7\[385] = Net_2965_7[309]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_6\[386] = \WAVETABLE_COUNTER:MODIN1_6\[387]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODIN1_6\[387] = Net_2965_6[311]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_5\[388] = \WAVETABLE_COUNTER:MODIN1_5\[389]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODIN1_5\[389] = Net_2965_5[313]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_4\[390] = \WAVETABLE_COUNTER:MODIN1_4\[391]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODIN1_4\[391] = Net_2965_4[315]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_3\[392] = \WAVETABLE_COUNTER:MODIN1_3\[393]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODIN1_3\[393] = Net_2965_3[317]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_2\[394] = \WAVETABLE_COUNTER:MODIN1_2\[395]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODIN1_2\[395] = Net_2965_2[319]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_1\[396] = \WAVETABLE_COUNTER:MODIN1_1\[397]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODIN1_1\[397] = Net_2965_1[321]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_0\[398] = \WAVETABLE_COUNTER:MODIN1_0\[399]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODIN1_0\[399] = Net_2965_0[323]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_0\[522] = tmpOE__SW2_net_0[1]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_0\[523] = tmpOE__SW2_net_0[1]
+Removing Lhs of wire \LED_Out_1:BRIGHTNESS_DAC:Net_83\[525] = zero[2]
+Removing Lhs of wire \LED_Out_1:BRIGHTNESS_DAC:Net_81\[526] = zero[2]
+Removing Lhs of wire \LED_Out_1:BRIGHTNESS_DAC:Net_82\[527] = zero[2]
+Removing Rhs of wire Net_3699_7[528] = \STORED_BRIGHTNESS:control_out_7\[599]
+Removing Rhs of wire Net_3699_7[528] = \STORED_BRIGHTNESS:control_7\[608]
+Removing Rhs of wire Net_3699_6[529] = \STORED_BRIGHTNESS:control_out_6\[600]
+Removing Rhs of wire Net_3699_6[529] = \STORED_BRIGHTNESS:control_6\[609]
+Removing Rhs of wire Net_3699_5[530] = \STORED_BRIGHTNESS:control_out_5\[601]
+Removing Rhs of wire Net_3699_5[530] = \STORED_BRIGHTNESS:control_5\[610]
+Removing Rhs of wire Net_3699_4[531] = \STORED_BRIGHTNESS:control_out_4\[602]
+Removing Rhs of wire Net_3699_4[531] = \STORED_BRIGHTNESS:control_4\[611]
+Removing Rhs of wire Net_3699_3[532] = \STORED_BRIGHTNESS:control_out_3\[603]
+Removing Rhs of wire Net_3699_3[532] = \STORED_BRIGHTNESS:control_3\[612]
+Removing Rhs of wire Net_3699_2[533] = \STORED_BRIGHTNESS:control_out_2\[604]
+Removing Rhs of wire Net_3699_2[533] = \STORED_BRIGHTNESS:control_2\[613]
+Removing Rhs of wire Net_3699_1[534] = \STORED_BRIGHTNESS:control_out_1\[605]
+Removing Rhs of wire Net_3699_1[534] = \STORED_BRIGHTNESS:control_1\[614]
+Removing Rhs of wire Net_3699_0[535] = \STORED_BRIGHTNESS:control_out_0\[606]
+Removing Rhs of wire Net_3699_0[535] = \STORED_BRIGHTNESS:control_0\[615]
+Removing Lhs of wire \LED_Out_1:OUT_COMP:clock\[542] = zero[2]
+Removing Rhs of wire \LED_Out_1:Net_86\[544] = \LED_Out_1:OUT_COMP:Net_1\[543]
+Removing Lhs of wire \LED_Out_1:Net_29\[547] = zero[2]
+Removing Rhs of wire \LED_Out_1:TRIANGLE_OUT:Net_183\[558] = \LED_Out_1:TRIANGLE_OUT:demux:tmp__demux_0_reg\[563]
+Removing Rhs of wire \LED_Out_1:TRIANGLE_OUT:Net_107\[561] = \LED_Out_1:TRIANGLE_OUT:demux:tmp__demux_1_reg\[566]
+Removing Rhs of wire \LED_Out_1:TRIANGLE_OUT:Net_134\[564] = \LED_Out_1:TRIANGLE_OUT:cydff_1\[577]
+Removing Lhs of wire \LED_Out_1:TRIANGLE_OUT:Net_336\[565] = \LED_Out_1:Net_2524\[536]
+Removing Lhs of wire \LED_Out_1:TRIANGLE_OUT:VDAC8:Net_83\[568] = zero[2]
+Removing Lhs of wire \LED_Out_1:TRIANGLE_OUT:VDAC8:Net_81\[569] = zero[2]
+Removing Lhs of wire \LED_Out_1:TRIANGLE_OUT:VDAC8:Net_82\[570] = zero[2]
+Removing Rhs of wire Net_3700[579] = \demux_2:tmp__demux_2_0_reg\[582]
 Removing Lhs of wire \STORED_BRIGHTNESS:clk\[597] = zero[2]
 Removing Lhs of wire \STORED_BRIGHTNESS:rst\[598] = zero[2]
-Removing Lhs of wire \WAVE_STATUS_LOW:status_7\[616] = Net_2965_7[311]
-Removing Lhs of wire \WAVE_STATUS_LOW:status_6\[617] = Net_2965_6[313]
-Removing Lhs of wire \WAVE_STATUS_LOW:status_5\[618] = Net_2965_5[315]
-Removing Lhs of wire \WAVE_STATUS_LOW:status_4\[619] = Net_2965_4[317]
-Removing Lhs of wire \WAVE_STATUS_LOW:status_3\[620] = Net_2965_3[319]
-Removing Lhs of wire \WAVE_STATUS_LOW:status_2\[621] = Net_2965_2[321]
-Removing Lhs of wire \WAVE_STATUS_LOW:status_1\[622] = Net_2965_1[323]
-Removing Lhs of wire \WAVE_STATUS_LOW:status_0\[623] = Net_2965_0[325]
+Removing Lhs of wire \WAVE_STATUS_LOW:status_7\[616] = Net_2965_7[309]
+Removing Lhs of wire \WAVE_STATUS_LOW:status_6\[617] = Net_2965_6[311]
+Removing Lhs of wire \WAVE_STATUS_LOW:status_5\[618] = Net_2965_5[313]
+Removing Lhs of wire \WAVE_STATUS_LOW:status_4\[619] = Net_2965_4[315]
+Removing Lhs of wire \WAVE_STATUS_LOW:status_3\[620] = Net_2965_3[317]
+Removing Lhs of wire \WAVE_STATUS_LOW:status_2\[621] = Net_2965_2[319]
+Removing Lhs of wire \WAVE_STATUS_LOW:status_1\[622] = Net_2965_1[321]
+Removing Lhs of wire \WAVE_STATUS_LOW:status_0\[623] = Net_2965_0[323]
 Removing Lhs of wire \WAVE_STATUS_HIGH:status_7\[625] = zero[2]
 Removing Lhs of wire \WAVE_STATUS_HIGH:status_6\[626] = zero[2]
 Removing Lhs of wire \WAVE_STATUS_HIGH:status_5\[627] = zero[2]
 Removing Lhs of wire \WAVE_STATUS_HIGH:status_4\[628] = zero[2]
 Removing Lhs of wire \WAVE_STATUS_HIGH:status_3\[629] = zero[2]
-Removing Lhs of wire \WAVE_STATUS_HIGH:status_2\[630] = Net_2965_10[305]
-Removing Lhs of wire \WAVE_STATUS_HIGH:status_1\[631] = Net_2965_9[307]
-Removing Lhs of wire \WAVE_STATUS_HIGH:status_0\[632] = Net_2965_8[309]
+Removing Lhs of wire \WAVE_STATUS_HIGH:status_2\[630] = Net_2965_10[303]
+Removing Lhs of wire \WAVE_STATUS_HIGH:status_1\[631] = Net_2965_9[305]
+Removing Lhs of wire \WAVE_STATUS_HIGH:status_0\[632] = Net_2965_8[307]
 Removing Lhs of wire \BRIGHTNESS_RAMP:cydff_1\\D\[634] = zero[2]
 Removing Lhs of wire \TRIANGLE_SEL:cydff_1\\D\[635] = zero[2]
-Removing Lhs of wire \TRIANGLE_OUT:cydff_1\\D\[647] = zero[2]
+Removing Lhs of wire \LED_Out_1:TRIANGLE_OUT:cydff_1\\D\[647] = zero[2]
 
 ------------------------------------------------------
 Aliased 0 equations, 150 wires.
@@ -605,9 +605,6 @@ zero <=  ('0') ;
 Note:  Expanding virtual equation for 'Net_1996' (cost = 7):
 Net_1996 <= ((Net_2703 and Net_2234));
 
-Note:  Expanding virtual equation for 'Net_3193' (cost = 5):
-Net_3193 <= ((not Net_3181_2 and not Net_3181_1 and not Net_3181_0 and Net_2703));
-
 Note:  Expanding virtual equation for '\WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_9\' (cost = 4):
 \WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_9\ <= ((Net_2965_8 and \WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_8\));
 
@@ -624,23 +621,14 @@ Note:  Expanding virtual equation for '\WAVETABLE_COUNTER:MODULE_1:g2:a0:s_0\' (
 Note:  Expanding virtual equation for '\WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_17\' (cost = 0):
 \WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_17\ <=  ('0') ;
 
-Note:  Expanding virtual equation for 'Net_3185' (cost = 4):
-Net_3185 <= (not Net_2703
-	OR Net_3181_2
-	OR Net_3181_1
-	OR Net_3181_0);
+Note:  Expanding virtual equation for 'Net_3700' (cost = 5):
+Net_3700 <= ((not Net_3181_2 and not Net_3181_1 and not Net_3181_0 and Net_2703));
 
 
 Substituting virtuals - pass 2:
 
-Note:  Expanding virtual equation for 'Net_3188' (cost = 1):
-Net_3188 <= ((not Net_3181_2 and not Net_3181_1 and not Net_3181_0 and Net_2703 and Net_2234));
-
-Note:  Expanding virtual equation for 'Net_3187' (cost = 4):
-Net_3187 <= ((not Net_2703 and Net_2851)
-	OR (Net_3181_2 and Net_2851)
-	OR (Net_3181_1 and Net_2851)
-	OR (Net_3181_0 and Net_2851));
+Note:  Expanding virtual equation for '\LED_Out_1:Net_3188\' (cost = 1):
+\LED_Out_1:Net_3188\ <= ((not Net_3181_2 and not Net_3181_1 and not Net_3181_0 and Net_2703 and Net_2234));
 
 Note:  Expanding virtual equation for '\WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_10\' (cost = 5):
 \WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_10\ <= ((Net_2965_9 and Net_2965_8 and \WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_8\));
@@ -663,8 +651,20 @@ Note:  Expanding virtual equation for '\WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s
 Note:  Expanding virtual equation for '\WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_11\' (cost = 0):
 \WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_11\ <= ((Net_2965_10 and Net_2965_9 and Net_2965_8 and \WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_8\));
 
+Note:  Expanding virtual equation for '\LED_Out_1:Net_3185\' (cost = 4):
+\LED_Out_1:Net_3185\ <= (not Net_2703
+	OR Net_3181_2
+	OR Net_3181_1
+	OR Net_3181_0);
+
 
 Substituting virtuals - pass 3:
+
+Note:  Expanding virtual equation for '\LED_Out_1:Net_3187\' (cost = 4):
+\LED_Out_1:Net_3187\ <= ((not Net_2703 and \LED_Out_1:Net_86\)
+	OR (Net_3181_2 and \LED_Out_1:Net_86\)
+	OR (Net_3181_1 and \LED_Out_1:Net_86\)
+	OR (Net_3181_0 and \LED_Out_1:Net_86\));
 
 Note:  Expanding virtual equation for '\WAVETABLE_COUNTER:MODULE_1:g2:a0:s_10\' (cost = 4):
 \WAVETABLE_COUNTER:MODULE_1:g2:a0:s_10\ <= ((not Net_2965_9 and Net_2965_10)
@@ -791,8 +791,8 @@ Alias Detection
 ------------------------------------------------------
 Aliasing \WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_24\ to zero
 Aliasing \WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_16\ to zero
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_24\[495] = zero[2]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_16\[505] = zero[2]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_24\[493] = zero[2]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_16\[503] = zero[2]
 
 ------------------------------------------------------
 Aliased 0 equations, 2 wires.
@@ -825,10 +825,10 @@ CYPRESS_DIR    : C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\wa
 Warp Program   : C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\bin/warp.exe
 Warp Arguments : -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya "-.fftprj=\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\MIDI_EXAMPLE.cyprj" -dcpsoc3 MIDI_EXAMPLE.v -verilog
 </CYPRESSTAG>
-Warp synthesis phase: Elapsed time ==> 0s.937ms
+Warp synthesis phase: Elapsed time ==> 1s.015ms
 <CYPRESSTAG name="Fitter results...">
 <CYPRESSTAG name="Fitter startup details...">
-cyp3fit: V3.3.0.9604, Family: PSoC3, Started at: Wednesday, 18 November 2020 23:59:17
+cyp3fit: V3.3.0.9604, Family: PSoC3, Started at: Thursday, 19 November 2020 00:32:59
 Options: -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\MIDI_EXAMPLE.cyprj -d CY8C5888LTI-LP097 MIDI_EXAMPLE.v -verilog
 </CYPRESSTAG>
 <CYPRESSTAG name="Design parsing">
@@ -841,9 +841,9 @@ Design parsing phase: Elapsed time ==> 0s.015ms
     Removed wire end \WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_8\ kept \WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_8\
     Converted constant MacroCell: \BRIGHTNESS_RAMP:Net_134\ from registered to combinatorial
     Converted constant MacroCell: \TRIANGLE_SEL:Net_134\ from registered to combinatorial
-    Converted constant MacroCell: \TRIANGLE_OUT:Net_134\ from registered to combinatorial
+    Converted constant MacroCell: \LED_Out_1:TRIANGLE_OUT:Net_134\ from registered to combinatorial
 <CYPRESSTAG name="Global Clock Selection" icon="FILE_RPT_TECHM">
-    Digital Clock 0: Automatic-assigning  clock 'Clock_3'. Fanout=4, Signal=Net_2524
+    Digital Clock 0: Automatic-assigning  clock 'LED_Out_1_TRIANGLE_CLOCK'. Fanout=4, Signal=\LED_Out_1:Net_2524\
     Digital Clock 1: Automatic-assigning  clock 'Clock_1'. Fanout=3, Signal=Net_1945
     Digital Clock 2: Automatic-assigning  clock 'Clock_2'. Fanout=14, Signal=Net_3013
 </CYPRESSTAG>
@@ -1441,11 +1441,11 @@ Design Equations
             Clock Enable: True
         Main Equation            : 5 pterms
         (
-              !Net_2703 * Net_2851
+              !Net_2703 * \LED_Out_1:Net_86\
             + Net_2703 * !Net_3181_2 * !Net_3181_1 * !Net_3181_0 * Net_2234
-            + Net_3181_2 * Net_2851
-            + Net_3181_1 * Net_2851
-            + Net_3181_0 * Net_2851
+            + Net_3181_2 * \LED_Out_1:Net_86\
+            + Net_3181_1 * \LED_Out_1:Net_86\
+            + Net_3181_0 * \LED_Out_1:Net_86\
         );
         Output = Net_3194 (fanout=1)
 
@@ -1687,14 +1687,14 @@ Design Equations
 
     controlcell: Name =\STORED_BRIGHTNESS:Sync:ctrl_reg\
         PORT MAP (
-            control_7 => Net_2887_7 ,
-            control_6 => Net_2887_6 ,
-            control_5 => Net_2887_5 ,
-            control_4 => Net_2887_4 ,
-            control_3 => Net_2887_3 ,
-            control_2 => Net_2887_2 ,
-            control_1 => Net_2887_1 ,
-            control_0 => Net_2887_0 );
+            control_7 => Net_3699_7 ,
+            control_6 => Net_3699_6 ,
+            control_5 => Net_3699_5 ,
+            control_4 => Net_3699_4 ,
+            control_3 => Net_3699_3 ,
+            control_2 => Net_3699_2 ,
+            control_1 => Net_3699_1 ,
+            control_0 => Net_3699_0 );
         Properties:
         {
             cy_ctrl_mode_0 = "00000000"
@@ -1727,7 +1727,7 @@ Design Equations
     drqcell: Name =\BRIGHTNESS_RAMP:Wave2_DMA\
         PORT MAP (
             termin => zero ,
-            termout => Net_3199 );
+            termout => Net_2063 );
         Properties:
         {
             drq_type = "10"
@@ -1738,7 +1738,7 @@ Design Equations
         PORT MAP (
             dmareq => Net_1945_local ,
             termin => zero ,
-            termout => Net_3195 );
+            termout => Net_3696 );
         Properties:
         {
             drq_type = "10"
@@ -1748,28 +1748,28 @@ Design Equations
     drqcell: Name =\TRIANGLE_SEL:Wave2_DMA\
         PORT MAP (
             termin => zero ,
-            termout => Net_3196 );
+            termout => Net_3697 );
         Properties:
         {
             drq_type = "10"
             num_tds = 0
         }
 
-    drqcell: Name =\TRIANGLE_OUT:Wave1_DMA\
+    drqcell: Name =\LED_Out_1:TRIANGLE_OUT:Wave1_DMA\
         PORT MAP (
-            dmareq => Net_2524_local ,
+            dmareq => \LED_Out_1:Net_2524_local\ ,
             termin => zero ,
-            termout => Net_3116 );
+            termout => \LED_Out_1:Net_30\ );
         Properties:
         {
             drq_type = "10"
             num_tds = 0
         }
 
-    drqcell: Name =\TRIANGLE_OUT:Wave2_DMA\
+    drqcell: Name =\LED_Out_1:TRIANGLE_OUT:Wave2_DMA\
         PORT MAP (
             termin => zero ,
-            termout => Net_3117 );
+            termout => \LED_Out_1:Net_31\ );
         Properties:
         {
             drq_type = "10"
@@ -1885,7 +1885,7 @@ Analog (SC/CT) Blocks         :    0 :    4 :    4 :  0.00 %
 DAC                           :      :      :      :        
   VIDAC                       :    4 :    0 :    4 : 100.00 %
 </CYPRESSTAG>
-Technology Mapping: Elapsed time ==> 0s.077ms
+Technology Mapping: Elapsed time ==> 0s.046ms
 ADD: mpr.M0037: information: Unused pieces of the design have been optimized out. See the Tech mapping section of the report file for details.
  * \\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\codegentemp\MIDI_EXAMPLE.rpt (Tech mapping)
 
@@ -1905,16 +1905,16 @@ IO_3@[IOP=(2)][IoId=(3)] : SW1(0) (fixed)
 IO_4@[IOP=(2)][IoId=(4)] : SW2(0) (fixed)
 IO_7@[IOP=(15)][IoId=(7)] : \USB:Dm(0)\ (fixed)
 IO_6@[IOP=(15)][IoId=(6)] : \USB:Dp(0)\ (fixed)
-VIDAC[2]@[FFB(VIDAC,2)] : \BRIGHTNESS_DAC:viDAC8\
-VIDAC[0]@[FFB(VIDAC,0)] : \BRIGHTNESS_RAMP:VDAC8:viDAC8\
-Comparator[3]@[FFB(Comparator,3)] : \OUT_COMP:ctComp\
-Comparator[0]@[FFB(Comparator,0)] : \RAMP_COMP:ctComp\
-VIDAC[1]@[FFB(VIDAC,1)] : \TRIANGLE_OUT:VDAC8:viDAC8\
-VIDAC[3]@[FFB(VIDAC,3)] : \TRIANGLE_SEL:VDAC8:viDAC8\
+VIDAC[2]@[FFB(VIDAC,2)] : \BRIGHTNESS_RAMP:VDAC8:viDAC8\
+VIDAC[0]@[FFB(VIDAC,0)] : \LED_Out_1:BRIGHTNESS_DAC:viDAC8\
+Comparator[3]@[FFB(Comparator,3)] : \LED_Out_1:OUT_COMP:ctComp\
+VIDAC[3]@[FFB(VIDAC,3)] : \LED_Out_1:TRIANGLE_OUT:VDAC8:viDAC8\
+Comparator[1]@[FFB(Comparator,1)] : \RAMP_COMP:ctComp\
+VIDAC[1]@[FFB(VIDAC,1)] : \TRIANGLE_SEL:VDAC8:viDAC8\
 USB[0]@[FFB(USB,0)] : \USB:USB\
-Log: apr.M0058: The analog placement iterative improvement is 40% done. (App=cydsfit)
-Log: apr.M0058: The analog placement iterative improvement is 70% done. (App=cydsfit)
-Log: apr.M0058: The analog placement iterative improvement is 91% done. (App=cydsfit)
+Log: apr.M0058: The analog placement iterative improvement is 46% done. (App=cydsfit)
+Log: apr.M0058: The analog placement iterative improvement is 74% done. (App=cydsfit)
+Log: apr.M0058: The analog placement iterative improvement is 100% done. (App=cydsfit)
 Analog Placement Results:
 IO_0@[IOP=(15)][IoId=(0)] : LED_1(0) (fixed)
 IO_1@[IOP=(15)][IoId=(1)] : LED_2(0) (fixed)
@@ -1928,12 +1928,12 @@ IO_3@[IOP=(2)][IoId=(3)] : SW1(0) (fixed)
 IO_4@[IOP=(2)][IoId=(4)] : SW2(0) (fixed)
 IO_7@[IOP=(15)][IoId=(7)] : \USB:Dm(0)\ (fixed)
 IO_6@[IOP=(15)][IoId=(6)] : \USB:Dp(0)\ (fixed)
-VIDAC[0]@[FFB(VIDAC,0)] : \BRIGHTNESS_DAC:viDAC8\
-VIDAC[1]@[FFB(VIDAC,1)] : \BRIGHTNESS_RAMP:VDAC8:viDAC8\
-Comparator[0]@[FFB(Comparator,0)] : \OUT_COMP:ctComp\
+VIDAC[3]@[FFB(VIDAC,3)] : \BRIGHTNESS_RAMP:VDAC8:viDAC8\
+VIDAC[0]@[FFB(VIDAC,0)] : \LED_Out_1:BRIGHTNESS_DAC:viDAC8\
+Comparator[0]@[FFB(Comparator,0)] : \LED_Out_1:OUT_COMP:ctComp\
+VIDAC[2]@[FFB(VIDAC,2)] : \LED_Out_1:TRIANGLE_OUT:VDAC8:viDAC8\
 Comparator[1]@[FFB(Comparator,1)] : \RAMP_COMP:ctComp\
-VIDAC[2]@[FFB(VIDAC,2)] : \TRIANGLE_OUT:VDAC8:viDAC8\
-VIDAC[3]@[FFB(VIDAC,3)] : \TRIANGLE_SEL:VDAC8:viDAC8\
+VIDAC[1]@[FFB(VIDAC,1)] : \TRIANGLE_SEL:VDAC8:viDAC8\
 USB[0]@[FFB(USB,0)] : \USB:USB\
 
 Analog Placement phase: Elapsed time ==> 0s.875ms
@@ -1945,63 +1945,63 @@ Analog Routing phase: Elapsed time ==> 0s.000ms
 ============ Analog Final Answer Routes ============
 Dump of CyAnalogRoutingResultsDB
 Map of net to items {
-  Net: Net_2508 {
+  Net: Net_1976 {
+    comp_1_vplus
+    agr4_x_comp_1_vplus
+    agr4
+    agr4_x_vidac_3_vout
+    vidac_3_vout
+  }
+  Net: \BRIGHTNESS_RAMP:VDAC8:Net_77\ {
+  }
+  Net: \LED_Out_1:Net_2508\ {
     comp_0_vplus
     agl0_x_comp_0_vplus
     agl0
     agl0_x_vidac_0_vout
     vidac_0_vout
   }
-  Net: \BRIGHTNESS_DAC:Net_77\ {
+  Net: \LED_Out_1:BRIGHTNESS_DAC:Net_77\ {
   }
-  Net: Net_1976 {
-    comp_1_vplus
-    agr0_x_comp_1_vplus
-    agr0
-    agr0_x_vidac_1_vout
-    vidac_1_vout
-  }
-  Net: \BRIGHTNESS_RAMP:VDAC8:Net_77\ {
-  }
-  Net: Net_2523 {
+  Net: \LED_Out_1:Net_2523\ {
     vidac_2_vout
     agl4_x_vidac_2_vout
     agl4
     agl4_x_comp_0_vminus
     comp_0_vminus
   }
-  Net: Net_1978 {
-    vidac_3_vout
-    agr4_x_vidac_3_vout
-    agr4
-    agr4_x_comp_1_vminus
-    comp_1_vminus
+  Net: \LED_Out_1:TRIANGLE_OUT:VDAC8:Net_77\ {
   }
-  Net: \TRIANGLE_OUT:VDAC8:Net_77\ {
+  Net: Net_1978 {
+    vidac_1_vout
+    agr0_x_vidac_1_vout
+    agr0
+    agr0_x_comp_1_vminus
+    comp_1_vminus
   }
   Net: \TRIANGLE_SEL:VDAC8:Net_77\ {
   }
 }
 Map of item to net {
-  comp_0_vplus                                     -> Net_2508
-  agl0_x_comp_0_vplus                              -> Net_2508
-  agl0                                             -> Net_2508
-  agl0_x_vidac_0_vout                              -> Net_2508
-  vidac_0_vout                                     -> Net_2508
   comp_1_vplus                                     -> Net_1976
-  agr0_x_comp_1_vplus                              -> Net_1976
-  agr0                                             -> Net_1976
-  agr0_x_vidac_1_vout                              -> Net_1976
-  vidac_1_vout                                     -> Net_1976
-  vidac_2_vout                                     -> Net_2523
-  agl4_x_vidac_2_vout                              -> Net_2523
-  agl4                                             -> Net_2523
-  agl4_x_comp_0_vminus                             -> Net_2523
-  comp_0_vminus                                    -> Net_2523
-  vidac_3_vout                                     -> Net_1978
-  agr4_x_vidac_3_vout                              -> Net_1978
-  agr4                                             -> Net_1978
-  agr4_x_comp_1_vminus                             -> Net_1978
+  agr4_x_comp_1_vplus                              -> Net_1976
+  agr4                                             -> Net_1976
+  agr4_x_vidac_3_vout                              -> Net_1976
+  vidac_3_vout                                     -> Net_1976
+  comp_0_vplus                                     -> \LED_Out_1:Net_2508\
+  agl0_x_comp_0_vplus                              -> \LED_Out_1:Net_2508\
+  agl0                                             -> \LED_Out_1:Net_2508\
+  agl0_x_vidac_0_vout                              -> \LED_Out_1:Net_2508\
+  vidac_0_vout                                     -> \LED_Out_1:Net_2508\
+  vidac_2_vout                                     -> \LED_Out_1:Net_2523\
+  agl4_x_vidac_2_vout                              -> \LED_Out_1:Net_2523\
+  agl4                                             -> \LED_Out_1:Net_2523\
+  agl4_x_comp_0_vminus                             -> \LED_Out_1:Net_2523\
+  comp_0_vminus                                    -> \LED_Out_1:Net_2523\
+  vidac_1_vout                                     -> Net_1978
+  agr0_x_vidac_1_vout                              -> Net_1978
+  agr0                                             -> Net_1978
+  agr0_x_comp_1_vminus                             -> Net_1978
   comp_1_vminus                                    -> Net_1978
 }
 Mux Info {
@@ -2010,7 +2010,7 @@ Dump of CyP35AnalogRoutingResultsDB
 IsVddaHalfUsedForComp = False
 IsVddaHalfUsedForSar0 = False
 IsVddaHalfUsedForSar1 = False
-Analog Code Generation phase: Elapsed time ==> 0s.280ms
+Analog Code Generation phase: Elapsed time ==> 0s.375ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Digital Placement">
 <CYPRESSTAG name="Detailed placement messages">
@@ -2156,14 +2156,14 @@ statuscell: Name =\WAVE_STATUS_HIGH:sts:sts_reg\
 
 controlcell: Name =\STORED_BRIGHTNESS:Sync:ctrl_reg\
     PORT MAP (
-        control_7 => Net_2887_7 ,
-        control_6 => Net_2887_6 ,
-        control_5 => Net_2887_5 ,
-        control_4 => Net_2887_4 ,
-        control_3 => Net_2887_3 ,
-        control_2 => Net_2887_2 ,
-        control_1 => Net_2887_1 ,
-        control_0 => Net_2887_0 );
+        control_7 => Net_3699_7 ,
+        control_6 => Net_3699_6 ,
+        control_5 => Net_3699_5 ,
+        control_4 => Net_3699_4 ,
+        control_3 => Net_3699_3 ,
+        control_2 => Net_3699_2 ,
+        control_1 => Net_3699_1 ,
+        control_0 => Net_3699_0 );
     Properties:
     {
         cy_ctrl_mode_0 = "00000000"
@@ -2187,11 +2187,11 @@ LAB@[UDB=(1,2)][LB=0] #macrocells=4, #inputs=6, #pterms=8
             Clock Enable: True
         Main Equation            : 5 pterms
         (
-              !Net_2703 * Net_2851
+              !Net_2703 * \LED_Out_1:Net_86\
             + Net_2703 * !Net_3181_2 * !Net_3181_1 * !Net_3181_0 * Net_2234
-            + Net_3181_2 * Net_2851
-            + Net_3181_1 * Net_2851
-            + Net_3181_0 * Net_2851
+            + Net_3181_2 * \LED_Out_1:Net_86\
+            + Net_3181_1 * \LED_Out_1:Net_86\
+            + Net_3181_0 * \LED_Out_1:Net_86\
         );
         Output = Net_3194 (fanout=1)
         Properties               : 
@@ -2581,28 +2581,28 @@ Drq container @ [DrqContainer=(0)]:
     drqcell: Name =\BRIGHTNESS_RAMP:Wave2_DMA\
         PORT MAP (
             termin => zero ,
-            termout => Net_3199 );
+            termout => Net_2063 );
         Properties:
         {
             drq_type = "10"
             num_tds = 0
         }
   Dma@ [DrqContainer=(0)][DrqId=(2)] 
-    drqcell: Name =\TRIANGLE_OUT:Wave1_DMA\
+    drqcell: Name =\LED_Out_1:TRIANGLE_OUT:Wave1_DMA\
         PORT MAP (
-            dmareq => Net_2524_local ,
+            dmareq => \LED_Out_1:Net_2524_local\ ,
             termin => zero ,
-            termout => Net_3116 );
+            termout => \LED_Out_1:Net_30\ );
         Properties:
         {
             drq_type = "10"
             num_tds = 0
         }
   Dma@ [DrqContainer=(0)][DrqId=(3)] 
-    drqcell: Name =\TRIANGLE_OUT:Wave2_DMA\
+    drqcell: Name =\LED_Out_1:TRIANGLE_OUT:Wave2_DMA\
         PORT MAP (
             termin => zero ,
-            termout => Net_3117 );
+            termout => \LED_Out_1:Net_31\ );
         Properties:
         {
             drq_type = "10"
@@ -2613,7 +2613,7 @@ Drq container @ [DrqContainer=(0)]:
         PORT MAP (
             dmareq => Net_1945_local ,
             termin => zero ,
-            termout => Net_3195 );
+            termout => Net_3696 );
         Properties:
         {
             drq_type = "10"
@@ -2623,7 +2623,7 @@ Drq container @ [DrqContainer=(0)]:
     drqcell: Name =\TRIANGLE_SEL:Wave2_DMA\
         PORT MAP (
             termin => zero ,
-            termout => Net_3196 );
+            termout => Net_3697 );
         Properties:
         {
             drq_type = "10"
@@ -3212,8 +3212,8 @@ Clock group 0:
             clk_sync => ClockBlock_MASTER_CLK ,
             clk_bus_glb => ClockBlock_BUS_CLK ,
             clk_bus => ClockBlock_BUS_CLK_local ,
-            dclk_glb_0 => Net_2524 ,
-            dclk_0 => Net_2524_local ,
+            dclk_glb_0 => \LED_Out_1:Net_2524\ ,
+            dclk_0 => \LED_Out_1:Net_2524_local\ ,
             dclk_glb_1 => Net_1945 ,
             dclk_1 => Net_1945_local ,
             dclk_glb_2 => Net_3013 ,
@@ -3223,11 +3223,11 @@ Clock group 0:
         }
 Comparator group 0: 
     Comparator Block @ F(Comparator,0): 
-    comparatorcell: Name =\OUT_COMP:ctComp\
+    comparatorcell: Name =\LED_Out_1:OUT_COMP:ctComp\
         PORT MAP (
-            vplus => Net_2508 ,
-            vminus => Net_2523 ,
-            out => Net_2851 );
+            vplus => \LED_Out_1:Net_2508\ ,
+            vminus => \LED_Out_1:Net_2523\ ,
+            out => \LED_Out_1:Net_86\ );
         Properties:
         {
             cy_registers = ""
@@ -3294,19 +3294,19 @@ USB group 0:
         }
 VIDAC group 0: 
     VIDAC Block @ F(VIDAC,0): 
-    vidaccell: Name =\BRIGHTNESS_DAC:viDAC8\
+    vidaccell: Name =\LED_Out_1:BRIGHTNESS_DAC:viDAC8\
         PORT MAP (
-            data_7 => Net_2887_7 ,
-            data_6 => Net_2887_6 ,
-            data_5 => Net_2887_5 ,
-            data_4 => Net_2887_4 ,
-            data_3 => Net_2887_3 ,
-            data_2 => Net_2887_2 ,
-            data_1 => Net_2887_1 ,
-            data_0 => Net_2887_0 ,
-            strobe_udb => Net_2524_local ,
-            vout => Net_2508 ,
-            iout => \BRIGHTNESS_DAC:Net_77\ );
+            data_7 => Net_3699_7 ,
+            data_6 => Net_3699_6 ,
+            data_5 => Net_3699_5 ,
+            data_4 => Net_3699_4 ,
+            data_3 => Net_3699_3 ,
+            data_2 => Net_3699_2 ,
+            data_1 => Net_3699_1 ,
+            data_0 => Net_3699_0 ,
+            strobe_udb => \LED_Out_1:Net_2524_local\ ,
+            vout => \LED_Out_1:Net_2508\ ,
+            iout => \LED_Out_1:BRIGHTNESS_DAC:Net_77\ );
         Properties:
         {
             cy_registers = ""
@@ -3314,11 +3314,11 @@ VIDAC group 0:
             reg_data = 1
         }
     VIDAC Block @ F(VIDAC,1): 
-    vidaccell: Name =\BRIGHTNESS_RAMP:VDAC8:viDAC8\
+    vidaccell: Name =\TRIANGLE_SEL:VDAC8:viDAC8\
         PORT MAP (
-            strobe_udb => Net_3013_local ,
-            vout => Net_1976 ,
-            iout => \BRIGHTNESS_RAMP:VDAC8:Net_77\ );
+            strobe_udb => Net_1945_local ,
+            vout => Net_1978 ,
+            iout => \TRIANGLE_SEL:VDAC8:Net_77\ );
         Properties:
         {
             cy_registers = ""
@@ -3326,11 +3326,11 @@ VIDAC group 0:
             reg_data = 0
         }
     VIDAC Block @ F(VIDAC,2): 
-    vidaccell: Name =\TRIANGLE_OUT:VDAC8:viDAC8\
+    vidaccell: Name =\LED_Out_1:TRIANGLE_OUT:VDAC8:viDAC8\
         PORT MAP (
-            strobe_udb => Net_2524_local ,
-            vout => Net_2523 ,
-            iout => \TRIANGLE_OUT:VDAC8:Net_77\ );
+            strobe_udb => \LED_Out_1:Net_2524_local\ ,
+            vout => \LED_Out_1:Net_2523\ ,
+            iout => \LED_Out_1:TRIANGLE_OUT:VDAC8:Net_77\ );
         Properties:
         {
             cy_registers = ""
@@ -3338,11 +3338,11 @@ VIDAC group 0:
             reg_data = 0
         }
     VIDAC Block @ F(VIDAC,3): 
-    vidaccell: Name =\TRIANGLE_SEL:VDAC8:viDAC8\
+    vidaccell: Name =\BRIGHTNESS_RAMP:VDAC8:viDAC8\
         PORT MAP (
-            strobe_udb => Net_1945_local ,
-            vout => Net_1978 ,
-            iout => \TRIANGLE_SEL:VDAC8:Net_77\ );
+            strobe_udb => Net_3013_local ,
+            vout => Net_1976 ,
+            iout => \BRIGHTNESS_RAMP:VDAC8:Net_77\ );
         Properties:
         {
             cy_registers = ""
@@ -3382,31 +3382,31 @@ Port | Pin | Fixed |      Type |       Drive Mode |        Name | Connections
 </CYPRESSTAG>
 </CYPRESSTAG>
 Digital component placer commit/Report: Elapsed time ==> 0s.000ms
-Digital Placement phase: Elapsed time ==> 0s.797ms
+Digital Placement phase: Elapsed time ==> 0s.765ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Digital Routing">
 Routing successful.
-Digital Routing phase: Elapsed time ==> 1s.405ms
+Digital Routing phase: Elapsed time ==> 1s.468ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Bitstream and API generation">
-Bitstream and API generation phase: Elapsed time ==> 0s.187ms
+Bitstream and API generation phase: Elapsed time ==> 0s.203ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Bitstream verification">
 Bitstream verification phase: Elapsed time ==> 0s.031ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Static timing analysis">
 Timing report is in MIDI_EXAMPLE_timing.html.
-Static timing analysis phase: Elapsed time ==> 0s.280ms
+Static timing analysis phase: Elapsed time ==> 0s.297ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Data reporting">
 Data reporting phase: Elapsed time ==> 0s.000ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Database update...">
-Design database save phase: Elapsed time ==> 0s.140ms
+Design database save phase: Elapsed time ==> 0s.156ms
 </CYPRESSTAG>
-cydsfit: Elapsed time ==> 4s.172ms
+cydsfit: Elapsed time ==> 4s.343ms
 </CYPRESSTAG>
-Fitter phase: Elapsed time ==> 4s.203ms
-API generation phase: Elapsed time ==> 2s.405ms
+Fitter phase: Elapsed time ==> 4s.375ms
+API generation phase: Elapsed time ==> 2s.296ms
 Dependency generation phase: Elapsed time ==> 0s.031ms
 Cleanup phase: Elapsed time ==> 0s.015ms

@@ -112,10 +112,8 @@ int main()
     BRIGHTNESS_RAMP_Start();
     TRIANGLE_SEL_Start();
     RAMP_COMP_Start();
-        
-    TRIANGLE_OUT_Start();
-    BRIGHTNESS_DAC_Start();
-    OUT_COMP_Start();
+    
+    LED_Out_1_Start();
     
     //WAVETABLE_COUNTER_Start();
     
