@@ -1,10 +1,10 @@
-Loading plugins phase: Elapsed time ==> 0s.296ms
+Loading plugins phase: Elapsed time ==> 0s.249ms
 Initializing data phase: Elapsed time ==> 0s.000ms
 <CYPRESSTAG name="CyDsfit arguments...">
 cydsfit arguments: -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -p \\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\MIDI_EXAMPLE.cyprj -d CY8C5888LTI-LP097 -s \\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\Generated_Source\PSoC5 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE</CYPRESSTAG>
 <CYPRESSTAG name="Design elaboration results...">
 </CYPRESSTAG>
-Elaboration phase: Elapsed time ==> 2s.000ms
+Elaboration phase: Elapsed time ==> 2s.031ms
 <CYPRESSTAG name="HDL generation results...">
 </CYPRESSTAG>
 HDL generation phase: Elapsed time ==> 0s.078ms
@@ -41,7 +41,7 @@ Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=\\Mac\Home\Doc
 ======================================================================
 
 vlogfe V6.3 IR 41:  Verilog parser
-Wed Nov 18 22:39:40 2020
+Wed Nov 18 23:59:16 2020
 
 
 ======================================================================
@@ -51,7 +51,7 @@ Options  :    -yv2 -q10 MIDI_EXAMPLE.v
 ======================================================================
 
 vpp V6.3 IR 41:  Verilog Pre-Processor
-Wed Nov 18 22:39:40 2020
+Wed Nov 18 23:59:16 2020
 
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_80\CyControlReg_v1_80.v'
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cypress.v'
@@ -67,7 +67,6 @@ Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\ps
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\not_v1_0\not_v1_0.v'
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\BasicCounter_v1_0\BasicCounter_v1_0.v'
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cypress.v'
-Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\DigitalComp_v1_0\DigitalComp_v1_0.v'
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyStatusReg_v1_90\CyStatusReg_v1_90.v'
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cypress.v'
 
@@ -87,7 +86,6 @@ Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\c
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
 Using control file 'MIDI_EXAMPLE.ctl'.
 C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\BasicCounter_v1_0\BasicCounter_v1_0.v (line 59, col 28):  Note: Substituting module 'add_vi_vv' for '+'.
-MIDI_EXAMPLE.v (line 2462, col 55):  Note: Substituting module 'cmp_vv_vv' for '='.
 
 vlogfe:  No errors.
 
@@ -99,7 +97,7 @@ Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=\\Mac\Home\Doc
 ======================================================================
 
 tovif V6.3 IR 41:  High-level synthesis
-Wed Nov 18 22:39:40 2020
+Wed Nov 18 23:59:16 2020
 
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\std.vhd'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cypress.vhd'.
@@ -125,10 +123,8 @@ Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\conte
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\and_v1_0\and_v1_0.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\not_v1_0\not_v1_0.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\BasicCounter_v1_0\BasicCounter_v1_0.v'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\DigitalComp_v1_0\DigitalComp_v1_0.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyStatusReg_v1_90\CyStatusReg_v1_90.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\lcpsoc3\stdlogic\mod_cnst.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\stdlogic\mcompare.vif'.
 
 tovif:  No errors.
 
@@ -140,7 +136,7 @@ Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=\\Mac\Home\Doc
 ======================================================================
 
 topld V6.3 IR 41:  Synthesis and optimization
-Wed Nov 18 22:39:41 2020
+Wed Nov 18 23:59:16 2020
 
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\std.vhd'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cypress.vhd'.
@@ -166,23 +162,21 @@ Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\conte
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\and_v1_0\and_v1_0.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\not_v1_0\not_v1_0.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\BasicCounter_v1_0\BasicCounter_v1_0.v'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\DigitalComp_v1_0\DigitalComp_v1_0.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyStatusReg_v1_90\CyStatusReg_v1_90.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\lcpsoc3\stdlogic\mod_cnst.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\stdlogic\mcompare.vif'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\lcpsoc3\stdlogic\cpsoc3.vif'.
 
 ----------------------------------------------------------
 Detecting unused logic.
 ----------------------------------------------------------
     User names
-	Net_2895
-	Net_2896
-	Net_2897
-	Net_2898
-	Net_2899
-	Net_2900
-	Net_2901
+	Net_3100
+	Net_3101
+	Net_3102
+	Net_3103
+	Net_3104
+	Net_3105
+	Net_3106
 	\USB:dma_complete_0\
 	\USB:Net_1922\
 	\USB:dma_complete_1\
@@ -223,7 +217,7 @@ Detecting unused logic.
 	\BRIGHTNESS_RAMP:Net_280\
 	\BRIGHTNESS_RAMP:Net_80\
 	\demux_1:tmp__demux_1_0_reg\
-	Net_2904
+	Net_3109
 	\TRIANGLE_SEL:Net_280\
 	\TRIANGLE_SEL:Net_80\
 	\RAMP_COMP:Net_9\
@@ -330,68 +324,20 @@ Detecting unused logic.
 	\OUT_COMP:Net_9\
 	\TRIANGLE_OUT:Net_280\
 	\TRIANGLE_OUT:Net_80\
-	Net_2876_2
-	Net_2876_1
-	Net_2876_0
-	Net_2913_7
-	Net_2913_6
-	Net_2913_5
-	Net_2913_4
-	Net_2913_3
-	Net_2913_2
-	Net_2913_1
-	Net_2913_0
-	Net_2924
-	\MODULE_2:g1:a0:newa_2\
-	\MODULE_2:g1:a0:newa_1\
-	\MODULE_2:g1:a0:newa_0\
-	\MODULE_2:g1:a0:newb_2\
-	\MODULE_2:g1:a0:newb_1\
-	\MODULE_2:g1:a0:newb_0\
-	\MODULE_2:g1:a0:dataa_2\
-	\MODULE_2:g1:a0:dataa_1\
-	\MODULE_2:g1:a0:dataa_0\
-	\MODULE_2:g1:a0:datab_2\
-	\MODULE_2:g1:a0:datab_1\
-	\MODULE_2:g1:a0:datab_0\
-	\MODULE_2:g1:a0:gx:u0:a_2\
-	\MODULE_2:g1:a0:gx:u0:a_1\
-	\MODULE_2:g1:a0:gx:u0:a_0\
-	\MODULE_2:g1:a0:gx:u0:b_2\
-	\MODULE_2:g1:a0:gx:u0:b_1\
-	\MODULE_2:g1:a0:gx:u0:b_0\
-	\MODULE_2:g1:a0:gx:u0:xnor_array_2\
-	\MODULE_2:g1:a0:gx:u0:xnor_array_1\
-	\MODULE_2:g1:a0:gx:u0:xnor_array_0\
-	\MODULE_2:g1:a0:gx:u0:aeqb_0\
-	\MODULE_2:g1:a0:gx:u0:eq_0\
-	\MODULE_2:g1:a0:gx:u0:eq_1\
-	\MODULE_2:g1:a0:gx:u0:eq_2\
-	\MODULE_2:g1:a0:gx:u0:eqi_0\
-	\MODULE_2:g1:a0:gx:u0:aeqb_1\
-	\MODULE_2:g1:a0:gx:u0:albi_1\
-	\MODULE_2:g1:a0:gx:u0:agbi_1\
-	\MODULE_2:g1:a0:gx:u0:lt_0\
-	\MODULE_2:g1:a0:gx:u0:gt_0\
-	\MODULE_2:g1:a0:gx:u0:lt_1\
-	\MODULE_2:g1:a0:gx:u0:gt_1\
-	\MODULE_2:g1:a0:gx:u0:lt_2\
-	\MODULE_2:g1:a0:gx:u0:gt_2\
-	\MODULE_2:g1:a0:gx:u0:lti_0\
-	\MODULE_2:g1:a0:gx:u0:gti_0\
-	\MODULE_2:g1:a0:gx:u0:albi_0\
-	\MODULE_2:g1:a0:gx:u0:agbi_0\
-	\MODULE_2:g1:a0:xeq\
-	\MODULE_2:g1:a0:xneq\
-	\MODULE_2:g1:a0:xlt\
-	\MODULE_2:g1:a0:xlte\
-	\MODULE_2:g1:a0:xgt\
-	\MODULE_2:g1:a0:xgte\
-	\MODULE_2:lt\
-	\MODULE_2:gt\
-	\MODULE_2:gte\
-	\MODULE_2:lte\
-	\MODULE_2:neq\
+	\demux_2:tmp__demux_2_1_reg\
+	\demux_2:tmp__demux_2_2_reg\
+	\demux_2:tmp__demux_2_3_reg\
+	\demux_2:tmp__demux_2_4_reg\
+	\demux_2:tmp__demux_2_5_reg\
+	\demux_2:tmp__demux_2_6_reg\
+	\demux_2:tmp__demux_2_7_reg\
+	Net_3172
+	Net_3173
+	Net_3174
+	Net_3175
+	Net_3176
+	Net_3177
+	Net_3178
 
     Synthesized names
 	\WAVETABLE_COUNTER:add_vi_vv_MODGEN_1_31\
@@ -415,16 +361,9 @@ Detecting unused logic.
 	\WAVETABLE_COUNTER:add_vi_vv_MODGEN_1_13\
 	\WAVETABLE_COUNTER:add_vi_vv_MODGEN_1_12\
 	\WAVETABLE_COUNTER:add_vi_vv_MODGEN_1_11\
-	cmp_vv_vv_MODGEN_2
-	MODIN2_2
-	MODIN2_1
-	MODIN2_0
-	MODIN3_2
-	MODIN3_1
-	MODIN3_0
 
-Deleted 216 User equations/components.
-Deleted 28 Synthesized equations/components.
+Deleted 168 User equations/components.
+Deleted 21 Synthesized equations/components.
 
 ------------------------------------------------------
 Alias Detection
@@ -474,7 +413,7 @@ Aliasing \BRIGHTNESS_DAC:Net_83\ to zero
 Aliasing \BRIGHTNESS_DAC:Net_81\ to zero
 Aliasing \BRIGHTNESS_DAC:Net_82\ to zero
 Aliasing \OUT_COMP:clock\ to zero
-Aliasing Net_2910 to zero
+Aliasing Net_3115 to zero
 Aliasing \TRIANGLE_OUT:VDAC8:Net_83\ to zero
 Aliasing \TRIANGLE_OUT:VDAC8:Net_81\ to zero
 Aliasing \TRIANGLE_OUT:VDAC8:Net_82\ to zero
@@ -514,12 +453,12 @@ Removing Lhs of wire \MIDI_NOTES_REG:clk\[131] = zero[2]
 Removing Lhs of wire \MIDI_NOTES_REG:rst\[132] = zero[2]
 Removing Lhs of wire \MIDI_BIN_REG:clk\[158] = zero[2]
 Removing Lhs of wire \MIDI_BIN_REG:rst\[159] = zero[2]
-Removing Rhs of wire Net_2706_2[170] = \MIDI_BIN_REG:control_out_2\[171]
-Removing Rhs of wire Net_2706_2[170] = \MIDI_BIN_REG:control_2\[182]
-Removing Rhs of wire Net_2706_1[172] = \MIDI_BIN_REG:control_out_1\[173]
-Removing Rhs of wire Net_2706_1[172] = \MIDI_BIN_REG:control_1\[183]
-Removing Rhs of wire Net_2706_0[174] = \MIDI_BIN_REG:control_out_0\[175]
-Removing Rhs of wire Net_2706_0[174] = \MIDI_BIN_REG:control_0\[184]
+Removing Rhs of wire Net_3181_2[170] = \MIDI_BIN_REG:control_out_2\[171]
+Removing Rhs of wire Net_3181_2[170] = \MIDI_BIN_REG:control_2\[182]
+Removing Rhs of wire Net_3181_1[172] = \MIDI_BIN_REG:control_out_1\[173]
+Removing Rhs of wire Net_3181_1[172] = \MIDI_BIN_REG:control_1\[183]
+Removing Rhs of wire Net_3181_0[174] = \MIDI_BIN_REG:control_out_0\[175]
+Removing Rhs of wire Net_3181_0[174] = \MIDI_BIN_REG:control_0\[184]
 Removing Lhs of wire tmpOE__LED_7_net_0[186] = tmpOE__SW2_net_0[1]
 Removing Rhs of wire Net_2004[187] = \demux_1:tmp__demux_1_6_reg\[258]
 Removing Lhs of wire tmpOE__LED_4_net_0[193] = tmpOE__SW2_net_0[1]
@@ -527,7 +466,6 @@ Removing Rhs of wire Net_1478[194] = \demux_1:tmp__demux_1_3_reg\[255]
 Removing Lhs of wire tmpOE__LED_2_net_0[200] = tmpOE__SW2_net_0[1]
 Removing Rhs of wire Net_1999[201] = \demux_1:tmp__demux_1_1_reg\[253]
 Removing Lhs of wire tmpOE__LED_1_net_0[207] = tmpOE__SW2_net_0[1]
-Removing Rhs of wire Net_2851[208] = \OUT_COMP:Net_1\[543]
 Removing Lhs of wire Net_1962[215] = zero[2]
 Removing Rhs of wire \BRIGHTNESS_RAMP:Net_183\[226] = \BRIGHTNESS_RAMP:demux:tmp__demux_0_reg\[231]
 Removing Rhs of wire \BRIGHTNESS_RAMP:Net_107\[229] = \BRIGHTNESS_RAMP:demux:tmp__demux_1_reg\[234]
@@ -548,106 +486,108 @@ Removing Lhs of wire \TRIANGLE_SEL:VDAC8:Net_81\[283] = zero[2]
 Removing Lhs of wire \TRIANGLE_SEL:VDAC8:Net_82\[284] = zero[2]
 Removing Lhs of wire \RAMP_COMP:clock\[294] = zero[2]
 Removing Lhs of wire tmpOE__LED_8_net_0[298] = tmpOE__SW2_net_0[1]
-Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_1_10\[304] = \WAVETABLE_COUNTER:MODULE_1:g2:a0:s_10\[474]
-Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_1_9\[306] = \WAVETABLE_COUNTER:MODULE_1:g2:a0:s_9\[475]
-Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_1_8\[308] = \WAVETABLE_COUNTER:MODULE_1:g2:a0:s_8\[476]
-Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_1_7\[310] = \WAVETABLE_COUNTER:MODULE_1:g2:a0:s_7\[477]
-Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_1_6\[312] = \WAVETABLE_COUNTER:MODULE_1:g2:a0:s_6\[478]
-Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_1_5\[314] = \WAVETABLE_COUNTER:MODULE_1:g2:a0:s_5\[479]
-Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_1_4\[316] = \WAVETABLE_COUNTER:MODULE_1:g2:a0:s_4\[480]
-Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_1_3\[318] = \WAVETABLE_COUNTER:MODULE_1:g2:a0:s_3\[481]
-Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_1_2\[320] = \WAVETABLE_COUNTER:MODULE_1:g2:a0:s_2\[482]
-Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_1_1\[322] = \WAVETABLE_COUNTER:MODULE_1:g2:a0:s_1\[483]
-Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_1_0\[324] = \WAVETABLE_COUNTER:MODULE_1:g2:a0:s_0\[484]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_23\[365] = zero[2]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_22\[366] = zero[2]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_21\[367] = zero[2]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_20\[368] = zero[2]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_19\[369] = zero[2]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_18\[370] = zero[2]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_17\[371] = zero[2]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_16\[372] = zero[2]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_15\[373] = zero[2]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_14\[374] = zero[2]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_13\[375] = zero[2]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_12\[376] = zero[2]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_11\[377] = zero[2]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_10\[378] = \WAVETABLE_COUNTER:MODIN1_10\[379]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODIN1_10\[379] = Net_2965_10[303]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_9\[380] = \WAVETABLE_COUNTER:MODIN1_9\[381]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODIN1_9\[381] = Net_2965_9[305]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_8\[382] = \WAVETABLE_COUNTER:MODIN1_8\[383]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODIN1_8\[383] = Net_2965_8[307]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_7\[384] = \WAVETABLE_COUNTER:MODIN1_7\[385]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODIN1_7\[385] = Net_2965_7[309]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_6\[386] = \WAVETABLE_COUNTER:MODIN1_6\[387]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODIN1_6\[387] = Net_2965_6[311]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_5\[388] = \WAVETABLE_COUNTER:MODIN1_5\[389]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODIN1_5\[389] = Net_2965_5[313]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_4\[390] = \WAVETABLE_COUNTER:MODIN1_4\[391]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODIN1_4\[391] = Net_2965_4[315]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_3\[392] = \WAVETABLE_COUNTER:MODIN1_3\[393]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODIN1_3\[393] = Net_2965_3[317]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_2\[394] = \WAVETABLE_COUNTER:MODIN1_2\[395]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODIN1_2\[395] = Net_2965_2[319]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_1\[396] = \WAVETABLE_COUNTER:MODIN1_1\[397]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODIN1_1\[397] = Net_2965_1[321]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_0\[398] = \WAVETABLE_COUNTER:MODIN1_0\[399]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODIN1_0\[399] = Net_2965_0[323]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_0\[522] = tmpOE__SW2_net_0[1]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_0\[523] = tmpOE__SW2_net_0[1]
-Removing Lhs of wire \BRIGHTNESS_DAC:Net_83\[525] = zero[2]
-Removing Lhs of wire \BRIGHTNESS_DAC:Net_81\[526] = zero[2]
-Removing Lhs of wire \BRIGHTNESS_DAC:Net_82\[527] = zero[2]
-Removing Rhs of wire Net_2887_7[528] = \STORED_BRIGHTNESS:control_out_7\[590]
-Removing Rhs of wire Net_2887_7[528] = \STORED_BRIGHTNESS:control_7\[599]
-Removing Rhs of wire Net_2887_6[529] = \STORED_BRIGHTNESS:control_out_6\[591]
-Removing Rhs of wire Net_2887_6[529] = \STORED_BRIGHTNESS:control_6\[600]
-Removing Rhs of wire Net_2887_5[530] = \STORED_BRIGHTNESS:control_out_5\[592]
-Removing Rhs of wire Net_2887_5[530] = \STORED_BRIGHTNESS:control_5\[601]
-Removing Rhs of wire Net_2887_4[531] = \STORED_BRIGHTNESS:control_out_4\[593]
-Removing Rhs of wire Net_2887_4[531] = \STORED_BRIGHTNESS:control_4\[602]
-Removing Rhs of wire Net_2887_3[532] = \STORED_BRIGHTNESS:control_out_3\[594]
-Removing Rhs of wire Net_2887_3[532] = \STORED_BRIGHTNESS:control_3\[603]
-Removing Rhs of wire Net_2887_2[533] = \STORED_BRIGHTNESS:control_out_2\[595]
-Removing Rhs of wire Net_2887_2[533] = \STORED_BRIGHTNESS:control_2\[604]
-Removing Rhs of wire Net_2887_1[534] = \STORED_BRIGHTNESS:control_out_1\[596]
-Removing Rhs of wire Net_2887_1[534] = \STORED_BRIGHTNESS:control_1\[605]
-Removing Rhs of wire Net_2887_0[535] = \STORED_BRIGHTNESS:control_out_0\[597]
-Removing Rhs of wire Net_2887_0[535] = \STORED_BRIGHTNESS:control_0\[606]
-Removing Lhs of wire \OUT_COMP:clock\[542] = zero[2]
-Removing Lhs of wire Net_2910[546] = zero[2]
-Removing Rhs of wire \TRIANGLE_OUT:Net_183\[557] = \TRIANGLE_OUT:demux:tmp__demux_0_reg\[562]
-Removing Rhs of wire \TRIANGLE_OUT:Net_107\[560] = \TRIANGLE_OUT:demux:tmp__demux_1_reg\[565]
-Removing Rhs of wire \TRIANGLE_OUT:Net_134\[563] = \TRIANGLE_OUT:cydff_1\[576]
-Removing Lhs of wire \TRIANGLE_OUT:Net_336\[564] = Net_2524[536]
-Removing Lhs of wire \TRIANGLE_OUT:VDAC8:Net_83\[567] = zero[2]
-Removing Lhs of wire \TRIANGLE_OUT:VDAC8:Net_81\[568] = zero[2]
-Removing Lhs of wire \TRIANGLE_OUT:VDAC8:Net_82\[569] = zero[2]
-Removing Lhs of wire \STORED_BRIGHTNESS:clk\[588] = zero[2]
-Removing Lhs of wire \STORED_BRIGHTNESS:rst\[589] = zero[2]
-Removing Lhs of wire \WAVE_STATUS_LOW:status_7\[609] = Net_2965_7[309]
-Removing Lhs of wire \WAVE_STATUS_LOW:status_6\[610] = Net_2965_6[311]
-Removing Lhs of wire \WAVE_STATUS_LOW:status_5\[611] = Net_2965_5[313]
-Removing Lhs of wire \WAVE_STATUS_LOW:status_4\[612] = Net_2965_4[315]
-Removing Lhs of wire \WAVE_STATUS_LOW:status_3\[613] = Net_2965_3[317]
-Removing Lhs of wire \WAVE_STATUS_LOW:status_2\[614] = Net_2965_2[319]
-Removing Lhs of wire \WAVE_STATUS_LOW:status_1\[615] = Net_2965_1[321]
-Removing Lhs of wire \WAVE_STATUS_LOW:status_0\[616] = Net_2965_0[323]
-Removing Lhs of wire \WAVE_STATUS_HIGH:status_7\[618] = zero[2]
-Removing Lhs of wire \WAVE_STATUS_HIGH:status_6\[619] = zero[2]
-Removing Lhs of wire \WAVE_STATUS_HIGH:status_5\[620] = zero[2]
-Removing Lhs of wire \WAVE_STATUS_HIGH:status_4\[621] = zero[2]
-Removing Lhs of wire \WAVE_STATUS_HIGH:status_3\[622] = zero[2]
-Removing Lhs of wire \WAVE_STATUS_HIGH:status_2\[623] = Net_2965_10[303]
-Removing Lhs of wire \WAVE_STATUS_HIGH:status_1\[624] = Net_2965_9[305]
-Removing Lhs of wire \WAVE_STATUS_HIGH:status_0\[625] = Net_2965_8[307]
-Removing Lhs of wire \BRIGHTNESS_RAMP:cydff_1\\D\[683] = zero[2]
-Removing Lhs of wire \TRIANGLE_SEL:cydff_1\\D\[684] = zero[2]
-Removing Lhs of wire \TRIANGLE_OUT:cydff_1\\D\[696] = zero[2]
+Removing Rhs of wire Net_3193[304] = \demux_2:tmp__demux_2_0_reg\[582]
+Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_1_10\[306] = \WAVETABLE_COUNTER:MODULE_1:g2:a0:s_10\[476]
+Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_1_9\[308] = \WAVETABLE_COUNTER:MODULE_1:g2:a0:s_9\[477]
+Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_1_8\[310] = \WAVETABLE_COUNTER:MODULE_1:g2:a0:s_8\[478]
+Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_1_7\[312] = \WAVETABLE_COUNTER:MODULE_1:g2:a0:s_7\[479]
+Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_1_6\[314] = \WAVETABLE_COUNTER:MODULE_1:g2:a0:s_6\[480]
+Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_1_5\[316] = \WAVETABLE_COUNTER:MODULE_1:g2:a0:s_5\[481]
+Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_1_4\[318] = \WAVETABLE_COUNTER:MODULE_1:g2:a0:s_4\[482]
+Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_1_3\[320] = \WAVETABLE_COUNTER:MODULE_1:g2:a0:s_3\[483]
+Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_1_2\[322] = \WAVETABLE_COUNTER:MODULE_1:g2:a0:s_2\[484]
+Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_1_1\[324] = \WAVETABLE_COUNTER:MODULE_1:g2:a0:s_1\[485]
+Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_1_0\[326] = \WAVETABLE_COUNTER:MODULE_1:g2:a0:s_0\[486]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_23\[367] = zero[2]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_22\[368] = zero[2]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_21\[369] = zero[2]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_20\[370] = zero[2]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_19\[371] = zero[2]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_18\[372] = zero[2]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_17\[373] = zero[2]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_16\[374] = zero[2]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_15\[375] = zero[2]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_14\[376] = zero[2]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_13\[377] = zero[2]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_12\[378] = zero[2]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_11\[379] = zero[2]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_10\[380] = \WAVETABLE_COUNTER:MODIN1_10\[381]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODIN1_10\[381] = Net_2965_10[305]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_9\[382] = \WAVETABLE_COUNTER:MODIN1_9\[383]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODIN1_9\[383] = Net_2965_9[307]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_8\[384] = \WAVETABLE_COUNTER:MODIN1_8\[385]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODIN1_8\[385] = Net_2965_8[309]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_7\[386] = \WAVETABLE_COUNTER:MODIN1_7\[387]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODIN1_7\[387] = Net_2965_7[311]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_6\[388] = \WAVETABLE_COUNTER:MODIN1_6\[389]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODIN1_6\[389] = Net_2965_6[313]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_5\[390] = \WAVETABLE_COUNTER:MODIN1_5\[391]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODIN1_5\[391] = Net_2965_5[315]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_4\[392] = \WAVETABLE_COUNTER:MODIN1_4\[393]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODIN1_4\[393] = Net_2965_4[317]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_3\[394] = \WAVETABLE_COUNTER:MODIN1_3\[395]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODIN1_3\[395] = Net_2965_3[319]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_2\[396] = \WAVETABLE_COUNTER:MODIN1_2\[397]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODIN1_2\[397] = Net_2965_2[321]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_1\[398] = \WAVETABLE_COUNTER:MODIN1_1\[399]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODIN1_1\[399] = Net_2965_1[323]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:a_0\[400] = \WAVETABLE_COUNTER:MODIN1_0\[401]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODIN1_0\[401] = Net_2965_0[325]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_0\[524] = tmpOE__SW2_net_0[1]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_0\[525] = tmpOE__SW2_net_0[1]
+Removing Lhs of wire \BRIGHTNESS_DAC:Net_83\[528] = zero[2]
+Removing Lhs of wire \BRIGHTNESS_DAC:Net_81\[529] = zero[2]
+Removing Lhs of wire \BRIGHTNESS_DAC:Net_82\[530] = zero[2]
+Removing Rhs of wire Net_2887_7[531] = \STORED_BRIGHTNESS:control_out_7\[599]
+Removing Rhs of wire Net_2887_7[531] = \STORED_BRIGHTNESS:control_7\[608]
+Removing Rhs of wire Net_2887_6[532] = \STORED_BRIGHTNESS:control_out_6\[600]
+Removing Rhs of wire Net_2887_6[532] = \STORED_BRIGHTNESS:control_6\[609]
+Removing Rhs of wire Net_2887_5[533] = \STORED_BRIGHTNESS:control_out_5\[601]
+Removing Rhs of wire Net_2887_5[533] = \STORED_BRIGHTNESS:control_5\[610]
+Removing Rhs of wire Net_2887_4[534] = \STORED_BRIGHTNESS:control_out_4\[602]
+Removing Rhs of wire Net_2887_4[534] = \STORED_BRIGHTNESS:control_4\[611]
+Removing Rhs of wire Net_2887_3[535] = \STORED_BRIGHTNESS:control_out_3\[603]
+Removing Rhs of wire Net_2887_3[535] = \STORED_BRIGHTNESS:control_3\[612]
+Removing Rhs of wire Net_2887_2[536] = \STORED_BRIGHTNESS:control_out_2\[604]
+Removing Rhs of wire Net_2887_2[536] = \STORED_BRIGHTNESS:control_2\[613]
+Removing Rhs of wire Net_2887_1[537] = \STORED_BRIGHTNESS:control_out_1\[605]
+Removing Rhs of wire Net_2887_1[537] = \STORED_BRIGHTNESS:control_1\[614]
+Removing Rhs of wire Net_2887_0[538] = \STORED_BRIGHTNESS:control_out_0\[606]
+Removing Rhs of wire Net_2887_0[538] = \STORED_BRIGHTNESS:control_0\[615]
+Removing Lhs of wire \OUT_COMP:clock\[545] = zero[2]
+Removing Rhs of wire Net_2851[547] = \OUT_COMP:Net_1\[546]
+Removing Lhs of wire Net_3115[550] = zero[2]
+Removing Rhs of wire \TRIANGLE_OUT:Net_183\[561] = \TRIANGLE_OUT:demux:tmp__demux_0_reg\[566]
+Removing Rhs of wire \TRIANGLE_OUT:Net_107\[564] = \TRIANGLE_OUT:demux:tmp__demux_1_reg\[569]
+Removing Rhs of wire \TRIANGLE_OUT:Net_134\[567] = \TRIANGLE_OUT:cydff_1\[580]
+Removing Lhs of wire \TRIANGLE_OUT:Net_336\[568] = Net_2524[539]
+Removing Lhs of wire \TRIANGLE_OUT:VDAC8:Net_83\[571] = zero[2]
+Removing Lhs of wire \TRIANGLE_OUT:VDAC8:Net_81\[572] = zero[2]
+Removing Lhs of wire \TRIANGLE_OUT:VDAC8:Net_82\[573] = zero[2]
+Removing Lhs of wire \STORED_BRIGHTNESS:clk\[597] = zero[2]
+Removing Lhs of wire \STORED_BRIGHTNESS:rst\[598] = zero[2]
+Removing Lhs of wire \WAVE_STATUS_LOW:status_7\[616] = Net_2965_7[311]
+Removing Lhs of wire \WAVE_STATUS_LOW:status_6\[617] = Net_2965_6[313]
+Removing Lhs of wire \WAVE_STATUS_LOW:status_5\[618] = Net_2965_5[315]
+Removing Lhs of wire \WAVE_STATUS_LOW:status_4\[619] = Net_2965_4[317]
+Removing Lhs of wire \WAVE_STATUS_LOW:status_3\[620] = Net_2965_3[319]
+Removing Lhs of wire \WAVE_STATUS_LOW:status_2\[621] = Net_2965_2[321]
+Removing Lhs of wire \WAVE_STATUS_LOW:status_1\[622] = Net_2965_1[323]
+Removing Lhs of wire \WAVE_STATUS_LOW:status_0\[623] = Net_2965_0[325]
+Removing Lhs of wire \WAVE_STATUS_HIGH:status_7\[625] = zero[2]
+Removing Lhs of wire \WAVE_STATUS_HIGH:status_6\[626] = zero[2]
+Removing Lhs of wire \WAVE_STATUS_HIGH:status_5\[627] = zero[2]
+Removing Lhs of wire \WAVE_STATUS_HIGH:status_4\[628] = zero[2]
+Removing Lhs of wire \WAVE_STATUS_HIGH:status_3\[629] = zero[2]
+Removing Lhs of wire \WAVE_STATUS_HIGH:status_2\[630] = Net_2965_10[305]
+Removing Lhs of wire \WAVE_STATUS_HIGH:status_1\[631] = Net_2965_9[307]
+Removing Lhs of wire \WAVE_STATUS_HIGH:status_0\[632] = Net_2965_8[309]
+Removing Lhs of wire \BRIGHTNESS_RAMP:cydff_1\\D\[634] = zero[2]
+Removing Lhs of wire \TRIANGLE_SEL:cydff_1\\D\[635] = zero[2]
+Removing Lhs of wire \TRIANGLE_OUT:cydff_1\\D\[647] = zero[2]
 
 ------------------------------------------------------
-Aliased 0 equations, 149 wires.
+Aliased 0 equations, 150 wires.
 ------------------------------------------------------
 
 ----------------------------------------------------------
@@ -665,6 +605,9 @@ zero <=  ('0') ;
 Note:  Expanding virtual equation for 'Net_1996' (cost = 7):
 Net_1996 <= ((Net_2703 and Net_2234));
 
+Note:  Expanding virtual equation for 'Net_3193' (cost = 5):
+Net_3193 <= ((not Net_3181_2 and not Net_3181_1 and not Net_3181_0 and Net_2703));
+
 Note:  Expanding virtual equation for '\WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_9\' (cost = 4):
 \WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_9\ <= ((Net_2965_8 and \WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_8\));
 
@@ -681,8 +624,23 @@ Note:  Expanding virtual equation for '\WAVETABLE_COUNTER:MODULE_1:g2:a0:s_0\' (
 Note:  Expanding virtual equation for '\WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_17\' (cost = 0):
 \WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_17\ <=  ('0') ;
 
+Note:  Expanding virtual equation for 'Net_3185' (cost = 4):
+Net_3185 <= (not Net_2703
+	OR Net_3181_2
+	OR Net_3181_1
+	OR Net_3181_0);
+
 
 Substituting virtuals - pass 2:
+
+Note:  Expanding virtual equation for 'Net_3188' (cost = 1):
+Net_3188 <= ((not Net_3181_2 and not Net_3181_1 and not Net_3181_0 and Net_2703 and Net_2234));
+
+Note:  Expanding virtual equation for 'Net_3187' (cost = 4):
+Net_3187 <= ((not Net_2703 and Net_2851)
+	OR (Net_3181_2 and Net_2851)
+	OR (Net_3181_1 and Net_2851)
+	OR (Net_3181_0 and Net_2851));
 
 Note:  Expanding virtual equation for '\WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_10\' (cost = 5):
 \WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_10\ <= ((Net_2965_9 and Net_2965_8 and \WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_8\));
@@ -823,7 +781,7 @@ Substituting virtuals - pass 9:
 ----------------------------------------------------------
 Circuit simplification results:
 
-	Expanded 35 signals.
+	Expanded 39 signals.
 	Turned 0 signals into soft nodes.
 	Maximum default expansion cost was set at 3.
 ----------------------------------------------------------
@@ -833,8 +791,8 @@ Alias Detection
 ------------------------------------------------------
 Aliasing \WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_24\ to zero
 Aliasing \WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_16\ to zero
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_24\[493] = zero[2]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_16\[503] = zero[2]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_24\[495] = zero[2]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_16\[505] = zero[2]
 
 ------------------------------------------------------
 Aliased 0 equations, 2 wires.
@@ -870,7 +828,7 @@ Warp Arguments : -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya "-.fftprj=\\Mac\Home
 Warp synthesis phase: Elapsed time ==> 0s.937ms
 <CYPRESSTAG name="Fitter results...">
 <CYPRESSTAG name="Fitter startup details...">
-cyp3fit: V3.3.0.9604, Family: PSoC3, Started at: Wednesday, 18 November 2020 22:39:41
+cyp3fit: V3.3.0.9604, Family: PSoC3, Started at: Wednesday, 18 November 2020 23:59:17
 Options: -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\MIDI_EXAMPLE.cyprj -d CY8C5888LTI-LP097 MIDI_EXAMPLE.v -verilog
 </CYPRESSTAG>
 <CYPRESSTAG name="Design parsing">
@@ -1344,7 +1302,7 @@ Design Equations
             IO Voltage: 0
         PORT MAP (
             pa_out => LED_1(0)__PA ,
-            input => Net_2851 ,
+            input => Net_3194 ,
             pad => LED_1(0)_PAD );
         Properties:
         {
@@ -1402,7 +1360,7 @@ Design Equations
             Clock Enable: True
         Main Equation            : 1 pterm
         (
-              Net_2703 * !Net_2706_2 * !Net_2706_1 * Net_2706_0 * Net_2234
+              Net_2703 * !Net_3181_2 * !Net_3181_1 * Net_3181_0 * Net_2234
         );
         Output = Net_1999 (fanout=1)
 
@@ -1412,7 +1370,7 @@ Design Equations
             Clock Enable: True
         Main Equation            : 1 pterm
         (
-              Net_2703 * !Net_2706_2 * Net_2706_1 * !Net_2706_0 * Net_2234
+              Net_2703 * !Net_3181_2 * Net_3181_1 * !Net_3181_0 * Net_2234
         );
         Output = Net_2001 (fanout=1)
 
@@ -1422,7 +1380,7 @@ Design Equations
             Clock Enable: True
         Main Equation            : 1 pterm
         (
-              Net_2703 * !Net_2706_2 * Net_2706_1 * Net_2706_0 * Net_2234
+              Net_2703 * !Net_3181_2 * Net_3181_1 * Net_3181_0 * Net_2234
         );
         Output = Net_1478 (fanout=1)
 
@@ -1432,7 +1390,7 @@ Design Equations
             Clock Enable: True
         Main Equation            : 1 pterm
         (
-              Net_2703 * Net_2706_2 * !Net_2706_1 * !Net_2706_0 * Net_2234
+              Net_2703 * Net_3181_2 * !Net_3181_1 * !Net_3181_0 * Net_2234
         );
         Output = Net_2951 (fanout=1)
 
@@ -1442,7 +1400,7 @@ Design Equations
             Clock Enable: True
         Main Equation            : 1 pterm
         (
-              Net_2703 * Net_2706_2 * !Net_2706_1 * Net_2706_0 * Net_2234
+              Net_2703 * Net_3181_2 * !Net_3181_1 * Net_3181_0 * Net_2234
         );
         Output = Net_2950 (fanout=1)
 
@@ -1452,7 +1410,7 @@ Design Equations
             Clock Enable: True
         Main Equation            : 1 pterm
         (
-              Net_2703 * Net_2706_2 * Net_2706_1 * !Net_2706_0 * Net_2234
+              Net_2703 * Net_3181_2 * Net_3181_1 * !Net_3181_0 * Net_2234
         );
         Output = Net_2004 (fanout=1)
 
@@ -1462,7 +1420,7 @@ Design Equations
             Clock Enable: True
         Main Equation            : 1 pterm
         (
-              Net_2703 * Net_2706_2 * Net_2706_1 * Net_2706_0 * Net_2234
+              Net_2703 * Net_3181_2 * Net_3181_1 * Net_3181_0 * Net_2234
         );
         Output = Net_2948 (fanout=1)
 
@@ -1477,6 +1435,20 @@ Design Equations
         );
         Output = \WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_8\ (fanout=3)
 
+    MacroCell: Name=Net_3194, Mode=(Combinatorial)
+        Total # of inputs        : 6
+        Total # of product terms : 5
+            Clock Enable: True
+        Main Equation            : 5 pterms
+        (
+              !Net_2703 * Net_2851
+            + Net_2703 * !Net_3181_2 * !Net_3181_1 * !Net_3181_0 * Net_2234
+            + Net_3181_2 * Net_2851
+            + Net_3181_1 * Net_2851
+            + Net_3181_0 * Net_2851
+        );
+        Output = Net_3194 (fanout=1)
+
     MacroCell: Name=Net_2965_10, Mode=(T-Register)
         Total # of inputs        : 5
         Total # of product terms : 2
@@ -1485,9 +1457,9 @@ Design Equations
             Clock Enable: True
         Main Equation            : 2 pterms
         (
-              !Net_3043 * Net_2965_9 * Net_2965_8 * 
+              !Net_3198 * Net_2965_9 * Net_2965_8 * 
               \WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_8\
-            + Net_3043 * Net_2965_10
+            + Net_3198 * Net_2965_10
         );
         Output = Net_2965_10 (fanout=2)
 
@@ -1499,9 +1471,9 @@ Design Equations
             Clock Enable: True
         Main Equation            : 2 pterms
         (
-              !Net_3043 * Net_2965_8 * 
+              !Net_3198 * Net_2965_8 * 
               \WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_8\
-            + Net_3043 * Net_2965_9
+            + Net_3198 * Net_2965_9
         );
         Output = Net_2965_9 (fanout=3)
 
@@ -1513,9 +1485,9 @@ Design Equations
             Clock Enable: True
         Main Equation            : 2 pterms
         (
-              !Net_3043 * !Net_2965_8 * 
+              !Net_3198 * !Net_2965_8 * 
               \WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_8\
-            + !Net_3043 * Net_2965_8 * 
+            + !Net_3198 * Net_2965_8 * 
               !\WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_8\
         );
         Output = Net_2965_8 (fanout=4)
@@ -1528,9 +1500,9 @@ Design Equations
             Clock Enable: True
         Main Equation            : 2 pterms
         (
-              !Net_3043 * Net_2965_6 * Net_2965_5 * Net_2965_4 * Net_2965_3 * 
+              !Net_3198 * Net_2965_6 * Net_2965_5 * Net_2965_4 * Net_2965_3 * 
               Net_2965_2 * Net_2965_1 * Net_2965_0
-            + Net_3043 * Net_2965_7
+            + Net_3198 * Net_2965_7
         );
         Output = Net_2965_7 (fanout=3)
 
@@ -1542,9 +1514,9 @@ Design Equations
             Clock Enable: True
         Main Equation            : 2 pterms
         (
-              !Net_3043 * Net_2965_5 * Net_2965_4 * Net_2965_3 * Net_2965_2 * 
+              !Net_3198 * Net_2965_5 * Net_2965_4 * Net_2965_3 * Net_2965_2 * 
               Net_2965_1 * Net_2965_0
-            + Net_3043 * Net_2965_6
+            + Net_3198 * Net_2965_6
         );
         Output = Net_2965_6 (fanout=4)
 
@@ -1556,9 +1528,9 @@ Design Equations
             Clock Enable: True
         Main Equation            : 2 pterms
         (
-              !Net_3043 * Net_2965_4 * Net_2965_3 * Net_2965_2 * Net_2965_1 * 
+              !Net_3198 * Net_2965_4 * Net_2965_3 * Net_2965_2 * Net_2965_1 * 
               Net_2965_0
-            + Net_3043 * Net_2965_5
+            + Net_3198 * Net_2965_5
         );
         Output = Net_2965_5 (fanout=5)
 
@@ -1570,8 +1542,8 @@ Design Equations
             Clock Enable: True
         Main Equation            : 2 pterms
         (
-              !Net_3043 * Net_2965_3 * Net_2965_2 * Net_2965_1 * Net_2965_0
-            + Net_3043 * Net_2965_4
+              !Net_3198 * Net_2965_3 * Net_2965_2 * Net_2965_1 * Net_2965_0
+            + Net_3198 * Net_2965_4
         );
         Output = Net_2965_4 (fanout=6)
 
@@ -1583,8 +1555,8 @@ Design Equations
             Clock Enable: True
         Main Equation            : 2 pterms
         (
-              !Net_3043 * Net_2965_2 * Net_2965_1 * Net_2965_0
-            + Net_3043 * Net_2965_3
+              !Net_3198 * Net_2965_2 * Net_2965_1 * Net_2965_0
+            + Net_3198 * Net_2965_3
         );
         Output = Net_2965_3 (fanout=7)
 
@@ -1596,8 +1568,8 @@ Design Equations
             Clock Enable: True
         Main Equation            : 2 pterms
         (
-              !Net_3043 * Net_2965_1 * Net_2965_0
-            + Net_3043 * Net_2965_2
+              !Net_3198 * Net_2965_1 * Net_2965_0
+            + Net_3198 * Net_2965_2
         );
         Output = Net_2965_2 (fanout=8)
 
@@ -1609,8 +1581,8 @@ Design Equations
             Clock Enable: True
         Main Equation            : 2 pterms
         (
-              !Net_3043 * !Net_2965_1 * Net_2965_0
-            + !Net_3043 * Net_2965_1 * !Net_2965_0
+              !Net_3198 * !Net_2965_1 * Net_2965_0
+            + !Net_3198 * Net_2965_1 * !Net_2965_0
         );
         Output = Net_2965_1 (fanout=9)
 
@@ -1622,7 +1594,7 @@ Design Equations
             Clock Enable: True
         Main Equation            : 1 pterm
         (
-              !Net_3043 * !Net_2965_0
+              !Net_3198 * !Net_2965_0
         );
         Output = Net_2965_0 (fanout=10)
     </CYPRESSTAG>
@@ -1700,9 +1672,9 @@ Design Equations
             control_5 => \MIDI_BIN_REG:control_5\ ,
             control_4 => \MIDI_BIN_REG:control_4\ ,
             control_3 => \MIDI_BIN_REG:control_3\ ,
-            control_2 => Net_2706_2 ,
-            control_1 => Net_2706_1 ,
-            control_0 => Net_2706_0 );
+            control_2 => Net_3181_2 ,
+            control_1 => Net_3181_1 ,
+            control_0 => Net_3181_0 );
         Properties:
         {
             cy_ctrl_mode_0 = "00000000"
@@ -1745,7 +1717,7 @@ Design Equations
         PORT MAP (
             dmareq => Net_3013_local ,
             termin => zero ,
-            termout => Net_3043 );
+            termout => Net_3198 );
         Properties:
         {
             drq_type = "10"
@@ -1755,7 +1727,7 @@ Design Equations
     drqcell: Name =\BRIGHTNESS_RAMP:Wave2_DMA\
         PORT MAP (
             termin => zero ,
-            termout => Net_2063 );
+            termout => Net_3199 );
         Properties:
         {
             drq_type = "10"
@@ -1766,7 +1738,7 @@ Design Equations
         PORT MAP (
             dmareq => Net_1945_local ,
             termin => zero ,
-            termout => Net_2956 );
+            termout => Net_3195 );
         Properties:
         {
             drq_type = "10"
@@ -1776,7 +1748,7 @@ Design Equations
     drqcell: Name =\TRIANGLE_SEL:Wave2_DMA\
         PORT MAP (
             termin => zero ,
-            termout => Net_2957 );
+            termout => Net_3196 );
         Properties:
         {
             drq_type = "10"
@@ -1787,7 +1759,7 @@ Design Equations
         PORT MAP (
             dmareq => Net_2524_local ,
             termin => zero ,
-            termout => Net_2954 );
+            termout => Net_3116 );
         Properties:
         {
             drq_type = "10"
@@ -1797,7 +1769,7 @@ Design Equations
     drqcell: Name =\TRIANGLE_OUT:Wave2_DMA\
         PORT MAP (
             termin => zero ,
-            termout => Net_2955 );
+            termout => Net_3117 );
         Properties:
         {
             drq_type = "10"
@@ -1896,9 +1868,9 @@ USB                           :    1 :    0 :    1 : 100.00 %
 DMA Channels                  :    6 :   18 :   24 : 25.00 %
 Timer                         :    0 :    4 :    4 :  0.00 %
 UDB                           :      :      :      :        
-  Macrocells                  :   19 :  173 :  192 :  9.90 %
-  Unique P-terms              :   29 :  355 :  384 :  7.55 %
-  Total P-terms               :   29 :      :      :        
+  Macrocells                  :   20 :  172 :  192 : 10.42 %
+  Unique P-terms              :   34 :  350 :  384 :  8.85 %
+  Total P-terms               :   34 :      :      :        
   Datapath Cells              :    0 :   24 :   24 :  0.00 %
   Status Cells                :    2 :   22 :   24 :  8.33 %
     Status Registers          :    2 :      :      :        
@@ -1913,11 +1885,11 @@ Analog (SC/CT) Blocks         :    0 :    4 :    4 :  0.00 %
 DAC                           :      :      :      :        
   VIDAC                       :    4 :    0 :    4 : 100.00 %
 </CYPRESSTAG>
-Technology Mapping: Elapsed time ==> 0s.047ms
+Technology Mapping: Elapsed time ==> 0s.077ms
 ADD: mpr.M0037: information: Unused pieces of the design have been optimized out. See the Tech mapping section of the report file for details.
  * \\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\codegentemp\MIDI_EXAMPLE.rpt (Tech mapping)
 
-Tech mapping phase: Elapsed time ==> 0s.125ms
+Tech mapping phase: Elapsed time ==> 0s.140ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Placement">
 Initial Analog Placement Results:
@@ -1964,10 +1936,10 @@ VIDAC[2]@[FFB(VIDAC,2)] : \TRIANGLE_OUT:VDAC8:viDAC8\
 VIDAC[3]@[FFB(VIDAC,3)] : \TRIANGLE_SEL:VDAC8:viDAC8\
 USB[0]@[FFB(USB,0)] : \USB:USB\
 
-Analog Placement phase: Elapsed time ==> 0s.859ms
+Analog Placement phase: Elapsed time ==> 0s.875ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Routing">
-Analog Routing phase: Elapsed time ==> 0s.015ms
+Analog Routing phase: Elapsed time ==> 0s.000ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Code Generation">
 ============ Analog Final Answer Routes ============
@@ -2038,7 +2010,7 @@ Dump of CyP35AnalogRoutingResultsDB
 IsVddaHalfUsedForComp = False
 IsVddaHalfUsedForSar0 = False
 IsVddaHalfUsedForSar1 = False
-Analog Code Generation phase: Elapsed time ==> 0s.375ms
+Analog Code Generation phase: Elapsed time ==> 0s.280ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Digital Placement">
 <CYPRESSTAG name="Detailed placement messages">
@@ -2059,9 +2031,9 @@ PLD Packing Summary
 
         PLD Resource Type :     Average/LAB
     =======================================
-                   Inputs :            6.20
-                   Pterms :            5.80
-               Macrocells :            3.80
+                   Inputs :            6.40
+                   Pterms :            6.80
+               Macrocells :            4.00
 </CYPRESSTAG>
 <CYPRESSTAG name="Packed PLD Contents">
 Packed PLD Contents not displayed at this verbose level.</CYPRESSTAG>
@@ -2079,7 +2051,7 @@ Partitioning: Elapsed time ==> 0s.031ms
 Annealing: Elapsed time ==> 0s.000ms
 <CYPRESSTAG name="Simulated Annealing Results">
 The seed used for moves was 114161200.
-Inital cost was 273, final cost is 273 (0.00% improvement).</CYPRESSTAG>
+Inital cost was 350, final cost is 350 (0.00% improvement).</CYPRESSTAG>
 </CYPRESSTAG>
 <CYPRESSTAG name="Final Placement Summary">
 
@@ -2089,7 +2061,7 @@ Final Placement Summary
 
        Resource Type :      Count : Avg Inputs : Avg Outputs
     ========================================================
-                 UDB :          3 :       6.67 :       6.33
+                 UDB :          3 :       7.00 :       6.67
 <CYPRESSTAG name="Final Placement Details">
 <CYPRESSTAG name="Component Details">
 
@@ -2099,106 +2071,10 @@ Component Placement Details
 UDB [UDB=(0,0)] is empty.
 UDB [UDB=(0,1)] is empty.
 UDB [UDB=(0,2)] is empty.
-UDB [UDB=(0,3)] is empty.
-UDB [UDB=(0,4)] is empty.
-UDB [UDB=(0,5)] is empty.
-UDB [UDB=(1,0)] is empty.
-UDB [UDB=(1,1)] is empty.
-UDB [UDB=(1,2)] is empty.
-UDB [UDB=(1,3)] is empty.
-UDB [UDB=(1,4)] is empty.
-UDB [UDB=(1,5)] is empty.
-UDB [UDB=(2,0)] is empty.
-UDB [UDB=(2,1)] is empty.
-UDB [UDB=(2,2)] is empty.
-UDB [UDB=(2,3)] contents:
-LAB@[UDB=(2,3)][LB=0] #macrocells=4, #inputs=9, #pterms=7
+UDB [UDB=(0,3)] contents:
+LAB@[UDB=(0,3)][LB=0] #macrocells=4, #inputs=6, #pterms=7
 {
-    [McSlotId=0]:     MacroCell: Name=Net_2965_7, Mode=(T-Register) @ [UDB=(2,3)][LB=0][MC=0]
-        Total # of inputs        : 9
-        Total # of product terms : 2
-        List of special equations: 
-            Clock  = (Net_3013) => Global
-            Clock Enable: True
-        Main Equation            : 2 pterms
-        (
-              !Net_3043 * Net_2965_6 * Net_2965_5 * Net_2965_4 * Net_2965_3 * 
-              Net_2965_2 * Net_2965_1 * Net_2965_0
-            + Net_3043 * Net_2965_7
-        );
-        Output = Net_2965_7 (fanout=3)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]:     MacroCell: Name=\WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_8\, Mode=(Combinatorial) @ [UDB=(2,3)][LB=0][MC=1]
-        Total # of inputs        : 8
-        Total # of product terms : 1
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              Net_2965_7 * Net_2965_6 * Net_2965_5 * Net_2965_4 * Net_2965_3 * 
-              Net_2965_2 * Net_2965_1 * Net_2965_0
-        );
-        Output = \WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_8\ (fanout=3)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=2]:     MacroCell: Name=Net_2965_6, Mode=(T-Register) @ [UDB=(2,3)][LB=0][MC=2]
-        Total # of inputs        : 8
-        Total # of product terms : 2
-        List of special equations: 
-            Clock  = (Net_3013) => Global
-            Clock Enable: True
-        Main Equation            : 2 pterms
-        (
-              !Net_3043 * Net_2965_5 * Net_2965_4 * Net_2965_3 * Net_2965_2 * 
-              Net_2965_1 * Net_2965_0
-            + Net_3043 * Net_2965_6
-        );
-        Output = Net_2965_6 (fanout=4)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=3]:     MacroCell: Name=Net_2965_5, Mode=(T-Register) @ [UDB=(2,3)][LB=0][MC=3]
-        Total # of inputs        : 7
-        Total # of product terms : 2
-        List of special equations: 
-            Clock  = (Net_3013) => Global
-            Clock Enable: True
-        Main Equation            : 2 pterms
-        (
-              !Net_3043 * Net_2965_4 * Net_2965_3 * Net_2965_2 * Net_2965_1 * 
-              Net_2965_0
-            + Net_3043 * Net_2965_5
-        );
-        Output = Net_2965_5 (fanout=5)
-        Properties               : 
-        {
-        }
-}
-
-LAB@[UDB=(2,3)][LB=1] #macrocells=4, #inputs=6, #pterms=8
-{
-    [McSlotId=0]:     MacroCell: Name=Net_2965_4, Mode=(T-Register) @ [UDB=(2,3)][LB=1][MC=0]
-        Total # of inputs        : 6
-        Total # of product terms : 2
-        List of special equations: 
-            Clock  = (Net_3013) => Global
-            Clock Enable: True
-        Main Equation            : 2 pterms
-        (
-              !Net_3043 * Net_2965_3 * Net_2965_2 * Net_2965_1 * Net_2965_0
-            + Net_3043 * Net_2965_4
-        );
-        Output = Net_2965_4 (fanout=6)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]:     MacroCell: Name=Net_2965_3, Mode=(T-Register) @ [UDB=(2,3)][LB=1][MC=1]
+    [McSlotId=0]:     MacroCell: Name=Net_2965_10, Mode=(T-Register) @ [UDB=(0,3)][LB=0][MC=0]
         Total # of inputs        : 5
         Total # of product terms : 2
         List of special equations: 
@@ -2206,15 +2082,16 @@ LAB@[UDB=(2,3)][LB=1] #macrocells=4, #inputs=6, #pterms=8
             Clock Enable: True
         Main Equation            : 2 pterms
         (
-              !Net_3043 * Net_2965_2 * Net_2965_1 * Net_2965_0
-            + Net_3043 * Net_2965_3
+              !Net_3198 * Net_2965_9 * Net_2965_8 * 
+              \WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_8\
+            + Net_3198 * Net_2965_10
         );
-        Output = Net_2965_3 (fanout=7)
+        Output = Net_2965_10 (fanout=2)
         Properties               : 
         {
         }
 
-    [McSlotId=2]:     MacroCell: Name=Net_2965_2, Mode=(T-Register) @ [UDB=(2,3)][LB=1][MC=2]
+    [McSlotId=1]:     MacroCell: Name=Net_2965_9, Mode=(T-Register) @ [UDB=(0,3)][LB=0][MC=1]
         Total # of inputs        : 4
         Total # of product terms : 2
         List of special equations: 
@@ -2222,15 +2099,16 @@ LAB@[UDB=(2,3)][LB=1] #macrocells=4, #inputs=6, #pterms=8
             Clock Enable: True
         Main Equation            : 2 pterms
         (
-              !Net_3043 * Net_2965_1 * Net_2965_0
-            + Net_3043 * Net_2965_2
+              !Net_3198 * Net_2965_8 * 
+              \WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_8\
+            + Net_3198 * Net_2965_9
         );
-        Output = Net_2965_2 (fanout=8)
+        Output = Net_2965_9 (fanout=3)
         Properties               : 
         {
         }
 
-    [McSlotId=3]:     MacroCell: Name=Net_2965_1, Mode=(D-Register) @ [UDB=(2,3)][LB=1][MC=3]
+    [McSlotId=2]:     MacroCell: Name=Net_2965_8, Mode=(D-Register) @ [UDB=(0,3)][LB=0][MC=2]
         Total # of inputs        : 3
         Total # of product terms : 2
         List of special equations: 
@@ -2238,25 +2116,37 @@ LAB@[UDB=(2,3)][LB=1] #macrocells=4, #inputs=6, #pterms=8
             Clock Enable: True
         Main Equation            : 2 pterms
         (
-              !Net_3043 * !Net_2965_1 * Net_2965_0
-            + !Net_3043 * Net_2965_1 * !Net_2965_0
+              !Net_3198 * !Net_2965_8 * 
+              \WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_8\
+            + !Net_3198 * Net_2965_8 * 
+              !\WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_8\
         );
-        Output = Net_2965_1 (fanout=9)
+        Output = Net_2965_8 (fanout=4)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=Net_2965_0, Mode=(D-Register) @ [UDB=(0,3)][LB=0][MC=3]
+        Total # of inputs        : 2
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_3013) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_3198 * !Net_2965_0
+        );
+        Output = Net_2965_0 (fanout=10)
         Properties               : 
         {
         }
 }
 
-statuscell: Name =\WAVE_STATUS_LOW:sts:sts_reg\
+statuscell: Name =\WAVE_STATUS_HIGH:sts:sts_reg\
     PORT MAP (
-        status_7 => Net_2965_7 ,
-        status_6 => Net_2965_6 ,
-        status_5 => Net_2965_5 ,
-        status_4 => Net_2965_4 ,
-        status_3 => Net_2965_3 ,
-        status_2 => Net_2965_2 ,
-        status_1 => Net_2965_1 ,
-        status_0 => Net_2965_0 );
+        status_2 => Net_2965_10 ,
+        status_1 => Net_2965_9 ,
+        status_0 => Net_2965_8 );
     Properties:
     {
         cy_force_order = 1
@@ -2284,15 +2174,233 @@ controlcell: Name =\STORED_BRIGHTNESS:Sync:ctrl_reg\
     }
     Clock Enable: True
 
-UDB [UDB=(2,4)] is empty.
-UDB [UDB=(2,5)] is empty.
-UDB [UDB=(3,0)] is empty.
-UDB [UDB=(3,1)] is empty.
-UDB [UDB=(3,2)] is empty.
-UDB [UDB=(3,3)] contents:
-LAB@[UDB=(3,3)][LB=0] #macrocells=4, #inputs=6, #pterms=7
+UDB [UDB=(0,4)] is empty.
+UDB [UDB=(0,5)] is empty.
+UDB [UDB=(1,0)] is empty.
+UDB [UDB=(1,1)] is empty.
+UDB [UDB=(1,2)] contents:
+LAB@[UDB=(1,2)][LB=0] #macrocells=4, #inputs=6, #pterms=8
 {
-    [McSlotId=0]:     MacroCell: Name=Net_2965_10, Mode=(T-Register) @ [UDB=(3,3)][LB=0][MC=0]
+    [McSlotId=0]:     MacroCell: Name=Net_3194, Mode=(Combinatorial) @ [UDB=(1,2)][LB=0][MC=0]
+        Total # of inputs        : 6
+        Total # of product terms : 5
+            Clock Enable: True
+        Main Equation            : 5 pterms
+        (
+              !Net_2703 * Net_2851
+            + Net_2703 * !Net_3181_2 * !Net_3181_1 * !Net_3181_0 * Net_2234
+            + Net_3181_2 * Net_2851
+            + Net_3181_1 * Net_2851
+            + Net_3181_0 * Net_2851
+        );
+        Output = Net_3194 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=Net_1478, Mode=(Combinatorial) @ [UDB=(1,2)][LB=0][MC=1]
+        Total # of inputs        : 5
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_2703 * !Net_3181_2 * Net_3181_1 * Net_3181_0 * Net_2234
+        );
+        Output = Net_1478 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=Net_1999, Mode=(Combinatorial) @ [UDB=(1,2)][LB=0][MC=2]
+        Total # of inputs        : 5
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_2703 * !Net_3181_2 * !Net_3181_1 * Net_3181_0 * Net_2234
+        );
+        Output = Net_1999 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=Net_2001, Mode=(Combinatorial) @ [UDB=(1,2)][LB=0][MC=3]
+        Total # of inputs        : 5
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_2703 * !Net_3181_2 * Net_3181_1 * !Net_3181_0 * Net_2234
+        );
+        Output = Net_2001 (fanout=1)
+        Properties               : 
+        {
+        }
+}
+
+LAB@[UDB=(1,2)][LB=1] #macrocells=4, #inputs=5, #pterms=4
+{
+    [McSlotId=0]:     MacroCell: Name=Net_2004, Mode=(Combinatorial) @ [UDB=(1,2)][LB=1][MC=0]
+        Total # of inputs        : 5
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_2703 * Net_3181_2 * Net_3181_1 * !Net_3181_0 * Net_2234
+        );
+        Output = Net_2004 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=Net_2948, Mode=(Combinatorial) @ [UDB=(1,2)][LB=1][MC=1]
+        Total # of inputs        : 5
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_2703 * Net_3181_2 * Net_3181_1 * Net_3181_0 * Net_2234
+        );
+        Output = Net_2948 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=Net_2950, Mode=(Combinatorial) @ [UDB=(1,2)][LB=1][MC=2]
+        Total # of inputs        : 5
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_2703 * Net_3181_2 * !Net_3181_1 * Net_3181_0 * Net_2234
+        );
+        Output = Net_2950 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=Net_2951, Mode=(Combinatorial) @ [UDB=(1,2)][LB=1][MC=3]
+        Total # of inputs        : 5
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_2703 * Net_3181_2 * !Net_3181_1 * !Net_3181_0 * Net_2234
+        );
+        Output = Net_2951 (fanout=1)
+        Properties               : 
+        {
+        }
+}
+
+controlcell: Name =\MIDI_BIN_REG:Sync:ctrl_reg\
+    PORT MAP (
+        control_7 => \MIDI_BIN_REG:control_7\ ,
+        control_6 => \MIDI_BIN_REG:control_6\ ,
+        control_5 => \MIDI_BIN_REG:control_5\ ,
+        control_4 => \MIDI_BIN_REG:control_4\ ,
+        control_3 => \MIDI_BIN_REG:control_3\ ,
+        control_2 => Net_3181_2 ,
+        control_1 => Net_3181_1 ,
+        control_0 => Net_3181_0 );
+    Properties:
+    {
+        cy_ctrl_mode_0 = "00000000"
+        cy_ctrl_mode_1 = "00000000"
+        cy_ext_reset = 0
+        cy_force_order = 1
+        cy_init_value = "00000000"
+    }
+    Clock Enable: True
+
+UDB [UDB=(1,3)] contents:
+LAB@[UDB=(1,3)][LB=0] #macrocells=4, #inputs=9, #pterms=7
+{
+    [McSlotId=0]:     MacroCell: Name=Net_2965_7, Mode=(T-Register) @ [UDB=(1,3)][LB=0][MC=0]
+        Total # of inputs        : 9
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_3013) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              !Net_3198 * Net_2965_6 * Net_2965_5 * Net_2965_4 * Net_2965_3 * 
+              Net_2965_2 * Net_2965_1 * Net_2965_0
+            + Net_3198 * Net_2965_7
+        );
+        Output = Net_2965_7 (fanout=3)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=\WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_8\, Mode=(Combinatorial) @ [UDB=(1,3)][LB=0][MC=1]
+        Total # of inputs        : 8
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_2965_7 * Net_2965_6 * Net_2965_5 * Net_2965_4 * Net_2965_3 * 
+              Net_2965_2 * Net_2965_1 * Net_2965_0
+        );
+        Output = \WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_8\ (fanout=3)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=Net_2965_6, Mode=(T-Register) @ [UDB=(1,3)][LB=0][MC=2]
+        Total # of inputs        : 8
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_3013) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              !Net_3198 * Net_2965_5 * Net_2965_4 * Net_2965_3 * Net_2965_2 * 
+              Net_2965_1 * Net_2965_0
+            + Net_3198 * Net_2965_6
+        );
+        Output = Net_2965_6 (fanout=4)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=Net_2965_5, Mode=(T-Register) @ [UDB=(1,3)][LB=0][MC=3]
+        Total # of inputs        : 7
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_3013) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              !Net_3198 * Net_2965_4 * Net_2965_3 * Net_2965_2 * Net_2965_1 * 
+              Net_2965_0
+            + Net_3198 * Net_2965_5
+        );
+        Output = Net_2965_5 (fanout=5)
+        Properties               : 
+        {
+        }
+}
+
+LAB@[UDB=(1,3)][LB=1] #macrocells=4, #inputs=6, #pterms=8
+{
+    [McSlotId=0]:     MacroCell: Name=Net_2965_4, Mode=(T-Register) @ [UDB=(1,3)][LB=1][MC=0]
+        Total # of inputs        : 6
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_3013) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              !Net_3198 * Net_2965_3 * Net_2965_2 * Net_2965_1 * Net_2965_0
+            + Net_3198 * Net_2965_4
+        );
+        Output = Net_2965_4 (fanout=6)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=Net_2965_3, Mode=(T-Register) @ [UDB=(1,3)][LB=1][MC=1]
         Total # of inputs        : 5
         Total # of product terms : 2
         List of special equations: 
@@ -2300,16 +2408,15 @@ LAB@[UDB=(3,3)][LB=0] #macrocells=4, #inputs=6, #pterms=7
             Clock Enable: True
         Main Equation            : 2 pterms
         (
-              !Net_3043 * Net_2965_9 * Net_2965_8 * 
-              \WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_8\
-            + Net_3043 * Net_2965_10
+              !Net_3198 * Net_2965_2 * Net_2965_1 * Net_2965_0
+            + Net_3198 * Net_2965_3
         );
-        Output = Net_2965_10 (fanout=2)
+        Output = Net_2965_3 (fanout=7)
         Properties               : 
         {
         }
 
-    [McSlotId=1]:     MacroCell: Name=Net_2965_9, Mode=(T-Register) @ [UDB=(3,3)][LB=0][MC=1]
+    [McSlotId=2]:     MacroCell: Name=Net_2965_2, Mode=(T-Register) @ [UDB=(1,3)][LB=1][MC=2]
         Total # of inputs        : 4
         Total # of product terms : 2
         List of special equations: 
@@ -2317,16 +2424,15 @@ LAB@[UDB=(3,3)][LB=0] #macrocells=4, #inputs=6, #pterms=7
             Clock Enable: True
         Main Equation            : 2 pterms
         (
-              !Net_3043 * Net_2965_8 * 
-              \WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_8\
-            + Net_3043 * Net_2965_9
+              !Net_3198 * Net_2965_1 * Net_2965_0
+            + Net_3198 * Net_2965_2
         );
-        Output = Net_2965_9 (fanout=3)
+        Output = Net_2965_2 (fanout=8)
         Properties               : 
         {
         }
 
-    [McSlotId=2]:     MacroCell: Name=Net_2965_8, Mode=(D-Register) @ [UDB=(3,3)][LB=0][MC=2]
+    [McSlotId=3]:     MacroCell: Name=Net_2965_1, Mode=(D-Register) @ [UDB=(1,3)][LB=1][MC=3]
         Total # of inputs        : 3
         Total # of product terms : 2
         List of special equations: 
@@ -2334,37 +2440,25 @@ LAB@[UDB=(3,3)][LB=0] #macrocells=4, #inputs=6, #pterms=7
             Clock Enable: True
         Main Equation            : 2 pterms
         (
-              !Net_3043 * !Net_2965_8 * 
-              \WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_8\
-            + !Net_3043 * Net_2965_8 * 
-              !\WAVETABLE_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_8\
+              !Net_3198 * !Net_2965_1 * Net_2965_0
+            + !Net_3198 * Net_2965_1 * !Net_2965_0
         );
-        Output = Net_2965_8 (fanout=4)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=3]:     MacroCell: Name=Net_2965_0, Mode=(D-Register) @ [UDB=(3,3)][LB=0][MC=3]
-        Total # of inputs        : 2
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (Net_3013) => Global
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              !Net_3043 * !Net_2965_0
-        );
-        Output = Net_2965_0 (fanout=10)
+        Output = Net_2965_1 (fanout=9)
         Properties               : 
         {
         }
 }
 
-statuscell: Name =\WAVE_STATUS_HIGH:sts:sts_reg\
+statuscell: Name =\WAVE_STATUS_LOW:sts:sts_reg\
     PORT MAP (
-        status_2 => Net_2965_10 ,
-        status_1 => Net_2965_9 ,
-        status_0 => Net_2965_8 );
+        status_7 => Net_2965_7 ,
+        status_6 => Net_2965_6 ,
+        status_5 => Net_2965_5 ,
+        status_4 => Net_2965_4 ,
+        status_3 => Net_2965_3 ,
+        status_2 => Net_2965_2 ,
+        status_1 => Net_2965_1 ,
+        status_0 => Net_2965_0 );
     Properties:
     {
         cy_force_order = 1
@@ -2392,126 +2486,19 @@ controlcell: Name =\NOTE_ON_REG:Sync:ctrl_reg\
     }
     Clock Enable: True
 
-UDB [UDB=(3,4)] contents:
-LAB@[UDB=(3,4)][LB=0] #macrocells=4, #inputs=5, #pterms=4
-{
-    [McSlotId=0]:     MacroCell: Name=Net_2951, Mode=(Combinatorial) @ [UDB=(3,4)][LB=0][MC=0]
-        Total # of inputs        : 5
-        Total # of product terms : 1
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              Net_2703 * Net_2706_2 * !Net_2706_1 * !Net_2706_0 * Net_2234
-        );
-        Output = Net_2951 (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]:     MacroCell: Name=Net_1478, Mode=(Combinatorial) @ [UDB=(3,4)][LB=0][MC=1]
-        Total # of inputs        : 5
-        Total # of product terms : 1
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              Net_2703 * !Net_2706_2 * Net_2706_1 * Net_2706_0 * Net_2234
-        );
-        Output = Net_1478 (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=2]:     MacroCell: Name=Net_1999, Mode=(Combinatorial) @ [UDB=(3,4)][LB=0][MC=2]
-        Total # of inputs        : 5
-        Total # of product terms : 1
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              Net_2703 * !Net_2706_2 * !Net_2706_1 * Net_2706_0 * Net_2234
-        );
-        Output = Net_1999 (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=3]:     MacroCell: Name=Net_2001, Mode=(Combinatorial) @ [UDB=(3,4)][LB=0][MC=3]
-        Total # of inputs        : 5
-        Total # of product terms : 1
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              Net_2703 * !Net_2706_2 * Net_2706_1 * !Net_2706_0 * Net_2234
-        );
-        Output = Net_2001 (fanout=1)
-        Properties               : 
-        {
-        }
-}
-
-LAB@[UDB=(3,4)][LB=1] #macrocells=3, #inputs=5, #pterms=3
-{
-    [McSlotId=0]:     MacroCell: Name=Net_2004, Mode=(Combinatorial) @ [UDB=(3,4)][LB=1][MC=0]
-        Total # of inputs        : 5
-        Total # of product terms : 1
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              Net_2703 * Net_2706_2 * Net_2706_1 * !Net_2706_0 * Net_2234
-        );
-        Output = Net_2004 (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]:     MacroCell: Name=Net_2948, Mode=(Combinatorial) @ [UDB=(3,4)][LB=1][MC=1]
-        Total # of inputs        : 5
-        Total # of product terms : 1
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              Net_2703 * Net_2706_2 * Net_2706_1 * Net_2706_0 * Net_2234
-        );
-        Output = Net_2948 (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=2]:     MacroCell: Name=Net_2950, Mode=(Combinatorial) @ [UDB=(3,4)][LB=1][MC=2]
-        Total # of inputs        : 5
-        Total # of product terms : 1
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              Net_2703 * Net_2706_2 * !Net_2706_1 * Net_2706_0 * Net_2234
-        );
-        Output = Net_2950 (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=3]: (empty)
-}
-
-controlcell: Name =\MIDI_BIN_REG:Sync:ctrl_reg\
-    PORT MAP (
-        control_7 => \MIDI_BIN_REG:control_7\ ,
-        control_6 => \MIDI_BIN_REG:control_6\ ,
-        control_5 => \MIDI_BIN_REG:control_5\ ,
-        control_4 => \MIDI_BIN_REG:control_4\ ,
-        control_3 => \MIDI_BIN_REG:control_3\ ,
-        control_2 => Net_2706_2 ,
-        control_1 => Net_2706_1 ,
-        control_0 => Net_2706_0 );
-    Properties:
-    {
-        cy_ctrl_mode_0 = "00000000"
-        cy_ctrl_mode_1 = "00000000"
-        cy_ext_reset = 0
-        cy_force_order = 1
-        cy_init_value = "00000000"
-    }
-    Clock Enable: True
-
+UDB [UDB=(1,4)] is empty.
+UDB [UDB=(1,5)] is empty.
+UDB [UDB=(2,0)] is empty.
+UDB [UDB=(2,1)] is empty.
+UDB [UDB=(2,2)] is empty.
+UDB [UDB=(2,3)] is empty.
+UDB [UDB=(2,4)] is empty.
+UDB [UDB=(2,5)] is empty.
+UDB [UDB=(3,0)] is empty.
+UDB [UDB=(3,1)] is empty.
+UDB [UDB=(3,2)] is empty.
+UDB [UDB=(3,3)] is empty.
+UDB [UDB=(3,4)] is empty.
 UDB [UDB=(3,5)] is empty.
 Intr container @ [IntrContainer=(0)]: 
   Intr@ [IntrContainer=(0)][IntrId=(0)] 
@@ -2584,7 +2571,7 @@ Drq container @ [DrqContainer=(0)]:
         PORT MAP (
             dmareq => Net_3013_local ,
             termin => zero ,
-            termout => Net_3043 );
+            termout => Net_3198 );
         Properties:
         {
             drq_type = "10"
@@ -2594,7 +2581,7 @@ Drq container @ [DrqContainer=(0)]:
     drqcell: Name =\BRIGHTNESS_RAMP:Wave2_DMA\
         PORT MAP (
             termin => zero ,
-            termout => Net_2063 );
+            termout => Net_3199 );
         Properties:
         {
             drq_type = "10"
@@ -2605,7 +2592,7 @@ Drq container @ [DrqContainer=(0)]:
         PORT MAP (
             dmareq => Net_2524_local ,
             termin => zero ,
-            termout => Net_2954 );
+            termout => Net_3116 );
         Properties:
         {
             drq_type = "10"
@@ -2615,7 +2602,7 @@ Drq container @ [DrqContainer=(0)]:
     drqcell: Name =\TRIANGLE_OUT:Wave2_DMA\
         PORT MAP (
             termin => zero ,
-            termout => Net_2955 );
+            termout => Net_3117 );
         Properties:
         {
             drq_type = "10"
@@ -2626,7 +2613,7 @@ Drq container @ [DrqContainer=(0)]:
         PORT MAP (
             dmareq => Net_1945_local ,
             termin => zero ,
-            termout => Net_2956 );
+            termout => Net_3195 );
         Properties:
         {
             drq_type = "10"
@@ -2636,7 +2623,7 @@ Drq container @ [DrqContainer=(0)]:
     drqcell: Name =\TRIANGLE_SEL:Wave2_DMA\
         PORT MAP (
             termin => zero ,
-            termout => Net_2957 );
+            termout => Net_3196 );
         Properties:
         {
             drq_type = "10"
@@ -3037,7 +3024,7 @@ Pin : Name = LED_1(0)
         IO Voltage: 0
     PORT MAP (
         pa_out => LED_1(0)__PA ,
-        input => Net_2851 ,
+        input => Net_3194 ,
         pad => LED_1(0)_PAD );
     Properties:
     {
@@ -3385,7 +3372,7 @@ Port | Pin | Fixed |      Type |       Drive Mode |        Name | Connections
    2 |   3 |     * |      NONE |    RES_PULL_DOWN |      SW1(0) | 
      |   4 |     * |      NONE |    RES_PULL_DOWN |      SW2(0) | 
 -----+-----+-------+-----------+------------------+-------------+-----------------------
-  15 |   0 |     * |      NONE |         CMOS_OUT |    LED_1(0) | In(Net_2851)
+  15 |   0 |     * |      NONE |         CMOS_OUT |    LED_1(0) | In(Net_3194)
      |   1 |     * |      NONE |         CMOS_OUT |    LED_2(0) | In(Net_1999)
      |   5 |     * |      NONE |         CMOS_OUT |    LED_3(0) | In(Net_2001)
      |   6 |       |   FALLING |      HI_Z_ANALOG | \USB:Dp(0)\ | Analog(\USB:Net_1000\)
@@ -3395,11 +3382,11 @@ Port | Pin | Fixed |      Type |       Drive Mode |        Name | Connections
 </CYPRESSTAG>
 </CYPRESSTAG>
 Digital component placer commit/Report: Elapsed time ==> 0s.000ms
-Digital Placement phase: Elapsed time ==> 0s.812ms
+Digital Placement phase: Elapsed time ==> 0s.797ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Digital Routing">
 Routing successful.
-Digital Routing phase: Elapsed time ==> 1s.359ms
+Digital Routing phase: Elapsed time ==> 1s.405ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Bitstream and API generation">
 Bitstream and API generation phase: Elapsed time ==> 0s.187ms
@@ -3409,17 +3396,17 @@ Bitstream verification phase: Elapsed time ==> 0s.031ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Static timing analysis">
 Timing report is in MIDI_EXAMPLE_timing.html.
-Static timing analysis phase: Elapsed time ==> 0s.265ms
+Static timing analysis phase: Elapsed time ==> 0s.280ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Data reporting">
 Data reporting phase: Elapsed time ==> 0s.000ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Database update...">
-Design database save phase: Elapsed time ==> 0s.156ms
+Design database save phase: Elapsed time ==> 0s.140ms
 </CYPRESSTAG>
-cydsfit: Elapsed time ==> 4s.218ms
+cydsfit: Elapsed time ==> 4s.172ms
 </CYPRESSTAG>
-Fitter phase: Elapsed time ==> 4s.250ms
-API generation phase: Elapsed time ==> 2s.812ms
-Dependency generation phase: Elapsed time ==> 0s.046ms
-Cleanup phase: Elapsed time ==> 0s.000ms
+Fitter phase: Elapsed time ==> 4s.203ms
+API generation phase: Elapsed time ==> 2s.405ms
+Dependency generation phase: Elapsed time ==> 0s.031ms
+Cleanup phase: Elapsed time ==> 0s.015ms

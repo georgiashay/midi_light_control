@@ -277,6 +277,9 @@ void USB_callbackLocalMidiEvent(uint8 cable, uint8 *midiMsg) CYREENTRANT
             uint16 indexHigh = WAVE_STATUS_HIGH_Read();
             uint16 indexLow = WAVE_STATUS_HIGH_Read();
             uint16 waveIndex = (indexHigh << 8) + indexLow;
+            // Fudge factor for signaling delays from Keyboard -> Computer -> PSoC -> Register
+            waveIndex += 100;
+            waveIndex %= 2048;
             storedBrightnesses[keyNumber] = BRIGHTNESS_RAMP_wave1[waveIndex];
 
             // MIDI_NOTES_REG_Write(MIDI_NOTES_REG_Read() & ~oneHotKey);
