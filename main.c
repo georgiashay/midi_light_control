@@ -62,6 +62,8 @@ uint8 inqFlagsOld = 0u;
 
 uint8 currentKeyNumber = 0u;
 
+uint8 storedBrightnesses[8] = {0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u};
+
 
 /*******************************************************************************
 * Function Name: SleepIsr
@@ -107,14 +109,16 @@ int main()
     /* Start USBFS device 0 with VDDD operation */
     USB_Start(DEVICE, USB_DWR_VDDD_OPERATION); 
     
-    WaveDAC8_1_Start();
-    WaveDAC8_2_Start();
-    Comp_1_Start();
+    BRIGHTNESS_RAMP_Start();
+    TRIANGLE_SEL_Start();
+    RAMP_COMP_Start();
+        
+    TRIANGLE_OUT_Start();
+    BRIGHTNESS_DAC_Start();
+    OUT_COMP_Start();
     
-    WaveDAC8_3_Start();
-    VDAC8_1_Start();
-    Comp_2_Start();
-   
+    //WAVETABLE_COUNTER_Start();
+    
     while(1u)
     {
         /* Host can send double SET_INTERFACE request */
@@ -213,6 +217,8 @@ int main()
                 usbActivityCounter = 0u; /* Re-init USB Activity Counter*/
             }
         }
+        
+        STORED_BRIGHTNESS_Write(storedBrightnesses[0]);
     }
 }
 
@@ -258,7 +264,7 @@ void USB_callbackLocalMidiEvent(uint8 cable, uint8 *midiMsg) CYREENTRANT
             isValidKey = 0u;    
     }
     
-    uint8 oneHotKey = 1u << keyNumber;    
+    //uint8 oneHotKey = 1u << keyNumber;    
     
     if (isValidKey) {
         if (midiMsg[MIDI_MSG_TYPE] == USB_MIDI_NOTE_OFF || (midiMsg[MIDI_MSG_TYPE] == USB_MIDI_NOTE_ON && midiMsg[MIDI_NOTE_VELOCITY] == 0u)) {
@@ -267,7 +273,13 @@ void USB_callbackLocalMidiEvent(uint8 cable, uint8 *midiMsg) CYREENTRANT
             if (keyNumber == currentKeyNumber) {
                 NOTE_ON_REG_Write(0u);
             }
-           // MIDI_NOTES_REG_Write(MIDI_NOTES_REG_Read() & ~oneHotKey);
+           
+            uint16 indexHigh = WAVE_STATUS_HIGH_Read();
+            uint16 indexLow = WAVE_STATUS_HIGH_Read();
+            uint16 waveIndex = (indexHigh << 8) + indexLow;
+            storedBrightnesses[keyNumber] = BRIGHTNESS_RAMP_wave1[waveIndex];
+
+            // MIDI_NOTES_REG_Write(MIDI_NOTES_REG_Read() & ~oneHotKey);
         } else if (midiMsg[MIDI_MSG_TYPE] == USB_MIDI_NOTE_ON) {
             //MIDI_NOTES_REG_Write(0u);
             MIDI_BIN_REG_Write(keyNumber);
