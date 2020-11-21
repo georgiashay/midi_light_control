@@ -163,13 +163,12 @@
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\NOTE_ON_REG.h</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\NOTE_ON_REG.c</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\NOTE_ON_REG_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\Clock_3.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\Clock_3.h</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\WAVE_STATUS_LOW.c</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\WAVE_STATUS_LOW.h</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\WAVE_STATUS_HIGH.c</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\WAVE_STATUS_HIGH.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\STORED_BRIGHTNESS.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\STORED_BRIGHTNESS.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\STORED_BRIGHTNESS_PM.c</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\BRIGHTNESS_RAMP.c</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\BRIGHTNESS_RAMP.h</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\BRIGHTNESS_RAMP_PM.c</File>
@@ -193,32 +192,55 @@
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\TRIANGLE_SEL_VDAC8.c</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\TRIANGLE_SEL_VDAC8.h</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\TRIANGLE_SEL_VDAC8_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_Out_1_BRIGHTNESS_DAC.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_Out_1_BRIGHTNESS_DAC.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_Out_1_BRIGHTNESS_DAC_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_Out_1_OUT_COMP.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_Out_1_OUT_COMP.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_Out_1_OUT_COMP_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_Out_1_TRIANGLE_OUT.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_Out_1_TRIANGLE_OUT.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_Out_1_TRIANGLE_OUT_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_Out_1_TRIANGLE_OUT_Wave1_DMA_dma.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_Out_1_TRIANGLE_OUT_Wave1_DMA_dma.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_Out_1_TRIANGLE_OUT_Wave2_DMA_dma.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_Out_1_TRIANGLE_OUT_Wave2_DMA_dma.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_Out_1_TRIANGLE_OUT_VDAC8.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_Out_1_TRIANGLE_OUT_VDAC8.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_Out_1_TRIANGLE_OUT_VDAC8_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_Out_1.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_Out_1.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_Out_1_TRIANGLE_CLOCK.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_Out_1_TRIANGLE_CLOCK.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\STORED_BRIGHTNESS_2.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\STORED_BRIGHTNESS_2.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\STORED_BRIGHTNESS_2_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LEDs_Out_1.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LEDs_Out_1.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\STORED_BRIGHTNESS_1.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\STORED_BRIGHTNESS_1.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\STORED_BRIGHTNESS_1_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\STORED_BRIGHTNESS_3.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\STORED_BRIGHTNESS_3.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\STORED_BRIGHTNESS_3_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\STORED_BRIGHTNESS_4.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\STORED_BRIGHTNESS_4.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\STORED_BRIGHTNESS_4_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\STORED_BRIGHTNESS_5.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\STORED_BRIGHTNESS_5.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\STORED_BRIGHTNESS_5_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\STORED_BRIGHTNESS_6.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\STORED_BRIGHTNESS_6.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\STORED_BRIGHTNESS_6_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\STORED_BRIGHTNESS_7.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\STORED_BRIGHTNESS_7.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\STORED_BRIGHTNESS_7_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LEDs_Out_1_LED_Out_1.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LEDs_Out_1_LED_Out_1.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LEDs_Out_1_LED_Out_2.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LEDs_Out_1_LED_Out_2.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LEDs_Out_1_LED_Out_3.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LEDs_Out_1_LED_Out_3.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LEDs_Out_1_LED_Out_4.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LEDs_Out_1_LED_Out_4.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LEDs_Out_1_LED_Out_5.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LEDs_Out_1_LED_Out_5.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LEDs_Out_1_LED_Out_6.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LEDs_Out_1_LED_Out_6.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LEDs_Out_1_LED_Out_7.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LEDs_Out_1_LED_Out_7.c</File>
         </Files>
       </Folder>
       <Folder BuildType="BUILD" Path="\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\LED_Out\API">
         <Files Root="\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn">
           <File BuildType="BUILD" Toolchain="">.\LED_Out\API\LED_Out.h</File>
           <File BuildType="BUILD" Toolchain="">.\LED_Out\API\LED_Out.c</File>
+        </Files>
+      </Folder>
+      <Folder BuildType="BUILD" Path="\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\LEDs_Out\API">
+        <Files Root="\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn">
+          <File BuildType="BUILD" Toolchain="">.\LEDs_Out\API\LEDs_Out.h</File>
+          <File BuildType="BUILD" Toolchain="">.\LEDs_Out\API\LEDs_Out.c</File>
         </Files>
       </Folder>
       <Folder BuildType="STRICT" Path="\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\Export\ARM_GCC_Generic">

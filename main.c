@@ -112,8 +112,8 @@ int main()
     BRIGHTNESS_RAMP_Start();
     TRIANGLE_SEL_Start();
     RAMP_COMP_Start();
-    
-    LED_Out_1_Start();
+
+    LEDs_Out_1_Start();
     
     //WAVETABLE_COUNTER_Start();
     
@@ -216,7 +216,13 @@ int main()
             }
         }
         
-        STORED_BRIGHTNESS_Write(storedBrightnesses[0]);
+        STORED_BRIGHTNESS_1_Write(storedBrightnesses[0]);
+        STORED_BRIGHTNESS_2_Write(storedBrightnesses[1]);
+        STORED_BRIGHTNESS_3_Write(storedBrightnesses[2]);
+        STORED_BRIGHTNESS_4_Write(storedBrightnesses[3]);
+        STORED_BRIGHTNESS_5_Write(storedBrightnesses[4]);
+        STORED_BRIGHTNESS_6_Write(storedBrightnesses[5]);
+        STORED_BRIGHTNESS_7_Write(storedBrightnesses[6]);
     }
 }
 

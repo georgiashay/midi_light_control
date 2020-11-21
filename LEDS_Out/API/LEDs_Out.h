@@ -10,9 +10,6 @@
  * ========================================
 */
 
-#include "`$INSTANCE_NAME`.h"
-
-void `$INSTANCE_NAME`_Start() {
-}
+void `$INSTANCE_NAME`_Start();
 
 /* [] END OF FILE */
