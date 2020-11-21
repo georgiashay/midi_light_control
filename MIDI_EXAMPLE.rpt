@@ -1,13 +1,13 @@
-Loading plugins phase: Elapsed time ==> 0s.201ms
+Loading plugins phase: Elapsed time ==> 0s.156ms
 Initializing data phase: Elapsed time ==> 0s.000ms
 <CYPRESSTAG name="CyDsfit arguments...">
 cydsfit arguments: -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -p \\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\MIDI_EXAMPLE.cyprj -d CY8C5888LTI-LP097 -s \\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\Generated_Source\PSoC5 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE</CYPRESSTAG>
 <CYPRESSTAG name="Design elaboration results...">
 </CYPRESSTAG>
-Elaboration phase: Elapsed time ==> 2s.031ms
+Elaboration phase: Elapsed time ==> 1s.834ms
 <CYPRESSTAG name="HDL generation results...">
 </CYPRESSTAG>
-HDL generation phase: Elapsed time ==> 0s.098ms
+HDL generation phase: Elapsed time ==> 0s.072ms
 <CYPRESSTAG name="Synthesis results...">
 
      | | | | | | |
@@ -41,7 +41,7 @@ Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=\\Mac\Home\Doc
 ======================================================================
 
 vlogfe V6.3 IR 41:  Verilog parser
-Fri Nov 20 23:06:09 2020
+Fri Nov 20 23:13:55 2020
 
 
 ======================================================================
@@ -51,7 +51,7 @@ Options  :    -yv2 -q10 MIDI_EXAMPLE.v
 ======================================================================
 
 vpp V6.3 IR 41:  Verilog Pre-Processor
-Fri Nov 20 23:06:09 2020
+Fri Nov 20 23:13:55 2020
 
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_80\CyControlReg_v1_80.v'
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cypress.v'
@@ -63,10 +63,10 @@ Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\ps
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\demux_v1_10\demux_v1_10.v'
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\or_v1_0\or_v1_0.v'
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cydff_v1_30\cydff_v1_30.v'
-Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\and_v1_0\and_v1_0.v'
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\not_v1_0\not_v1_0.v'
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\BasicCounter_v1_0\BasicCounter_v1_0.v'
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cypress.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\and_v1_0\and_v1_0.v'
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\DigitalComp_v1_0\DigitalComp_v1_0.v'
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyStatusReg_v1_90\CyStatusReg_v1_90.v'
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cypress.v'
@@ -105,7 +105,7 @@ Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=\\Mac\Home\Doc
 ======================================================================
 
 tovif V6.3 IR 41:  High-level synthesis
-Fri Nov 20 23:06:10 2020
+Fri Nov 20 23:13:56 2020
 
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\std.vhd'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cypress.vhd'.
@@ -128,9 +128,9 @@ Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\conte
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\demux_v1_10\demux_v1_10.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\or_v1_0\or_v1_0.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cydff_v1_30\cydff_v1_30.v'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\and_v1_0\and_v1_0.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\not_v1_0\not_v1_0.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\BasicCounter_v1_0\BasicCounter_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\and_v1_0\and_v1_0.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\DigitalComp_v1_0\DigitalComp_v1_0.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyStatusReg_v1_90\CyStatusReg_v1_90.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\lcpsoc3\stdlogic\mod_cnst.vif'.
@@ -146,7 +146,7 @@ Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=\\Mac\Home\Doc
 ======================================================================
 
 topld V6.3 IR 41:  Synthesis and optimization
-Fri Nov 20 23:06:10 2020
+Fri Nov 20 23:13:56 2020
 
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\std.vhd'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cypress.vhd'.
@@ -169,9 +169,9 @@ Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\conte
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\demux_v1_10\demux_v1_10.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\or_v1_0\or_v1_0.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cydff_v1_30\cydff_v1_30.v'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\and_v1_0\and_v1_0.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\not_v1_0\not_v1_0.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\BasicCounter_v1_0\BasicCounter_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\and_v1_0\and_v1_0.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\DigitalComp_v1_0\DigitalComp_v1_0.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyStatusReg_v1_90\CyStatusReg_v1_90.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\lcpsoc3\stdlogic\mod_cnst.vif'.
@@ -228,23 +228,6 @@ Detecting unused logic.
 	\MIDI_BIN_REG:control_bus_3\
 	\BRIGHTNESS_RAMP:Net_280\
 	\BRIGHTNESS_RAMP:Net_80\
-	Net_1996
-	\demux_1:tmp__demux_1_0_reg\
-	\demux_1:tmp__demux_1_1_reg\
-	\demux_1:tmp__demux_1_2_reg\
-	\demux_1:tmp__demux_1_3_reg\
-	\demux_1:tmp__demux_1_4_reg\
-	\demux_1:tmp__demux_1_5_reg\
-	\demux_1:tmp__demux_1_6_reg\
-	\demux_1:tmp__demux_1_7_reg\
-	Net_4835
-	Net_1999
-	Net_2001
-	Net_1478
-	Net_2951
-	Net_5044
-	Net_2004
-	Net_5046
 	\TRIANGLE_SEL:Net_280\
 	\TRIANGLE_SEL:Net_80\
 	\RAMP_COMP:Net_9\
@@ -676,7 +659,7 @@ Detecting unused logic.
 	\LEDs_Out_1:PWM_COUNTER:add_vi_vv_MODGEN_1_9\
 	\LEDs_Out_1:PWM_COUNTER:add_vi_vv_MODGEN_1_8\
 
-Deleted 446 User equations/components.
+Deleted 429 User equations/components.
 Deleted 45 Synthesized equations/components.
 
 ------------------------------------------------------
@@ -875,749 +858,749 @@ Removing Lhs of wire \BRIGHTNESS_RAMP:VDAC8:Net_83\[236] = zero[2]
 Removing Lhs of wire \BRIGHTNESS_RAMP:VDAC8:Net_81\[237] = zero[2]
 Removing Lhs of wire \BRIGHTNESS_RAMP:VDAC8:Net_82\[238] = zero[2]
 Removing Lhs of wire Net_1968[247] = zero[2]
-Removing Rhs of wire Net_2234[251] = \RAMP_COMP:Net_1\[301]
-Removing Rhs of wire \TRIANGLE_SEL:Net_183\[278] = \TRIANGLE_SEL:demux:tmp__demux_0_reg\[283]
-Removing Rhs of wire \TRIANGLE_SEL:Net_107\[281] = \TRIANGLE_SEL:demux:tmp__demux_1_reg\[286]
-Removing Rhs of wire \TRIANGLE_SEL:Net_134\[284] = \TRIANGLE_SEL:cydff_1\[298]
-Removing Lhs of wire \TRIANGLE_SEL:Net_336\[285] = Net_1945[249]
-Removing Lhs of wire \TRIANGLE_SEL:VDAC8:Net_83\[288] = zero[2]
-Removing Lhs of wire \TRIANGLE_SEL:VDAC8:Net_81\[289] = zero[2]
-Removing Lhs of wire \TRIANGLE_SEL:VDAC8:Net_82\[290] = zero[2]
-Removing Lhs of wire \RAMP_COMP:clock\[300] = zero[2]
-Removing Lhs of wire tmpOE__LED_8_net_0[304] = tmpOE__SW2_net_0[1]
-Removing Lhs of wire Net_2948[305] = zero[2]
-Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_9_10\[311] = \WAVETABLE_COUNTER:MODULE_9:g2:a0:s_10\[481]
-Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_9_9\[313] = \WAVETABLE_COUNTER:MODULE_9:g2:a0:s_9\[482]
-Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_9_8\[315] = \WAVETABLE_COUNTER:MODULE_9:g2:a0:s_8\[483]
-Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_9_7\[317] = \WAVETABLE_COUNTER:MODULE_9:g2:a0:s_7\[484]
-Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_9_6\[319] = \WAVETABLE_COUNTER:MODULE_9:g2:a0:s_6\[485]
-Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_9_5\[321] = \WAVETABLE_COUNTER:MODULE_9:g2:a0:s_5\[486]
-Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_9_4\[323] = \WAVETABLE_COUNTER:MODULE_9:g2:a0:s_4\[487]
-Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_9_3\[325] = \WAVETABLE_COUNTER:MODULE_9:g2:a0:s_3\[488]
-Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_9_2\[327] = \WAVETABLE_COUNTER:MODULE_9:g2:a0:s_2\[489]
-Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_9_1\[329] = \WAVETABLE_COUNTER:MODULE_9:g2:a0:s_1\[490]
-Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_9_0\[331] = \WAVETABLE_COUNTER:MODULE_9:g2:a0:s_0\[491]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:a_23\[372] = zero[2]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:a_22\[373] = zero[2]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:a_21\[374] = zero[2]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:a_20\[375] = zero[2]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:a_19\[376] = zero[2]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:a_18\[377] = zero[2]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:a_17\[378] = zero[2]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:a_16\[379] = zero[2]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:a_15\[380] = zero[2]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:a_14\[381] = zero[2]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:a_13\[382] = zero[2]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:a_12\[383] = zero[2]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:a_11\[384] = zero[2]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:a_10\[385] = \WAVETABLE_COUNTER:MODIN16_10\[386]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODIN16_10\[386] = Net_2965_10[310]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:a_9\[387] = \WAVETABLE_COUNTER:MODIN16_9\[388]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODIN16_9\[388] = Net_2965_9[312]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:a_8\[389] = \WAVETABLE_COUNTER:MODIN16_8\[390]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODIN16_8\[390] = Net_2965_8[314]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:a_7\[391] = \WAVETABLE_COUNTER:MODIN16_7\[392]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODIN16_7\[392] = Net_2965_7[316]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:a_6\[393] = \WAVETABLE_COUNTER:MODIN16_6\[394]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODIN16_6\[394] = Net_2965_6[318]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:a_5\[395] = \WAVETABLE_COUNTER:MODIN16_5\[396]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODIN16_5\[396] = Net_2965_5[320]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:a_4\[397] = \WAVETABLE_COUNTER:MODIN16_4\[398]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODIN16_4\[398] = Net_2965_4[322]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:a_3\[399] = \WAVETABLE_COUNTER:MODIN16_3\[400]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODIN16_3\[400] = Net_2965_3[324]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:a_2\[401] = \WAVETABLE_COUNTER:MODIN16_2\[402]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODIN16_2\[402] = Net_2965_2[326]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:a_1\[403] = \WAVETABLE_COUNTER:MODIN16_1\[404]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODIN16_1\[404] = Net_2965_1[328]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:a_0\[405] = \WAVETABLE_COUNTER:MODIN16_0\[406]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODIN16_0\[406] = Net_2965_0[330]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:g1:z1:s0:g1:u0:c_0\[529] = tmpOE__SW2_net_0[1]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:g1:z1:s0:g1:u0:b_0\[530] = tmpOE__SW2_net_0[1]
-Removing Lhs of wire \STORED_BRIGHTNESS_2:clk\[531] = zero[2]
-Removing Lhs of wire \STORED_BRIGHTNESS_2:rst\[532] = zero[2]
-Removing Rhs of wire Net_4957_7[533] = \STORED_BRIGHTNESS_2:control_out_7\[534]
-Removing Rhs of wire Net_4957_7[533] = \STORED_BRIGHTNESS_2:control_7\[550]
-Removing Rhs of wire Net_4957_6[535] = \STORED_BRIGHTNESS_2:control_out_6\[536]
-Removing Rhs of wire Net_4957_6[535] = \STORED_BRIGHTNESS_2:control_6\[551]
-Removing Rhs of wire Net_4957_5[537] = \STORED_BRIGHTNESS_2:control_out_5\[538]
-Removing Rhs of wire Net_4957_5[537] = \STORED_BRIGHTNESS_2:control_5\[552]
-Removing Rhs of wire Net_4957_4[539] = \STORED_BRIGHTNESS_2:control_out_4\[540]
-Removing Rhs of wire Net_4957_4[539] = \STORED_BRIGHTNESS_2:control_4\[553]
-Removing Rhs of wire Net_4957_3[541] = \STORED_BRIGHTNESS_2:control_out_3\[542]
-Removing Rhs of wire Net_4957_3[541] = \STORED_BRIGHTNESS_2:control_3\[554]
-Removing Rhs of wire Net_4957_2[543] = \STORED_BRIGHTNESS_2:control_out_2\[544]
-Removing Rhs of wire Net_4957_2[543] = \STORED_BRIGHTNESS_2:control_2\[555]
-Removing Rhs of wire Net_4957_1[545] = \STORED_BRIGHTNESS_2:control_out_1\[546]
-Removing Rhs of wire Net_4957_1[545] = \STORED_BRIGHTNESS_2:control_1\[556]
-Removing Rhs of wire Net_4957_0[547] = \STORED_BRIGHTNESS_2:control_out_0\[548]
-Removing Rhs of wire Net_4957_0[547] = \STORED_BRIGHTNESS_2:control_0\[557]
-Removing Rhs of wire \LEDs_Out_1:Net_38\[566] = \LEDs_Out_1:demux_1:tmp__demux_1_0_reg\[558]
-Removing Rhs of wire \LEDs_Out_1:Net_42\[567] = \LEDs_Out_1:demux_1:tmp__demux_1_1_reg\[559]
-Removing Rhs of wire \LEDs_Out_1:Net_88\[568] = \LEDs_Out_1:demux_1:tmp__demux_1_2_reg\[560]
-Removing Rhs of wire \LEDs_Out_1:Net_30\[569] = \LEDs_Out_1:demux_1:tmp__demux_1_3_reg\[561]
-Removing Rhs of wire \LEDs_Out_1:Net_92\[570] = \LEDs_Out_1:demux_1:tmp__demux_1_4_reg\[562]
-Removing Rhs of wire \LEDs_Out_1:Net_32\[571] = \LEDs_Out_1:demux_1:tmp__demux_1_5_reg\[563]
-Removing Rhs of wire \LEDs_Out_1:Net_33\[572] = \LEDs_Out_1:demux_1:tmp__demux_1_6_reg\[564]
-Removing Rhs of wire \LEDs_Out_1:Net_182\[576] = \LEDs_Out_1:cmp_vv_vv_MODGEN_2\[818]
-Removing Rhs of wire \LEDs_Out_1:Net_182\[576] = \LEDs_Out_1:MODULE_2:g1:a0:xgt\[948]
-Removing Rhs of wire \LEDs_Out_1:Net_182\[576] = \LEDs_Out_1:MODULE_2:g1:a0:gx:u0:agbi_0\[943]
-Removing Rhs of wire \LEDs_Out_1:Net_183\[580] = \LEDs_Out_1:cmp_vv_vv_MODGEN_3\[819]
-Removing Rhs of wire \LEDs_Out_1:Net_183\[580] = \LEDs_Out_1:MODULE_3:g1:a0:xgt\[1086]
-Removing Rhs of wire \LEDs_Out_1:Net_183\[580] = \LEDs_Out_1:MODULE_3:g1:a0:gx:u0:agbi_0\[1081]
-Removing Rhs of wire \LEDs_Out_1:Net_184\[584] = \LEDs_Out_1:cmp_vv_vv_MODGEN_4\[820]
-Removing Rhs of wire \LEDs_Out_1:Net_184\[584] = \LEDs_Out_1:MODULE_4:g1:a0:xgt\[1216]
-Removing Rhs of wire \LEDs_Out_1:Net_184\[584] = \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:agbi_0\[1211]
-Removing Rhs of wire \LEDs_Out_1:Net_185\[588] = \LEDs_Out_1:cmp_vv_vv_MODGEN_5\[821]
-Removing Rhs of wire \LEDs_Out_1:Net_185\[588] = \LEDs_Out_1:MODULE_5:g1:a0:xgt\[1354]
-Removing Rhs of wire \LEDs_Out_1:Net_185\[588] = \LEDs_Out_1:MODULE_5:g1:a0:gx:u0:agbi_0\[1349]
-Removing Rhs of wire \LEDs_Out_1:Net_186\[592] = \LEDs_Out_1:cmp_vv_vv_MODGEN_6\[822]
-Removing Rhs of wire \LEDs_Out_1:Net_186\[592] = \LEDs_Out_1:MODULE_6:g1:a0:xgt\[1492]
-Removing Rhs of wire \LEDs_Out_1:Net_186\[592] = \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:agbi_0\[1487]
-Removing Rhs of wire \LEDs_Out_1:Net_187\[596] = \LEDs_Out_1:cmp_vv_vv_MODGEN_7\[823]
-Removing Rhs of wire \LEDs_Out_1:Net_187\[596] = \LEDs_Out_1:MODULE_7:g1:a0:xgt\[1630]
-Removing Rhs of wire \LEDs_Out_1:Net_187\[596] = \LEDs_Out_1:MODULE_7:g1:a0:gx:u0:agbi_0\[1625]
-Removing Rhs of wire \LEDs_Out_1:Net_188\[600] = \LEDs_Out_1:cmp_vv_vv_MODGEN_8\[824]
-Removing Rhs of wire \LEDs_Out_1:Net_188\[600] = \LEDs_Out_1:MODULE_8:g1:a0:xgt\[1768]
-Removing Rhs of wire \LEDs_Out_1:Net_188\[600] = \LEDs_Out_1:MODULE_8:g1:a0:gx:u0:agbi_0\[1763]
-Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:add_vi_vv_MODGEN_1_7\[604] = \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:s_7\[771]
-Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:add_vi_vv_MODGEN_1_6\[606] = \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:s_6\[772]
-Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:add_vi_vv_MODGEN_1_5\[608] = \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:s_5\[773]
-Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:add_vi_vv_MODGEN_1_4\[610] = \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:s_4\[774]
-Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:add_vi_vv_MODGEN_1_3\[612] = \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:s_3\[775]
-Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:add_vi_vv_MODGEN_1_2\[614] = \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:s_2\[776]
-Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:add_vi_vv_MODGEN_1_1\[616] = \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:s_1\[777]
-Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:add_vi_vv_MODGEN_1_0\[618] = \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:s_0\[778]
-Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:a_23\[659] = zero[2]
-Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:a_22\[660] = zero[2]
-Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:a_21\[661] = zero[2]
-Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:a_20\[662] = zero[2]
-Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:a_19\[663] = zero[2]
-Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:a_18\[664] = zero[2]
-Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:a_17\[665] = zero[2]
-Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:a_16\[666] = zero[2]
-Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:a_15\[667] = zero[2]
-Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:a_14\[668] = zero[2]
-Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:a_13\[669] = zero[2]
-Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:a_12\[670] = zero[2]
-Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:a_11\[671] = zero[2]
-Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:a_10\[672] = zero[2]
-Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:a_9\[673] = zero[2]
-Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:a_8\[674] = zero[2]
-Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:a_7\[675] = \LEDs_Out_1:PWM_COUNTER:MODIN1_7\[676]
-Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODIN1_7\[676] = \LEDs_Out_1:Net_213_7\[603]
-Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:a_6\[677] = \LEDs_Out_1:PWM_COUNTER:MODIN1_6\[678]
-Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODIN1_6\[678] = \LEDs_Out_1:Net_213_6\[605]
-Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:a_5\[679] = \LEDs_Out_1:PWM_COUNTER:MODIN1_5\[680]
-Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODIN1_5\[680] = \LEDs_Out_1:Net_213_5\[607]
-Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:a_4\[681] = \LEDs_Out_1:PWM_COUNTER:MODIN1_4\[682]
-Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODIN1_4\[682] = \LEDs_Out_1:Net_213_4\[609]
-Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:a_3\[683] = \LEDs_Out_1:PWM_COUNTER:MODIN1_3\[684]
-Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODIN1_3\[684] = \LEDs_Out_1:Net_213_3\[611]
-Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:a_2\[685] = \LEDs_Out_1:PWM_COUNTER:MODIN1_2\[686]
-Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODIN1_2\[686] = \LEDs_Out_1:Net_213_2\[613]
-Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:a_1\[687] = \LEDs_Out_1:PWM_COUNTER:MODIN1_1\[688]
-Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODIN1_1\[688] = \LEDs_Out_1:Net_213_1\[615]
-Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:a_0\[689] = \LEDs_Out_1:PWM_COUNTER:MODIN1_0\[690]
-Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODIN1_0\[690] = \LEDs_Out_1:Net_213_0\[617]
-Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_0\[816] = tmpOE__SW2_net_0[1]
-Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_0\[817] = tmpOE__SW2_net_0[1]
-Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:newa_7\[825] = \LEDs_Out_1:MODIN2_7\[826]
-Removing Lhs of wire \LEDs_Out_1:MODIN2_7\[826] = Net_4956_7[955]
-Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:newa_6\[827] = \LEDs_Out_1:MODIN2_6\[828]
-Removing Lhs of wire \LEDs_Out_1:MODIN2_6\[828] = Net_4956_6[956]
-Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:newa_5\[829] = \LEDs_Out_1:MODIN2_5\[830]
-Removing Lhs of wire \LEDs_Out_1:MODIN2_5\[830] = Net_4956_5[957]
-Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:newa_4\[831] = \LEDs_Out_1:MODIN2_4\[832]
-Removing Lhs of wire \LEDs_Out_1:MODIN2_4\[832] = Net_4956_4[958]
-Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:newa_3\[833] = \LEDs_Out_1:MODIN2_3\[834]
-Removing Lhs of wire \LEDs_Out_1:MODIN2_3\[834] = Net_4956_3[959]
-Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:newa_2\[835] = \LEDs_Out_1:MODIN2_2\[836]
-Removing Lhs of wire \LEDs_Out_1:MODIN2_2\[836] = Net_4956_2[960]
-Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:newa_1\[837] = \LEDs_Out_1:MODIN2_1\[838]
-Removing Lhs of wire \LEDs_Out_1:MODIN2_1\[838] = Net_4956_1[961]
-Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:newa_0\[839] = \LEDs_Out_1:MODIN2_0\[840]
-Removing Lhs of wire \LEDs_Out_1:MODIN2_0\[840] = Net_4956_0[962]
-Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:newb_7\[841] = \LEDs_Out_1:Net_213_7\[603]
-Removing Lhs of wire \LEDs_Out_1:MODIN3_7\[842] = \LEDs_Out_1:Net_213_7\[603]
-Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:newb_6\[843] = \LEDs_Out_1:Net_213_6\[605]
-Removing Lhs of wire \LEDs_Out_1:MODIN3_6\[844] = \LEDs_Out_1:Net_213_6\[605]
-Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:newb_5\[845] = \LEDs_Out_1:Net_213_5\[607]
-Removing Lhs of wire \LEDs_Out_1:MODIN3_5\[846] = \LEDs_Out_1:Net_213_5\[607]
-Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:newb_4\[847] = \LEDs_Out_1:Net_213_4\[609]
-Removing Lhs of wire \LEDs_Out_1:MODIN3_4\[848] = \LEDs_Out_1:Net_213_4\[609]
-Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:newb_3\[849] = \LEDs_Out_1:Net_213_3\[611]
-Removing Lhs of wire \LEDs_Out_1:MODIN3_3\[850] = \LEDs_Out_1:Net_213_3\[611]
-Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:newb_2\[851] = \LEDs_Out_1:Net_213_2\[613]
-Removing Lhs of wire \LEDs_Out_1:MODIN3_2\[852] = \LEDs_Out_1:Net_213_2\[613]
-Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:newb_1\[853] = \LEDs_Out_1:Net_213_1\[615]
-Removing Lhs of wire \LEDs_Out_1:MODIN3_1\[854] = \LEDs_Out_1:Net_213_1\[615]
-Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:newb_0\[855] = \LEDs_Out_1:Net_213_0\[617]
-Removing Lhs of wire \LEDs_Out_1:MODIN3_0\[856] = \LEDs_Out_1:Net_213_0\[617]
-Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:dataa_7\[857] = Net_4956_7[955]
-Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:dataa_6\[858] = Net_4956_6[956]
-Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:dataa_5\[859] = Net_4956_5[957]
-Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:dataa_4\[860] = Net_4956_4[958]
-Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:dataa_3\[861] = Net_4956_3[959]
-Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:dataa_2\[862] = Net_4956_2[960]
-Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:dataa_1\[863] = Net_4956_1[961]
-Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:dataa_0\[864] = Net_4956_0[962]
-Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:datab_7\[865] = \LEDs_Out_1:Net_213_7\[603]
-Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:datab_6\[866] = \LEDs_Out_1:Net_213_6\[605]
-Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:datab_5\[867] = \LEDs_Out_1:Net_213_5\[607]
-Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:datab_4\[868] = \LEDs_Out_1:Net_213_4\[609]
-Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:datab_3\[869] = \LEDs_Out_1:Net_213_3\[611]
-Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:datab_2\[870] = \LEDs_Out_1:Net_213_2\[613]
-Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:datab_1\[871] = \LEDs_Out_1:Net_213_1\[615]
-Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:datab_0\[872] = \LEDs_Out_1:Net_213_0\[617]
-Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:gx:u0:a_7\[873] = Net_4956_7[955]
-Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:gx:u0:a_6\[874] = Net_4956_6[956]
-Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:gx:u0:a_5\[875] = Net_4956_5[957]
-Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:gx:u0:a_4\[876] = Net_4956_4[958]
-Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:gx:u0:a_3\[877] = Net_4956_3[959]
-Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:gx:u0:a_2\[878] = Net_4956_2[960]
-Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:gx:u0:a_1\[879] = Net_4956_1[961]
-Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:gx:u0:a_0\[880] = Net_4956_0[962]
-Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:gx:u0:b_7\[881] = \LEDs_Out_1:Net_213_7\[603]
-Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:gx:u0:b_6\[882] = \LEDs_Out_1:Net_213_6\[605]
-Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:gx:u0:b_5\[883] = \LEDs_Out_1:Net_213_5\[607]
-Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:gx:u0:b_4\[884] = \LEDs_Out_1:Net_213_4\[609]
-Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:gx:u0:b_3\[885] = \LEDs_Out_1:Net_213_3\[611]
-Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:gx:u0:b_2\[886] = \LEDs_Out_1:Net_213_2\[613]
-Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:gx:u0:b_1\[887] = \LEDs_Out_1:Net_213_1\[615]
-Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:gx:u0:b_0\[888] = \LEDs_Out_1:Net_213_0\[617]
-Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:gx:u0:albi_3\[908] = zero[2]
-Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:gx:u0:agbi_3\[909] = zero[2]
-Removing Rhs of wire Net_4956_7[955] = \STORED_BRIGHTNESS_1:control_out_7\[1786]
-Removing Rhs of wire Net_4956_7[955] = \STORED_BRIGHTNESS_1:control_7\[1795]
-Removing Rhs of wire Net_4956_6[956] = \STORED_BRIGHTNESS_1:control_out_6\[1787]
-Removing Rhs of wire Net_4956_6[956] = \STORED_BRIGHTNESS_1:control_6\[1796]
-Removing Rhs of wire Net_4956_5[957] = \STORED_BRIGHTNESS_1:control_out_5\[1788]
-Removing Rhs of wire Net_4956_5[957] = \STORED_BRIGHTNESS_1:control_5\[1797]
-Removing Rhs of wire Net_4956_4[958] = \STORED_BRIGHTNESS_1:control_out_4\[1789]
-Removing Rhs of wire Net_4956_4[958] = \STORED_BRIGHTNESS_1:control_4\[1798]
-Removing Rhs of wire Net_4956_3[959] = \STORED_BRIGHTNESS_1:control_out_3\[1790]
-Removing Rhs of wire Net_4956_3[959] = \STORED_BRIGHTNESS_1:control_3\[1799]
-Removing Rhs of wire Net_4956_2[960] = \STORED_BRIGHTNESS_1:control_out_2\[1791]
-Removing Rhs of wire Net_4956_2[960] = \STORED_BRIGHTNESS_1:control_2\[1800]
-Removing Rhs of wire Net_4956_1[961] = \STORED_BRIGHTNESS_1:control_out_1\[1792]
-Removing Rhs of wire Net_4956_1[961] = \STORED_BRIGHTNESS_1:control_1\[1801]
-Removing Rhs of wire Net_4956_0[962] = \STORED_BRIGHTNESS_1:control_out_0\[1793]
-Removing Rhs of wire Net_4956_0[962] = \STORED_BRIGHTNESS_1:control_0\[1802]
-Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:newa_7\[963] = \LEDs_Out_1:MODIN4_7\[964]
-Removing Lhs of wire \LEDs_Out_1:MODIN4_7\[964] = Net_4957_7[533]
-Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:newa_6\[965] = \LEDs_Out_1:MODIN4_6\[966]
-Removing Lhs of wire \LEDs_Out_1:MODIN4_6\[966] = Net_4957_6[535]
-Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:newa_5\[967] = \LEDs_Out_1:MODIN4_5\[968]
-Removing Lhs of wire \LEDs_Out_1:MODIN4_5\[968] = Net_4957_5[537]
-Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:newa_4\[969] = \LEDs_Out_1:MODIN4_4\[970]
-Removing Lhs of wire \LEDs_Out_1:MODIN4_4\[970] = Net_4957_4[539]
-Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:newa_3\[971] = \LEDs_Out_1:MODIN4_3\[972]
-Removing Lhs of wire \LEDs_Out_1:MODIN4_3\[972] = Net_4957_3[541]
-Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:newa_2\[973] = \LEDs_Out_1:MODIN4_2\[974]
-Removing Lhs of wire \LEDs_Out_1:MODIN4_2\[974] = Net_4957_2[543]
-Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:newa_1\[975] = \LEDs_Out_1:MODIN4_1\[976]
-Removing Lhs of wire \LEDs_Out_1:MODIN4_1\[976] = Net_4957_1[545]
-Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:newa_0\[977] = \LEDs_Out_1:MODIN4_0\[978]
-Removing Lhs of wire \LEDs_Out_1:MODIN4_0\[978] = Net_4957_0[547]
-Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:newb_7\[979] = \LEDs_Out_1:Net_213_7\[603]
-Removing Lhs of wire \LEDs_Out_1:MODIN5_7\[980] = \LEDs_Out_1:Net_213_7\[603]
-Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:newb_6\[981] = \LEDs_Out_1:Net_213_6\[605]
-Removing Lhs of wire \LEDs_Out_1:MODIN5_6\[982] = \LEDs_Out_1:Net_213_6\[605]
-Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:newb_5\[983] = \LEDs_Out_1:Net_213_5\[607]
-Removing Lhs of wire \LEDs_Out_1:MODIN5_5\[984] = \LEDs_Out_1:Net_213_5\[607]
-Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:newb_4\[985] = \LEDs_Out_1:Net_213_4\[609]
-Removing Lhs of wire \LEDs_Out_1:MODIN5_4\[986] = \LEDs_Out_1:Net_213_4\[609]
-Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:newb_3\[987] = \LEDs_Out_1:Net_213_3\[611]
-Removing Lhs of wire \LEDs_Out_1:MODIN5_3\[988] = \LEDs_Out_1:Net_213_3\[611]
-Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:newb_2\[989] = \LEDs_Out_1:Net_213_2\[613]
-Removing Lhs of wire \LEDs_Out_1:MODIN5_2\[990] = \LEDs_Out_1:Net_213_2\[613]
-Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:newb_1\[991] = \LEDs_Out_1:Net_213_1\[615]
-Removing Lhs of wire \LEDs_Out_1:MODIN5_1\[992] = \LEDs_Out_1:Net_213_1\[615]
-Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:newb_0\[993] = \LEDs_Out_1:Net_213_0\[617]
-Removing Lhs of wire \LEDs_Out_1:MODIN5_0\[994] = \LEDs_Out_1:Net_213_0\[617]
-Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:dataa_7\[995] = Net_4957_7[533]
-Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:dataa_6\[996] = Net_4957_6[535]
-Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:dataa_5\[997] = Net_4957_5[537]
-Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:dataa_4\[998] = Net_4957_4[539]
-Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:dataa_3\[999] = Net_4957_3[541]
-Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:dataa_2\[1000] = Net_4957_2[543]
-Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:dataa_1\[1001] = Net_4957_1[545]
-Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:dataa_0\[1002] = Net_4957_0[547]
-Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:datab_7\[1003] = \LEDs_Out_1:Net_213_7\[603]
-Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:datab_6\[1004] = \LEDs_Out_1:Net_213_6\[605]
-Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:datab_5\[1005] = \LEDs_Out_1:Net_213_5\[607]
-Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:datab_4\[1006] = \LEDs_Out_1:Net_213_4\[609]
-Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:datab_3\[1007] = \LEDs_Out_1:Net_213_3\[611]
-Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:datab_2\[1008] = \LEDs_Out_1:Net_213_2\[613]
-Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:datab_1\[1009] = \LEDs_Out_1:Net_213_1\[615]
-Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:datab_0\[1010] = \LEDs_Out_1:Net_213_0\[617]
-Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:gx:u0:a_7\[1011] = Net_4957_7[533]
-Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:gx:u0:a_6\[1012] = Net_4957_6[535]
-Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:gx:u0:a_5\[1013] = Net_4957_5[537]
-Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:gx:u0:a_4\[1014] = Net_4957_4[539]
-Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:gx:u0:a_3\[1015] = Net_4957_3[541]
-Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:gx:u0:a_2\[1016] = Net_4957_2[543]
-Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:gx:u0:a_1\[1017] = Net_4957_1[545]
-Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:gx:u0:a_0\[1018] = Net_4957_0[547]
-Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:gx:u0:b_7\[1019] = \LEDs_Out_1:Net_213_7\[603]
-Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:gx:u0:b_6\[1020] = \LEDs_Out_1:Net_213_6\[605]
-Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:gx:u0:b_5\[1021] = \LEDs_Out_1:Net_213_5\[607]
-Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:gx:u0:b_4\[1022] = \LEDs_Out_1:Net_213_4\[609]
-Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:gx:u0:b_3\[1023] = \LEDs_Out_1:Net_213_3\[611]
-Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:gx:u0:b_2\[1024] = \LEDs_Out_1:Net_213_2\[613]
-Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:gx:u0:b_1\[1025] = \LEDs_Out_1:Net_213_1\[615]
-Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:gx:u0:b_0\[1026] = \LEDs_Out_1:Net_213_0\[617]
-Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:gx:u0:albi_3\[1046] = zero[2]
-Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:gx:u0:agbi_3\[1047] = zero[2]
-Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:newa_7\[1093] = \LEDs_Out_1:MODIN6_7\[1094]
-Removing Lhs of wire \LEDs_Out_1:MODIN6_7\[1094] = Net_4958_7[1223]
-Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:newa_6\[1095] = \LEDs_Out_1:MODIN6_6\[1096]
-Removing Lhs of wire \LEDs_Out_1:MODIN6_6\[1096] = Net_4958_6[1224]
-Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:newa_5\[1097] = \LEDs_Out_1:MODIN6_5\[1098]
-Removing Lhs of wire \LEDs_Out_1:MODIN6_5\[1098] = Net_4958_5[1225]
-Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:newa_4\[1099] = \LEDs_Out_1:MODIN6_4\[1100]
-Removing Lhs of wire \LEDs_Out_1:MODIN6_4\[1100] = Net_4958_4[1226]
-Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:newa_3\[1101] = \LEDs_Out_1:MODIN6_3\[1102]
-Removing Lhs of wire \LEDs_Out_1:MODIN6_3\[1102] = Net_4958_3[1227]
-Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:newa_2\[1103] = \LEDs_Out_1:MODIN6_2\[1104]
-Removing Lhs of wire \LEDs_Out_1:MODIN6_2\[1104] = Net_4958_2[1228]
-Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:newa_1\[1105] = \LEDs_Out_1:MODIN6_1\[1106]
-Removing Lhs of wire \LEDs_Out_1:MODIN6_1\[1106] = Net_4958_1[1229]
-Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:newa_0\[1107] = \LEDs_Out_1:MODIN6_0\[1108]
-Removing Lhs of wire \LEDs_Out_1:MODIN6_0\[1108] = Net_4958_0[1230]
-Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:newb_7\[1109] = \LEDs_Out_1:Net_213_7\[603]
-Removing Lhs of wire \LEDs_Out_1:MODIN7_7\[1110] = \LEDs_Out_1:Net_213_7\[603]
-Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:newb_6\[1111] = \LEDs_Out_1:Net_213_6\[605]
-Removing Lhs of wire \LEDs_Out_1:MODIN7_6\[1112] = \LEDs_Out_1:Net_213_6\[605]
-Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:newb_5\[1113] = \LEDs_Out_1:Net_213_5\[607]
-Removing Lhs of wire \LEDs_Out_1:MODIN7_5\[1114] = \LEDs_Out_1:Net_213_5\[607]
-Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:newb_4\[1115] = \LEDs_Out_1:Net_213_4\[609]
-Removing Lhs of wire \LEDs_Out_1:MODIN7_4\[1116] = \LEDs_Out_1:Net_213_4\[609]
-Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:newb_3\[1117] = \LEDs_Out_1:Net_213_3\[611]
-Removing Lhs of wire \LEDs_Out_1:MODIN7_3\[1118] = \LEDs_Out_1:Net_213_3\[611]
-Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:newb_2\[1119] = \LEDs_Out_1:Net_213_2\[613]
-Removing Lhs of wire \LEDs_Out_1:MODIN7_2\[1120] = \LEDs_Out_1:Net_213_2\[613]
-Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:newb_1\[1121] = \LEDs_Out_1:Net_213_1\[615]
-Removing Lhs of wire \LEDs_Out_1:MODIN7_1\[1122] = \LEDs_Out_1:Net_213_1\[615]
-Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:newb_0\[1123] = \LEDs_Out_1:Net_213_0\[617]
-Removing Lhs of wire \LEDs_Out_1:MODIN7_0\[1124] = \LEDs_Out_1:Net_213_0\[617]
-Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:dataa_7\[1125] = Net_4958_7[1223]
-Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:dataa_6\[1126] = Net_4958_6[1224]
-Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:dataa_5\[1127] = Net_4958_5[1225]
-Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:dataa_4\[1128] = Net_4958_4[1226]
-Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:dataa_3\[1129] = Net_4958_3[1227]
-Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:dataa_2\[1130] = Net_4958_2[1228]
-Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:dataa_1\[1131] = Net_4958_1[1229]
-Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:dataa_0\[1132] = Net_4958_0[1230]
-Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:datab_7\[1133] = \LEDs_Out_1:Net_213_7\[603]
-Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:datab_6\[1134] = \LEDs_Out_1:Net_213_6\[605]
-Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:datab_5\[1135] = \LEDs_Out_1:Net_213_5\[607]
-Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:datab_4\[1136] = \LEDs_Out_1:Net_213_4\[609]
-Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:datab_3\[1137] = \LEDs_Out_1:Net_213_3\[611]
-Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:datab_2\[1138] = \LEDs_Out_1:Net_213_2\[613]
-Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:datab_1\[1139] = \LEDs_Out_1:Net_213_1\[615]
-Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:datab_0\[1140] = \LEDs_Out_1:Net_213_0\[617]
-Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:a_7\[1141] = Net_4958_7[1223]
-Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:a_6\[1142] = Net_4958_6[1224]
-Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:a_5\[1143] = Net_4958_5[1225]
-Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:a_4\[1144] = Net_4958_4[1226]
-Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:a_3\[1145] = Net_4958_3[1227]
-Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:a_2\[1146] = Net_4958_2[1228]
-Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:a_1\[1147] = Net_4958_1[1229]
-Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:a_0\[1148] = Net_4958_0[1230]
-Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:b_7\[1149] = \LEDs_Out_1:Net_213_7\[603]
-Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:b_6\[1150] = \LEDs_Out_1:Net_213_6\[605]
-Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:b_5\[1151] = \LEDs_Out_1:Net_213_5\[607]
-Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:b_4\[1152] = \LEDs_Out_1:Net_213_4\[609]
-Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:b_3\[1153] = \LEDs_Out_1:Net_213_3\[611]
-Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:b_2\[1154] = \LEDs_Out_1:Net_213_2\[613]
-Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:b_1\[1155] = \LEDs_Out_1:Net_213_1\[615]
-Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:b_0\[1156] = \LEDs_Out_1:Net_213_0\[617]
-Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:albi_3\[1176] = zero[2]
-Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:agbi_3\[1177] = zero[2]
-Removing Rhs of wire Net_4958_7[1223] = \STORED_BRIGHTNESS_3:control_out_7\[1823]
-Removing Rhs of wire Net_4958_7[1223] = \STORED_BRIGHTNESS_3:control_7\[1832]
-Removing Rhs of wire Net_4958_6[1224] = \STORED_BRIGHTNESS_3:control_out_6\[1824]
-Removing Rhs of wire Net_4958_6[1224] = \STORED_BRIGHTNESS_3:control_6\[1833]
-Removing Rhs of wire Net_4958_5[1225] = \STORED_BRIGHTNESS_3:control_out_5\[1825]
-Removing Rhs of wire Net_4958_5[1225] = \STORED_BRIGHTNESS_3:control_5\[1834]
-Removing Rhs of wire Net_4958_4[1226] = \STORED_BRIGHTNESS_3:control_out_4\[1826]
-Removing Rhs of wire Net_4958_4[1226] = \STORED_BRIGHTNESS_3:control_4\[1835]
-Removing Rhs of wire Net_4958_3[1227] = \STORED_BRIGHTNESS_3:control_out_3\[1827]
-Removing Rhs of wire Net_4958_3[1227] = \STORED_BRIGHTNESS_3:control_3\[1836]
-Removing Rhs of wire Net_4958_2[1228] = \STORED_BRIGHTNESS_3:control_out_2\[1828]
-Removing Rhs of wire Net_4958_2[1228] = \STORED_BRIGHTNESS_3:control_2\[1837]
-Removing Rhs of wire Net_4958_1[1229] = \STORED_BRIGHTNESS_3:control_out_1\[1829]
-Removing Rhs of wire Net_4958_1[1229] = \STORED_BRIGHTNESS_3:control_1\[1838]
-Removing Rhs of wire Net_4958_0[1230] = \STORED_BRIGHTNESS_3:control_out_0\[1830]
-Removing Rhs of wire Net_4958_0[1230] = \STORED_BRIGHTNESS_3:control_0\[1839]
-Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:newa_7\[1231] = \LEDs_Out_1:MODIN8_7\[1232]
-Removing Lhs of wire \LEDs_Out_1:MODIN8_7\[1232] = Net_4959_7[1361]
-Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:newa_6\[1233] = \LEDs_Out_1:MODIN8_6\[1234]
-Removing Lhs of wire \LEDs_Out_1:MODIN8_6\[1234] = Net_4959_6[1362]
-Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:newa_5\[1235] = \LEDs_Out_1:MODIN8_5\[1236]
-Removing Lhs of wire \LEDs_Out_1:MODIN8_5\[1236] = Net_4959_5[1363]
-Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:newa_4\[1237] = \LEDs_Out_1:MODIN8_4\[1238]
-Removing Lhs of wire \LEDs_Out_1:MODIN8_4\[1238] = Net_4959_4[1364]
-Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:newa_3\[1239] = \LEDs_Out_1:MODIN8_3\[1240]
-Removing Lhs of wire \LEDs_Out_1:MODIN8_3\[1240] = Net_4959_3[1365]
-Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:newa_2\[1241] = \LEDs_Out_1:MODIN8_2\[1242]
-Removing Lhs of wire \LEDs_Out_1:MODIN8_2\[1242] = Net_4959_2[1366]
-Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:newa_1\[1243] = \LEDs_Out_1:MODIN8_1\[1244]
-Removing Lhs of wire \LEDs_Out_1:MODIN8_1\[1244] = Net_4959_1[1367]
-Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:newa_0\[1245] = \LEDs_Out_1:MODIN8_0\[1246]
-Removing Lhs of wire \LEDs_Out_1:MODIN8_0\[1246] = Net_4959_0[1368]
-Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:newb_7\[1247] = \LEDs_Out_1:Net_213_7\[603]
-Removing Lhs of wire \LEDs_Out_1:MODIN9_7\[1248] = \LEDs_Out_1:Net_213_7\[603]
-Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:newb_6\[1249] = \LEDs_Out_1:Net_213_6\[605]
-Removing Lhs of wire \LEDs_Out_1:MODIN9_6\[1250] = \LEDs_Out_1:Net_213_6\[605]
-Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:newb_5\[1251] = \LEDs_Out_1:Net_213_5\[607]
-Removing Lhs of wire \LEDs_Out_1:MODIN9_5\[1252] = \LEDs_Out_1:Net_213_5\[607]
-Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:newb_4\[1253] = \LEDs_Out_1:Net_213_4\[609]
-Removing Lhs of wire \LEDs_Out_1:MODIN9_4\[1254] = \LEDs_Out_1:Net_213_4\[609]
-Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:newb_3\[1255] = \LEDs_Out_1:Net_213_3\[611]
-Removing Lhs of wire \LEDs_Out_1:MODIN9_3\[1256] = \LEDs_Out_1:Net_213_3\[611]
-Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:newb_2\[1257] = \LEDs_Out_1:Net_213_2\[613]
-Removing Lhs of wire \LEDs_Out_1:MODIN9_2\[1258] = \LEDs_Out_1:Net_213_2\[613]
-Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:newb_1\[1259] = \LEDs_Out_1:Net_213_1\[615]
-Removing Lhs of wire \LEDs_Out_1:MODIN9_1\[1260] = \LEDs_Out_1:Net_213_1\[615]
-Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:newb_0\[1261] = \LEDs_Out_1:Net_213_0\[617]
-Removing Lhs of wire \LEDs_Out_1:MODIN9_0\[1262] = \LEDs_Out_1:Net_213_0\[617]
-Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:dataa_7\[1263] = Net_4959_7[1361]
-Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:dataa_6\[1264] = Net_4959_6[1362]
-Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:dataa_5\[1265] = Net_4959_5[1363]
-Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:dataa_4\[1266] = Net_4959_4[1364]
-Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:dataa_3\[1267] = Net_4959_3[1365]
-Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:dataa_2\[1268] = Net_4959_2[1366]
-Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:dataa_1\[1269] = Net_4959_1[1367]
-Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:dataa_0\[1270] = Net_4959_0[1368]
-Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:datab_7\[1271] = \LEDs_Out_1:Net_213_7\[603]
-Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:datab_6\[1272] = \LEDs_Out_1:Net_213_6\[605]
-Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:datab_5\[1273] = \LEDs_Out_1:Net_213_5\[607]
-Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:datab_4\[1274] = \LEDs_Out_1:Net_213_4\[609]
-Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:datab_3\[1275] = \LEDs_Out_1:Net_213_3\[611]
-Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:datab_2\[1276] = \LEDs_Out_1:Net_213_2\[613]
-Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:datab_1\[1277] = \LEDs_Out_1:Net_213_1\[615]
-Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:datab_0\[1278] = \LEDs_Out_1:Net_213_0\[617]
-Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:gx:u0:a_7\[1279] = Net_4959_7[1361]
-Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:gx:u0:a_6\[1280] = Net_4959_6[1362]
-Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:gx:u0:a_5\[1281] = Net_4959_5[1363]
-Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:gx:u0:a_4\[1282] = Net_4959_4[1364]
-Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:gx:u0:a_3\[1283] = Net_4959_3[1365]
-Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:gx:u0:a_2\[1284] = Net_4959_2[1366]
-Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:gx:u0:a_1\[1285] = Net_4959_1[1367]
-Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:gx:u0:a_0\[1286] = Net_4959_0[1368]
-Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:gx:u0:b_7\[1287] = \LEDs_Out_1:Net_213_7\[603]
-Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:gx:u0:b_6\[1288] = \LEDs_Out_1:Net_213_6\[605]
-Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:gx:u0:b_5\[1289] = \LEDs_Out_1:Net_213_5\[607]
-Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:gx:u0:b_4\[1290] = \LEDs_Out_1:Net_213_4\[609]
-Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:gx:u0:b_3\[1291] = \LEDs_Out_1:Net_213_3\[611]
-Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:gx:u0:b_2\[1292] = \LEDs_Out_1:Net_213_2\[613]
-Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:gx:u0:b_1\[1293] = \LEDs_Out_1:Net_213_1\[615]
-Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:gx:u0:b_0\[1294] = \LEDs_Out_1:Net_213_0\[617]
-Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:gx:u0:albi_3\[1314] = zero[2]
-Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:gx:u0:agbi_3\[1315] = zero[2]
-Removing Rhs of wire Net_4959_7[1361] = \STORED_BRIGHTNESS_4:control_out_7\[1842]
-Removing Rhs of wire Net_4959_7[1361] = \STORED_BRIGHTNESS_4:control_7\[1851]
-Removing Rhs of wire Net_4959_6[1362] = \STORED_BRIGHTNESS_4:control_out_6\[1843]
-Removing Rhs of wire Net_4959_6[1362] = \STORED_BRIGHTNESS_4:control_6\[1852]
-Removing Rhs of wire Net_4959_5[1363] = \STORED_BRIGHTNESS_4:control_out_5\[1844]
-Removing Rhs of wire Net_4959_5[1363] = \STORED_BRIGHTNESS_4:control_5\[1853]
-Removing Rhs of wire Net_4959_4[1364] = \STORED_BRIGHTNESS_4:control_out_4\[1845]
-Removing Rhs of wire Net_4959_4[1364] = \STORED_BRIGHTNESS_4:control_4\[1854]
-Removing Rhs of wire Net_4959_3[1365] = \STORED_BRIGHTNESS_4:control_out_3\[1846]
-Removing Rhs of wire Net_4959_3[1365] = \STORED_BRIGHTNESS_4:control_3\[1855]
-Removing Rhs of wire Net_4959_2[1366] = \STORED_BRIGHTNESS_4:control_out_2\[1847]
-Removing Rhs of wire Net_4959_2[1366] = \STORED_BRIGHTNESS_4:control_2\[1856]
-Removing Rhs of wire Net_4959_1[1367] = \STORED_BRIGHTNESS_4:control_out_1\[1848]
-Removing Rhs of wire Net_4959_1[1367] = \STORED_BRIGHTNESS_4:control_1\[1857]
-Removing Rhs of wire Net_4959_0[1368] = \STORED_BRIGHTNESS_4:control_out_0\[1849]
-Removing Rhs of wire Net_4959_0[1368] = \STORED_BRIGHTNESS_4:control_0\[1858]
-Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:newa_7\[1369] = \LEDs_Out_1:MODIN10_7\[1370]
-Removing Lhs of wire \LEDs_Out_1:MODIN10_7\[1370] = Net_4960_7[1499]
-Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:newa_6\[1371] = \LEDs_Out_1:MODIN10_6\[1372]
-Removing Lhs of wire \LEDs_Out_1:MODIN10_6\[1372] = Net_4960_6[1500]
-Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:newa_5\[1373] = \LEDs_Out_1:MODIN10_5\[1374]
-Removing Lhs of wire \LEDs_Out_1:MODIN10_5\[1374] = Net_4960_5[1501]
-Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:newa_4\[1375] = \LEDs_Out_1:MODIN10_4\[1376]
-Removing Lhs of wire \LEDs_Out_1:MODIN10_4\[1376] = Net_4960_4[1502]
-Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:newa_3\[1377] = \LEDs_Out_1:MODIN10_3\[1378]
-Removing Lhs of wire \LEDs_Out_1:MODIN10_3\[1378] = Net_4960_3[1503]
-Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:newa_2\[1379] = \LEDs_Out_1:MODIN10_2\[1380]
-Removing Lhs of wire \LEDs_Out_1:MODIN10_2\[1380] = Net_4960_2[1504]
-Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:newa_1\[1381] = \LEDs_Out_1:MODIN10_1\[1382]
-Removing Lhs of wire \LEDs_Out_1:MODIN10_1\[1382] = Net_4960_1[1505]
-Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:newa_0\[1383] = \LEDs_Out_1:MODIN10_0\[1384]
-Removing Lhs of wire \LEDs_Out_1:MODIN10_0\[1384] = Net_4960_0[1506]
-Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:newb_7\[1385] = \LEDs_Out_1:Net_213_7\[603]
-Removing Lhs of wire \LEDs_Out_1:MODIN11_7\[1386] = \LEDs_Out_1:Net_213_7\[603]
-Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:newb_6\[1387] = \LEDs_Out_1:Net_213_6\[605]
-Removing Lhs of wire \LEDs_Out_1:MODIN11_6\[1388] = \LEDs_Out_1:Net_213_6\[605]
-Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:newb_5\[1389] = \LEDs_Out_1:Net_213_5\[607]
-Removing Lhs of wire \LEDs_Out_1:MODIN11_5\[1390] = \LEDs_Out_1:Net_213_5\[607]
-Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:newb_4\[1391] = \LEDs_Out_1:Net_213_4\[609]
-Removing Lhs of wire \LEDs_Out_1:MODIN11_4\[1392] = \LEDs_Out_1:Net_213_4\[609]
-Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:newb_3\[1393] = \LEDs_Out_1:Net_213_3\[611]
-Removing Lhs of wire \LEDs_Out_1:MODIN11_3\[1394] = \LEDs_Out_1:Net_213_3\[611]
-Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:newb_2\[1395] = \LEDs_Out_1:Net_213_2\[613]
-Removing Lhs of wire \LEDs_Out_1:MODIN11_2\[1396] = \LEDs_Out_1:Net_213_2\[613]
-Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:newb_1\[1397] = \LEDs_Out_1:Net_213_1\[615]
-Removing Lhs of wire \LEDs_Out_1:MODIN11_1\[1398] = \LEDs_Out_1:Net_213_1\[615]
-Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:newb_0\[1399] = \LEDs_Out_1:Net_213_0\[617]
-Removing Lhs of wire \LEDs_Out_1:MODIN11_0\[1400] = \LEDs_Out_1:Net_213_0\[617]
-Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:dataa_7\[1401] = Net_4960_7[1499]
-Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:dataa_6\[1402] = Net_4960_6[1500]
-Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:dataa_5\[1403] = Net_4960_5[1501]
-Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:dataa_4\[1404] = Net_4960_4[1502]
-Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:dataa_3\[1405] = Net_4960_3[1503]
-Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:dataa_2\[1406] = Net_4960_2[1504]
-Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:dataa_1\[1407] = Net_4960_1[1505]
-Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:dataa_0\[1408] = Net_4960_0[1506]
-Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:datab_7\[1409] = \LEDs_Out_1:Net_213_7\[603]
-Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:datab_6\[1410] = \LEDs_Out_1:Net_213_6\[605]
-Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:datab_5\[1411] = \LEDs_Out_1:Net_213_5\[607]
-Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:datab_4\[1412] = \LEDs_Out_1:Net_213_4\[609]
-Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:datab_3\[1413] = \LEDs_Out_1:Net_213_3\[611]
-Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:datab_2\[1414] = \LEDs_Out_1:Net_213_2\[613]
-Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:datab_1\[1415] = \LEDs_Out_1:Net_213_1\[615]
-Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:datab_0\[1416] = \LEDs_Out_1:Net_213_0\[617]
-Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:a_7\[1417] = Net_4960_7[1499]
-Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:a_6\[1418] = Net_4960_6[1500]
-Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:a_5\[1419] = Net_4960_5[1501]
-Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:a_4\[1420] = Net_4960_4[1502]
-Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:a_3\[1421] = Net_4960_3[1503]
-Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:a_2\[1422] = Net_4960_2[1504]
-Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:a_1\[1423] = Net_4960_1[1505]
-Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:a_0\[1424] = Net_4960_0[1506]
-Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:b_7\[1425] = \LEDs_Out_1:Net_213_7\[603]
-Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:b_6\[1426] = \LEDs_Out_1:Net_213_6\[605]
-Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:b_5\[1427] = \LEDs_Out_1:Net_213_5\[607]
-Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:b_4\[1428] = \LEDs_Out_1:Net_213_4\[609]
-Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:b_3\[1429] = \LEDs_Out_1:Net_213_3\[611]
-Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:b_2\[1430] = \LEDs_Out_1:Net_213_2\[613]
-Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:b_1\[1431] = \LEDs_Out_1:Net_213_1\[615]
-Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:b_0\[1432] = \LEDs_Out_1:Net_213_0\[617]
-Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:albi_3\[1452] = zero[2]
-Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:agbi_3\[1453] = zero[2]
-Removing Rhs of wire Net_4960_7[1499] = \STORED_BRIGHTNESS_5:control_out_7\[1861]
-Removing Rhs of wire Net_4960_7[1499] = \STORED_BRIGHTNESS_5:control_7\[1870]
-Removing Rhs of wire Net_4960_6[1500] = \STORED_BRIGHTNESS_5:control_out_6\[1862]
-Removing Rhs of wire Net_4960_6[1500] = \STORED_BRIGHTNESS_5:control_6\[1871]
-Removing Rhs of wire Net_4960_5[1501] = \STORED_BRIGHTNESS_5:control_out_5\[1863]
-Removing Rhs of wire Net_4960_5[1501] = \STORED_BRIGHTNESS_5:control_5\[1872]
-Removing Rhs of wire Net_4960_4[1502] = \STORED_BRIGHTNESS_5:control_out_4\[1864]
-Removing Rhs of wire Net_4960_4[1502] = \STORED_BRIGHTNESS_5:control_4\[1873]
-Removing Rhs of wire Net_4960_3[1503] = \STORED_BRIGHTNESS_5:control_out_3\[1865]
-Removing Rhs of wire Net_4960_3[1503] = \STORED_BRIGHTNESS_5:control_3\[1874]
-Removing Rhs of wire Net_4960_2[1504] = \STORED_BRIGHTNESS_5:control_out_2\[1866]
-Removing Rhs of wire Net_4960_2[1504] = \STORED_BRIGHTNESS_5:control_2\[1875]
-Removing Rhs of wire Net_4960_1[1505] = \STORED_BRIGHTNESS_5:control_out_1\[1867]
-Removing Rhs of wire Net_4960_1[1505] = \STORED_BRIGHTNESS_5:control_1\[1876]
-Removing Rhs of wire Net_4960_0[1506] = \STORED_BRIGHTNESS_5:control_out_0\[1868]
-Removing Rhs of wire Net_4960_0[1506] = \STORED_BRIGHTNESS_5:control_0\[1877]
-Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:newa_7\[1507] = \LEDs_Out_1:MODIN12_7\[1508]
-Removing Lhs of wire \LEDs_Out_1:MODIN12_7\[1508] = Net_4961_7[1637]
-Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:newa_6\[1509] = \LEDs_Out_1:MODIN12_6\[1510]
-Removing Lhs of wire \LEDs_Out_1:MODIN12_6\[1510] = Net_4961_6[1638]
-Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:newa_5\[1511] = \LEDs_Out_1:MODIN12_5\[1512]
-Removing Lhs of wire \LEDs_Out_1:MODIN12_5\[1512] = Net_4961_5[1639]
-Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:newa_4\[1513] = \LEDs_Out_1:MODIN12_4\[1514]
-Removing Lhs of wire \LEDs_Out_1:MODIN12_4\[1514] = Net_4961_4[1640]
-Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:newa_3\[1515] = \LEDs_Out_1:MODIN12_3\[1516]
-Removing Lhs of wire \LEDs_Out_1:MODIN12_3\[1516] = Net_4961_3[1641]
-Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:newa_2\[1517] = \LEDs_Out_1:MODIN12_2\[1518]
-Removing Lhs of wire \LEDs_Out_1:MODIN12_2\[1518] = Net_4961_2[1642]
-Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:newa_1\[1519] = \LEDs_Out_1:MODIN12_1\[1520]
-Removing Lhs of wire \LEDs_Out_1:MODIN12_1\[1520] = Net_4961_1[1643]
-Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:newa_0\[1521] = \LEDs_Out_1:MODIN12_0\[1522]
-Removing Lhs of wire \LEDs_Out_1:MODIN12_0\[1522] = Net_4961_0[1644]
-Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:newb_7\[1523] = \LEDs_Out_1:Net_213_7\[603]
-Removing Lhs of wire \LEDs_Out_1:MODIN13_7\[1524] = \LEDs_Out_1:Net_213_7\[603]
-Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:newb_6\[1525] = \LEDs_Out_1:Net_213_6\[605]
-Removing Lhs of wire \LEDs_Out_1:MODIN13_6\[1526] = \LEDs_Out_1:Net_213_6\[605]
-Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:newb_5\[1527] = \LEDs_Out_1:Net_213_5\[607]
-Removing Lhs of wire \LEDs_Out_1:MODIN13_5\[1528] = \LEDs_Out_1:Net_213_5\[607]
-Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:newb_4\[1529] = \LEDs_Out_1:Net_213_4\[609]
-Removing Lhs of wire \LEDs_Out_1:MODIN13_4\[1530] = \LEDs_Out_1:Net_213_4\[609]
-Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:newb_3\[1531] = \LEDs_Out_1:Net_213_3\[611]
-Removing Lhs of wire \LEDs_Out_1:MODIN13_3\[1532] = \LEDs_Out_1:Net_213_3\[611]
-Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:newb_2\[1533] = \LEDs_Out_1:Net_213_2\[613]
-Removing Lhs of wire \LEDs_Out_1:MODIN13_2\[1534] = \LEDs_Out_1:Net_213_2\[613]
-Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:newb_1\[1535] = \LEDs_Out_1:Net_213_1\[615]
-Removing Lhs of wire \LEDs_Out_1:MODIN13_1\[1536] = \LEDs_Out_1:Net_213_1\[615]
-Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:newb_0\[1537] = \LEDs_Out_1:Net_213_0\[617]
-Removing Lhs of wire \LEDs_Out_1:MODIN13_0\[1538] = \LEDs_Out_1:Net_213_0\[617]
-Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:dataa_7\[1539] = Net_4961_7[1637]
-Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:dataa_6\[1540] = Net_4961_6[1638]
-Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:dataa_5\[1541] = Net_4961_5[1639]
-Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:dataa_4\[1542] = Net_4961_4[1640]
-Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:dataa_3\[1543] = Net_4961_3[1641]
-Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:dataa_2\[1544] = Net_4961_2[1642]
-Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:dataa_1\[1545] = Net_4961_1[1643]
-Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:dataa_0\[1546] = Net_4961_0[1644]
-Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:datab_7\[1547] = \LEDs_Out_1:Net_213_7\[603]
-Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:datab_6\[1548] = \LEDs_Out_1:Net_213_6\[605]
-Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:datab_5\[1549] = \LEDs_Out_1:Net_213_5\[607]
-Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:datab_4\[1550] = \LEDs_Out_1:Net_213_4\[609]
-Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:datab_3\[1551] = \LEDs_Out_1:Net_213_3\[611]
-Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:datab_2\[1552] = \LEDs_Out_1:Net_213_2\[613]
-Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:datab_1\[1553] = \LEDs_Out_1:Net_213_1\[615]
-Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:datab_0\[1554] = \LEDs_Out_1:Net_213_0\[617]
-Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:gx:u0:a_7\[1555] = Net_4961_7[1637]
-Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:gx:u0:a_6\[1556] = Net_4961_6[1638]
-Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:gx:u0:a_5\[1557] = Net_4961_5[1639]
-Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:gx:u0:a_4\[1558] = Net_4961_4[1640]
-Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:gx:u0:a_3\[1559] = Net_4961_3[1641]
-Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:gx:u0:a_2\[1560] = Net_4961_2[1642]
-Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:gx:u0:a_1\[1561] = Net_4961_1[1643]
-Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:gx:u0:a_0\[1562] = Net_4961_0[1644]
-Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:gx:u0:b_7\[1563] = \LEDs_Out_1:Net_213_7\[603]
-Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:gx:u0:b_6\[1564] = \LEDs_Out_1:Net_213_6\[605]
-Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:gx:u0:b_5\[1565] = \LEDs_Out_1:Net_213_5\[607]
-Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:gx:u0:b_4\[1566] = \LEDs_Out_1:Net_213_4\[609]
-Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:gx:u0:b_3\[1567] = \LEDs_Out_1:Net_213_3\[611]
-Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:gx:u0:b_2\[1568] = \LEDs_Out_1:Net_213_2\[613]
-Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:gx:u0:b_1\[1569] = \LEDs_Out_1:Net_213_1\[615]
-Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:gx:u0:b_0\[1570] = \LEDs_Out_1:Net_213_0\[617]
-Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:gx:u0:albi_3\[1590] = zero[2]
-Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:gx:u0:agbi_3\[1591] = zero[2]
-Removing Rhs of wire Net_4961_7[1637] = \STORED_BRIGHTNESS_6:control_out_7\[1880]
-Removing Rhs of wire Net_4961_7[1637] = \STORED_BRIGHTNESS_6:control_7\[1889]
-Removing Rhs of wire Net_4961_6[1638] = \STORED_BRIGHTNESS_6:control_out_6\[1881]
-Removing Rhs of wire Net_4961_6[1638] = \STORED_BRIGHTNESS_6:control_6\[1890]
-Removing Rhs of wire Net_4961_5[1639] = \STORED_BRIGHTNESS_6:control_out_5\[1882]
-Removing Rhs of wire Net_4961_5[1639] = \STORED_BRIGHTNESS_6:control_5\[1891]
-Removing Rhs of wire Net_4961_4[1640] = \STORED_BRIGHTNESS_6:control_out_4\[1883]
-Removing Rhs of wire Net_4961_4[1640] = \STORED_BRIGHTNESS_6:control_4\[1892]
-Removing Rhs of wire Net_4961_3[1641] = \STORED_BRIGHTNESS_6:control_out_3\[1884]
-Removing Rhs of wire Net_4961_3[1641] = \STORED_BRIGHTNESS_6:control_3\[1893]
-Removing Rhs of wire Net_4961_2[1642] = \STORED_BRIGHTNESS_6:control_out_2\[1885]
-Removing Rhs of wire Net_4961_2[1642] = \STORED_BRIGHTNESS_6:control_2\[1894]
-Removing Rhs of wire Net_4961_1[1643] = \STORED_BRIGHTNESS_6:control_out_1\[1886]
-Removing Rhs of wire Net_4961_1[1643] = \STORED_BRIGHTNESS_6:control_1\[1895]
-Removing Rhs of wire Net_4961_0[1644] = \STORED_BRIGHTNESS_6:control_out_0\[1887]
-Removing Rhs of wire Net_4961_0[1644] = \STORED_BRIGHTNESS_6:control_0\[1896]
-Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:newa_7\[1645] = \LEDs_Out_1:MODIN14_7\[1646]
-Removing Lhs of wire \LEDs_Out_1:MODIN14_7\[1646] = Net_4962_7[1775]
-Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:newa_6\[1647] = \LEDs_Out_1:MODIN14_6\[1648]
-Removing Lhs of wire \LEDs_Out_1:MODIN14_6\[1648] = Net_4962_6[1776]
-Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:newa_5\[1649] = \LEDs_Out_1:MODIN14_5\[1650]
-Removing Lhs of wire \LEDs_Out_1:MODIN14_5\[1650] = Net_4962_5[1777]
-Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:newa_4\[1651] = \LEDs_Out_1:MODIN14_4\[1652]
-Removing Lhs of wire \LEDs_Out_1:MODIN14_4\[1652] = Net_4962_4[1778]
-Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:newa_3\[1653] = \LEDs_Out_1:MODIN14_3\[1654]
-Removing Lhs of wire \LEDs_Out_1:MODIN14_3\[1654] = Net_4962_3[1779]
-Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:newa_2\[1655] = \LEDs_Out_1:MODIN14_2\[1656]
-Removing Lhs of wire \LEDs_Out_1:MODIN14_2\[1656] = Net_4962_2[1780]
-Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:newa_1\[1657] = \LEDs_Out_1:MODIN14_1\[1658]
-Removing Lhs of wire \LEDs_Out_1:MODIN14_1\[1658] = Net_4962_1[1781]
-Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:newa_0\[1659] = \LEDs_Out_1:MODIN14_0\[1660]
-Removing Lhs of wire \LEDs_Out_1:MODIN14_0\[1660] = Net_4962_0[1782]
-Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:newb_7\[1661] = \LEDs_Out_1:Net_213_7\[603]
-Removing Lhs of wire \LEDs_Out_1:MODIN15_7\[1662] = \LEDs_Out_1:Net_213_7\[603]
-Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:newb_6\[1663] = \LEDs_Out_1:Net_213_6\[605]
-Removing Lhs of wire \LEDs_Out_1:MODIN15_6\[1664] = \LEDs_Out_1:Net_213_6\[605]
-Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:newb_5\[1665] = \LEDs_Out_1:Net_213_5\[607]
-Removing Lhs of wire \LEDs_Out_1:MODIN15_5\[1666] = \LEDs_Out_1:Net_213_5\[607]
-Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:newb_4\[1667] = \LEDs_Out_1:Net_213_4\[609]
-Removing Lhs of wire \LEDs_Out_1:MODIN15_4\[1668] = \LEDs_Out_1:Net_213_4\[609]
-Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:newb_3\[1669] = \LEDs_Out_1:Net_213_3\[611]
-Removing Lhs of wire \LEDs_Out_1:MODIN15_3\[1670] = \LEDs_Out_1:Net_213_3\[611]
-Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:newb_2\[1671] = \LEDs_Out_1:Net_213_2\[613]
-Removing Lhs of wire \LEDs_Out_1:MODIN15_2\[1672] = \LEDs_Out_1:Net_213_2\[613]
-Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:newb_1\[1673] = \LEDs_Out_1:Net_213_1\[615]
-Removing Lhs of wire \LEDs_Out_1:MODIN15_1\[1674] = \LEDs_Out_1:Net_213_1\[615]
-Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:newb_0\[1675] = \LEDs_Out_1:Net_213_0\[617]
-Removing Lhs of wire \LEDs_Out_1:MODIN15_0\[1676] = \LEDs_Out_1:Net_213_0\[617]
-Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:dataa_7\[1677] = Net_4962_7[1775]
-Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:dataa_6\[1678] = Net_4962_6[1776]
-Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:dataa_5\[1679] = Net_4962_5[1777]
-Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:dataa_4\[1680] = Net_4962_4[1778]
-Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:dataa_3\[1681] = Net_4962_3[1779]
-Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:dataa_2\[1682] = Net_4962_2[1780]
-Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:dataa_1\[1683] = Net_4962_1[1781]
-Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:dataa_0\[1684] = Net_4962_0[1782]
-Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:datab_7\[1685] = \LEDs_Out_1:Net_213_7\[603]
-Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:datab_6\[1686] = \LEDs_Out_1:Net_213_6\[605]
-Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:datab_5\[1687] = \LEDs_Out_1:Net_213_5\[607]
-Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:datab_4\[1688] = \LEDs_Out_1:Net_213_4\[609]
-Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:datab_3\[1689] = \LEDs_Out_1:Net_213_3\[611]
-Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:datab_2\[1690] = \LEDs_Out_1:Net_213_2\[613]
-Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:datab_1\[1691] = \LEDs_Out_1:Net_213_1\[615]
-Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:datab_0\[1692] = \LEDs_Out_1:Net_213_0\[617]
-Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:gx:u0:a_7\[1693] = Net_4962_7[1775]
-Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:gx:u0:a_6\[1694] = Net_4962_6[1776]
-Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:gx:u0:a_5\[1695] = Net_4962_5[1777]
-Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:gx:u0:a_4\[1696] = Net_4962_4[1778]
-Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:gx:u0:a_3\[1697] = Net_4962_3[1779]
-Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:gx:u0:a_2\[1698] = Net_4962_2[1780]
-Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:gx:u0:a_1\[1699] = Net_4962_1[1781]
-Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:gx:u0:a_0\[1700] = Net_4962_0[1782]
-Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:gx:u0:b_7\[1701] = \LEDs_Out_1:Net_213_7\[603]
-Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:gx:u0:b_6\[1702] = \LEDs_Out_1:Net_213_6\[605]
-Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:gx:u0:b_5\[1703] = \LEDs_Out_1:Net_213_5\[607]
-Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:gx:u0:b_4\[1704] = \LEDs_Out_1:Net_213_4\[609]
-Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:gx:u0:b_3\[1705] = \LEDs_Out_1:Net_213_3\[611]
-Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:gx:u0:b_2\[1706] = \LEDs_Out_1:Net_213_2\[613]
-Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:gx:u0:b_1\[1707] = \LEDs_Out_1:Net_213_1\[615]
-Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:gx:u0:b_0\[1708] = \LEDs_Out_1:Net_213_0\[617]
-Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:gx:u0:albi_3\[1728] = zero[2]
-Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:gx:u0:agbi_3\[1729] = zero[2]
-Removing Rhs of wire Net_4962_7[1775] = \STORED_BRIGHTNESS_7:control_out_7\[1899]
-Removing Rhs of wire Net_4962_7[1775] = \STORED_BRIGHTNESS_7:control_7\[1908]
-Removing Rhs of wire Net_4962_6[1776] = \STORED_BRIGHTNESS_7:control_out_6\[1900]
-Removing Rhs of wire Net_4962_6[1776] = \STORED_BRIGHTNESS_7:control_6\[1909]
-Removing Rhs of wire Net_4962_5[1777] = \STORED_BRIGHTNESS_7:control_out_5\[1901]
-Removing Rhs of wire Net_4962_5[1777] = \STORED_BRIGHTNESS_7:control_5\[1910]
-Removing Rhs of wire Net_4962_4[1778] = \STORED_BRIGHTNESS_7:control_out_4\[1902]
-Removing Rhs of wire Net_4962_4[1778] = \STORED_BRIGHTNESS_7:control_4\[1911]
-Removing Rhs of wire Net_4962_3[1779] = \STORED_BRIGHTNESS_7:control_out_3\[1903]
-Removing Rhs of wire Net_4962_3[1779] = \STORED_BRIGHTNESS_7:control_3\[1912]
-Removing Rhs of wire Net_4962_2[1780] = \STORED_BRIGHTNESS_7:control_out_2\[1904]
-Removing Rhs of wire Net_4962_2[1780] = \STORED_BRIGHTNESS_7:control_2\[1913]
-Removing Rhs of wire Net_4962_1[1781] = \STORED_BRIGHTNESS_7:control_out_1\[1905]
-Removing Rhs of wire Net_4962_1[1781] = \STORED_BRIGHTNESS_7:control_1\[1914]
-Removing Rhs of wire Net_4962_0[1782] = \STORED_BRIGHTNESS_7:control_out_0\[1906]
-Removing Rhs of wire Net_4962_0[1782] = \STORED_BRIGHTNESS_7:control_0\[1915]
-Removing Lhs of wire \STORED_BRIGHTNESS_1:clk\[1784] = zero[2]
-Removing Lhs of wire \STORED_BRIGHTNESS_1:rst\[1785] = zero[2]
-Removing Lhs of wire \WAVE_STATUS_LOW:status_7\[1803] = Net_2965_7[316]
-Removing Lhs of wire \WAVE_STATUS_LOW:status_6\[1804] = Net_2965_6[318]
-Removing Lhs of wire \WAVE_STATUS_LOW:status_5\[1805] = Net_2965_5[320]
-Removing Lhs of wire \WAVE_STATUS_LOW:status_4\[1806] = Net_2965_4[322]
-Removing Lhs of wire \WAVE_STATUS_LOW:status_3\[1807] = Net_2965_3[324]
-Removing Lhs of wire \WAVE_STATUS_LOW:status_2\[1808] = Net_2965_2[326]
-Removing Lhs of wire \WAVE_STATUS_LOW:status_1\[1809] = Net_2965_1[328]
-Removing Lhs of wire \WAVE_STATUS_LOW:status_0\[1810] = Net_2965_0[330]
-Removing Lhs of wire \WAVE_STATUS_HIGH:status_7\[1812] = zero[2]
-Removing Lhs of wire \WAVE_STATUS_HIGH:status_6\[1813] = zero[2]
-Removing Lhs of wire \WAVE_STATUS_HIGH:status_5\[1814] = zero[2]
-Removing Lhs of wire \WAVE_STATUS_HIGH:status_4\[1815] = zero[2]
-Removing Lhs of wire \WAVE_STATUS_HIGH:status_3\[1816] = zero[2]
-Removing Lhs of wire \WAVE_STATUS_HIGH:status_2\[1817] = Net_2965_10[310]
-Removing Lhs of wire \WAVE_STATUS_HIGH:status_1\[1818] = Net_2965_9[312]
-Removing Lhs of wire \WAVE_STATUS_HIGH:status_0\[1819] = Net_2965_8[314]
-Removing Lhs of wire \STORED_BRIGHTNESS_3:clk\[1821] = zero[2]
-Removing Lhs of wire \STORED_BRIGHTNESS_3:rst\[1822] = zero[2]
-Removing Lhs of wire \STORED_BRIGHTNESS_4:clk\[1840] = zero[2]
-Removing Lhs of wire \STORED_BRIGHTNESS_4:rst\[1841] = zero[2]
-Removing Lhs of wire \STORED_BRIGHTNESS_5:clk\[1859] = zero[2]
-Removing Lhs of wire \STORED_BRIGHTNESS_5:rst\[1860] = zero[2]
-Removing Lhs of wire \STORED_BRIGHTNESS_6:clk\[1878] = zero[2]
-Removing Lhs of wire \STORED_BRIGHTNESS_6:rst\[1879] = zero[2]
-Removing Lhs of wire \STORED_BRIGHTNESS_7:clk\[1897] = zero[2]
-Removing Lhs of wire \STORED_BRIGHTNESS_7:rst\[1898] = zero[2]
-Removing Lhs of wire \BRIGHTNESS_RAMP:cydff_1\\D\[1916] = zero[2]
-Removing Lhs of wire \TRIANGLE_SEL:cydff_1\\D\[1917] = zero[2]
-Removing Lhs of wire \LEDs_Out_1:Net_213_7\\D\[1929] = \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:s_7\[771]
-Removing Lhs of wire \LEDs_Out_1:Net_213_6\\D\[1930] = \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:s_6\[772]
-Removing Lhs of wire \LEDs_Out_1:Net_213_5\\D\[1931] = \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:s_5\[773]
-Removing Lhs of wire \LEDs_Out_1:Net_213_4\\D\[1932] = \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:s_4\[774]
-Removing Lhs of wire \LEDs_Out_1:Net_213_3\\D\[1933] = \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:s_3\[775]
-Removing Lhs of wire \LEDs_Out_1:Net_213_2\\D\[1934] = \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:s_2\[776]
-Removing Lhs of wire \LEDs_Out_1:Net_213_1\\D\[1935] = \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:s_1\[777]
-Removing Lhs of wire \LEDs_Out_1:Net_213_0\\D\[1936] = \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:s_0\[778]
+Removing Rhs of wire \TRIANGLE_SEL:Net_183\[260] = \TRIANGLE_SEL:demux:tmp__demux_0_reg\[265]
+Removing Rhs of wire \TRIANGLE_SEL:Net_107\[263] = \TRIANGLE_SEL:demux:tmp__demux_1_reg\[268]
+Removing Rhs of wire \TRIANGLE_SEL:Net_134\[266] = \TRIANGLE_SEL:cydff_1\[280]
+Removing Lhs of wire \TRIANGLE_SEL:Net_336\[267] = Net_1945[249]
+Removing Lhs of wire \TRIANGLE_SEL:VDAC8:Net_83\[270] = zero[2]
+Removing Lhs of wire \TRIANGLE_SEL:VDAC8:Net_81\[271] = zero[2]
+Removing Lhs of wire \TRIANGLE_SEL:VDAC8:Net_82\[272] = zero[2]
+Removing Lhs of wire \RAMP_COMP:clock\[282] = zero[2]
+Removing Rhs of wire Net_5051[284] = \RAMP_COMP:Net_1\[283]
+Removing Lhs of wire tmpOE__LED_8_net_0[287] = tmpOE__SW2_net_0[1]
+Removing Lhs of wire Net_2948[288] = zero[2]
+Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_9_10\[294] = \WAVETABLE_COUNTER:MODULE_9:g2:a0:s_10\[464]
+Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_9_9\[296] = \WAVETABLE_COUNTER:MODULE_9:g2:a0:s_9\[465]
+Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_9_8\[298] = \WAVETABLE_COUNTER:MODULE_9:g2:a0:s_8\[466]
+Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_9_7\[300] = \WAVETABLE_COUNTER:MODULE_9:g2:a0:s_7\[467]
+Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_9_6\[302] = \WAVETABLE_COUNTER:MODULE_9:g2:a0:s_6\[468]
+Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_9_5\[304] = \WAVETABLE_COUNTER:MODULE_9:g2:a0:s_5\[469]
+Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_9_4\[306] = \WAVETABLE_COUNTER:MODULE_9:g2:a0:s_4\[470]
+Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_9_3\[308] = \WAVETABLE_COUNTER:MODULE_9:g2:a0:s_3\[471]
+Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_9_2\[310] = \WAVETABLE_COUNTER:MODULE_9:g2:a0:s_2\[472]
+Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_9_1\[312] = \WAVETABLE_COUNTER:MODULE_9:g2:a0:s_1\[473]
+Removing Lhs of wire \WAVETABLE_COUNTER:add_vi_vv_MODGEN_9_0\[314] = \WAVETABLE_COUNTER:MODULE_9:g2:a0:s_0\[474]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:a_23\[355] = zero[2]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:a_22\[356] = zero[2]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:a_21\[357] = zero[2]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:a_20\[358] = zero[2]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:a_19\[359] = zero[2]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:a_18\[360] = zero[2]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:a_17\[361] = zero[2]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:a_16\[362] = zero[2]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:a_15\[363] = zero[2]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:a_14\[364] = zero[2]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:a_13\[365] = zero[2]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:a_12\[366] = zero[2]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:a_11\[367] = zero[2]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:a_10\[368] = \WAVETABLE_COUNTER:MODIN16_10\[369]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODIN16_10\[369] = Net_2965_10[293]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:a_9\[370] = \WAVETABLE_COUNTER:MODIN16_9\[371]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODIN16_9\[371] = Net_2965_9[295]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:a_8\[372] = \WAVETABLE_COUNTER:MODIN16_8\[373]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODIN16_8\[373] = Net_2965_8[297]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:a_7\[374] = \WAVETABLE_COUNTER:MODIN16_7\[375]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODIN16_7\[375] = Net_2965_7[299]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:a_6\[376] = \WAVETABLE_COUNTER:MODIN16_6\[377]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODIN16_6\[377] = Net_2965_6[301]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:a_5\[378] = \WAVETABLE_COUNTER:MODIN16_5\[379]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODIN16_5\[379] = Net_2965_5[303]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:a_4\[380] = \WAVETABLE_COUNTER:MODIN16_4\[381]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODIN16_4\[381] = Net_2965_4[305]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:a_3\[382] = \WAVETABLE_COUNTER:MODIN16_3\[383]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODIN16_3\[383] = Net_2965_3[307]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:a_2\[384] = \WAVETABLE_COUNTER:MODIN16_2\[385]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODIN16_2\[385] = Net_2965_2[309]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:a_1\[386] = \WAVETABLE_COUNTER:MODIN16_1\[387]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODIN16_1\[387] = Net_2965_1[311]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:a_0\[388] = \WAVETABLE_COUNTER:MODIN16_0\[389]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODIN16_0\[389] = Net_2965_0[313]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:g1:z1:s0:g1:u0:c_0\[512] = tmpOE__SW2_net_0[1]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:g1:z1:s0:g1:u0:b_0\[513] = tmpOE__SW2_net_0[1]
+Removing Lhs of wire \STORED_BRIGHTNESS_2:clk\[514] = zero[2]
+Removing Lhs of wire \STORED_BRIGHTNESS_2:rst\[515] = zero[2]
+Removing Rhs of wire Net_4957_7[516] = \STORED_BRIGHTNESS_2:control_out_7\[517]
+Removing Rhs of wire Net_4957_7[516] = \STORED_BRIGHTNESS_2:control_7\[533]
+Removing Rhs of wire Net_4957_6[518] = \STORED_BRIGHTNESS_2:control_out_6\[519]
+Removing Rhs of wire Net_4957_6[518] = \STORED_BRIGHTNESS_2:control_6\[534]
+Removing Rhs of wire Net_4957_5[520] = \STORED_BRIGHTNESS_2:control_out_5\[521]
+Removing Rhs of wire Net_4957_5[520] = \STORED_BRIGHTNESS_2:control_5\[535]
+Removing Rhs of wire Net_4957_4[522] = \STORED_BRIGHTNESS_2:control_out_4\[523]
+Removing Rhs of wire Net_4957_4[522] = \STORED_BRIGHTNESS_2:control_4\[536]
+Removing Rhs of wire Net_4957_3[524] = \STORED_BRIGHTNESS_2:control_out_3\[525]
+Removing Rhs of wire Net_4957_3[524] = \STORED_BRIGHTNESS_2:control_3\[537]
+Removing Rhs of wire Net_4957_2[526] = \STORED_BRIGHTNESS_2:control_out_2\[527]
+Removing Rhs of wire Net_4957_2[526] = \STORED_BRIGHTNESS_2:control_2\[538]
+Removing Rhs of wire Net_4957_1[528] = \STORED_BRIGHTNESS_2:control_out_1\[529]
+Removing Rhs of wire Net_4957_1[528] = \STORED_BRIGHTNESS_2:control_1\[539]
+Removing Rhs of wire Net_4957_0[530] = \STORED_BRIGHTNESS_2:control_out_0\[531]
+Removing Rhs of wire Net_4957_0[530] = \STORED_BRIGHTNESS_2:control_0\[540]
+Removing Rhs of wire \LEDs_Out_1:Net_38\[549] = \LEDs_Out_1:demux_1:tmp__demux_1_0_reg\[541]
+Removing Rhs of wire \LEDs_Out_1:Net_42\[550] = \LEDs_Out_1:demux_1:tmp__demux_1_1_reg\[542]
+Removing Rhs of wire \LEDs_Out_1:Net_88\[551] = \LEDs_Out_1:demux_1:tmp__demux_1_2_reg\[543]
+Removing Rhs of wire \LEDs_Out_1:Net_30\[552] = \LEDs_Out_1:demux_1:tmp__demux_1_3_reg\[544]
+Removing Rhs of wire \LEDs_Out_1:Net_92\[553] = \LEDs_Out_1:demux_1:tmp__demux_1_4_reg\[545]
+Removing Rhs of wire \LEDs_Out_1:Net_32\[554] = \LEDs_Out_1:demux_1:tmp__demux_1_5_reg\[546]
+Removing Rhs of wire \LEDs_Out_1:Net_33\[555] = \LEDs_Out_1:demux_1:tmp__demux_1_6_reg\[547]
+Removing Rhs of wire \LEDs_Out_1:Net_182\[559] = \LEDs_Out_1:cmp_vv_vv_MODGEN_2\[801]
+Removing Rhs of wire \LEDs_Out_1:Net_182\[559] = \LEDs_Out_1:MODULE_2:g1:a0:xgt\[931]
+Removing Rhs of wire \LEDs_Out_1:Net_182\[559] = \LEDs_Out_1:MODULE_2:g1:a0:gx:u0:agbi_0\[926]
+Removing Rhs of wire \LEDs_Out_1:Net_183\[563] = \LEDs_Out_1:cmp_vv_vv_MODGEN_3\[802]
+Removing Rhs of wire \LEDs_Out_1:Net_183\[563] = \LEDs_Out_1:MODULE_3:g1:a0:xgt\[1069]
+Removing Rhs of wire \LEDs_Out_1:Net_183\[563] = \LEDs_Out_1:MODULE_3:g1:a0:gx:u0:agbi_0\[1064]
+Removing Rhs of wire \LEDs_Out_1:Net_184\[567] = \LEDs_Out_1:cmp_vv_vv_MODGEN_4\[803]
+Removing Rhs of wire \LEDs_Out_1:Net_184\[567] = \LEDs_Out_1:MODULE_4:g1:a0:xgt\[1199]
+Removing Rhs of wire \LEDs_Out_1:Net_184\[567] = \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:agbi_0\[1194]
+Removing Rhs of wire \LEDs_Out_1:Net_185\[571] = \LEDs_Out_1:cmp_vv_vv_MODGEN_5\[804]
+Removing Rhs of wire \LEDs_Out_1:Net_185\[571] = \LEDs_Out_1:MODULE_5:g1:a0:xgt\[1337]
+Removing Rhs of wire \LEDs_Out_1:Net_185\[571] = \LEDs_Out_1:MODULE_5:g1:a0:gx:u0:agbi_0\[1332]
+Removing Rhs of wire \LEDs_Out_1:Net_186\[575] = \LEDs_Out_1:cmp_vv_vv_MODGEN_6\[805]
+Removing Rhs of wire \LEDs_Out_1:Net_186\[575] = \LEDs_Out_1:MODULE_6:g1:a0:xgt\[1475]
+Removing Rhs of wire \LEDs_Out_1:Net_186\[575] = \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:agbi_0\[1470]
+Removing Rhs of wire \LEDs_Out_1:Net_187\[579] = \LEDs_Out_1:cmp_vv_vv_MODGEN_7\[806]
+Removing Rhs of wire \LEDs_Out_1:Net_187\[579] = \LEDs_Out_1:MODULE_7:g1:a0:xgt\[1613]
+Removing Rhs of wire \LEDs_Out_1:Net_187\[579] = \LEDs_Out_1:MODULE_7:g1:a0:gx:u0:agbi_0\[1608]
+Removing Rhs of wire \LEDs_Out_1:Net_188\[583] = \LEDs_Out_1:cmp_vv_vv_MODGEN_8\[807]
+Removing Rhs of wire \LEDs_Out_1:Net_188\[583] = \LEDs_Out_1:MODULE_8:g1:a0:xgt\[1751]
+Removing Rhs of wire \LEDs_Out_1:Net_188\[583] = \LEDs_Out_1:MODULE_8:g1:a0:gx:u0:agbi_0\[1746]
+Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:add_vi_vv_MODGEN_1_7\[587] = \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:s_7\[754]
+Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:add_vi_vv_MODGEN_1_6\[589] = \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:s_6\[755]
+Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:add_vi_vv_MODGEN_1_5\[591] = \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:s_5\[756]
+Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:add_vi_vv_MODGEN_1_4\[593] = \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:s_4\[757]
+Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:add_vi_vv_MODGEN_1_3\[595] = \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:s_3\[758]
+Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:add_vi_vv_MODGEN_1_2\[597] = \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:s_2\[759]
+Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:add_vi_vv_MODGEN_1_1\[599] = \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:s_1\[760]
+Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:add_vi_vv_MODGEN_1_0\[601] = \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:s_0\[761]
+Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:a_23\[642] = zero[2]
+Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:a_22\[643] = zero[2]
+Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:a_21\[644] = zero[2]
+Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:a_20\[645] = zero[2]
+Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:a_19\[646] = zero[2]
+Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:a_18\[647] = zero[2]
+Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:a_17\[648] = zero[2]
+Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:a_16\[649] = zero[2]
+Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:a_15\[650] = zero[2]
+Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:a_14\[651] = zero[2]
+Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:a_13\[652] = zero[2]
+Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:a_12\[653] = zero[2]
+Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:a_11\[654] = zero[2]
+Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:a_10\[655] = zero[2]
+Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:a_9\[656] = zero[2]
+Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:a_8\[657] = zero[2]
+Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:a_7\[658] = \LEDs_Out_1:PWM_COUNTER:MODIN1_7\[659]
+Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODIN1_7\[659] = \LEDs_Out_1:Net_213_7\[586]
+Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:a_6\[660] = \LEDs_Out_1:PWM_COUNTER:MODIN1_6\[661]
+Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODIN1_6\[661] = \LEDs_Out_1:Net_213_6\[588]
+Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:a_5\[662] = \LEDs_Out_1:PWM_COUNTER:MODIN1_5\[663]
+Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODIN1_5\[663] = \LEDs_Out_1:Net_213_5\[590]
+Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:a_4\[664] = \LEDs_Out_1:PWM_COUNTER:MODIN1_4\[665]
+Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODIN1_4\[665] = \LEDs_Out_1:Net_213_4\[592]
+Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:a_3\[666] = \LEDs_Out_1:PWM_COUNTER:MODIN1_3\[667]
+Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODIN1_3\[667] = \LEDs_Out_1:Net_213_3\[594]
+Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:a_2\[668] = \LEDs_Out_1:PWM_COUNTER:MODIN1_2\[669]
+Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODIN1_2\[669] = \LEDs_Out_1:Net_213_2\[596]
+Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:a_1\[670] = \LEDs_Out_1:PWM_COUNTER:MODIN1_1\[671]
+Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODIN1_1\[671] = \LEDs_Out_1:Net_213_1\[598]
+Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:a_0\[672] = \LEDs_Out_1:PWM_COUNTER:MODIN1_0\[673]
+Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODIN1_0\[673] = \LEDs_Out_1:Net_213_0\[600]
+Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_0\[799] = tmpOE__SW2_net_0[1]
+Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_0\[800] = tmpOE__SW2_net_0[1]
+Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:newa_7\[808] = \LEDs_Out_1:MODIN2_7\[809]
+Removing Lhs of wire \LEDs_Out_1:MODIN2_7\[809] = Net_4956_7[938]
+Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:newa_6\[810] = \LEDs_Out_1:MODIN2_6\[811]
+Removing Lhs of wire \LEDs_Out_1:MODIN2_6\[811] = Net_4956_6[939]
+Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:newa_5\[812] = \LEDs_Out_1:MODIN2_5\[813]
+Removing Lhs of wire \LEDs_Out_1:MODIN2_5\[813] = Net_4956_5[940]
+Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:newa_4\[814] = \LEDs_Out_1:MODIN2_4\[815]
+Removing Lhs of wire \LEDs_Out_1:MODIN2_4\[815] = Net_4956_4[941]
+Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:newa_3\[816] = \LEDs_Out_1:MODIN2_3\[817]
+Removing Lhs of wire \LEDs_Out_1:MODIN2_3\[817] = Net_4956_3[942]
+Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:newa_2\[818] = \LEDs_Out_1:MODIN2_2\[819]
+Removing Lhs of wire \LEDs_Out_1:MODIN2_2\[819] = Net_4956_2[943]
+Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:newa_1\[820] = \LEDs_Out_1:MODIN2_1\[821]
+Removing Lhs of wire \LEDs_Out_1:MODIN2_1\[821] = Net_4956_1[944]
+Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:newa_0\[822] = \LEDs_Out_1:MODIN2_0\[823]
+Removing Lhs of wire \LEDs_Out_1:MODIN2_0\[823] = Net_4956_0[945]
+Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:newb_7\[824] = \LEDs_Out_1:Net_213_7\[586]
+Removing Lhs of wire \LEDs_Out_1:MODIN3_7\[825] = \LEDs_Out_1:Net_213_7\[586]
+Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:newb_6\[826] = \LEDs_Out_1:Net_213_6\[588]
+Removing Lhs of wire \LEDs_Out_1:MODIN3_6\[827] = \LEDs_Out_1:Net_213_6\[588]
+Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:newb_5\[828] = \LEDs_Out_1:Net_213_5\[590]
+Removing Lhs of wire \LEDs_Out_1:MODIN3_5\[829] = \LEDs_Out_1:Net_213_5\[590]
+Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:newb_4\[830] = \LEDs_Out_1:Net_213_4\[592]
+Removing Lhs of wire \LEDs_Out_1:MODIN3_4\[831] = \LEDs_Out_1:Net_213_4\[592]
+Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:newb_3\[832] = \LEDs_Out_1:Net_213_3\[594]
+Removing Lhs of wire \LEDs_Out_1:MODIN3_3\[833] = \LEDs_Out_1:Net_213_3\[594]
+Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:newb_2\[834] = \LEDs_Out_1:Net_213_2\[596]
+Removing Lhs of wire \LEDs_Out_1:MODIN3_2\[835] = \LEDs_Out_1:Net_213_2\[596]
+Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:newb_1\[836] = \LEDs_Out_1:Net_213_1\[598]
+Removing Lhs of wire \LEDs_Out_1:MODIN3_1\[837] = \LEDs_Out_1:Net_213_1\[598]
+Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:newb_0\[838] = \LEDs_Out_1:Net_213_0\[600]
+Removing Lhs of wire \LEDs_Out_1:MODIN3_0\[839] = \LEDs_Out_1:Net_213_0\[600]
+Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:dataa_7\[840] = Net_4956_7[938]
+Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:dataa_6\[841] = Net_4956_6[939]
+Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:dataa_5\[842] = Net_4956_5[940]
+Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:dataa_4\[843] = Net_4956_4[941]
+Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:dataa_3\[844] = Net_4956_3[942]
+Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:dataa_2\[845] = Net_4956_2[943]
+Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:dataa_1\[846] = Net_4956_1[944]
+Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:dataa_0\[847] = Net_4956_0[945]
+Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:datab_7\[848] = \LEDs_Out_1:Net_213_7\[586]
+Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:datab_6\[849] = \LEDs_Out_1:Net_213_6\[588]
+Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:datab_5\[850] = \LEDs_Out_1:Net_213_5\[590]
+Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:datab_4\[851] = \LEDs_Out_1:Net_213_4\[592]
+Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:datab_3\[852] = \LEDs_Out_1:Net_213_3\[594]
+Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:datab_2\[853] = \LEDs_Out_1:Net_213_2\[596]
+Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:datab_1\[854] = \LEDs_Out_1:Net_213_1\[598]
+Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:datab_0\[855] = \LEDs_Out_1:Net_213_0\[600]
+Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:gx:u0:a_7\[856] = Net_4956_7[938]
+Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:gx:u0:a_6\[857] = Net_4956_6[939]
+Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:gx:u0:a_5\[858] = Net_4956_5[940]
+Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:gx:u0:a_4\[859] = Net_4956_4[941]
+Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:gx:u0:a_3\[860] = Net_4956_3[942]
+Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:gx:u0:a_2\[861] = Net_4956_2[943]
+Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:gx:u0:a_1\[862] = Net_4956_1[944]
+Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:gx:u0:a_0\[863] = Net_4956_0[945]
+Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:gx:u0:b_7\[864] = \LEDs_Out_1:Net_213_7\[586]
+Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:gx:u0:b_6\[865] = \LEDs_Out_1:Net_213_6\[588]
+Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:gx:u0:b_5\[866] = \LEDs_Out_1:Net_213_5\[590]
+Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:gx:u0:b_4\[867] = \LEDs_Out_1:Net_213_4\[592]
+Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:gx:u0:b_3\[868] = \LEDs_Out_1:Net_213_3\[594]
+Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:gx:u0:b_2\[869] = \LEDs_Out_1:Net_213_2\[596]
+Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:gx:u0:b_1\[870] = \LEDs_Out_1:Net_213_1\[598]
+Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:gx:u0:b_0\[871] = \LEDs_Out_1:Net_213_0\[600]
+Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:gx:u0:albi_3\[891] = zero[2]
+Removing Lhs of wire \LEDs_Out_1:MODULE_2:g1:a0:gx:u0:agbi_3\[892] = zero[2]
+Removing Rhs of wire Net_4956_7[938] = \STORED_BRIGHTNESS_1:control_out_7\[1769]
+Removing Rhs of wire Net_4956_7[938] = \STORED_BRIGHTNESS_1:control_7\[1778]
+Removing Rhs of wire Net_4956_6[939] = \STORED_BRIGHTNESS_1:control_out_6\[1770]
+Removing Rhs of wire Net_4956_6[939] = \STORED_BRIGHTNESS_1:control_6\[1779]
+Removing Rhs of wire Net_4956_5[940] = \STORED_BRIGHTNESS_1:control_out_5\[1771]
+Removing Rhs of wire Net_4956_5[940] = \STORED_BRIGHTNESS_1:control_5\[1780]
+Removing Rhs of wire Net_4956_4[941] = \STORED_BRIGHTNESS_1:control_out_4\[1772]
+Removing Rhs of wire Net_4956_4[941] = \STORED_BRIGHTNESS_1:control_4\[1781]
+Removing Rhs of wire Net_4956_3[942] = \STORED_BRIGHTNESS_1:control_out_3\[1773]
+Removing Rhs of wire Net_4956_3[942] = \STORED_BRIGHTNESS_1:control_3\[1782]
+Removing Rhs of wire Net_4956_2[943] = \STORED_BRIGHTNESS_1:control_out_2\[1774]
+Removing Rhs of wire Net_4956_2[943] = \STORED_BRIGHTNESS_1:control_2\[1783]
+Removing Rhs of wire Net_4956_1[944] = \STORED_BRIGHTNESS_1:control_out_1\[1775]
+Removing Rhs of wire Net_4956_1[944] = \STORED_BRIGHTNESS_1:control_1\[1784]
+Removing Rhs of wire Net_4956_0[945] = \STORED_BRIGHTNESS_1:control_out_0\[1776]
+Removing Rhs of wire Net_4956_0[945] = \STORED_BRIGHTNESS_1:control_0\[1785]
+Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:newa_7\[946] = \LEDs_Out_1:MODIN4_7\[947]
+Removing Lhs of wire \LEDs_Out_1:MODIN4_7\[947] = Net_4957_7[516]
+Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:newa_6\[948] = \LEDs_Out_1:MODIN4_6\[949]
+Removing Lhs of wire \LEDs_Out_1:MODIN4_6\[949] = Net_4957_6[518]
+Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:newa_5\[950] = \LEDs_Out_1:MODIN4_5\[951]
+Removing Lhs of wire \LEDs_Out_1:MODIN4_5\[951] = Net_4957_5[520]
+Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:newa_4\[952] = \LEDs_Out_1:MODIN4_4\[953]
+Removing Lhs of wire \LEDs_Out_1:MODIN4_4\[953] = Net_4957_4[522]
+Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:newa_3\[954] = \LEDs_Out_1:MODIN4_3\[955]
+Removing Lhs of wire \LEDs_Out_1:MODIN4_3\[955] = Net_4957_3[524]
+Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:newa_2\[956] = \LEDs_Out_1:MODIN4_2\[957]
+Removing Lhs of wire \LEDs_Out_1:MODIN4_2\[957] = Net_4957_2[526]
+Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:newa_1\[958] = \LEDs_Out_1:MODIN4_1\[959]
+Removing Lhs of wire \LEDs_Out_1:MODIN4_1\[959] = Net_4957_1[528]
+Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:newa_0\[960] = \LEDs_Out_1:MODIN4_0\[961]
+Removing Lhs of wire \LEDs_Out_1:MODIN4_0\[961] = Net_4957_0[530]
+Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:newb_7\[962] = \LEDs_Out_1:Net_213_7\[586]
+Removing Lhs of wire \LEDs_Out_1:MODIN5_7\[963] = \LEDs_Out_1:Net_213_7\[586]
+Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:newb_6\[964] = \LEDs_Out_1:Net_213_6\[588]
+Removing Lhs of wire \LEDs_Out_1:MODIN5_6\[965] = \LEDs_Out_1:Net_213_6\[588]
+Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:newb_5\[966] = \LEDs_Out_1:Net_213_5\[590]
+Removing Lhs of wire \LEDs_Out_1:MODIN5_5\[967] = \LEDs_Out_1:Net_213_5\[590]
+Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:newb_4\[968] = \LEDs_Out_1:Net_213_4\[592]
+Removing Lhs of wire \LEDs_Out_1:MODIN5_4\[969] = \LEDs_Out_1:Net_213_4\[592]
+Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:newb_3\[970] = \LEDs_Out_1:Net_213_3\[594]
+Removing Lhs of wire \LEDs_Out_1:MODIN5_3\[971] = \LEDs_Out_1:Net_213_3\[594]
+Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:newb_2\[972] = \LEDs_Out_1:Net_213_2\[596]
+Removing Lhs of wire \LEDs_Out_1:MODIN5_2\[973] = \LEDs_Out_1:Net_213_2\[596]
+Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:newb_1\[974] = \LEDs_Out_1:Net_213_1\[598]
+Removing Lhs of wire \LEDs_Out_1:MODIN5_1\[975] = \LEDs_Out_1:Net_213_1\[598]
+Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:newb_0\[976] = \LEDs_Out_1:Net_213_0\[600]
+Removing Lhs of wire \LEDs_Out_1:MODIN5_0\[977] = \LEDs_Out_1:Net_213_0\[600]
+Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:dataa_7\[978] = Net_4957_7[516]
+Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:dataa_6\[979] = Net_4957_6[518]
+Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:dataa_5\[980] = Net_4957_5[520]
+Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:dataa_4\[981] = Net_4957_4[522]
+Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:dataa_3\[982] = Net_4957_3[524]
+Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:dataa_2\[983] = Net_4957_2[526]
+Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:dataa_1\[984] = Net_4957_1[528]
+Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:dataa_0\[985] = Net_4957_0[530]
+Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:datab_7\[986] = \LEDs_Out_1:Net_213_7\[586]
+Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:datab_6\[987] = \LEDs_Out_1:Net_213_6\[588]
+Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:datab_5\[988] = \LEDs_Out_1:Net_213_5\[590]
+Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:datab_4\[989] = \LEDs_Out_1:Net_213_4\[592]
+Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:datab_3\[990] = \LEDs_Out_1:Net_213_3\[594]
+Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:datab_2\[991] = \LEDs_Out_1:Net_213_2\[596]
+Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:datab_1\[992] = \LEDs_Out_1:Net_213_1\[598]
+Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:datab_0\[993] = \LEDs_Out_1:Net_213_0\[600]
+Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:gx:u0:a_7\[994] = Net_4957_7[516]
+Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:gx:u0:a_6\[995] = Net_4957_6[518]
+Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:gx:u0:a_5\[996] = Net_4957_5[520]
+Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:gx:u0:a_4\[997] = Net_4957_4[522]
+Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:gx:u0:a_3\[998] = Net_4957_3[524]
+Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:gx:u0:a_2\[999] = Net_4957_2[526]
+Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:gx:u0:a_1\[1000] = Net_4957_1[528]
+Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:gx:u0:a_0\[1001] = Net_4957_0[530]
+Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:gx:u0:b_7\[1002] = \LEDs_Out_1:Net_213_7\[586]
+Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:gx:u0:b_6\[1003] = \LEDs_Out_1:Net_213_6\[588]
+Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:gx:u0:b_5\[1004] = \LEDs_Out_1:Net_213_5\[590]
+Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:gx:u0:b_4\[1005] = \LEDs_Out_1:Net_213_4\[592]
+Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:gx:u0:b_3\[1006] = \LEDs_Out_1:Net_213_3\[594]
+Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:gx:u0:b_2\[1007] = \LEDs_Out_1:Net_213_2\[596]
+Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:gx:u0:b_1\[1008] = \LEDs_Out_1:Net_213_1\[598]
+Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:gx:u0:b_0\[1009] = \LEDs_Out_1:Net_213_0\[600]
+Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:gx:u0:albi_3\[1029] = zero[2]
+Removing Lhs of wire \LEDs_Out_1:MODULE_3:g1:a0:gx:u0:agbi_3\[1030] = zero[2]
+Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:newa_7\[1076] = \LEDs_Out_1:MODIN6_7\[1077]
+Removing Lhs of wire \LEDs_Out_1:MODIN6_7\[1077] = Net_5096_7[1206]
+Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:newa_6\[1078] = \LEDs_Out_1:MODIN6_6\[1079]
+Removing Lhs of wire \LEDs_Out_1:MODIN6_6\[1079] = Net_5096_6[1207]
+Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:newa_5\[1080] = \LEDs_Out_1:MODIN6_5\[1081]
+Removing Lhs of wire \LEDs_Out_1:MODIN6_5\[1081] = Net_5096_5[1208]
+Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:newa_4\[1082] = \LEDs_Out_1:MODIN6_4\[1083]
+Removing Lhs of wire \LEDs_Out_1:MODIN6_4\[1083] = Net_5096_4[1209]
+Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:newa_3\[1084] = \LEDs_Out_1:MODIN6_3\[1085]
+Removing Lhs of wire \LEDs_Out_1:MODIN6_3\[1085] = Net_5096_3[1210]
+Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:newa_2\[1086] = \LEDs_Out_1:MODIN6_2\[1087]
+Removing Lhs of wire \LEDs_Out_1:MODIN6_2\[1087] = Net_5096_2[1211]
+Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:newa_1\[1088] = \LEDs_Out_1:MODIN6_1\[1089]
+Removing Lhs of wire \LEDs_Out_1:MODIN6_1\[1089] = Net_5096_1[1212]
+Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:newa_0\[1090] = \LEDs_Out_1:MODIN6_0\[1091]
+Removing Lhs of wire \LEDs_Out_1:MODIN6_0\[1091] = Net_5096_0[1213]
+Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:newb_7\[1092] = \LEDs_Out_1:Net_213_7\[586]
+Removing Lhs of wire \LEDs_Out_1:MODIN7_7\[1093] = \LEDs_Out_1:Net_213_7\[586]
+Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:newb_6\[1094] = \LEDs_Out_1:Net_213_6\[588]
+Removing Lhs of wire \LEDs_Out_1:MODIN7_6\[1095] = \LEDs_Out_1:Net_213_6\[588]
+Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:newb_5\[1096] = \LEDs_Out_1:Net_213_5\[590]
+Removing Lhs of wire \LEDs_Out_1:MODIN7_5\[1097] = \LEDs_Out_1:Net_213_5\[590]
+Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:newb_4\[1098] = \LEDs_Out_1:Net_213_4\[592]
+Removing Lhs of wire \LEDs_Out_1:MODIN7_4\[1099] = \LEDs_Out_1:Net_213_4\[592]
+Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:newb_3\[1100] = \LEDs_Out_1:Net_213_3\[594]
+Removing Lhs of wire \LEDs_Out_1:MODIN7_3\[1101] = \LEDs_Out_1:Net_213_3\[594]
+Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:newb_2\[1102] = \LEDs_Out_1:Net_213_2\[596]
+Removing Lhs of wire \LEDs_Out_1:MODIN7_2\[1103] = \LEDs_Out_1:Net_213_2\[596]
+Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:newb_1\[1104] = \LEDs_Out_1:Net_213_1\[598]
+Removing Lhs of wire \LEDs_Out_1:MODIN7_1\[1105] = \LEDs_Out_1:Net_213_1\[598]
+Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:newb_0\[1106] = \LEDs_Out_1:Net_213_0\[600]
+Removing Lhs of wire \LEDs_Out_1:MODIN7_0\[1107] = \LEDs_Out_1:Net_213_0\[600]
+Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:dataa_7\[1108] = Net_5096_7[1206]
+Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:dataa_6\[1109] = Net_5096_6[1207]
+Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:dataa_5\[1110] = Net_5096_5[1208]
+Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:dataa_4\[1111] = Net_5096_4[1209]
+Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:dataa_3\[1112] = Net_5096_3[1210]
+Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:dataa_2\[1113] = Net_5096_2[1211]
+Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:dataa_1\[1114] = Net_5096_1[1212]
+Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:dataa_0\[1115] = Net_5096_0[1213]
+Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:datab_7\[1116] = \LEDs_Out_1:Net_213_7\[586]
+Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:datab_6\[1117] = \LEDs_Out_1:Net_213_6\[588]
+Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:datab_5\[1118] = \LEDs_Out_1:Net_213_5\[590]
+Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:datab_4\[1119] = \LEDs_Out_1:Net_213_4\[592]
+Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:datab_3\[1120] = \LEDs_Out_1:Net_213_3\[594]
+Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:datab_2\[1121] = \LEDs_Out_1:Net_213_2\[596]
+Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:datab_1\[1122] = \LEDs_Out_1:Net_213_1\[598]
+Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:datab_0\[1123] = \LEDs_Out_1:Net_213_0\[600]
+Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:a_7\[1124] = Net_5096_7[1206]
+Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:a_6\[1125] = Net_5096_6[1207]
+Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:a_5\[1126] = Net_5096_5[1208]
+Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:a_4\[1127] = Net_5096_4[1209]
+Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:a_3\[1128] = Net_5096_3[1210]
+Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:a_2\[1129] = Net_5096_2[1211]
+Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:a_1\[1130] = Net_5096_1[1212]
+Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:a_0\[1131] = Net_5096_0[1213]
+Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:b_7\[1132] = \LEDs_Out_1:Net_213_7\[586]
+Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:b_6\[1133] = \LEDs_Out_1:Net_213_6\[588]
+Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:b_5\[1134] = \LEDs_Out_1:Net_213_5\[590]
+Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:b_4\[1135] = \LEDs_Out_1:Net_213_4\[592]
+Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:b_3\[1136] = \LEDs_Out_1:Net_213_3\[594]
+Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:b_2\[1137] = \LEDs_Out_1:Net_213_2\[596]
+Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:b_1\[1138] = \LEDs_Out_1:Net_213_1\[598]
+Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:b_0\[1139] = \LEDs_Out_1:Net_213_0\[600]
+Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:albi_3\[1159] = zero[2]
+Removing Lhs of wire \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:agbi_3\[1160] = zero[2]
+Removing Rhs of wire Net_5096_7[1206] = \STORED_BRIGHTNESS_3:control_out_7\[1806]
+Removing Rhs of wire Net_5096_7[1206] = \STORED_BRIGHTNESS_3:control_7\[1815]
+Removing Rhs of wire Net_5096_6[1207] = \STORED_BRIGHTNESS_3:control_out_6\[1807]
+Removing Rhs of wire Net_5096_6[1207] = \STORED_BRIGHTNESS_3:control_6\[1816]
+Removing Rhs of wire Net_5096_5[1208] = \STORED_BRIGHTNESS_3:control_out_5\[1808]
+Removing Rhs of wire Net_5096_5[1208] = \STORED_BRIGHTNESS_3:control_5\[1817]
+Removing Rhs of wire Net_5096_4[1209] = \STORED_BRIGHTNESS_3:control_out_4\[1809]
+Removing Rhs of wire Net_5096_4[1209] = \STORED_BRIGHTNESS_3:control_4\[1818]
+Removing Rhs of wire Net_5096_3[1210] = \STORED_BRIGHTNESS_3:control_out_3\[1810]
+Removing Rhs of wire Net_5096_3[1210] = \STORED_BRIGHTNESS_3:control_3\[1819]
+Removing Rhs of wire Net_5096_2[1211] = \STORED_BRIGHTNESS_3:control_out_2\[1811]
+Removing Rhs of wire Net_5096_2[1211] = \STORED_BRIGHTNESS_3:control_2\[1820]
+Removing Rhs of wire Net_5096_1[1212] = \STORED_BRIGHTNESS_3:control_out_1\[1812]
+Removing Rhs of wire Net_5096_1[1212] = \STORED_BRIGHTNESS_3:control_1\[1821]
+Removing Rhs of wire Net_5096_0[1213] = \STORED_BRIGHTNESS_3:control_out_0\[1813]
+Removing Rhs of wire Net_5096_0[1213] = \STORED_BRIGHTNESS_3:control_0\[1822]
+Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:newa_7\[1214] = \LEDs_Out_1:MODIN8_7\[1215]
+Removing Lhs of wire \LEDs_Out_1:MODIN8_7\[1215] = Net_4959_7[1344]
+Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:newa_6\[1216] = \LEDs_Out_1:MODIN8_6\[1217]
+Removing Lhs of wire \LEDs_Out_1:MODIN8_6\[1217] = Net_4959_6[1345]
+Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:newa_5\[1218] = \LEDs_Out_1:MODIN8_5\[1219]
+Removing Lhs of wire \LEDs_Out_1:MODIN8_5\[1219] = Net_4959_5[1346]
+Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:newa_4\[1220] = \LEDs_Out_1:MODIN8_4\[1221]
+Removing Lhs of wire \LEDs_Out_1:MODIN8_4\[1221] = Net_4959_4[1347]
+Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:newa_3\[1222] = \LEDs_Out_1:MODIN8_3\[1223]
+Removing Lhs of wire \LEDs_Out_1:MODIN8_3\[1223] = Net_4959_3[1348]
+Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:newa_2\[1224] = \LEDs_Out_1:MODIN8_2\[1225]
+Removing Lhs of wire \LEDs_Out_1:MODIN8_2\[1225] = Net_4959_2[1349]
+Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:newa_1\[1226] = \LEDs_Out_1:MODIN8_1\[1227]
+Removing Lhs of wire \LEDs_Out_1:MODIN8_1\[1227] = Net_4959_1[1350]
+Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:newa_0\[1228] = \LEDs_Out_1:MODIN8_0\[1229]
+Removing Lhs of wire \LEDs_Out_1:MODIN8_0\[1229] = Net_4959_0[1351]
+Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:newb_7\[1230] = \LEDs_Out_1:Net_213_7\[586]
+Removing Lhs of wire \LEDs_Out_1:MODIN9_7\[1231] = \LEDs_Out_1:Net_213_7\[586]
+Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:newb_6\[1232] = \LEDs_Out_1:Net_213_6\[588]
+Removing Lhs of wire \LEDs_Out_1:MODIN9_6\[1233] = \LEDs_Out_1:Net_213_6\[588]
+Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:newb_5\[1234] = \LEDs_Out_1:Net_213_5\[590]
+Removing Lhs of wire \LEDs_Out_1:MODIN9_5\[1235] = \LEDs_Out_1:Net_213_5\[590]
+Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:newb_4\[1236] = \LEDs_Out_1:Net_213_4\[592]
+Removing Lhs of wire \LEDs_Out_1:MODIN9_4\[1237] = \LEDs_Out_1:Net_213_4\[592]
+Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:newb_3\[1238] = \LEDs_Out_1:Net_213_3\[594]
+Removing Lhs of wire \LEDs_Out_1:MODIN9_3\[1239] = \LEDs_Out_1:Net_213_3\[594]
+Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:newb_2\[1240] = \LEDs_Out_1:Net_213_2\[596]
+Removing Lhs of wire \LEDs_Out_1:MODIN9_2\[1241] = \LEDs_Out_1:Net_213_2\[596]
+Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:newb_1\[1242] = \LEDs_Out_1:Net_213_1\[598]
+Removing Lhs of wire \LEDs_Out_1:MODIN9_1\[1243] = \LEDs_Out_1:Net_213_1\[598]
+Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:newb_0\[1244] = \LEDs_Out_1:Net_213_0\[600]
+Removing Lhs of wire \LEDs_Out_1:MODIN9_0\[1245] = \LEDs_Out_1:Net_213_0\[600]
+Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:dataa_7\[1246] = Net_4959_7[1344]
+Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:dataa_6\[1247] = Net_4959_6[1345]
+Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:dataa_5\[1248] = Net_4959_5[1346]
+Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:dataa_4\[1249] = Net_4959_4[1347]
+Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:dataa_3\[1250] = Net_4959_3[1348]
+Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:dataa_2\[1251] = Net_4959_2[1349]
+Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:dataa_1\[1252] = Net_4959_1[1350]
+Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:dataa_0\[1253] = Net_4959_0[1351]
+Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:datab_7\[1254] = \LEDs_Out_1:Net_213_7\[586]
+Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:datab_6\[1255] = \LEDs_Out_1:Net_213_6\[588]
+Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:datab_5\[1256] = \LEDs_Out_1:Net_213_5\[590]
+Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:datab_4\[1257] = \LEDs_Out_1:Net_213_4\[592]
+Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:datab_3\[1258] = \LEDs_Out_1:Net_213_3\[594]
+Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:datab_2\[1259] = \LEDs_Out_1:Net_213_2\[596]
+Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:datab_1\[1260] = \LEDs_Out_1:Net_213_1\[598]
+Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:datab_0\[1261] = \LEDs_Out_1:Net_213_0\[600]
+Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:gx:u0:a_7\[1262] = Net_4959_7[1344]
+Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:gx:u0:a_6\[1263] = Net_4959_6[1345]
+Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:gx:u0:a_5\[1264] = Net_4959_5[1346]
+Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:gx:u0:a_4\[1265] = Net_4959_4[1347]
+Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:gx:u0:a_3\[1266] = Net_4959_3[1348]
+Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:gx:u0:a_2\[1267] = Net_4959_2[1349]
+Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:gx:u0:a_1\[1268] = Net_4959_1[1350]
+Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:gx:u0:a_0\[1269] = Net_4959_0[1351]
+Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:gx:u0:b_7\[1270] = \LEDs_Out_1:Net_213_7\[586]
+Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:gx:u0:b_6\[1271] = \LEDs_Out_1:Net_213_6\[588]
+Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:gx:u0:b_5\[1272] = \LEDs_Out_1:Net_213_5\[590]
+Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:gx:u0:b_4\[1273] = \LEDs_Out_1:Net_213_4\[592]
+Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:gx:u0:b_3\[1274] = \LEDs_Out_1:Net_213_3\[594]
+Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:gx:u0:b_2\[1275] = \LEDs_Out_1:Net_213_2\[596]
+Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:gx:u0:b_1\[1276] = \LEDs_Out_1:Net_213_1\[598]
+Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:gx:u0:b_0\[1277] = \LEDs_Out_1:Net_213_0\[600]
+Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:gx:u0:albi_3\[1297] = zero[2]
+Removing Lhs of wire \LEDs_Out_1:MODULE_5:g1:a0:gx:u0:agbi_3\[1298] = zero[2]
+Removing Rhs of wire Net_4959_7[1344] = \STORED_BRIGHTNESS_4:control_out_7\[1825]
+Removing Rhs of wire Net_4959_7[1344] = \STORED_BRIGHTNESS_4:control_7\[1834]
+Removing Rhs of wire Net_4959_6[1345] = \STORED_BRIGHTNESS_4:control_out_6\[1826]
+Removing Rhs of wire Net_4959_6[1345] = \STORED_BRIGHTNESS_4:control_6\[1835]
+Removing Rhs of wire Net_4959_5[1346] = \STORED_BRIGHTNESS_4:control_out_5\[1827]
+Removing Rhs of wire Net_4959_5[1346] = \STORED_BRIGHTNESS_4:control_5\[1836]
+Removing Rhs of wire Net_4959_4[1347] = \STORED_BRIGHTNESS_4:control_out_4\[1828]
+Removing Rhs of wire Net_4959_4[1347] = \STORED_BRIGHTNESS_4:control_4\[1837]
+Removing Rhs of wire Net_4959_3[1348] = \STORED_BRIGHTNESS_4:control_out_3\[1829]
+Removing Rhs of wire Net_4959_3[1348] = \STORED_BRIGHTNESS_4:control_3\[1838]
+Removing Rhs of wire Net_4959_2[1349] = \STORED_BRIGHTNESS_4:control_out_2\[1830]
+Removing Rhs of wire Net_4959_2[1349] = \STORED_BRIGHTNESS_4:control_2\[1839]
+Removing Rhs of wire Net_4959_1[1350] = \STORED_BRIGHTNESS_4:control_out_1\[1831]
+Removing Rhs of wire Net_4959_1[1350] = \STORED_BRIGHTNESS_4:control_1\[1840]
+Removing Rhs of wire Net_4959_0[1351] = \STORED_BRIGHTNESS_4:control_out_0\[1832]
+Removing Rhs of wire Net_4959_0[1351] = \STORED_BRIGHTNESS_4:control_0\[1841]
+Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:newa_7\[1352] = \LEDs_Out_1:MODIN10_7\[1353]
+Removing Lhs of wire \LEDs_Out_1:MODIN10_7\[1353] = Net_5097_7[1482]
+Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:newa_6\[1354] = \LEDs_Out_1:MODIN10_6\[1355]
+Removing Lhs of wire \LEDs_Out_1:MODIN10_6\[1355] = Net_5097_6[1483]
+Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:newa_5\[1356] = \LEDs_Out_1:MODIN10_5\[1357]
+Removing Lhs of wire \LEDs_Out_1:MODIN10_5\[1357] = Net_5097_5[1484]
+Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:newa_4\[1358] = \LEDs_Out_1:MODIN10_4\[1359]
+Removing Lhs of wire \LEDs_Out_1:MODIN10_4\[1359] = Net_5097_4[1485]
+Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:newa_3\[1360] = \LEDs_Out_1:MODIN10_3\[1361]
+Removing Lhs of wire \LEDs_Out_1:MODIN10_3\[1361] = Net_5097_3[1486]
+Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:newa_2\[1362] = \LEDs_Out_1:MODIN10_2\[1363]
+Removing Lhs of wire \LEDs_Out_1:MODIN10_2\[1363] = Net_5097_2[1487]
+Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:newa_1\[1364] = \LEDs_Out_1:MODIN10_1\[1365]
+Removing Lhs of wire \LEDs_Out_1:MODIN10_1\[1365] = Net_5097_1[1488]
+Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:newa_0\[1366] = \LEDs_Out_1:MODIN10_0\[1367]
+Removing Lhs of wire \LEDs_Out_1:MODIN10_0\[1367] = Net_5097_0[1489]
+Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:newb_7\[1368] = \LEDs_Out_1:Net_213_7\[586]
+Removing Lhs of wire \LEDs_Out_1:MODIN11_7\[1369] = \LEDs_Out_1:Net_213_7\[586]
+Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:newb_6\[1370] = \LEDs_Out_1:Net_213_6\[588]
+Removing Lhs of wire \LEDs_Out_1:MODIN11_6\[1371] = \LEDs_Out_1:Net_213_6\[588]
+Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:newb_5\[1372] = \LEDs_Out_1:Net_213_5\[590]
+Removing Lhs of wire \LEDs_Out_1:MODIN11_5\[1373] = \LEDs_Out_1:Net_213_5\[590]
+Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:newb_4\[1374] = \LEDs_Out_1:Net_213_4\[592]
+Removing Lhs of wire \LEDs_Out_1:MODIN11_4\[1375] = \LEDs_Out_1:Net_213_4\[592]
+Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:newb_3\[1376] = \LEDs_Out_1:Net_213_3\[594]
+Removing Lhs of wire \LEDs_Out_1:MODIN11_3\[1377] = \LEDs_Out_1:Net_213_3\[594]
+Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:newb_2\[1378] = \LEDs_Out_1:Net_213_2\[596]
+Removing Lhs of wire \LEDs_Out_1:MODIN11_2\[1379] = \LEDs_Out_1:Net_213_2\[596]
+Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:newb_1\[1380] = \LEDs_Out_1:Net_213_1\[598]
+Removing Lhs of wire \LEDs_Out_1:MODIN11_1\[1381] = \LEDs_Out_1:Net_213_1\[598]
+Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:newb_0\[1382] = \LEDs_Out_1:Net_213_0\[600]
+Removing Lhs of wire \LEDs_Out_1:MODIN11_0\[1383] = \LEDs_Out_1:Net_213_0\[600]
+Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:dataa_7\[1384] = Net_5097_7[1482]
+Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:dataa_6\[1385] = Net_5097_6[1483]
+Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:dataa_5\[1386] = Net_5097_5[1484]
+Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:dataa_4\[1387] = Net_5097_4[1485]
+Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:dataa_3\[1388] = Net_5097_3[1486]
+Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:dataa_2\[1389] = Net_5097_2[1487]
+Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:dataa_1\[1390] = Net_5097_1[1488]
+Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:dataa_0\[1391] = Net_5097_0[1489]
+Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:datab_7\[1392] = \LEDs_Out_1:Net_213_7\[586]
+Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:datab_6\[1393] = \LEDs_Out_1:Net_213_6\[588]
+Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:datab_5\[1394] = \LEDs_Out_1:Net_213_5\[590]
+Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:datab_4\[1395] = \LEDs_Out_1:Net_213_4\[592]
+Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:datab_3\[1396] = \LEDs_Out_1:Net_213_3\[594]
+Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:datab_2\[1397] = \LEDs_Out_1:Net_213_2\[596]
+Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:datab_1\[1398] = \LEDs_Out_1:Net_213_1\[598]
+Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:datab_0\[1399] = \LEDs_Out_1:Net_213_0\[600]
+Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:a_7\[1400] = Net_5097_7[1482]
+Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:a_6\[1401] = Net_5097_6[1483]
+Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:a_5\[1402] = Net_5097_5[1484]
+Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:a_4\[1403] = Net_5097_4[1485]
+Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:a_3\[1404] = Net_5097_3[1486]
+Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:a_2\[1405] = Net_5097_2[1487]
+Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:a_1\[1406] = Net_5097_1[1488]
+Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:a_0\[1407] = Net_5097_0[1489]
+Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:b_7\[1408] = \LEDs_Out_1:Net_213_7\[586]
+Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:b_6\[1409] = \LEDs_Out_1:Net_213_6\[588]
+Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:b_5\[1410] = \LEDs_Out_1:Net_213_5\[590]
+Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:b_4\[1411] = \LEDs_Out_1:Net_213_4\[592]
+Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:b_3\[1412] = \LEDs_Out_1:Net_213_3\[594]
+Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:b_2\[1413] = \LEDs_Out_1:Net_213_2\[596]
+Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:b_1\[1414] = \LEDs_Out_1:Net_213_1\[598]
+Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:b_0\[1415] = \LEDs_Out_1:Net_213_0\[600]
+Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:albi_3\[1435] = zero[2]
+Removing Lhs of wire \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:agbi_3\[1436] = zero[2]
+Removing Rhs of wire Net_5097_7[1482] = \STORED_BRIGHTNESS_5:control_out_7\[1844]
+Removing Rhs of wire Net_5097_7[1482] = \STORED_BRIGHTNESS_5:control_7\[1853]
+Removing Rhs of wire Net_5097_6[1483] = \STORED_BRIGHTNESS_5:control_out_6\[1845]
+Removing Rhs of wire Net_5097_6[1483] = \STORED_BRIGHTNESS_5:control_6\[1854]
+Removing Rhs of wire Net_5097_5[1484] = \STORED_BRIGHTNESS_5:control_out_5\[1846]
+Removing Rhs of wire Net_5097_5[1484] = \STORED_BRIGHTNESS_5:control_5\[1855]
+Removing Rhs of wire Net_5097_4[1485] = \STORED_BRIGHTNESS_5:control_out_4\[1847]
+Removing Rhs of wire Net_5097_4[1485] = \STORED_BRIGHTNESS_5:control_4\[1856]
+Removing Rhs of wire Net_5097_3[1486] = \STORED_BRIGHTNESS_5:control_out_3\[1848]
+Removing Rhs of wire Net_5097_3[1486] = \STORED_BRIGHTNESS_5:control_3\[1857]
+Removing Rhs of wire Net_5097_2[1487] = \STORED_BRIGHTNESS_5:control_out_2\[1849]
+Removing Rhs of wire Net_5097_2[1487] = \STORED_BRIGHTNESS_5:control_2\[1858]
+Removing Rhs of wire Net_5097_1[1488] = \STORED_BRIGHTNESS_5:control_out_1\[1850]
+Removing Rhs of wire Net_5097_1[1488] = \STORED_BRIGHTNESS_5:control_1\[1859]
+Removing Rhs of wire Net_5097_0[1489] = \STORED_BRIGHTNESS_5:control_out_0\[1851]
+Removing Rhs of wire Net_5097_0[1489] = \STORED_BRIGHTNESS_5:control_0\[1860]
+Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:newa_7\[1490] = \LEDs_Out_1:MODIN12_7\[1491]
+Removing Lhs of wire \LEDs_Out_1:MODIN12_7\[1491] = Net_4961_7[1620]
+Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:newa_6\[1492] = \LEDs_Out_1:MODIN12_6\[1493]
+Removing Lhs of wire \LEDs_Out_1:MODIN12_6\[1493] = Net_4961_6[1621]
+Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:newa_5\[1494] = \LEDs_Out_1:MODIN12_5\[1495]
+Removing Lhs of wire \LEDs_Out_1:MODIN12_5\[1495] = Net_4961_5[1622]
+Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:newa_4\[1496] = \LEDs_Out_1:MODIN12_4\[1497]
+Removing Lhs of wire \LEDs_Out_1:MODIN12_4\[1497] = Net_4961_4[1623]
+Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:newa_3\[1498] = \LEDs_Out_1:MODIN12_3\[1499]
+Removing Lhs of wire \LEDs_Out_1:MODIN12_3\[1499] = Net_4961_3[1624]
+Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:newa_2\[1500] = \LEDs_Out_1:MODIN12_2\[1501]
+Removing Lhs of wire \LEDs_Out_1:MODIN12_2\[1501] = Net_4961_2[1625]
+Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:newa_1\[1502] = \LEDs_Out_1:MODIN12_1\[1503]
+Removing Lhs of wire \LEDs_Out_1:MODIN12_1\[1503] = Net_4961_1[1626]
+Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:newa_0\[1504] = \LEDs_Out_1:MODIN12_0\[1505]
+Removing Lhs of wire \LEDs_Out_1:MODIN12_0\[1505] = Net_4961_0[1627]
+Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:newb_7\[1506] = \LEDs_Out_1:Net_213_7\[586]
+Removing Lhs of wire \LEDs_Out_1:MODIN13_7\[1507] = \LEDs_Out_1:Net_213_7\[586]
+Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:newb_6\[1508] = \LEDs_Out_1:Net_213_6\[588]
+Removing Lhs of wire \LEDs_Out_1:MODIN13_6\[1509] = \LEDs_Out_1:Net_213_6\[588]
+Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:newb_5\[1510] = \LEDs_Out_1:Net_213_5\[590]
+Removing Lhs of wire \LEDs_Out_1:MODIN13_5\[1511] = \LEDs_Out_1:Net_213_5\[590]
+Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:newb_4\[1512] = \LEDs_Out_1:Net_213_4\[592]
+Removing Lhs of wire \LEDs_Out_1:MODIN13_4\[1513] = \LEDs_Out_1:Net_213_4\[592]
+Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:newb_3\[1514] = \LEDs_Out_1:Net_213_3\[594]
+Removing Lhs of wire \LEDs_Out_1:MODIN13_3\[1515] = \LEDs_Out_1:Net_213_3\[594]
+Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:newb_2\[1516] = \LEDs_Out_1:Net_213_2\[596]
+Removing Lhs of wire \LEDs_Out_1:MODIN13_2\[1517] = \LEDs_Out_1:Net_213_2\[596]
+Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:newb_1\[1518] = \LEDs_Out_1:Net_213_1\[598]
+Removing Lhs of wire \LEDs_Out_1:MODIN13_1\[1519] = \LEDs_Out_1:Net_213_1\[598]
+Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:newb_0\[1520] = \LEDs_Out_1:Net_213_0\[600]
+Removing Lhs of wire \LEDs_Out_1:MODIN13_0\[1521] = \LEDs_Out_1:Net_213_0\[600]
+Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:dataa_7\[1522] = Net_4961_7[1620]
+Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:dataa_6\[1523] = Net_4961_6[1621]
+Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:dataa_5\[1524] = Net_4961_5[1622]
+Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:dataa_4\[1525] = Net_4961_4[1623]
+Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:dataa_3\[1526] = Net_4961_3[1624]
+Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:dataa_2\[1527] = Net_4961_2[1625]
+Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:dataa_1\[1528] = Net_4961_1[1626]
+Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:dataa_0\[1529] = Net_4961_0[1627]
+Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:datab_7\[1530] = \LEDs_Out_1:Net_213_7\[586]
+Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:datab_6\[1531] = \LEDs_Out_1:Net_213_6\[588]
+Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:datab_5\[1532] = \LEDs_Out_1:Net_213_5\[590]
+Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:datab_4\[1533] = \LEDs_Out_1:Net_213_4\[592]
+Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:datab_3\[1534] = \LEDs_Out_1:Net_213_3\[594]
+Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:datab_2\[1535] = \LEDs_Out_1:Net_213_2\[596]
+Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:datab_1\[1536] = \LEDs_Out_1:Net_213_1\[598]
+Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:datab_0\[1537] = \LEDs_Out_1:Net_213_0\[600]
+Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:gx:u0:a_7\[1538] = Net_4961_7[1620]
+Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:gx:u0:a_6\[1539] = Net_4961_6[1621]
+Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:gx:u0:a_5\[1540] = Net_4961_5[1622]
+Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:gx:u0:a_4\[1541] = Net_4961_4[1623]
+Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:gx:u0:a_3\[1542] = Net_4961_3[1624]
+Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:gx:u0:a_2\[1543] = Net_4961_2[1625]
+Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:gx:u0:a_1\[1544] = Net_4961_1[1626]
+Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:gx:u0:a_0\[1545] = Net_4961_0[1627]
+Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:gx:u0:b_7\[1546] = \LEDs_Out_1:Net_213_7\[586]
+Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:gx:u0:b_6\[1547] = \LEDs_Out_1:Net_213_6\[588]
+Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:gx:u0:b_5\[1548] = \LEDs_Out_1:Net_213_5\[590]
+Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:gx:u0:b_4\[1549] = \LEDs_Out_1:Net_213_4\[592]
+Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:gx:u0:b_3\[1550] = \LEDs_Out_1:Net_213_3\[594]
+Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:gx:u0:b_2\[1551] = \LEDs_Out_1:Net_213_2\[596]
+Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:gx:u0:b_1\[1552] = \LEDs_Out_1:Net_213_1\[598]
+Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:gx:u0:b_0\[1553] = \LEDs_Out_1:Net_213_0\[600]
+Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:gx:u0:albi_3\[1573] = zero[2]
+Removing Lhs of wire \LEDs_Out_1:MODULE_7:g1:a0:gx:u0:agbi_3\[1574] = zero[2]
+Removing Rhs of wire Net_4961_7[1620] = \STORED_BRIGHTNESS_6:control_out_7\[1863]
+Removing Rhs of wire Net_4961_7[1620] = \STORED_BRIGHTNESS_6:control_7\[1872]
+Removing Rhs of wire Net_4961_6[1621] = \STORED_BRIGHTNESS_6:control_out_6\[1864]
+Removing Rhs of wire Net_4961_6[1621] = \STORED_BRIGHTNESS_6:control_6\[1873]
+Removing Rhs of wire Net_4961_5[1622] = \STORED_BRIGHTNESS_6:control_out_5\[1865]
+Removing Rhs of wire Net_4961_5[1622] = \STORED_BRIGHTNESS_6:control_5\[1874]
+Removing Rhs of wire Net_4961_4[1623] = \STORED_BRIGHTNESS_6:control_out_4\[1866]
+Removing Rhs of wire Net_4961_4[1623] = \STORED_BRIGHTNESS_6:control_4\[1875]
+Removing Rhs of wire Net_4961_3[1624] = \STORED_BRIGHTNESS_6:control_out_3\[1867]
+Removing Rhs of wire Net_4961_3[1624] = \STORED_BRIGHTNESS_6:control_3\[1876]
+Removing Rhs of wire Net_4961_2[1625] = \STORED_BRIGHTNESS_6:control_out_2\[1868]
+Removing Rhs of wire Net_4961_2[1625] = \STORED_BRIGHTNESS_6:control_2\[1877]
+Removing Rhs of wire Net_4961_1[1626] = \STORED_BRIGHTNESS_6:control_out_1\[1869]
+Removing Rhs of wire Net_4961_1[1626] = \STORED_BRIGHTNESS_6:control_1\[1878]
+Removing Rhs of wire Net_4961_0[1627] = \STORED_BRIGHTNESS_6:control_out_0\[1870]
+Removing Rhs of wire Net_4961_0[1627] = \STORED_BRIGHTNESS_6:control_0\[1879]
+Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:newa_7\[1628] = \LEDs_Out_1:MODIN14_7\[1629]
+Removing Lhs of wire \LEDs_Out_1:MODIN14_7\[1629] = Net_4962_7[1758]
+Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:newa_6\[1630] = \LEDs_Out_1:MODIN14_6\[1631]
+Removing Lhs of wire \LEDs_Out_1:MODIN14_6\[1631] = Net_4962_6[1759]
+Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:newa_5\[1632] = \LEDs_Out_1:MODIN14_5\[1633]
+Removing Lhs of wire \LEDs_Out_1:MODIN14_5\[1633] = Net_4962_5[1760]
+Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:newa_4\[1634] = \LEDs_Out_1:MODIN14_4\[1635]
+Removing Lhs of wire \LEDs_Out_1:MODIN14_4\[1635] = Net_4962_4[1761]
+Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:newa_3\[1636] = \LEDs_Out_1:MODIN14_3\[1637]
+Removing Lhs of wire \LEDs_Out_1:MODIN14_3\[1637] = Net_4962_3[1762]
+Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:newa_2\[1638] = \LEDs_Out_1:MODIN14_2\[1639]
+Removing Lhs of wire \LEDs_Out_1:MODIN14_2\[1639] = Net_4962_2[1763]
+Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:newa_1\[1640] = \LEDs_Out_1:MODIN14_1\[1641]
+Removing Lhs of wire \LEDs_Out_1:MODIN14_1\[1641] = Net_4962_1[1764]
+Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:newa_0\[1642] = \LEDs_Out_1:MODIN14_0\[1643]
+Removing Lhs of wire \LEDs_Out_1:MODIN14_0\[1643] = Net_4962_0[1765]
+Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:newb_7\[1644] = \LEDs_Out_1:Net_213_7\[586]
+Removing Lhs of wire \LEDs_Out_1:MODIN15_7\[1645] = \LEDs_Out_1:Net_213_7\[586]
+Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:newb_6\[1646] = \LEDs_Out_1:Net_213_6\[588]
+Removing Lhs of wire \LEDs_Out_1:MODIN15_6\[1647] = \LEDs_Out_1:Net_213_6\[588]
+Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:newb_5\[1648] = \LEDs_Out_1:Net_213_5\[590]
+Removing Lhs of wire \LEDs_Out_1:MODIN15_5\[1649] = \LEDs_Out_1:Net_213_5\[590]
+Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:newb_4\[1650] = \LEDs_Out_1:Net_213_4\[592]
+Removing Lhs of wire \LEDs_Out_1:MODIN15_4\[1651] = \LEDs_Out_1:Net_213_4\[592]
+Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:newb_3\[1652] = \LEDs_Out_1:Net_213_3\[594]
+Removing Lhs of wire \LEDs_Out_1:MODIN15_3\[1653] = \LEDs_Out_1:Net_213_3\[594]
+Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:newb_2\[1654] = \LEDs_Out_1:Net_213_2\[596]
+Removing Lhs of wire \LEDs_Out_1:MODIN15_2\[1655] = \LEDs_Out_1:Net_213_2\[596]
+Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:newb_1\[1656] = \LEDs_Out_1:Net_213_1\[598]
+Removing Lhs of wire \LEDs_Out_1:MODIN15_1\[1657] = \LEDs_Out_1:Net_213_1\[598]
+Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:newb_0\[1658] = \LEDs_Out_1:Net_213_0\[600]
+Removing Lhs of wire \LEDs_Out_1:MODIN15_0\[1659] = \LEDs_Out_1:Net_213_0\[600]
+Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:dataa_7\[1660] = Net_4962_7[1758]
+Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:dataa_6\[1661] = Net_4962_6[1759]
+Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:dataa_5\[1662] = Net_4962_5[1760]
+Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:dataa_4\[1663] = Net_4962_4[1761]
+Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:dataa_3\[1664] = Net_4962_3[1762]
+Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:dataa_2\[1665] = Net_4962_2[1763]
+Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:dataa_1\[1666] = Net_4962_1[1764]
+Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:dataa_0\[1667] = Net_4962_0[1765]
+Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:datab_7\[1668] = \LEDs_Out_1:Net_213_7\[586]
+Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:datab_6\[1669] = \LEDs_Out_1:Net_213_6\[588]
+Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:datab_5\[1670] = \LEDs_Out_1:Net_213_5\[590]
+Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:datab_4\[1671] = \LEDs_Out_1:Net_213_4\[592]
+Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:datab_3\[1672] = \LEDs_Out_1:Net_213_3\[594]
+Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:datab_2\[1673] = \LEDs_Out_1:Net_213_2\[596]
+Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:datab_1\[1674] = \LEDs_Out_1:Net_213_1\[598]
+Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:datab_0\[1675] = \LEDs_Out_1:Net_213_0\[600]
+Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:gx:u0:a_7\[1676] = Net_4962_7[1758]
+Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:gx:u0:a_6\[1677] = Net_4962_6[1759]
+Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:gx:u0:a_5\[1678] = Net_4962_5[1760]
+Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:gx:u0:a_4\[1679] = Net_4962_4[1761]
+Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:gx:u0:a_3\[1680] = Net_4962_3[1762]
+Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:gx:u0:a_2\[1681] = Net_4962_2[1763]
+Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:gx:u0:a_1\[1682] = Net_4962_1[1764]
+Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:gx:u0:a_0\[1683] = Net_4962_0[1765]
+Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:gx:u0:b_7\[1684] = \LEDs_Out_1:Net_213_7\[586]
+Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:gx:u0:b_6\[1685] = \LEDs_Out_1:Net_213_6\[588]
+Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:gx:u0:b_5\[1686] = \LEDs_Out_1:Net_213_5\[590]
+Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:gx:u0:b_4\[1687] = \LEDs_Out_1:Net_213_4\[592]
+Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:gx:u0:b_3\[1688] = \LEDs_Out_1:Net_213_3\[594]
+Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:gx:u0:b_2\[1689] = \LEDs_Out_1:Net_213_2\[596]
+Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:gx:u0:b_1\[1690] = \LEDs_Out_1:Net_213_1\[598]
+Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:gx:u0:b_0\[1691] = \LEDs_Out_1:Net_213_0\[600]
+Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:gx:u0:albi_3\[1711] = zero[2]
+Removing Lhs of wire \LEDs_Out_1:MODULE_8:g1:a0:gx:u0:agbi_3\[1712] = zero[2]
+Removing Rhs of wire Net_4962_7[1758] = \STORED_BRIGHTNESS_7:control_out_7\[1882]
+Removing Rhs of wire Net_4962_7[1758] = \STORED_BRIGHTNESS_7:control_7\[1891]
+Removing Rhs of wire Net_4962_6[1759] = \STORED_BRIGHTNESS_7:control_out_6\[1883]
+Removing Rhs of wire Net_4962_6[1759] = \STORED_BRIGHTNESS_7:control_6\[1892]
+Removing Rhs of wire Net_4962_5[1760] = \STORED_BRIGHTNESS_7:control_out_5\[1884]
+Removing Rhs of wire Net_4962_5[1760] = \STORED_BRIGHTNESS_7:control_5\[1893]
+Removing Rhs of wire Net_4962_4[1761] = \STORED_BRIGHTNESS_7:control_out_4\[1885]
+Removing Rhs of wire Net_4962_4[1761] = \STORED_BRIGHTNESS_7:control_4\[1894]
+Removing Rhs of wire Net_4962_3[1762] = \STORED_BRIGHTNESS_7:control_out_3\[1886]
+Removing Rhs of wire Net_4962_3[1762] = \STORED_BRIGHTNESS_7:control_3\[1895]
+Removing Rhs of wire Net_4962_2[1763] = \STORED_BRIGHTNESS_7:control_out_2\[1887]
+Removing Rhs of wire Net_4962_2[1763] = \STORED_BRIGHTNESS_7:control_2\[1896]
+Removing Rhs of wire Net_4962_1[1764] = \STORED_BRIGHTNESS_7:control_out_1\[1888]
+Removing Rhs of wire Net_4962_1[1764] = \STORED_BRIGHTNESS_7:control_1\[1897]
+Removing Rhs of wire Net_4962_0[1765] = \STORED_BRIGHTNESS_7:control_out_0\[1889]
+Removing Rhs of wire Net_4962_0[1765] = \STORED_BRIGHTNESS_7:control_0\[1898]
+Removing Lhs of wire \STORED_BRIGHTNESS_1:clk\[1767] = zero[2]
+Removing Lhs of wire \STORED_BRIGHTNESS_1:rst\[1768] = zero[2]
+Removing Lhs of wire \WAVE_STATUS_LOW:status_7\[1786] = Net_2965_7[299]
+Removing Lhs of wire \WAVE_STATUS_LOW:status_6\[1787] = Net_2965_6[301]
+Removing Lhs of wire \WAVE_STATUS_LOW:status_5\[1788] = Net_2965_5[303]
+Removing Lhs of wire \WAVE_STATUS_LOW:status_4\[1789] = Net_2965_4[305]
+Removing Lhs of wire \WAVE_STATUS_LOW:status_3\[1790] = Net_2965_3[307]
+Removing Lhs of wire \WAVE_STATUS_LOW:status_2\[1791] = Net_2965_2[309]
+Removing Lhs of wire \WAVE_STATUS_LOW:status_1\[1792] = Net_2965_1[311]
+Removing Lhs of wire \WAVE_STATUS_LOW:status_0\[1793] = Net_2965_0[313]
+Removing Lhs of wire \WAVE_STATUS_HIGH:status_7\[1795] = zero[2]
+Removing Lhs of wire \WAVE_STATUS_HIGH:status_6\[1796] = zero[2]
+Removing Lhs of wire \WAVE_STATUS_HIGH:status_5\[1797] = zero[2]
+Removing Lhs of wire \WAVE_STATUS_HIGH:status_4\[1798] = zero[2]
+Removing Lhs of wire \WAVE_STATUS_HIGH:status_3\[1799] = zero[2]
+Removing Lhs of wire \WAVE_STATUS_HIGH:status_2\[1800] = Net_2965_10[293]
+Removing Lhs of wire \WAVE_STATUS_HIGH:status_1\[1801] = Net_2965_9[295]
+Removing Lhs of wire \WAVE_STATUS_HIGH:status_0\[1802] = Net_2965_8[297]
+Removing Lhs of wire \STORED_BRIGHTNESS_3:clk\[1804] = zero[2]
+Removing Lhs of wire \STORED_BRIGHTNESS_3:rst\[1805] = zero[2]
+Removing Lhs of wire \STORED_BRIGHTNESS_4:clk\[1823] = zero[2]
+Removing Lhs of wire \STORED_BRIGHTNESS_4:rst\[1824] = zero[2]
+Removing Lhs of wire \STORED_BRIGHTNESS_5:clk\[1842] = zero[2]
+Removing Lhs of wire \STORED_BRIGHTNESS_5:rst\[1843] = zero[2]
+Removing Lhs of wire \STORED_BRIGHTNESS_6:clk\[1861] = zero[2]
+Removing Lhs of wire \STORED_BRIGHTNESS_6:rst\[1862] = zero[2]
+Removing Lhs of wire \STORED_BRIGHTNESS_7:clk\[1880] = zero[2]
+Removing Lhs of wire \STORED_BRIGHTNESS_7:rst\[1881] = zero[2]
+Removing Lhs of wire \BRIGHTNESS_RAMP:cydff_1\\D\[1899] = zero[2]
+Removing Lhs of wire \TRIANGLE_SEL:cydff_1\\D\[1900] = zero[2]
+Removing Lhs of wire \LEDs_Out_1:Net_213_7\\D\[1912] = \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:s_7\[754]
+Removing Lhs of wire \LEDs_Out_1:Net_213_6\\D\[1913] = \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:s_6\[755]
+Removing Lhs of wire \LEDs_Out_1:Net_213_5\\D\[1914] = \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:s_5\[756]
+Removing Lhs of wire \LEDs_Out_1:Net_213_4\\D\[1915] = \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:s_4\[757]
+Removing Lhs of wire \LEDs_Out_1:Net_213_3\\D\[1916] = \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:s_3\[758]
+Removing Lhs of wire \LEDs_Out_1:Net_213_2\\D\[1917] = \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:s_2\[759]
+Removing Lhs of wire \LEDs_Out_1:Net_213_1\\D\[1918] = \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:s_1\[760]
+Removing Lhs of wire \LEDs_Out_1:Net_213_0\\D\[1919] = \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:s_0\[761]
 
 ------------------------------------------------------
 Aliased 0 equations, 777 wires.
@@ -1852,30 +1835,30 @@ Note:  Expanding virtual equation for '\LEDs_Out_1:MODULE_3:g1:a0:gx:u0:gt_1\' (
 	OR (not \LEDs_Out_1:Net_213_1\ and Net_4957_1));
 
 Note:  Expanding virtual equation for '\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:xnor_array_7\' (cost = 4):
-\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:xnor_array_7\ <= ((not \LEDs_Out_1:Net_213_7\ and not Net_4958_7)
-	OR (\LEDs_Out_1:Net_213_7\ and Net_4958_7));
+\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:xnor_array_7\ <= ((not \LEDs_Out_1:Net_213_7\ and not Net_5096_7)
+	OR (\LEDs_Out_1:Net_213_7\ and Net_5096_7));
 
 Note:  Expanding virtual equation for '\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:xnor_array_5\' (cost = 4):
-\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:xnor_array_5\ <= ((not \LEDs_Out_1:Net_213_5\ and not Net_4958_5)
-	OR (\LEDs_Out_1:Net_213_5\ and Net_4958_5));
+\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:xnor_array_5\ <= ((not \LEDs_Out_1:Net_213_5\ and not Net_5096_5)
+	OR (\LEDs_Out_1:Net_213_5\ and Net_5096_5));
 
 Note:  Expanding virtual equation for '\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:xnor_array_4\' (cost = 4):
-\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:xnor_array_4\ <= ((not \LEDs_Out_1:Net_213_4\ and not Net_4958_4)
-	OR (\LEDs_Out_1:Net_213_4\ and Net_4958_4));
+\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:xnor_array_4\ <= ((not \LEDs_Out_1:Net_213_4\ and not Net_5096_4)
+	OR (\LEDs_Out_1:Net_213_4\ and Net_5096_4));
 
 Note:  Expanding virtual equation for '\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:xnor_array_2\' (cost = 4):
-\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:xnor_array_2\ <= ((not \LEDs_Out_1:Net_213_2\ and not Net_4958_2)
-	OR (\LEDs_Out_1:Net_213_2\ and Net_4958_2));
+\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:xnor_array_2\ <= ((not \LEDs_Out_1:Net_213_2\ and not Net_5096_2)
+	OR (\LEDs_Out_1:Net_213_2\ and Net_5096_2));
 
 Note:  Expanding virtual equation for '\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:xnor_array_1\' (cost = 4):
-\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:xnor_array_1\ <= ((not \LEDs_Out_1:Net_213_1\ and not Net_4958_1)
-	OR (\LEDs_Out_1:Net_213_1\ and Net_4958_1));
+\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:xnor_array_1\ <= ((not \LEDs_Out_1:Net_213_1\ and not Net_5096_1)
+	OR (\LEDs_Out_1:Net_213_1\ and Net_5096_1));
 
 Note:  Expanding virtual equation for '\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:lt_6\' (cost = 2):
-\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:lt_6\ <= ((not Net_4958_6 and \LEDs_Out_1:Net_213_6\));
+\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:lt_6\ <= ((not Net_5096_6 and \LEDs_Out_1:Net_213_6\));
 
 Note:  Expanding virtual equation for '\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:gt_6\' (cost = 2):
-\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:gt_6\ <= ((not \LEDs_Out_1:Net_213_6\ and Net_4958_6));
+\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:gt_6\ <= ((not \LEDs_Out_1:Net_213_6\ and Net_5096_6));
 
 Note:  Expanding virtual equation for '\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:albi_2\' (cost = 0):
 \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:albi_2\ <= (\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:lti_2\);
@@ -1884,36 +1867,36 @@ Note:  Expanding virtual equation for '\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:agbi_2\'
 \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:agbi_2\ <= (\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:gti_2\);
 
 Note:  Expanding virtual equation for '\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:lt_3\' (cost = 2):
-\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:lt_3\ <= ((not Net_4958_3 and \LEDs_Out_1:Net_213_3\));
+\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:lt_3\ <= ((not Net_5096_3 and \LEDs_Out_1:Net_213_3\));
 
 Note:  Expanding virtual equation for '\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:gt_3\' (cost = 2):
-\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:gt_3\ <= ((not \LEDs_Out_1:Net_213_3\ and Net_4958_3));
+\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:gt_3\ <= ((not \LEDs_Out_1:Net_213_3\ and Net_5096_3));
 
 Note:  Expanding virtual equation for '\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:lt_4\' (cost = 6):
-\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:lt_4\ <= ((not Net_4958_4 and not Net_4958_3 and \LEDs_Out_1:Net_213_3\)
-	OR (not Net_4958_3 and \LEDs_Out_1:Net_213_4\ and \LEDs_Out_1:Net_213_3\)
-	OR (not Net_4958_4 and \LEDs_Out_1:Net_213_4\));
+\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:lt_4\ <= ((not Net_5096_4 and not Net_5096_3 and \LEDs_Out_1:Net_213_3\)
+	OR (not Net_5096_3 and \LEDs_Out_1:Net_213_4\ and \LEDs_Out_1:Net_213_3\)
+	OR (not Net_5096_4 and \LEDs_Out_1:Net_213_4\));
 
 Note:  Expanding virtual equation for '\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:gt_4\' (cost = 6):
-\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:gt_4\ <= ((not \LEDs_Out_1:Net_213_4\ and not \LEDs_Out_1:Net_213_3\ and Net_4958_3)
-	OR (not \LEDs_Out_1:Net_213_3\ and Net_4958_4 and Net_4958_3)
-	OR (not \LEDs_Out_1:Net_213_4\ and Net_4958_4));
+\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:gt_4\ <= ((not \LEDs_Out_1:Net_213_4\ and not \LEDs_Out_1:Net_213_3\ and Net_5096_3)
+	OR (not \LEDs_Out_1:Net_213_3\ and Net_5096_4 and Net_5096_3)
+	OR (not \LEDs_Out_1:Net_213_4\ and Net_5096_4));
 
 Note:  Expanding virtual equation for '\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:lt_0\' (cost = 2):
-\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:lt_0\ <= ((not Net_4958_0 and \LEDs_Out_1:Net_213_0\));
+\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:lt_0\ <= ((not Net_5096_0 and \LEDs_Out_1:Net_213_0\));
 
 Note:  Expanding virtual equation for '\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:gt_0\' (cost = 2):
-\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:gt_0\ <= ((not \LEDs_Out_1:Net_213_0\ and Net_4958_0));
+\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:gt_0\ <= ((not \LEDs_Out_1:Net_213_0\ and Net_5096_0));
 
 Note:  Expanding virtual equation for '\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:lt_1\' (cost = 6):
-\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:lt_1\ <= ((not Net_4958_1 and not Net_4958_0 and \LEDs_Out_1:Net_213_0\)
-	OR (not Net_4958_0 and \LEDs_Out_1:Net_213_1\ and \LEDs_Out_1:Net_213_0\)
-	OR (not Net_4958_1 and \LEDs_Out_1:Net_213_1\));
+\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:lt_1\ <= ((not Net_5096_1 and not Net_5096_0 and \LEDs_Out_1:Net_213_0\)
+	OR (not Net_5096_0 and \LEDs_Out_1:Net_213_1\ and \LEDs_Out_1:Net_213_0\)
+	OR (not Net_5096_1 and \LEDs_Out_1:Net_213_1\));
 
 Note:  Expanding virtual equation for '\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:gt_1\' (cost = 6):
-\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:gt_1\ <= ((not \LEDs_Out_1:Net_213_1\ and not \LEDs_Out_1:Net_213_0\ and Net_4958_0)
-	OR (not \LEDs_Out_1:Net_213_0\ and Net_4958_1 and Net_4958_0)
-	OR (not \LEDs_Out_1:Net_213_1\ and Net_4958_1));
+\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:gt_1\ <= ((not \LEDs_Out_1:Net_213_1\ and not \LEDs_Out_1:Net_213_0\ and Net_5096_0)
+	OR (not \LEDs_Out_1:Net_213_0\ and Net_5096_1 and Net_5096_0)
+	OR (not \LEDs_Out_1:Net_213_1\ and Net_5096_1));
 
 Note:  Expanding virtual equation for '\LEDs_Out_1:MODULE_5:g1:a0:gx:u0:xnor_array_7\' (cost = 4):
 \LEDs_Out_1:MODULE_5:g1:a0:gx:u0:xnor_array_7\ <= ((not \LEDs_Out_1:Net_213_7\ and not Net_4959_7)
@@ -1980,30 +1963,30 @@ Note:  Expanding virtual equation for '\LEDs_Out_1:MODULE_5:g1:a0:gx:u0:gt_1\' (
 	OR (not \LEDs_Out_1:Net_213_1\ and Net_4959_1));
 
 Note:  Expanding virtual equation for '\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:xnor_array_7\' (cost = 4):
-\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:xnor_array_7\ <= ((not \LEDs_Out_1:Net_213_7\ and not Net_4960_7)
-	OR (\LEDs_Out_1:Net_213_7\ and Net_4960_7));
+\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:xnor_array_7\ <= ((not \LEDs_Out_1:Net_213_7\ and not Net_5097_7)
+	OR (\LEDs_Out_1:Net_213_7\ and Net_5097_7));
 
 Note:  Expanding virtual equation for '\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:xnor_array_5\' (cost = 4):
-\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:xnor_array_5\ <= ((not \LEDs_Out_1:Net_213_5\ and not Net_4960_5)
-	OR (\LEDs_Out_1:Net_213_5\ and Net_4960_5));
+\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:xnor_array_5\ <= ((not \LEDs_Out_1:Net_213_5\ and not Net_5097_5)
+	OR (\LEDs_Out_1:Net_213_5\ and Net_5097_5));
 
 Note:  Expanding virtual equation for '\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:xnor_array_4\' (cost = 4):
-\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:xnor_array_4\ <= ((not \LEDs_Out_1:Net_213_4\ and not Net_4960_4)
-	OR (\LEDs_Out_1:Net_213_4\ and Net_4960_4));
+\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:xnor_array_4\ <= ((not \LEDs_Out_1:Net_213_4\ and not Net_5097_4)
+	OR (\LEDs_Out_1:Net_213_4\ and Net_5097_4));
 
 Note:  Expanding virtual equation for '\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:xnor_array_2\' (cost = 4):
-\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:xnor_array_2\ <= ((not \LEDs_Out_1:Net_213_2\ and not Net_4960_2)
-	OR (\LEDs_Out_1:Net_213_2\ and Net_4960_2));
+\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:xnor_array_2\ <= ((not \LEDs_Out_1:Net_213_2\ and not Net_5097_2)
+	OR (\LEDs_Out_1:Net_213_2\ and Net_5097_2));
 
 Note:  Expanding virtual equation for '\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:xnor_array_1\' (cost = 4):
-\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:xnor_array_1\ <= ((not \LEDs_Out_1:Net_213_1\ and not Net_4960_1)
-	OR (\LEDs_Out_1:Net_213_1\ and Net_4960_1));
+\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:xnor_array_1\ <= ((not \LEDs_Out_1:Net_213_1\ and not Net_5097_1)
+	OR (\LEDs_Out_1:Net_213_1\ and Net_5097_1));
 
 Note:  Expanding virtual equation for '\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:lt_6\' (cost = 2):
-\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:lt_6\ <= ((not Net_4960_6 and \LEDs_Out_1:Net_213_6\));
+\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:lt_6\ <= ((not Net_5097_6 and \LEDs_Out_1:Net_213_6\));
 
 Note:  Expanding virtual equation for '\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:gt_6\' (cost = 2):
-\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:gt_6\ <= ((not \LEDs_Out_1:Net_213_6\ and Net_4960_6));
+\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:gt_6\ <= ((not \LEDs_Out_1:Net_213_6\ and Net_5097_6));
 
 Note:  Expanding virtual equation for '\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:albi_2\' (cost = 0):
 \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:albi_2\ <= (\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:lti_2\);
@@ -2012,36 +1995,36 @@ Note:  Expanding virtual equation for '\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:agbi_2\'
 \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:agbi_2\ <= (\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:gti_2\);
 
 Note:  Expanding virtual equation for '\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:lt_3\' (cost = 2):
-\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:lt_3\ <= ((not Net_4960_3 and \LEDs_Out_1:Net_213_3\));
+\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:lt_3\ <= ((not Net_5097_3 and \LEDs_Out_1:Net_213_3\));
 
 Note:  Expanding virtual equation for '\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:gt_3\' (cost = 2):
-\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:gt_3\ <= ((not \LEDs_Out_1:Net_213_3\ and Net_4960_3));
+\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:gt_3\ <= ((not \LEDs_Out_1:Net_213_3\ and Net_5097_3));
 
 Note:  Expanding virtual equation for '\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:lt_4\' (cost = 6):
-\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:lt_4\ <= ((not Net_4960_4 and not Net_4960_3 and \LEDs_Out_1:Net_213_3\)
-	OR (not Net_4960_3 and \LEDs_Out_1:Net_213_4\ and \LEDs_Out_1:Net_213_3\)
-	OR (not Net_4960_4 and \LEDs_Out_1:Net_213_4\));
+\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:lt_4\ <= ((not Net_5097_4 and not Net_5097_3 and \LEDs_Out_1:Net_213_3\)
+	OR (not Net_5097_3 and \LEDs_Out_1:Net_213_4\ and \LEDs_Out_1:Net_213_3\)
+	OR (not Net_5097_4 and \LEDs_Out_1:Net_213_4\));
 
 Note:  Expanding virtual equation for '\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:gt_4\' (cost = 6):
-\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:gt_4\ <= ((not \LEDs_Out_1:Net_213_4\ and not \LEDs_Out_1:Net_213_3\ and Net_4960_3)
-	OR (not \LEDs_Out_1:Net_213_3\ and Net_4960_4 and Net_4960_3)
-	OR (not \LEDs_Out_1:Net_213_4\ and Net_4960_4));
+\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:gt_4\ <= ((not \LEDs_Out_1:Net_213_4\ and not \LEDs_Out_1:Net_213_3\ and Net_5097_3)
+	OR (not \LEDs_Out_1:Net_213_3\ and Net_5097_4 and Net_5097_3)
+	OR (not \LEDs_Out_1:Net_213_4\ and Net_5097_4));
 
 Note:  Expanding virtual equation for '\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:lt_0\' (cost = 2):
-\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:lt_0\ <= ((not Net_4960_0 and \LEDs_Out_1:Net_213_0\));
+\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:lt_0\ <= ((not Net_5097_0 and \LEDs_Out_1:Net_213_0\));
 
 Note:  Expanding virtual equation for '\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:gt_0\' (cost = 2):
-\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:gt_0\ <= ((not \LEDs_Out_1:Net_213_0\ and Net_4960_0));
+\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:gt_0\ <= ((not \LEDs_Out_1:Net_213_0\ and Net_5097_0));
 
 Note:  Expanding virtual equation for '\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:lt_1\' (cost = 6):
-\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:lt_1\ <= ((not Net_4960_1 and not Net_4960_0 and \LEDs_Out_1:Net_213_0\)
-	OR (not Net_4960_0 and \LEDs_Out_1:Net_213_1\ and \LEDs_Out_1:Net_213_0\)
-	OR (not Net_4960_1 and \LEDs_Out_1:Net_213_1\));
+\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:lt_1\ <= ((not Net_5097_1 and not Net_5097_0 and \LEDs_Out_1:Net_213_0\)
+	OR (not Net_5097_0 and \LEDs_Out_1:Net_213_1\ and \LEDs_Out_1:Net_213_0\)
+	OR (not Net_5097_1 and \LEDs_Out_1:Net_213_1\));
 
 Note:  Expanding virtual equation for '\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:gt_1\' (cost = 6):
-\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:gt_1\ <= ((not \LEDs_Out_1:Net_213_1\ and not \LEDs_Out_1:Net_213_0\ and Net_4960_0)
-	OR (not \LEDs_Out_1:Net_213_0\ and Net_4960_1 and Net_4960_0)
-	OR (not \LEDs_Out_1:Net_213_1\ and Net_4960_1));
+\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:gt_1\ <= ((not \LEDs_Out_1:Net_213_1\ and not \LEDs_Out_1:Net_213_0\ and Net_5097_0)
+	OR (not \LEDs_Out_1:Net_213_0\ and Net_5097_1 and Net_5097_0)
+	OR (not \LEDs_Out_1:Net_213_1\ and Net_5097_1));
 
 Note:  Expanding virtual equation for '\LEDs_Out_1:MODULE_7:g1:a0:gx:u0:xnor_array_7\' (cost = 4):
 \LEDs_Out_1:MODULE_7:g1:a0:gx:u0:xnor_array_7\ <= ((not \LEDs_Out_1:Net_213_7\ and not Net_4961_7)
@@ -2175,25 +2158,25 @@ Note:  Expanding virtual equation for '\LEDs_Out_1:MODULE_8:g1:a0:gx:u0:gt_1\' (
 Substituting virtuals - pass 2:
 
 Note:  Expanding virtual equation for '\LEDs_Out_1:LED_Out_3:Net_3188\' (cost = 1):
-\LEDs_Out_1:LED_Out_3:Net_3188\ <= ((not Net_4582_2 and not Net_4582_0 and Net_2703 and Net_4582_1 and Net_2234));
+\LEDs_Out_1:LED_Out_3:Net_3188\ <= ((not Net_4582_2 and not Net_4582_0 and Net_2703 and Net_4582_1 and Net_5051));
 
 Note:  Expanding virtual equation for '\LEDs_Out_1:LED_Out_5:Net_3188\' (cost = 1):
-\LEDs_Out_1:LED_Out_5:Net_3188\ <= ((not Net_4582_1 and not Net_4582_0 and Net_2703 and Net_4582_2 and Net_2234));
+\LEDs_Out_1:LED_Out_5:Net_3188\ <= ((not Net_4582_1 and not Net_4582_0 and Net_2703 and Net_4582_2 and Net_5051));
 
 Note:  Expanding virtual equation for '\LEDs_Out_1:LED_Out_6:Net_3188\' (cost = 1):
-\LEDs_Out_1:LED_Out_6:Net_3188\ <= ((not Net_4582_1 and Net_2703 and Net_4582_2 and Net_4582_0 and Net_2234));
+\LEDs_Out_1:LED_Out_6:Net_3188\ <= ((not Net_4582_1 and Net_2703 and Net_4582_2 and Net_4582_0 and Net_5051));
 
 Note:  Expanding virtual equation for '\LEDs_Out_1:LED_Out_7:Net_3188\' (cost = 1):
-\LEDs_Out_1:LED_Out_7:Net_3188\ <= ((not Net_4582_0 and Net_2703 and Net_4582_2 and Net_4582_1 and Net_2234));
+\LEDs_Out_1:LED_Out_7:Net_3188\ <= ((not Net_4582_0 and Net_2703 and Net_4582_2 and Net_4582_1 and Net_5051));
 
 Note:  Expanding virtual equation for '\LEDs_Out_1:LED_Out_4:Net_3188\' (cost = 1):
-\LEDs_Out_1:LED_Out_4:Net_3188\ <= ((not Net_4582_2 and Net_2703 and Net_4582_1 and Net_4582_0 and Net_2234));
+\LEDs_Out_1:LED_Out_4:Net_3188\ <= ((not Net_4582_2 and Net_2703 and Net_4582_1 and Net_4582_0 and Net_5051));
 
 Note:  Expanding virtual equation for '\LEDs_Out_1:LED_Out_2:Net_3188\' (cost = 1):
-\LEDs_Out_1:LED_Out_2:Net_3188\ <= ((not Net_4582_2 and not Net_4582_1 and Net_2703 and Net_4582_0 and Net_2234));
+\LEDs_Out_1:LED_Out_2:Net_3188\ <= ((not Net_4582_2 and not Net_4582_1 and Net_2703 and Net_4582_0 and Net_5051));
 
 Note:  Expanding virtual equation for '\LEDs_Out_1:LED_Out_1:Net_3188\' (cost = 1):
-\LEDs_Out_1:LED_Out_1:Net_3188\ <= ((not Net_4582_2 and not Net_4582_1 and not Net_4582_0 and Net_2703 and Net_2234));
+\LEDs_Out_1:LED_Out_1:Net_3188\ <= ((not Net_4582_2 and not Net_4582_1 and not Net_4582_0 and Net_2703 and Net_5051));
 
 Note:  Expanding virtual equation for '\WAVETABLE_COUNTER:MODULE_9:g2:a0:g1:z1:s0:g1:u0:c_10\' (cost = 5):
 \WAVETABLE_COUNTER:MODULE_9:g2:a0:g1:z1:s0:g1:u0:c_10\ <= ((Net_2965_9 and Net_2965_8 and \WAVETABLE_COUNTER:MODULE_9:g2:a0:g1:z1:s0:g1:u0:c_8\));
@@ -2589,10 +2572,10 @@ Aliasing \WAVETABLE_COUNTER:MODULE_9:g2:a0:g1:z1:s0:g1:u0:b_24\ to zero
 Aliasing \WAVETABLE_COUNTER:MODULE_9:g2:a0:g1:z1:s0:g1:u0:b_16\ to zero
 Aliasing \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_24\ to zero
 Aliasing \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_16\ to zero
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:g1:z1:s0:g1:u0:b_24\[500] = zero[2]
-Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:g1:z1:s0:g1:u0:b_16\[510] = zero[2]
-Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_24\[787] = zero[2]
-Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_16\[797] = zero[2]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:g1:z1:s0:g1:u0:b_24\[483] = zero[2]
+Removing Lhs of wire \WAVETABLE_COUNTER:MODULE_9:g2:a0:g1:z1:s0:g1:u0:b_16\[493] = zero[2]
+Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_24\[770] = zero[2]
+Removing Lhs of wire \LEDs_Out_1:PWM_COUNTER:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_16\[780] = zero[2]
 
 ------------------------------------------------------
 Aliased 0 equations, 4 wires.
@@ -2625,14 +2608,14 @@ CYPRESS_DIR    : C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\wa
 Warp Program   : C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\bin/warp.exe
 Warp Arguments : -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya "-.fftprj=\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\MIDI_EXAMPLE.cyprj" -dcpsoc3 MIDI_EXAMPLE.v -verilog
 </CYPRESSTAG>
-Warp synthesis phase: Elapsed time ==> 1s.526ms
+Warp synthesis phase: Elapsed time ==> 1s.562ms
 <CYPRESSTAG name="Fitter results...">
 <CYPRESSTAG name="Fitter startup details...">
-cyp3fit: V3.3.0.9604, Family: PSoC3, Started at: Friday, 20 November 2020 23:06:11
+cyp3fit: V3.3.0.9604, Family: PSoC3, Started at: Friday, 20 November 2020 23:13:57
 Options: -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\MIDI_EXAMPLE.cyprj -d CY8C5888LTI-LP097 MIDI_EXAMPLE.v -verilog
 </CYPRESSTAG>
 <CYPRESSTAG name="Design parsing">
-Design parsing phase: Elapsed time ==> 0s.030ms
+Design parsing phase: Elapsed time ==> 0s.022ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Tech mapping">
 <CYPRESSTAG name="Initial Mapping" icon="FILE_RPT_TECHM">
@@ -3206,7 +3189,7 @@ Design Equations
               !Net_2703 * !\LEDs_Out_1:MODULE_2:g1:a0:gx:u0:lt_7\ * 
               !\LEDs_Out_1:MODULE_2:g1:a0:gx:u0:lt_5\ * 
               \LEDs_Out_1:MODULE_2:g1:a0:gx:u0:gt_2\
-            + Net_2703 * !Net_4582_2 * !Net_4582_1 * !Net_4582_0 * Net_2234
+            + Net_2703 * !Net_4582_2 * !Net_4582_1 * !Net_4582_0 * Net_5051
             + Net_4582_2 * !\LEDs_Out_1:MODULE_2:g1:a0:gx:u0:lt_7\ * 
               !\LEDs_Out_1:MODULE_2:g1:a0:gx:u0:lt_5\ * 
               \LEDs_Out_1:MODULE_2:g1:a0:gx:u0:gt_2\
@@ -3356,7 +3339,7 @@ Design Equations
               !Net_2703 * !\LEDs_Out_1:MODULE_8:g1:a0:gx:u0:lt_7\ * 
               !\LEDs_Out_1:MODULE_8:g1:a0:gx:u0:lt_5\ * 
               \LEDs_Out_1:MODULE_8:g1:a0:gx:u0:gt_2\
-            + Net_2703 * Net_4582_2 * Net_4582_1 * !Net_4582_0 * Net_2234
+            + Net_2703 * Net_4582_2 * Net_4582_1 * !Net_4582_0 * Net_5051
             + !Net_4582_2 * !\LEDs_Out_1:MODULE_8:g1:a0:gx:u0:lt_7\ * 
               !\LEDs_Out_1:MODULE_8:g1:a0:gx:u0:lt_5\ * 
               \LEDs_Out_1:MODULE_8:g1:a0:gx:u0:gt_2\
@@ -3383,7 +3366,7 @@ Design Equations
               !Net_2703 * !\LEDs_Out_1:MODULE_7:g1:a0:gx:u0:lt_7\ * 
               !\LEDs_Out_1:MODULE_7:g1:a0:gx:u0:lt_5\ * 
               \LEDs_Out_1:MODULE_7:g1:a0:gx:u0:gt_2\
-            + Net_2703 * Net_4582_2 * !Net_4582_1 * Net_4582_0 * Net_2234
+            + Net_2703 * Net_4582_2 * !Net_4582_1 * Net_4582_0 * Net_5051
             + !Net_4582_2 * !\LEDs_Out_1:MODULE_7:g1:a0:gx:u0:lt_7\ * 
               !\LEDs_Out_1:MODULE_7:g1:a0:gx:u0:lt_5\ * 
               \LEDs_Out_1:MODULE_7:g1:a0:gx:u0:gt_2\
@@ -3410,7 +3393,7 @@ Design Equations
               !Net_2703 * !\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:lt_7\ * 
               !\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:lt_5\ * 
               \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:gt_2\
-            + Net_2703 * Net_4582_2 * !Net_4582_1 * !Net_4582_0 * Net_2234
+            + Net_2703 * Net_4582_2 * !Net_4582_1 * !Net_4582_0 * Net_5051
             + !Net_4582_2 * !\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:lt_7\ * 
               !\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:lt_5\ * 
               \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:gt_2\
@@ -3598,9 +3581,9 @@ Design Equations
             Clock Enable: True
         Main Equation            : 3 pterms
         (
-              \LEDs_Out_1:Net_213_7\ * \LEDs_Out_1:Net_213_6\ * !Net_4958_6
-            + \LEDs_Out_1:Net_213_7\ * !Net_4958_7
-            + \LEDs_Out_1:Net_213_6\ * !Net_4958_7 * !Net_4958_6
+              \LEDs_Out_1:Net_213_7\ * \LEDs_Out_1:Net_213_6\ * !Net_5096_6
+            + \LEDs_Out_1:Net_213_7\ * !Net_5096_7
+            + \LEDs_Out_1:Net_213_6\ * !Net_5096_7 * !Net_5096_6
         );
         Output = \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:lt_7\ (fanout=2)
 
@@ -3610,9 +3593,9 @@ Design Equations
             Clock Enable: True
         Main Equation            : 3 pterms
         (
-              !\LEDs_Out_1:Net_213_7\ * !\LEDs_Out_1:Net_213_6\ * Net_4958_6
-            + !\LEDs_Out_1:Net_213_7\ * Net_4958_7
-            + !\LEDs_Out_1:Net_213_6\ * Net_4958_7 * Net_4958_6
+              !\LEDs_Out_1:Net_213_7\ * !\LEDs_Out_1:Net_213_6\ * Net_5096_6
+            + !\LEDs_Out_1:Net_213_7\ * Net_5096_7
+            + !\LEDs_Out_1:Net_213_6\ * Net_5096_7 * Net_5096_6
         );
         Output = \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:gt_7\ (fanout=2)
 
@@ -3623,16 +3606,16 @@ Design Equations
         Main Equation            : 7 pterms
         (
               \LEDs_Out_1:Net_213_5\ * \LEDs_Out_1:Net_213_4\ * 
-              \LEDs_Out_1:Net_213_3\ * !Net_4958_3
-            + \LEDs_Out_1:Net_213_5\ * \LEDs_Out_1:Net_213_4\ * !Net_4958_4
-            + \LEDs_Out_1:Net_213_5\ * \LEDs_Out_1:Net_213_3\ * !Net_4958_4 * 
-              !Net_4958_3
-            + \LEDs_Out_1:Net_213_5\ * !Net_4958_5
-            + \LEDs_Out_1:Net_213_4\ * \LEDs_Out_1:Net_213_3\ * !Net_4958_5 * 
-              !Net_4958_3
-            + \LEDs_Out_1:Net_213_4\ * !Net_4958_5 * !Net_4958_4
-            + \LEDs_Out_1:Net_213_3\ * !Net_4958_5 * !Net_4958_4 * 
-              !Net_4958_3
+              \LEDs_Out_1:Net_213_3\ * !Net_5096_3
+            + \LEDs_Out_1:Net_213_5\ * \LEDs_Out_1:Net_213_4\ * !Net_5096_4
+            + \LEDs_Out_1:Net_213_5\ * \LEDs_Out_1:Net_213_3\ * !Net_5096_4 * 
+              !Net_5096_3
+            + \LEDs_Out_1:Net_213_5\ * !Net_5096_5
+            + \LEDs_Out_1:Net_213_4\ * \LEDs_Out_1:Net_213_3\ * !Net_5096_5 * 
+              !Net_5096_3
+            + \LEDs_Out_1:Net_213_4\ * !Net_5096_5 * !Net_5096_4
+            + \LEDs_Out_1:Net_213_3\ * !Net_5096_5 * !Net_5096_4 * 
+              !Net_5096_3
         );
         Output = \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:lt_5\ (fanout=1)
 
@@ -3643,15 +3626,15 @@ Design Equations
         Main Equation            : 7 pterms
         (
               !\LEDs_Out_1:Net_213_5\ * !\LEDs_Out_1:Net_213_4\ * 
-              !\LEDs_Out_1:Net_213_3\ * Net_4958_3
-            + !\LEDs_Out_1:Net_213_5\ * !\LEDs_Out_1:Net_213_4\ * Net_4958_4
-            + !\LEDs_Out_1:Net_213_5\ * !\LEDs_Out_1:Net_213_3\ * Net_4958_4 * 
-              Net_4958_3
-            + !\LEDs_Out_1:Net_213_5\ * Net_4958_5
-            + !\LEDs_Out_1:Net_213_4\ * !\LEDs_Out_1:Net_213_3\ * Net_4958_5 * 
-              Net_4958_3
-            + !\LEDs_Out_1:Net_213_4\ * Net_4958_5 * Net_4958_4
-            + !\LEDs_Out_1:Net_213_3\ * Net_4958_5 * Net_4958_4 * Net_4958_3
+              !\LEDs_Out_1:Net_213_3\ * Net_5096_3
+            + !\LEDs_Out_1:Net_213_5\ * !\LEDs_Out_1:Net_213_4\ * Net_5096_4
+            + !\LEDs_Out_1:Net_213_5\ * !\LEDs_Out_1:Net_213_3\ * Net_5096_4 * 
+              Net_5096_3
+            + !\LEDs_Out_1:Net_213_5\ * Net_5096_5
+            + !\LEDs_Out_1:Net_213_4\ * !\LEDs_Out_1:Net_213_3\ * Net_5096_5 * 
+              Net_5096_3
+            + !\LEDs_Out_1:Net_213_4\ * Net_5096_5 * Net_5096_4
+            + !\LEDs_Out_1:Net_213_3\ * Net_5096_5 * Net_5096_4 * Net_5096_3
         );
         Output = \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:gt_5\ (fanout=2)
 
@@ -3662,15 +3645,15 @@ Design Equations
         Main Equation            : 7 pterms
         (
               !\LEDs_Out_1:Net_213_2\ * !\LEDs_Out_1:Net_213_1\ * 
-              !\LEDs_Out_1:Net_213_0\ * Net_4958_0
-            + !\LEDs_Out_1:Net_213_2\ * !\LEDs_Out_1:Net_213_1\ * Net_4958_1
-            + !\LEDs_Out_1:Net_213_2\ * !\LEDs_Out_1:Net_213_0\ * Net_4958_1 * 
-              Net_4958_0
-            + !\LEDs_Out_1:Net_213_2\ * Net_4958_2
-            + !\LEDs_Out_1:Net_213_1\ * !\LEDs_Out_1:Net_213_0\ * Net_4958_2 * 
-              Net_4958_0
-            + !\LEDs_Out_1:Net_213_1\ * Net_4958_2 * Net_4958_1
-            + !\LEDs_Out_1:Net_213_0\ * Net_4958_2 * Net_4958_1 * Net_4958_0
+              !\LEDs_Out_1:Net_213_0\ * Net_5096_0
+            + !\LEDs_Out_1:Net_213_2\ * !\LEDs_Out_1:Net_213_1\ * Net_5096_1
+            + !\LEDs_Out_1:Net_213_2\ * !\LEDs_Out_1:Net_213_0\ * Net_5096_1 * 
+              Net_5096_0
+            + !\LEDs_Out_1:Net_213_2\ * Net_5096_2
+            + !\LEDs_Out_1:Net_213_1\ * !\LEDs_Out_1:Net_213_0\ * Net_5096_2 * 
+              Net_5096_0
+            + !\LEDs_Out_1:Net_213_1\ * Net_5096_2 * Net_5096_1
+            + !\LEDs_Out_1:Net_213_0\ * Net_5096_2 * Net_5096_1 * Net_5096_0
         );
         Output = \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:gt_2\ (fanout=1)
 
@@ -3762,9 +3745,9 @@ Design Equations
             Clock Enable: True
         Main Equation            : 3 pterms
         (
-              \LEDs_Out_1:Net_213_7\ * \LEDs_Out_1:Net_213_6\ * !Net_4960_6
-            + \LEDs_Out_1:Net_213_7\ * !Net_4960_7
-            + \LEDs_Out_1:Net_213_6\ * !Net_4960_7 * !Net_4960_6
+              \LEDs_Out_1:Net_213_7\ * \LEDs_Out_1:Net_213_6\ * !Net_5097_6
+            + \LEDs_Out_1:Net_213_7\ * !Net_5097_7
+            + \LEDs_Out_1:Net_213_6\ * !Net_5097_7 * !Net_5097_6
         );
         Output = \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:lt_7\ (fanout=2)
 
@@ -3774,9 +3757,9 @@ Design Equations
             Clock Enable: True
         Main Equation            : 3 pterms
         (
-              !\LEDs_Out_1:Net_213_7\ * !\LEDs_Out_1:Net_213_6\ * Net_4960_6
-            + !\LEDs_Out_1:Net_213_7\ * Net_4960_7
-            + !\LEDs_Out_1:Net_213_6\ * Net_4960_7 * Net_4960_6
+              !\LEDs_Out_1:Net_213_7\ * !\LEDs_Out_1:Net_213_6\ * Net_5097_6
+            + !\LEDs_Out_1:Net_213_7\ * Net_5097_7
+            + !\LEDs_Out_1:Net_213_6\ * Net_5097_7 * Net_5097_6
         );
         Output = \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:gt_7\ (fanout=2)
 
@@ -3787,16 +3770,16 @@ Design Equations
         Main Equation            : 7 pterms
         (
               \LEDs_Out_1:Net_213_5\ * \LEDs_Out_1:Net_213_4\ * 
-              \LEDs_Out_1:Net_213_3\ * !Net_4960_3
-            + \LEDs_Out_1:Net_213_5\ * \LEDs_Out_1:Net_213_4\ * !Net_4960_4
-            + \LEDs_Out_1:Net_213_5\ * \LEDs_Out_1:Net_213_3\ * !Net_4960_4 * 
-              !Net_4960_3
-            + \LEDs_Out_1:Net_213_5\ * !Net_4960_5
-            + \LEDs_Out_1:Net_213_4\ * \LEDs_Out_1:Net_213_3\ * !Net_4960_5 * 
-              !Net_4960_3
-            + \LEDs_Out_1:Net_213_4\ * !Net_4960_5 * !Net_4960_4
-            + \LEDs_Out_1:Net_213_3\ * !Net_4960_5 * !Net_4960_4 * 
-              !Net_4960_3
+              \LEDs_Out_1:Net_213_3\ * !Net_5097_3
+            + \LEDs_Out_1:Net_213_5\ * \LEDs_Out_1:Net_213_4\ * !Net_5097_4
+            + \LEDs_Out_1:Net_213_5\ * \LEDs_Out_1:Net_213_3\ * !Net_5097_4 * 
+              !Net_5097_3
+            + \LEDs_Out_1:Net_213_5\ * !Net_5097_5
+            + \LEDs_Out_1:Net_213_4\ * \LEDs_Out_1:Net_213_3\ * !Net_5097_5 * 
+              !Net_5097_3
+            + \LEDs_Out_1:Net_213_4\ * !Net_5097_5 * !Net_5097_4
+            + \LEDs_Out_1:Net_213_3\ * !Net_5097_5 * !Net_5097_4 * 
+              !Net_5097_3
         );
         Output = \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:lt_5\ (fanout=1)
 
@@ -3807,15 +3790,15 @@ Design Equations
         Main Equation            : 7 pterms
         (
               !\LEDs_Out_1:Net_213_5\ * !\LEDs_Out_1:Net_213_4\ * 
-              !\LEDs_Out_1:Net_213_3\ * Net_4960_3
-            + !\LEDs_Out_1:Net_213_5\ * !\LEDs_Out_1:Net_213_4\ * Net_4960_4
-            + !\LEDs_Out_1:Net_213_5\ * !\LEDs_Out_1:Net_213_3\ * Net_4960_4 * 
-              Net_4960_3
-            + !\LEDs_Out_1:Net_213_5\ * Net_4960_5
-            + !\LEDs_Out_1:Net_213_4\ * !\LEDs_Out_1:Net_213_3\ * Net_4960_5 * 
-              Net_4960_3
-            + !\LEDs_Out_1:Net_213_4\ * Net_4960_5 * Net_4960_4
-            + !\LEDs_Out_1:Net_213_3\ * Net_4960_5 * Net_4960_4 * Net_4960_3
+              !\LEDs_Out_1:Net_213_3\ * Net_5097_3
+            + !\LEDs_Out_1:Net_213_5\ * !\LEDs_Out_1:Net_213_4\ * Net_5097_4
+            + !\LEDs_Out_1:Net_213_5\ * !\LEDs_Out_1:Net_213_3\ * Net_5097_4 * 
+              Net_5097_3
+            + !\LEDs_Out_1:Net_213_5\ * Net_5097_5
+            + !\LEDs_Out_1:Net_213_4\ * !\LEDs_Out_1:Net_213_3\ * Net_5097_5 * 
+              Net_5097_3
+            + !\LEDs_Out_1:Net_213_4\ * Net_5097_5 * Net_5097_4
+            + !\LEDs_Out_1:Net_213_3\ * Net_5097_5 * Net_5097_4 * Net_5097_3
         );
         Output = \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:gt_5\ (fanout=2)
 
@@ -3826,15 +3809,15 @@ Design Equations
         Main Equation            : 7 pterms
         (
               !\LEDs_Out_1:Net_213_2\ * !\LEDs_Out_1:Net_213_1\ * 
-              !\LEDs_Out_1:Net_213_0\ * Net_4960_0
-            + !\LEDs_Out_1:Net_213_2\ * !\LEDs_Out_1:Net_213_1\ * Net_4960_1
-            + !\LEDs_Out_1:Net_213_2\ * !\LEDs_Out_1:Net_213_0\ * Net_4960_1 * 
-              Net_4960_0
-            + !\LEDs_Out_1:Net_213_2\ * Net_4960_2
-            + !\LEDs_Out_1:Net_213_1\ * !\LEDs_Out_1:Net_213_0\ * Net_4960_2 * 
-              Net_4960_0
-            + !\LEDs_Out_1:Net_213_1\ * Net_4960_2 * Net_4960_1
-            + !\LEDs_Out_1:Net_213_0\ * Net_4960_2 * Net_4960_1 * Net_4960_0
+              !\LEDs_Out_1:Net_213_0\ * Net_5097_0
+            + !\LEDs_Out_1:Net_213_2\ * !\LEDs_Out_1:Net_213_1\ * Net_5097_1
+            + !\LEDs_Out_1:Net_213_2\ * !\LEDs_Out_1:Net_213_0\ * Net_5097_1 * 
+              Net_5097_0
+            + !\LEDs_Out_1:Net_213_2\ * Net_5097_2
+            + !\LEDs_Out_1:Net_213_1\ * !\LEDs_Out_1:Net_213_0\ * Net_5097_2 * 
+              Net_5097_0
+            + !\LEDs_Out_1:Net_213_1\ * Net_5097_2 * Net_5097_1
+            + !\LEDs_Out_1:Net_213_0\ * Net_5097_2 * Net_5097_1 * Net_5097_0
         );
         Output = \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:gt_2\ (fanout=1)
 
@@ -4011,7 +3994,7 @@ Design Equations
               !Net_2703 * !\LEDs_Out_1:MODULE_5:g1:a0:gx:u0:lt_7\ * 
               !\LEDs_Out_1:MODULE_5:g1:a0:gx:u0:lt_5\ * 
               \LEDs_Out_1:MODULE_5:g1:a0:gx:u0:gt_2\
-            + Net_2703 * !Net_4582_2 * Net_4582_1 * Net_4582_0 * Net_2234
+            + Net_2703 * !Net_4582_2 * Net_4582_1 * Net_4582_0 * Net_5051
             + Net_4582_2 * !\LEDs_Out_1:MODULE_5:g1:a0:gx:u0:lt_7\ * 
               !\LEDs_Out_1:MODULE_5:g1:a0:gx:u0:lt_5\ * 
               \LEDs_Out_1:MODULE_5:g1:a0:gx:u0:gt_2\
@@ -4038,7 +4021,7 @@ Design Equations
               !Net_2703 * !\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:lt_7\ * 
               !\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:lt_5\ * 
               \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:gt_2\
-            + Net_2703 * !Net_4582_2 * Net_4582_1 * !Net_4582_0 * Net_2234
+            + Net_2703 * !Net_4582_2 * Net_4582_1 * !Net_4582_0 * Net_5051
             + Net_4582_2 * !\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:lt_7\ * 
               !\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:lt_5\ * 
               \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:gt_2\
@@ -4065,7 +4048,7 @@ Design Equations
               !Net_2703 * !\LEDs_Out_1:MODULE_3:g1:a0:gx:u0:lt_7\ * 
               !\LEDs_Out_1:MODULE_3:g1:a0:gx:u0:lt_5\ * 
               \LEDs_Out_1:MODULE_3:g1:a0:gx:u0:gt_2\
-            + Net_2703 * !Net_4582_2 * !Net_4582_1 * Net_4582_0 * Net_2234
+            + Net_2703 * !Net_4582_2 * !Net_4582_1 * Net_4582_0 * Net_5051
             + Net_4582_2 * !\LEDs_Out_1:MODULE_3:g1:a0:gx:u0:lt_7\ * 
               !\LEDs_Out_1:MODULE_3:g1:a0:gx:u0:lt_5\ * 
               \LEDs_Out_1:MODULE_3:g1:a0:gx:u0:gt_2\
@@ -4466,14 +4449,14 @@ Design Equations
 
     controlcell: Name =\STORED_BRIGHTNESS_3:Sync:ctrl_reg\
         PORT MAP (
-            control_7 => Net_4958_7 ,
-            control_6 => Net_4958_6 ,
-            control_5 => Net_4958_5 ,
-            control_4 => Net_4958_4 ,
-            control_3 => Net_4958_3 ,
-            control_2 => Net_4958_2 ,
-            control_1 => Net_4958_1 ,
-            control_0 => Net_4958_0 );
+            control_7 => Net_5096_7 ,
+            control_6 => Net_5096_6 ,
+            control_5 => Net_5096_5 ,
+            control_4 => Net_5096_4 ,
+            control_3 => Net_5096_3 ,
+            control_2 => Net_5096_2 ,
+            control_1 => Net_5096_1 ,
+            control_0 => Net_5096_0 );
         Properties:
         {
             cy_ctrl_mode_0 = "00000000"
@@ -4506,14 +4489,14 @@ Design Equations
 
     controlcell: Name =\STORED_BRIGHTNESS_5:Sync:ctrl_reg\
         PORT MAP (
-            control_7 => Net_4960_7 ,
-            control_6 => Net_4960_6 ,
-            control_5 => Net_4960_5 ,
-            control_4 => Net_4960_4 ,
-            control_3 => Net_4960_3 ,
-            control_2 => Net_4960_2 ,
-            control_1 => Net_4960_1 ,
-            control_0 => Net_4960_0 );
+            control_7 => Net_5097_7 ,
+            control_6 => Net_5097_6 ,
+            control_5 => Net_5097_5 ,
+            control_4 => Net_5097_4 ,
+            control_3 => Net_5097_3 ,
+            control_2 => Net_5097_2 ,
+            control_1 => Net_5097_1 ,
+            control_0 => Net_5097_0 );
         Properties:
         {
             cy_ctrl_mode_0 = "00000000"
@@ -4723,11 +4706,11 @@ Analog (SC/CT) Blocks         :    0 :    4 :    4 :  0.00 %
 DAC                           :      :      :      :        
   VIDAC                       :    2 :    2 :    4 : 50.00 %
 </CYPRESSTAG>
-Technology Mapping: Elapsed time ==> 0s.093ms
+Technology Mapping: Elapsed time ==> 0s.077ms
 ADD: mpr.M0037: information: Unused pieces of the design have been optimized out. See the Tech mapping section of the report file for details.
  * \\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\codegentemp\MIDI_EXAMPLE.rpt (Tech mapping)
 
-Tech mapping phase: Elapsed time ==> 0s.156ms
+Tech mapping phase: Elapsed time ==> 0s.149ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Placement">
 Initial Analog Placement Results:
@@ -4768,7 +4751,7 @@ Comparator[0]@[FFB(Comparator,0)] : \RAMP_COMP:ctComp\
 VIDAC[0]@[FFB(VIDAC,0)] : \TRIANGLE_SEL:VDAC8:viDAC8\
 USB[0]@[FFB(USB,0)] : \USB:USB\
 
-Analog Placement phase: Elapsed time ==> 0s.535ms
+Analog Placement phase: Elapsed time ==> 0s.533ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Routing">
 Analog Routing phase: Elapsed time ==> 0s.000ms
@@ -4814,11 +4797,11 @@ Dump of CyP35AnalogRoutingResultsDB
 IsVddaHalfUsedForComp = False
 IsVddaHalfUsedForSar0 = False
 IsVddaHalfUsedForSar1 = False
-Analog Code Generation phase: Elapsed time ==> 0s.360ms
+Analog Code Generation phase: Elapsed time ==> 0s.346ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Digital Placement">
 <CYPRESSTAG name="Detailed placement messages">
-I2076: Total run-time: 2.7 sec.
+I2076: Total run-time: 2.5 sec.
 
 </CYPRESSTAG>
 <CYPRESSTAG name="PLD Packing">
@@ -4849,7 +4832,7 @@ PLD Packing: Elapsed time ==> 0s.000ms
 Initial Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
 <CYPRESSTAG name="Final Partitioning Summary">
 Final Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
-Partitioning: Elapsed time ==> 0s.083ms
+Partitioning: Elapsed time ==> 0s.078ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Simulated Annealing">
 Annealing: Elapsed time ==> 0s.000ms
@@ -4898,9 +4881,9 @@ LAB@[UDB=(0,0)][LB=0] #macrocells=2, #inputs=11, #pterms=5
             Clock Enable: True
         Main Equation            : 3 pterms
         (
-              \LEDs_Out_1:Net_213_7\ * \LEDs_Out_1:Net_213_6\ * !Net_4960_6
-            + \LEDs_Out_1:Net_213_7\ * !Net_4960_7
-            + \LEDs_Out_1:Net_213_6\ * !Net_4960_7 * !Net_4960_6
+              \LEDs_Out_1:Net_213_7\ * \LEDs_Out_1:Net_213_6\ * !Net_5097_6
+            + \LEDs_Out_1:Net_213_7\ * !Net_5097_7
+            + \LEDs_Out_1:Net_213_6\ * !Net_5097_7 * !Net_5097_6
         );
         Output = \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:lt_7\ (fanout=2)
         Properties               : 
@@ -4920,15 +4903,15 @@ LAB@[UDB=(0,0)][LB=1] #macrocells=1, #inputs=6, #pterms=7
         Main Equation            : 7 pterms
         (
               !\LEDs_Out_1:Net_213_5\ * !\LEDs_Out_1:Net_213_4\ * 
-              !\LEDs_Out_1:Net_213_3\ * Net_4958_3
-            + !\LEDs_Out_1:Net_213_5\ * !\LEDs_Out_1:Net_213_4\ * Net_4958_4
-            + !\LEDs_Out_1:Net_213_5\ * !\LEDs_Out_1:Net_213_3\ * Net_4958_4 * 
-              Net_4958_3
-            + !\LEDs_Out_1:Net_213_5\ * Net_4958_5
-            + !\LEDs_Out_1:Net_213_4\ * !\LEDs_Out_1:Net_213_3\ * Net_4958_5 * 
-              Net_4958_3
-            + !\LEDs_Out_1:Net_213_4\ * Net_4958_5 * Net_4958_4
-            + !\LEDs_Out_1:Net_213_3\ * Net_4958_5 * Net_4958_4 * Net_4958_3
+              !\LEDs_Out_1:Net_213_3\ * Net_5096_3
+            + !\LEDs_Out_1:Net_213_5\ * !\LEDs_Out_1:Net_213_4\ * Net_5096_4
+            + !\LEDs_Out_1:Net_213_5\ * !\LEDs_Out_1:Net_213_3\ * Net_5096_4 * 
+              Net_5096_3
+            + !\LEDs_Out_1:Net_213_5\ * Net_5096_5
+            + !\LEDs_Out_1:Net_213_4\ * !\LEDs_Out_1:Net_213_3\ * Net_5096_5 * 
+              Net_5096_3
+            + !\LEDs_Out_1:Net_213_4\ * Net_5096_5 * Net_5096_4
+            + !\LEDs_Out_1:Net_213_3\ * Net_5096_5 * Net_5096_4 * Net_5096_3
         );
         Output = \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:gt_5\ (fanout=2)
         Properties               : 
@@ -4953,16 +4936,16 @@ LAB@[UDB=(0,1)][LB=0] #macrocells=1, #inputs=6, #pterms=7
         Main Equation            : 7 pterms
         (
               \LEDs_Out_1:Net_213_5\ * \LEDs_Out_1:Net_213_4\ * 
-              \LEDs_Out_1:Net_213_3\ * !Net_4958_3
-            + \LEDs_Out_1:Net_213_5\ * \LEDs_Out_1:Net_213_4\ * !Net_4958_4
-            + \LEDs_Out_1:Net_213_5\ * \LEDs_Out_1:Net_213_3\ * !Net_4958_4 * 
-              !Net_4958_3
-            + \LEDs_Out_1:Net_213_5\ * !Net_4958_5
-            + \LEDs_Out_1:Net_213_4\ * \LEDs_Out_1:Net_213_3\ * !Net_4958_5 * 
-              !Net_4958_3
-            + \LEDs_Out_1:Net_213_4\ * !Net_4958_5 * !Net_4958_4
-            + \LEDs_Out_1:Net_213_3\ * !Net_4958_5 * !Net_4958_4 * 
-              !Net_4958_3
+              \LEDs_Out_1:Net_213_3\ * !Net_5096_3
+            + \LEDs_Out_1:Net_213_5\ * \LEDs_Out_1:Net_213_4\ * !Net_5096_4
+            + \LEDs_Out_1:Net_213_5\ * \LEDs_Out_1:Net_213_3\ * !Net_5096_4 * 
+              !Net_5096_3
+            + \LEDs_Out_1:Net_213_5\ * !Net_5096_5
+            + \LEDs_Out_1:Net_213_4\ * \LEDs_Out_1:Net_213_3\ * !Net_5096_5 * 
+              !Net_5096_3
+            + \LEDs_Out_1:Net_213_4\ * !Net_5096_5 * !Net_5096_4
+            + \LEDs_Out_1:Net_213_3\ * !Net_5096_5 * !Net_5096_4 * 
+              !Net_5096_3
         );
         Output = \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:lt_5\ (fanout=1)
         Properties               : 
@@ -5023,7 +5006,7 @@ LAB@[UDB=(0,2)][LB=0] #macrocells=1, #inputs=10, #pterms=8
               !Net_2703 * !\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:lt_7\ * 
               !\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:lt_5\ * 
               \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:gt_2\
-            + Net_2703 * Net_4582_2 * !Net_4582_1 * !Net_4582_0 * Net_2234
+            + Net_2703 * Net_4582_2 * !Net_4582_1 * !Net_4582_0 * Net_5051
             + !Net_4582_2 * !\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:lt_7\ * 
               !\LEDs_Out_1:MODULE_6:g1:a0:gx:u0:lt_5\ * 
               \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:gt_2\
@@ -5076,9 +5059,9 @@ LAB@[UDB=(0,2)][LB=1] #macrocells=2, #inputs=11, #pterms=7
             Clock Enable: True
         Main Equation            : 3 pterms
         (
-              !\LEDs_Out_1:Net_213_7\ * !\LEDs_Out_1:Net_213_6\ * Net_4960_6
-            + !\LEDs_Out_1:Net_213_7\ * Net_4960_7
-            + !\LEDs_Out_1:Net_213_6\ * Net_4960_7 * Net_4960_6
+              !\LEDs_Out_1:Net_213_7\ * !\LEDs_Out_1:Net_213_6\ * Net_5097_6
+            + !\LEDs_Out_1:Net_213_7\ * Net_5097_7
+            + !\LEDs_Out_1:Net_213_6\ * Net_5097_7 * Net_5097_6
         );
         Output = \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:gt_7\ (fanout=2)
         Properties               : 
@@ -5099,15 +5082,15 @@ LAB@[UDB=(0,3)][LB=0] #macrocells=1, #inputs=6, #pterms=7
         Main Equation            : 7 pterms
         (
               !\LEDs_Out_1:Net_213_2\ * !\LEDs_Out_1:Net_213_1\ * 
-              !\LEDs_Out_1:Net_213_0\ * Net_4960_0
-            + !\LEDs_Out_1:Net_213_2\ * !\LEDs_Out_1:Net_213_1\ * Net_4960_1
-            + !\LEDs_Out_1:Net_213_2\ * !\LEDs_Out_1:Net_213_0\ * Net_4960_1 * 
-              Net_4960_0
-            + !\LEDs_Out_1:Net_213_2\ * Net_4960_2
-            + !\LEDs_Out_1:Net_213_1\ * !\LEDs_Out_1:Net_213_0\ * Net_4960_2 * 
-              Net_4960_0
-            + !\LEDs_Out_1:Net_213_1\ * Net_4960_2 * Net_4960_1
-            + !\LEDs_Out_1:Net_213_0\ * Net_4960_2 * Net_4960_1 * Net_4960_0
+              !\LEDs_Out_1:Net_213_0\ * Net_5097_0
+            + !\LEDs_Out_1:Net_213_2\ * !\LEDs_Out_1:Net_213_1\ * Net_5097_1
+            + !\LEDs_Out_1:Net_213_2\ * !\LEDs_Out_1:Net_213_0\ * Net_5097_1 * 
+              Net_5097_0
+            + !\LEDs_Out_1:Net_213_2\ * Net_5097_2
+            + !\LEDs_Out_1:Net_213_1\ * !\LEDs_Out_1:Net_213_0\ * Net_5097_2 * 
+              Net_5097_0
+            + !\LEDs_Out_1:Net_213_1\ * Net_5097_2 * Net_5097_1
+            + !\LEDs_Out_1:Net_213_0\ * Net_5097_2 * Net_5097_1 * Net_5097_0
         );
         Output = \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:gt_2\ (fanout=1)
         Properties               : 
@@ -5128,16 +5111,16 @@ LAB@[UDB=(0,3)][LB=1] #macrocells=1, #inputs=6, #pterms=7
         Main Equation            : 7 pterms
         (
               \LEDs_Out_1:Net_213_5\ * \LEDs_Out_1:Net_213_4\ * 
-              \LEDs_Out_1:Net_213_3\ * !Net_4960_3
-            + \LEDs_Out_1:Net_213_5\ * \LEDs_Out_1:Net_213_4\ * !Net_4960_4
-            + \LEDs_Out_1:Net_213_5\ * \LEDs_Out_1:Net_213_3\ * !Net_4960_4 * 
-              !Net_4960_3
-            + \LEDs_Out_1:Net_213_5\ * !Net_4960_5
-            + \LEDs_Out_1:Net_213_4\ * \LEDs_Out_1:Net_213_3\ * !Net_4960_5 * 
-              !Net_4960_3
-            + \LEDs_Out_1:Net_213_4\ * !Net_4960_5 * !Net_4960_4
-            + \LEDs_Out_1:Net_213_3\ * !Net_4960_5 * !Net_4960_4 * 
-              !Net_4960_3
+              \LEDs_Out_1:Net_213_3\ * !Net_5097_3
+            + \LEDs_Out_1:Net_213_5\ * \LEDs_Out_1:Net_213_4\ * !Net_5097_4
+            + \LEDs_Out_1:Net_213_5\ * \LEDs_Out_1:Net_213_3\ * !Net_5097_4 * 
+              !Net_5097_3
+            + \LEDs_Out_1:Net_213_5\ * !Net_5097_5
+            + \LEDs_Out_1:Net_213_4\ * \LEDs_Out_1:Net_213_3\ * !Net_5097_5 * 
+              !Net_5097_3
+            + \LEDs_Out_1:Net_213_4\ * !Net_5097_5 * !Net_5097_4
+            + \LEDs_Out_1:Net_213_3\ * !Net_5097_5 * !Net_5097_4 * 
+              !Net_5097_3
         );
         Output = \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:lt_5\ (fanout=1)
         Properties               : 
@@ -5151,14 +5134,14 @@ LAB@[UDB=(0,3)][LB=1] #macrocells=1, #inputs=6, #pterms=7
 
 controlcell: Name =\STORED_BRIGHTNESS_5:Sync:ctrl_reg\
     PORT MAP (
-        control_7 => Net_4960_7 ,
-        control_6 => Net_4960_6 ,
-        control_5 => Net_4960_5 ,
-        control_4 => Net_4960_4 ,
-        control_3 => Net_4960_3 ,
-        control_2 => Net_4960_2 ,
-        control_1 => Net_4960_1 ,
-        control_0 => Net_4960_0 );
+        control_7 => Net_5097_7 ,
+        control_6 => Net_5097_6 ,
+        control_5 => Net_5097_5 ,
+        control_4 => Net_5097_4 ,
+        control_3 => Net_5097_3 ,
+        control_2 => Net_5097_2 ,
+        control_1 => Net_5097_1 ,
+        control_0 => Net_5097_0 );
     Properties:
     {
         cy_ctrl_mode_0 = "00000000"
@@ -5313,15 +5296,15 @@ LAB@[UDB=(1,1)][LB=0] #macrocells=1, #inputs=6, #pterms=7
         Main Equation            : 7 pterms
         (
               !\LEDs_Out_1:Net_213_2\ * !\LEDs_Out_1:Net_213_1\ * 
-              !\LEDs_Out_1:Net_213_0\ * Net_4958_0
-            + !\LEDs_Out_1:Net_213_2\ * !\LEDs_Out_1:Net_213_1\ * Net_4958_1
-            + !\LEDs_Out_1:Net_213_2\ * !\LEDs_Out_1:Net_213_0\ * Net_4958_1 * 
-              Net_4958_0
-            + !\LEDs_Out_1:Net_213_2\ * Net_4958_2
-            + !\LEDs_Out_1:Net_213_1\ * !\LEDs_Out_1:Net_213_0\ * Net_4958_2 * 
-              Net_4958_0
-            + !\LEDs_Out_1:Net_213_1\ * Net_4958_2 * Net_4958_1
-            + !\LEDs_Out_1:Net_213_0\ * Net_4958_2 * Net_4958_1 * Net_4958_0
+              !\LEDs_Out_1:Net_213_0\ * Net_5096_0
+            + !\LEDs_Out_1:Net_213_2\ * !\LEDs_Out_1:Net_213_1\ * Net_5096_1
+            + !\LEDs_Out_1:Net_213_2\ * !\LEDs_Out_1:Net_213_0\ * Net_5096_1 * 
+              Net_5096_0
+            + !\LEDs_Out_1:Net_213_2\ * Net_5096_2
+            + !\LEDs_Out_1:Net_213_1\ * !\LEDs_Out_1:Net_213_0\ * Net_5096_2 * 
+              Net_5096_0
+            + !\LEDs_Out_1:Net_213_1\ * Net_5096_2 * Net_5096_1
+            + !\LEDs_Out_1:Net_213_0\ * Net_5096_2 * Net_5096_1 * Net_5096_0
         );
         Output = \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:gt_2\ (fanout=1)
         Properties               : 
@@ -5341,9 +5324,9 @@ LAB@[UDB=(1,1)][LB=1] #macrocells=3, #inputs=11, #pterms=7
             Clock Enable: True
         Main Equation            : 3 pterms
         (
-              \LEDs_Out_1:Net_213_7\ * \LEDs_Out_1:Net_213_6\ * !Net_4958_6
-            + \LEDs_Out_1:Net_213_7\ * !Net_4958_7
-            + \LEDs_Out_1:Net_213_6\ * !Net_4958_7 * !Net_4958_6
+              \LEDs_Out_1:Net_213_7\ * \LEDs_Out_1:Net_213_6\ * !Net_5096_6
+            + \LEDs_Out_1:Net_213_7\ * !Net_5096_7
+            + \LEDs_Out_1:Net_213_6\ * !Net_5096_7 * !Net_5096_6
         );
         Output = \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:lt_7\ (fanout=2)
         Properties               : 
@@ -5388,14 +5371,14 @@ LAB@[UDB=(1,1)][LB=1] #macrocells=3, #inputs=11, #pterms=7
 
 controlcell: Name =\STORED_BRIGHTNESS_3:Sync:ctrl_reg\
     PORT MAP (
-        control_7 => Net_4958_7 ,
-        control_6 => Net_4958_6 ,
-        control_5 => Net_4958_5 ,
-        control_4 => Net_4958_4 ,
-        control_3 => Net_4958_3 ,
-        control_2 => Net_4958_2 ,
-        control_1 => Net_4958_1 ,
-        control_0 => Net_4958_0 );
+        control_7 => Net_5096_7 ,
+        control_6 => Net_5096_6 ,
+        control_5 => Net_5096_5 ,
+        control_4 => Net_5096_4 ,
+        control_3 => Net_5096_3 ,
+        control_2 => Net_5096_2 ,
+        control_1 => Net_5096_1 ,
+        control_0 => Net_5096_0 );
     Properties:
     {
         cy_ctrl_mode_0 = "00000000"
@@ -5418,7 +5401,7 @@ LAB@[UDB=(1,2)][LB=0] #macrocells=1, #inputs=10, #pterms=8
               !Net_2703 * !\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:lt_7\ * 
               !\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:lt_5\ * 
               \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:gt_2\
-            + Net_2703 * !Net_4582_2 * Net_4582_1 * !Net_4582_0 * Net_2234
+            + Net_2703 * !Net_4582_2 * Net_4582_1 * !Net_4582_0 * Net_5051
             + Net_4582_2 * !\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:lt_7\ * 
               !\LEDs_Out_1:MODULE_4:g1:a0:gx:u0:lt_5\ * 
               \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:gt_2\
@@ -5452,9 +5435,9 @@ LAB@[UDB=(1,2)][LB=1] #macrocells=2, #inputs=12, #pterms=5
             Clock Enable: True
         Main Equation            : 3 pterms
         (
-              !\LEDs_Out_1:Net_213_7\ * !\LEDs_Out_1:Net_213_6\ * Net_4958_6
-            + !\LEDs_Out_1:Net_213_7\ * Net_4958_7
-            + !\LEDs_Out_1:Net_213_6\ * Net_4958_7 * Net_4958_6
+              !\LEDs_Out_1:Net_213_7\ * !\LEDs_Out_1:Net_213_6\ * Net_5096_6
+            + !\LEDs_Out_1:Net_213_7\ * Net_5096_7
+            + !\LEDs_Out_1:Net_213_6\ * Net_5096_7 * Net_5096_6
         );
         Output = \LEDs_Out_1:MODULE_4:g1:a0:gx:u0:gt_7\ (fanout=2)
         Properties               : 
@@ -5528,15 +5511,15 @@ LAB@[UDB=(1,3)][LB=1] #macrocells=1, #inputs=6, #pterms=7
         Main Equation            : 7 pterms
         (
               !\LEDs_Out_1:Net_213_5\ * !\LEDs_Out_1:Net_213_4\ * 
-              !\LEDs_Out_1:Net_213_3\ * Net_4960_3
-            + !\LEDs_Out_1:Net_213_5\ * !\LEDs_Out_1:Net_213_4\ * Net_4960_4
-            + !\LEDs_Out_1:Net_213_5\ * !\LEDs_Out_1:Net_213_3\ * Net_4960_4 * 
-              Net_4960_3
-            + !\LEDs_Out_1:Net_213_5\ * Net_4960_5
-            + !\LEDs_Out_1:Net_213_4\ * !\LEDs_Out_1:Net_213_3\ * Net_4960_5 * 
-              Net_4960_3
-            + !\LEDs_Out_1:Net_213_4\ * Net_4960_5 * Net_4960_4
-            + !\LEDs_Out_1:Net_213_3\ * Net_4960_5 * Net_4960_4 * Net_4960_3
+              !\LEDs_Out_1:Net_213_3\ * Net_5097_3
+            + !\LEDs_Out_1:Net_213_5\ * !\LEDs_Out_1:Net_213_4\ * Net_5097_4
+            + !\LEDs_Out_1:Net_213_5\ * !\LEDs_Out_1:Net_213_3\ * Net_5097_4 * 
+              Net_5097_3
+            + !\LEDs_Out_1:Net_213_5\ * Net_5097_5
+            + !\LEDs_Out_1:Net_213_4\ * !\LEDs_Out_1:Net_213_3\ * Net_5097_5 * 
+              Net_5097_3
+            + !\LEDs_Out_1:Net_213_4\ * Net_5097_5 * Net_5097_4
+            + !\LEDs_Out_1:Net_213_3\ * Net_5097_5 * Net_5097_4 * Net_5097_3
         );
         Output = \LEDs_Out_1:MODULE_6:g1:a0:gx:u0:gt_5\ (fanout=2)
         Properties               : 
@@ -5617,7 +5600,7 @@ LAB@[UDB=(1,4)][LB=1] #macrocells=1, #inputs=10, #pterms=8
               !Net_2703 * !\LEDs_Out_1:MODULE_8:g1:a0:gx:u0:lt_7\ * 
               !\LEDs_Out_1:MODULE_8:g1:a0:gx:u0:lt_5\ * 
               \LEDs_Out_1:MODULE_8:g1:a0:gx:u0:gt_2\
-            + Net_2703 * Net_4582_2 * Net_4582_1 * !Net_4582_0 * Net_2234
+            + Net_2703 * Net_4582_2 * Net_4582_1 * !Net_4582_0 * Net_5051
             + !Net_4582_2 * !\LEDs_Out_1:MODULE_8:g1:a0:gx:u0:lt_7\ * 
               !\LEDs_Out_1:MODULE_8:g1:a0:gx:u0:lt_5\ * 
               \LEDs_Out_1:MODULE_8:g1:a0:gx:u0:gt_2\
@@ -5873,7 +5856,7 @@ LAB@[UDB=(2,2)][LB=0] #macrocells=1, #inputs=10, #pterms=8
               !Net_2703 * !\LEDs_Out_1:MODULE_5:g1:a0:gx:u0:lt_7\ * 
               !\LEDs_Out_1:MODULE_5:g1:a0:gx:u0:lt_5\ * 
               \LEDs_Out_1:MODULE_5:g1:a0:gx:u0:gt_2\
-            + Net_2703 * !Net_4582_2 * Net_4582_1 * Net_4582_0 * Net_2234
+            + Net_2703 * !Net_4582_2 * Net_4582_1 * Net_4582_0 * Net_5051
             + Net_4582_2 * !\LEDs_Out_1:MODULE_5:g1:a0:gx:u0:lt_7\ * 
               !\LEDs_Out_1:MODULE_5:g1:a0:gx:u0:lt_5\ * 
               \LEDs_Out_1:MODULE_5:g1:a0:gx:u0:gt_2\
@@ -6009,7 +5992,7 @@ LAB@[UDB=(2,3)][LB=1] #macrocells=2, #inputs=10, #pterms=8
               !Net_2703 * !\LEDs_Out_1:MODULE_3:g1:a0:gx:u0:lt_7\ * 
               !\LEDs_Out_1:MODULE_3:g1:a0:gx:u0:lt_5\ * 
               \LEDs_Out_1:MODULE_3:g1:a0:gx:u0:gt_2\
-            + Net_2703 * !Net_4582_2 * !Net_4582_1 * Net_4582_0 * Net_2234
+            + Net_2703 * !Net_4582_2 * !Net_4582_1 * Net_4582_0 * Net_5051
             + Net_4582_2 * !\LEDs_Out_1:MODULE_3:g1:a0:gx:u0:lt_7\ * 
               !\LEDs_Out_1:MODULE_3:g1:a0:gx:u0:lt_5\ * 
               \LEDs_Out_1:MODULE_3:g1:a0:gx:u0:gt_2\
@@ -6413,7 +6396,7 @@ LAB@[UDB=(3,2)][LB=1] #macrocells=1, #inputs=10, #pterms=8
               !Net_2703 * !\LEDs_Out_1:MODULE_2:g1:a0:gx:u0:lt_7\ * 
               !\LEDs_Out_1:MODULE_2:g1:a0:gx:u0:lt_5\ * 
               \LEDs_Out_1:MODULE_2:g1:a0:gx:u0:gt_2\
-            + Net_2703 * !Net_4582_2 * !Net_4582_1 * !Net_4582_0 * Net_2234
+            + Net_2703 * !Net_4582_2 * !Net_4582_1 * !Net_4582_0 * Net_5051
             + Net_4582_2 * !\LEDs_Out_1:MODULE_2:g1:a0:gx:u0:lt_7\ * 
               !\LEDs_Out_1:MODULE_2:g1:a0:gx:u0:lt_5\ * 
               \LEDs_Out_1:MODULE_2:g1:a0:gx:u0:gt_2\
@@ -6649,7 +6632,7 @@ LAB@[UDB=(3,5)][LB=0] #macrocells=1, #inputs=10, #pterms=8
               !Net_2703 * !\LEDs_Out_1:MODULE_7:g1:a0:gx:u0:lt_7\ * 
               !\LEDs_Out_1:MODULE_7:g1:a0:gx:u0:lt_5\ * 
               \LEDs_Out_1:MODULE_7:g1:a0:gx:u0:gt_2\
-            + Net_2703 * Net_4582_2 * !Net_4582_1 * Net_4582_0 * Net_2234
+            + Net_2703 * Net_4582_2 * !Net_4582_1 * Net_4582_0 * Net_5051
             + !Net_4582_2 * !\LEDs_Out_1:MODULE_7:g1:a0:gx:u0:lt_7\ * 
               !\LEDs_Out_1:MODULE_7:g1:a0:gx:u0:lt_5\ * 
               \LEDs_Out_1:MODULE_7:g1:a0:gx:u0:gt_2\
@@ -7430,7 +7413,7 @@ Comparator group 0:
         PORT MAP (
             vplus => Net_1976 ,
             vminus => Net_1978 ,
-            out => Net_2234 );
+            out => Net_5051 );
         Properties:
         {
             cy_registers = ""
@@ -7542,23 +7525,22 @@ Port | Pin | Fixed |      Type |       Drive Mode |        Name | Connections
 </CYPRESSTAG>
 </CYPRESSTAG>
 </CYPRESSTAG>
-Digital component placer commit/Report: Elapsed time ==> 0s.011ms
-Digital Placement phase: Elapsed time ==> 3s.071ms
+Digital component placer commit/Report: Elapsed time ==> 0s.000ms
+Digital Placement phase: Elapsed time ==> 2s.820ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Digital Routing">
 Routing successful.
-Digital Routing phase: Elapsed time ==> 2s.969ms
+Digital Routing phase: Elapsed time ==> 3s.171ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Bitstream and API generation">
-Bitstream and API generation phase: Elapsed time ==> 0s.203ms
+Bitstream and API generation phase: Elapsed time ==> 0s.188ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Bitstream verification">
-Bitstream verification phase: Elapsed time ==> 0s.031ms
+Bitstream verification phase: Elapsed time ==> 0s.032ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Static timing analysis">
-Warning: sta.M0019: MIDI_EXAMPLE_timing.html: Warning-1366: Setup time violation found in a path from clock ( CyBUS_CLK ) to clock ( Clock_2 ). (File=\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\MIDI_EXAMPLE_timing.html)
 Timing report is in MIDI_EXAMPLE_timing.html.
-Static timing analysis phase: Elapsed time ==> 0s.423ms
+Static timing analysis phase: Elapsed time ==> 0s.437ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Data reporting">
 Data reporting phase: Elapsed time ==> 0s.000ms
@@ -7566,9 +7548,9 @@ Data reporting phase: Elapsed time ==> 0s.000ms
 <CYPRESSTAG name="Database update...">
 Design database save phase: Elapsed time ==> 0s.187ms
 </CYPRESSTAG>
-cydsfit: Elapsed time ==> 7s.984ms
+cydsfit: Elapsed time ==> 7s.921ms
 </CYPRESSTAG>
-Fitter phase: Elapsed time ==> 8s.032ms
-API generation phase: Elapsed time ==> 3s.154ms
-Dependency generation phase: Elapsed time ==> 0s.050ms
-Cleanup phase: Elapsed time ==> 0s.010ms
+Fitter phase: Elapsed time ==> 7s.952ms
+API generation phase: Elapsed time ==> 2s.636ms
+Dependency generation phase: Elapsed time ==> 0s.031ms
+Cleanup phase: Elapsed time ==> 0s.000ms
