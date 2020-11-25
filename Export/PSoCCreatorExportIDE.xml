@@ -229,6 +229,8 @@
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LEDs_Out_1_LED_Out_6.c</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LEDs_Out_1_LED_Out_7.h</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LEDs_Out_1_LED_Out_7.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\I2C_LCD_1.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\I2C_LCD_1.c</File>
         </Files>
       </Folder>
       <Folder BuildType="BUILD" Path="\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\LED_Out\API">
