@@ -40,6 +40,7 @@
 <dep name=".\Generated_Source\PSoC5\LED_7.h" />
 <dep name=".\Generated_Source\PSoC5\LED_7_aliases.h" />
 <dep name=".\Generated_Source\PSoC5\LED_8.h" />
+<dep name=".\Generated_Source\PSoC5\LED_8_VALUE.h" />
 <dep name=".\Generated_Source\PSoC5\LED_8_aliases.h" />
 <dep name=".\Generated_Source\PSoC5\LEDs_Out_1.h" />
 <dep name=".\Generated_Source\PSoC5\LEDs_Out_1_LED_Out_1.h" />
@@ -52,7 +53,6 @@
 <dep name=".\Generated_Source\PSoC5\MIDI1_UART.h" />
 <dep name=".\Generated_Source\PSoC5\MIDI2_UART.h" />
 <dep name=".\Generated_Source\PSoC5\MIDI_BIN_REG.h" />
-<dep name=".\Generated_Source\PSoC5\MIDI_NOTES_REG.h" />
 <dep name=".\Generated_Source\PSoC5\NOTE_ON_REG.h" />
 <dep name=".\Generated_Source\PSoC5\RAMP_COMP.h" />
 <dep name=".\Generated_Source\PSoC5\STORED_BRIGHTNESS_1.h" />
@@ -131,6 +131,7 @@
 <file name=".\Generated_Source\PSoC5\LED_7.h" />
 <file name=".\Generated_Source\PSoC5\LED_7_aliases.h" />
 <file name=".\Generated_Source\PSoC5\LED_8.h" />
+<file name=".\Generated_Source\PSoC5\LED_8_VALUE.h" />
 <file name=".\Generated_Source\PSoC5\LED_8_aliases.h" />
 <file name=".\Generated_Source\PSoC5\LEDs_Out_1.h" />
 <file name=".\Generated_Source\PSoC5\LEDs_Out_1_LED_Out_1.h" />
@@ -143,7 +144,6 @@
 <file name=".\Generated_Source\PSoC5\MIDI1_UART.h" />
 <file name=".\Generated_Source\PSoC5\MIDI2_UART.h" />
 <file name=".\Generated_Source\PSoC5\MIDI_BIN_REG.h" />
-<file name=".\Generated_Source\PSoC5\MIDI_NOTES_REG.h" />
 <file name=".\Generated_Source\PSoC5\NOTE_ON_REG.h" />
 <file name=".\Generated_Source\PSoC5\RAMP_COMP.h" />
 <file name=".\Generated_Source\PSoC5\STORED_BRIGHTNESS_1.h" />
@@ -462,6 +462,24 @@
 <dep name=".\Generated_Source\PSoC5\cytypes.h" />
 </file>
 <file name=".\Generated_Source\PSoC5\LED_8.c" />
+<file name=".\CortexM3\ARM_GCC_493\Debug\LED_8_VALUE.o">
+<dep name=".\Generated_Source\PSoC5\LED_8_VALUE.c" />
+<dep name=".\Generated_Source\PSoC5\LED_8_VALUE.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC5\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC5\LED_8_VALUE.c" />
+<file name=".\CortexM3\ARM_GCC_493\Debug\LED_8_VALUE_PM.o">
+<dep name=".\Generated_Source\PSoC5\LED_8_VALUE.h" />
+<dep name=".\Generated_Source\PSoC5\LED_8_VALUE_PM.c" />
+<dep name=".\Generated_Source\PSoC5\cydevice.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC5\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC5\LED_8_VALUE_PM.c" />
 <file name=".\CortexM3\ARM_GCC_493\Debug\MIDI_BIN_REG.o">
 <dep name=".\Generated_Source\PSoC5\MIDI_BIN_REG.c" />
 <dep name=".\Generated_Source\PSoC5\MIDI_BIN_REG.h" />
@@ -480,24 +498,6 @@
 <dep name=".\Generated_Source\PSoC5\cytypes.h" />
 </file>
 <file name=".\Generated_Source\PSoC5\MIDI_BIN_REG_PM.c" />
-<file name=".\CortexM3\ARM_GCC_493\Debug\MIDI_NOTES_REG.o">
-<dep name=".\Generated_Source\PSoC5\MIDI_NOTES_REG.c" />
-<dep name=".\Generated_Source\PSoC5\MIDI_NOTES_REG.h" />
-<dep name=".\Generated_Source\PSoC5\cydevice.h" />
-<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC5\cytypes.h" />
-</file>
-<file name=".\Generated_Source\PSoC5\MIDI_NOTES_REG.c" />
-<file name=".\CortexM3\ARM_GCC_493\Debug\MIDI_NOTES_REG_PM.o">
-<dep name=".\Generated_Source\PSoC5\MIDI_NOTES_REG.h" />
-<dep name=".\Generated_Source\PSoC5\MIDI_NOTES_REG_PM.c" />
-<dep name=".\Generated_Source\PSoC5\cydevice.h" />
-<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC5\cytypes.h" />
-</file>
-<file name=".\Generated_Source\PSoC5\MIDI_NOTES_REG_PM.c" />
 <file name=".\CortexM3\ARM_GCC_493\Debug\NOTE_ON_REG.o">
 <dep name=".\Generated_Source\PSoC5\NOTE_ON_REG.c" />
 <dep name=".\Generated_Source\PSoC5\NOTE_ON_REG.h" />
@@ -1222,6 +1222,25 @@
 <file name=".\Generated_Source\PSoC5\cydevicegnu.inc" />
 <file name=".\Generated_Source\PSoC5\cydevicegnu_trm.inc" />
 <file name=".\Generated_Source\PSoC5\cyfittergnu.inc" />
+<file name=".\Generated_Source\PSoC5\MIDI_NOTES_REG.h" />
+<file name=".\CortexM3\ARM_GCC_493\Debug\MIDI_NOTES_REG.o">
+<dep name=".\Generated_Source\PSoC5\MIDI_NOTES_REG.c" />
+<dep name=".\Generated_Source\PSoC5\MIDI_NOTES_REG.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC5\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC5\MIDI_NOTES_REG.c" />
+<file name=".\CortexM3\ARM_GCC_493\Debug\MIDI_NOTES_REG_PM.o">
+<dep name=".\Generated_Source\PSoC5\MIDI_NOTES_REG.h" />
+<dep name=".\Generated_Source\PSoC5\MIDI_NOTES_REG_PM.c" />
+<dep name=".\Generated_Source\PSoC5\cydevice.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC5\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC5\MIDI_NOTES_REG_PM.c" />
 <file name=".\CortexM3\ARM_GCC_493\Debug\LEDs_Out_1.o">
 <dep name=".\Generated_Source\PSoC5\LEDs_Out_1.c" />
 <dep name=".\Generated_Source\PSoC5\LEDs_Out_1.h" />
@@ -2387,8 +2406,6 @@
 <dep name=".\CortexM3\ARM_GCC_493\Debug\LED_5.o" />
 <dep name=".\CortexM3\ARM_GCC_493\Debug\LED_7.o" />
 <dep name=".\CortexM3\ARM_GCC_493\Debug\LED_8.o" />
-<dep name=".\CortexM3\ARM_GCC_493\Debug\MIDI_NOTES_REG.o" />
-<dep name=".\CortexM3\ARM_GCC_493\Debug\MIDI_NOTES_REG_PM.o" />
 <dep name=".\CortexM3\ARM_GCC_493\Debug\MIDI_BIN_REG.o" />
 <dep name=".\CortexM3\ARM_GCC_493\Debug\MIDI_BIN_REG_PM.o" />
 <dep name=".\CortexM3\ARM_GCC_493\Debug\Clock_2.o" />
@@ -2433,6 +2450,8 @@
 <dep name=".\CortexM3\ARM_GCC_493\Debug\LEDs_Out_1_LED_Out_5.o" />
 <dep name=".\CortexM3\ARM_GCC_493\Debug\LEDs_Out_1_LED_Out_6.o" />
 <dep name=".\CortexM3\ARM_GCC_493\Debug\LEDs_Out_1_LED_Out_7.o" />
+<dep name=".\CortexM3\ARM_GCC_493\Debug\LED_8_VALUE.o" />
+<dep name=".\CortexM3\ARM_GCC_493\Debug\LED_8_VALUE_PM.o" />
 <dep name=".\CortexM3\ARM_GCC_493\Debug\MIDI_EXAMPLE.a" />
 <dep name="${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_493\Debug\CyComponentLibrary.a" />
 </file>
@@ -2614,6 +2633,9 @@
 <name_val_pair name=".\Generated_Source\PSoC5\LEDs_Out_1_LED_Out_5.c" v="-mcpu=cortex-m3 -mthumb -Wno-main -I. -IGenerated_Source\PSoC5 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -Wall -ffunction-sections -O0 -ffat-lto-objects" />
 <name_val_pair name=".\Generated_Source\PSoC5\LEDs_Out_1_LED_Out_6.c" v="-mcpu=cortex-m3 -mthumb -Wno-main -I. -IGenerated_Source\PSoC5 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -Wall -ffunction-sections -O0 -ffat-lto-objects" />
 <name_val_pair name=".\Generated_Source\PSoC5\LEDs_Out_1_LED_Out_7.c" v="-mcpu=cortex-m3 -mthumb -Wno-main -I. -IGenerated_Source\PSoC5 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -Wall -ffunction-sections -O0 -ffat-lto-objects" />
+<name_val_pair name=".\Generated_Source\PSoC5\DISPLAY_SCREEN.c" v="-mcpu=cortex-m3 -mthumb -Wno-main -I. -IGenerated_Source\PSoC5 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -Wall -ffunction-sections -O0 -ffat-lto-objects" />
+<name_val_pair name=".\Generated_Source\PSoC5\LED_8_VALUE.c" v="-mcpu=cortex-m3 -mthumb -Wno-main -I. -IGenerated_Source\PSoC5 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -Wall -ffunction-sections -O0 -ffat-lto-objects" />
+<name_val_pair name=".\Generated_Source\PSoC5\LED_8_VALUE_PM.c" v="-mcpu=cortex-m3 -mthumb -Wno-main -I. -IGenerated_Source\PSoC5 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -Wall -ffunction-sections -O0 -ffat-lto-objects" />
 </name>
 </genericCmdLineData>
 <codeGenCmdLineTag v="-.appdatapath &quot;C:\Users\georgiashay\AppData\Local\Cypress Semiconductor\PSoC Creator\3.3&quot; -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -p &quot;\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\MIDI_EXAMPLE.cyprj&quot; -d CY8C5888LTI-LP097 -s &quot;\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\Generated_Source\PSoC5&quot; -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE" />
@@ -2632,7 +2654,7 @@
 <v>Off-Chip</v>
 </tree_states_tab_names>
 <tree_states>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Cypress Component Catalog\Digital\Registers\Control Register [v1.80]">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Cypress Component Catalog\Digital\Logic\Logic High '1' [v1.0]">
 <ExpandedNodeIds>
 <v>Cypress Component Catalog</v>
 <v>Cypress Component Catalog\Analog\DAC</v>
@@ -2640,20 +2662,8 @@
 <v>Cypress Component Catalog\Digital\Functions</v>
 <v>Cypress Component Catalog\Digital\Logic</v>
 <v>Cypress Component Catalog\Digital\Registers</v>
-<v>Cypress Component Catalog\Digital\Utility</v>
-<v>Cypress Component Catalog\Ports and Pins</v>
-<v>Cypress Component Catalog\System</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
-<v>Cypress Component Catalog</v>
-<v>Cypress Component Catalog\Analog</v>
-<v>Cypress Component Catalog\CapSense</v>
-<v>Cypress Component Catalog\Communications</v>
-<v>Cypress Component Catalog\Digital</v>
-<v>Cypress Component Catalog\Digital\Functions</v>
-<v>Cypress Component Catalog\Digital\Functions\Counter [v3.0]</v>
-<v>Cypress Component Catalog\Digital\Functions\CRC [v2.40]</v>
-<v>Cypress Component Catalog\Digital\Functions\PrISM [v2.20]</v>
 <v>Cypress Component Catalog\Digital\Functions\PRS [v2.40]</v>
 <v>Cypress Component Catalog\Digital\Functions\PWM [v3.30]</v>
 <v>Cypress Component Catalog\Digital\Functions\Quadrature Decoder [v3.0]</v>
@@ -2680,6 +2690,15 @@
 <v>Cypress Component Catalog\Digital\Logic\Xnor [v1.0]</v>
 <v>Cypress Component Catalog\Digital\Logic\Xor [v1.0]</v>
 <v>Cypress Component Catalog\Digital\Registers</v>
+<v>Cypress Component Catalog\Digital\Registers\Control Register [v1.80]</v>
+<v>Cypress Component Catalog\Digital\Registers\Status Register [v1.90]</v>
+<v>Cypress Component Catalog\Digital\Utility</v>
+<v>Cypress Component Catalog\Display</v>
+<v>Cypress Component Catalog\Filters</v>
+<v>Cypress Component Catalog\Ports and Pins</v>
+<v>Cypress Component Catalog\Power Supervision</v>
+<v>Cypress Component Catalog\System</v>
+<v>Cypress Component Catalog\Thermal Management</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Default Component Catalog\Components\LEDs_Out [v0.0]">
@@ -3290,22 +3309,6 @@
 <v>${CyRoot}\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\Gnd_v1_0\Gnd_v1_0.pdf</v>
 <v>${CyRoot}\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\SwitchSPST_v1_0\SwitchSPST_v1_0.cysym</v>
 <v>${CyRoot}\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\SwitchSPST_v1_0\SwitchSPST_v1_0.pdf</v>
-<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_80\CyControlReg_v1_80.cysym</v>
-<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_80\CyControlReg_v1_80.v</v>
-<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_80\CyControlReg_v1_80.cycdx</v>
-<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_80\CyControlReg_v1_80.cydmacap</v>
-<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_80\CyControlReg_v1_80.pdf</v>
-<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_80\CyControlReg_v1_80.cystate</v>
-<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_80\API\CyControlReg.h</v>
-<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_80\API\CyControlReg.c</v>
-<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_80\API\CyControlReg_PM.c</v>
-<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_80\Custom\ControlRegParameters.cs</v>
-<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_80\Custom\custom.cs</v>
-<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_80\Custom\cybitfieldcontrol.cs</v>
-<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_80\Custom\cybitfieldcontrol.designer.cs</v>
-<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_80\Custom\Resources.Designer.cs</v>
-<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_80\Custom\cybitfieldcontrol.resx</v>
-<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_80\Custom\Resources.resx</v>
 <v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_80\CyControlReg_v1_80.cysym</v>
 <v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_80\CyControlReg_v1_80.v</v>
 <v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_80\CyControlReg_v1_80.cycdx</v>
@@ -4137,34 +4140,22 @@
 <v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_80\Custom\Resources.Designer.cs</v>
 <v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_80\Custom\cybitfieldcontrol.resx</v>
 <v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_80\Custom\Resources.resx</v>
-<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_constant_v1_0\cy_constant_v1_0.cysym</v>
-<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_constant_v1_0\cy_constant_v1_0.v</v>
-<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_constant_v1_0\cy_constant_v1_0.cystate</v>
-<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_constant_v1_0\cy_constant_v1_0.pdf</v>
-<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_constant_v1_0</v>
-<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_constant_v1_0\Custom\custom.cs</v>
-<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\I2C_LCD_v1_20\I2C_LCD_v1_20.cysym</v>
-<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\I2C_LCD_v1_20\I2C_LCD_v1_20.cystate</v>
-<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\I2C_LCD_v1_20\I2C_LCD_v1_20.pdf</v>
-<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\I2C_LCD_v1_20\API\I2C_LCD.h</v>
-<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\I2C_LCD_v1_20\API\I2C_LCD.c</v>
-<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\I2C_LCD_v1_20\Custom\Controls\customcharacter.cs</v>
-<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\I2C_LCD_v1_20\Custom\Controls\customcharacter.designer.cs</v>
-<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\I2C_LCD_v1_20\Custom\apicustomizer.cs</v>
-<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\I2C_LCD_v1_20\Custom\customizer.cs</v>
-<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\I2C_LCD_v1_20\Custom\parameters.cs</v>
-<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\I2C_LCD_v1_20\Custom\Resources.Designer.cs</v>
-<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\I2C_LCD_v1_20\Custom\tabwrapper.cs</v>
-<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\I2C_LCD_v1_20\Custom\Tabs\customcommandstab.cs</v>
-<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\I2C_LCD_v1_20\Custom\Tabs\customcommandstab.designer.cs</v>
-<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\I2C_LCD_v1_20\Custom\Tabs\generaltab.cs</v>
-<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\I2C_LCD_v1_20\Custom\Tabs\generaltab.designer.cs</v>
-<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\I2C_LCD_v1_20\Custom\cycommandrows.cs</v>
-<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\I2C_LCD_v1_20\Custom\Controls\customcharacter.resx</v>
-<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\I2C_LCD_v1_20\Custom\Resources.resx</v>
-<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\I2C_LCD_v1_20\Custom\tabwrapper.resx</v>
-<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\I2C_LCD_v1_20\Custom\Tabs\customcommandstab.resx</v>
-<v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\I2C_LCD_v1_20\Custom\Tabs\generaltab.resx</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_80\CyControlReg_v1_80.cysym</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_80\CyControlReg_v1_80.v</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_80\CyControlReg_v1_80.cycdx</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_80\CyControlReg_v1_80.cydmacap</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_80\CyControlReg_v1_80.pdf</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_80\CyControlReg_v1_80.cystate</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_80\API\CyControlReg.h</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_80\API\CyControlReg.c</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_80\API\CyControlReg_PM.c</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_80\Custom\ControlRegParameters.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_80\Custom\custom.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_80\Custom\cybitfieldcontrol.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_80\Custom\cybitfieldcontrol.designer.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_80\Custom\Resources.Designer.cs</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_80\Custom\cybitfieldcontrol.resx</v>
+<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_80\Custom\Resources.resx</v>
 <v>.\MIDI_EXAMPLE.cydwr</v>
 <v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\cy_boot_v5_40\PSoC5\API\cm3gcc.ld</v>
 <v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\cy_boot_v5_40\PSoC5\API\Cm3RealView.scat</v>
@@ -4523,6 +4514,11 @@
 <v>.\Generated_Source\PSoC5\LEDs_Out_1_LED_Out_7.c</v>
 <v>.\Generated_Source\PSoC5\I2C_LCD_1.h</v>
 <v>.\Generated_Source\PSoC5\I2C_LCD_1.c</v>
+<v>.\Generated_Source\PSoC5\DISPLAY_SCREEN.h</v>
+<v>.\Generated_Source\PSoC5\DISPLAY_SCREEN.c</v>
+<v>.\Generated_Source\PSoC5\LED_8_VALUE.h</v>
+<v>.\Generated_Source\PSoC5\LED_8_VALUE.c</v>
+<v>.\Generated_Source\PSoC5\LED_8_VALUE_PM.c</v>
 </gen_list>
 <warp_dep>
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\ieee\work\stdlogic.vif</v>
@@ -4531,15 +4527,20 @@
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cy_psoc3_inc.v</v>
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif</v>
 </warp_dep>
-<deps_time v="132507490238404324" />
+<deps_time v="132507537004990148" />
 <top_block v="TopDesign" />
 <last_generation v="17" />
 </CyGuid_925cc1e1-309e-4e08-b0a1-09a83c35b157>
 </dataGuid>
 <dataGuid v="769d31ea-68b1-4f0c-b90a-7c10a43ee563">
 <CyGuid_769d31ea-68b1-4f0c-b90a-7c10a43ee563 type_name="CyDesigner.Common.ProjMgmt.Model.CyLinkCustomData" version="1">
-<deps_time v="132504056672825087" />
+<deps_time v="132507537699194421" />
 </CyGuid_769d31ea-68b1-4f0c-b90a-7c10a43ee563>
+</dataGuid>
+<dataGuid v="504337dd-7d07-4bc7-9057-90e60cf6c469">
+<CyGuid_504337dd-7d07-4bc7-9057-90e60cf6c469 type_name="CyDesigner.Common.Debugger.CyBreakpointList" version="1">
+<debugger_breakpoint_list />
+</CyGuid_504337dd-7d07-4bc7-9057-90e60cf6c469>
 </dataGuid>
 </userData>
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>

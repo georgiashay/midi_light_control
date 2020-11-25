@@ -38,6 +38,26 @@
 
 #define USB_SUSPEND_TIMEOUT     (2u)
 
+#define PLAYBACK_MODE           (0u)
+#define PROGRAM_MODE            (1u)
+#define PRESET_MODE             (2u)
+
+#define KEY_LIGHT_0             (53u)
+#define KEY_LIGHT_1             (55u)
+#define KEY_LIGHT_2             (57u)
+#define KEY_LIGHT_3             (59u)
+#define KEY_LIGHT_4             (60u)
+#define KEY_LIGHT_5             (62u)
+#define KEY_LIGHT_6             (64u)
+#define PRESET_BUTTON           (44u)
+#define PLAY_PAUSE_BUTTON       (48u)
+#define PROGRAM_BUTTON          (49u)
+#define PREV_PRESET_BUTTON      (50u)
+#define NEXT_PRESET_BUTTON      (51u)
+#define UNUSED_BUTTON_1         (45u)
+#define UNUSED_BUTTON_2         (46u)
+#define UNUSED_BUTTON_3         (47u)
+
 /* Identity Reply message */
 const uint8 CYCODE MIDI_IDENTITY_REPLY[] = {
     0xF0u,      /* SysEx */
@@ -62,8 +82,19 @@ uint8 inqFlagsOld = 0u;
 
 uint8 currentKeyNumber = 0u;
 
-uint8 storedBrightnesses[8] = {0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u};
+uint8 storedBrightnesses[8][7] = {
+    {0u, 0u, 0u, 0u, 0u, 0u, 0u},
+    {0u, 0u, 0u, 0u, 0u, 0u, 0u},
+    {0u, 0u, 0u, 0u, 0u, 0u, 0u},
+    {0u, 0u, 0u, 0u, 0u, 0u, 0u},
+    {0u, 0u, 0u, 0u, 0u, 0u, 0u},
+    {0u, 0u, 0u, 0u, 0u, 0u, 0u},
+    {0u, 0u, 0u, 0u, 0u, 0u, 0u},
+    {0u, 0u, 0u, 0u, 0u, 0u, 0u}
+};
 
+uint8 mode = PROGRAM_MODE;
+uint8 preset = 0;
 
 /*******************************************************************************
 * Function Name: SleepIsr
@@ -114,9 +145,7 @@ int main()
     RAMP_COMP_Start();
 
     LEDs_Out_1_Start();
-    
-    //WAVETABLE_COUNTER_Start();
-    
+        
     while(1u)
     {
         /* Host can send double SET_INTERFACE request */
@@ -216,13 +245,25 @@ int main()
             }
         }
         
-        STORED_BRIGHTNESS_1_Write(storedBrightnesses[0]);
-        STORED_BRIGHTNESS_2_Write(storedBrightnesses[1]);
-        STORED_BRIGHTNESS_3_Write(storedBrightnesses[2]);
-        STORED_BRIGHTNESS_4_Write(storedBrightnesses[3]);
-        STORED_BRIGHTNESS_5_Write(storedBrightnesses[4]);
-        STORED_BRIGHTNESS_6_Write(storedBrightnesses[5]);
-        STORED_BRIGHTNESS_7_Write(storedBrightnesses[6]);
+        if (mode == PRESET_MODE) {
+            STORED_BRIGHTNESS_1_Write(storedBrightnesses[preset][0]);
+            STORED_BRIGHTNESS_2_Write(storedBrightnesses[preset][1]);
+            STORED_BRIGHTNESS_3_Write(storedBrightnesses[preset][2]);
+            STORED_BRIGHTNESS_4_Write(storedBrightnesses[preset][3]);
+            STORED_BRIGHTNESS_5_Write(storedBrightnesses[preset][4]);
+            STORED_BRIGHTNESS_6_Write(storedBrightnesses[preset][5]);
+            STORED_BRIGHTNESS_7_Write(storedBrightnesses[preset][6]);
+            LED_8_VALUE_Write(0u);
+        } else {
+            STORED_BRIGHTNESS_1_Write(preset == 0 ? 255u : 0u);
+            STORED_BRIGHTNESS_2_Write(preset == 1 ? 255u : 0u);
+            STORED_BRIGHTNESS_3_Write(preset == 2 ? 255u : 0u);
+            STORED_BRIGHTNESS_4_Write(preset == 3 ? 255u : 0u);
+            STORED_BRIGHTNESS_5_Write(preset == 4 ? 255u : 0u);
+            STORED_BRIGHTNESS_6_Write(preset == 5 ? 255u : 0u);
+            STORED_BRIGHTNESS_7_Write(preset == 6 ? 255u : 0u);
+            LED_8_VALUE_Write(preset == 7 ? 1u : 0u);
+        }
     }
 }
 
@@ -237,40 +278,77 @@ void USB_callbackLocalMidiEvent(uint8 cable, uint8 *midiMsg) CYREENTRANT
 {
     
     uint8 keyNumber;
-    short isValidKey = 1u;
+    short isLightKey = 0u;
     
+    short isNoteOn = (midiMsg[MIDI_MSG_TYPE] == USB_MIDI_NOTE_ON) && (midiMsg[MIDI_NOTE_VELOCITY] != 0u);
+    
+    if (isNoteOn) {
+        uint8 readNumber = midiMsg[MIDI_NOTE_NUMBER];
+        if (readNumber == 0u) {
+            int hi = 0;
+        }
+    }
     switch (midiMsg[MIDI_NOTE_NUMBER]) {
-        case 53u :
+        case KEY_LIGHT_0 :
             keyNumber = 0;
+            isLightKey = 1u;
             break;
-        case 55u:
+        case KEY_LIGHT_1 :
             keyNumber = 1;
+            isLightKey = 1u;
             break;
-        case 57u :
+        case KEY_LIGHT_2 :
             keyNumber = 2;
+            isLightKey = 1u;
             break;
-        case 59u:
+        case KEY_LIGHT_3 :
             keyNumber = 3;
+            isLightKey = 1u;
             break;
-        case 60u:
+        case KEY_LIGHT_4 :
             keyNumber = 4;
+            isLightKey = 1u;
             break;
-        case 62u:
+        case KEY_LIGHT_5 :
             keyNumber = 5;
+            isLightKey = 1u;
             break;
-        case 64u:
+        case KEY_LIGHT_6 :
             keyNumber = 6;
+            isLightKey = 1u;
             break;
-        case 6u:
-            keyNumber = 7;
+        case PRESET_BUTTON :
+            if (isNoteOn == 1u) {
+                if (mode == PRESET_MODE) {
+                    mode = PROGRAM_MODE;
+                } else if (mode == PROGRAM_MODE) {
+                    mode = PRESET_MODE;
+                }
+            }
+            break;
+        case NEXT_PRESET_BUTTON :
+            if (isNoteOn == 1u) {
+                if (mode == PLAYBACK_MODE || mode == PROGRAM_MODE) {
+                    preset++;
+                    preset %= 8;
+                }
+            }
+            break;
+        case PREV_PRESET_BUTTON :
+            if (isNoteOn == 1u) {
+                if (mode == PLAYBACK_MODE || mode == PROGRAM_MODE) {
+                    preset += 7;
+                    preset %= 8;
+                }
+            }
             break;
         default:
-            isValidKey = 0u;    
+            isLightKey = 0u;    
     }
     
     //uint8 oneHotKey = 1u << keyNumber;    
     
-    if (isValidKey) {
+    if (mode == PRESET_MODE && isLightKey) {
         if (midiMsg[MIDI_MSG_TYPE] == USB_MIDI_NOTE_OFF || (midiMsg[MIDI_MSG_TYPE] == USB_MIDI_NOTE_ON && midiMsg[MIDI_NOTE_VELOCITY] == 0u)) {
             //MIDI_NOTES_REG_Write(oneHotKey);
             MIDI_BIN_REG_Write(0u);
@@ -284,7 +362,7 @@ void USB_callbackLocalMidiEvent(uint8 cable, uint8 *midiMsg) CYREENTRANT
             // Fudge factor for signaling delays from Keyboard -> Computer -> PSoC -> Register
             waveIndex += 100;
             waveIndex %= 2048;
-            storedBrightnesses[keyNumber] = BRIGHTNESS_RAMP_wave1[waveIndex];
+            storedBrightnesses[preset][keyNumber] = BRIGHTNESS_RAMP_wave1[waveIndex];
 
             // MIDI_NOTES_REG_Write(MIDI_NOTES_REG_Read() & ~oneHotKey);
         } else if (midiMsg[MIDI_MSG_TYPE] == USB_MIDI_NOTE_ON) {

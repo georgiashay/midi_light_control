@@ -152,9 +152,6 @@
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_8_aliases.h</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_8.c</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_8.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\MIDI_NOTES_REG.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\MIDI_NOTES_REG.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\MIDI_NOTES_REG_PM.c</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\MIDI_BIN_REG.h</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\MIDI_BIN_REG.c</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\MIDI_BIN_REG_PM.c</File>
@@ -229,8 +226,9 @@
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LEDs_Out_1_LED_Out_6.c</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LEDs_Out_1_LED_Out_7.h</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LEDs_Out_1_LED_Out_7.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\I2C_LCD_1.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\I2C_LCD_1.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_8_VALUE.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_8_VALUE.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_8_VALUE_PM.c</File>
         </Files>
       </Folder>
       <Folder BuildType="BUILD" Path="\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\LED_Out\API">
