@@ -109,6 +109,7 @@ uint8 preset = 0;
 uint8 playback_preset = 0;
 uint8 last_preset = 7;
 short crossfading = 0;
+uint8 hotLeds = 0u;
 
 /*******************************************************************************
 * Function Name: SleepIsr
@@ -204,9 +205,12 @@ int main()
     RAMP_COMP_Start();
 
     LEDs_Out_1_Start();
+    Lights_Out_1_Start();
     
     POT_VALUE_Start();
     POT_VALUE_StartConvert();
+    
+    CROSSFADE_COUNTER_Start();
         
     while(1u)
     {
@@ -307,6 +311,8 @@ int main()
             }
         }
         
+        Lights_Out_1_Poll();
+        
         if (mode == PRESET_MODE) {
             SLED_BRIGHTNESS_1_Write(storedBrightnesses[preset][0]);
             SLED_BRIGHTNESS_2_Write(storedBrightnesses[preset][1]);
@@ -344,9 +350,9 @@ int main()
             SLED_BRIGHTNESS_7_Write(storedBrightnesses[playback_preset][6]);
             LED_8_VALUE_Write(0u);
         } else if (mode == PLAYBACK_MODE && crossfading == 1u) {
-            uint8 crossfade_val = CROSSFADE_VAL_Read();
-            if (crossfade_val < 255 && last_preset < 8) {
-                float fraction = crossfade_val/255.0;
+            uint8 crossfade_val = 127 - CROSSFADE_VAL_Read();
+            if (crossfade_val < 127 && last_preset < 8) {
+                float fraction = crossfade_val/127.0;
                 SLED_BRIGHTNESS_1_Write(fraction * storedBrightnesses[playback_preset][0] + (1.0-fraction) * storedBrightnesses[last_preset][0]);
                 SLED_BRIGHTNESS_2_Write(fraction * storedBrightnesses[playback_preset][1] + (1.0-fraction) * storedBrightnesses[last_preset][1]);
                 SLED_BRIGHTNESS_3_Write(fraction * storedBrightnesses[playback_preset][2] + (1.0-fraction) * storedBrightnesses[last_preset][2]);
@@ -376,12 +382,12 @@ int main()
             // pot value of 255 (LEFT) = 100kHz
             // pot value of 0 (RIGHT) = 100Hz
             
-            uint16 divider = (999 * potValue)/255 + 1;
-            if (divider > 1000) {
-                divider = 1000;
+            uint16 divider = (1998 * potValue)/255 + 2;
+            if (divider > 2000) {
+                divider = 2000;
             }
-            if (divider < 1) {
-                divider = 1;
+            if (divider < 2) {
+                divider = 2;
             }
             
             Crossfade_Clock_SetDividerRegister(divider, 0u);
@@ -490,23 +496,27 @@ void USB_callbackLocalMidiEvent(uint8 cable, uint8 *midiMsg) CYREENTRANT
             isLightKey = 0u;    
     }
     
-    //uint8 oneHotKey = 1u << keyNumber;    
+    uint8 oneHotKey = 1u << keyNumber;    
     
     if (mode == PRESET_MODE && isLightKey) {
         if (midiMsg[MIDI_MSG_TYPE] == USB_MIDI_NOTE_OFF || (midiMsg[MIDI_MSG_TYPE] == USB_MIDI_NOTE_ON && midiMsg[MIDI_NOTE_VELOCITY] == 0u)) {
             //MIDI_NOTES_REG_Write(oneHotKey);
-            MIDI_BIN_REG_Write(0u);
-            if (keyNumber == currentKeyNumber) {
-                NOTE_ON_REG_Write(0u);
-            }
+//            MIDI_BIN_REG_Write(0u);
+//            if (keyNumber == currentKeyNumber) {
+//                NOTE_ON_REG_Write(0u);
+//            }
+            
+            hotLeds &= ~(oneHotKey);
+            HOT_LEDS_Write(hotLeds);
            
-            uint16 indexHigh = WAVE_STATUS_HIGH_Read();
-            uint16 indexLow = WAVE_STATUS_HIGH_Read();
-            uint16 waveIndex = (indexHigh << 8) + indexLow;
-            // Fudge factor for signaling delays from Keyboard -> Computer -> PSoC -> Register
-            waveIndex += 100;
-            waveIndex %= 2048;
-            storedBrightnesses[preset][keyNumber] = BRIGHTNESS_RAMP_wave1[waveIndex];
+//            uint16 indexHigh = WAVE_STATUS_HIGH_Read();
+//            uint16 indexLow = WAVE_STATUS_HIGH_Read();
+//            uint16 waveIndex = (indexHigh << 8) + indexLow;
+//            // Fudge factor for signaling delays from Keyboard -> Computer -> PSoC -> Register
+//            waveIndex += 100;
+//            waveIndex %= 2048;
+            
+            storedBrightnesses[preset][keyNumber] = BRIGHTNESS_RAMP_VDAC8_Data >> 1;
 
             // MIDI_NOTES_REG_Write(MIDI_NOTES_REG_Read() & ~oneHotKey);
         } else if (midiMsg[MIDI_MSG_TYPE] == USB_MIDI_NOTE_ON) {
@@ -514,6 +524,8 @@ void USB_callbackLocalMidiEvent(uint8 cable, uint8 *midiMsg) CYREENTRANT
             MIDI_BIN_REG_Write(keyNumber);
             NOTE_ON_REG_Write(1u);
             currentKeyNumber = keyNumber;
+            hotLeds |= oneHotKey;
+            HOT_LEDS_Write(hotLeds);
             //MIDI_NOTES_REG_Write(MIDI_NOTES_REG_Read() | oneHotKey);
         }
     }

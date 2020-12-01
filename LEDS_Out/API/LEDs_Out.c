@@ -18,6 +18,7 @@
 #include "`$INSTANCE_NAME`_LED_Out_5.h"
 #include "`$INSTANCE_NAME`_LED_Out_6.h"
 #include "`$INSTANCE_NAME`_LED_Out_7.h"
+#include "`$INSTANCE_NAME`_PWM_COUNTER.h"
 
 void `$INSTANCE_NAME`_Start() {
     `$INSTANCE_NAME`_LED_Out_1_Start();
@@ -27,6 +28,7 @@ void `$INSTANCE_NAME`_Start() {
     `$INSTANCE_NAME`_LED_Out_5_Start();
     `$INSTANCE_NAME`_LED_Out_6_Start();
     `$INSTANCE_NAME`_LED_Out_7_Start();
+    `$INSTANCE_NAME`_PWM_COUNTER_Start();
 }
 
 /* [] END OF FILE */
