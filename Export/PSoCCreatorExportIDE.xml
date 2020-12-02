@@ -130,8 +130,6 @@
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\project.h</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\Clock_2.c</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\Clock_2.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\Clock_3.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\Clock_3.h</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\BRIGHTNESS_RAMP.c</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\BRIGHTNESS_RAMP.h</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\BRIGHTNESS_RAMP_PM.c</File>
@@ -171,9 +169,6 @@
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LEDs_Out_1_LED_Out_6.c</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LEDs_Out_1_LED_Out_7.h</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LEDs_Out_1_LED_Out_7.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_8_VALUE.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_8_VALUE.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LED_8_VALUE_PM.c</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\CROSSFADE_CTRL.h</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\CROSSFADE_CTRL.c</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\CROSSFADE_CTRL_PM.c</File>
@@ -237,21 +232,6 @@
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\SLED_8_aliases.h</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\SLED_8.c</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\SLED_8.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\SLED_BRIGHTNESS_2.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\SLED_BRIGHTNESS_2.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\SLED_BRIGHTNESS_2_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\SLED_BRIGHTNESS_1.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\SLED_BRIGHTNESS_1.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\SLED_BRIGHTNESS_1_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\SLED_BRIGHTNESS_3.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\SLED_BRIGHTNESS_3.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\SLED_BRIGHTNESS_3_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\SLED_BRIGHTNESS_4.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\SLED_BRIGHTNESS_4.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\SLED_BRIGHTNESS_4_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\SLED_BRIGHTNESS_5.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\SLED_BRIGHTNESS_5.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\SLED_BRIGHTNESS_5_PM.c</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\DO1_aliases.h</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\DO1.c</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\DO1.h</File>
@@ -297,8 +277,8 @@
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LIGHT_BRIGHTNESS_1.h</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LIGHT_BRIGHTNESS_1.c</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LIGHT_BRIGHTNESS_1_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\Lights_Out_1_Lights_Out.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\Lights_Out_1_Lights_Out.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\Lights_Out_1.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\Lights_Out_1.h</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\Lights_Out_1_Clock_1.c</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\Lights_Out_1_Clock_1.h</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\Lights_Out_1_LED_STATUS.c</File>
@@ -314,12 +294,9 @@
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\HOT_LEDS.h</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\HOT_LEDS.c</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\HOT_LEDS_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\CROSSFADE_COUNTER.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\CROSSFADE_COUNTER.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\CROSSFADE_COUNTER_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LEDs_Out_1_PWM_COUNTER.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LEDs_Out_1_PWM_COUNTER.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\LEDs_Out_1_PWM_COUNTER_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\SLED_STATE_SEL.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\SLED_STATE_SEL.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\SLED_STATE_SEL_PM.c</File>
         </Files>
       </Folder>
       <Folder BuildType="BUILD" Path="\\Mac\Home\Documents\PSoC Creator\Workspace02\MIDI_EXAMPLE.cydsn\LED_Out\API">

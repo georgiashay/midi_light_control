@@ -42,6 +42,9 @@
 #define PROGRAM_MODE            (1u)
 #define PRESET_MODE             (2u)
 
+#define SLED_MODE_ONE_HOT       (1u)
+#define SLED_MODE_BRIGHTNESSES  (0u)
+
 #define KEY_LIGHT_0             (53u)
 #define KEY_LIGHT_1             (55u)
 #define KEY_LIGHT_2             (57u)
@@ -93,15 +96,26 @@ uint8 currentKeyNumber = 0u;
 //    {0u, 255u, 0u, 255u, 0u, 255u, 0u}
 //};
 
+//uint8 storedBrightnesses[8][7] = {
+//    {0u, 0u, 0u, 0u, 0u, 0u, 255u},
+//    {0u, 0u, 0u, 0u, 0u, 255u, 0u},
+//    {0u, 0u, 0u, 0u, 0u, 255u, 255u},
+//    {0u, 0u, 0u, 0u, 255u, 0u, 0u},
+//    {0u, 0u, 0u, 0u, 255u, 0u, 255u},
+//    {0u, 0u, 0u, 0u, 255u, 255u, 0u},
+//    {0u, 0u, 0u, 0u, 255u, 255u, 255u},
+//    {0u, 0u, 0u, 255u, 0u, 0u, 0u}
+//};
+
 uint8 storedBrightnesses[8][7] = {
-    {0u, 0u, 0u, 0u, 0u, 0u, 255u},
-    {0u, 0u, 0u, 0u, 0u, 255u, 0u},
-    {0u, 0u, 0u, 0u, 0u, 255u, 255u},
-    {0u, 0u, 0u, 0u, 255u, 0u, 0u},
-    {0u, 0u, 0u, 0u, 255u, 0u, 255u},
-    {0u, 0u, 0u, 0u, 255u, 255u, 0u},
-    {0u, 0u, 0u, 0u, 255u, 255u, 255u},
-    {0u, 0u, 0u, 255u, 0u, 0u, 0u}
+    {0u, 20u, 40u, 60u, 80u, 100u, 120u},
+    {0u, 0u, 0u, 0u, 0u, 127u, 0u},
+    {0u, 0u, 0u, 0u, 0u, 127u, 127u},
+    {0u, 0u, 0u, 0u, 127u, 0u, 0u},
+    {0u, 0u, 0u, 0u, 127u, 0u, 127u},
+    {0u, 0u, 0u, 0u, 127u, 127u, 0u},
+    {0u, 0u, 0u, 0u, 127u, 127u, 127u},
+    {0u, 0u, 0u, 127u, 0u, 0u, 0u}
 };
 
 uint8 mode = PLAYBACK_MODE;
@@ -210,7 +224,7 @@ int main()
     POT_VALUE_Start();
     POT_VALUE_StartConvert();
     
-    CROSSFADE_COUNTER_Start();
+//    CROSSFADE_COUNTER_Start();
         
     while(1u)
     {
@@ -314,64 +328,67 @@ int main()
         Lights_Out_1_Poll();
         
         if (mode == PRESET_MODE) {
-            SLED_BRIGHTNESS_1_Write(storedBrightnesses[preset][0]);
-            SLED_BRIGHTNESS_2_Write(storedBrightnesses[preset][1]);
-            SLED_BRIGHTNESS_3_Write(storedBrightnesses[preset][2]);
-            SLED_BRIGHTNESS_4_Write(storedBrightnesses[preset][3]);
-            SLED_BRIGHTNESS_5_Write(storedBrightnesses[preset][4]);
-            SLED_BRIGHTNESS_6_Write(storedBrightnesses[preset][5]);
-            SLED_BRIGHTNESS_7_Write(storedBrightnesses[preset][6]);
-            LED_8_VALUE_Write(0u);
+            LIGHT_BRIGHTNESS_1_Write(storedBrightnesses[preset][0]);
+            LIGHT_BRIGHTNESS_2_Write(storedBrightnesses[preset][1]);
+            LIGHT_BRIGHTNESS_3_Write(storedBrightnesses[preset][2]);
+            LIGHT_BRIGHTNESS_4_Write(storedBrightnesses[preset][3]);
+            LIGHT_BRIGHTNESS_5_Write(storedBrightnesses[preset][4]);
+            LIGHT_BRIGHTNESS_6_Write(storedBrightnesses[preset][5]);
+            LIGHT_BRIGHTNESS_7_Write(storedBrightnesses[preset][6]);
+            SLED_STATE_SEL_Write(SLED_MODE_BRIGHTNESSES);
+            HOT_LEDS_Write(hotLeds);
         } else if (mode == PROGRAM_MODE) {
-            SLED_BRIGHTNESS_1_Write(preset == 0 ? 255u : 0u);
-            SLED_BRIGHTNESS_2_Write(preset == 1 ? 255u : 0u);
-            SLED_BRIGHTNESS_3_Write(preset == 2 ? 255u : 0u);
-            SLED_BRIGHTNESS_4_Write(preset == 3 ? 255u : 0u);
-            SLED_BRIGHTNESS_5_Write(preset == 4 ? 255u : 0u);
-            SLED_BRIGHTNESS_6_Write(preset == 5 ? 255u : 0u);
-            SLED_BRIGHTNESS_7_Write(preset == 6 ? 255u : 0u);
-            LED_8_VALUE_Write(preset == 7 ? 1u : 0u);
+            uint8 hotPreset = 1u << preset;
+            HOT_LEDS_Write(hotPreset);
+            SLED_STATE_SEL_Write(SLED_MODE_ONE_HOT);
         } else if (mode == PLAYBACK_MODE && playback_preset >= 8) {
-            SLED_BRIGHTNESS_1_Write(0u);
-            SLED_BRIGHTNESS_2_Write(0u);
-            SLED_BRIGHTNESS_3_Write(0u);
-            SLED_BRIGHTNESS_4_Write(0u);
-            SLED_BRIGHTNESS_5_Write(0u);
-            SLED_BRIGHTNESS_6_Write(0u);
-            SLED_BRIGHTNESS_7_Write(0u);
-            LED_8_VALUE_Write(0u);
+            LIGHT_BRIGHTNESS_1_Write(0u);
+            LIGHT_BRIGHTNESS_2_Write(0u);
+            LIGHT_BRIGHTNESS_3_Write(0u);
+            LIGHT_BRIGHTNESS_4_Write(0u);
+            LIGHT_BRIGHTNESS_5_Write(0u);
+            LIGHT_BRIGHTNESS_6_Write(0u);
+            LIGHT_BRIGHTNESS_7_Write(0u);
+            HOT_LEDS_Write(0u);
+            SLED_STATE_SEL_Write(SLED_MODE_ONE_HOT);
         } else if (mode == PLAYBACK_MODE && crossfading == 0u) {
-            SLED_BRIGHTNESS_1_Write(storedBrightnesses[playback_preset][0]);
-            SLED_BRIGHTNESS_2_Write(storedBrightnesses[playback_preset][1]);
-            SLED_BRIGHTNESS_3_Write(storedBrightnesses[playback_preset][2]);
-            SLED_BRIGHTNESS_4_Write(storedBrightnesses[playback_preset][3]);
-            SLED_BRIGHTNESS_5_Write(storedBrightnesses[playback_preset][4]);
-            SLED_BRIGHTNESS_6_Write(storedBrightnesses[playback_preset][5]);
-            SLED_BRIGHTNESS_7_Write(storedBrightnesses[playback_preset][6]);
-            LED_8_VALUE_Write(0u);
+            LIGHT_BRIGHTNESS_1_Write(storedBrightnesses[playback_preset][0]);
+            LIGHT_BRIGHTNESS_2_Write(storedBrightnesses[playback_preset][1]);
+            LIGHT_BRIGHTNESS_3_Write(storedBrightnesses[playback_preset][2]);
+            LIGHT_BRIGHTNESS_4_Write(storedBrightnesses[playback_preset][3]);
+            LIGHT_BRIGHTNESS_5_Write(storedBrightnesses[playback_preset][4]);
+            LIGHT_BRIGHTNESS_6_Write(storedBrightnesses[playback_preset][5]);
+            LIGHT_BRIGHTNESS_7_Write(storedBrightnesses[playback_preset][6]);
+            SLED_STATE_SEL_Write(SLED_MODE_ONE_HOT);
+            uint8 hotPreset = 1u << playback_preset; 
+            HOT_LEDS_Write(hotPreset);
+//            SLED_STATE_SEL_Write(SLED_MODE_BRIGHTNESSES);
         } else if (mode == PLAYBACK_MODE && crossfading == 1u) {
-            uint8 crossfade_val = 127 - CROSSFADE_VAL_Read();
-            if (crossfade_val < 127 && last_preset < 8) {
-                float fraction = crossfade_val/127.0;
-                SLED_BRIGHTNESS_1_Write(fraction * storedBrightnesses[playback_preset][0] + (1.0-fraction) * storedBrightnesses[last_preset][0]);
-                SLED_BRIGHTNESS_2_Write(fraction * storedBrightnesses[playback_preset][1] + (1.0-fraction) * storedBrightnesses[last_preset][1]);
-                SLED_BRIGHTNESS_3_Write(fraction * storedBrightnesses[playback_preset][2] + (1.0-fraction) * storedBrightnesses[last_preset][2]);
-                SLED_BRIGHTNESS_4_Write(fraction * storedBrightnesses[playback_preset][3] + (1.0-fraction) * storedBrightnesses[last_preset][3]);
-                SLED_BRIGHTNESS_5_Write(fraction * storedBrightnesses[playback_preset][4] + (1.0-fraction) * storedBrightnesses[last_preset][4]);
-                SLED_BRIGHTNESS_6_Write(fraction * storedBrightnesses[playback_preset][5] + (1.0-fraction) * storedBrightnesses[last_preset][5]);
-                SLED_BRIGHTNESS_7_Write(fraction * storedBrightnesses[playback_preset][6] + (1.0-fraction) * storedBrightnesses[last_preset][6]);
-                LED_8_VALUE_Write(0u);
+            uint8 crossfade_val = CROSSFADE_VAL_Read();
+            if (crossfade_val < 255 && last_preset < 8) {
+                float fraction = crossfade_val/255.0;
+                LIGHT_BRIGHTNESS_1_Write(fraction * storedBrightnesses[playback_preset][0] + (1.0-fraction) * storedBrightnesses[last_preset][0]);
+                LIGHT_BRIGHTNESS_2_Write(fraction * storedBrightnesses[playback_preset][1] + (1.0-fraction) * storedBrightnesses[last_preset][1]);
+                LIGHT_BRIGHTNESS_3_Write(fraction * storedBrightnesses[playback_preset][2] + (1.0-fraction) * storedBrightnesses[last_preset][2]);
+                LIGHT_BRIGHTNESS_4_Write(fraction * storedBrightnesses[playback_preset][3] + (1.0-fraction) * storedBrightnesses[last_preset][3]);
+                LIGHT_BRIGHTNESS_5_Write(fraction * storedBrightnesses[playback_preset][4] + (1.0-fraction) * storedBrightnesses[last_preset][4]);
+                LIGHT_BRIGHTNESS_6_Write(fraction * storedBrightnesses[playback_preset][5] + (1.0-fraction) * storedBrightnesses[last_preset][5]);
+                LIGHT_BRIGHTNESS_7_Write(fraction * storedBrightnesses[playback_preset][6] + (1.0-fraction) * storedBrightnesses[last_preset][6]);
             } else {
-                SLED_BRIGHTNESS_1_Write(storedBrightnesses[playback_preset][0]);
-                SLED_BRIGHTNESS_2_Write(storedBrightnesses[playback_preset][1]);
-                SLED_BRIGHTNESS_3_Write(storedBrightnesses[playback_preset][2]);
-                SLED_BRIGHTNESS_4_Write(storedBrightnesses[playback_preset][3]);
-                SLED_BRIGHTNESS_5_Write(storedBrightnesses[playback_preset][4]);
-                SLED_BRIGHTNESS_6_Write(storedBrightnesses[playback_preset][5]);
-                SLED_BRIGHTNESS_7_Write(storedBrightnesses[playback_preset][6]);
+                LIGHT_BRIGHTNESS_1_Write(storedBrightnesses[playback_preset][0]);
+                LIGHT_BRIGHTNESS_2_Write(storedBrightnesses[playback_preset][1]);
+                LIGHT_BRIGHTNESS_3_Write(storedBrightnesses[playback_preset][2]);
+                LIGHT_BRIGHTNESS_4_Write(storedBrightnesses[playback_preset][3]);
+                LIGHT_BRIGHTNESS_5_Write(storedBrightnesses[playback_preset][4]);
+                LIGHT_BRIGHTNESS_6_Write(storedBrightnesses[playback_preset][5]);
+                LIGHT_BRIGHTNESS_7_Write(storedBrightnesses[playback_preset][6]);
                 CROSSFADE_CTRL_Write(2u); // Reset = true, Enable = false
                 crossfading = 0u;
             }
+            SLED_STATE_SEL_Write(SLED_MODE_ONE_HOT);
+            uint8 hotPreset = 1u << playback_preset; 
+            HOT_LEDS_Write(hotPreset);
+//            SLED_STATE_SEL_Write(SLED_MODE_BRIGHTNESSES);
         }
         
         uint16 div = Crossfade_Clock_GetDividerRegister();
@@ -379,8 +396,8 @@ int main()
         if (POT_VALUE_IsEndConversion(POT_VALUE_RETURN_STATUS)) {
             uint8 potValue = POT_VALUE_GetResult8();
             
-            // pot value of 255 (LEFT) = 100kHz
-            // pot value of 0 (RIGHT) = 100Hz
+            // pot value of 255 (LEFT) = 50kHz
+            // pot value of 0 (RIGHT) = 50Hz
             
             uint16 divider = (1998 * potValue)/255 + 2;
             if (divider > 2000) {
@@ -521,8 +538,8 @@ void USB_callbackLocalMidiEvent(uint8 cable, uint8 *midiMsg) CYREENTRANT
             // MIDI_NOTES_REG_Write(MIDI_NOTES_REG_Read() & ~oneHotKey);
         } else if (midiMsg[MIDI_MSG_TYPE] == USB_MIDI_NOTE_ON) {
             //MIDI_NOTES_REG_Write(0u);
-            MIDI_BIN_REG_Write(keyNumber);
-            NOTE_ON_REG_Write(1u);
+//            MIDI_BIN_REG_Write(keyNumber);
+//            NOTE_ON_REG_Write(1u);
             currentKeyNumber = keyNumber;
             hotLeds |= oneHotKey;
             HOT_LEDS_Write(hotLeds);

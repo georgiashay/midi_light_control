@@ -10,7 +10,11 @@
  * ========================================
 */
 
+#include <cytypes.h>
 #include "`$INSTANCE_NAME`.h"
+#include "`$INSTANCE_NAME`_BUCK_DUTY.h"
+#include "`$INSTANCE_NAME`_LIGHT_COUNTER.h"
+#include "`$INSTANCE_NAME`_LED_STATUS.h"
 
 uint8 `$INSTANCE_NAME`_dutyCycles[9] = { 0u, 5u, 16u, 25u, 37u, 72u, 88u, 94u, 0u };
 
