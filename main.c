@@ -85,31 +85,9 @@ uint8 inqFlagsOld = 0u;
 
 uint8 currentKeyNumber = 0u;
 
-//uint8 storedBrightnesses[8][7] = {
-//    {255u, 0u, 255u, 0u, 255u, 0u, 255u},
-//    {0u, 255u, 0u, 255u, 0u, 255u, 0u},
-//    {255u, 0u, 255u, 0u, 255u, 0u, 255u},
-//    {0u, 255u, 0u, 255u, 0u, 255u, 0u},
-//    {255u, 0u, 255u, 0u, 255u, 0u, 255u},
-//    {0u, 255u, 0u, 255u, 0u, 255u, 0u},
-//    {255u, 0u, 255u, 0u, 255u, 0u, 255u},
-//    {0u, 255u, 0u, 255u, 0u, 255u, 0u}
-//};
-
-//uint8 storedBrightnesses[8][7] = {
-//    {0u, 0u, 0u, 0u, 0u, 0u, 255u},
-//    {0u, 0u, 0u, 0u, 0u, 255u, 0u},
-//    {0u, 0u, 0u, 0u, 0u, 255u, 255u},
-//    {0u, 0u, 0u, 0u, 255u, 0u, 0u},
-//    {0u, 0u, 0u, 0u, 255u, 0u, 255u},
-//    {0u, 0u, 0u, 0u, 255u, 255u, 0u},
-//    {0u, 0u, 0u, 0u, 255u, 255u, 255u},
-//    {0u, 0u, 0u, 255u, 0u, 0u, 0u}
-//};
-
 uint8 storedBrightnesses[8][7] = {
     {0u, 20u, 40u, 60u, 80u, 100u, 120u},
-    {63u, 63u, 63u, 63u, 63u, 63u, 63u},
+    {30u, 30u, 30u, 30u, 30u, 30u, 30u},
     {0u, 0u, 0u, 0u, 0u, 127u, 127u},
     {0u, 0u, 0u, 0u, 127u, 0u, 0u},
     {0u, 0u, 0u, 0u, 127u, 0u, 127u},
@@ -118,25 +96,14 @@ uint8 storedBrightnesses[8][7] = {
     {0u, 0u, 0u, 127u, 0u, 0u, 0u}
 };
 
-//uint8 storedBrightnesses[8][7] = {
-//    {0u, 0u, 0u, 0u, 0u, 0u, 0u},
-//    {0u, 0u, 0u, 0u, 0u, 0u, 127u},
-//    {0u, 0u, 0u, 0u, 0u, 127u, 127u},
-//    {0u, 0u, 0u, 0u, 127u, 127u, 127u},
-//    {0u, 0u, 0u, 127u, 127u, 127u, 127u},
-//    {0u, 0u, 127u, 127u, 127u, 127u, 127u},
-//    {0u, 127u, 127u, 127u, 127u, 127u, 127u},
-//    {127u, 127u, 127u, 127u, 127u, 127u, 127u},
-//};
-
 uint8 mode = PLAYBACK_MODE;
 uint8 preset = 0;
 uint8 playback_preset = 0;
 uint8 last_preset = 7;
 short crossfading = 0;
 uint8 hotLeds = 0u;
-volatile uint16 last_divider = 1000;
-volatile uint8 last_pot_value = 0;
+uint16 last_divider = 20;
+uint8 last_pot_value = 0;
 
 /*******************************************************************************
 * Function Name: SleepIsr
