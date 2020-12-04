@@ -16,7 +16,7 @@
 #include "`$INSTANCE_NAME`_LIGHT_COUNTER.h"
 #include "`$INSTANCE_NAME`_LED_STATUS.h"
 
-uint8 `$INSTANCE_NAME`_dutyCycles[9] = { 0u, 5u, 16u, 25u, 37u, 72u, 88u, 94u, 0u };
+uint8 `$INSTANCE_NAME`_dutyCycles[8] = { 0u, 8u, 20u, 30u, 46u, 77u, 91u, 101u };
 
 uint8 `$INSTANCE_NAME`_lastNum = 0u;
 

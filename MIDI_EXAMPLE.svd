@@ -9,7 +9,7 @@
     <peripheral>
       <name>CROSSFADE_VAL</name>
       <description>No description available</description>
-      <baseAddress>0x40006467</baseAddress>
+      <baseAddress>0x40006565</baseAddress>
       <addressBlock>
         <offset>0</offset>
         <size>0x0</size>
@@ -174,7 +174,7 @@
         <register>
           <name>SAR_TR0</name>
           <description>SAR trim register</description>
-          <addressOffset>0x40004614</addressOffset>
+          <addressOffset>0x40004616</addressOffset>
           <size>8</size>
           <access>read-write</access>
           <resetValue>0</resetValue>
@@ -183,7 +183,7 @@
         <register>
           <name>SAR_CSR0</name>
           <description>SAR status and control register 0</description>
-          <addressOffset>0x40005900</addressOffset>
+          <addressOffset>0x40005908</addressOffset>
           <size>8</size>
           <access>read-write</access>
           <resetValue>0</resetValue>
@@ -192,7 +192,7 @@
         <register>
           <name>SAR_CSR1</name>
           <description>SAR status and control register 1</description>
-          <addressOffset>0x40005901</addressOffset>
+          <addressOffset>0x40005909</addressOffset>
           <size>8</size>
           <access>read-write</access>
           <resetValue>0</resetValue>
@@ -201,7 +201,7 @@
         <register>
           <name>SAR_CSR2</name>
           <description>SAR status and control register 2</description>
-          <addressOffset>0x40005902</addressOffset>
+          <addressOffset>0x4000590A</addressOffset>
           <size>8</size>
           <access>read-write</access>
           <resetValue>0</resetValue>
@@ -210,7 +210,7 @@
         <register>
           <name>SAR_CSR3</name>
           <description>SAR status and control register 3</description>
-          <addressOffset>0x40005903</addressOffset>
+          <addressOffset>0x4000590B</addressOffset>
           <size>8</size>
           <access>read-write</access>
           <resetValue>0</resetValue>
@@ -219,7 +219,7 @@
         <register>
           <name>SAR_CSR4</name>
           <description>SAR status and control register 4</description>
-          <addressOffset>0x40005904</addressOffset>
+          <addressOffset>0x4000590C</addressOffset>
           <size>8</size>
           <access>read-write</access>
           <resetValue>0</resetValue>
@@ -228,7 +228,7 @@
         <register>
           <name>SAR_CSR5</name>
           <description>SAR status and control register 5</description>
-          <addressOffset>0x40005905</addressOffset>
+          <addressOffset>0x4000590D</addressOffset>
           <size>8</size>
           <access>read-write</access>
           <resetValue>0</resetValue>
@@ -237,7 +237,7 @@
         <register>
           <name>SAR_CSR6</name>
           <description>SAR status and control register 6</description>
-          <addressOffset>0x40005906</addressOffset>
+          <addressOffset>0x4000590E</addressOffset>
           <size>8</size>
           <access>read-write</access>
           <resetValue>0</resetValue>
@@ -246,7 +246,7 @@
         <register>
           <name>SAR_SW0</name>
           <description>SAR Analog Routing Register 0</description>
-          <addressOffset>0x40005B20</addressOffset>
+          <addressOffset>0x40005B28</addressOffset>
           <size>8</size>
           <access>read-write</access>
           <resetValue>0</resetValue>
@@ -255,7 +255,7 @@
         <register>
           <name>SAR_SW2</name>
           <description>SAR Analog Routing Register 2</description>
-          <addressOffset>0x40005B22</addressOffset>
+          <addressOffset>0x40005B2A</addressOffset>
           <size>8</size>
           <access>read-write</access>
           <resetValue>0</resetValue>
@@ -264,7 +264,7 @@
         <register>
           <name>SAR_SW3</name>
           <description>SAR Analog Routing Register 3</description>
-          <addressOffset>0x40005B23</addressOffset>
+          <addressOffset>0x40005B2B</addressOffset>
           <size>8</size>
           <access>read-write</access>
           <resetValue>0</resetValue>
@@ -273,7 +273,7 @@
         <register>
           <name>SAR_SW4</name>
           <description>SAR Analog Routing Register 4</description>
-          <addressOffset>0x40005B24</addressOffset>
+          <addressOffset>0x40005B2C</addressOffset>
           <size>8</size>
           <access>read-write</access>
           <resetValue>0</resetValue>
@@ -282,7 +282,7 @@
         <register>
           <name>SAR_SW6</name>
           <description>SAR Analog Routing Register 6</description>
-          <addressOffset>0x40005B26</addressOffset>
+          <addressOffset>0x40005B2E</addressOffset>
           <size>8</size>
           <access>read-write</access>
           <resetValue>0</resetValue>
@@ -291,7 +291,7 @@
         <register>
           <name>SAR_CLK</name>
           <description>SAR Clock Selection Register</description>
-          <addressOffset>0x40005B27</addressOffset>
+          <addressOffset>0x40005B2F</addressOffset>
           <size>8</size>
           <access>read-write</access>
           <resetValue>0</resetValue>
@@ -300,7 +300,7 @@
         <register>
           <name>SAR_WRK</name>
           <description>SAR working register</description>
-          <addressOffset>0x40005BA0</addressOffset>
+          <addressOffset>0x40005BA2</addressOffset>
           <size>16</size>
           <access>read-write</access>
           <resetValue>0</resetValue>
@@ -311,7 +311,7 @@
     <peripheral>
       <name>LIGHT_BRIGHTNESS_1</name>
       <description>No description available</description>
-      <baseAddress>0x40006470</baseAddress>
+      <baseAddress>0x40006475</baseAddress>
       <addressBlock>
         <offset>0</offset>
         <size>0x0</size>
@@ -332,7 +332,7 @@
     <peripheral>
       <name>LIGHT_BRIGHTNESS_2</name>
       <description>No description available</description>
-      <baseAddress>0x40006576</baseAddress>
+      <baseAddress>0x40006470</baseAddress>
       <addressBlock>
         <offset>0</offset>
         <size>0x0</size>
@@ -353,7 +353,7 @@
     <peripheral>
       <name>LIGHT_BRIGHTNESS_3</name>
       <description>No description available</description>
-      <baseAddress>0x40006476</baseAddress>
+      <baseAddress>0x40006477</baseAddress>
       <addressBlock>
         <offset>0</offset>
         <size>0x0</size>
@@ -374,7 +374,7 @@
     <peripheral>
       <name>Lights_Out_1_LIGHT_COUNTER</name>
       <description>Count7 debug registers</description>
-      <baseAddress>0x40006472</baseAddress>
+      <baseAddress>0x4000647A</baseAddress>
       <addressBlock>
         <offset>0</offset>
         <size>0x0</size>
@@ -696,7 +696,7 @@
     <peripheral>
       <name>Lights_Out_1_LED_STATUS</name>
       <description>No description available</description>
-      <baseAddress>0x40006469</baseAddress>
+      <baseAddress>0x4000656A</baseAddress>
       <addressBlock>
         <offset>0</offset>
         <size>0x0</size>
@@ -851,7 +851,7 @@
     <peripheral>
       <name>LIGHT_BRIGHTNESS_4</name>
       <description>No description available</description>
-      <baseAddress>0x40006578</baseAddress>
+      <baseAddress>0x4000647B</baseAddress>
       <addressBlock>
         <offset>0</offset>
         <size>0x0</size>
@@ -872,7 +872,7 @@
     <peripheral>
       <name>LIGHT_BRIGHTNESS_5</name>
       <description>No description available</description>
-      <baseAddress>0x4000647D</baseAddress>
+      <baseAddress>0x40006579</baseAddress>
       <addressBlock>
         <offset>0</offset>
         <size>0x0</size>
@@ -893,7 +893,7 @@
     <peripheral>
       <name>LIGHT_BRIGHTNESS_6</name>
       <description>No description available</description>
-      <baseAddress>0x4000647B</baseAddress>
+      <baseAddress>0x4000657B</baseAddress>
       <addressBlock>
         <offset>0</offset>
         <size>0x0</size>
@@ -914,7 +914,7 @@
     <peripheral>
       <name>LIGHT_BRIGHTNESS_7</name>
       <description>No description available</description>
-      <baseAddress>0x40006474</baseAddress>
+      <baseAddress>0x40006577</baseAddress>
       <addressBlock>
         <offset>0</offset>
         <size>0x0</size>
@@ -935,7 +935,7 @@
     <peripheral>
       <name>CROSSFADE_CTRL</name>
       <description>No description available</description>
-      <baseAddress>0x40006574</baseAddress>
+      <baseAddress>0x40006575</baseAddress>
       <addressBlock>
         <offset>0</offset>
         <size>0x0</size>
@@ -2434,7 +2434,7 @@
     <peripheral>
       <name>HOT_LEDS</name>
       <description>No description available</description>
-      <baseAddress>0x4000657B</baseAddress>
+      <baseAddress>0x40006478</baseAddress>
       <addressBlock>
         <offset>0</offset>
         <size>0x0</size>
@@ -3650,570 +3650,6 @@
         <register>
           <name>VDAC8_TR</name>
           <description>VDAC8_TR</description>
-          <addressOffset>0x4000460A</addressOffset>
-          <size>8</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0</resetMask>
-          <fields>
-            <field>
-              <name>tr</name>
-              <description>8 Calibration bits</description>
-              <lsb>0</lsb>
-              <msb>7</msb>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>VDAC8_CR0</name>
-          <description>DAC Block Control Register 0</description>
-          <addressOffset>0x40005828</addressOffset>
-          <size>8</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0</resetMask>
-          <fields>
-            <field>
-              <name>mode</name>
-              <description>Mode Bit</description>
-              <lsb>4</lsb>
-              <msb>4</msb>
-              <access>read-only</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>DAC_MODE_V</name>
-                  <description>voltage DAC</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>DAC_MODE_I</name>
-                  <description>current DAC</description>
-                  <value>1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>range</name>
-              <description>Ranges for mode=0 (VDAC) and mode=1 (IDAC)</description>
-              <lsb>2</lsb>
-              <msb>3</msb>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>DAC_RANGE_0</name>
-                  <description>x0=0V to 4*vref (1.024V); 0 to 31.875uA</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>DAC_RANGE_1</name>
-                  <description>x1=0V to 16*vref (4.096V); 0 to 255uA</description>
-                  <value>1</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>DAC_RANGE_2</name>
-                  <description>x0=0V to 4*vref (1.024V); 0 to 2.040mA</description>
-                  <value>2</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>DAC_RANGE_3</name>
-                  <description>x1=0V to 16*vref (4.096V); not used</description>
-                  <value>3</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>hs</name>
-              <description>High Speed Bit</description>
-              <lsb>1</lsb>
-              <msb>1</msb>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>DAC_HS_LOWPOWER</name>
-                  <description>regular (low power)</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>DAC_HS_HIGHSPEED</name>
-                  <description>high speed (higher power)</description>
-                  <value>1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>VDAC8_CR1</name>
-          <description>DAC Block Control Register 1</description>
-          <addressOffset>0x40005829</addressOffset>
-          <size>8</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0</resetMask>
-          <fields>
-            <field>
-              <name>mx_data</name>
-              <description>Select DATA source</description>
-              <lsb>5</lsb>
-              <msb>5</msb>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>MX_DATA_REG</name>
-                  <description>Select register source (DACxn_D)</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>MX_DATA_UDB</name>
-                  <description>Select UDB source</description>
-                  <value>1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>mx_idir</name>
-              <description>Mux selection for DAC current direction control</description>
-              <lsb>3</lsb>
-              <msb>3</msb>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>MX_IDIR_REG</name>
-                  <description>Register source idirbit selected</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>MX_IDIR_UDB</name>
-                  <description>UDB ictrl selected</description>
-                  <value>1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>mx_ioff</name>
-              <description>Mux selection for DAC current off control</description>
-              <lsb>1</lsb>
-              <msb>1</msb>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>MX_IOFF_REG</name>
-                  <description>Register source ioffbit selected</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>MX_IOFF_UDB</name>
-                  <description>UDB ictrl selected</description>
-                  <value>1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>reset_udb_en</name>
-              <description>DAC reset enable</description>
-              <lsb>4</lsb>
-              <msb>4</msb>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>RESET_UDB_EN_DISABLE</name>
-                  <description>Disable DAC Reset Source from UDB (System reset always resets)</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>RESET_UDB_EN_ENABLE</name>
-                  <description>Enable DAC Reset Source from UDB</description>
-                  <value>1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>VDAC8_SW0</name>
-          <description>DAC Analog Routing Register 0</description>
-          <addressOffset>0x40005A90</addressOffset>
-          <size>8</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0</resetMask>
-          <fields>
-            <field>
-              <name>v_ag1</name>
-              <description>Connect voltage output to analog global of same side</description>
-              <lsb>1</lsb>
-              <msb>1</msb>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>AG_NC</name>
-                  <description>not connected</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>AG_CONNECTED</name>
-                  <description>Connect to Analog Global</description>
-                  <value>1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>v_ag0</name>
-              <description>Connect voltage output to analog global of same side</description>
-              <lsb>0</lsb>
-              <msb>0</msb>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>AG_NC</name>
-                  <description>not connected</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>AG_CONNECTED</name>
-                  <description>Connect to Analog Global</description>
-                  <value>1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>VDAC8_SW2</name>
-          <description>DAC Analog Routing Register 2</description>
-          <addressOffset>0x40005A92</addressOffset>
-          <size>8</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0</resetMask>
-          <fields>
-            <field>
-              <name>v_abus3</name>
-              <description>Connect voltage output to analog (local) bus of the same side </description>
-              <lsb>3</lsb>
-              <msb>3</msb>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>ABUS_NC</name>
-                  <description>not connected</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>ABUS_CONNECTED</name>
-                  <description>Connect to Analog (local) Bus</description>
-                  <value>1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>v_abus1</name>
-              <description>Connect voltage output to analog (local) bus of the same side </description>
-              <lsb>1</lsb>
-              <msb>1</msb>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>ABUS_NC</name>
-                  <description>not connected</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>ABUS_CONNECTED</name>
-                  <description>Connect to Analog (local) Bus</description>
-                  <value>1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>VDAC8_SW3</name>
-          <description>DAC Analog Routing Register 3</description>
-          <addressOffset>0x40005A93</addressOffset>
-          <size>8</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0</resetMask>
-          <fields>
-            <field>
-              <name>iout</name>
-              <description>Connect current output to pad</description>
-              <lsb>7</lsb>
-              <msb>7</msb>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>IOUT_NC</name>
-                  <description>not connected</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>IOUT_CONNECT</name>
-                  <description>Connect to pad</description>
-                  <value>1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>i_amx</name>
-              <description>Connect current output to Analog Mux Bus</description>
-              <lsb>4</lsb>
-              <msb>4</msb>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>AMX_NC</name>
-                  <description>not connected</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>AMX_CONNECTED</name>
-                  <description>Connect to AMUXBUS</description>
-                  <value>1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>v_amx</name>
-              <description>Connect voltage output to Analog Mux Bus</description>
-              <lsb>0</lsb>
-              <msb>0</msb>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>AMX_NC</name>
-                  <description>not connected</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>AMX_CONNECTED</name>
-                  <description>Connect to AMUXBUS</description>
-                  <value>1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>VDAC8_SW4</name>
-          <description>DAC Analog Routing Register 4</description>
-          <addressOffset>0x40005A94</addressOffset>
-          <size>8</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0</resetMask>
-          <fields>
-            <field>
-              <name>i_ag1</name>
-              <description>Connect current output to analog global of same side</description>
-              <lsb>1</lsb>
-              <msb>1</msb>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>AG_NC</name>
-                  <description>not connected</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>AG_CONNECTED</name>
-                  <description>Connect to Analog Global</description>
-                  <value>1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>i_ag0</name>
-              <description>Connect current output to analog global of same side</description>
-              <lsb>0</lsb>
-              <msb>0</msb>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>AG_NC</name>
-                  <description>not connected</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>AG_CONNECTED</name>
-                  <description>Connect to Analog Global</description>
-                  <value>1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>VDAC8_STROBE</name>
-          <description>DAC Strobe Register</description>
-          <addressOffset>0x40005A97</addressOffset>
-          <size>8</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0</resetMask>
-          <fields>
-            <field>
-              <name>mx_strobe</name>
-              <description>Strobe source selection</description>
-              <lsb>0</lsb>
-              <msb>2</msb>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>MX_STROBE_BUSWRITE</name>
-                  <description>Select bus write strobe source (Enable gater regardless of strobe_en setting)</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>MX_STROBE_UDB_SRC</name>
-                  <description>Select UDB strobe source</description>
-                  <value>1</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>MX_STROBE_NC_2</name>
-                  <description>NC</description>
-                  <value>2</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>MX_STROBE_NC_3</name>
-                  <description>NC</description>
-                  <value>3</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>MX_STROBE_CLK_A0_DIG</name>
-                  <description>Select clk_a0_dig</description>
-                  <value>4</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>MX_STROBE_CLK_A1_DIG</name>
-                  <description>Select clk_a1_dig</description>
-                  <value>5</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>MX_STROBE_CLK_A2_DIG</name>
-                  <description>Select clk_a2_dig</description>
-                  <value>6</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>MX_STROBE_CLK_A3_DIG</name>
-                  <description>Select clk_a3_dig</description>
-                  <value>7</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-            <field>
-              <name>strobe_en</name>
-              <description>Strobe gating control (See mx_strobe==3'h0)</description>
-              <lsb>3</lsb>
-              <msb>3</msb>
-              <access>read-write</access>
-              <enumeratedValues>
-                <enumeratedValue>
-                  <name>STROBE_EN_0</name>
-                  <description>disable strobe</description>
-                  <value>0</value>
-                </enumeratedValue>
-                <enumeratedValue>
-                  <name>STROBE_EN_1</name>
-                  <description>enable strobe</description>
-                  <value>1</value>
-                </enumeratedValue>
-              </enumeratedValues>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>VDAC8_DATA</name>
-          <description>DAC Data Register</description>
-          <addressOffset>0x40005B82</addressOffset>
-          <size>8</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0</resetMask>
-          <fields>
-            <field>
-              <name>data</name>
-              <description>8 DAC Data bits</description>
-              <lsb>0</lsb>
-              <msb>7</msb>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-      </registers>
-    </peripheral>
-    <peripheral>
-      <name>SLED_STATE_SEL</name>
-      <description>No description available</description>
-      <baseAddress>0x40006479</baseAddress>
-      <addressBlock>
-        <offset>0</offset>
-        <size>0x0</size>
-        <usage>registers</usage>
-      </addressBlock>
-      <registers>
-        <register>
-          <name>SLED_STATE_SEL_CONTROL_REG</name>
-          <description>No description available</description>
-          <addressOffset>0x0</addressOffset>
-          <size>8</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0</resetMask>
-        </register>
-      </registers>
-    </peripheral>
-    <peripheral>
-      <name>BRIGHTNESS_RAMP_VDAC8</name>
-      <description>No description available</description>
-      <baseAddress>0x0</baseAddress>
-      <addressBlock>
-        <offset>0</offset>
-        <size>0x0</size>
-        <usage>registers</usage>
-      </addressBlock>
-      <registers>
-        <register>
-          <name>VDAC8_PM_ACT_CFG</name>
-          <description>Active Power Mode Configuration Register 8</description>
-          <addressOffset>0x400043A8</addressOffset>
-          <size>8</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0</resetMask>
-          <fields>
-            <field>
-              <name>en_dac</name>
-              <description>Enable DAC block(s). Populated subsystems are counted from the LSB</description>
-              <lsb>0</lsb>
-              <msb>4</msb>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>VDAC8_PM_STBY_CFG</name>
-          <description>Standby Power Mode Configuration Register 8</description>
-          <addressOffset>0x400043B8</addressOffset>
-          <size>8</size>
-          <access>read-write</access>
-          <resetValue>0</resetValue>
-          <resetMask>0</resetMask>
-          <fields>
-            <field>
-              <name>en_dac</name>
-              <description>Enable DAC block(s). Populated subsystems are counted from the LSB</description>
-              <lsb>0</lsb>
-              <msb>4</msb>
-              <access>read-write</access>
-            </field>
-          </fields>
-        </register>
-        <register>
-          <name>VDAC8_TR</name>
-          <description>VDAC8_TR</description>
           <addressOffset>0x40004608</addressOffset>
           <size>8</size>
           <access>read-write</access>
@@ -4692,6 +4128,570 @@
           <name>VDAC8_DATA</name>
           <description>DAC Data Register</description>
           <addressOffset>0x40005B80</addressOffset>
+          <size>8</size>
+          <access>read-write</access>
+          <resetValue>0</resetValue>
+          <resetMask>0</resetMask>
+          <fields>
+            <field>
+              <name>data</name>
+              <description>8 DAC Data bits</description>
+              <lsb>0</lsb>
+              <msb>7</msb>
+              <access>read-write</access>
+            </field>
+          </fields>
+        </register>
+      </registers>
+    </peripheral>
+    <peripheral>
+      <name>SLED_STATE_SEL</name>
+      <description>No description available</description>
+      <baseAddress>0x40006576</baseAddress>
+      <addressBlock>
+        <offset>0</offset>
+        <size>0x0</size>
+        <usage>registers</usage>
+      </addressBlock>
+      <registers>
+        <register>
+          <name>SLED_STATE_SEL_CONTROL_REG</name>
+          <description>No description available</description>
+          <addressOffset>0x0</addressOffset>
+          <size>8</size>
+          <access>read-write</access>
+          <resetValue>0</resetValue>
+          <resetMask>0</resetMask>
+        </register>
+      </registers>
+    </peripheral>
+    <peripheral>
+      <name>BRIGHTNESS_RAMP_VDAC8</name>
+      <description>No description available</description>
+      <baseAddress>0x0</baseAddress>
+      <addressBlock>
+        <offset>0</offset>
+        <size>0x0</size>
+        <usage>registers</usage>
+      </addressBlock>
+      <registers>
+        <register>
+          <name>VDAC8_PM_ACT_CFG</name>
+          <description>Active Power Mode Configuration Register 8</description>
+          <addressOffset>0x400043A8</addressOffset>
+          <size>8</size>
+          <access>read-write</access>
+          <resetValue>0</resetValue>
+          <resetMask>0</resetMask>
+          <fields>
+            <field>
+              <name>en_dac</name>
+              <description>Enable DAC block(s). Populated subsystems are counted from the LSB</description>
+              <lsb>0</lsb>
+              <msb>4</msb>
+              <access>read-write</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>VDAC8_PM_STBY_CFG</name>
+          <description>Standby Power Mode Configuration Register 8</description>
+          <addressOffset>0x400043B8</addressOffset>
+          <size>8</size>
+          <access>read-write</access>
+          <resetValue>0</resetValue>
+          <resetMask>0</resetMask>
+          <fields>
+            <field>
+              <name>en_dac</name>
+              <description>Enable DAC block(s). Populated subsystems are counted from the LSB</description>
+              <lsb>0</lsb>
+              <msb>4</msb>
+              <access>read-write</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>VDAC8_TR</name>
+          <description>VDAC8_TR</description>
+          <addressOffset>0x4000460A</addressOffset>
+          <size>8</size>
+          <access>read-write</access>
+          <resetValue>0</resetValue>
+          <resetMask>0</resetMask>
+          <fields>
+            <field>
+              <name>tr</name>
+              <description>8 Calibration bits</description>
+              <lsb>0</lsb>
+              <msb>7</msb>
+              <access>read-write</access>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>VDAC8_CR0</name>
+          <description>DAC Block Control Register 0</description>
+          <addressOffset>0x40005828</addressOffset>
+          <size>8</size>
+          <access>read-write</access>
+          <resetValue>0</resetValue>
+          <resetMask>0</resetMask>
+          <fields>
+            <field>
+              <name>mode</name>
+              <description>Mode Bit</description>
+              <lsb>4</lsb>
+              <msb>4</msb>
+              <access>read-only</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>DAC_MODE_V</name>
+                  <description>voltage DAC</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DAC_MODE_I</name>
+                  <description>current DAC</description>
+                  <value>1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>range</name>
+              <description>Ranges for mode=0 (VDAC) and mode=1 (IDAC)</description>
+              <lsb>2</lsb>
+              <msb>3</msb>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>DAC_RANGE_0</name>
+                  <description>x0=0V to 4*vref (1.024V); 0 to 31.875uA</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DAC_RANGE_1</name>
+                  <description>x1=0V to 16*vref (4.096V); 0 to 255uA</description>
+                  <value>1</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DAC_RANGE_2</name>
+                  <description>x0=0V to 4*vref (1.024V); 0 to 2.040mA</description>
+                  <value>2</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DAC_RANGE_3</name>
+                  <description>x1=0V to 16*vref (4.096V); not used</description>
+                  <value>3</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>hs</name>
+              <description>High Speed Bit</description>
+              <lsb>1</lsb>
+              <msb>1</msb>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>DAC_HS_LOWPOWER</name>
+                  <description>regular (low power)</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DAC_HS_HIGHSPEED</name>
+                  <description>high speed (higher power)</description>
+                  <value>1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>VDAC8_CR1</name>
+          <description>DAC Block Control Register 1</description>
+          <addressOffset>0x40005829</addressOffset>
+          <size>8</size>
+          <access>read-write</access>
+          <resetValue>0</resetValue>
+          <resetMask>0</resetMask>
+          <fields>
+            <field>
+              <name>mx_data</name>
+              <description>Select DATA source</description>
+              <lsb>5</lsb>
+              <msb>5</msb>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>MX_DATA_REG</name>
+                  <description>Select register source (DACxn_D)</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MX_DATA_UDB</name>
+                  <description>Select UDB source</description>
+                  <value>1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>mx_idir</name>
+              <description>Mux selection for DAC current direction control</description>
+              <lsb>3</lsb>
+              <msb>3</msb>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>MX_IDIR_REG</name>
+                  <description>Register source idirbit selected</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MX_IDIR_UDB</name>
+                  <description>UDB ictrl selected</description>
+                  <value>1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>mx_ioff</name>
+              <description>Mux selection for DAC current off control</description>
+              <lsb>1</lsb>
+              <msb>1</msb>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>MX_IOFF_REG</name>
+                  <description>Register source ioffbit selected</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MX_IOFF_UDB</name>
+                  <description>UDB ictrl selected</description>
+                  <value>1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>reset_udb_en</name>
+              <description>DAC reset enable</description>
+              <lsb>4</lsb>
+              <msb>4</msb>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>RESET_UDB_EN_DISABLE</name>
+                  <description>Disable DAC Reset Source from UDB (System reset always resets)</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>RESET_UDB_EN_ENABLE</name>
+                  <description>Enable DAC Reset Source from UDB</description>
+                  <value>1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>VDAC8_SW0</name>
+          <description>DAC Analog Routing Register 0</description>
+          <addressOffset>0x40005A90</addressOffset>
+          <size>8</size>
+          <access>read-write</access>
+          <resetValue>0</resetValue>
+          <resetMask>0</resetMask>
+          <fields>
+            <field>
+              <name>v_ag1</name>
+              <description>Connect voltage output to analog global of same side</description>
+              <lsb>1</lsb>
+              <msb>1</msb>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>AG_NC</name>
+                  <description>not connected</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>AG_CONNECTED</name>
+                  <description>Connect to Analog Global</description>
+                  <value>1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>v_ag0</name>
+              <description>Connect voltage output to analog global of same side</description>
+              <lsb>0</lsb>
+              <msb>0</msb>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>AG_NC</name>
+                  <description>not connected</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>AG_CONNECTED</name>
+                  <description>Connect to Analog Global</description>
+                  <value>1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>VDAC8_SW2</name>
+          <description>DAC Analog Routing Register 2</description>
+          <addressOffset>0x40005A92</addressOffset>
+          <size>8</size>
+          <access>read-write</access>
+          <resetValue>0</resetValue>
+          <resetMask>0</resetMask>
+          <fields>
+            <field>
+              <name>v_abus3</name>
+              <description>Connect voltage output to analog (local) bus of the same side </description>
+              <lsb>3</lsb>
+              <msb>3</msb>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>ABUS_NC</name>
+                  <description>not connected</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ABUS_CONNECTED</name>
+                  <description>Connect to Analog (local) Bus</description>
+                  <value>1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>v_abus1</name>
+              <description>Connect voltage output to analog (local) bus of the same side </description>
+              <lsb>1</lsb>
+              <msb>1</msb>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>ABUS_NC</name>
+                  <description>not connected</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>ABUS_CONNECTED</name>
+                  <description>Connect to Analog (local) Bus</description>
+                  <value>1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>VDAC8_SW3</name>
+          <description>DAC Analog Routing Register 3</description>
+          <addressOffset>0x40005A93</addressOffset>
+          <size>8</size>
+          <access>read-write</access>
+          <resetValue>0</resetValue>
+          <resetMask>0</resetMask>
+          <fields>
+            <field>
+              <name>iout</name>
+              <description>Connect current output to pad</description>
+              <lsb>7</lsb>
+              <msb>7</msb>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>IOUT_NC</name>
+                  <description>not connected</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>IOUT_CONNECT</name>
+                  <description>Connect to pad</description>
+                  <value>1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>i_amx</name>
+              <description>Connect current output to Analog Mux Bus</description>
+              <lsb>4</lsb>
+              <msb>4</msb>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>AMX_NC</name>
+                  <description>not connected</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>AMX_CONNECTED</name>
+                  <description>Connect to AMUXBUS</description>
+                  <value>1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>v_amx</name>
+              <description>Connect voltage output to Analog Mux Bus</description>
+              <lsb>0</lsb>
+              <msb>0</msb>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>AMX_NC</name>
+                  <description>not connected</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>AMX_CONNECTED</name>
+                  <description>Connect to AMUXBUS</description>
+                  <value>1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>VDAC8_SW4</name>
+          <description>DAC Analog Routing Register 4</description>
+          <addressOffset>0x40005A94</addressOffset>
+          <size>8</size>
+          <access>read-write</access>
+          <resetValue>0</resetValue>
+          <resetMask>0</resetMask>
+          <fields>
+            <field>
+              <name>i_ag1</name>
+              <description>Connect current output to analog global of same side</description>
+              <lsb>1</lsb>
+              <msb>1</msb>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>AG_NC</name>
+                  <description>not connected</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>AG_CONNECTED</name>
+                  <description>Connect to Analog Global</description>
+                  <value>1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>i_ag0</name>
+              <description>Connect current output to analog global of same side</description>
+              <lsb>0</lsb>
+              <msb>0</msb>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>AG_NC</name>
+                  <description>not connected</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>AG_CONNECTED</name>
+                  <description>Connect to Analog Global</description>
+                  <value>1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>VDAC8_STROBE</name>
+          <description>DAC Strobe Register</description>
+          <addressOffset>0x40005A97</addressOffset>
+          <size>8</size>
+          <access>read-write</access>
+          <resetValue>0</resetValue>
+          <resetMask>0</resetMask>
+          <fields>
+            <field>
+              <name>mx_strobe</name>
+              <description>Strobe source selection</description>
+              <lsb>0</lsb>
+              <msb>2</msb>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>MX_STROBE_BUSWRITE</name>
+                  <description>Select bus write strobe source (Enable gater regardless of strobe_en setting)</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MX_STROBE_UDB_SRC</name>
+                  <description>Select UDB strobe source</description>
+                  <value>1</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MX_STROBE_NC_2</name>
+                  <description>NC</description>
+                  <value>2</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MX_STROBE_NC_3</name>
+                  <description>NC</description>
+                  <value>3</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MX_STROBE_CLK_A0_DIG</name>
+                  <description>Select clk_a0_dig</description>
+                  <value>4</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MX_STROBE_CLK_A1_DIG</name>
+                  <description>Select clk_a1_dig</description>
+                  <value>5</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MX_STROBE_CLK_A2_DIG</name>
+                  <description>Select clk_a2_dig</description>
+                  <value>6</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>MX_STROBE_CLK_A3_DIG</name>
+                  <description>Select clk_a3_dig</description>
+                  <value>7</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+            <field>
+              <name>strobe_en</name>
+              <description>Strobe gating control (See mx_strobe==3'h0)</description>
+              <lsb>3</lsb>
+              <msb>3</msb>
+              <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>STROBE_EN_0</name>
+                  <description>disable strobe</description>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>STROBE_EN_1</name>
+                  <description>enable strobe</description>
+                  <value>1</value>
+                </enumeratedValue>
+              </enumeratedValues>
+            </field>
+          </fields>
+        </register>
+        <register>
+          <name>VDAC8_DATA</name>
+          <description>DAC Data Register</description>
+          <addressOffset>0x40005B82</addressOffset>
           <size>8</size>
           <access>read-write</access>
           <resetValue>0</resetValue>

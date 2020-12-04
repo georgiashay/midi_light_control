@@ -109,7 +109,7 @@ uint8 currentKeyNumber = 0u;
 
 uint8 storedBrightnesses[8][7] = {
     {0u, 20u, 40u, 60u, 80u, 100u, 120u},
-    {0u, 0u, 0u, 0u, 0u, 127u, 0u},
+    {63u, 63u, 63u, 63u, 63u, 63u, 63u},
     {0u, 0u, 0u, 0u, 0u, 127u, 127u},
     {0u, 0u, 0u, 0u, 127u, 0u, 0u},
     {0u, 0u, 0u, 0u, 127u, 0u, 127u},
@@ -118,12 +118,25 @@ uint8 storedBrightnesses[8][7] = {
     {0u, 0u, 0u, 127u, 0u, 0u, 0u}
 };
 
+//uint8 storedBrightnesses[8][7] = {
+//    {0u, 0u, 0u, 0u, 0u, 0u, 0u},
+//    {0u, 0u, 0u, 0u, 0u, 0u, 127u},
+//    {0u, 0u, 0u, 0u, 0u, 127u, 127u},
+//    {0u, 0u, 0u, 0u, 127u, 127u, 127u},
+//    {0u, 0u, 0u, 127u, 127u, 127u, 127u},
+//    {0u, 0u, 127u, 127u, 127u, 127u, 127u},
+//    {0u, 127u, 127u, 127u, 127u, 127u, 127u},
+//    {127u, 127u, 127u, 127u, 127u, 127u, 127u},
+//};
+
 uint8 mode = PLAYBACK_MODE;
 uint8 preset = 0;
 uint8 playback_preset = 0;
 uint8 last_preset = 7;
 short crossfading = 0;
 uint8 hotLeds = 0u;
+volatile uint16 last_divider = 1000;
+volatile uint8 last_pot_value = 0;
 
 /*******************************************************************************
 * Function Name: SleepIsr
@@ -162,28 +175,28 @@ int advancePreset(int p) {
         
         switch(newPreset) {
             case 0u: 
-                presetAvailable = SW1_Read();
+                presetAvailable = SW8_Read();
                 break;
             case 1u:
-                presetAvailable = SW2_Read();
-                break;
-            case 2u:
-                presetAvailable = SW3_Read();
-                break;
-            case 3u:
-                presetAvailable = SW4_Read();
-                break;
-            case 4u:
-                presetAvailable = SW5_Read();
-                break;
-            case 5u:
-                presetAvailable = SW6_Read();
-                break;
-            case 6u:
                 presetAvailable = SW7_Read();
                 break;
+            case 2u:
+                presetAvailable = SW6_Read();
+                break;
+            case 3u:
+                presetAvailable = SW5_Read();
+                break;
+            case 4u:
+                presetAvailable = SW4_Read();
+                break;
+            case 5u:
+                presetAvailable = SW3_Read();
+                break;
+            case 6u:
+                presetAvailable = SW2_Read();
+                break;
             case 7u:
-                presetAvailable = SW8_Read();
+                presetAvailable = SW1_Read();
                 break;
         }
         
@@ -390,24 +403,35 @@ int main()
             HOT_LEDS_Write(hotPreset);
 //            SLED_STATE_SEL_Write(SLED_MODE_BRIGHTNESSES);
         }
-        
-        uint16 div = Crossfade_Clock_GetDividerRegister();
-        
+
         if (POT_VALUE_IsEndConversion(POT_VALUE_RETURN_STATUS)) {
             uint8 potValue = POT_VALUE_GetResult8();
             
-            // pot value of 255 (LEFT) = 50kHz
-            // pot value of 0 (RIGHT) = 50Hz
-            
-            uint16 divider = (1998 * potValue)/255 + 2;
-            if (divider > 2000) {
-                divider = 2000;
+            int diff = potValue - last_pot_value;
+            diff = diff > 0 ? diff : -diff;
+
+
+            if (diff > 16) {
+                
+                last_pot_value = potValue;
+
+                
+                // pot value of 255 (LEFT) = 50kHz
+                // pot value of 0 (RIGHT) = 50Hz
+                
+                uint16 divider = (1998 * potValue)/255 + 2;
+                if (divider > 2000) {
+                    divider = 2000;
+                }
+                if (divider < 2) {
+                    divider = 2;
+                }
+                
+                if (divider != last_divider) {
+                    Crossfade_Clock_SetDividerRegister(divider, 0u);
+                    last_divider = divider;
+                }
             }
-            if (divider < 2) {
-                divider = 2;
-            }
-            
-            Crossfade_Clock_SetDividerRegister(divider, 0u);
         }
         
     }
@@ -422,18 +446,11 @@ int main()
 *******************************************************************************/
 void USB_callbackLocalMidiEvent(uint8 cable, uint8 *midiMsg) CYREENTRANT
 {
-    
     uint8 keyNumber;
     short isLightKey = 0u;
     
     short isNoteOn = (midiMsg[MIDI_MSG_TYPE] == USB_MIDI_NOTE_ON) && (midiMsg[MIDI_NOTE_VELOCITY] != 0u);
     
-    if (isNoteOn) {
-        uint8 readNumber = midiMsg[MIDI_NOTE_NUMBER];
-        if (readNumber == 0u) {
-            int hi = 0;
-        }
-    }
     switch (midiMsg[MIDI_NOTE_NUMBER]) {
         case KEY_LIGHT_0 :
             keyNumber = 0;

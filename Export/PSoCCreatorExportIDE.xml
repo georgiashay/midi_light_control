@@ -187,9 +187,6 @@
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\POT_VALUE_IRQ.h</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\POT_VALUE_theACLK.c</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\POT_VALUE_theACLK.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\POT_VALUE_Bypass_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\POT_VALUE_Bypass.c</File>
-          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\POT_VALUE_Bypass.h</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\SW8_aliases.h</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\SW8.c</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\SW8.h</File>
