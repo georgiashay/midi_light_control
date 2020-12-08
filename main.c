@@ -136,10 +136,13 @@ CY_ISR(SleepIsr)
 int advancePreset(int p) {
     short presetAvailable = 0u;
     int newPreset = p;
+    
+    // Go through presets until one is available
     while (!presetAvailable) {
         newPreset++;
         newPreset %= 8;
         
+        // Check switches to determine if this next preset is available
         switch(newPreset) {
             case 0u: 
                 presetAvailable = SW8_Read();
@@ -169,8 +172,10 @@ int advancePreset(int p) {
         
         if (newPreset == p) {
             if (presetAvailable) {
+                // This is the only preset available, next preset is same as current preset
                 return p;
             } else {
+                // This preset is not available, and none are available
                 return 8;
             }
         }
@@ -194,6 +199,7 @@ int main()
     /* Start USBFS device 0 with VDDD operation */
     USB_Start(DEVICE, USB_DWR_VDDD_OPERATION); 
     
+    /* Start necessary components */
     BRIGHTNESS_RAMP_Start();
     TRIANGLE_SEL_Start();
     RAMP_COMP_Start();
@@ -203,11 +209,11 @@ int main()
     
     POT_VALUE_Start();
     POT_VALUE_StartConvert();
-    
-//    CROSSFADE_COUNTER_Start();
-        
+            
     while(1u)
     {
+        // The following code is from the MIDI example
+        
         /* Host can send double SET_INTERFACE request */
         if(0u != USB_IsConfigurationChanged())
         {
@@ -305,9 +311,11 @@ int main()
             }
         }
         
+        // Update the duty cycle of the buck converter, if necessary
         Lights_Out_1_Poll();
         
         if (mode == PRESET_MODE) {
+            // In preset mode, display brightnesses of that saved preset on the lights
             LIGHT_BRIGHTNESS_1_Write(storedBrightnesses[preset][0]);
             LIGHT_BRIGHTNESS_2_Write(storedBrightnesses[preset][1]);
             LIGHT_BRIGHTNESS_3_Write(storedBrightnesses[preset][2]);
@@ -315,13 +323,17 @@ int main()
             LIGHT_BRIGHTNESS_5_Write(storedBrightnesses[preset][4]);
             LIGHT_BRIGHTNESS_6_Write(storedBrightnesses[preset][5]);
             LIGHT_BRIGHTNESS_7_Write(storedBrightnesses[preset][6]);
+            // Display the same brightnesses on the control panel
             SLED_STATE_SEL_Write(SLED_MODE_BRIGHTNESSES);
             HOT_LEDS_Write(hotLeds);
         } else if (mode == PROGRAM_MODE) {
+            // Don't change the light brightnesses from their last setting in program mode
+            // Set the appropriate control panel LED to "on" at the # of the selected preset
             uint8 hotPreset = 1u << preset;
             HOT_LEDS_Write(hotPreset);
             SLED_STATE_SEL_Write(SLED_MODE_ONE_HOT);
         } else if (mode == PLAYBACK_MODE && playback_preset >= 8) {
+            // No scenes are turned on.  Display 0 on the lights
             LIGHT_BRIGHTNESS_1_Write(0u);
             LIGHT_BRIGHTNESS_2_Write(0u);
             LIGHT_BRIGHTNESS_3_Write(0u);
@@ -329,9 +341,11 @@ int main()
             LIGHT_BRIGHTNESS_5_Write(0u);
             LIGHT_BRIGHTNESS_6_Write(0u);
             LIGHT_BRIGHTNESS_7_Write(0u);
+            // Display 0 on the control panel lights
             HOT_LEDS_Write(0u);
             SLED_STATE_SEL_Write(SLED_MODE_ONE_HOT);
         } else if (mode == PLAYBACK_MODE && crossfading == 0u) {
+            // In playback mode, display the current preset brightnesses on the light
             LIGHT_BRIGHTNESS_1_Write(storedBrightnesses[playback_preset][0]);
             LIGHT_BRIGHTNESS_2_Write(storedBrightnesses[playback_preset][1]);
             LIGHT_BRIGHTNESS_3_Write(storedBrightnesses[playback_preset][2]);
@@ -339,14 +353,16 @@ int main()
             LIGHT_BRIGHTNESS_5_Write(storedBrightnesses[playback_preset][4]);
             LIGHT_BRIGHTNESS_6_Write(storedBrightnesses[playback_preset][5]);
             LIGHT_BRIGHTNESS_7_Write(storedBrightnesses[playback_preset][6]);
+            // Turn one control panel LED on, for the current selected preset
             SLED_STATE_SEL_Write(SLED_MODE_ONE_HOT);
             uint8 hotPreset = 1u << playback_preset; 
             HOT_LEDS_Write(hotPreset);
-//            SLED_STATE_SEL_Write(SLED_MODE_BRIGHTNESSES);
         } else if (mode == PLAYBACK_MODE && crossfading == 1u) {
+            // Actively crossfading between presets
             uint8 crossfade_val = CROSSFADE_VAL_Read();
             if (crossfade_val < 255 && last_preset < 8) {
                 float fraction = crossfade_val/255.0;
+                // Interpolate between the two presets
                 LIGHT_BRIGHTNESS_1_Write(fraction * storedBrightnesses[playback_preset][0] + (1.0-fraction) * storedBrightnesses[last_preset][0]);
                 LIGHT_BRIGHTNESS_2_Write(fraction * storedBrightnesses[playback_preset][1] + (1.0-fraction) * storedBrightnesses[last_preset][1]);
                 LIGHT_BRIGHTNESS_3_Write(fraction * storedBrightnesses[playback_preset][2] + (1.0-fraction) * storedBrightnesses[last_preset][2]);
@@ -355,6 +371,7 @@ int main()
                 LIGHT_BRIGHTNESS_6_Write(fraction * storedBrightnesses[playback_preset][5] + (1.0-fraction) * storedBrightnesses[last_preset][5]);
                 LIGHT_BRIGHTNESS_7_Write(fraction * storedBrightnesses[playback_preset][6] + (1.0-fraction) * storedBrightnesses[last_preset][6]);
             } else {
+                // Crossfade over, move to next preset fully
                 LIGHT_BRIGHTNESS_1_Write(storedBrightnesses[playback_preset][0]);
                 LIGHT_BRIGHTNESS_2_Write(storedBrightnesses[playback_preset][1]);
                 LIGHT_BRIGHTNESS_3_Write(storedBrightnesses[playback_preset][2]);
@@ -365,10 +382,10 @@ int main()
                 CROSSFADE_CTRL_Write(2u); // Reset = true, Enable = false
                 crossfading = 0u;
             }
+            // Status LEDs should just turn on LED for next preset
             SLED_STATE_SEL_Write(SLED_MODE_ONE_HOT);
             uint8 hotPreset = 1u << playback_preset; 
             HOT_LEDS_Write(hotPreset);
-//            SLED_STATE_SEL_Write(SLED_MODE_BRIGHTNESSES);
         }
 
         if (POT_VALUE_IsEndConversion(POT_VALUE_RETURN_STATUS)) {
@@ -377,15 +394,15 @@ int main()
             int diff = potValue - last_pot_value;
             diff = diff > 0 ? diff : -diff;
 
-
+            // Check if potentiometer has seen a significant change
             if (diff > 16) {
                 
                 last_pot_value = potValue;
 
-                
                 // pot value of 255 (LEFT) = 50kHz
                 // pot value of 0 (RIGHT) = 50Hz
                 
+                // Set crossfade clock to appropriate frequency
                 uint16 divider = (1998 * potValue)/255 + 2;
                 if (divider > 2000) {
                     divider = 2000;
@@ -418,6 +435,7 @@ void USB_callbackLocalMidiEvent(uint8 cable, uint8 *midiMsg) CYREENTRANT
     
     short isNoteOn = (midiMsg[MIDI_MSG_TYPE] == USB_MIDI_NOTE_ON) && (midiMsg[MIDI_NOTE_VELOCITY] != 0u);
     
+    // Decode midi note number into action
     switch (midiMsg[MIDI_NOTE_NUMBER]) {
         case KEY_LIGHT_0 :
             keyNumber = 0;
@@ -500,34 +518,17 @@ void USB_callbackLocalMidiEvent(uint8 cable, uint8 *midiMsg) CYREENTRANT
     uint8 oneHotKey = 1u << keyNumber;    
     
     if (mode == PRESET_MODE && isLightKey) {
-        if (midiMsg[MIDI_MSG_TYPE] == USB_MIDI_NOTE_OFF || (midiMsg[MIDI_MSG_TYPE] == USB_MIDI_NOTE_ON && midiMsg[MIDI_NOTE_VELOCITY] == 0u)) {
-            //MIDI_NOTES_REG_Write(oneHotKey);
-//            MIDI_BIN_REG_Write(0u);
-//            if (keyNumber == currentKeyNumber) {
-//                NOTE_ON_REG_Write(0u);
-//            }
-            
+        if (midiMsg[MIDI_MSG_TYPE] == USB_MIDI_NOTE_OFF || 
+            (midiMsg[MIDI_MSG_TYPE] == USB_MIDI_NOTE_ON && midiMsg[MIDI_NOTE_VELOCITY] == 0u)) {
+            // Set control LED to active
             hotLeds &= ~(oneHotKey);
-            HOT_LEDS_Write(hotLeds);
-           
-//            uint16 indexHigh = WAVE_STATUS_HIGH_Read();
-//            uint16 indexLow = WAVE_STATUS_HIGH_Read();
-//            uint16 waveIndex = (indexHigh << 8) + indexLow;
-//            // Fudge factor for signaling delays from Keyboard -> Computer -> PSoC -> Register
-//            waveIndex += 100;
-//            waveIndex %= 2048;
             
+            // Update stored brightnesses based on stopping point in brightness ramp
             storedBrightnesses[preset][keyNumber] = BRIGHTNESS_RAMP_VDAC8_Data >> 1;
-
-            // MIDI_NOTES_REG_Write(MIDI_NOTES_REG_Read() & ~oneHotKey);
         } else if (midiMsg[MIDI_MSG_TYPE] == USB_MIDI_NOTE_ON) {
-            //MIDI_NOTES_REG_Write(0u);
-//            MIDI_BIN_REG_Write(keyNumber);
-//            NOTE_ON_REG_Write(1u);
+            // Set control LED to off
             currentKeyNumber = keyNumber;
             hotLeds |= oneHotKey;
-            HOT_LEDS_Write(hotLeds);
-            //MIDI_NOTES_REG_Write(MIDI_NOTES_REG_Read() | oneHotKey);
         }
     }
     
