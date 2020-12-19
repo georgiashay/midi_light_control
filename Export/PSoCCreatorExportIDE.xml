@@ -294,6 +294,17 @@
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\SLED_STATE_SEL.h</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\SLED_STATE_SEL.c</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\SLED_STATE_SEL_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\RV2_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\RV2.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\RV2.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\MASTER_POT.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\MASTER_POT.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\MASTER_POT_INT.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\MASTER_POT_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\MASTER_POT_IRQ.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\MASTER_POT_IRQ.h</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\MASTER_POT_theACLK.c</File>
+          <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\MASTER_POT_theACLK.h</File>
         </Files>
       </Folder>
       <Folder BuildType="BUILD" Path="\\Mac\Home\Documents\PSoC Creator\Workspace02\FINAL_PROJECT_MIDI_LIGHTS.cydsn\LED_Out\API">

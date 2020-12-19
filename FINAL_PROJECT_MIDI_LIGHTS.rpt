@@ -4,7 +4,7 @@ Initializing data phase: Elapsed time ==> 0s.000ms
 cydsfit arguments: -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -p \\Mac\Home\Documents\PSoC Creator\Workspace02\FINAL_PROJECT_MIDI_LIGHTS.cydsn\FINAL_PROJECT_MIDI_LIGHTS.cyprj -d CY8C5888LTI-LP097 -s \\Mac\Home\Documents\PSoC Creator\Workspace02\FINAL_PROJECT_MIDI_LIGHTS.cydsn\Generated_Source\PSoC5 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE</CYPRESSTAG>
 <CYPRESSTAG name="Design elaboration results...">
 </CYPRESSTAG>
-Elaboration phase: Elapsed time ==> 2s.608ms
+Elaboration phase: Elapsed time ==> 2s.640ms
 <CYPRESSTAG name="HDL generation results...">
 </CYPRESSTAG>
 HDL generation phase: Elapsed time ==> 0s.093ms
@@ -41,7 +41,7 @@ Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=\\Mac\Home\Doc
 ======================================================================
 
 vlogfe V6.3 IR 41:  Verilog parser
-Fri Dec 04 14:44:12 2020
+Tue Dec 08 17:23:49 2020
 
 
 ======================================================================
@@ -51,7 +51,7 @@ Options  :    -yv2 -q10 FINAL_PROJECT_MIDI_LIGHTS.v
 ======================================================================
 
 vpp V6.3 IR 41:  Verilog Pre-Processor
-Fri Dec 04 14:44:12 2020
+Tue Dec 08 17:23:49 2020
 
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_80\CyControlReg_v1_80.v'
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cypress.v'
@@ -110,7 +110,7 @@ Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=\\Mac\Home\Doc
 ======================================================================
 
 tovif V6.3 IR 41:  High-level synthesis
-Fri Dec 04 14:44:12 2020
+Tue Dec 08 17:23:49 2020
 
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\std.vhd'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cypress.vhd'.
@@ -155,7 +155,7 @@ Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=\\Mac\Home\Doc
 ======================================================================
 
 topld V6.3 IR 41:  Synthesis and optimization
-Fri Dec 04 14:44:13 2020
+Tue Dec 08 17:23:50 2020
 
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\std.vhd'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\cypress.vhd'.
@@ -223,12 +223,12 @@ Detecting unused logic.
 	Net_7332
 	Net_7333
 	Net_7334
-	Net_6563
-	Net_6564
-	Net_6565
-	Net_6566
-	Net_6567
-	Net_6568
+	Net_7525
+	Net_7526
+	Net_7527
+	Net_7528
+	Net_7529
+	Net_7530
 	\LIGHT_BRIGHTNESS_7:control_bus_7\
 	\LIGHT_BRIGHTNESS_6:control_bus_7\
 	\LIGHT_BRIGHTNESS_5:control_bus_7\
@@ -699,6 +699,17 @@ Aliasing \CROSSFADE_COUNTER:MODIN15_2\ to \CROSSFADE_VAL:status_2\
 Aliasing \CROSSFADE_COUNTER:MODIN15_1\ to \CROSSFADE_VAL:status_1\
 Aliasing \CROSSFADE_COUNTER:MODIN15_0\ to \CROSSFADE_VAL:status_0\
 Aliasing \CROSSFADE_COUNTER:MODULE_8:g2:a0:g1:z1:s0:g1:u0:b_0\ to tmpOE__SW2_net_0
+Aliasing tmpOE__RV2_net_0 to tmpOE__SW2_net_0
+Aliasing \MASTER_POT:vp_ctl_0\ to zero
+Aliasing \MASTER_POT:vp_ctl_2\ to zero
+Aliasing \MASTER_POT:vn_ctl_1\ to zero
+Aliasing \MASTER_POT:vn_ctl_3\ to zero
+Aliasing \MASTER_POT:vp_ctl_1\ to zero
+Aliasing \MASTER_POT:vp_ctl_3\ to zero
+Aliasing \MASTER_POT:vn_ctl_0\ to zero
+Aliasing \MASTER_POT:vn_ctl_2\ to zero
+Aliasing \MASTER_POT:soc\ to zero
+Aliasing \MASTER_POT:Net_381\ to zero
 Removing Lhs of wire one[7] = tmpOE__SW2_net_0[1]
 Removing Lhs of wire tmpOE__SW1_net_0[12] = tmpOE__SW2_net_0[1]
 Removing Lhs of wire tmpOE__SLED_3_net_0[19] = tmpOE__SW2_net_0[1]
@@ -798,10 +809,10 @@ Removing Lhs of wire \SLED_STATE_SEL:clk\[287] = zero[2]
 Removing Lhs of wire \SLED_STATE_SEL:rst\[288] = zero[2]
 Removing Lhs of wire \CROSSFADE_CTRL:clk\[313] = zero[2]
 Removing Lhs of wire \CROSSFADE_CTRL:rst\[314] = zero[2]
-Removing Rhs of wire Net_5234[315] = \CROSSFADE_CTRL:control_out_0\[316]
-Removing Rhs of wire Net_5234[315] = \CROSSFADE_CTRL:control_0\[339]
-Removing Rhs of wire Net_7441[317] = \CROSSFADE_CTRL:control_out_1\[318]
-Removing Rhs of wire Net_7441[317] = \CROSSFADE_CTRL:control_1\[338]
+Removing Rhs of wire Net_7534[315] = \CROSSFADE_CTRL:control_out_0\[316]
+Removing Rhs of wire Net_7534[315] = \CROSSFADE_CTRL:control_0\[339]
+Removing Rhs of wire Net_7535[317] = \CROSSFADE_CTRL:control_out_1\[318]
+Removing Rhs of wire Net_7535[317] = \CROSSFADE_CTRL:control_1\[338]
 Removing Lhs of wire \CROSSFADE_VAL:status_7\[342] = Net_5287_7[343]
 Removing Lhs of wire \CROSSFADE_VAL:status_6\[344] = Net_5287_6[345]
 Removing Lhs of wire \CROSSFADE_VAL:status_5\[346] = Net_5287_5[347]
@@ -1469,61 +1480,73 @@ Removing Lhs of wire \CROSSFADE_COUNTER:MODULE_8:g2:a0:a_0\[1706] = Net_5287_0[3
 Removing Lhs of wire \CROSSFADE_COUNTER:MODIN15_0\[1707] = Net_5287_0[357]
 Removing Lhs of wire \CROSSFADE_COUNTER:MODULE_8:g2:a0:g1:z1:s0:g1:u0:c_0\[1833] = tmpOE__SW2_net_0[1]
 Removing Lhs of wire \CROSSFADE_COUNTER:MODULE_8:g2:a0:g1:z1:s0:g1:u0:b_0\[1834] = tmpOE__SW2_net_0[1]
-Removing Lhs of wire \BRIGHTNESS_RAMP:cydff_1\\D\[1835] = zero[2]
-Removing Lhs of wire \TRIANGLE_SEL:cydff_1\\D\[1836] = zero[2]
-Removing Lhs of wire \Lights_Out_1:cydff_1\\D\[1845] = \Lights_Out_1:Net_2093\[706]
-Removing Lhs of wire \Lights_Out_1:cydff_2_6\\D\[1846] = Net_5420_6[654]
-Removing Lhs of wire \Lights_Out_1:cydff_2_5\\D\[1847] = Net_5420_5[656]
-Removing Lhs of wire \Lights_Out_1:cydff_2_4\\D\[1848] = Net_5420_4[658]
-Removing Lhs of wire \Lights_Out_1:cydff_2_3\\D\[1849] = Net_5420_3[660]
-Removing Lhs of wire \Lights_Out_1:cydff_2_2\\D\[1850] = Net_5420_2[662]
-Removing Lhs of wire \Lights_Out_1:cydff_2_1\\D\[1851] = Net_5420_1[664]
-Removing Lhs of wire \Lights_Out_1:cydff_2_0\\D\[1852] = Net_5420_0[666]
-Removing Lhs of wire \Lights_Out_1:cydff_3_6\\D\[1853] = Net_5421_6[627]
-Removing Lhs of wire \Lights_Out_1:cydff_3_5\\D\[1854] = Net_5421_5[629]
-Removing Lhs of wire \Lights_Out_1:cydff_3_4\\D\[1855] = Net_5421_4[631]
-Removing Lhs of wire \Lights_Out_1:cydff_3_3\\D\[1856] = Net_5421_3[633]
-Removing Lhs of wire \Lights_Out_1:cydff_3_2\\D\[1857] = Net_5421_2[635]
-Removing Lhs of wire \Lights_Out_1:cydff_3_1\\D\[1858] = Net_5421_1[637]
-Removing Lhs of wire \Lights_Out_1:cydff_3_0\\D\[1859] = Net_5421_0[639]
-Removing Lhs of wire \Lights_Out_1:cydff_4_6\\D\[1860] = Net_5422_6[600]
-Removing Lhs of wire \Lights_Out_1:cydff_4_5\\D\[1861] = Net_5422_5[602]
-Removing Lhs of wire \Lights_Out_1:cydff_4_4\\D\[1862] = Net_5422_4[604]
-Removing Lhs of wire \Lights_Out_1:cydff_4_3\\D\[1863] = Net_5422_3[606]
-Removing Lhs of wire \Lights_Out_1:cydff_4_2\\D\[1864] = Net_5422_2[608]
-Removing Lhs of wire \Lights_Out_1:cydff_4_1\\D\[1865] = Net_5422_1[610]
-Removing Lhs of wire \Lights_Out_1:cydff_4_0\\D\[1866] = Net_5422_0[612]
-Removing Lhs of wire \Lights_Out_1:cydff_5_6\\D\[1867] = Net_5423_6[573]
-Removing Lhs of wire \Lights_Out_1:cydff_5_5\\D\[1868] = Net_5423_5[575]
-Removing Lhs of wire \Lights_Out_1:cydff_5_4\\D\[1869] = Net_5423_4[577]
-Removing Lhs of wire \Lights_Out_1:cydff_5_3\\D\[1870] = Net_5423_3[579]
-Removing Lhs of wire \Lights_Out_1:cydff_5_2\\D\[1871] = Net_5423_2[581]
-Removing Lhs of wire \Lights_Out_1:cydff_5_1\\D\[1872] = Net_5423_1[583]
-Removing Lhs of wire \Lights_Out_1:cydff_5_0\\D\[1873] = Net_5423_0[585]
-Removing Lhs of wire \Lights_Out_1:cydff_6_6\\D\[1874] = Net_5424_6[546]
-Removing Lhs of wire \Lights_Out_1:cydff_6_5\\D\[1875] = Net_5424_5[548]
-Removing Lhs of wire \Lights_Out_1:cydff_6_4\\D\[1876] = Net_5424_4[550]
-Removing Lhs of wire \Lights_Out_1:cydff_6_3\\D\[1877] = Net_5424_3[552]
-Removing Lhs of wire \Lights_Out_1:cydff_6_2\\D\[1878] = Net_5424_2[554]
-Removing Lhs of wire \Lights_Out_1:cydff_6_1\\D\[1879] = Net_5424_1[556]
-Removing Lhs of wire \Lights_Out_1:cydff_6_0\\D\[1880] = Net_5424_0[558]
-Removing Lhs of wire \Lights_Out_1:cydff_7_6\\D\[1881] = Net_5425_6[519]
-Removing Lhs of wire \Lights_Out_1:cydff_7_5\\D\[1882] = Net_5425_5[521]
-Removing Lhs of wire \Lights_Out_1:cydff_7_4\\D\[1883] = Net_5425_4[523]
-Removing Lhs of wire \Lights_Out_1:cydff_7_3\\D\[1884] = Net_5425_3[525]
-Removing Lhs of wire \Lights_Out_1:cydff_7_2\\D\[1885] = Net_5425_2[527]
-Removing Lhs of wire \Lights_Out_1:cydff_7_1\\D\[1886] = Net_5425_1[529]
-Removing Lhs of wire \Lights_Out_1:cydff_7_0\\D\[1887] = Net_5425_0[531]
-Removing Lhs of wire \Lights_Out_1:cydff_8_6\\D\[1888] = Net_5426_6[492]
-Removing Lhs of wire \Lights_Out_1:cydff_8_5\\D\[1889] = Net_5426_5[494]
-Removing Lhs of wire \Lights_Out_1:cydff_8_4\\D\[1890] = Net_5426_4[496]
-Removing Lhs of wire \Lights_Out_1:cydff_8_3\\D\[1891] = Net_5426_3[498]
-Removing Lhs of wire \Lights_Out_1:cydff_8_2\\D\[1892] = Net_5426_2[500]
-Removing Lhs of wire \Lights_Out_1:cydff_8_1\\D\[1893] = Net_5426_1[502]
-Removing Lhs of wire \Lights_Out_1:cydff_8_0\\D\[1894] = Net_5426_0[504]
+Removing Lhs of wire tmpOE__RV2_net_0[1836] = tmpOE__SW2_net_0[1]
+Removing Lhs of wire \MASTER_POT:vp_ctl_0\[1848] = zero[2]
+Removing Lhs of wire \MASTER_POT:vp_ctl_2\[1849] = zero[2]
+Removing Lhs of wire \MASTER_POT:vn_ctl_1\[1850] = zero[2]
+Removing Lhs of wire \MASTER_POT:vn_ctl_3\[1851] = zero[2]
+Removing Lhs of wire \MASTER_POT:vp_ctl_1\[1852] = zero[2]
+Removing Lhs of wire \MASTER_POT:vp_ctl_3\[1853] = zero[2]
+Removing Lhs of wire \MASTER_POT:vn_ctl_0\[1854] = zero[2]
+Removing Lhs of wire \MASTER_POT:vn_ctl_2\[1855] = zero[2]
+Removing Rhs of wire \MASTER_POT:Net_188\[1858] = \MASTER_POT:Net_221\[1859]
+Removing Lhs of wire \MASTER_POT:soc\[1864] = zero[2]
+Removing Lhs of wire \MASTER_POT:Net_381\[1890] = zero[2]
+Removing Lhs of wire \BRIGHTNESS_RAMP:cydff_1\\D\[1897] = zero[2]
+Removing Lhs of wire \TRIANGLE_SEL:cydff_1\\D\[1898] = zero[2]
+Removing Lhs of wire \Lights_Out_1:cydff_1\\D\[1907] = \Lights_Out_1:Net_2093\[706]
+Removing Lhs of wire \Lights_Out_1:cydff_2_6\\D\[1908] = Net_5420_6[654]
+Removing Lhs of wire \Lights_Out_1:cydff_2_5\\D\[1909] = Net_5420_5[656]
+Removing Lhs of wire \Lights_Out_1:cydff_2_4\\D\[1910] = Net_5420_4[658]
+Removing Lhs of wire \Lights_Out_1:cydff_2_3\\D\[1911] = Net_5420_3[660]
+Removing Lhs of wire \Lights_Out_1:cydff_2_2\\D\[1912] = Net_5420_2[662]
+Removing Lhs of wire \Lights_Out_1:cydff_2_1\\D\[1913] = Net_5420_1[664]
+Removing Lhs of wire \Lights_Out_1:cydff_2_0\\D\[1914] = Net_5420_0[666]
+Removing Lhs of wire \Lights_Out_1:cydff_3_6\\D\[1915] = Net_5421_6[627]
+Removing Lhs of wire \Lights_Out_1:cydff_3_5\\D\[1916] = Net_5421_5[629]
+Removing Lhs of wire \Lights_Out_1:cydff_3_4\\D\[1917] = Net_5421_4[631]
+Removing Lhs of wire \Lights_Out_1:cydff_3_3\\D\[1918] = Net_5421_3[633]
+Removing Lhs of wire \Lights_Out_1:cydff_3_2\\D\[1919] = Net_5421_2[635]
+Removing Lhs of wire \Lights_Out_1:cydff_3_1\\D\[1920] = Net_5421_1[637]
+Removing Lhs of wire \Lights_Out_1:cydff_3_0\\D\[1921] = Net_5421_0[639]
+Removing Lhs of wire \Lights_Out_1:cydff_4_6\\D\[1922] = Net_5422_6[600]
+Removing Lhs of wire \Lights_Out_1:cydff_4_5\\D\[1923] = Net_5422_5[602]
+Removing Lhs of wire \Lights_Out_1:cydff_4_4\\D\[1924] = Net_5422_4[604]
+Removing Lhs of wire \Lights_Out_1:cydff_4_3\\D\[1925] = Net_5422_3[606]
+Removing Lhs of wire \Lights_Out_1:cydff_4_2\\D\[1926] = Net_5422_2[608]
+Removing Lhs of wire \Lights_Out_1:cydff_4_1\\D\[1927] = Net_5422_1[610]
+Removing Lhs of wire \Lights_Out_1:cydff_4_0\\D\[1928] = Net_5422_0[612]
+Removing Lhs of wire \Lights_Out_1:cydff_5_6\\D\[1929] = Net_5423_6[573]
+Removing Lhs of wire \Lights_Out_1:cydff_5_5\\D\[1930] = Net_5423_5[575]
+Removing Lhs of wire \Lights_Out_1:cydff_5_4\\D\[1931] = Net_5423_4[577]
+Removing Lhs of wire \Lights_Out_1:cydff_5_3\\D\[1932] = Net_5423_3[579]
+Removing Lhs of wire \Lights_Out_1:cydff_5_2\\D\[1933] = Net_5423_2[581]
+Removing Lhs of wire \Lights_Out_1:cydff_5_1\\D\[1934] = Net_5423_1[583]
+Removing Lhs of wire \Lights_Out_1:cydff_5_0\\D\[1935] = Net_5423_0[585]
+Removing Lhs of wire \Lights_Out_1:cydff_6_6\\D\[1936] = Net_5424_6[546]
+Removing Lhs of wire \Lights_Out_1:cydff_6_5\\D\[1937] = Net_5424_5[548]
+Removing Lhs of wire \Lights_Out_1:cydff_6_4\\D\[1938] = Net_5424_4[550]
+Removing Lhs of wire \Lights_Out_1:cydff_6_3\\D\[1939] = Net_5424_3[552]
+Removing Lhs of wire \Lights_Out_1:cydff_6_2\\D\[1940] = Net_5424_2[554]
+Removing Lhs of wire \Lights_Out_1:cydff_6_1\\D\[1941] = Net_5424_1[556]
+Removing Lhs of wire \Lights_Out_1:cydff_6_0\\D\[1942] = Net_5424_0[558]
+Removing Lhs of wire \Lights_Out_1:cydff_7_6\\D\[1943] = Net_5425_6[519]
+Removing Lhs of wire \Lights_Out_1:cydff_7_5\\D\[1944] = Net_5425_5[521]
+Removing Lhs of wire \Lights_Out_1:cydff_7_4\\D\[1945] = Net_5425_4[523]
+Removing Lhs of wire \Lights_Out_1:cydff_7_3\\D\[1946] = Net_5425_3[525]
+Removing Lhs of wire \Lights_Out_1:cydff_7_2\\D\[1947] = Net_5425_2[527]
+Removing Lhs of wire \Lights_Out_1:cydff_7_1\\D\[1948] = Net_5425_1[529]
+Removing Lhs of wire \Lights_Out_1:cydff_7_0\\D\[1949] = Net_5425_0[531]
+Removing Lhs of wire \Lights_Out_1:cydff_8_6\\D\[1950] = Net_5426_6[492]
+Removing Lhs of wire \Lights_Out_1:cydff_8_5\\D\[1951] = Net_5426_5[494]
+Removing Lhs of wire \Lights_Out_1:cydff_8_4\\D\[1952] = Net_5426_4[496]
+Removing Lhs of wire \Lights_Out_1:cydff_8_3\\D\[1953] = Net_5426_3[498]
+Removing Lhs of wire \Lights_Out_1:cydff_8_2\\D\[1954] = Net_5426_2[500]
+Removing Lhs of wire \Lights_Out_1:cydff_8_1\\D\[1955] = Net_5426_1[502]
+Removing Lhs of wire \Lights_Out_1:cydff_8_0\\D\[1956] = Net_5426_0[504]
 
 ------------------------------------------------------
-Aliased 0 equations, 822 wires.
+Aliased 0 equations, 834 wires.
 ------------------------------------------------------
 
 ----------------------------------------------------------
@@ -2233,9 +2256,10 @@ Aliasing \CROSSFADE_COUNTER:MODULE_8:g2:a0:g1:z1:s0:g1:u0:b_16\ to zero
 Removing Lhs of wire \POT_VALUE:Net_188\[385] = \POT_VALUE:Net_376\[384]
 Removing Lhs of wire \CROSSFADE_COUNTER:MODULE_8:g2:a0:g1:z1:s0:g1:u0:b_24\[1804] = zero[2]
 Removing Lhs of wire \CROSSFADE_COUNTER:MODULE_8:g2:a0:g1:z1:s0:g1:u0:b_16\[1814] = zero[2]
+Removing Lhs of wire \MASTER_POT:Net_188\[1858] = \MASTER_POT:Net_376\[1857]
 
 ------------------------------------------------------
-Aliased 0 equations, 3 wires.
+Aliased 0 equations, 4 wires.
 ------------------------------------------------------
 
 ----------------------------------------------------------
@@ -2268,7 +2292,7 @@ Warp Arguments : -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya "-.fftprj=\\Mac\Home
 Warp synthesis phase: Elapsed time ==> 1s.827ms
 <CYPRESSTAG name="Fitter results...">
 <CYPRESSTAG name="Fitter startup details...">
-cyp3fit: V3.3.0.9604, Family: PSoC3, Started at: Friday, 04 December 2020 14:44:14
+cyp3fit: V3.3.0.9604, Family: PSoC3, Started at: Tuesday, 08 December 2020 17:23:51
 Options: -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=\\Mac\Home\Documents\PSoC Creator\Workspace02\FINAL_PROJECT_MIDI_LIGHTS.cydsn\FINAL_PROJECT_MIDI_LIGHTS.cyprj -d CY8C5888LTI-LP097 FINAL_PROJECT_MIDI_LIGHTS.v -verilog
 </CYPRESSTAG>
 <CYPRESSTAG name="Design parsing">
@@ -2311,11 +2335,12 @@ Design parsing phase: Elapsed time ==> 0s.031ms
     Converted constant MacroCell: \TRIANGLE_SEL:Net_134\ from registered to combinatorial
 <CYPRESSTAG name="Global Clock Selection" icon="FILE_RPT_TECHM">
     Digital Clock 0: Automatic-assigning  clock 'Lights_Out_1_Clock_1'. Fanout=1, Signal=\Lights_Out_1:Net_2476\
-    Digital Clock 1: Automatic-assigning  clock 'POT_VALUE_theACLK'. Fanout=1, Signal=\POT_VALUE:Net_376\
-    Digital Clock 2: Automatic-assigning  clock 'Clock_1'. Fanout=3, Signal=Net_1945
-    Digital Clock 3: Automatic-assigning  clock 'Lights_Out_1_Clock_3'. Fanout=30, Signal=\Lights_Out_1:Net_2092\
-    Digital Clock 4: Automatic-assigning  clock 'Crossfade_Clock'. Fanout=8, Signal=Net_6458
-    Digital Clock 5: Automatic-assigning  clock 'Clock_2'. Fanout=3, Signal=Net_3013
+    Digital Clock 1: Automatic-assigning  clock 'MASTER_POT_theACLK'. Fanout=1, Signal=\MASTER_POT:Net_376\
+    Digital Clock 2: Automatic-assigning  clock 'POT_VALUE_theACLK'. Fanout=1, Signal=\POT_VALUE:Net_376\
+    Digital Clock 3: Automatic-assigning  clock 'Clock_1'. Fanout=3, Signal=Net_1945
+    Digital Clock 4: Automatic-assigning  clock 'Lights_Out_1_Clock_3'. Fanout=30, Signal=\Lights_Out_1:Net_2092\
+    Digital Clock 5: Automatic-assigning  clock 'Crossfade_Clock'. Fanout=8, Signal=Net_6458
+    Digital Clock 6: Automatic-assigning  clock 'Clock_2'. Fanout=3, Signal=Net_3013
 </CYPRESSTAG>
 
 Removing unused cells resulting from optimization
@@ -3414,6 +3439,46 @@ Design Equations
         Properties:
         {
         }
+
+    Pin : Name = RV2(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: AUTO
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: HI_Z_ANALOG
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: True
+            Can contain Digital: False
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilitites: ANALOG
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => RV2(0)__PA ,
+            analog_term => Net_7483 ,
+            pad => RV2(0)_PAD );
+        Properties:
+        {
+        }
     </CYPRESSTAG>
     <CYPRESSTAG name="Macrocell listing" icon="FILE_RPT_EQUATION">
 
@@ -4212,9 +4277,9 @@ Design Equations
             Clock Enable: True
         Main Equation            : 2 pterms
         (
-              Net_5234 * !Net_7441 * Net_5287_6 * Net_5287_5 * Net_5287_4 * 
+              Net_7534 * !Net_7535 * Net_5287_6 * Net_5287_5 * Net_5287_4 * 
               Net_5287_3 * Net_5287_2 * Net_5287_1 * Net_5287_0
-            + Net_7441 * Net_5287_7
+            + Net_7535 * Net_5287_7
         );
         Output = Net_5287_7 (fanout=2)
 
@@ -4226,9 +4291,9 @@ Design Equations
             Clock Enable: True
         Main Equation            : 2 pterms
         (
-              Net_5234 * !Net_7441 * Net_5287_5 * Net_5287_4 * Net_5287_3 * 
+              Net_7534 * !Net_7535 * Net_5287_5 * Net_5287_4 * Net_5287_3 * 
               Net_5287_2 * Net_5287_1 * Net_5287_0
-            + Net_7441 * Net_5287_6
+            + Net_7535 * Net_5287_6
         );
         Output = Net_5287_6 (fanout=3)
 
@@ -4240,9 +4305,9 @@ Design Equations
             Clock Enable: True
         Main Equation            : 2 pterms
         (
-              Net_5234 * !Net_7441 * Net_5287_4 * Net_5287_3 * Net_5287_2 * 
+              Net_7534 * !Net_7535 * Net_5287_4 * Net_5287_3 * Net_5287_2 * 
               Net_5287_1 * Net_5287_0
-            + Net_7441 * Net_5287_5
+            + Net_7535 * Net_5287_5
         );
         Output = Net_5287_5 (fanout=4)
 
@@ -4254,9 +4319,9 @@ Design Equations
             Clock Enable: True
         Main Equation            : 2 pterms
         (
-              Net_5234 * !Net_7441 * Net_5287_3 * Net_5287_2 * Net_5287_1 * 
+              Net_7534 * !Net_7535 * Net_5287_3 * Net_5287_2 * Net_5287_1 * 
               Net_5287_0
-            + Net_7441 * Net_5287_4
+            + Net_7535 * Net_5287_4
         );
         Output = Net_5287_4 (fanout=5)
 
@@ -4268,8 +4333,8 @@ Design Equations
             Clock Enable: True
         Main Equation            : 2 pterms
         (
-              Net_5234 * !Net_7441 * Net_5287_2 * Net_5287_1 * Net_5287_0
-            + Net_7441 * Net_5287_3
+              Net_7534 * !Net_7535 * Net_5287_2 * Net_5287_1 * Net_5287_0
+            + Net_7535 * Net_5287_3
         );
         Output = Net_5287_3 (fanout=6)
 
@@ -4281,8 +4346,8 @@ Design Equations
             Clock Enable: True
         Main Equation            : 2 pterms
         (
-              Net_5234 * !Net_7441 * Net_5287_1 * Net_5287_0
-            + Net_7441 * Net_5287_2
+              Net_7534 * !Net_7535 * Net_5287_1 * Net_5287_0
+            + Net_7535 * Net_5287_2
         );
         Output = Net_5287_2 (fanout=7)
 
@@ -4294,8 +4359,8 @@ Design Equations
             Clock Enable: True
         Main Equation            : 2 pterms
         (
-              Net_5234 * !Net_7441 * Net_5287_0
-            + Net_7441 * Net_5287_1
+              Net_7534 * !Net_7535 * Net_5287_0
+            + Net_7535 * Net_5287_1
         );
         Output = Net_5287_1 (fanout=8)
 
@@ -4307,8 +4372,8 @@ Design Equations
             Clock Enable: True
         Main Equation            : 2 pterms
         (
-              !Net_5234 * !Net_7441 * Net_5287_0
-            + Net_5234 * !Net_7441 * !Net_5287_0
+              !Net_7534 * !Net_7535 * Net_5287_0
+            + Net_7534 * !Net_7535 * !Net_5287_0
         );
         Output = Net_5287_0 (fanout=9)
 
@@ -5011,8 +5076,8 @@ Design Equations
             control_4 => \CROSSFADE_CTRL:control_4\ ,
             control_3 => \CROSSFADE_CTRL:control_3\ ,
             control_2 => \CROSSFADE_CTRL:control_2\ ,
-            control_1 => Net_7441 ,
-            control_0 => Net_5234 );
+            control_1 => Net_7535 ,
+            control_0 => Net_7534 );
         Properties:
         {
             cy_ctrl_mode_0 = "00000000"
@@ -5311,7 +5376,15 @@ Design Equations
 
     interrupt: Name =\POT_VALUE:IRQ\
         PORT MAP (
-            interrupt => Net_7466 );
+            interrupt => Net_7478 );
+        Properties:
+        {
+            int_type = "10"
+        }
+
+    interrupt: Name =\MASTER_POT:IRQ\
+        PORT MAP (
+            interrupt => Net_7494 );
         Properties:
         {
             int_type = "10"
@@ -5326,12 +5399,12 @@ Technology mapping summary
 
 Resource Type                 : Used : Free :  Max :  % Used
 ============================================================
-Digital Clocks                :    6 :    2 :    8 : 75.00 %
+Digital Clocks                :    7 :    1 :    8 : 87.50 %
 Analog Clocks                 :    0 :    4 :    4 :  0.00 %
 CapSense Buffers              :    0 :    2 :    2 :  0.00 %
 Digital Filter Block          :    0 :    1 :    1 :  0.00 %
-Interrupts                    :    9 :   23 :   32 : 28.13 %
-IO                            :   30 :   18 :   48 : 62.50 %
+Interrupts                    :   10 :   22 :   32 : 31.25 %
+IO                            :   31 :   17 :   48 : 64.58 %
 Segment LCD                   :    0 :    1 :    1 :  0.00 %
 CAN 2.0b                      :    0 :    1 :    1 :  0.00 %
 I2C                           :    0 :    1 :    1 :  0.00 %
@@ -5352,13 +5425,13 @@ Opamp                         :    0 :    4 :    4 :  0.00 %
 Comparator                    :    1 :    3 :    4 : 25.00 %
 Delta-Sigma ADC               :    0 :    1 :    1 :  0.00 %
 LPF                           :    0 :    2 :    2 :  0.00 %
-SAR ADC                       :    1 :    1 :    2 : 50.00 %
+SAR ADC                       :    2 :    0 :    2 : 100.00 %
 Analog (SC/CT) Blocks         :    0 :    4 :    4 :  0.00 %
 DAC                           :      :      :      :        
   VIDAC                       :    2 :    2 :    4 : 50.00 %
 </CYPRESSTAG>
-Technology Mapping: Elapsed time ==> 0s.093ms
-Tech mapping phase: Elapsed time ==> 0s.155ms
+Technology Mapping: Elapsed time ==> 0s.078ms
+Tech mapping phase: Elapsed time ==> 0s.156ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Placement">
 Initial Analog Placement Results:
@@ -5371,6 +5444,7 @@ IO_5@[IOP=(1)][IoId=(5)] : DO6(0) (fixed)
 IO_6@[IOP=(1)][IoId=(6)] : DO7(0) (fixed)
 IO_7@[IOP=(1)][IoId=(7)] : DO8(0) (fixed)
 IO_0@[IOP=(3)][IoId=(0)] : RV1(0) (fixed)
+IO_1@[IOP=(3)][IoId=(1)] : RV2(0) (fixed)
 IO_0@[IOP=(15)][IoId=(0)] : SLED_1(0) (fixed)
 IO_1@[IOP=(15)][IoId=(1)] : SLED_2(0) (fixed)
 IO_5@[IOP=(15)][IoId=(5)] : SLED_3(0) (fixed)
@@ -5390,14 +5464,14 @@ IO_2@[IOP=(12)][IoId=(2)] : SW8(0) (fixed)
 IO_7@[IOP=(15)][IoId=(7)] : \USB:Dm(0)\ (fixed)
 IO_6@[IOP=(15)][IoId=(6)] : \USB:Dp(0)\ (fixed)
 VIDAC[2]@[FFB(VIDAC,2)] : \BRIGHTNESS_RAMP:VDAC8:viDAC8\
-SAR[0]@[FFB(SAR,0)] : \POT_VALUE:ADC_SAR\
-Vref[13]@[FFB(Vref,13)] : \POT_VALUE:vRef_Vdda_1\
-Comparator[0]@[FFB(Comparator,0)] : \RAMP_COMP:ctComp\
-VIDAC[1]@[FFB(VIDAC,1)] : \TRIANGLE_SEL:VDAC8:viDAC8\
+SAR[0]@[FFB(SAR,0)] : \MASTER_POT:ADC_SAR\
+Vref[13]@[FFB(Vref,13)] : \MASTER_POT:vRef_Vdda_1\
+SAR[1]@[FFB(SAR,1)] : \POT_VALUE:ADC_SAR\
+Comparator[1]@[FFB(Comparator,1)] : \RAMP_COMP:ctComp\
+VIDAC[3]@[FFB(VIDAC,3)] : \TRIANGLE_SEL:VDAC8:viDAC8\
 USB[0]@[FFB(USB,0)] : \USB:USB\
-Log: apr.M0058: The analog placement iterative improvement is 35% done. (App=cydsfit)
-Log: apr.M0058: The analog placement iterative improvement is 53% done. (App=cydsfit)
-Log: apr.M0058: The analog placement iterative improvement is 80% done. (App=cydsfit)
+Log: apr.M0058: The analog placement iterative improvement is 32% done. (App=cydsfit)
+Log: apr.M0058: The analog placement iterative improvement is 76% done. (App=cydsfit)
 Analog Placement Results:
 IO_6@[IOP=(2)][IoId=(6)] : DO1(0) (fixed)
 IO_7@[IOP=(2)][IoId=(7)] : DO2(0) (fixed)
@@ -5408,6 +5482,7 @@ IO_5@[IOP=(1)][IoId=(5)] : DO6(0) (fixed)
 IO_6@[IOP=(1)][IoId=(6)] : DO7(0) (fixed)
 IO_7@[IOP=(1)][IoId=(7)] : DO8(0) (fixed)
 IO_0@[IOP=(3)][IoId=(0)] : RV1(0) (fixed)
+IO_1@[IOP=(3)][IoId=(1)] : RV2(0) (fixed)
 IO_0@[IOP=(15)][IoId=(0)] : SLED_1(0) (fixed)
 IO_1@[IOP=(15)][IoId=(1)] : SLED_2(0) (fixed)
 IO_5@[IOP=(15)][IoId=(5)] : SLED_3(0) (fixed)
@@ -5427,13 +5502,14 @@ IO_2@[IOP=(12)][IoId=(2)] : SW8(0) (fixed)
 IO_7@[IOP=(15)][IoId=(7)] : \USB:Dm(0)\ (fixed)
 IO_6@[IOP=(15)][IoId=(6)] : \USB:Dp(0)\ (fixed)
 VIDAC[2]@[FFB(VIDAC,2)] : \BRIGHTNESS_RAMP:VDAC8:viDAC8\
+SAR[0]@[FFB(SAR,0)] : \MASTER_POT:ADC_SAR\
+Vref[13]@[FFB(Vref,13)] : \MASTER_POT:vRef_Vdda_1\
 SAR[1]@[FFB(SAR,1)] : \POT_VALUE:ADC_SAR\
-Vref[13]@[FFB(Vref,13)] : \POT_VALUE:vRef_Vdda_1\
 Comparator[2]@[FFB(Comparator,2)] : \RAMP_COMP:ctComp\
 VIDAC[0]@[FFB(VIDAC,0)] : \TRIANGLE_SEL:VDAC8:viDAC8\
 USB[0]@[FFB(USB,0)] : \USB:USB\
 
-Analog Placement phase: Elapsed time ==> 0s.625ms
+Analog Placement phase: Elapsed time ==> 0s.687ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Routing">
 Analog Routing phase: Elapsed time ==> 0s.000ms
@@ -5449,14 +5525,41 @@ Map of net to items {
     agr4_x_p3_0
     p3_0
   }
+  Net: Net_7483 {
+    sar_0_vplus
+    agl5_x_sar_0_vplus
+    agl5
+    agl5_x_agr5
+    agr5
+    agr5_x_p3_1
+    p3_1
+  }
   Net: Net_1976 {
     comp_2_vplus
-    agl5_x_comp_2_vplus
-    agl5
-    agl5_x_vidac_2_vout
+    agl4_x_comp_2_vplus
+    agl4
+    agl4_x_vidac_2_vout
     vidac_2_vout
   }
   Net: \BRIGHTNESS_RAMP:VDAC8:Net_77\ {
+  }
+  Net: \MASTER_POT:Net_126\ {
+    sar_0_vrefhi
+    sar_0_vminus_x_sar_0_vrefhi
+    sar_0_vminus
+  }
+  Net: \MASTER_POT:Net_209\ {
+  }
+  Net: \MASTER_POT:Net_235\ {
+    sar_1_vref
+    sar_1_vref_x_sar_1_vref_vdda_vdda_2
+    sar_1_vref_vdda_vdda_2
+    common_sar_vref_vdda/2_x_sar_1_vref_vdda_vdda_2
+    common_sar_vref_vdda/2
+    common_sar_vref_vdda/2_x_sar_0_vref_vdda_vdda_2
+    sar_0_vref_vdda_vdda_2
+    sar_0_vref_x_sar_0_vref_vdda_vdda_2
+    sar_0_vref
   }
   Net: \POT_VALUE:Net_126\ {
     sar_1_vrefhi
@@ -5464,13 +5567,6 @@ Map of net to items {
     sar_1_vminus
   }
   Net: \POT_VALUE:Net_209\ {
-  }
-  Net: \POT_VALUE:Net_235\ {
-    common_sar_vref_vdda/2
-    common_sar_vref_vdda/2_x_sar_1_vref_vdda_vdda_2
-    sar_1_vref_vdda_vdda_2
-    sar_1_vref_x_sar_1_vref_vdda_vdda_2
-    sar_1_vref
   }
   Net: Net_1978 {
     vidac_0_vout
@@ -5488,19 +5584,33 @@ Map of item to net {
   agr4                                             -> Net_5319
   agr4_x_p3_0                                      -> Net_5319
   p3_0                                             -> Net_5319
+  sar_0_vplus                                      -> Net_7483
+  agl5_x_sar_0_vplus                               -> Net_7483
+  agl5                                             -> Net_7483
+  agl5_x_agr5                                      -> Net_7483
+  agr5                                             -> Net_7483
+  agr5_x_p3_1                                      -> Net_7483
+  p3_1                                             -> Net_7483
   comp_2_vplus                                     -> Net_1976
-  agl5_x_comp_2_vplus                              -> Net_1976
-  agl5                                             -> Net_1976
-  agl5_x_vidac_2_vout                              -> Net_1976
+  agl4_x_comp_2_vplus                              -> Net_1976
+  agl4                                             -> Net_1976
+  agl4_x_vidac_2_vout                              -> Net_1976
   vidac_2_vout                                     -> Net_1976
+  sar_0_vrefhi                                     -> \MASTER_POT:Net_126\
+  sar_0_vminus_x_sar_0_vrefhi                      -> \MASTER_POT:Net_126\
+  sar_0_vminus                                     -> \MASTER_POT:Net_126\
+  sar_1_vref                                       -> \MASTER_POT:Net_235\
+  sar_1_vref_x_sar_1_vref_vdda_vdda_2              -> \MASTER_POT:Net_235\
+  sar_1_vref_vdda_vdda_2                           -> \MASTER_POT:Net_235\
+  common_sar_vref_vdda/2_x_sar_1_vref_vdda_vdda_2  -> \MASTER_POT:Net_235\
+  common_sar_vref_vdda/2                           -> \MASTER_POT:Net_235\
+  common_sar_vref_vdda/2_x_sar_0_vref_vdda_vdda_2  -> \MASTER_POT:Net_235\
+  sar_0_vref_vdda_vdda_2                           -> \MASTER_POT:Net_235\
+  sar_0_vref_x_sar_0_vref_vdda_vdda_2              -> \MASTER_POT:Net_235\
+  sar_0_vref                                       -> \MASTER_POT:Net_235\
   sar_1_vrefhi                                     -> \POT_VALUE:Net_126\
   sar_1_vminus_x_sar_1_vrefhi                      -> \POT_VALUE:Net_126\
   sar_1_vminus                                     -> \POT_VALUE:Net_126\
-  common_sar_vref_vdda/2                           -> \POT_VALUE:Net_235\
-  common_sar_vref_vdda/2_x_sar_1_vref_vdda_vdda_2  -> \POT_VALUE:Net_235\
-  sar_1_vref_vdda_vdda_2                           -> \POT_VALUE:Net_235\
-  sar_1_vref_x_sar_1_vref_vdda_vdda_2              -> \POT_VALUE:Net_235\
-  sar_1_vref                                       -> \POT_VALUE:Net_235\
   vidac_0_vout                                     -> Net_1978
   agl1_x_vidac_0_vout                              -> Net_1978
   agl1                                             -> Net_1978
@@ -5511,13 +5621,13 @@ Mux Info {
 }
 Dump of CyP35AnalogRoutingResultsDB
 IsVddaHalfUsedForComp = False
-IsVddaHalfUsedForSar0 = False
+IsVddaHalfUsedForSar0 = True
 IsVddaHalfUsedForSar1 = True
-Analog Code Generation phase: Elapsed time ==> 0s.339ms
+Analog Code Generation phase: Elapsed time ==> 0s.360ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Digital Placement">
 <CYPRESSTAG name="Detailed placement messages">
-I2076: Total run-time: 2.9 sec.
+I2076: Total run-time: 2.0 sec.
 
 </CYPRESSTAG>
 <CYPRESSTAG name="PLD Packing">
@@ -5528,15 +5638,15 @@ PLD Packing Summary
 ------------------------------------------------------------
             Resource Type : Used : Free :  Max :  % Used
     ====================================================
-                     PLDs :   40 :    8 :   48 :  83.33%
+                     PLDs :   44 :    4 :   48 :  91.67%
 
 <CYPRESSTAG name="PLD Statistics">
 
         PLD Resource Type :     Average/LAB
     =======================================
-                   Inputs :            7.13
-                   Pterms :            7.45
-               Macrocells :            2.38
+                   Inputs :            6.48
+                   Pterms :            6.77
+               Macrocells :            2.16
 </CYPRESSTAG>
 <CYPRESSTAG name="Packed PLD Contents">
 Packed PLD Contents not displayed at this verbose level.</CYPRESSTAG>
@@ -5554,7 +5664,7 @@ Partitioning: Elapsed time ==> 0s.125ms
 Annealing: Elapsed time ==> 0s.000ms
 <CYPRESSTAG name="Simulated Annealing Results">
 The seed used for moves was 114161200.
-Inital cost was 1305, final cost is 1305 (0.00% improvement).</CYPRESSTAG>
+Inital cost was 1198, final cost is 1198 (0.00% improvement).</CYPRESSTAG>
 </CYPRESSTAG>
 <CYPRESSTAG name="Final Placement Summary">
 
@@ -5564,7 +5674,7 @@ Final Placement Summary
 
        Resource Type :      Count : Avg Inputs : Avg Outputs
     ========================================================
-                 UDB :         20 :      11.80 :       4.75
+                 UDB :         22 :      10.41 :       4.32
 <CYPRESSTAG name="Final Placement Details">
 <CYPRESSTAG name="Component Details">
 
@@ -5572,9 +5682,551 @@ Final Placement Summary
 Component Placement Details
 ------------------------------------------------------------
 UDB [UDB=(0,0)] contents:
-LAB@[UDB=(0,0)][LB=0] #macrocells=3, #inputs=7, #pterms=8
+LAB@[UDB=(0,0)][LB=0] #macrocells=1, #inputs=8, #pterms=7
 {
-    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:MODULE_6:g1:a0:gx:u0:gt_5\, Mode=(Combinatorial) @ [UDB=(0,0)][LB=0][MC=0]
+    [McSlotId=0]:     MacroCell: Name=Net_5289, Mode=(Combinatorial) @ [UDB=(0,0)][LB=0][MC=0]
+        Total # of inputs        : 8
+        Total # of product terms : 7
+            Clock Enable: True
+        Main Equation            : 7 pterms
+        (
+              !Net_6585_1 * !Net_6704 * !\Lights_Out_1:Net_2416_6\ * 
+              \Lights_Out_1:cydff_3_6\
+            + !Net_6585_1 * !Net_6704 * !\Lights_Out_1:Net_2416_6\ * 
+              \Lights_Out_1:MODULE_2:g1:a0:gx:u0:lt_5\
+            + !Net_6585_1 * !Net_6704 * !\Lights_Out_1:Net_2416_6\ * 
+              !\Lights_Out_1:MODULE_2:g1:a0:gx:u0:gt_5\ * 
+              \Lights_Out_1:MODULE_2:g1:a0:gx:u0:lt_2\
+            + !Net_6585_1 * !Net_6704 * \Lights_Out_1:cydff_3_6\ * 
+              \Lights_Out_1:MODULE_2:g1:a0:gx:u0:lt_5\
+            + !Net_6585_1 * !Net_6704 * \Lights_Out_1:cydff_3_6\ * 
+              !\Lights_Out_1:MODULE_2:g1:a0:gx:u0:gt_5\ * 
+              \Lights_Out_1:MODULE_2:g1:a0:gx:u0:lt_2\
+            + Net_6585_1 * Net_7428
+            + Net_6585_1 * Net_6704
+        );
+        Output = Net_5289 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]: (empty)
+    [McSlotId=2]: (empty)
+    [McSlotId=3]: (empty)
+}
+
+LAB@[UDB=(0,0)][LB=1] #macrocells=2, #inputs=7, #pterms=8
+{
+    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:MODULE_2:g1:a0:gx:u0:lt_2\, Mode=(Combinatorial) @ [UDB=(0,0)][LB=1][MC=0]
+        Total # of inputs        : 6
+        Total # of product terms : 7
+            Clock Enable: True
+        Main Equation            : 7 pterms
+        (
+              !\Lights_Out_1:Net_2416_2\ * !\Lights_Out_1:Net_2416_1\ * 
+              !\Lights_Out_1:Net_2416_0\ * \Lights_Out_1:cydff_3_0\
+            + !\Lights_Out_1:Net_2416_2\ * !\Lights_Out_1:Net_2416_1\ * 
+              \Lights_Out_1:cydff_3_1\
+            + !\Lights_Out_1:Net_2416_2\ * !\Lights_Out_1:Net_2416_0\ * 
+              \Lights_Out_1:cydff_3_1\ * \Lights_Out_1:cydff_3_0\
+            + !\Lights_Out_1:Net_2416_2\ * \Lights_Out_1:cydff_3_2\
+            + !\Lights_Out_1:Net_2416_1\ * !\Lights_Out_1:Net_2416_0\ * 
+              \Lights_Out_1:cydff_3_2\ * \Lights_Out_1:cydff_3_0\
+            + !\Lights_Out_1:Net_2416_1\ * \Lights_Out_1:cydff_3_2\ * 
+              \Lights_Out_1:cydff_3_1\
+            + !\Lights_Out_1:Net_2416_0\ * \Lights_Out_1:cydff_3_2\ * 
+              \Lights_Out_1:cydff_3_1\ * \Lights_Out_1:cydff_3_0\
+        );
+        Output = \Lights_Out_1:MODULE_2:g1:a0:gx:u0:lt_2\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=\Lights_Out_1:cydff_3_1\, Mode=(D-Register) @ [UDB=(0,0)][LB=1][MC=1]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\Lights_Out_1:Net_2092\) => Global
+            Clock Enable: PosEdge(\Lights_Out_1:cydff_1\)
+        Main Equation            : 1 pterm
+        (
+              Net_5421_1
+        );
+        Output = \Lights_Out_1:cydff_3_1\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]: (empty)
+    [McSlotId=3]: (empty)
+}
+
+UDB [UDB=(0,1)] contents:
+LAB@[UDB=(0,1)][LB=0] #macrocells=2, #inputs=7, #pterms=8
+{
+    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:MODULE_2:g1:a0:gx:u0:gt_5\, Mode=(Combinatorial) @ [UDB=(0,1)][LB=0][MC=0]
+        Total # of inputs        : 6
+        Total # of product terms : 7
+            Clock Enable: True
+        Main Equation            : 7 pterms
+        (
+              \Lights_Out_1:Net_2416_5\ * \Lights_Out_1:Net_2416_4\ * 
+              \Lights_Out_1:Net_2416_3\ * !\Lights_Out_1:cydff_3_3\
+            + \Lights_Out_1:Net_2416_5\ * \Lights_Out_1:Net_2416_4\ * 
+              !\Lights_Out_1:cydff_3_4\
+            + \Lights_Out_1:Net_2416_5\ * \Lights_Out_1:Net_2416_3\ * 
+              !\Lights_Out_1:cydff_3_4\ * !\Lights_Out_1:cydff_3_3\
+            + \Lights_Out_1:Net_2416_5\ * !\Lights_Out_1:cydff_3_5\
+            + \Lights_Out_1:Net_2416_4\ * \Lights_Out_1:Net_2416_3\ * 
+              !\Lights_Out_1:cydff_3_5\ * !\Lights_Out_1:cydff_3_3\
+            + \Lights_Out_1:Net_2416_4\ * !\Lights_Out_1:cydff_3_5\ * 
+              !\Lights_Out_1:cydff_3_4\
+            + \Lights_Out_1:Net_2416_3\ * !\Lights_Out_1:cydff_3_5\ * 
+              !\Lights_Out_1:cydff_3_4\ * !\Lights_Out_1:cydff_3_3\
+        );
+        Output = \Lights_Out_1:MODULE_2:g1:a0:gx:u0:gt_5\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]: (empty)
+    [McSlotId=2]: (empty)
+    [McSlotId=3]:     MacroCell: Name=\Lights_Out_1:cydff_3_4\, Mode=(D-Register) @ [UDB=(0,1)][LB=0][MC=3]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\Lights_Out_1:Net_2092\) => Global
+            Clock Enable: PosEdge(\Lights_Out_1:cydff_1\)
+        Main Equation            : 1 pterm
+        (
+              Net_5421_4
+        );
+        Output = \Lights_Out_1:cydff_3_4\ (fanout=2)
+        Properties               : 
+        {
+        }
+}
+
+LAB@[UDB=(0,1)][LB=1] #macrocells=2, #inputs=6, #pterms=6
+{
+    [McSlotId=0]:     MacroCell: Name=Net_7432, Mode=(Combinatorial) @ [UDB=(0,1)][LB=1][MC=0]
+        Total # of inputs        : 5
+        Total # of product terms : 5
+            Clock Enable: True
+        Main Equation            : 5 pterms
+        (
+              !\Lights_Out_1:Net_2416_6\ * \Lights_Out_1:cydff_3_6\
+            + !\Lights_Out_1:Net_2416_6\ * 
+              \Lights_Out_1:MODULE_2:g1:a0:gx:u0:lt_5\
+            + !\Lights_Out_1:Net_2416_6\ * 
+              !\Lights_Out_1:MODULE_2:g1:a0:gx:u0:gt_5\ * 
+              \Lights_Out_1:MODULE_2:g1:a0:gx:u0:lt_2\
+            + \Lights_Out_1:cydff_3_6\ * 
+              \Lights_Out_1:MODULE_2:g1:a0:gx:u0:lt_5\
+            + \Lights_Out_1:cydff_3_6\ * 
+              !\Lights_Out_1:MODULE_2:g1:a0:gx:u0:gt_5\ * 
+              \Lights_Out_1:MODULE_2:g1:a0:gx:u0:lt_2\
+        );
+        Output = Net_7432 (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]: (empty)
+    [McSlotId=2]: (empty)
+    [McSlotId=3]:     MacroCell: Name=\Lights_Out_1:cydff_3_6\, Mode=(D-Register) @ [UDB=(0,1)][LB=1][MC=3]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\Lights_Out_1:Net_2092\) => Global
+            Clock Enable: PosEdge(\Lights_Out_1:cydff_1\)
+        Main Equation            : 1 pterm
+        (
+              Net_5421_6
+        );
+        Output = \Lights_Out_1:cydff_3_6\ (fanout=2)
+        Properties               : 
+        {
+        }
+}
+
+UDB [UDB=(0,2)] contents:
+LAB@[UDB=(0,2)][LB=0] #macrocells=1, #inputs=8, #pterms=7
+{
+    [McSlotId=0]:     MacroCell: Name=Net_5290, Mode=(Combinatorial) @ [UDB=(0,2)][LB=0][MC=0]
+        Total # of inputs        : 8
+        Total # of product terms : 7
+            Clock Enable: True
+        Main Equation            : 7 pterms
+        (
+              !Net_6585_2 * !Net_6704 * !\Lights_Out_1:Net_2416_6\ * 
+              \Lights_Out_1:cydff_4_6\
+            + !Net_6585_2 * !Net_6704 * !\Lights_Out_1:Net_2416_6\ * 
+              \Lights_Out_1:MODULE_3:g1:a0:gx:u0:lt_5\
+            + !Net_6585_2 * !Net_6704 * !\Lights_Out_1:Net_2416_6\ * 
+              !\Lights_Out_1:MODULE_3:g1:a0:gx:u0:gt_5\ * 
+              \Lights_Out_1:MODULE_3:g1:a0:gx:u0:lt_2\
+            + !Net_6585_2 * !Net_6704 * \Lights_Out_1:cydff_4_6\ * 
+              \Lights_Out_1:MODULE_3:g1:a0:gx:u0:lt_5\
+            + !Net_6585_2 * !Net_6704 * \Lights_Out_1:cydff_4_6\ * 
+              !\Lights_Out_1:MODULE_3:g1:a0:gx:u0:gt_5\ * 
+              \Lights_Out_1:MODULE_3:g1:a0:gx:u0:lt_2\
+            + Net_6585_2 * Net_7428
+            + Net_6585_2 * Net_6704
+        );
+        Output = Net_5290 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]: (empty)
+    [McSlotId=2]: (empty)
+    [McSlotId=3]: (empty)
+}
+
+LAB@[UDB=(0,2)][LB=1] #macrocells=1, #inputs=5, #pterms=5
+{
+    [McSlotId=0]:     MacroCell: Name=Net_7436, Mode=(Combinatorial) @ [UDB=(0,2)][LB=1][MC=0]
+        Total # of inputs        : 5
+        Total # of product terms : 5
+            Clock Enable: True
+        Main Equation            : 5 pterms
+        (
+              !\Lights_Out_1:Net_2416_6\ * \Lights_Out_1:cydff_7_6\
+            + !\Lights_Out_1:Net_2416_6\ * 
+              \Lights_Out_1:MODULE_6:g1:a0:gx:u0:lt_5\
+            + !\Lights_Out_1:Net_2416_6\ * 
+              !\Lights_Out_1:MODULE_6:g1:a0:gx:u0:gt_5\ * 
+              \Lights_Out_1:MODULE_6:g1:a0:gx:u0:lt_2\
+            + \Lights_Out_1:cydff_7_6\ * 
+              \Lights_Out_1:MODULE_6:g1:a0:gx:u0:lt_5\
+            + \Lights_Out_1:cydff_7_6\ * 
+              !\Lights_Out_1:MODULE_6:g1:a0:gx:u0:gt_5\ * 
+              \Lights_Out_1:MODULE_6:g1:a0:gx:u0:lt_2\
+        );
+        Output = Net_7436 (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]: (empty)
+    [McSlotId=2]: (empty)
+    [McSlotId=3]: (empty)
+}
+
+controlcell: Name =\SLED_STATE_SEL:Sync:ctrl_reg\
+    PORT MAP (
+        control_7 => \SLED_STATE_SEL:control_7\ ,
+        control_6 => \SLED_STATE_SEL:control_6\ ,
+        control_5 => \SLED_STATE_SEL:control_5\ ,
+        control_4 => \SLED_STATE_SEL:control_4\ ,
+        control_3 => \SLED_STATE_SEL:control_3\ ,
+        control_2 => \SLED_STATE_SEL:control_2\ ,
+        control_1 => \SLED_STATE_SEL:control_1\ ,
+        control_0 => Net_6704 );
+    Properties:
+    {
+        cy_ctrl_mode_0 = "00000000"
+        cy_ctrl_mode_1 = "00000000"
+        cy_ext_reset = 0
+        cy_force_order = 1
+        cy_init_value = "00000000"
+    }
+    Clock Enable: True
+
+UDB [UDB=(0,3)] contents:
+LAB@[UDB=(0,3)][LB=0] #macrocells=1, #inputs=6, #pterms=7
+{
+    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:MODULE_3:g1:a0:gx:u0:lt_2\, Mode=(Combinatorial) @ [UDB=(0,3)][LB=0][MC=0]
+        Total # of inputs        : 6
+        Total # of product terms : 7
+            Clock Enable: True
+        Main Equation            : 7 pterms
+        (
+              !\Lights_Out_1:Net_2416_2\ * !\Lights_Out_1:Net_2416_1\ * 
+              !\Lights_Out_1:Net_2416_0\ * \Lights_Out_1:cydff_4_0\
+            + !\Lights_Out_1:Net_2416_2\ * !\Lights_Out_1:Net_2416_1\ * 
+              \Lights_Out_1:cydff_4_1\
+            + !\Lights_Out_1:Net_2416_2\ * !\Lights_Out_1:Net_2416_0\ * 
+              \Lights_Out_1:cydff_4_1\ * \Lights_Out_1:cydff_4_0\
+            + !\Lights_Out_1:Net_2416_2\ * \Lights_Out_1:cydff_4_2\
+            + !\Lights_Out_1:Net_2416_1\ * !\Lights_Out_1:Net_2416_0\ * 
+              \Lights_Out_1:cydff_4_2\ * \Lights_Out_1:cydff_4_0\
+            + !\Lights_Out_1:Net_2416_1\ * \Lights_Out_1:cydff_4_2\ * 
+              \Lights_Out_1:cydff_4_1\
+            + !\Lights_Out_1:Net_2416_0\ * \Lights_Out_1:cydff_4_2\ * 
+              \Lights_Out_1:cydff_4_1\ * \Lights_Out_1:cydff_4_0\
+        );
+        Output = \Lights_Out_1:MODULE_3:g1:a0:gx:u0:lt_2\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]: (empty)
+    [McSlotId=2]: (empty)
+    [McSlotId=3]: (empty)
+}
+
+LAB@[UDB=(0,3)][LB=1] #macrocells=2, #inputs=6, #pterms=6
+{
+    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:cydff_4_1\, Mode=(D-Register) @ [UDB=(0,3)][LB=1][MC=0]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\Lights_Out_1:Net_2092\) => Global
+            Clock Enable: PosEdge(\Lights_Out_1:cydff_1\)
+        Main Equation            : 1 pterm
+        (
+              Net_5422_1
+        );
+        Output = \Lights_Out_1:cydff_4_1\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]: (empty)
+    [McSlotId=2]: (empty)
+    [McSlotId=3]:     MacroCell: Name=Net_7433, Mode=(Combinatorial) @ [UDB=(0,3)][LB=1][MC=3]
+        Total # of inputs        : 5
+        Total # of product terms : 5
+            Clock Enable: True
+        Main Equation            : 5 pterms
+        (
+              !\Lights_Out_1:Net_2416_6\ * \Lights_Out_1:cydff_4_6\
+            + !\Lights_Out_1:Net_2416_6\ * 
+              \Lights_Out_1:MODULE_3:g1:a0:gx:u0:lt_5\
+            + !\Lights_Out_1:Net_2416_6\ * 
+              !\Lights_Out_1:MODULE_3:g1:a0:gx:u0:gt_5\ * 
+              \Lights_Out_1:MODULE_3:g1:a0:gx:u0:lt_2\
+            + \Lights_Out_1:cydff_4_6\ * 
+              \Lights_Out_1:MODULE_3:g1:a0:gx:u0:lt_5\
+            + \Lights_Out_1:cydff_4_6\ * 
+              !\Lights_Out_1:MODULE_3:g1:a0:gx:u0:gt_5\ * 
+              \Lights_Out_1:MODULE_3:g1:a0:gx:u0:lt_2\
+        );
+        Output = Net_7433 (fanout=2)
+        Properties               : 
+        {
+        }
+}
+
+statuscell: Name =\Lights_Out_1:LED_STATUS:sts:sts_reg\
+    PORT MAP (
+        status_6 => Net_6914 ,
+        status_5 => Net_7436 ,
+        status_4 => Net_7435 ,
+        status_3 => Net_7434 ,
+        status_2 => Net_7433 ,
+        status_1 => Net_7432 ,
+        status_0 => Net_7431 );
+    Properties:
+    {
+        cy_force_order = 1
+        cy_md_select = "00000000"
+    }
+    Clock Enable: True
+
+UDB [UDB=(0,4)] contents:
+LAB@[UDB=(0,4)][LB=0] #macrocells=2, #inputs=7, #pterms=8
+{
+    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:MODULE_3:g1:a0:gx:u0:gt_5\, Mode=(Combinatorial) @ [UDB=(0,4)][LB=0][MC=0]
+        Total # of inputs        : 6
+        Total # of product terms : 7
+            Clock Enable: True
+        Main Equation            : 7 pterms
+        (
+              \Lights_Out_1:Net_2416_5\ * \Lights_Out_1:Net_2416_4\ * 
+              \Lights_Out_1:Net_2416_3\ * !\Lights_Out_1:cydff_4_3\
+            + \Lights_Out_1:Net_2416_5\ * \Lights_Out_1:Net_2416_4\ * 
+              !\Lights_Out_1:cydff_4_4\
+            + \Lights_Out_1:Net_2416_5\ * \Lights_Out_1:Net_2416_3\ * 
+              !\Lights_Out_1:cydff_4_4\ * !\Lights_Out_1:cydff_4_3\
+            + \Lights_Out_1:Net_2416_5\ * !\Lights_Out_1:cydff_4_5\
+            + \Lights_Out_1:Net_2416_4\ * \Lights_Out_1:Net_2416_3\ * 
+              !\Lights_Out_1:cydff_4_5\ * !\Lights_Out_1:cydff_4_3\
+            + \Lights_Out_1:Net_2416_4\ * !\Lights_Out_1:cydff_4_5\ * 
+              !\Lights_Out_1:cydff_4_4\
+            + \Lights_Out_1:Net_2416_3\ * !\Lights_Out_1:cydff_4_5\ * 
+              !\Lights_Out_1:cydff_4_4\ * !\Lights_Out_1:cydff_4_3\
+        );
+        Output = \Lights_Out_1:MODULE_3:g1:a0:gx:u0:gt_5\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=\Lights_Out_1:cydff_4_5\, Mode=(D-Register) @ [UDB=(0,4)][LB=0][MC=1]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\Lights_Out_1:Net_2092\) => Global
+            Clock Enable: PosEdge(\Lights_Out_1:cydff_1\)
+        Main Equation            : 1 pterm
+        (
+              Net_5422_5
+        );
+        Output = \Lights_Out_1:cydff_4_5\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]: (empty)
+    [McSlotId=3]: (empty)
+}
+
+LAB@[UDB=(0,4)][LB=1] #macrocells=2, #inputs=7, #pterms=8
+{
+    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:MODULE_3:g1:a0:gx:u0:lt_5\, Mode=(Combinatorial) @ [UDB=(0,4)][LB=1][MC=0]
+        Total # of inputs        : 6
+        Total # of product terms : 7
+            Clock Enable: True
+        Main Equation            : 7 pterms
+        (
+              !\Lights_Out_1:Net_2416_5\ * !\Lights_Out_1:Net_2416_4\ * 
+              !\Lights_Out_1:Net_2416_3\ * \Lights_Out_1:cydff_4_3\
+            + !\Lights_Out_1:Net_2416_5\ * !\Lights_Out_1:Net_2416_4\ * 
+              \Lights_Out_1:cydff_4_4\
+            + !\Lights_Out_1:Net_2416_5\ * !\Lights_Out_1:Net_2416_3\ * 
+              \Lights_Out_1:cydff_4_4\ * \Lights_Out_1:cydff_4_3\
+            + !\Lights_Out_1:Net_2416_5\ * \Lights_Out_1:cydff_4_5\
+            + !\Lights_Out_1:Net_2416_4\ * !\Lights_Out_1:Net_2416_3\ * 
+              \Lights_Out_1:cydff_4_5\ * \Lights_Out_1:cydff_4_3\
+            + !\Lights_Out_1:Net_2416_4\ * \Lights_Out_1:cydff_4_5\ * 
+              \Lights_Out_1:cydff_4_4\
+            + !\Lights_Out_1:Net_2416_3\ * \Lights_Out_1:cydff_4_5\ * 
+              \Lights_Out_1:cydff_4_4\ * \Lights_Out_1:cydff_4_3\
+        );
+        Output = \Lights_Out_1:MODULE_3:g1:a0:gx:u0:lt_5\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=\Lights_Out_1:cydff_4_6\, Mode=(D-Register) @ [UDB=(0,4)][LB=1][MC=1]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\Lights_Out_1:Net_2092\) => Global
+            Clock Enable: PosEdge(\Lights_Out_1:cydff_1\)
+        Main Equation            : 1 pterm
+        (
+              Net_5422_6
+        );
+        Output = \Lights_Out_1:cydff_4_6\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]: (empty)
+    [McSlotId=3]: (empty)
+}
+
+UDB [UDB=(0,5)] is empty.
+UDB [UDB=(1,0)] contents:
+LAB@[UDB=(1,0)][LB=0] #macrocells=3, #inputs=8, #pterms=7
+{
+    [McSlotId=0]:     MacroCell: Name=Net_7431, Mode=(Combinatorial) @ [UDB=(1,0)][LB=0][MC=0]
+        Total # of inputs        : 5
+        Total # of product terms : 5
+            Clock Enable: True
+        Main Equation            : 5 pterms
+        (
+              !\Lights_Out_1:Net_2416_6\ * \Lights_Out_1:cydff_2_6\
+            + !\Lights_Out_1:Net_2416_6\ * 
+              \Lights_Out_1:MODULE_1:g1:a0:gx:u0:lt_5\
+            + !\Lights_Out_1:Net_2416_6\ * 
+              !\Lights_Out_1:MODULE_1:g1:a0:gx:u0:gt_5\ * 
+              \Lights_Out_1:MODULE_1:g1:a0:gx:u0:lt_2\
+            + \Lights_Out_1:cydff_2_6\ * 
+              \Lights_Out_1:MODULE_1:g1:a0:gx:u0:lt_5\
+            + \Lights_Out_1:cydff_2_6\ * 
+              !\Lights_Out_1:MODULE_1:g1:a0:gx:u0:gt_5\ * 
+              \Lights_Out_1:MODULE_1:g1:a0:gx:u0:lt_2\
+        );
+        Output = Net_7431 (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]: (empty)
+    [McSlotId=2]:     MacroCell: Name=Net_7438, Mode=(Combinatorial) @ [UDB=(1,0)][LB=0][MC=2]
+        Total # of inputs        : 2
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_6585_7 * Net_6704
+        );
+        Output = Net_7438 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=\Lights_Out_1:cydff_3_0\, Mode=(D-Register) @ [UDB=(1,0)][LB=0][MC=3]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\Lights_Out_1:Net_2092\) => Global
+            Clock Enable: PosEdge(\Lights_Out_1:cydff_1\)
+        Main Equation            : 1 pterm
+        (
+              Net_5421_0
+        );
+        Output = \Lights_Out_1:cydff_3_0\ (fanout=1)
+        Properties               : 
+        {
+        }
+}
+
+LAB@[UDB=(1,0)][LB=1] #macrocells=2, #inputs=9, #pterms=8
+{
+    [McSlotId=0]:     MacroCell: Name=Net_5288, Mode=(Combinatorial) @ [UDB=(1,0)][LB=1][MC=0]
+        Total # of inputs        : 8
+        Total # of product terms : 7
+            Clock Enable: True
+        Main Equation            : 7 pterms
+        (
+              !Net_6585_0 * !Net_6704 * !\Lights_Out_1:Net_2416_6\ * 
+              \Lights_Out_1:cydff_2_6\
+            + !Net_6585_0 * !Net_6704 * !\Lights_Out_1:Net_2416_6\ * 
+              \Lights_Out_1:MODULE_1:g1:a0:gx:u0:lt_5\
+            + !Net_6585_0 * !Net_6704 * !\Lights_Out_1:Net_2416_6\ * 
+              !\Lights_Out_1:MODULE_1:g1:a0:gx:u0:gt_5\ * 
+              \Lights_Out_1:MODULE_1:g1:a0:gx:u0:lt_2\
+            + !Net_6585_0 * !Net_6704 * \Lights_Out_1:cydff_2_6\ * 
+              \Lights_Out_1:MODULE_1:g1:a0:gx:u0:lt_5\
+            + !Net_6585_0 * !Net_6704 * \Lights_Out_1:cydff_2_6\ * 
+              !\Lights_Out_1:MODULE_1:g1:a0:gx:u0:gt_5\ * 
+              \Lights_Out_1:MODULE_1:g1:a0:gx:u0:lt_2\
+            + Net_6585_0 * Net_7428
+            + Net_6585_0 * Net_6704
+        );
+        Output = Net_5288 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=\Lights_Out_1:cydff_3_2\, Mode=(D-Register) @ [UDB=(1,0)][LB=1][MC=1]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\Lights_Out_1:Net_2092\) => Global
+            Clock Enable: PosEdge(\Lights_Out_1:cydff_1\)
+        Main Equation            : 1 pterm
+        (
+              Net_5421_2
+        );
+        Output = \Lights_Out_1:cydff_3_2\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]: (empty)
+    [McSlotId=3]: (empty)
+}
+
+UDB [UDB=(1,1)] contents:
+LAB@[UDB=(1,1)][LB=0] #macrocells=2, #inputs=7, #pterms=8
+{
+    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:MODULE_6:g1:a0:gx:u0:gt_5\, Mode=(Combinatorial) @ [UDB=(1,1)][LB=0][MC=0]
         Total # of inputs        : 6
         Total # of product terms : 7
             Clock Enable: True
@@ -5599,39 +6251,93 @@ LAB@[UDB=(0,0)][LB=0] #macrocells=3, #inputs=7, #pterms=8
         {
         }
 
-    [McSlotId=1]:     MacroCell: Name=\Lights_Out_1:cydff_7_5\, Mode=(D-Register) @ [UDB=(0,0)][LB=0][MC=1]
+    [McSlotId=1]: (empty)
+    [McSlotId=2]: (empty)
+    [McSlotId=3]:     MacroCell: Name=\Lights_Out_1:cydff_3_5\, Mode=(D-Register) @ [UDB=(1,1)][LB=0][MC=3]
         Total # of inputs        : 1
         Total # of product terms : 1
         List of special equations: 
             Clock  = (\Lights_Out_1:Net_2092\) => Global
-            Clock Enable: True
+            Clock Enable: PosEdge(\Lights_Out_1:cydff_1\)
         Main Equation            : 1 pterm
         (
-              Net_5425_5
+              Net_5421_5
         );
-        Output = \Lights_Out_1:cydff_7_5\ (fanout=2)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=2]: (empty)
-    [McSlotId=3]:     MacroCell: Name=__ONE__, Mode=(Combinatorial) @ [UDB=(0,0)][LB=0][MC=3]
-        Total # of inputs        : 0
-        Total # of product terms : 0
-            Clock Enable: True
-        Main Equation            : 0 pterms
-        !(
-            0
-        );
-        Output = __ONE__ (fanout=1)
+        Output = \Lights_Out_1:cydff_3_5\ (fanout=2)
         Properties               : 
         {
         }
 }
 
-LAB@[UDB=(0,0)][LB=1] #macrocells=2, #inputs=7, #pterms=8
+LAB@[UDB=(1,1)][LB=1] #macrocells=2, #inputs=7, #pterms=8
 {
-    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:MODULE_6:g1:a0:gx:u0:lt_5\, Mode=(Combinatorial) @ [UDB=(0,0)][LB=1][MC=0]
+    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:cydff_3_3\, Mode=(D-Register) @ [UDB=(1,1)][LB=1][MC=0]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\Lights_Out_1:Net_2092\) => Global
+            Clock Enable: PosEdge(\Lights_Out_1:cydff_1\)
+        Main Equation            : 1 pterm
+        (
+              Net_5421_3
+        );
+        Output = \Lights_Out_1:cydff_3_3\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]: (empty)
+    [McSlotId=2]: (empty)
+    [McSlotId=3]:     MacroCell: Name=\Lights_Out_1:MODULE_2:g1:a0:gx:u0:lt_5\, Mode=(Combinatorial) @ [UDB=(1,1)][LB=1][MC=3]
+        Total # of inputs        : 6
+        Total # of product terms : 7
+            Clock Enable: True
+        Main Equation            : 7 pterms
+        (
+              !\Lights_Out_1:Net_2416_5\ * !\Lights_Out_1:Net_2416_4\ * 
+              !\Lights_Out_1:Net_2416_3\ * \Lights_Out_1:cydff_3_3\
+            + !\Lights_Out_1:Net_2416_5\ * !\Lights_Out_1:Net_2416_4\ * 
+              \Lights_Out_1:cydff_3_4\
+            + !\Lights_Out_1:Net_2416_5\ * !\Lights_Out_1:Net_2416_3\ * 
+              \Lights_Out_1:cydff_3_4\ * \Lights_Out_1:cydff_3_3\
+            + !\Lights_Out_1:Net_2416_5\ * \Lights_Out_1:cydff_3_5\
+            + !\Lights_Out_1:Net_2416_4\ * !\Lights_Out_1:Net_2416_3\ * 
+              \Lights_Out_1:cydff_3_5\ * \Lights_Out_1:cydff_3_3\
+            + !\Lights_Out_1:Net_2416_4\ * \Lights_Out_1:cydff_3_5\ * 
+              \Lights_Out_1:cydff_3_4\
+            + !\Lights_Out_1:Net_2416_3\ * \Lights_Out_1:cydff_3_5\ * 
+              \Lights_Out_1:cydff_3_4\ * \Lights_Out_1:cydff_3_3\
+        );
+        Output = \Lights_Out_1:MODULE_2:g1:a0:gx:u0:lt_5\ (fanout=2)
+        Properties               : 
+        {
+        }
+}
+
+controlcell: Name =\LIGHT_BRIGHTNESS_2:Sync:ctrl_reg\
+    PORT MAP (
+        control_7 => \LIGHT_BRIGHTNESS_2:control_7\ ,
+        control_6 => Net_5421_6 ,
+        control_5 => Net_5421_5 ,
+        control_4 => Net_5421_4 ,
+        control_3 => Net_5421_3 ,
+        control_2 => Net_5421_2 ,
+        control_1 => Net_5421_1 ,
+        control_0 => Net_5421_0 );
+    Properties:
+    {
+        cy_ctrl_mode_0 = "00000000"
+        cy_ctrl_mode_1 = "00000000"
+        cy_ext_reset = 0
+        cy_force_order = 1
+        cy_init_value = "00000000"
+    }
+    Clock Enable: True
+
+UDB [UDB=(1,2)] contents:
+LAB@[UDB=(1,2)][LB=0] #macrocells=1, #inputs=6, #pterms=7
+{
+    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:MODULE_6:g1:a0:gx:u0:lt_5\, Mode=(Combinatorial) @ [UDB=(1,2)][LB=0][MC=0]
         Total # of inputs        : 6
         Total # of product terms : 7
             Clock Enable: True
@@ -5657,115 +6363,13 @@ LAB@[UDB=(0,0)][LB=1] #macrocells=2, #inputs=7, #pterms=8
         }
 
     [McSlotId=1]: (empty)
-    [McSlotId=2]:     MacroCell: Name=\Lights_Out_1:cydff_7_6\, Mode=(D-Register) @ [UDB=(0,0)][LB=1][MC=2]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (\Lights_Out_1:Net_2092\) => Global
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              Net_5425_6
-        );
-        Output = \Lights_Out_1:cydff_7_6\ (fanout=2)
-        Properties               : 
-        {
-        }
-
+    [McSlotId=2]: (empty)
     [McSlotId=3]: (empty)
 }
 
-statuscell: Name =\Lights_Out_1:LED_STATUS:sts:sts_reg\
-    PORT MAP (
-        status_6 => Net_6914 ,
-        status_5 => Net_7436 ,
-        status_4 => Net_7435 ,
-        status_3 => Net_7434 ,
-        status_2 => Net_7433 ,
-        status_1 => Net_7432 ,
-        status_0 => Net_7431 );
-    Properties:
-    {
-        cy_force_order = 1
-        cy_md_select = "00000000"
-    }
-    Clock Enable: True
-
-UDB [UDB=(0,1)] contents:
-LAB@[UDB=(0,1)][LB=0] #macrocells=4, #inputs=8, #pterms=8
+LAB@[UDB=(1,2)][LB=1] #macrocells=2, #inputs=9, #pterms=8
 {
-    [McSlotId=0]:     MacroCell: Name=Net_7436, Mode=(Combinatorial) @ [UDB=(0,1)][LB=0][MC=0]
-        Total # of inputs        : 5
-        Total # of product terms : 5
-            Clock Enable: True
-        Main Equation            : 5 pterms
-        (
-              !\Lights_Out_1:Net_2416_6\ * \Lights_Out_1:cydff_7_6\
-            + !\Lights_Out_1:Net_2416_6\ * 
-              \Lights_Out_1:MODULE_6:g1:a0:gx:u0:lt_5\
-            + !\Lights_Out_1:Net_2416_6\ * 
-              !\Lights_Out_1:MODULE_6:g1:a0:gx:u0:gt_5\ * 
-              \Lights_Out_1:MODULE_6:g1:a0:gx:u0:lt_2\
-            + \Lights_Out_1:cydff_7_6\ * 
-              \Lights_Out_1:MODULE_6:g1:a0:gx:u0:lt_5\
-            + \Lights_Out_1:cydff_7_6\ * 
-              !\Lights_Out_1:MODULE_6:g1:a0:gx:u0:gt_5\ * 
-              \Lights_Out_1:MODULE_6:g1:a0:gx:u0:lt_2\
-        );
-        Output = Net_7436 (fanout=2)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]:     MacroCell: Name=\Lights_Out_1:cydff_6_4\, Mode=(D-Register) @ [UDB=(0,1)][LB=0][MC=1]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (\Lights_Out_1:Net_2092\) => Global
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              Net_5424_4
-        );
-        Output = \Lights_Out_1:cydff_6_4\ (fanout=2)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=2]:     MacroCell: Name=\Lights_Out_1:cydff_6_2\, Mode=(D-Register) @ [UDB=(0,1)][LB=0][MC=2]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (\Lights_Out_1:Net_2092\) => Global
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              Net_5424_2
-        );
-        Output = \Lights_Out_1:cydff_6_2\ (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=3]:     MacroCell: Name=\Lights_Out_1:cydff_6_1\, Mode=(D-Register) @ [UDB=(0,1)][LB=0][MC=3]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (\Lights_Out_1:Net_2092\) => Global
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              Net_5424_1
-        );
-        Output = \Lights_Out_1:cydff_6_1\ (fanout=1)
-        Properties               : 
-        {
-        }
-}
-
-LAB@[UDB=(0,1)][LB=1] #macrocells=2, #inputs=9, #pterms=8
-{
-    [McSlotId=0]:     MacroCell: Name=Net_5293, Mode=(Combinatorial) @ [UDB=(0,1)][LB=1][MC=0]
+    [McSlotId=0]:     MacroCell: Name=Net_5293, Mode=(Combinatorial) @ [UDB=(1,2)][LB=1][MC=0]
         Total # of inputs        : 8
         Total # of product terms : 7
             Clock Enable: True
@@ -5791,8 +6395,7 @@ LAB@[UDB=(0,1)][LB=1] #macrocells=2, #inputs=9, #pterms=8
         {
         }
 
-    [McSlotId=1]: (empty)
-    [McSlotId=2]:     MacroCell: Name=\Lights_Out_1:cydff_6_0\, Mode=(D-Register) @ [UDB=(0,1)][LB=1][MC=2]
+    [McSlotId=1]:     MacroCell: Name=\Lights_Out_1:cydff_1\, Mode=(D-Register) @ [UDB=(1,2)][LB=1][MC=1]
         Total # of inputs        : 1
         Total # of product terms : 1
         List of special equations: 
@@ -5800,26 +6403,27 @@ LAB@[UDB=(0,1)][LB=1] #macrocells=2, #inputs=9, #pterms=8
             Clock Enable: True
         Main Equation            : 1 pterm
         (
-              Net_5424_0
+              \Lights_Out_1:Net_2093\
         );
-        Output = \Lights_Out_1:cydff_6_0\ (fanout=1)
+        Output = \Lights_Out_1:cydff_1\ (fanout=21)
         Properties               : 
         {
         }
 
+    [McSlotId=2]: (empty)
     [McSlotId=3]: (empty)
 }
 
-controlcell: Name =\LIGHT_BRIGHTNESS_5:Sync:ctrl_reg\
+controlcell: Name =\HOT_LEDS:Sync:ctrl_reg\
     PORT MAP (
-        control_7 => \LIGHT_BRIGHTNESS_5:control_7\ ,
-        control_6 => Net_5424_6 ,
-        control_5 => Net_5424_5 ,
-        control_4 => Net_5424_4 ,
-        control_3 => Net_5424_3 ,
-        control_2 => Net_5424_2 ,
-        control_1 => Net_5424_1 ,
-        control_0 => Net_5424_0 );
+        control_7 => Net_6585_7 ,
+        control_6 => Net_6585_6 ,
+        control_5 => Net_6585_5 ,
+        control_4 => Net_6585_4 ,
+        control_3 => Net_6585_3 ,
+        control_2 => Net_6585_2 ,
+        control_1 => Net_6585_1 ,
+        control_0 => Net_6585_0 );
     Properties:
     {
         cy_ctrl_mode_0 = "00000000"
@@ -5830,90 +6434,43 @@ controlcell: Name =\LIGHT_BRIGHTNESS_5:Sync:ctrl_reg\
     }
     Clock Enable: True
 
-UDB [UDB=(0,2)] contents:
-LAB@[UDB=(0,2)][LB=0] #macrocells=2, #inputs=7, #pterms=8
+UDB [UDB=(1,3)] contents:
+LAB@[UDB=(1,3)][LB=0] #macrocells=2, #inputs=6, #pterms=6
 {
-    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:MODULE_5:g1:a0:gx:u0:lt_2\, Mode=(Combinatorial) @ [UDB=(0,2)][LB=0][MC=0]
-        Total # of inputs        : 6
-        Total # of product terms : 7
+    [McSlotId=0]:     MacroCell: Name=Net_7435, Mode=(Combinatorial) @ [UDB=(1,3)][LB=0][MC=0]
+        Total # of inputs        : 5
+        Total # of product terms : 5
             Clock Enable: True
-        Main Equation            : 7 pterms
+        Main Equation            : 5 pterms
         (
-              !\Lights_Out_1:Net_2416_2\ * !\Lights_Out_1:Net_2416_1\ * 
-              !\Lights_Out_1:Net_2416_0\ * \Lights_Out_1:cydff_6_0\
-            + !\Lights_Out_1:Net_2416_2\ * !\Lights_Out_1:Net_2416_1\ * 
-              \Lights_Out_1:cydff_6_1\
-            + !\Lights_Out_1:Net_2416_2\ * !\Lights_Out_1:Net_2416_0\ * 
-              \Lights_Out_1:cydff_6_1\ * \Lights_Out_1:cydff_6_0\
-            + !\Lights_Out_1:Net_2416_2\ * \Lights_Out_1:cydff_6_2\
-            + !\Lights_Out_1:Net_2416_1\ * !\Lights_Out_1:Net_2416_0\ * 
-              \Lights_Out_1:cydff_6_2\ * \Lights_Out_1:cydff_6_0\
-            + !\Lights_Out_1:Net_2416_1\ * \Lights_Out_1:cydff_6_2\ * 
-              \Lights_Out_1:cydff_6_1\
-            + !\Lights_Out_1:Net_2416_0\ * \Lights_Out_1:cydff_6_2\ * 
-              \Lights_Out_1:cydff_6_1\ * \Lights_Out_1:cydff_6_0\
+              !\Lights_Out_1:Net_2416_6\ * \Lights_Out_1:cydff_6_6\
+            + !\Lights_Out_1:Net_2416_6\ * 
+              \Lights_Out_1:MODULE_5:g1:a0:gx:u0:lt_5\
+            + !\Lights_Out_1:Net_2416_6\ * 
+              !\Lights_Out_1:MODULE_5:g1:a0:gx:u0:gt_5\ * 
+              \Lights_Out_1:MODULE_5:g1:a0:gx:u0:lt_2\
+            + \Lights_Out_1:cydff_6_6\ * 
+              \Lights_Out_1:MODULE_5:g1:a0:gx:u0:lt_5\
+            + \Lights_Out_1:cydff_6_6\ * 
+              !\Lights_Out_1:MODULE_5:g1:a0:gx:u0:gt_5\ * 
+              \Lights_Out_1:MODULE_5:g1:a0:gx:u0:lt_2\
         );
-        Output = \Lights_Out_1:MODULE_5:g1:a0:gx:u0:lt_2\ (fanout=2)
+        Output = Net_7435 (fanout=2)
         Properties               : 
         {
         }
 
-    [McSlotId=1]: (empty)
-    [McSlotId=2]: (empty)
-    [McSlotId=3]:     MacroCell: Name=\Lights_Out_1:cydff_6_5\, Mode=(D-Register) @ [UDB=(0,2)][LB=0][MC=3]
+    [McSlotId=1]:     MacroCell: Name=\Lights_Out_1:cydff_4_0\, Mode=(D-Register) @ [UDB=(1,3)][LB=0][MC=1]
         Total # of inputs        : 1
         Total # of product terms : 1
         List of special equations: 
             Clock  = (\Lights_Out_1:Net_2092\) => Global
-            Clock Enable: True
+            Clock Enable: PosEdge(\Lights_Out_1:cydff_1\)
         Main Equation            : 1 pterm
         (
-              Net_5424_5
+              Net_5422_0
         );
-        Output = \Lights_Out_1:cydff_6_5\ (fanout=2)
-        Properties               : 
-        {
-        }
-}
-
-LAB@[UDB=(0,2)][LB=1] #macrocells=2, #inputs=7, #pterms=8
-{
-    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:MODULE_5:g1:a0:gx:u0:gt_5\, Mode=(Combinatorial) @ [UDB=(0,2)][LB=1][MC=0]
-        Total # of inputs        : 6
-        Total # of product terms : 7
-            Clock Enable: True
-        Main Equation            : 7 pterms
-        (
-              \Lights_Out_1:Net_2416_5\ * \Lights_Out_1:Net_2416_4\ * 
-              \Lights_Out_1:Net_2416_3\ * !\Lights_Out_1:cydff_6_3\
-            + \Lights_Out_1:Net_2416_5\ * \Lights_Out_1:Net_2416_4\ * 
-              !\Lights_Out_1:cydff_6_4\
-            + \Lights_Out_1:Net_2416_5\ * \Lights_Out_1:Net_2416_3\ * 
-              !\Lights_Out_1:cydff_6_4\ * !\Lights_Out_1:cydff_6_3\
-            + \Lights_Out_1:Net_2416_5\ * !\Lights_Out_1:cydff_6_5\
-            + \Lights_Out_1:Net_2416_4\ * \Lights_Out_1:Net_2416_3\ * 
-              !\Lights_Out_1:cydff_6_5\ * !\Lights_Out_1:cydff_6_3\
-            + \Lights_Out_1:Net_2416_4\ * !\Lights_Out_1:cydff_6_5\ * 
-              !\Lights_Out_1:cydff_6_4\
-            + \Lights_Out_1:Net_2416_3\ * !\Lights_Out_1:cydff_6_5\ * 
-              !\Lights_Out_1:cydff_6_4\ * !\Lights_Out_1:cydff_6_3\
-        );
-        Output = \Lights_Out_1:MODULE_5:g1:a0:gx:u0:gt_5\ (fanout=2)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]:     MacroCell: Name=\Lights_Out_1:cydff_6_3\, Mode=(D-Register) @ [UDB=(0,2)][LB=1][MC=1]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (\Lights_Out_1:Net_2092\) => Global
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              Net_5424_3
-        );
-        Output = \Lights_Out_1:cydff_6_3\ (fanout=2)
+        Output = \Lights_Out_1:cydff_4_0\ (fanout=1)
         Properties               : 
         {
         }
@@ -5922,42 +6479,56 @@ LAB@[UDB=(0,2)][LB=1] #macrocells=2, #inputs=7, #pterms=8
     [McSlotId=3]: (empty)
 }
 
-UDB [UDB=(0,3)] contents:
-LAB@[UDB=(0,3)][LB=0] #macrocells=1, #inputs=6, #pterms=7
+LAB@[UDB=(1,3)][LB=1] #macrocells=2, #inputs=9, #pterms=8
 {
-    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:MODULE_4:g1:a0:gx:u0:lt_2\, Mode=(Combinatorial) @ [UDB=(0,3)][LB=0][MC=0]
-        Total # of inputs        : 6
-        Total # of product terms : 7
-            Clock Enable: True
-        Main Equation            : 7 pterms
+    [McSlotId=0]: (empty)
+    [McSlotId=1]: (empty)
+    [McSlotId=2]:     MacroCell: Name=\Lights_Out_1:cydff_4_2\, Mode=(D-Register) @ [UDB=(1,3)][LB=1][MC=2]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\Lights_Out_1:Net_2092\) => Global
+            Clock Enable: PosEdge(\Lights_Out_1:cydff_1\)
+        Main Equation            : 1 pterm
         (
-              !\Lights_Out_1:Net_2416_2\ * !\Lights_Out_1:Net_2416_1\ * 
-              !\Lights_Out_1:Net_2416_0\ * \Lights_Out_1:cydff_5_0\
-            + !\Lights_Out_1:Net_2416_2\ * !\Lights_Out_1:Net_2416_1\ * 
-              \Lights_Out_1:cydff_5_1\
-            + !\Lights_Out_1:Net_2416_2\ * !\Lights_Out_1:Net_2416_0\ * 
-              \Lights_Out_1:cydff_5_1\ * \Lights_Out_1:cydff_5_0\
-            + !\Lights_Out_1:Net_2416_2\ * \Lights_Out_1:cydff_5_2\
-            + !\Lights_Out_1:Net_2416_1\ * !\Lights_Out_1:Net_2416_0\ * 
-              \Lights_Out_1:cydff_5_2\ * \Lights_Out_1:cydff_5_0\
-            + !\Lights_Out_1:Net_2416_1\ * \Lights_Out_1:cydff_5_2\ * 
-              \Lights_Out_1:cydff_5_1\
-            + !\Lights_Out_1:Net_2416_0\ * \Lights_Out_1:cydff_5_2\ * 
-              \Lights_Out_1:cydff_5_1\ * \Lights_Out_1:cydff_5_0\
+              Net_5422_2
         );
-        Output = \Lights_Out_1:MODULE_4:g1:a0:gx:u0:lt_2\ (fanout=2)
+        Output = \Lights_Out_1:cydff_4_2\ (fanout=1)
         Properties               : 
         {
         }
 
-    [McSlotId=1]: (empty)
-    [McSlotId=2]: (empty)
-    [McSlotId=3]: (empty)
+    [McSlotId=3]:     MacroCell: Name=Net_5292, Mode=(Combinatorial) @ [UDB=(1,3)][LB=1][MC=3]
+        Total # of inputs        : 8
+        Total # of product terms : 7
+            Clock Enable: True
+        Main Equation            : 7 pterms
+        (
+              !Net_6585_4 * !Net_6704 * !\Lights_Out_1:Net_2416_6\ * 
+              \Lights_Out_1:cydff_6_6\
+            + !Net_6585_4 * !Net_6704 * !\Lights_Out_1:Net_2416_6\ * 
+              \Lights_Out_1:MODULE_5:g1:a0:gx:u0:lt_5\
+            + !Net_6585_4 * !Net_6704 * !\Lights_Out_1:Net_2416_6\ * 
+              !\Lights_Out_1:MODULE_5:g1:a0:gx:u0:gt_5\ * 
+              \Lights_Out_1:MODULE_5:g1:a0:gx:u0:lt_2\
+            + !Net_6585_4 * !Net_6704 * \Lights_Out_1:cydff_6_6\ * 
+              \Lights_Out_1:MODULE_5:g1:a0:gx:u0:lt_5\
+            + !Net_6585_4 * !Net_6704 * \Lights_Out_1:cydff_6_6\ * 
+              !\Lights_Out_1:MODULE_5:g1:a0:gx:u0:gt_5\ * 
+              \Lights_Out_1:MODULE_5:g1:a0:gx:u0:lt_2\
+            + Net_6585_4 * Net_7428
+            + Net_6585_4 * Net_6704
+        );
+        Output = Net_5292 (fanout=1)
+        Properties               : 
+        {
+        }
 }
 
-LAB@[UDB=(0,3)][LB=1] #macrocells=1, #inputs=6, #pterms=7
+UDB [UDB=(1,4)] contents:
+LAB@[UDB=(1,4)][LB=0] #macrocells=2, #inputs=7, #pterms=8
 {
-    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:MODULE_5:g1:a0:gx:u0:lt_5\, Mode=(Combinatorial) @ [UDB=(0,3)][LB=1][MC=0]
+    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:MODULE_5:g1:a0:gx:u0:lt_5\, Mode=(Combinatorial) @ [UDB=(1,4)][LB=0][MC=0]
         Total # of inputs        : 6
         Total # of product terms : 7
             Clock Enable: True
@@ -5984,283 +6555,7 @@ LAB@[UDB=(0,3)][LB=1] #macrocells=1, #inputs=6, #pterms=7
 
     [McSlotId=1]: (empty)
     [McSlotId=2]: (empty)
-    [McSlotId=3]: (empty)
-}
-
-count7cell: Name =\Lights_Out_1:LIGHT_COUNTER:Counter7\
-    PORT MAP (
-        clock => \Lights_Out_1:Net_2092\ ,
-        count_6 => \Lights_Out_1:Net_2416_6\ ,
-        count_5 => \Lights_Out_1:Net_2416_5\ ,
-        count_4 => \Lights_Out_1:Net_2416_4\ ,
-        count_3 => \Lights_Out_1:Net_2416_3\ ,
-        count_2 => \Lights_Out_1:Net_2416_2\ ,
-        count_1 => \Lights_Out_1:Net_2416_1\ ,
-        count_0 => \Lights_Out_1:Net_2416_0\ ,
-        tc => \Lights_Out_1:Net_2093\ );
-    Properties:
-    {
-        cy_alt_mode = 0
-        cy_init_value = "0000000"
-        cy_period = "1111111"
-        cy_route_en = 0
-        cy_route_ld = 0
-    }
-    Clock Polarity: Active High
-    Clock Enable: True
-
-UDB [UDB=(0,4)] is empty.
-UDB [UDB=(0,5)] is empty.
-UDB [UDB=(1,0)] contents:
-LAB@[UDB=(1,0)][LB=0] #macrocells=4, #inputs=4, #pterms=4
-{
-    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:cydff_7_4\, Mode=(D-Register) @ [UDB=(1,0)][LB=0][MC=0]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (\Lights_Out_1:Net_2092\) => Global
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              Net_5425_4
-        );
-        Output = \Lights_Out_1:cydff_7_4\ (fanout=2)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]:     MacroCell: Name=\Lights_Out_1:cydff_7_0\, Mode=(D-Register) @ [UDB=(1,0)][LB=0][MC=1]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (\Lights_Out_1:Net_2092\) => Global
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              Net_5425_0
-        );
-        Output = \Lights_Out_1:cydff_7_0\ (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=2]:     MacroCell: Name=\Lights_Out_1:cydff_7_1\, Mode=(D-Register) @ [UDB=(1,0)][LB=0][MC=2]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (\Lights_Out_1:Net_2092\) => Global
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              Net_5425_1
-        );
-        Output = \Lights_Out_1:cydff_7_1\ (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=3]:     MacroCell: Name=\Lights_Out_1:cydff_7_3\, Mode=(D-Register) @ [UDB=(1,0)][LB=0][MC=3]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (\Lights_Out_1:Net_2092\) => Global
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              Net_5425_3
-        );
-        Output = \Lights_Out_1:cydff_7_3\ (fanout=2)
-        Properties               : 
-        {
-        }
-}
-
-LAB@[UDB=(1,0)][LB=1] #macrocells=2, #inputs=7, #pterms=8
-{
-    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:MODULE_6:g1:a0:gx:u0:lt_2\, Mode=(Combinatorial) @ [UDB=(1,0)][LB=1][MC=0]
-        Total # of inputs        : 6
-        Total # of product terms : 7
-            Clock Enable: True
-        Main Equation            : 7 pterms
-        (
-              !\Lights_Out_1:Net_2416_2\ * !\Lights_Out_1:Net_2416_1\ * 
-              !\Lights_Out_1:Net_2416_0\ * \Lights_Out_1:cydff_7_0\
-            + !\Lights_Out_1:Net_2416_2\ * !\Lights_Out_1:Net_2416_1\ * 
-              \Lights_Out_1:cydff_7_1\
-            + !\Lights_Out_1:Net_2416_2\ * !\Lights_Out_1:Net_2416_0\ * 
-              \Lights_Out_1:cydff_7_1\ * \Lights_Out_1:cydff_7_0\
-            + !\Lights_Out_1:Net_2416_2\ * \Lights_Out_1:cydff_7_2\
-            + !\Lights_Out_1:Net_2416_1\ * !\Lights_Out_1:Net_2416_0\ * 
-              \Lights_Out_1:cydff_7_2\ * \Lights_Out_1:cydff_7_0\
-            + !\Lights_Out_1:Net_2416_1\ * \Lights_Out_1:cydff_7_2\ * 
-              \Lights_Out_1:cydff_7_1\
-            + !\Lights_Out_1:Net_2416_0\ * \Lights_Out_1:cydff_7_2\ * 
-              \Lights_Out_1:cydff_7_1\ * \Lights_Out_1:cydff_7_0\
-        );
-        Output = \Lights_Out_1:MODULE_6:g1:a0:gx:u0:lt_2\ (fanout=2)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]:     MacroCell: Name=\Lights_Out_1:cydff_7_2\, Mode=(D-Register) @ [UDB=(1,0)][LB=1][MC=1]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (\Lights_Out_1:Net_2092\) => Global
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              Net_5425_2
-        );
-        Output = \Lights_Out_1:cydff_7_2\ (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=2]: (empty)
-    [McSlotId=3]: (empty)
-}
-
-controlcell: Name =\LIGHT_BRIGHTNESS_6:Sync:ctrl_reg\
-    PORT MAP (
-        control_7 => \LIGHT_BRIGHTNESS_6:control_7\ ,
-        control_6 => Net_5425_6 ,
-        control_5 => Net_5425_5 ,
-        control_4 => Net_5425_4 ,
-        control_3 => Net_5425_3 ,
-        control_2 => Net_5425_2 ,
-        control_1 => Net_5425_1 ,
-        control_0 => Net_5425_0 );
-    Properties:
-    {
-        cy_ctrl_mode_0 = "00000000"
-        cy_ctrl_mode_1 = "00000000"
-        cy_ext_reset = 0
-        cy_force_order = 1
-        cy_init_value = "00000000"
-    }
-    Clock Enable: True
-
-UDB [UDB=(1,1)] contents:
-LAB@[UDB=(1,1)][LB=0] #macrocells=2, #inputs=6, #pterms=6
-{
-    [McSlotId=0]:     MacroCell: Name=Net_7431, Mode=(Combinatorial) @ [UDB=(1,1)][LB=0][MC=0]
-        Total # of inputs        : 5
-        Total # of product terms : 5
-            Clock Enable: True
-        Main Equation            : 5 pterms
-        (
-              !\Lights_Out_1:Net_2416_6\ * \Lights_Out_1:cydff_2_6\
-            + !\Lights_Out_1:Net_2416_6\ * 
-              \Lights_Out_1:MODULE_1:g1:a0:gx:u0:lt_5\
-            + !\Lights_Out_1:Net_2416_6\ * 
-              !\Lights_Out_1:MODULE_1:g1:a0:gx:u0:gt_5\ * 
-              \Lights_Out_1:MODULE_1:g1:a0:gx:u0:lt_2\
-            + \Lights_Out_1:cydff_2_6\ * 
-              \Lights_Out_1:MODULE_1:g1:a0:gx:u0:lt_5\
-            + \Lights_Out_1:cydff_2_6\ * 
-              !\Lights_Out_1:MODULE_1:g1:a0:gx:u0:gt_5\ * 
-              \Lights_Out_1:MODULE_1:g1:a0:gx:u0:lt_2\
-        );
-        Output = Net_7431 (fanout=2)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]:     MacroCell: Name=\Lights_Out_1:cydff_6_6\, Mode=(D-Register) @ [UDB=(1,1)][LB=0][MC=1]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (\Lights_Out_1:Net_2092\) => Global
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              Net_5424_6
-        );
-        Output = \Lights_Out_1:cydff_6_6\ (fanout=2)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=2]: (empty)
-    [McSlotId=3]: (empty)
-}
-
-LAB@[UDB=(1,1)][LB=1] #macrocells=2, #inputs=7, #pterms=8
-{
-    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:MODULE_4:g1:a0:gx:u0:gt_5\, Mode=(Combinatorial) @ [UDB=(1,1)][LB=1][MC=0]
-        Total # of inputs        : 6
-        Total # of product terms : 7
-            Clock Enable: True
-        Main Equation            : 7 pterms
-        (
-              \Lights_Out_1:Net_2416_5\ * \Lights_Out_1:Net_2416_4\ * 
-              \Lights_Out_1:Net_2416_3\ * !\Lights_Out_1:cydff_5_3\
-            + \Lights_Out_1:Net_2416_5\ * \Lights_Out_1:Net_2416_4\ * 
-              !\Lights_Out_1:cydff_5_4\
-            + \Lights_Out_1:Net_2416_5\ * \Lights_Out_1:Net_2416_3\ * 
-              !\Lights_Out_1:cydff_5_4\ * !\Lights_Out_1:cydff_5_3\
-            + \Lights_Out_1:Net_2416_5\ * !\Lights_Out_1:cydff_5_5\
-            + \Lights_Out_1:Net_2416_4\ * \Lights_Out_1:Net_2416_3\ * 
-              !\Lights_Out_1:cydff_5_5\ * !\Lights_Out_1:cydff_5_3\
-            + \Lights_Out_1:Net_2416_4\ * !\Lights_Out_1:cydff_5_5\ * 
-              !\Lights_Out_1:cydff_5_4\
-            + \Lights_Out_1:Net_2416_3\ * !\Lights_Out_1:cydff_5_5\ * 
-              !\Lights_Out_1:cydff_5_4\ * !\Lights_Out_1:cydff_5_3\
-        );
-        Output = \Lights_Out_1:MODULE_4:g1:a0:gx:u0:gt_5\ (fanout=2)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]: (empty)
-    [McSlotId=2]: (empty)
-    [McSlotId=3]:     MacroCell: Name=\Lights_Out_1:cydff_8_1\, Mode=(D-Register) @ [UDB=(1,1)][LB=1][MC=3]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (\Lights_Out_1:Net_2092\) => Global
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              Net_5426_1
-        );
-        Output = \Lights_Out_1:cydff_8_1\ (fanout=1)
-        Properties               : 
-        {
-        }
-}
-
-UDB [UDB=(1,2)] contents:
-LAB@[UDB=(1,2)][LB=0] #macrocells=2, #inputs=9, #pterms=8
-{
-    [McSlotId=0]:     MacroCell: Name=Net_5288, Mode=(Combinatorial) @ [UDB=(1,2)][LB=0][MC=0]
-        Total # of inputs        : 8
-        Total # of product terms : 7
-            Clock Enable: True
-        Main Equation            : 7 pterms
-        (
-              !Net_6585_0 * !Net_6704 * !\Lights_Out_1:Net_2416_6\ * 
-              \Lights_Out_1:cydff_2_6\
-            + !Net_6585_0 * !Net_6704 * !\Lights_Out_1:Net_2416_6\ * 
-              \Lights_Out_1:MODULE_1:g1:a0:gx:u0:lt_5\
-            + !Net_6585_0 * !Net_6704 * !\Lights_Out_1:Net_2416_6\ * 
-              !\Lights_Out_1:MODULE_1:g1:a0:gx:u0:gt_5\ * 
-              \Lights_Out_1:MODULE_1:g1:a0:gx:u0:lt_2\
-            + !Net_6585_0 * !Net_6704 * \Lights_Out_1:cydff_2_6\ * 
-              \Lights_Out_1:MODULE_1:g1:a0:gx:u0:lt_5\
-            + !Net_6585_0 * !Net_6704 * \Lights_Out_1:cydff_2_6\ * 
-              !\Lights_Out_1:MODULE_1:g1:a0:gx:u0:gt_5\ * 
-              \Lights_Out_1:MODULE_1:g1:a0:gx:u0:lt_2\
-            + Net_6585_0 * Net_7428
-            + Net_6585_0 * Net_6704
-        );
-        Output = Net_5288 (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]:     MacroCell: Name=\Lights_Out_1:cydff_4_1\, Mode=(D-Register) @ [UDB=(1,2)][LB=0][MC=1]
+    [McSlotId=3]:     MacroCell: Name=\Lights_Out_1:cydff_4_3\, Mode=(D-Register) @ [UDB=(1,4)][LB=0][MC=3]
         Total # of inputs        : 1
         Total # of product terms : 1
         List of special equations: 
@@ -6268,448 +6563,56 @@ LAB@[UDB=(1,2)][LB=0] #macrocells=2, #inputs=9, #pterms=8
             Clock Enable: PosEdge(\Lights_Out_1:cydff_1\)
         Main Equation            : 1 pterm
         (
-              Net_5422_1
+              Net_5422_3
         );
-        Output = \Lights_Out_1:cydff_4_1\ (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=2]: (empty)
-    [McSlotId=3]: (empty)
-}
-
-LAB@[UDB=(1,2)][LB=1] #macrocells=1, #inputs=8, #pterms=7
-{
-    [McSlotId=0]:     MacroCell: Name=Net_5292, Mode=(Combinatorial) @ [UDB=(1,2)][LB=1][MC=0]
-        Total # of inputs        : 8
-        Total # of product terms : 7
-            Clock Enable: True
-        Main Equation            : 7 pterms
-        (
-              !Net_6585_4 * !Net_6704 * !\Lights_Out_1:Net_2416_6\ * 
-              \Lights_Out_1:cydff_6_6\
-            + !Net_6585_4 * !Net_6704 * !\Lights_Out_1:Net_2416_6\ * 
-              \Lights_Out_1:MODULE_5:g1:a0:gx:u0:lt_5\
-            + !Net_6585_4 * !Net_6704 * !\Lights_Out_1:Net_2416_6\ * 
-              !\Lights_Out_1:MODULE_5:g1:a0:gx:u0:gt_5\ * 
-              \Lights_Out_1:MODULE_5:g1:a0:gx:u0:lt_2\
-            + !Net_6585_4 * !Net_6704 * \Lights_Out_1:cydff_6_6\ * 
-              \Lights_Out_1:MODULE_5:g1:a0:gx:u0:lt_5\
-            + !Net_6585_4 * !Net_6704 * \Lights_Out_1:cydff_6_6\ * 
-              !\Lights_Out_1:MODULE_5:g1:a0:gx:u0:gt_5\ * 
-              \Lights_Out_1:MODULE_5:g1:a0:gx:u0:lt_2\
-            + Net_6585_4 * Net_7428
-            + Net_6585_4 * Net_6704
-        );
-        Output = Net_5292 (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]: (empty)
-    [McSlotId=2]: (empty)
-    [McSlotId=3]: (empty)
-}
-
-controlcell: Name =\HOT_LEDS:Sync:ctrl_reg\
-    PORT MAP (
-        control_7 => Net_6585_7 ,
-        control_6 => Net_6585_6 ,
-        control_5 => Net_6585_5 ,
-        control_4 => Net_6585_4 ,
-        control_3 => Net_6585_3 ,
-        control_2 => Net_6585_2 ,
-        control_1 => Net_6585_1 ,
-        control_0 => Net_6585_0 );
-    Properties:
-    {
-        cy_ctrl_mode_0 = "00000000"
-        cy_ctrl_mode_1 = "00000000"
-        cy_ext_reset = 0
-        cy_force_order = 1
-        cy_init_value = "00000000"
-    }
-    Clock Enable: True
-
-UDB [UDB=(1,3)] contents:
-LAB@[UDB=(1,3)][LB=0] #macrocells=4, #inputs=4, #pterms=4
-{
-    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:cydff_5_3\, Mode=(D-Register) @ [UDB=(1,3)][LB=0][MC=0]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (\Lights_Out_1:Net_2092\) => Global
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              Net_5423_3
-        );
-        Output = \Lights_Out_1:cydff_5_3\ (fanout=2)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]:     MacroCell: Name=\Lights_Out_1:cydff_5_1\, Mode=(D-Register) @ [UDB=(1,3)][LB=0][MC=1]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (\Lights_Out_1:Net_2092\) => Global
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              Net_5423_1
-        );
-        Output = \Lights_Out_1:cydff_5_1\ (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=2]:     MacroCell: Name=\Lights_Out_1:cydff_5_4\, Mode=(D-Register) @ [UDB=(1,3)][LB=0][MC=2]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (\Lights_Out_1:Net_2092\) => Global
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              Net_5423_4
-        );
-        Output = \Lights_Out_1:cydff_5_4\ (fanout=2)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=3]:     MacroCell: Name=\Lights_Out_1:cydff_5_5\, Mode=(D-Register) @ [UDB=(1,3)][LB=0][MC=3]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (\Lights_Out_1:Net_2092\) => Global
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              Net_5423_5
-        );
-        Output = \Lights_Out_1:cydff_5_5\ (fanout=2)
+        Output = \Lights_Out_1:cydff_4_3\ (fanout=2)
         Properties               : 
         {
         }
 }
 
-LAB@[UDB=(1,3)][LB=1] #macrocells=4, #inputs=8, #pterms=8
+LAB@[UDB=(1,4)][LB=1] #macrocells=3, #inputs=7, #pterms=8
 {
-    [McSlotId=0]:     MacroCell: Name=Net_7435, Mode=(Combinatorial) @ [UDB=(1,3)][LB=1][MC=0]
-        Total # of inputs        : 5
-        Total # of product terms : 5
-            Clock Enable: True
-        Main Equation            : 5 pterms
-        (
-              !\Lights_Out_1:Net_2416_6\ * \Lights_Out_1:cydff_6_6\
-            + !\Lights_Out_1:Net_2416_6\ * 
-              \Lights_Out_1:MODULE_5:g1:a0:gx:u0:lt_5\
-            + !\Lights_Out_1:Net_2416_6\ * 
-              !\Lights_Out_1:MODULE_5:g1:a0:gx:u0:gt_5\ * 
-              \Lights_Out_1:MODULE_5:g1:a0:gx:u0:lt_2\
-            + \Lights_Out_1:cydff_6_6\ * 
-              \Lights_Out_1:MODULE_5:g1:a0:gx:u0:lt_5\
-            + \Lights_Out_1:cydff_6_6\ * 
-              !\Lights_Out_1:MODULE_5:g1:a0:gx:u0:gt_5\ * 
-              \Lights_Out_1:MODULE_5:g1:a0:gx:u0:lt_2\
-        );
-        Output = Net_7435 (fanout=2)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]:     MacroCell: Name=\Lights_Out_1:cydff_5_6\, Mode=(D-Register) @ [UDB=(1,3)][LB=1][MC=1]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (\Lights_Out_1:Net_2092\) => Global
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              Net_5423_6
-        );
-        Output = \Lights_Out_1:cydff_5_6\ (fanout=2)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=2]:     MacroCell: Name=\Lights_Out_1:cydff_5_0\, Mode=(D-Register) @ [UDB=(1,3)][LB=1][MC=2]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (\Lights_Out_1:Net_2092\) => Global
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              Net_5423_0
-        );
-        Output = \Lights_Out_1:cydff_5_0\ (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=3]:     MacroCell: Name=\Lights_Out_1:cydff_5_2\, Mode=(D-Register) @ [UDB=(1,3)][LB=1][MC=3]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (\Lights_Out_1:Net_2092\) => Global
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              Net_5423_2
-        );
-        Output = \Lights_Out_1:cydff_5_2\ (fanout=1)
-        Properties               : 
-        {
-        }
-}
-
-controlcell: Name =\LIGHT_BRIGHTNESS_4:Sync:ctrl_reg\
-    PORT MAP (
-        control_7 => \LIGHT_BRIGHTNESS_4:control_7\ ,
-        control_6 => Net_5423_6 ,
-        control_5 => Net_5423_5 ,
-        control_4 => Net_5423_4 ,
-        control_3 => Net_5423_3 ,
-        control_2 => Net_5423_2 ,
-        control_1 => Net_5423_1 ,
-        control_0 => Net_5423_0 );
-    Properties:
-    {
-        cy_ctrl_mode_0 = "00000000"
-        cy_ctrl_mode_1 = "00000000"
-        cy_ext_reset = 0
-        cy_force_order = 1
-        cy_init_value = "00000000"
-    }
-    Clock Enable: True
-
-UDB [UDB=(1,4)] is empty.
-UDB [UDB=(1,5)] is empty.
-UDB [UDB=(2,0)] contents:
-LAB@[UDB=(2,0)][LB=0] #macrocells=2, #inputs=7, #pterms=8
-{
-    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:MODULE_7:g1:a0:gx:u0:gt_5\, Mode=(Combinatorial) @ [UDB=(2,0)][LB=0][MC=0]
+    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:MODULE_5:g1:a0:gx:u0:gt_5\, Mode=(Combinatorial) @ [UDB=(1,4)][LB=1][MC=0]
         Total # of inputs        : 6
         Total # of product terms : 7
             Clock Enable: True
         Main Equation            : 7 pterms
         (
               \Lights_Out_1:Net_2416_5\ * \Lights_Out_1:Net_2416_4\ * 
-              \Lights_Out_1:Net_2416_3\ * !\Lights_Out_1:cydff_8_3\
+              \Lights_Out_1:Net_2416_3\ * !\Lights_Out_1:cydff_6_3\
             + \Lights_Out_1:Net_2416_5\ * \Lights_Out_1:Net_2416_4\ * 
-              !\Lights_Out_1:cydff_8_4\
+              !\Lights_Out_1:cydff_6_4\
             + \Lights_Out_1:Net_2416_5\ * \Lights_Out_1:Net_2416_3\ * 
-              !\Lights_Out_1:cydff_8_4\ * !\Lights_Out_1:cydff_8_3\
-            + \Lights_Out_1:Net_2416_5\ * !\Lights_Out_1:cydff_8_5\
+              !\Lights_Out_1:cydff_6_4\ * !\Lights_Out_1:cydff_6_3\
+            + \Lights_Out_1:Net_2416_5\ * !\Lights_Out_1:cydff_6_5\
             + \Lights_Out_1:Net_2416_4\ * \Lights_Out_1:Net_2416_3\ * 
-              !\Lights_Out_1:cydff_8_5\ * !\Lights_Out_1:cydff_8_3\
-            + \Lights_Out_1:Net_2416_4\ * !\Lights_Out_1:cydff_8_5\ * 
-              !\Lights_Out_1:cydff_8_4\
-            + \Lights_Out_1:Net_2416_3\ * !\Lights_Out_1:cydff_8_5\ * 
-              !\Lights_Out_1:cydff_8_4\ * !\Lights_Out_1:cydff_8_3\
+              !\Lights_Out_1:cydff_6_5\ * !\Lights_Out_1:cydff_6_3\
+            + \Lights_Out_1:Net_2416_4\ * !\Lights_Out_1:cydff_6_5\ * 
+              !\Lights_Out_1:cydff_6_4\
+            + \Lights_Out_1:Net_2416_3\ * !\Lights_Out_1:cydff_6_5\ * 
+              !\Lights_Out_1:cydff_6_4\ * !\Lights_Out_1:cydff_6_3\
         );
-        Output = \Lights_Out_1:MODULE_7:g1:a0:gx:u0:gt_5\ (fanout=2)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]:     MacroCell: Name=\Lights_Out_1:cydff_8_5\, Mode=(D-Register) @ [UDB=(2,0)][LB=0][MC=1]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (\Lights_Out_1:Net_2092\) => Global
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              Net_5426_5
-        );
-        Output = \Lights_Out_1:cydff_8_5\ (fanout=2)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=2]: (empty)
-    [McSlotId=3]: (empty)
-}
-
-LAB@[UDB=(2,0)][LB=1] #macrocells=1, #inputs=6, #pterms=7
-{
-    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:MODULE_7:g1:a0:gx:u0:lt_5\, Mode=(Combinatorial) @ [UDB=(2,0)][LB=1][MC=0]
-        Total # of inputs        : 6
-        Total # of product terms : 7
-            Clock Enable: True
-        Main Equation            : 7 pterms
-        (
-              !\Lights_Out_1:Net_2416_5\ * !\Lights_Out_1:Net_2416_4\ * 
-              !\Lights_Out_1:Net_2416_3\ * \Lights_Out_1:cydff_8_3\
-            + !\Lights_Out_1:Net_2416_5\ * !\Lights_Out_1:Net_2416_4\ * 
-              \Lights_Out_1:cydff_8_4\
-            + !\Lights_Out_1:Net_2416_5\ * !\Lights_Out_1:Net_2416_3\ * 
-              \Lights_Out_1:cydff_8_4\ * \Lights_Out_1:cydff_8_3\
-            + !\Lights_Out_1:Net_2416_5\ * \Lights_Out_1:cydff_8_5\
-            + !\Lights_Out_1:Net_2416_4\ * !\Lights_Out_1:Net_2416_3\ * 
-              \Lights_Out_1:cydff_8_5\ * \Lights_Out_1:cydff_8_3\
-            + !\Lights_Out_1:Net_2416_4\ * \Lights_Out_1:cydff_8_5\ * 
-              \Lights_Out_1:cydff_8_4\
-            + !\Lights_Out_1:Net_2416_3\ * \Lights_Out_1:cydff_8_5\ * 
-              \Lights_Out_1:cydff_8_4\ * \Lights_Out_1:cydff_8_3\
-        );
-        Output = \Lights_Out_1:MODULE_7:g1:a0:gx:u0:lt_5\ (fanout=2)
+        Output = \Lights_Out_1:MODULE_5:g1:a0:gx:u0:gt_5\ (fanout=2)
         Properties               : 
         {
         }
 
     [McSlotId=1]: (empty)
-    [McSlotId=2]: (empty)
-    [McSlotId=3]: (empty)
-}
-
-UDB [UDB=(2,1)] contents:
-LAB@[UDB=(2,1)][LB=0] #macrocells=2, #inputs=7, #pterms=8
-{
-    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:MODULE_1:g1:a0:gx:u0:lt_5\, Mode=(Combinatorial) @ [UDB=(2,1)][LB=0][MC=0]
-        Total # of inputs        : 6
-        Total # of product terms : 7
+    [McSlotId=2]:     MacroCell: Name=__ONE__, Mode=(Combinatorial) @ [UDB=(1,4)][LB=1][MC=2]
+        Total # of inputs        : 0
+        Total # of product terms : 0
             Clock Enable: True
-        Main Equation            : 7 pterms
-        (
-              !\Lights_Out_1:Net_2416_5\ * !\Lights_Out_1:Net_2416_4\ * 
-              !\Lights_Out_1:Net_2416_3\ * \Lights_Out_1:cydff_2_3\
-            + !\Lights_Out_1:Net_2416_5\ * !\Lights_Out_1:Net_2416_4\ * 
-              \Lights_Out_1:cydff_2_4\
-            + !\Lights_Out_1:Net_2416_5\ * !\Lights_Out_1:Net_2416_3\ * 
-              \Lights_Out_1:cydff_2_4\ * \Lights_Out_1:cydff_2_3\
-            + !\Lights_Out_1:Net_2416_5\ * \Lights_Out_1:cydff_2_5\
-            + !\Lights_Out_1:Net_2416_4\ * !\Lights_Out_1:Net_2416_3\ * 
-              \Lights_Out_1:cydff_2_5\ * \Lights_Out_1:cydff_2_3\
-            + !\Lights_Out_1:Net_2416_4\ * \Lights_Out_1:cydff_2_5\ * 
-              \Lights_Out_1:cydff_2_4\
-            + !\Lights_Out_1:Net_2416_3\ * \Lights_Out_1:cydff_2_5\ * 
-              \Lights_Out_1:cydff_2_4\ * \Lights_Out_1:cydff_2_3\
+        Main Equation            : 0 pterms
+        !(
+            0
         );
-        Output = \Lights_Out_1:MODULE_1:g1:a0:gx:u0:lt_5\ (fanout=2)
+        Output = __ONE__ (fanout=1)
         Properties               : 
         {
         }
 
-    [McSlotId=1]: (empty)
-    [McSlotId=2]:     MacroCell: Name=\Lights_Out_1:cydff_8_4\, Mode=(D-Register) @ [UDB=(2,1)][LB=0][MC=2]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (\Lights_Out_1:Net_2092\) => Global
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              Net_5426_4
-        );
-        Output = \Lights_Out_1:cydff_8_4\ (fanout=2)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=3]: (empty)
-}
-
-LAB@[UDB=(2,1)][LB=1] #macrocells=2, #inputs=7, #pterms=8
-{
-    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:MODULE_1:g1:a0:gx:u0:gt_5\, Mode=(Combinatorial) @ [UDB=(2,1)][LB=1][MC=0]
-        Total # of inputs        : 6
-        Total # of product terms : 7
-            Clock Enable: True
-        Main Equation            : 7 pterms
-        (
-              \Lights_Out_1:Net_2416_5\ * \Lights_Out_1:Net_2416_4\ * 
-              \Lights_Out_1:Net_2416_3\ * !\Lights_Out_1:cydff_2_3\
-            + \Lights_Out_1:Net_2416_5\ * \Lights_Out_1:Net_2416_4\ * 
-              !\Lights_Out_1:cydff_2_4\
-            + \Lights_Out_1:Net_2416_5\ * \Lights_Out_1:Net_2416_3\ * 
-              !\Lights_Out_1:cydff_2_4\ * !\Lights_Out_1:cydff_2_3\
-            + \Lights_Out_1:Net_2416_5\ * !\Lights_Out_1:cydff_2_5\
-            + \Lights_Out_1:Net_2416_4\ * \Lights_Out_1:Net_2416_3\ * 
-              !\Lights_Out_1:cydff_2_5\ * !\Lights_Out_1:cydff_2_3\
-            + \Lights_Out_1:Net_2416_4\ * !\Lights_Out_1:cydff_2_5\ * 
-              !\Lights_Out_1:cydff_2_4\
-            + \Lights_Out_1:Net_2416_3\ * !\Lights_Out_1:cydff_2_5\ * 
-              !\Lights_Out_1:cydff_2_4\ * !\Lights_Out_1:cydff_2_3\
-        );
-        Output = \Lights_Out_1:MODULE_1:g1:a0:gx:u0:gt_5\ (fanout=2)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]:     MacroCell: Name=\Lights_Out_1:cydff_8_3\, Mode=(D-Register) @ [UDB=(2,1)][LB=1][MC=1]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (\Lights_Out_1:Net_2092\) => Global
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              Net_5426_3
-        );
-        Output = \Lights_Out_1:cydff_8_3\ (fanout=2)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=2]: (empty)
-    [McSlotId=3]: (empty)
-}
-
-controlcell: Name =\LIGHT_BRIGHTNESS_7:Sync:ctrl_reg\
-    PORT MAP (
-        control_7 => \LIGHT_BRIGHTNESS_7:control_7\ ,
-        control_6 => Net_5426_6 ,
-        control_5 => Net_5426_5 ,
-        control_4 => Net_5426_4 ,
-        control_3 => Net_5426_3 ,
-        control_2 => Net_5426_2 ,
-        control_1 => Net_5426_1 ,
-        control_0 => Net_5426_0 );
-    Properties:
-    {
-        cy_ctrl_mode_0 = "00000000"
-        cy_ctrl_mode_1 = "00000000"
-        cy_ext_reset = 0
-        cy_force_order = 1
-        cy_init_value = "00000000"
-    }
-    Clock Enable: True
-
-UDB [UDB=(2,2)] contents:
-LAB@[UDB=(2,2)][LB=0] #macrocells=2, #inputs=7, #pterms=8
-{
-    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:MODULE_4:g1:a0:gx:u0:lt_5\, Mode=(Combinatorial) @ [UDB=(2,2)][LB=0][MC=0]
-        Total # of inputs        : 6
-        Total # of product terms : 7
-            Clock Enable: True
-        Main Equation            : 7 pterms
-        (
-              !\Lights_Out_1:Net_2416_5\ * !\Lights_Out_1:Net_2416_4\ * 
-              !\Lights_Out_1:Net_2416_3\ * \Lights_Out_1:cydff_5_3\
-            + !\Lights_Out_1:Net_2416_5\ * !\Lights_Out_1:Net_2416_4\ * 
-              \Lights_Out_1:cydff_5_4\
-            + !\Lights_Out_1:Net_2416_5\ * !\Lights_Out_1:Net_2416_3\ * 
-              \Lights_Out_1:cydff_5_4\ * \Lights_Out_1:cydff_5_3\
-            + !\Lights_Out_1:Net_2416_5\ * \Lights_Out_1:cydff_5_5\
-            + !\Lights_Out_1:Net_2416_4\ * !\Lights_Out_1:Net_2416_3\ * 
-              \Lights_Out_1:cydff_5_5\ * \Lights_Out_1:cydff_5_3\
-            + !\Lights_Out_1:Net_2416_4\ * \Lights_Out_1:cydff_5_5\ * 
-              \Lights_Out_1:cydff_5_4\
-            + !\Lights_Out_1:Net_2416_3\ * \Lights_Out_1:cydff_5_5\ * 
-              \Lights_Out_1:cydff_5_4\ * \Lights_Out_1:cydff_5_3\
-        );
-        Output = \Lights_Out_1:MODULE_4:g1:a0:gx:u0:lt_5\ (fanout=2)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]:     MacroCell: Name=\Lights_Out_1:cydff_4_2\, Mode=(D-Register) @ [UDB=(2,2)][LB=0][MC=1]
+    [McSlotId=3]:     MacroCell: Name=\Lights_Out_1:cydff_4_4\, Mode=(D-Register) @ [UDB=(1,4)][LB=1][MC=3]
         Total # of inputs        : 1
         Total # of product terms : 1
         List of special equations: 
@@ -6717,62 +6620,12 @@ LAB@[UDB=(2,2)][LB=0] #macrocells=2, #inputs=7, #pterms=8
             Clock Enable: PosEdge(\Lights_Out_1:cydff_1\)
         Main Equation            : 1 pterm
         (
-              Net_5422_2
+              Net_5422_4
         );
-        Output = \Lights_Out_1:cydff_4_2\ (fanout=1)
+        Output = \Lights_Out_1:cydff_4_4\ (fanout=2)
         Properties               : 
         {
         }
-
-    [McSlotId=2]: (empty)
-    [McSlotId=3]: (empty)
-}
-
-LAB@[UDB=(2,2)][LB=1] #macrocells=2, #inputs=9, #pterms=8
-{
-    [McSlotId=0]: (empty)
-    [McSlotId=1]:     MacroCell: Name=Net_5289, Mode=(Combinatorial) @ [UDB=(2,2)][LB=1][MC=1]
-        Total # of inputs        : 8
-        Total # of product terms : 7
-            Clock Enable: True
-        Main Equation            : 7 pterms
-        (
-              !Net_6585_1 * !Net_6704 * !\Lights_Out_1:Net_2416_6\ * 
-              \Lights_Out_1:cydff_3_6\
-            + !Net_6585_1 * !Net_6704 * !\Lights_Out_1:Net_2416_6\ * 
-              \Lights_Out_1:MODULE_2:g1:a0:gx:u0:lt_5\
-            + !Net_6585_1 * !Net_6704 * !\Lights_Out_1:Net_2416_6\ * 
-              !\Lights_Out_1:MODULE_2:g1:a0:gx:u0:gt_5\ * 
-              \Lights_Out_1:MODULE_2:g1:a0:gx:u0:lt_2\
-            + !Net_6585_1 * !Net_6704 * \Lights_Out_1:cydff_3_6\ * 
-              \Lights_Out_1:MODULE_2:g1:a0:gx:u0:lt_5\
-            + !Net_6585_1 * !Net_6704 * \Lights_Out_1:cydff_3_6\ * 
-              !\Lights_Out_1:MODULE_2:g1:a0:gx:u0:gt_5\ * 
-              \Lights_Out_1:MODULE_2:g1:a0:gx:u0:lt_2\
-            + Net_6585_1 * Net_7428
-            + Net_6585_1 * Net_6704
-        );
-        Output = Net_5289 (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=2]:     MacroCell: Name=\Lights_Out_1:cydff_8_6\, Mode=(D-Register) @ [UDB=(2,2)][LB=1][MC=2]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (\Lights_Out_1:Net_2092\) => Global
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              Net_5426_6
-        );
-        Output = \Lights_Out_1:cydff_8_6\ (fanout=2)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=3]: (empty)
 }
 
 controlcell: Name =\LIGHT_BRIGHTNESS_3:Sync:ctrl_reg\
@@ -6795,345 +6648,11 @@ controlcell: Name =\LIGHT_BRIGHTNESS_3:Sync:ctrl_reg\
     }
     Clock Enable: True
 
-UDB [UDB=(2,3)] contents:
-LAB@[UDB=(2,3)][LB=0] #macrocells=2, #inputs=7, #pterms=8
+UDB [UDB=(1,5)] is empty.
+UDB [UDB=(2,0)] contents:
+LAB@[UDB=(2,0)][LB=0] #macrocells=4, #inputs=10, #pterms=8
 {
-    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:MODULE_2:g1:a0:gx:u0:gt_5\, Mode=(Combinatorial) @ [UDB=(2,3)][LB=0][MC=0]
-        Total # of inputs        : 6
-        Total # of product terms : 7
-            Clock Enable: True
-        Main Equation            : 7 pterms
-        (
-              \Lights_Out_1:Net_2416_5\ * \Lights_Out_1:Net_2416_4\ * 
-              \Lights_Out_1:Net_2416_3\ * !\Lights_Out_1:cydff_3_3\
-            + \Lights_Out_1:Net_2416_5\ * \Lights_Out_1:Net_2416_4\ * 
-              !\Lights_Out_1:cydff_3_4\
-            + \Lights_Out_1:Net_2416_5\ * \Lights_Out_1:Net_2416_3\ * 
-              !\Lights_Out_1:cydff_3_4\ * !\Lights_Out_1:cydff_3_3\
-            + \Lights_Out_1:Net_2416_5\ * !\Lights_Out_1:cydff_3_5\
-            + \Lights_Out_1:Net_2416_4\ * \Lights_Out_1:Net_2416_3\ * 
-              !\Lights_Out_1:cydff_3_5\ * !\Lights_Out_1:cydff_3_3\
-            + \Lights_Out_1:Net_2416_4\ * !\Lights_Out_1:cydff_3_5\ * 
-              !\Lights_Out_1:cydff_3_4\
-            + \Lights_Out_1:Net_2416_3\ * !\Lights_Out_1:cydff_3_5\ * 
-              !\Lights_Out_1:cydff_3_4\ * !\Lights_Out_1:cydff_3_3\
-        );
-        Output = \Lights_Out_1:MODULE_2:g1:a0:gx:u0:gt_5\ (fanout=2)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]:     MacroCell: Name=\Lights_Out_1:cydff_2_4\, Mode=(D-Register) @ [UDB=(2,3)][LB=0][MC=1]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (\Lights_Out_1:Net_2092\) => Global
-            Clock Enable: PosEdge(\Lights_Out_1:cydff_1\)
-        Main Equation            : 1 pterm
-        (
-              Net_5420_4
-        );
-        Output = \Lights_Out_1:cydff_2_4\ (fanout=2)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=2]: (empty)
-    [McSlotId=3]: (empty)
-}
-
-LAB@[UDB=(2,3)][LB=1] #macrocells=2, #inputs=7, #pterms=8
-{
-    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:MODULE_2:g1:a0:gx:u0:lt_2\, Mode=(Combinatorial) @ [UDB=(2,3)][LB=1][MC=0]
-        Total # of inputs        : 6
-        Total # of product terms : 7
-            Clock Enable: True
-        Main Equation            : 7 pterms
-        (
-              !\Lights_Out_1:Net_2416_2\ * !\Lights_Out_1:Net_2416_1\ * 
-              !\Lights_Out_1:Net_2416_0\ * \Lights_Out_1:cydff_3_0\
-            + !\Lights_Out_1:Net_2416_2\ * !\Lights_Out_1:Net_2416_1\ * 
-              \Lights_Out_1:cydff_3_1\
-            + !\Lights_Out_1:Net_2416_2\ * !\Lights_Out_1:Net_2416_0\ * 
-              \Lights_Out_1:cydff_3_1\ * \Lights_Out_1:cydff_3_0\
-            + !\Lights_Out_1:Net_2416_2\ * \Lights_Out_1:cydff_3_2\
-            + !\Lights_Out_1:Net_2416_1\ * !\Lights_Out_1:Net_2416_0\ * 
-              \Lights_Out_1:cydff_3_2\ * \Lights_Out_1:cydff_3_0\
-            + !\Lights_Out_1:Net_2416_1\ * \Lights_Out_1:cydff_3_2\ * 
-              \Lights_Out_1:cydff_3_1\
-            + !\Lights_Out_1:Net_2416_0\ * \Lights_Out_1:cydff_3_2\ * 
-              \Lights_Out_1:cydff_3_1\ * \Lights_Out_1:cydff_3_0\
-        );
-        Output = \Lights_Out_1:MODULE_2:g1:a0:gx:u0:lt_2\ (fanout=2)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]:     MacroCell: Name=\Lights_Out_1:cydff_2_3\, Mode=(D-Register) @ [UDB=(2,3)][LB=1][MC=1]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (\Lights_Out_1:Net_2092\) => Global
-            Clock Enable: PosEdge(\Lights_Out_1:cydff_1\)
-        Main Equation            : 1 pterm
-        (
-              Net_5420_3
-        );
-        Output = \Lights_Out_1:cydff_2_3\ (fanout=2)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=2]: (empty)
-    [McSlotId=3]: (empty)
-}
-
-UDB [UDB=(2,4)] contents:
-LAB@[UDB=(2,4)][LB=0] #macrocells=4, #inputs=9, #pterms=8
-{
-    [McSlotId=0]:     MacroCell: Name=Net_7434, Mode=(Combinatorial) @ [UDB=(2,4)][LB=0][MC=0]
-        Total # of inputs        : 5
-        Total # of product terms : 5
-            Clock Enable: True
-        Main Equation            : 5 pterms
-        (
-              !\Lights_Out_1:Net_2416_6\ * \Lights_Out_1:cydff_5_6\
-            + !\Lights_Out_1:Net_2416_6\ * 
-              \Lights_Out_1:MODULE_4:g1:a0:gx:u0:lt_5\
-            + !\Lights_Out_1:Net_2416_6\ * 
-              !\Lights_Out_1:MODULE_4:g1:a0:gx:u0:gt_5\ * 
-              \Lights_Out_1:MODULE_4:g1:a0:gx:u0:lt_2\
-            + \Lights_Out_1:cydff_5_6\ * 
-              \Lights_Out_1:MODULE_4:g1:a0:gx:u0:lt_5\
-            + \Lights_Out_1:cydff_5_6\ * 
-              !\Lights_Out_1:MODULE_4:g1:a0:gx:u0:gt_5\ * 
-              \Lights_Out_1:MODULE_4:g1:a0:gx:u0:lt_2\
-        );
-        Output = Net_7434 (fanout=2)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]:     MacroCell: Name=Net_7438, Mode=(Combinatorial) @ [UDB=(2,4)][LB=0][MC=1]
-        Total # of inputs        : 2
-        Total # of product terms : 1
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              Net_6585_7 * Net_6704
-        );
-        Output = Net_7438 (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=2]:     MacroCell: Name=\Lights_Out_1:cydff_3_2\, Mode=(D-Register) @ [UDB=(2,4)][LB=0][MC=2]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (\Lights_Out_1:Net_2092\) => Global
-            Clock Enable: PosEdge(\Lights_Out_1:cydff_1\)
-        Main Equation            : 1 pterm
-        (
-              Net_5421_2
-        );
-        Output = \Lights_Out_1:cydff_3_2\ (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=3]:     MacroCell: Name=\Lights_Out_1:cydff_2_6\, Mode=(D-Register) @ [UDB=(2,4)][LB=0][MC=3]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (\Lights_Out_1:Net_2092\) => Global
-            Clock Enable: PosEdge(\Lights_Out_1:cydff_1\)
-        Main Equation            : 1 pterm
-        (
-              Net_5420_6
-        );
-        Output = \Lights_Out_1:cydff_2_6\ (fanout=2)
-        Properties               : 
-        {
-        }
-}
-
-LAB@[UDB=(2,4)][LB=1] #macrocells=2, #inputs=9, #pterms=8
-{
-    [McSlotId=0]:     MacroCell: Name=Net_5291, Mode=(Combinatorial) @ [UDB=(2,4)][LB=1][MC=0]
-        Total # of inputs        : 8
-        Total # of product terms : 7
-            Clock Enable: True
-        Main Equation            : 7 pterms
-        (
-              !Net_6585_3 * !Net_6704 * !\Lights_Out_1:Net_2416_6\ * 
-              \Lights_Out_1:cydff_5_6\
-            + !Net_6585_3 * !Net_6704 * !\Lights_Out_1:Net_2416_6\ * 
-              \Lights_Out_1:MODULE_4:g1:a0:gx:u0:lt_5\
-            + !Net_6585_3 * !Net_6704 * !\Lights_Out_1:Net_2416_6\ * 
-              !\Lights_Out_1:MODULE_4:g1:a0:gx:u0:gt_5\ * 
-              \Lights_Out_1:MODULE_4:g1:a0:gx:u0:lt_2\
-            + !Net_6585_3 * !Net_6704 * \Lights_Out_1:cydff_5_6\ * 
-              \Lights_Out_1:MODULE_4:g1:a0:gx:u0:lt_5\
-            + !Net_6585_3 * !Net_6704 * \Lights_Out_1:cydff_5_6\ * 
-              !\Lights_Out_1:MODULE_4:g1:a0:gx:u0:gt_5\ * 
-              \Lights_Out_1:MODULE_4:g1:a0:gx:u0:lt_2\
-            + Net_6585_3 * Net_7428
-            + Net_6585_3 * Net_6704
-        );
-        Output = Net_5291 (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]:     MacroCell: Name=\Lights_Out_1:cydff_3_0\, Mode=(D-Register) @ [UDB=(2,4)][LB=1][MC=1]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (\Lights_Out_1:Net_2092\) => Global
-            Clock Enable: PosEdge(\Lights_Out_1:cydff_1\)
-        Main Equation            : 1 pterm
-        (
-              Net_5421_0
-        );
-        Output = \Lights_Out_1:cydff_3_0\ (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=2]: (empty)
-    [McSlotId=3]: (empty)
-}
-
-UDB [UDB=(2,5)] contents:
-LAB@[UDB=(2,5)][LB=0] #macrocells=3, #inputs=7, #pterms=7
-{
-    [McSlotId=0]:     MacroCell: Name=Net_7432, Mode=(Combinatorial) @ [UDB=(2,5)][LB=0][MC=0]
-        Total # of inputs        : 5
-        Total # of product terms : 5
-            Clock Enable: True
-        Main Equation            : 5 pterms
-        (
-              !\Lights_Out_1:Net_2416_6\ * \Lights_Out_1:cydff_3_6\
-            + !\Lights_Out_1:Net_2416_6\ * 
-              \Lights_Out_1:MODULE_2:g1:a0:gx:u0:lt_5\
-            + !\Lights_Out_1:Net_2416_6\ * 
-              !\Lights_Out_1:MODULE_2:g1:a0:gx:u0:gt_5\ * 
-              \Lights_Out_1:MODULE_2:g1:a0:gx:u0:lt_2\
-            + \Lights_Out_1:cydff_3_6\ * 
-              \Lights_Out_1:MODULE_2:g1:a0:gx:u0:lt_5\
-            + \Lights_Out_1:cydff_3_6\ * 
-              !\Lights_Out_1:MODULE_2:g1:a0:gx:u0:gt_5\ * 
-              \Lights_Out_1:MODULE_2:g1:a0:gx:u0:lt_2\
-        );
-        Output = Net_7432 (fanout=2)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]:     MacroCell: Name=\Lights_Out_1:cydff_3_3\, Mode=(D-Register) @ [UDB=(2,5)][LB=0][MC=1]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (\Lights_Out_1:Net_2092\) => Global
-            Clock Enable: PosEdge(\Lights_Out_1:cydff_1\)
-        Main Equation            : 1 pterm
-        (
-              Net_5421_3
-        );
-        Output = \Lights_Out_1:cydff_3_3\ (fanout=2)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=2]:     MacroCell: Name=\Lights_Out_1:cydff_3_6\, Mode=(D-Register) @ [UDB=(2,5)][LB=0][MC=2]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (\Lights_Out_1:Net_2092\) => Global
-            Clock Enable: PosEdge(\Lights_Out_1:cydff_1\)
-        Main Equation            : 1 pterm
-        (
-              Net_5421_6
-        );
-        Output = \Lights_Out_1:cydff_3_6\ (fanout=2)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=3]: (empty)
-}
-
-LAB@[UDB=(2,5)][LB=1] #macrocells=2, #inputs=7, #pterms=8
-{
-    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:MODULE_2:g1:a0:gx:u0:lt_5\, Mode=(Combinatorial) @ [UDB=(2,5)][LB=1][MC=0]
-        Total # of inputs        : 6
-        Total # of product terms : 7
-            Clock Enable: True
-        Main Equation            : 7 pterms
-        (
-              !\Lights_Out_1:Net_2416_5\ * !\Lights_Out_1:Net_2416_4\ * 
-              !\Lights_Out_1:Net_2416_3\ * \Lights_Out_1:cydff_3_3\
-            + !\Lights_Out_1:Net_2416_5\ * !\Lights_Out_1:Net_2416_4\ * 
-              \Lights_Out_1:cydff_3_4\
-            + !\Lights_Out_1:Net_2416_5\ * !\Lights_Out_1:Net_2416_3\ * 
-              \Lights_Out_1:cydff_3_4\ * \Lights_Out_1:cydff_3_3\
-            + !\Lights_Out_1:Net_2416_5\ * \Lights_Out_1:cydff_3_5\
-            + !\Lights_Out_1:Net_2416_4\ * !\Lights_Out_1:Net_2416_3\ * 
-              \Lights_Out_1:cydff_3_5\ * \Lights_Out_1:cydff_3_3\
-            + !\Lights_Out_1:Net_2416_4\ * \Lights_Out_1:cydff_3_5\ * 
-              \Lights_Out_1:cydff_3_4\
-            + !\Lights_Out_1:Net_2416_3\ * \Lights_Out_1:cydff_3_5\ * 
-              \Lights_Out_1:cydff_3_4\ * \Lights_Out_1:cydff_3_3\
-        );
-        Output = \Lights_Out_1:MODULE_2:g1:a0:gx:u0:lt_5\ (fanout=2)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]:     MacroCell: Name=\Lights_Out_1:cydff_3_4\, Mode=(D-Register) @ [UDB=(2,5)][LB=1][MC=1]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (\Lights_Out_1:Net_2092\) => Global
-            Clock Enable: PosEdge(\Lights_Out_1:cydff_1\)
-        Main Equation            : 1 pterm
-        (
-              Net_5421_4
-        );
-        Output = \Lights_Out_1:cydff_3_4\ (fanout=2)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=2]: (empty)
-    [McSlotId=3]: (empty)
-}
-
-controlcell: Name =\LIGHT_BRIGHTNESS_2:Sync:ctrl_reg\
-    PORT MAP (
-        control_7 => \LIGHT_BRIGHTNESS_2:control_7\ ,
-        control_6 => Net_5421_6 ,
-        control_5 => Net_5421_5 ,
-        control_4 => Net_5421_4 ,
-        control_3 => Net_5421_3 ,
-        control_2 => Net_5421_2 ,
-        control_1 => Net_5421_1 ,
-        control_0 => Net_5421_0 );
-    Properties:
-    {
-        cy_ctrl_mode_0 = "00000000"
-        cy_ctrl_mode_1 = "00000000"
-        cy_ext_reset = 0
-        cy_force_order = 1
-        cy_init_value = "00000000"
-    }
-    Clock Enable: True
-
-UDB [UDB=(3,0)] contents:
-LAB@[UDB=(3,0)][LB=0] #macrocells=4, #inputs=10, #pterms=8
-{
-    [McSlotId=0]:     MacroCell: Name=Net_5287_7, Mode=(T-Register) @ [UDB=(3,0)][LB=0][MC=0]
+    [McSlotId=0]:     MacroCell: Name=Net_5287_7, Mode=(T-Register) @ [UDB=(2,0)][LB=0][MC=0]
         Total # of inputs        : 10
         Total # of product terms : 2
         List of special equations: 
@@ -7141,16 +6660,16 @@ LAB@[UDB=(3,0)][LB=0] #macrocells=4, #inputs=10, #pterms=8
             Clock Enable: True
         Main Equation            : 2 pterms
         (
-              Net_5234 * !Net_7441 * Net_5287_6 * Net_5287_5 * Net_5287_4 * 
+              Net_7534 * !Net_7535 * Net_5287_6 * Net_5287_5 * Net_5287_4 * 
               Net_5287_3 * Net_5287_2 * Net_5287_1 * Net_5287_0
-            + Net_7441 * Net_5287_7
+            + Net_7535 * Net_5287_7
         );
         Output = Net_5287_7 (fanout=2)
         Properties               : 
         {
         }
 
-    [McSlotId=1]:     MacroCell: Name=Net_5287_6, Mode=(T-Register) @ [UDB=(3,0)][LB=0][MC=1]
+    [McSlotId=1]:     MacroCell: Name=Net_5287_6, Mode=(T-Register) @ [UDB=(2,0)][LB=0][MC=1]
         Total # of inputs        : 9
         Total # of product terms : 2
         List of special equations: 
@@ -7158,16 +6677,16 @@ LAB@[UDB=(3,0)][LB=0] #macrocells=4, #inputs=10, #pterms=8
             Clock Enable: True
         Main Equation            : 2 pterms
         (
-              Net_5234 * !Net_7441 * Net_5287_5 * Net_5287_4 * Net_5287_3 * 
+              Net_7534 * !Net_7535 * Net_5287_5 * Net_5287_4 * Net_5287_3 * 
               Net_5287_2 * Net_5287_1 * Net_5287_0
-            + Net_7441 * Net_5287_6
+            + Net_7535 * Net_5287_6
         );
         Output = Net_5287_6 (fanout=3)
         Properties               : 
         {
         }
 
-    [McSlotId=2]:     MacroCell: Name=Net_5287_5, Mode=(T-Register) @ [UDB=(3,0)][LB=0][MC=2]
+    [McSlotId=2]:     MacroCell: Name=Net_5287_5, Mode=(T-Register) @ [UDB=(2,0)][LB=0][MC=2]
         Total # of inputs        : 8
         Total # of product terms : 2
         List of special equations: 
@@ -7175,16 +6694,16 @@ LAB@[UDB=(3,0)][LB=0] #macrocells=4, #inputs=10, #pterms=8
             Clock Enable: True
         Main Equation            : 2 pterms
         (
-              Net_5234 * !Net_7441 * Net_5287_4 * Net_5287_3 * Net_5287_2 * 
+              Net_7534 * !Net_7535 * Net_5287_4 * Net_5287_3 * Net_5287_2 * 
               Net_5287_1 * Net_5287_0
-            + Net_7441 * Net_5287_5
+            + Net_7535 * Net_5287_5
         );
         Output = Net_5287_5 (fanout=4)
         Properties               : 
         {
         }
 
-    [McSlotId=3]:     MacroCell: Name=Net_5287_4, Mode=(T-Register) @ [UDB=(3,0)][LB=0][MC=3]
+    [McSlotId=3]:     MacroCell: Name=Net_5287_4, Mode=(T-Register) @ [UDB=(2,0)][LB=0][MC=3]
         Total # of inputs        : 7
         Total # of product terms : 2
         List of special equations: 
@@ -7192,9 +6711,9 @@ LAB@[UDB=(3,0)][LB=0] #macrocells=4, #inputs=10, #pterms=8
             Clock Enable: True
         Main Equation            : 2 pterms
         (
-              Net_5234 * !Net_7441 * Net_5287_3 * Net_5287_2 * Net_5287_1 * 
+              Net_7534 * !Net_7535 * Net_5287_3 * Net_5287_2 * Net_5287_1 * 
               Net_5287_0
-            + Net_7441 * Net_5287_4
+            + Net_7535 * Net_5287_4
         );
         Output = Net_5287_4 (fanout=5)
         Properties               : 
@@ -7202,9 +6721,9 @@ LAB@[UDB=(3,0)][LB=0] #macrocells=4, #inputs=10, #pterms=8
         }
 }
 
-LAB@[UDB=(3,0)][LB=1] #macrocells=4, #inputs=6, #pterms=8
+LAB@[UDB=(2,0)][LB=1] #macrocells=4, #inputs=6, #pterms=8
 {
-    [McSlotId=0]:     MacroCell: Name=Net_5287_3, Mode=(T-Register) @ [UDB=(3,0)][LB=1][MC=0]
+    [McSlotId=0]:     MacroCell: Name=Net_5287_3, Mode=(T-Register) @ [UDB=(2,0)][LB=1][MC=0]
         Total # of inputs        : 6
         Total # of product terms : 2
         List of special equations: 
@@ -7212,15 +6731,15 @@ LAB@[UDB=(3,0)][LB=1] #macrocells=4, #inputs=6, #pterms=8
             Clock Enable: True
         Main Equation            : 2 pterms
         (
-              Net_5234 * !Net_7441 * Net_5287_2 * Net_5287_1 * Net_5287_0
-            + Net_7441 * Net_5287_3
+              Net_7534 * !Net_7535 * Net_5287_2 * Net_5287_1 * Net_5287_0
+            + Net_7535 * Net_5287_3
         );
         Output = Net_5287_3 (fanout=6)
         Properties               : 
         {
         }
 
-    [McSlotId=1]:     MacroCell: Name=Net_5287_2, Mode=(T-Register) @ [UDB=(3,0)][LB=1][MC=1]
+    [McSlotId=1]:     MacroCell: Name=Net_5287_2, Mode=(T-Register) @ [UDB=(2,0)][LB=1][MC=1]
         Total # of inputs        : 5
         Total # of product terms : 2
         List of special equations: 
@@ -7228,15 +6747,15 @@ LAB@[UDB=(3,0)][LB=1] #macrocells=4, #inputs=6, #pterms=8
             Clock Enable: True
         Main Equation            : 2 pterms
         (
-              Net_5234 * !Net_7441 * Net_5287_1 * Net_5287_0
-            + Net_7441 * Net_5287_2
+              Net_7534 * !Net_7535 * Net_5287_1 * Net_5287_0
+            + Net_7535 * Net_5287_2
         );
         Output = Net_5287_2 (fanout=7)
         Properties               : 
         {
         }
 
-    [McSlotId=2]:     MacroCell: Name=Net_5287_1, Mode=(T-Register) @ [UDB=(3,0)][LB=1][MC=2]
+    [McSlotId=2]:     MacroCell: Name=Net_5287_1, Mode=(T-Register) @ [UDB=(2,0)][LB=1][MC=2]
         Total # of inputs        : 4
         Total # of product terms : 2
         List of special equations: 
@@ -7244,15 +6763,15 @@ LAB@[UDB=(3,0)][LB=1] #macrocells=4, #inputs=6, #pterms=8
             Clock Enable: True
         Main Equation            : 2 pterms
         (
-              Net_5234 * !Net_7441 * Net_5287_0
-            + Net_7441 * Net_5287_1
+              Net_7534 * !Net_7535 * Net_5287_0
+            + Net_7535 * Net_5287_1
         );
         Output = Net_5287_1 (fanout=8)
         Properties               : 
         {
         }
 
-    [McSlotId=3]:     MacroCell: Name=Net_5287_0, Mode=(D-Register) @ [UDB=(3,0)][LB=1][MC=3]
+    [McSlotId=3]:     MacroCell: Name=Net_5287_0, Mode=(D-Register) @ [UDB=(2,0)][LB=1][MC=3]
         Total # of inputs        : 3
         Total # of product terms : 2
         List of special equations: 
@@ -7260,8 +6779,8 @@ LAB@[UDB=(3,0)][LB=1] #macrocells=4, #inputs=6, #pterms=8
             Clock Enable: True
         Main Equation            : 2 pterms
         (
-              !Net_5234 * !Net_7441 * Net_5287_0
-            + Net_5234 * !Net_7441 * !Net_5287_0
+              !Net_7534 * !Net_7535 * Net_5287_0
+            + Net_7534 * !Net_7535 * !Net_5287_0
         );
         Output = Net_5287_0 (fanout=9)
         Properties               : 
@@ -7294,8 +6813,8 @@ controlcell: Name =\CROSSFADE_CTRL:Sync:ctrl_reg\
         control_4 => \CROSSFADE_CTRL:control_4\ ,
         control_3 => \CROSSFADE_CTRL:control_3\ ,
         control_2 => \CROSSFADE_CTRL:control_2\ ,
-        control_1 => Net_7441 ,
-        control_0 => Net_5234 );
+        control_1 => Net_7535 ,
+        control_0 => Net_7534 );
     Properties:
     {
         cy_ctrl_mode_0 = "00000000"
@@ -7306,10 +6825,346 @@ controlcell: Name =\CROSSFADE_CTRL:Sync:ctrl_reg\
     }
     Clock Enable: True
 
-UDB [UDB=(3,1)] contents:
-LAB@[UDB=(3,1)][LB=0] #macrocells=2, #inputs=9, #pterms=8
+UDB [UDB=(2,1)] contents:
+LAB@[UDB=(2,1)][LB=0] #macrocells=2, #inputs=7, #pterms=8
 {
-    [McSlotId=0]:     MacroCell: Name=Net_5294, Mode=(Combinatorial) @ [UDB=(3,1)][LB=0][MC=0]
+    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:MODULE_1:g1:a0:gx:u0:lt_5\, Mode=(Combinatorial) @ [UDB=(2,1)][LB=0][MC=0]
+        Total # of inputs        : 6
+        Total # of product terms : 7
+            Clock Enable: True
+        Main Equation            : 7 pterms
+        (
+              !\Lights_Out_1:Net_2416_5\ * !\Lights_Out_1:Net_2416_4\ * 
+              !\Lights_Out_1:Net_2416_3\ * \Lights_Out_1:cydff_2_3\
+            + !\Lights_Out_1:Net_2416_5\ * !\Lights_Out_1:Net_2416_4\ * 
+              \Lights_Out_1:cydff_2_4\
+            + !\Lights_Out_1:Net_2416_5\ * !\Lights_Out_1:Net_2416_3\ * 
+              \Lights_Out_1:cydff_2_4\ * \Lights_Out_1:cydff_2_3\
+            + !\Lights_Out_1:Net_2416_5\ * \Lights_Out_1:cydff_2_5\
+            + !\Lights_Out_1:Net_2416_4\ * !\Lights_Out_1:Net_2416_3\ * 
+              \Lights_Out_1:cydff_2_5\ * \Lights_Out_1:cydff_2_3\
+            + !\Lights_Out_1:Net_2416_4\ * \Lights_Out_1:cydff_2_5\ * 
+              \Lights_Out_1:cydff_2_4\
+            + !\Lights_Out_1:Net_2416_3\ * \Lights_Out_1:cydff_2_5\ * 
+              \Lights_Out_1:cydff_2_4\ * \Lights_Out_1:cydff_2_3\
+        );
+        Output = \Lights_Out_1:MODULE_1:g1:a0:gx:u0:lt_5\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]: (empty)
+    [McSlotId=2]:     MacroCell: Name=\Lights_Out_1:cydff_2_3\, Mode=(D-Register) @ [UDB=(2,1)][LB=0][MC=2]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\Lights_Out_1:Net_2092\) => Global
+            Clock Enable: PosEdge(\Lights_Out_1:cydff_1\)
+        Main Equation            : 1 pterm
+        (
+              Net_5420_3
+        );
+        Output = \Lights_Out_1:cydff_2_3\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]: (empty)
+}
+
+LAB@[UDB=(2,1)][LB=1] #macrocells=2, #inputs=7, #pterms=8
+{
+    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:cydff_2_4\, Mode=(D-Register) @ [UDB=(2,1)][LB=1][MC=0]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\Lights_Out_1:Net_2092\) => Global
+            Clock Enable: PosEdge(\Lights_Out_1:cydff_1\)
+        Main Equation            : 1 pterm
+        (
+              Net_5420_4
+        );
+        Output = \Lights_Out_1:cydff_2_4\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=\Lights_Out_1:MODULE_1:g1:a0:gx:u0:gt_5\, Mode=(Combinatorial) @ [UDB=(2,1)][LB=1][MC=1]
+        Total # of inputs        : 6
+        Total # of product terms : 7
+            Clock Enable: True
+        Main Equation            : 7 pterms
+        (
+              \Lights_Out_1:Net_2416_5\ * \Lights_Out_1:Net_2416_4\ * 
+              \Lights_Out_1:Net_2416_3\ * !\Lights_Out_1:cydff_2_3\
+            + \Lights_Out_1:Net_2416_5\ * \Lights_Out_1:Net_2416_4\ * 
+              !\Lights_Out_1:cydff_2_4\
+            + \Lights_Out_1:Net_2416_5\ * \Lights_Out_1:Net_2416_3\ * 
+              !\Lights_Out_1:cydff_2_4\ * !\Lights_Out_1:cydff_2_3\
+            + \Lights_Out_1:Net_2416_5\ * !\Lights_Out_1:cydff_2_5\
+            + \Lights_Out_1:Net_2416_4\ * \Lights_Out_1:Net_2416_3\ * 
+              !\Lights_Out_1:cydff_2_5\ * !\Lights_Out_1:cydff_2_3\
+            + \Lights_Out_1:Net_2416_4\ * !\Lights_Out_1:cydff_2_5\ * 
+              !\Lights_Out_1:cydff_2_4\
+            + \Lights_Out_1:Net_2416_3\ * !\Lights_Out_1:cydff_2_5\ * 
+              !\Lights_Out_1:cydff_2_4\ * !\Lights_Out_1:cydff_2_3\
+        );
+        Output = \Lights_Out_1:MODULE_1:g1:a0:gx:u0:gt_5\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]: (empty)
+    [McSlotId=3]: (empty)
+}
+
+count7cell: Name =\Lights_Out_1:LIGHT_COUNTER:Counter7\
+    PORT MAP (
+        clock => \Lights_Out_1:Net_2092\ ,
+        count_6 => \Lights_Out_1:Net_2416_6\ ,
+        count_5 => \Lights_Out_1:Net_2416_5\ ,
+        count_4 => \Lights_Out_1:Net_2416_4\ ,
+        count_3 => \Lights_Out_1:Net_2416_3\ ,
+        count_2 => \Lights_Out_1:Net_2416_2\ ,
+        count_1 => \Lights_Out_1:Net_2416_1\ ,
+        count_0 => \Lights_Out_1:Net_2416_0\ ,
+        tc => \Lights_Out_1:Net_2093\ );
+    Properties:
+    {
+        cy_alt_mode = 0
+        cy_init_value = "0000000"
+        cy_period = "1111111"
+        cy_route_en = 0
+        cy_route_ld = 0
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+
+UDB [UDB=(2,2)] contents:
+LAB@[UDB=(2,2)][LB=0] #macrocells=4, #inputs=4, #pterms=4
+{
+    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:cydff_7_4\, Mode=(D-Register) @ [UDB=(2,2)][LB=0][MC=0]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\Lights_Out_1:Net_2092\) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_5425_4
+        );
+        Output = \Lights_Out_1:cydff_7_4\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=\Lights_Out_1:cydff_7_0\, Mode=(D-Register) @ [UDB=(2,2)][LB=0][MC=1]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\Lights_Out_1:Net_2092\) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_5425_0
+        );
+        Output = \Lights_Out_1:cydff_7_0\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=\Lights_Out_1:cydff_7_2\, Mode=(D-Register) @ [UDB=(2,2)][LB=0][MC=2]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\Lights_Out_1:Net_2092\) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_5425_2
+        );
+        Output = \Lights_Out_1:cydff_7_2\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=\Lights_Out_1:cydff_7_3\, Mode=(D-Register) @ [UDB=(2,2)][LB=0][MC=3]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\Lights_Out_1:Net_2092\) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_5425_3
+        );
+        Output = \Lights_Out_1:cydff_7_3\ (fanout=2)
+        Properties               : 
+        {
+        }
+}
+
+LAB@[UDB=(2,2)][LB=1] #macrocells=2, #inputs=7, #pterms=8
+{
+    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:cydff_7_1\, Mode=(D-Register) @ [UDB=(2,2)][LB=1][MC=0]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\Lights_Out_1:Net_2092\) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_5425_1
+        );
+        Output = \Lights_Out_1:cydff_7_1\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]: (empty)
+    [McSlotId=2]:     MacroCell: Name=\Lights_Out_1:MODULE_6:g1:a0:gx:u0:lt_2\, Mode=(Combinatorial) @ [UDB=(2,2)][LB=1][MC=2]
+        Total # of inputs        : 6
+        Total # of product terms : 7
+            Clock Enable: True
+        Main Equation            : 7 pterms
+        (
+              !\Lights_Out_1:Net_2416_2\ * !\Lights_Out_1:Net_2416_1\ * 
+              !\Lights_Out_1:Net_2416_0\ * \Lights_Out_1:cydff_7_0\
+            + !\Lights_Out_1:Net_2416_2\ * !\Lights_Out_1:Net_2416_1\ * 
+              \Lights_Out_1:cydff_7_1\
+            + !\Lights_Out_1:Net_2416_2\ * !\Lights_Out_1:Net_2416_0\ * 
+              \Lights_Out_1:cydff_7_1\ * \Lights_Out_1:cydff_7_0\
+            + !\Lights_Out_1:Net_2416_2\ * \Lights_Out_1:cydff_7_2\
+            + !\Lights_Out_1:Net_2416_1\ * !\Lights_Out_1:Net_2416_0\ * 
+              \Lights_Out_1:cydff_7_2\ * \Lights_Out_1:cydff_7_0\
+            + !\Lights_Out_1:Net_2416_1\ * \Lights_Out_1:cydff_7_2\ * 
+              \Lights_Out_1:cydff_7_1\
+            + !\Lights_Out_1:Net_2416_0\ * \Lights_Out_1:cydff_7_2\ * 
+              \Lights_Out_1:cydff_7_1\ * \Lights_Out_1:cydff_7_0\
+        );
+        Output = \Lights_Out_1:MODULE_6:g1:a0:gx:u0:lt_2\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]: (empty)
+}
+
+controlcell: Name =\LIGHT_BRIGHTNESS_6:Sync:ctrl_reg\
+    PORT MAP (
+        control_7 => \LIGHT_BRIGHTNESS_6:control_7\ ,
+        control_6 => Net_5425_6 ,
+        control_5 => Net_5425_5 ,
+        control_4 => Net_5425_4 ,
+        control_3 => Net_5425_3 ,
+        control_2 => Net_5425_2 ,
+        control_1 => Net_5425_1 ,
+        control_0 => Net_5425_0 );
+    Properties:
+    {
+        cy_ctrl_mode_0 = "00000000"
+        cy_ctrl_mode_1 = "00000000"
+        cy_ext_reset = 0
+        cy_force_order = 1
+        cy_init_value = "00000000"
+    }
+    Clock Enable: True
+
+UDB [UDB=(2,3)] contents:
+LAB@[UDB=(2,3)][LB=0] #macrocells=3, #inputs=7, #pterms=7
+{
+    [McSlotId=0]:     MacroCell: Name=Net_7434, Mode=(Combinatorial) @ [UDB=(2,3)][LB=0][MC=0]
+        Total # of inputs        : 5
+        Total # of product terms : 5
+            Clock Enable: True
+        Main Equation            : 5 pterms
+        (
+              !\Lights_Out_1:Net_2416_6\ * \Lights_Out_1:cydff_5_6\
+            + !\Lights_Out_1:Net_2416_6\ * 
+              \Lights_Out_1:MODULE_4:g1:a0:gx:u0:lt_5\
+            + !\Lights_Out_1:Net_2416_6\ * 
+              !\Lights_Out_1:MODULE_4:g1:a0:gx:u0:gt_5\ * 
+              \Lights_Out_1:MODULE_4:g1:a0:gx:u0:lt_2\
+            + \Lights_Out_1:cydff_5_6\ * 
+              \Lights_Out_1:MODULE_4:g1:a0:gx:u0:lt_5\
+            + \Lights_Out_1:cydff_5_6\ * 
+              !\Lights_Out_1:MODULE_4:g1:a0:gx:u0:gt_5\ * 
+              \Lights_Out_1:MODULE_4:g1:a0:gx:u0:lt_2\
+        );
+        Output = Net_7434 (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]: (empty)
+    [McSlotId=2]:     MacroCell: Name=\Lights_Out_1:cydff_5_6\, Mode=(D-Register) @ [UDB=(2,3)][LB=0][MC=2]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\Lights_Out_1:Net_2092\) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_5423_6
+        );
+        Output = \Lights_Out_1:cydff_5_6\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=\Lights_Out_1:cydff_5_4\, Mode=(D-Register) @ [UDB=(2,3)][LB=0][MC=3]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\Lights_Out_1:Net_2092\) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_5423_4
+        );
+        Output = \Lights_Out_1:cydff_5_4\ (fanout=2)
+        Properties               : 
+        {
+        }
+}
+
+LAB@[UDB=(2,3)][LB=1] #macrocells=1, #inputs=8, #pterms=7
+{
+    [McSlotId=0]:     MacroCell: Name=Net_5291, Mode=(Combinatorial) @ [UDB=(2,3)][LB=1][MC=0]
+        Total # of inputs        : 8
+        Total # of product terms : 7
+            Clock Enable: True
+        Main Equation            : 7 pterms
+        (
+              !Net_6585_3 * !Net_6704 * !\Lights_Out_1:Net_2416_6\ * 
+              \Lights_Out_1:cydff_5_6\
+            + !Net_6585_3 * !Net_6704 * !\Lights_Out_1:Net_2416_6\ * 
+              \Lights_Out_1:MODULE_4:g1:a0:gx:u0:lt_5\
+            + !Net_6585_3 * !Net_6704 * !\Lights_Out_1:Net_2416_6\ * 
+              !\Lights_Out_1:MODULE_4:g1:a0:gx:u0:gt_5\ * 
+              \Lights_Out_1:MODULE_4:g1:a0:gx:u0:lt_2\
+            + !Net_6585_3 * !Net_6704 * \Lights_Out_1:cydff_5_6\ * 
+              \Lights_Out_1:MODULE_4:g1:a0:gx:u0:lt_5\
+            + !Net_6585_3 * !Net_6704 * \Lights_Out_1:cydff_5_6\ * 
+              !\Lights_Out_1:MODULE_4:g1:a0:gx:u0:gt_5\ * 
+              \Lights_Out_1:MODULE_4:g1:a0:gx:u0:lt_2\
+            + Net_6585_3 * Net_7428
+            + Net_6585_3 * Net_6704
+        );
+        Output = Net_5291 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]: (empty)
+    [McSlotId=2]: (empty)
+    [McSlotId=3]: (empty)
+}
+
+UDB [UDB=(2,4)] contents:
+LAB@[UDB=(2,4)][LB=0] #macrocells=2, #inputs=9, #pterms=8
+{
+    [McSlotId=0]:     MacroCell: Name=Net_5294, Mode=(Combinatorial) @ [UDB=(2,4)][LB=0][MC=0]
         Total # of inputs        : 8
         Total # of product terms : 7
             Clock Enable: True
@@ -7335,7 +7190,7 @@ LAB@[UDB=(3,1)][LB=0] #macrocells=2, #inputs=9, #pterms=8
         {
         }
 
-    [McSlotId=1]:     MacroCell: Name=\Lights_Out_1:cydff_8_2\, Mode=(D-Register) @ [UDB=(3,1)][LB=0][MC=1]
+    [McSlotId=1]:     MacroCell: Name=\Lights_Out_1:cydff_6_3\, Mode=(D-Register) @ [UDB=(2,4)][LB=0][MC=1]
         Total # of inputs        : 1
         Total # of product terms : 1
         List of special equations: 
@@ -7343,9 +7198,9 @@ LAB@[UDB=(3,1)][LB=0] #macrocells=2, #inputs=9, #pterms=8
             Clock Enable: True
         Main Equation            : 1 pterm
         (
-              Net_5426_2
+              Net_5424_3
         );
-        Output = \Lights_Out_1:cydff_8_2\ (fanout=1)
+        Output = \Lights_Out_1:cydff_6_3\ (fanout=2)
         Properties               : 
         {
         }
@@ -7354,9 +7209,150 @@ LAB@[UDB=(3,1)][LB=0] #macrocells=2, #inputs=9, #pterms=8
     [McSlotId=3]: (empty)
 }
 
-LAB@[UDB=(3,1)][LB=1] #macrocells=2, #inputs=7, #pterms=8
+LAB@[UDB=(2,4)][LB=1] #macrocells=4, #inputs=4, #pterms=4
 {
-    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:MODULE_7:g1:a0:gx:u0:lt_2\, Mode=(Combinatorial) @ [UDB=(3,1)][LB=1][MC=0]
+    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:cydff_6_5\, Mode=(D-Register) @ [UDB=(2,4)][LB=1][MC=0]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\Lights_Out_1:Net_2092\) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_5424_5
+        );
+        Output = \Lights_Out_1:cydff_6_5\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=\Lights_Out_1:cydff_6_6\, Mode=(D-Register) @ [UDB=(2,4)][LB=1][MC=1]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\Lights_Out_1:Net_2092\) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_5424_6
+        );
+        Output = \Lights_Out_1:cydff_6_6\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=\Lights_Out_1:cydff_6_1\, Mode=(D-Register) @ [UDB=(2,4)][LB=1][MC=2]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\Lights_Out_1:Net_2092\) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_5424_1
+        );
+        Output = \Lights_Out_1:cydff_6_1\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=\Lights_Out_1:cydff_6_4\, Mode=(D-Register) @ [UDB=(2,4)][LB=1][MC=3]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\Lights_Out_1:Net_2092\) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_5424_4
+        );
+        Output = \Lights_Out_1:cydff_6_4\ (fanout=2)
+        Properties               : 
+        {
+        }
+}
+
+controlcell: Name =\LIGHT_BRIGHTNESS_5:Sync:ctrl_reg\
+    PORT MAP (
+        control_7 => \LIGHT_BRIGHTNESS_5:control_7\ ,
+        control_6 => Net_5424_6 ,
+        control_5 => Net_5424_5 ,
+        control_4 => Net_5424_4 ,
+        control_3 => Net_5424_3 ,
+        control_2 => Net_5424_2 ,
+        control_1 => Net_5424_1 ,
+        control_0 => Net_5424_0 );
+    Properties:
+    {
+        cy_ctrl_mode_0 = "00000000"
+        cy_ctrl_mode_1 = "00000000"
+        cy_ext_reset = 0
+        cy_force_order = 1
+        cy_init_value = "00000000"
+    }
+    Clock Enable: True
+
+UDB [UDB=(2,5)] contents:
+LAB@[UDB=(2,5)][LB=0] #macrocells=3, #inputs=7, #pterms=7
+{
+    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:cydff_8_1\, Mode=(D-Register) @ [UDB=(2,5)][LB=0][MC=0]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\Lights_Out_1:Net_2092\) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_5426_1
+        );
+        Output = \Lights_Out_1:cydff_8_1\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=\Lights_Out_1:cydff_8_0\, Mode=(D-Register) @ [UDB=(2,5)][LB=0][MC=1]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\Lights_Out_1:Net_2092\) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_5426_0
+        );
+        Output = \Lights_Out_1:cydff_8_0\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]: (empty)
+    [McSlotId=3]:     MacroCell: Name=Net_6914, Mode=(Combinatorial) @ [UDB=(2,5)][LB=0][MC=3]
+        Total # of inputs        : 5
+        Total # of product terms : 5
+            Clock Enable: True
+        Main Equation            : 5 pterms
+        (
+              !\Lights_Out_1:Net_2416_6\ * \Lights_Out_1:cydff_8_6\
+            + !\Lights_Out_1:Net_2416_6\ * 
+              \Lights_Out_1:MODULE_7:g1:a0:gx:u0:lt_5\
+            + !\Lights_Out_1:Net_2416_6\ * 
+              !\Lights_Out_1:MODULE_7:g1:a0:gx:u0:gt_5\ * 
+              \Lights_Out_1:MODULE_7:g1:a0:gx:u0:lt_2\
+            + \Lights_Out_1:cydff_8_6\ * 
+              \Lights_Out_1:MODULE_7:g1:a0:gx:u0:lt_5\
+            + \Lights_Out_1:cydff_8_6\ * 
+              !\Lights_Out_1:MODULE_7:g1:a0:gx:u0:gt_5\ * 
+              \Lights_Out_1:MODULE_7:g1:a0:gx:u0:lt_2\
+        );
+        Output = Net_6914 (fanout=2)
+        Properties               : 
+        {
+        }
+}
+
+LAB@[UDB=(2,5)][LB=1] #macrocells=2, #inputs=7, #pterms=8
+{
+    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:MODULE_7:g1:a0:gx:u0:lt_2\, Mode=(Combinatorial) @ [UDB=(2,5)][LB=1][MC=0]
         Total # of inputs        : 6
         Total # of product terms : 7
             Clock Enable: True
@@ -7381,148 +7377,18 @@ LAB@[UDB=(3,1)][LB=1] #macrocells=2, #inputs=7, #pterms=8
         {
         }
 
-    [McSlotId=1]:     MacroCell: Name=\Lights_Out_1:cydff_8_0\, Mode=(D-Register) @ [UDB=(3,1)][LB=1][MC=1]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (\Lights_Out_1:Net_2092\) => Global
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              Net_5426_0
-        );
-        Output = \Lights_Out_1:cydff_8_0\ (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=2]: (empty)
-    [McSlotId=3]: (empty)
-}
-
-controlcell: Name =\SLED_STATE_SEL:Sync:ctrl_reg\
-    PORT MAP (
-        control_7 => \SLED_STATE_SEL:control_7\ ,
-        control_6 => \SLED_STATE_SEL:control_6\ ,
-        control_5 => \SLED_STATE_SEL:control_5\ ,
-        control_4 => \SLED_STATE_SEL:control_4\ ,
-        control_3 => \SLED_STATE_SEL:control_3\ ,
-        control_2 => \SLED_STATE_SEL:control_2\ ,
-        control_1 => \SLED_STATE_SEL:control_1\ ,
-        control_0 => Net_6704 );
-    Properties:
-    {
-        cy_ctrl_mode_0 = "00000000"
-        cy_ctrl_mode_1 = "00000000"
-        cy_ext_reset = 0
-        cy_force_order = 1
-        cy_init_value = "00000000"
-    }
-    Clock Enable: True
-
-UDB [UDB=(3,2)] contents:
-LAB@[UDB=(3,2)][LB=0] #macrocells=4, #inputs=4, #pterms=4
-{
-    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:cydff_4_0\, Mode=(D-Register) @ [UDB=(3,2)][LB=0][MC=0]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (\Lights_Out_1:Net_2092\) => Global
-            Clock Enable: PosEdge(\Lights_Out_1:cydff_1\)
-        Main Equation            : 1 pterm
-        (
-              Net_5422_0
-        );
-        Output = \Lights_Out_1:cydff_4_0\ (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]:     MacroCell: Name=\Lights_Out_1:cydff_4_3\, Mode=(D-Register) @ [UDB=(3,2)][LB=0][MC=1]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (\Lights_Out_1:Net_2092\) => Global
-            Clock Enable: PosEdge(\Lights_Out_1:cydff_1\)
-        Main Equation            : 1 pterm
-        (
-              Net_5422_3
-        );
-        Output = \Lights_Out_1:cydff_4_3\ (fanout=2)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=2]:     MacroCell: Name=\Lights_Out_1:cydff_4_4\, Mode=(D-Register) @ [UDB=(3,2)][LB=0][MC=2]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (\Lights_Out_1:Net_2092\) => Global
-            Clock Enable: PosEdge(\Lights_Out_1:cydff_1\)
-        Main Equation            : 1 pterm
-        (
-              Net_5422_4
-        );
-        Output = \Lights_Out_1:cydff_4_4\ (fanout=2)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=3]:     MacroCell: Name=\Lights_Out_1:cydff_4_6\, Mode=(D-Register) @ [UDB=(3,2)][LB=0][MC=3]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (\Lights_Out_1:Net_2092\) => Global
-            Clock Enable: PosEdge(\Lights_Out_1:cydff_1\)
-        Main Equation            : 1 pterm
-        (
-              Net_5422_6
-        );
-        Output = \Lights_Out_1:cydff_4_6\ (fanout=2)
-        Properties               : 
-        {
-        }
-}
-
-LAB@[UDB=(3,2)][LB=1] #macrocells=2, #inputs=7, #pterms=8
-{
-    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:MODULE_3:g1:a0:gx:u0:lt_2\, Mode=(Combinatorial) @ [UDB=(3,2)][LB=1][MC=0]
-        Total # of inputs        : 6
-        Total # of product terms : 7
-            Clock Enable: True
-        Main Equation            : 7 pterms
-        (
-              !\Lights_Out_1:Net_2416_2\ * !\Lights_Out_1:Net_2416_1\ * 
-              !\Lights_Out_1:Net_2416_0\ * \Lights_Out_1:cydff_4_0\
-            + !\Lights_Out_1:Net_2416_2\ * !\Lights_Out_1:Net_2416_1\ * 
-              \Lights_Out_1:cydff_4_1\
-            + !\Lights_Out_1:Net_2416_2\ * !\Lights_Out_1:Net_2416_0\ * 
-              \Lights_Out_1:cydff_4_1\ * \Lights_Out_1:cydff_4_0\
-            + !\Lights_Out_1:Net_2416_2\ * \Lights_Out_1:cydff_4_2\
-            + !\Lights_Out_1:Net_2416_1\ * !\Lights_Out_1:Net_2416_0\ * 
-              \Lights_Out_1:cydff_4_2\ * \Lights_Out_1:cydff_4_0\
-            + !\Lights_Out_1:Net_2416_1\ * \Lights_Out_1:cydff_4_2\ * 
-              \Lights_Out_1:cydff_4_1\
-            + !\Lights_Out_1:Net_2416_0\ * \Lights_Out_1:cydff_4_2\ * 
-              \Lights_Out_1:cydff_4_1\ * \Lights_Out_1:cydff_4_0\
-        );
-        Output = \Lights_Out_1:MODULE_3:g1:a0:gx:u0:lt_2\ (fanout=2)
-        Properties               : 
-        {
-        }
-
     [McSlotId=1]: (empty)
-    [McSlotId=2]:     MacroCell: Name=\Lights_Out_1:cydff_4_5\, Mode=(D-Register) @ [UDB=(3,2)][LB=1][MC=2]
+    [McSlotId=2]:     MacroCell: Name=\Lights_Out_1:cydff_8_2\, Mode=(D-Register) @ [UDB=(2,5)][LB=1][MC=2]
         Total # of inputs        : 1
         Total # of product terms : 1
         List of special equations: 
             Clock  = (\Lights_Out_1:Net_2092\) => Global
-            Clock Enable: PosEdge(\Lights_Out_1:cydff_1\)
+            Clock Enable: True
         Main Equation            : 1 pterm
         (
-              Net_5422_5
+              Net_5426_2
         );
-        Output = \Lights_Out_1:cydff_4_5\ (fanout=2)
+        Output = \Lights_Out_1:cydff_8_2\ (fanout=1)
         Properties               : 
         {
         }
@@ -7530,67 +7396,10 @@ LAB@[UDB=(3,2)][LB=1] #macrocells=2, #inputs=7, #pterms=8
     [McSlotId=3]: (empty)
 }
 
-UDB [UDB=(3,3)] contents:
-LAB@[UDB=(3,3)][LB=0] #macrocells=3, #inputs=7, #pterms=7
+UDB [UDB=(3,0)] contents:
+LAB@[UDB=(3,0)][LB=0] #macrocells=2, #inputs=7, #pterms=8
 {
-    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:cydff_2_1\, Mode=(D-Register) @ [UDB=(3,3)][LB=0][MC=0]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (\Lights_Out_1:Net_2092\) => Global
-            Clock Enable: PosEdge(\Lights_Out_1:cydff_1\)
-        Main Equation            : 1 pterm
-        (
-              Net_5420_1
-        );
-        Output = \Lights_Out_1:cydff_2_1\ (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]: (empty)
-    [McSlotId=2]:     MacroCell: Name=Net_6914, Mode=(Combinatorial) @ [UDB=(3,3)][LB=0][MC=2]
-        Total # of inputs        : 5
-        Total # of product terms : 5
-            Clock Enable: True
-        Main Equation            : 5 pterms
-        (
-              !\Lights_Out_1:Net_2416_6\ * \Lights_Out_1:cydff_8_6\
-            + !\Lights_Out_1:Net_2416_6\ * 
-              \Lights_Out_1:MODULE_7:g1:a0:gx:u0:lt_5\
-            + !\Lights_Out_1:Net_2416_6\ * 
-              !\Lights_Out_1:MODULE_7:g1:a0:gx:u0:gt_5\ * 
-              \Lights_Out_1:MODULE_7:g1:a0:gx:u0:lt_2\
-            + \Lights_Out_1:cydff_8_6\ * 
-              \Lights_Out_1:MODULE_7:g1:a0:gx:u0:lt_5\
-            + \Lights_Out_1:cydff_8_6\ * 
-              !\Lights_Out_1:MODULE_7:g1:a0:gx:u0:gt_5\ * 
-              \Lights_Out_1:MODULE_7:g1:a0:gx:u0:lt_2\
-        );
-        Output = Net_6914 (fanout=2)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=3]:     MacroCell: Name=\Lights_Out_1:cydff_2_5\, Mode=(D-Register) @ [UDB=(3,3)][LB=0][MC=3]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (\Lights_Out_1:Net_2092\) => Global
-            Clock Enable: PosEdge(\Lights_Out_1:cydff_1\)
-        Main Equation            : 1 pterm
-        (
-              Net_5420_5
-        );
-        Output = \Lights_Out_1:cydff_2_5\ (fanout=2)
-        Properties               : 
-        {
-        }
-}
-
-LAB@[UDB=(3,3)][LB=1] #macrocells=2, #inputs=7, #pterms=8
-{
-    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:MODULE_1:g1:a0:gx:u0:lt_2\, Mode=(Combinatorial) @ [UDB=(3,3)][LB=1][MC=0]
+    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:MODULE_1:g1:a0:gx:u0:lt_2\, Mode=(Combinatorial) @ [UDB=(3,0)][LB=0][MC=0]
         Total # of inputs        : 6
         Total # of product terms : 7
             Clock Enable: True
@@ -7615,7 +7424,8 @@ LAB@[UDB=(3,3)][LB=1] #macrocells=2, #inputs=7, #pterms=8
         {
         }
 
-    [McSlotId=1]:     MacroCell: Name=\Lights_Out_1:cydff_2_2\, Mode=(D-Register) @ [UDB=(3,3)][LB=1][MC=1]
+    [McSlotId=1]: (empty)
+    [McSlotId=2]:     MacroCell: Name=\Lights_Out_1:cydff_2_2\, Mode=(D-Register) @ [UDB=(3,0)][LB=0][MC=2]
         Total # of inputs        : 1
         Total # of product terms : 1
         List of special equations: 
@@ -7630,6 +7440,86 @@ LAB@[UDB=(3,3)][LB=1] #macrocells=2, #inputs=7, #pterms=8
         {
         }
 
+    [McSlotId=3]: (empty)
+}
+
+LAB@[UDB=(3,0)][LB=1] #macrocells=1, #inputs=1, #pterms=1
+{
+    [McSlotId=0]: (empty)
+    [McSlotId=1]: (empty)
+    [McSlotId=2]:     MacroCell: Name=\Lights_Out_1:cydff_2_1\, Mode=(D-Register) @ [UDB=(3,0)][LB=1][MC=2]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\Lights_Out_1:Net_2092\) => Global
+            Clock Enable: PosEdge(\Lights_Out_1:cydff_1\)
+        Main Equation            : 1 pterm
+        (
+              Net_5420_1
+        );
+        Output = \Lights_Out_1:cydff_2_1\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]: (empty)
+}
+
+UDB [UDB=(3,1)] contents:
+LAB@[UDB=(3,1)][LB=0] #macrocells=2, #inputs=2, #pterms=2
+{
+    [McSlotId=0]: (empty)
+    [McSlotId=1]:     MacroCell: Name=\Lights_Out_1:cydff_2_5\, Mode=(D-Register) @ [UDB=(3,1)][LB=0][MC=1]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\Lights_Out_1:Net_2092\) => Global
+            Clock Enable: PosEdge(\Lights_Out_1:cydff_1\)
+        Main Equation            : 1 pterm
+        (
+              Net_5420_5
+        );
+        Output = \Lights_Out_1:cydff_2_5\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=\Lights_Out_1:cydff_2_6\, Mode=(D-Register) @ [UDB=(3,1)][LB=0][MC=2]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\Lights_Out_1:Net_2092\) => Global
+            Clock Enable: PosEdge(\Lights_Out_1:cydff_1\)
+        Main Equation            : 1 pterm
+        (
+              Net_5420_6
+        );
+        Output = \Lights_Out_1:cydff_2_6\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]: (empty)
+}
+
+LAB@[UDB=(3,1)][LB=1] #macrocells=1, #inputs=1, #pterms=1
+{
+    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:cydff_2_0\, Mode=(D-Register) @ [UDB=(3,1)][LB=1][MC=0]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\Lights_Out_1:Net_2092\) => Global
+            Clock Enable: PosEdge(\Lights_Out_1:cydff_1\)
+        Main Equation            : 1 pterm
+        (
+              Net_5420_0
+        );
+        Output = \Lights_Out_1:cydff_2_0\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]: (empty)
     [McSlotId=2]: (empty)
     [McSlotId=3]: (empty)
 }
@@ -7654,189 +7544,435 @@ controlcell: Name =\LIGHT_BRIGHTNESS_1:Sync:ctrl_reg\
     }
     Clock Enable: True
 
-UDB [UDB=(3,4)] contents:
-LAB@[UDB=(3,4)][LB=0] #macrocells=2, #inputs=6, #pterms=6
+UDB [UDB=(3,2)] contents:
+LAB@[UDB=(3,2)][LB=0] #macrocells=2, #inputs=7, #pterms=8
 {
-    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:cydff_2_0\, Mode=(D-Register) @ [UDB=(3,4)][LB=0][MC=0]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (\Lights_Out_1:Net_2092\) => Global
-            Clock Enable: PosEdge(\Lights_Out_1:cydff_1\)
-        Main Equation            : 1 pterm
-        (
-              Net_5420_0
-        );
-        Output = \Lights_Out_1:cydff_2_0\ (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]: (empty)
-    [McSlotId=2]:     MacroCell: Name=Net_7433, Mode=(Combinatorial) @ [UDB=(3,4)][LB=0][MC=2]
-        Total # of inputs        : 5
-        Total # of product terms : 5
-            Clock Enable: True
-        Main Equation            : 5 pterms
-        (
-              !\Lights_Out_1:Net_2416_6\ * \Lights_Out_1:cydff_4_6\
-            + !\Lights_Out_1:Net_2416_6\ * 
-              \Lights_Out_1:MODULE_3:g1:a0:gx:u0:lt_5\
-            + !\Lights_Out_1:Net_2416_6\ * 
-              !\Lights_Out_1:MODULE_3:g1:a0:gx:u0:gt_5\ * 
-              \Lights_Out_1:MODULE_3:g1:a0:gx:u0:lt_2\
-            + \Lights_Out_1:cydff_4_6\ * 
-              \Lights_Out_1:MODULE_3:g1:a0:gx:u0:lt_5\
-            + \Lights_Out_1:cydff_4_6\ * 
-              !\Lights_Out_1:MODULE_3:g1:a0:gx:u0:gt_5\ * 
-              \Lights_Out_1:MODULE_3:g1:a0:gx:u0:lt_2\
-        );
-        Output = Net_7433 (fanout=2)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=3]: (empty)
-}
-
-LAB@[UDB=(3,4)][LB=1] #macrocells=2, #inputs=9, #pterms=8
-{
-    [McSlotId=0]:     MacroCell: Name=Net_5290, Mode=(Combinatorial) @ [UDB=(3,4)][LB=1][MC=0]
-        Total # of inputs        : 8
-        Total # of product terms : 7
-            Clock Enable: True
-        Main Equation            : 7 pterms
-        (
-              !Net_6585_2 * !Net_6704 * !\Lights_Out_1:Net_2416_6\ * 
-              \Lights_Out_1:cydff_4_6\
-            + !Net_6585_2 * !Net_6704 * !\Lights_Out_1:Net_2416_6\ * 
-              \Lights_Out_1:MODULE_3:g1:a0:gx:u0:lt_5\
-            + !Net_6585_2 * !Net_6704 * !\Lights_Out_1:Net_2416_6\ * 
-              !\Lights_Out_1:MODULE_3:g1:a0:gx:u0:gt_5\ * 
-              \Lights_Out_1:MODULE_3:g1:a0:gx:u0:lt_2\
-            + !Net_6585_2 * !Net_6704 * \Lights_Out_1:cydff_4_6\ * 
-              \Lights_Out_1:MODULE_3:g1:a0:gx:u0:lt_5\
-            + !Net_6585_2 * !Net_6704 * \Lights_Out_1:cydff_4_6\ * 
-              !\Lights_Out_1:MODULE_3:g1:a0:gx:u0:gt_5\ * 
-              \Lights_Out_1:MODULE_3:g1:a0:gx:u0:lt_2\
-            + Net_6585_2 * Net_7428
-            + Net_6585_2 * Net_6704
-        );
-        Output = Net_5290 (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]:     MacroCell: Name=\Lights_Out_1:cydff_1\, Mode=(D-Register) @ [UDB=(3,4)][LB=1][MC=1]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (\Lights_Out_1:Net_2092\) => Global
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              \Lights_Out_1:Net_2093\
-        );
-        Output = \Lights_Out_1:cydff_1\ (fanout=21)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=2]: (empty)
-    [McSlotId=3]: (empty)
-}
-
-UDB [UDB=(3,5)] contents:
-LAB@[UDB=(3,5)][LB=0] #macrocells=2, #inputs=7, #pterms=8
-{
-    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:MODULE_3:g1:a0:gx:u0:gt_5\, Mode=(Combinatorial) @ [UDB=(3,5)][LB=0][MC=0]
-        Total # of inputs        : 6
-        Total # of product terms : 7
-            Clock Enable: True
-        Main Equation            : 7 pterms
-        (
-              \Lights_Out_1:Net_2416_5\ * \Lights_Out_1:Net_2416_4\ * 
-              \Lights_Out_1:Net_2416_3\ * !\Lights_Out_1:cydff_4_3\
-            + \Lights_Out_1:Net_2416_5\ * \Lights_Out_1:Net_2416_4\ * 
-              !\Lights_Out_1:cydff_4_4\
-            + \Lights_Out_1:Net_2416_5\ * \Lights_Out_1:Net_2416_3\ * 
-              !\Lights_Out_1:cydff_4_4\ * !\Lights_Out_1:cydff_4_3\
-            + \Lights_Out_1:Net_2416_5\ * !\Lights_Out_1:cydff_4_5\
-            + \Lights_Out_1:Net_2416_4\ * \Lights_Out_1:Net_2416_3\ * 
-              !\Lights_Out_1:cydff_4_5\ * !\Lights_Out_1:cydff_4_3\
-            + \Lights_Out_1:Net_2416_4\ * !\Lights_Out_1:cydff_4_5\ * 
-              !\Lights_Out_1:cydff_4_4\
-            + \Lights_Out_1:Net_2416_3\ * !\Lights_Out_1:cydff_4_5\ * 
-              !\Lights_Out_1:cydff_4_4\ * !\Lights_Out_1:cydff_4_3\
-        );
-        Output = \Lights_Out_1:MODULE_3:g1:a0:gx:u0:gt_5\ (fanout=2)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]:     MacroCell: Name=\Lights_Out_1:cydff_3_5\, Mode=(D-Register) @ [UDB=(3,5)][LB=0][MC=1]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (\Lights_Out_1:Net_2092\) => Global
-            Clock Enable: PosEdge(\Lights_Out_1:cydff_1\)
-        Main Equation            : 1 pterm
-        (
-              Net_5421_5
-        );
-        Output = \Lights_Out_1:cydff_3_5\ (fanout=2)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=2]: (empty)
-    [McSlotId=3]: (empty)
-}
-
-LAB@[UDB=(3,5)][LB=1] #macrocells=2, #inputs=7, #pterms=8
-{
-    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:MODULE_3:g1:a0:gx:u0:lt_5\, Mode=(Combinatorial) @ [UDB=(3,5)][LB=1][MC=0]
+    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:MODULE_4:g1:a0:gx:u0:lt_5\, Mode=(Combinatorial) @ [UDB=(3,2)][LB=0][MC=0]
         Total # of inputs        : 6
         Total # of product terms : 7
             Clock Enable: True
         Main Equation            : 7 pterms
         (
               !\Lights_Out_1:Net_2416_5\ * !\Lights_Out_1:Net_2416_4\ * 
-              !\Lights_Out_1:Net_2416_3\ * \Lights_Out_1:cydff_4_3\
+              !\Lights_Out_1:Net_2416_3\ * \Lights_Out_1:cydff_5_3\
             + !\Lights_Out_1:Net_2416_5\ * !\Lights_Out_1:Net_2416_4\ * 
-              \Lights_Out_1:cydff_4_4\
+              \Lights_Out_1:cydff_5_4\
             + !\Lights_Out_1:Net_2416_5\ * !\Lights_Out_1:Net_2416_3\ * 
-              \Lights_Out_1:cydff_4_4\ * \Lights_Out_1:cydff_4_3\
-            + !\Lights_Out_1:Net_2416_5\ * \Lights_Out_1:cydff_4_5\
+              \Lights_Out_1:cydff_5_4\ * \Lights_Out_1:cydff_5_3\
+            + !\Lights_Out_1:Net_2416_5\ * \Lights_Out_1:cydff_5_5\
             + !\Lights_Out_1:Net_2416_4\ * !\Lights_Out_1:Net_2416_3\ * 
-              \Lights_Out_1:cydff_4_5\ * \Lights_Out_1:cydff_4_3\
-            + !\Lights_Out_1:Net_2416_4\ * \Lights_Out_1:cydff_4_5\ * 
-              \Lights_Out_1:cydff_4_4\
-            + !\Lights_Out_1:Net_2416_3\ * \Lights_Out_1:cydff_4_5\ * 
-              \Lights_Out_1:cydff_4_4\ * \Lights_Out_1:cydff_4_3\
+              \Lights_Out_1:cydff_5_5\ * \Lights_Out_1:cydff_5_3\
+            + !\Lights_Out_1:Net_2416_4\ * \Lights_Out_1:cydff_5_5\ * 
+              \Lights_Out_1:cydff_5_4\
+            + !\Lights_Out_1:Net_2416_3\ * \Lights_Out_1:cydff_5_5\ * 
+              \Lights_Out_1:cydff_5_4\ * \Lights_Out_1:cydff_5_3\
         );
-        Output = \Lights_Out_1:MODULE_3:g1:a0:gx:u0:lt_5\ (fanout=2)
+        Output = \Lights_Out_1:MODULE_4:g1:a0:gx:u0:lt_5\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=\Lights_Out_1:cydff_7_5\, Mode=(D-Register) @ [UDB=(3,2)][LB=0][MC=1]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\Lights_Out_1:Net_2092\) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_5425_5
+        );
+        Output = \Lights_Out_1:cydff_7_5\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]: (empty)
+    [McSlotId=3]: (empty)
+}
+
+LAB@[UDB=(3,2)][LB=1] #macrocells=2, #inputs=7, #pterms=8
+{
+    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:MODULE_4:g1:a0:gx:u0:gt_5\, Mode=(Combinatorial) @ [UDB=(3,2)][LB=1][MC=0]
+        Total # of inputs        : 6
+        Total # of product terms : 7
+            Clock Enable: True
+        Main Equation            : 7 pterms
+        (
+              \Lights_Out_1:Net_2416_5\ * \Lights_Out_1:Net_2416_4\ * 
+              \Lights_Out_1:Net_2416_3\ * !\Lights_Out_1:cydff_5_3\
+            + \Lights_Out_1:Net_2416_5\ * \Lights_Out_1:Net_2416_4\ * 
+              !\Lights_Out_1:cydff_5_4\
+            + \Lights_Out_1:Net_2416_5\ * \Lights_Out_1:Net_2416_3\ * 
+              !\Lights_Out_1:cydff_5_4\ * !\Lights_Out_1:cydff_5_3\
+            + \Lights_Out_1:Net_2416_5\ * !\Lights_Out_1:cydff_5_5\
+            + \Lights_Out_1:Net_2416_4\ * \Lights_Out_1:Net_2416_3\ * 
+              !\Lights_Out_1:cydff_5_5\ * !\Lights_Out_1:cydff_5_3\
+            + \Lights_Out_1:Net_2416_4\ * !\Lights_Out_1:cydff_5_5\ * 
+              !\Lights_Out_1:cydff_5_4\
+            + \Lights_Out_1:Net_2416_3\ * !\Lights_Out_1:cydff_5_5\ * 
+              !\Lights_Out_1:cydff_5_4\ * !\Lights_Out_1:cydff_5_3\
+        );
+        Output = \Lights_Out_1:MODULE_4:g1:a0:gx:u0:gt_5\ (fanout=2)
         Properties               : 
         {
         }
 
     [McSlotId=1]: (empty)
     [McSlotId=2]: (empty)
-    [McSlotId=3]:     MacroCell: Name=\Lights_Out_1:cydff_3_1\, Mode=(D-Register) @ [UDB=(3,5)][LB=1][MC=3]
+    [McSlotId=3]:     MacroCell: Name=\Lights_Out_1:cydff_7_6\, Mode=(D-Register) @ [UDB=(3,2)][LB=1][MC=3]
         Total # of inputs        : 1
         Total # of product terms : 1
         List of special equations: 
             Clock  = (\Lights_Out_1:Net_2092\) => Global
-            Clock Enable: PosEdge(\Lights_Out_1:cydff_1\)
+            Clock Enable: True
         Main Equation            : 1 pterm
         (
-              Net_5421_1
+              Net_5425_6
         );
-        Output = \Lights_Out_1:cydff_3_1\ (fanout=1)
+        Output = \Lights_Out_1:cydff_7_6\ (fanout=2)
         Properties               : 
         {
         }
 }
+
+UDB [UDB=(3,3)] contents:
+LAB@[UDB=(3,3)][LB=0] #macrocells=2, #inputs=7, #pterms=8
+{
+    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:MODULE_4:g1:a0:gx:u0:lt_2\, Mode=(Combinatorial) @ [UDB=(3,3)][LB=0][MC=0]
+        Total # of inputs        : 6
+        Total # of product terms : 7
+            Clock Enable: True
+        Main Equation            : 7 pterms
+        (
+              !\Lights_Out_1:Net_2416_2\ * !\Lights_Out_1:Net_2416_1\ * 
+              !\Lights_Out_1:Net_2416_0\ * \Lights_Out_1:cydff_5_0\
+            + !\Lights_Out_1:Net_2416_2\ * !\Lights_Out_1:Net_2416_1\ * 
+              \Lights_Out_1:cydff_5_1\
+            + !\Lights_Out_1:Net_2416_2\ * !\Lights_Out_1:Net_2416_0\ * 
+              \Lights_Out_1:cydff_5_1\ * \Lights_Out_1:cydff_5_0\
+            + !\Lights_Out_1:Net_2416_2\ * \Lights_Out_1:cydff_5_2\
+            + !\Lights_Out_1:Net_2416_1\ * !\Lights_Out_1:Net_2416_0\ * 
+              \Lights_Out_1:cydff_5_2\ * \Lights_Out_1:cydff_5_0\
+            + !\Lights_Out_1:Net_2416_1\ * \Lights_Out_1:cydff_5_2\ * 
+              \Lights_Out_1:cydff_5_1\
+            + !\Lights_Out_1:Net_2416_0\ * \Lights_Out_1:cydff_5_2\ * 
+              \Lights_Out_1:cydff_5_1\ * \Lights_Out_1:cydff_5_0\
+        );
+        Output = \Lights_Out_1:MODULE_4:g1:a0:gx:u0:lt_2\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]: (empty)
+    [McSlotId=2]: (empty)
+    [McSlotId=3]:     MacroCell: Name=\Lights_Out_1:cydff_5_5\, Mode=(D-Register) @ [UDB=(3,3)][LB=0][MC=3]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\Lights_Out_1:Net_2092\) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_5423_5
+        );
+        Output = \Lights_Out_1:cydff_5_5\ (fanout=2)
+        Properties               : 
+        {
+        }
+}
+
+LAB@[UDB=(3,3)][LB=1] #macrocells=4, #inputs=4, #pterms=4
+{
+    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:cydff_5_3\, Mode=(D-Register) @ [UDB=(3,3)][LB=1][MC=0]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\Lights_Out_1:Net_2092\) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_5423_3
+        );
+        Output = \Lights_Out_1:cydff_5_3\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=\Lights_Out_1:cydff_5_1\, Mode=(D-Register) @ [UDB=(3,3)][LB=1][MC=1]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\Lights_Out_1:Net_2092\) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_5423_1
+        );
+        Output = \Lights_Out_1:cydff_5_1\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=\Lights_Out_1:cydff_5_2\, Mode=(D-Register) @ [UDB=(3,3)][LB=1][MC=2]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\Lights_Out_1:Net_2092\) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_5423_2
+        );
+        Output = \Lights_Out_1:cydff_5_2\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=\Lights_Out_1:cydff_5_0\, Mode=(D-Register) @ [UDB=(3,3)][LB=1][MC=3]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\Lights_Out_1:Net_2092\) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_5423_0
+        );
+        Output = \Lights_Out_1:cydff_5_0\ (fanout=1)
+        Properties               : 
+        {
+        }
+}
+
+controlcell: Name =\LIGHT_BRIGHTNESS_4:Sync:ctrl_reg\
+    PORT MAP (
+        control_7 => \LIGHT_BRIGHTNESS_4:control_7\ ,
+        control_6 => Net_5423_6 ,
+        control_5 => Net_5423_5 ,
+        control_4 => Net_5423_4 ,
+        control_3 => Net_5423_3 ,
+        control_2 => Net_5423_2 ,
+        control_1 => Net_5423_1 ,
+        control_0 => Net_5423_0 );
+    Properties:
+    {
+        cy_ctrl_mode_0 = "00000000"
+        cy_ctrl_mode_1 = "00000000"
+        cy_ext_reset = 0
+        cy_force_order = 1
+        cy_init_value = "00000000"
+    }
+    Clock Enable: True
+
+UDB [UDB=(3,4)] contents:
+LAB@[UDB=(3,4)][LB=0] #macrocells=2, #inputs=7, #pterms=8
+{
+    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:cydff_6_2\, Mode=(D-Register) @ [UDB=(3,4)][LB=0][MC=0]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\Lights_Out_1:Net_2092\) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_5424_2
+        );
+        Output = \Lights_Out_1:cydff_6_2\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]: (empty)
+    [McSlotId=2]:     MacroCell: Name=\Lights_Out_1:MODULE_5:g1:a0:gx:u0:lt_2\, Mode=(Combinatorial) @ [UDB=(3,4)][LB=0][MC=2]
+        Total # of inputs        : 6
+        Total # of product terms : 7
+            Clock Enable: True
+        Main Equation            : 7 pterms
+        (
+              !\Lights_Out_1:Net_2416_2\ * !\Lights_Out_1:Net_2416_1\ * 
+              !\Lights_Out_1:Net_2416_0\ * \Lights_Out_1:cydff_6_0\
+            + !\Lights_Out_1:Net_2416_2\ * !\Lights_Out_1:Net_2416_1\ * 
+              \Lights_Out_1:cydff_6_1\
+            + !\Lights_Out_1:Net_2416_2\ * !\Lights_Out_1:Net_2416_0\ * 
+              \Lights_Out_1:cydff_6_1\ * \Lights_Out_1:cydff_6_0\
+            + !\Lights_Out_1:Net_2416_2\ * \Lights_Out_1:cydff_6_2\
+            + !\Lights_Out_1:Net_2416_1\ * !\Lights_Out_1:Net_2416_0\ * 
+              \Lights_Out_1:cydff_6_2\ * \Lights_Out_1:cydff_6_0\
+            + !\Lights_Out_1:Net_2416_1\ * \Lights_Out_1:cydff_6_2\ * 
+              \Lights_Out_1:cydff_6_1\
+            + !\Lights_Out_1:Net_2416_0\ * \Lights_Out_1:cydff_6_2\ * 
+              \Lights_Out_1:cydff_6_1\ * \Lights_Out_1:cydff_6_0\
+        );
+        Output = \Lights_Out_1:MODULE_5:g1:a0:gx:u0:lt_2\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]: (empty)
+}
+
+LAB@[UDB=(3,4)][LB=1] #macrocells=3, #inputs=3, #pterms=3
+{
+    [McSlotId=0]:     MacroCell: Name=\Lights_Out_1:cydff_8_6\, Mode=(D-Register) @ [UDB=(3,4)][LB=1][MC=0]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\Lights_Out_1:Net_2092\) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_5426_6
+        );
+        Output = \Lights_Out_1:cydff_8_6\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=\Lights_Out_1:cydff_6_0\, Mode=(D-Register) @ [UDB=(3,4)][LB=1][MC=1]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\Lights_Out_1:Net_2092\) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_5424_0
+        );
+        Output = \Lights_Out_1:cydff_6_0\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=\Lights_Out_1:cydff_8_5\, Mode=(D-Register) @ [UDB=(3,4)][LB=1][MC=2]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\Lights_Out_1:Net_2092\) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_5426_5
+        );
+        Output = \Lights_Out_1:cydff_8_5\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]: (empty)
+}
+
+UDB [UDB=(3,5)] contents:
+LAB@[UDB=(3,5)][LB=0] #macrocells=2, #inputs=7, #pterms=8
+{
+    [McSlotId=0]: (empty)
+    [McSlotId=1]:     MacroCell: Name=\Lights_Out_1:cydff_8_3\, Mode=(D-Register) @ [UDB=(3,5)][LB=0][MC=1]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\Lights_Out_1:Net_2092\) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_5426_3
+        );
+        Output = \Lights_Out_1:cydff_8_3\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]: (empty)
+    [McSlotId=3]:     MacroCell: Name=\Lights_Out_1:MODULE_7:g1:a0:gx:u0:gt_5\, Mode=(Combinatorial) @ [UDB=(3,5)][LB=0][MC=3]
+        Total # of inputs        : 6
+        Total # of product terms : 7
+            Clock Enable: True
+        Main Equation            : 7 pterms
+        (
+              \Lights_Out_1:Net_2416_5\ * \Lights_Out_1:Net_2416_4\ * 
+              \Lights_Out_1:Net_2416_3\ * !\Lights_Out_1:cydff_8_3\
+            + \Lights_Out_1:Net_2416_5\ * \Lights_Out_1:Net_2416_4\ * 
+              !\Lights_Out_1:cydff_8_4\
+            + \Lights_Out_1:Net_2416_5\ * \Lights_Out_1:Net_2416_3\ * 
+              !\Lights_Out_1:cydff_8_4\ * !\Lights_Out_1:cydff_8_3\
+            + \Lights_Out_1:Net_2416_5\ * !\Lights_Out_1:cydff_8_5\
+            + \Lights_Out_1:Net_2416_4\ * \Lights_Out_1:Net_2416_3\ * 
+              !\Lights_Out_1:cydff_8_5\ * !\Lights_Out_1:cydff_8_3\
+            + \Lights_Out_1:Net_2416_4\ * !\Lights_Out_1:cydff_8_5\ * 
+              !\Lights_Out_1:cydff_8_4\
+            + \Lights_Out_1:Net_2416_3\ * !\Lights_Out_1:cydff_8_5\ * 
+              !\Lights_Out_1:cydff_8_4\ * !\Lights_Out_1:cydff_8_3\
+        );
+        Output = \Lights_Out_1:MODULE_7:g1:a0:gx:u0:gt_5\ (fanout=2)
+        Properties               : 
+        {
+        }
+}
+
+LAB@[UDB=(3,5)][LB=1] #macrocells=2, #inputs=7, #pterms=8
+{
+    [McSlotId=0]: (empty)
+    [McSlotId=1]:     MacroCell: Name=\Lights_Out_1:cydff_8_4\, Mode=(D-Register) @ [UDB=(3,5)][LB=1][MC=1]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (\Lights_Out_1:Net_2092\) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_5426_4
+        );
+        Output = \Lights_Out_1:cydff_8_4\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=\Lights_Out_1:MODULE_7:g1:a0:gx:u0:lt_5\, Mode=(Combinatorial) @ [UDB=(3,5)][LB=1][MC=2]
+        Total # of inputs        : 6
+        Total # of product terms : 7
+            Clock Enable: True
+        Main Equation            : 7 pterms
+        (
+              !\Lights_Out_1:Net_2416_5\ * !\Lights_Out_1:Net_2416_4\ * 
+              !\Lights_Out_1:Net_2416_3\ * \Lights_Out_1:cydff_8_3\
+            + !\Lights_Out_1:Net_2416_5\ * !\Lights_Out_1:Net_2416_4\ * 
+              \Lights_Out_1:cydff_8_4\
+            + !\Lights_Out_1:Net_2416_5\ * !\Lights_Out_1:Net_2416_3\ * 
+              \Lights_Out_1:cydff_8_4\ * \Lights_Out_1:cydff_8_3\
+            + !\Lights_Out_1:Net_2416_5\ * \Lights_Out_1:cydff_8_5\
+            + !\Lights_Out_1:Net_2416_4\ * !\Lights_Out_1:Net_2416_3\ * 
+              \Lights_Out_1:cydff_8_5\ * \Lights_Out_1:cydff_8_3\
+            + !\Lights_Out_1:Net_2416_4\ * \Lights_Out_1:cydff_8_5\ * 
+              \Lights_Out_1:cydff_8_4\
+            + !\Lights_Out_1:Net_2416_3\ * \Lights_Out_1:cydff_8_5\ * 
+              \Lights_Out_1:cydff_8_4\ * \Lights_Out_1:cydff_8_3\
+        );
+        Output = \Lights_Out_1:MODULE_7:g1:a0:gx:u0:lt_5\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]: (empty)
+}
+
+controlcell: Name =\LIGHT_BRIGHTNESS_7:Sync:ctrl_reg\
+    PORT MAP (
+        control_7 => \LIGHT_BRIGHTNESS_7:control_7\ ,
+        control_6 => Net_5426_6 ,
+        control_5 => Net_5426_5 ,
+        control_4 => Net_5426_4 ,
+        control_3 => Net_5426_3 ,
+        control_2 => Net_5426_2 ,
+        control_1 => Net_5426_1 ,
+        control_0 => Net_5426_0 );
+    Properties:
+    {
+        cy_ctrl_mode_0 = "00000000"
+        cy_ctrl_mode_1 = "00000000"
+        cy_ext_reset = 0
+        cy_force_order = 1
+        cy_init_value = "00000000"
+    }
+    Clock Enable: True
 
 Intr container @ [IntrContainer=(0)]: 
   Intr@ [IntrContainer=(0)][IntrId=(0)] 
@@ -7848,14 +7984,22 @@ Intr container @ [IntrContainer=(0)]:
             int_type = "10"
         }
   Intr@ [IntrContainer=(0)][IntrId=(1)] 
-    interrupt: Name =\POT_VALUE:IRQ\
+    interrupt: Name =\MASTER_POT:IRQ\
         PORT MAP (
-            interrupt => Net_7466 );
+            interrupt => Net_7494 );
         Properties:
         {
             int_type = "10"
         }
   Intr@ [IntrContainer=(0)][IntrId=(2)] 
+    interrupt: Name =\POT_VALUE:IRQ\
+        PORT MAP (
+            interrupt => Net_7478 );
+        Properties:
+        {
+            int_type = "10"
+        }
+  Intr@ [IntrContainer=(0)][IntrId=(3)] 
     interrupt: Name =\USB:ep_1\
         PORT MAP (
             interrupt => \USB:ep_int_1\ );
@@ -7863,7 +8007,7 @@ Intr container @ [IntrContainer=(0)]:
         {
             int_type = "10"
         }
-  Intr@ [IntrContainer=(0)][IntrId=(3)] 
+  Intr@ [IntrContainer=(0)][IntrId=(4)] 
     interrupt: Name =\USB:ep_2\
         PORT MAP (
             interrupt => \USB:ep_int_2\ );
@@ -8652,6 +8796,47 @@ Pin : Name = RV1(0)
     {
     }
 
+[IoId=1]: 
+Pin : Name = RV2(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: AUTO
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: HI_Z_ANALOG
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: True
+        Can contain Digital: False
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilitites: ANALOG
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => RV2(0)__PA ,
+        analog_term => Net_7483 ,
+        pad => RV2(0)_PAD );
+    Properties:
+    {
+    }
+
 [IoId=7]: 
 Pin : Name = DO3(0)
     Attributes:
@@ -9147,16 +9332,18 @@ Clock group 0:
             clk_bus => ClockBlock_BUS_CLK_local ,
             dclk_glb_0 => \Lights_Out_1:Net_2476\ ,
             dclk_0 => \Lights_Out_1:Net_2476_local\ ,
-            dclk_glb_1 => \POT_VALUE:Net_376\ ,
-            dclk_1 => \POT_VALUE:Net_376_local\ ,
-            dclk_glb_2 => Net_1945 ,
-            dclk_2 => Net_1945_local ,
-            dclk_glb_3 => \Lights_Out_1:Net_2092\ ,
-            dclk_3 => \Lights_Out_1:Net_2092_local\ ,
-            dclk_glb_4 => Net_6458 ,
-            dclk_4 => Net_6458_local ,
-            dclk_glb_5 => Net_3013 ,
-            dclk_5 => Net_3013_local );
+            dclk_glb_1 => \MASTER_POT:Net_376\ ,
+            dclk_1 => \MASTER_POT:Net_376_local\ ,
+            dclk_glb_2 => \POT_VALUE:Net_376\ ,
+            dclk_2 => \POT_VALUE:Net_376_local\ ,
+            dclk_glb_3 => Net_1945 ,
+            dclk_3 => Net_1945_local ,
+            dclk_glb_4 => \Lights_Out_1:Net_2092\ ,
+            dclk_4 => \Lights_Out_1:Net_2092_local\ ,
+            dclk_glb_5 => Net_6458 ,
+            dclk_5 => Net_6458_local ,
+            dclk_glb_6 => Net_3013 ,
+            dclk_6 => Net_3013_local );
         Properties:
         {
         }
@@ -9262,9 +9449,9 @@ Opamp group 0: empty
 CapSense Buffers group 0: empty
 Vref group 0: 
     Vref Block @ F(Vref,13): 
-    vrefcell: Name =\POT_VALUE:vRef_Vdda_1\
+    vrefcell: Name =\MASTER_POT:vRef_Vdda_1\
         PORT MAP (
-            vout => \POT_VALUE:Net_235\ );
+            vout => \MASTER_POT:Net_235\ );
         Properties:
         {
             autoenable = 1
@@ -9274,6 +9461,34 @@ Vref group 0:
         }
 LPF group 0: empty
 SAR ADC group 0: 
+    SAR Block @ F(SAR,0): 
+    sarcell: Name =\MASTER_POT:ADC_SAR\
+        PORT MAP (
+            vplus => Net_7483 ,
+            vminus => \MASTER_POT:Net_126\ ,
+            ext_pin => \MASTER_POT:Net_209\ ,
+            vrefhi_out => \MASTER_POT:Net_126\ ,
+            vref => \MASTER_POT:Net_235\ ,
+            clk_udb => \MASTER_POT:Net_376_local\ ,
+            irq => \MASTER_POT:Net_252\ ,
+            next => Net_7497 ,
+            data_out_udb_11 => \MASTER_POT:Net_207_11\ ,
+            data_out_udb_10 => \MASTER_POT:Net_207_10\ ,
+            data_out_udb_9 => \MASTER_POT:Net_207_9\ ,
+            data_out_udb_8 => \MASTER_POT:Net_207_8\ ,
+            data_out_udb_7 => \MASTER_POT:Net_207_7\ ,
+            data_out_udb_6 => \MASTER_POT:Net_207_6\ ,
+            data_out_udb_5 => \MASTER_POT:Net_207_5\ ,
+            data_out_udb_4 => \MASTER_POT:Net_207_4\ ,
+            data_out_udb_3 => \MASTER_POT:Net_207_3\ ,
+            data_out_udb_2 => \MASTER_POT:Net_207_2\ ,
+            data_out_udb_1 => \MASTER_POT:Net_207_1\ ,
+            data_out_udb_0 => \MASTER_POT:Net_207_0\ ,
+            eof_udb => Net_7494 );
+        Properties:
+        {
+            cy_registers = ""
+        }
     SAR Block @ F(SAR,1): 
     sarcell: Name =\POT_VALUE:ADC_SAR\
         PORT MAP (
@@ -9281,10 +9496,10 @@ SAR ADC group 0:
             vminus => \POT_VALUE:Net_126\ ,
             ext_pin => \POT_VALUE:Net_209\ ,
             vrefhi_out => \POT_VALUE:Net_126\ ,
-            vref => \POT_VALUE:Net_235\ ,
+            vref => \MASTER_POT:Net_235\ ,
             clk_udb => \POT_VALUE:Net_376_local\ ,
             irq => \POT_VALUE:Net_252\ ,
-            next => Net_7469 ,
+            next => Net_7481 ,
             data_out_udb_11 => \POT_VALUE:Net_207_11\ ,
             data_out_udb_10 => \POT_VALUE:Net_207_10\ ,
             data_out_udb_9 => \POT_VALUE:Net_207_9\ ,
@@ -9297,7 +9512,7 @@ SAR ADC group 0:
             data_out_udb_2 => \POT_VALUE:Net_207_2\ ,
             data_out_udb_1 => \POT_VALUE:Net_207_1\ ,
             data_out_udb_0 => \POT_VALUE:Net_207_0\ ,
-            eof_udb => Net_7466 );
+            eof_udb => Net_7478 );
         Properties:
         {
             cy_registers = ""
@@ -9331,6 +9546,7 @@ Port | Pin | Fixed |      Type |       Drive Mode |        Name | Connections
      |   7 |     * |      NONE |         CMOS_OUT |      DO2(0) | In(Net_7431)
 -----+-----+-------+-----------+------------------+-------------+-----------------------
    3 |   0 |     * |      NONE |      HI_Z_ANALOG |      RV1(0) | Analog(Net_5319)
+     |   1 |     * |      NONE |      HI_Z_ANALOG |      RV2(0) | Analog(Net_7483)
      |   7 |     * |      NONE |         CMOS_OUT |      DO3(0) | In(Net_7432)
 -----+-----+-------+-----------+------------------+-------------+-----------------------
   12 |   2 |     * |      NONE |    RES_PULL_DOWN |      SW8(0) | 
@@ -9347,18 +9563,18 @@ Port | Pin | Fixed |      Type |       Drive Mode |        Name | Connections
 </CYPRESSTAG>
 </CYPRESSTAG>
 </CYPRESSTAG>
-Digital component placer commit/Report: Elapsed time ==> 0s.015ms
-Digital Placement phase: Elapsed time ==> 3s.327ms
+Digital component placer commit/Report: Elapsed time ==> 0s.000ms
+Digital Placement phase: Elapsed time ==> 2s.406ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Digital Routing">
 Routing successful.
-Digital Routing phase: Elapsed time ==> 3s.470ms
+Digital Routing phase: Elapsed time ==> 2s.640ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Bitstream and API generation">
-Bitstream and API generation phase: Elapsed time ==> 0s.234ms
+Bitstream and API generation phase: Elapsed time ==> 0s.210ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Bitstream verification">
-Bitstream verification phase: Elapsed time ==> 0s.046ms
+Bitstream verification phase: Elapsed time ==> 0s.031ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Static timing analysis">
 Timing report is in FINAL_PROJECT_MIDI_LIGHTS_timing.html.
@@ -9368,11 +9584,11 @@ Static timing analysis phase: Elapsed time ==> 0s.515ms
 Data reporting phase: Elapsed time ==> 0s.000ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Database update...">
-Design database save phase: Elapsed time ==> 0s.343ms
+Design database save phase: Elapsed time ==> 0s.313ms
 </CYPRESSTAG>
-cydsfit: Elapsed time ==> 9s.120ms
+cydsfit: Elapsed time ==> 7s.370ms
 </CYPRESSTAG>
-Fitter phase: Elapsed time ==> 9s.152ms
-API generation phase: Elapsed time ==> 3s.093ms
-Dependency generation phase: Elapsed time ==> 0s.046ms
+Fitter phase: Elapsed time ==> 7s.401ms
+API generation phase: Elapsed time ==> 3s.264ms
+Dependency generation phase: Elapsed time ==> 0s.062ms
 Cleanup phase: Elapsed time ==> 0s.000ms

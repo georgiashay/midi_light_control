@@ -104,6 +104,7 @@ short crossfading = 0;
 uint8 hotLeds = 0u;
 uint16 last_divider = 20;
 uint8 last_pot_value = 0;
+float master_brightness = 1;
 
 /*******************************************************************************
 * Function Name: SleepIsr
@@ -209,6 +210,9 @@ int main()
     
     POT_VALUE_Start();
     POT_VALUE_StartConvert();
+    
+    MASTER_POT_Start();
+    MASTER_POT_StartConvert();
             
     while(1u)
     {
@@ -316,13 +320,13 @@ int main()
         
         if (mode == PRESET_MODE) {
             // In preset mode, display brightnesses of that saved preset on the lights
-            LIGHT_BRIGHTNESS_1_Write(storedBrightnesses[preset][0]);
-            LIGHT_BRIGHTNESS_2_Write(storedBrightnesses[preset][1]);
-            LIGHT_BRIGHTNESS_3_Write(storedBrightnesses[preset][2]);
-            LIGHT_BRIGHTNESS_4_Write(storedBrightnesses[preset][3]);
-            LIGHT_BRIGHTNESS_5_Write(storedBrightnesses[preset][4]);
-            LIGHT_BRIGHTNESS_6_Write(storedBrightnesses[preset][5]);
-            LIGHT_BRIGHTNESS_7_Write(storedBrightnesses[preset][6]);
+            LIGHT_BRIGHTNESS_1_Write(storedBrightnesses[preset][0] * master_brightness);
+            LIGHT_BRIGHTNESS_2_Write(storedBrightnesses[preset][1] * master_brightness);
+            LIGHT_BRIGHTNESS_3_Write(storedBrightnesses[preset][2] * master_brightness);
+            LIGHT_BRIGHTNESS_4_Write(storedBrightnesses[preset][3] * master_brightness);
+            LIGHT_BRIGHTNESS_5_Write(storedBrightnesses[preset][4] * master_brightness);
+            LIGHT_BRIGHTNESS_6_Write(storedBrightnesses[preset][5] * master_brightness);
+            LIGHT_BRIGHTNESS_7_Write(storedBrightnesses[preset][6] * master_brightness);
             // Display the same brightnesses on the control panel
             SLED_STATE_SEL_Write(SLED_MODE_BRIGHTNESSES);
             HOT_LEDS_Write(hotLeds);
@@ -346,13 +350,13 @@ int main()
             SLED_STATE_SEL_Write(SLED_MODE_ONE_HOT);
         } else if (mode == PLAYBACK_MODE && crossfading == 0u) {
             // In playback mode, display the current preset brightnesses on the light
-            LIGHT_BRIGHTNESS_1_Write(storedBrightnesses[playback_preset][0]);
-            LIGHT_BRIGHTNESS_2_Write(storedBrightnesses[playback_preset][1]);
-            LIGHT_BRIGHTNESS_3_Write(storedBrightnesses[playback_preset][2]);
-            LIGHT_BRIGHTNESS_4_Write(storedBrightnesses[playback_preset][3]);
-            LIGHT_BRIGHTNESS_5_Write(storedBrightnesses[playback_preset][4]);
-            LIGHT_BRIGHTNESS_6_Write(storedBrightnesses[playback_preset][5]);
-            LIGHT_BRIGHTNESS_7_Write(storedBrightnesses[playback_preset][6]);
+            LIGHT_BRIGHTNESS_1_Write(storedBrightnesses[playback_preset][0] * master_brightness);
+            LIGHT_BRIGHTNESS_2_Write(storedBrightnesses[playback_preset][1] * master_brightness);
+            LIGHT_BRIGHTNESS_3_Write(storedBrightnesses[playback_preset][2] * master_brightness);
+            LIGHT_BRIGHTNESS_4_Write(storedBrightnesses[playback_preset][3] * master_brightness);
+            LIGHT_BRIGHTNESS_5_Write(storedBrightnesses[playback_preset][4] * master_brightness);
+            LIGHT_BRIGHTNESS_6_Write(storedBrightnesses[playback_preset][5] * master_brightness);
+            LIGHT_BRIGHTNESS_7_Write(storedBrightnesses[playback_preset][6] * master_brightness);
             // Turn one control panel LED on, for the current selected preset
             SLED_STATE_SEL_Write(SLED_MODE_ONE_HOT);
             uint8 hotPreset = 1u << playback_preset; 
@@ -363,22 +367,22 @@ int main()
             if (crossfade_val < 255 && last_preset < 8) {
                 float fraction = crossfade_val/255.0;
                 // Interpolate between the two presets
-                LIGHT_BRIGHTNESS_1_Write(fraction * storedBrightnesses[playback_preset][0] + (1.0-fraction) * storedBrightnesses[last_preset][0]);
-                LIGHT_BRIGHTNESS_2_Write(fraction * storedBrightnesses[playback_preset][1] + (1.0-fraction) * storedBrightnesses[last_preset][1]);
-                LIGHT_BRIGHTNESS_3_Write(fraction * storedBrightnesses[playback_preset][2] + (1.0-fraction) * storedBrightnesses[last_preset][2]);
-                LIGHT_BRIGHTNESS_4_Write(fraction * storedBrightnesses[playback_preset][3] + (1.0-fraction) * storedBrightnesses[last_preset][3]);
-                LIGHT_BRIGHTNESS_5_Write(fraction * storedBrightnesses[playback_preset][4] + (1.0-fraction) * storedBrightnesses[last_preset][4]);
-                LIGHT_BRIGHTNESS_6_Write(fraction * storedBrightnesses[playback_preset][5] + (1.0-fraction) * storedBrightnesses[last_preset][5]);
-                LIGHT_BRIGHTNESS_7_Write(fraction * storedBrightnesses[playback_preset][6] + (1.0-fraction) * storedBrightnesses[last_preset][6]);
+                LIGHT_BRIGHTNESS_1_Write((fraction * storedBrightnesses[playback_preset][0] + (1.0-fraction) * storedBrightnesses[last_preset][0]) * master_brightness);
+                LIGHT_BRIGHTNESS_2_Write((fraction * storedBrightnesses[playback_preset][1] + (1.0-fraction) * storedBrightnesses[last_preset][1]) * master_brightness);
+                LIGHT_BRIGHTNESS_3_Write((fraction * storedBrightnesses[playback_preset][2] + (1.0-fraction) * storedBrightnesses[last_preset][2]) * master_brightness);
+                LIGHT_BRIGHTNESS_4_Write((fraction * storedBrightnesses[playback_preset][3] + (1.0-fraction) * storedBrightnesses[last_preset][3]) * master_brightness);
+                LIGHT_BRIGHTNESS_5_Write((fraction * storedBrightnesses[playback_preset][4] + (1.0-fraction) * storedBrightnesses[last_preset][4]) * master_brightness);
+                LIGHT_BRIGHTNESS_6_Write((fraction * storedBrightnesses[playback_preset][5] + (1.0-fraction) * storedBrightnesses[last_preset][5]) * master_brightness);
+                LIGHT_BRIGHTNESS_7_Write((fraction * storedBrightnesses[playback_preset][6] + (1.0-fraction) * storedBrightnesses[last_preset][6]) * master_brightness);
             } else {
                 // Crossfade over, move to next preset fully
-                LIGHT_BRIGHTNESS_1_Write(storedBrightnesses[playback_preset][0]);
-                LIGHT_BRIGHTNESS_2_Write(storedBrightnesses[playback_preset][1]);
-                LIGHT_BRIGHTNESS_3_Write(storedBrightnesses[playback_preset][2]);
-                LIGHT_BRIGHTNESS_4_Write(storedBrightnesses[playback_preset][3]);
-                LIGHT_BRIGHTNESS_5_Write(storedBrightnesses[playback_preset][4]);
-                LIGHT_BRIGHTNESS_6_Write(storedBrightnesses[playback_preset][5]);
-                LIGHT_BRIGHTNESS_7_Write(storedBrightnesses[playback_preset][6]);
+                LIGHT_BRIGHTNESS_1_Write(storedBrightnesses[playback_preset][0] * master_brightness);
+                LIGHT_BRIGHTNESS_2_Write(storedBrightnesses[playback_preset][1] * master_brightness);
+                LIGHT_BRIGHTNESS_3_Write(storedBrightnesses[playback_preset][2] * master_brightness);
+                LIGHT_BRIGHTNESS_4_Write(storedBrightnesses[playback_preset][3] * master_brightness);
+                LIGHT_BRIGHTNESS_5_Write(storedBrightnesses[playback_preset][4] * master_brightness);
+                LIGHT_BRIGHTNESS_6_Write(storedBrightnesses[playback_preset][5] * master_brightness);
+                LIGHT_BRIGHTNESS_7_Write(storedBrightnesses[playback_preset][6] * master_brightness);
                 CROSSFADE_CTRL_Write(2u); // Reset = true, Enable = false
                 crossfading = 0u;
             }
@@ -416,6 +420,12 @@ int main()
                     last_divider = divider;
                 }
             }
+        }
+        
+        if (MASTER_POT_IsEndConversion(POT_VALUE_RETURN_STATUS)) {
+            uint8 masterValue8 = MASTER_POT_GetResult8();
+            uint8 masterShifted = masterValue8 >> 2;
+            master_brightness = (float) masterShifted/(float) 63.0;
         }
         
     }
